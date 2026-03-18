@@ -66,7 +66,9 @@
           "answer": "C",
           "explanation_en": "A red and white triangular YIELD sign means you must slow down and be ready to stop to let any vehicle, bicyclist, or pedestrian pass.",
           "explanation_zhHant": "紅白三角形讓路標誌（YIELD）表示必須減速並準備停車，讓其他車輛、自行車或行人先行通過。",
-          "tags": []
+          "tags": [
+            "yield-sign"
+          ]
         },
         {
           "id": "M02-S01-Q03",
@@ -261,7 +263,9 @@
           "answer": "C",
           "explanation_en": "Yellow diamond-shaped signs are warning signs that alert you to upcoming road conditions or hazards.",
           "explanation_zhHant": "黃色菱形標誌是警告標誌，提醒前方可能有路況變化或危險情況。",
-          "tags": []
+          "tags": [
+            "curve-ahead"
+          ]
         },
         {
           "id": "M02-S02-Q02",
@@ -389,7 +393,9 @@
           "answer": "C",
           "explanation_en": "A pentagon-shaped yellow sign indicates a school zone or school crossing ahead. Watch for children and be prepared to stop.",
           "explanation_zhHant": "五邊形黃色標誌表示前方為學校區域或學校路口。注意兒童安全，隨時準備停車。",
-          "tags": []
+          "tags": [
+            "school-zone"
+          ]
         },
         {
           "id": "M02-S02-Q06",
@@ -420,9 +426,7 @@
           "answer": "B",
           "explanation_en": "A yellow diamond sign with a curved arrow warns of an upcoming curve. An advisory speed may be shown below.",
           "explanation_zhHant": "黃色菱形標誌上帶有彎曲箭頭表示前方有彎道。下方可能顯示建議速度。",
-          "tags": [
-            "curve-ahead"
-          ]
+          "tags": []
         },
         {
           "id": "M02-S02-Q07",
@@ -453,7 +457,9 @@
           "answer": "C",
           "explanation_en": "When you see a construction zone sign, slow down and watch for workers and equipment. Fines for violations in construction zones are typically doubled.",
           "explanation_zhHant": "看到施工區標誌時需減速行駛，注意施工人員和設備。施工區域內違規罰款通常加倍。",
-          "tags": []
+          "tags": [
+            "worker-symbol"
+          ]
         },
         {
           "id": "M02-S02-Q08",
@@ -484,7 +490,9 @@
           "answer": "C",
           "explanation_en": "A round (circular) yellow sign is uniquely used for railroad crossing warnings.",
           "explanation_zhHant": "圓形黃色標誌是鐵路道口警告特有的形狀。",
-          "tags": []
+          "tags": [
+            "railroad"
+          ]
         }
       ]
     },
@@ -520,7 +528,9 @@
           "answer": "B",
           "explanation_en": "You may turn right on a steady red light after stopping, unless a sign prohibits it. You must yield to pedestrians and traffic.",
           "explanation_zhHant": "停車後可以在穩定紅燈時右轉，除非有標誌禁止。必須讓行人和車輛先行。",
-          "tags": []
+          "tags": [
+            "red-light"
+          ]
         },
         {
           "id": "M02-S03-Q02",
@@ -971,7 +981,9 @@
           "answer": "C",
           "explanation_en": "A red curb means NO stopping, standing, or parking at any time.",
           "explanation_zhHant": "紅色路緣表示任何時候都不得停車。",
-          "tags": []
+          "tags": [
+            "colored-curbs"
+          ]
         },
         {
           "id": "M02-S04-Q07",
@@ -1002,7 +1014,9 @@
           "answer": "C",
           "explanation_en": "A blue curb means parking for disabled persons only with a proper placard or license plate.",
           "explanation_zhHant": "藍色路緣僅供殘疾人停車，需持有有效殘疾人標牌或特殊車牌。",
-          "tags": []
+          "tags": [
+            "colored-curbs"
+          ]
         },
         {
           "id": "M02-S04-Q08",
@@ -1288,7 +1302,9 @@
           "answer": "C",
           "explanation_en": "A pentagon (5-sided) shape is used for school zone signs.",
           "explanation_zhHant": "五邊形標誌用於學校區域。",
-          "tags": []
+          "tags": [
+            "school-zone"
+          ]
         },
         {
           "id": "M02-S05-Q07",
@@ -1319,7 +1335,9 @@
           "answer": "B",
           "explanation_en": "A triangle shape is exclusively used for YIELD signs.",
           "explanation_zhHant": "三角形標誌專門用於讓路標誌（YIELD）。",
-          "tags": []
+          "tags": [
+            "yield-sign"
+          ]
         }
       ]
     }

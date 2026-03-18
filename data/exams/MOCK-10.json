@@ -224,7 +224,9 @@
       "explanation_en": "A yellow and black circular sign or X-shaped sign means you are approaching a railroad crossing. Look, listen, slow down, and prepare to stop.",
       "explanation_zh": "黄黑色圆形标志或X形标志表示你正在接近铁路道口。注意观察、倾听、减速并准备停车。",
       "module": "M02",
-      "tags": [],
+      "tags": [
+        "railroad"
+      ],
       "driverEd": false
     },
     {
@@ -336,7 +338,9 @@
       "explanation_en": "You may make a U-turn at an intersection on a green traffic light or green arrow, unless a NO U-TURN sign is posted.",
       "explanation_zh": "你可以在绿灯或绿色箭头时在交叉路口掉头，除非张贴了禁止掉头标志。",
       "module": "M03",
-      "tags": [],
+      "tags": [
+        "green-light"
+      ],
       "driverEd": false
     },
     {
@@ -844,7 +848,9 @@
       "explanation_en": "It is illegal to drive with a BAC of 0.01% or higher if you are under 21 years old.",
       "explanation_zh": "如果你未满21岁，血液酒精浓度达到0.01%或更高时驾驶是违法的。",
       "module": "M09",
-      "tags": [],
+      "tags": [
+        "bac"
+      ],
       "driverEd": false
     },
     {

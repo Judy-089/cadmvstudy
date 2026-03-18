@@ -54,7 +54,9 @@
       "explanation_en": "A slippery when wet sign warns the road surface may become slippery in wet conditions. Reduce your speed.",
       "explanation_zh": "湿滑路面标志警告路面在潮湿条件下可能变得湿滑。降低速度。",
       "module": "M02",
-      "tags": [],
+      "tags": [
+        "slippery-when-wet"
+      ],
       "driverEd": false
     },
     {
@@ -82,7 +84,9 @@
       "explanation_en": "A curve ahead sign warns of a curve. Reduce speed before entering the curve to maintain control.",
       "explanation_zh": "前方弯道标志警告有弯道。在进入弯道前减速以保持控制。",
       "module": "M02",
-      "tags": [],
+      "tags": [
+        "curve-ahead"
+      ],
       "driverEd": false
     },
     {
@@ -170,7 +174,9 @@
       "explanation_en": "A green light means GO, but yield to any vehicle, bicyclist, or pedestrian already in the intersection.",
       "explanation_zh": "绿灯表示可以通行，但仍须让行已在路口内的车辆、骑自行车者和行人。",
       "module": "M02",
-      "tags": [],
+      "tags": [
+        "green-light"
+      ],
       "driverEd": false
     },
     {
@@ -198,9 +204,7 @@
       "explanation_en": "A no U-turn sign means you may not make a U-turn at that location.",
       "explanation_zh": "禁止掉头标志表示在该位置不得掉头。",
       "module": "M02",
-      "tags": [
-        "no-u-turn"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {

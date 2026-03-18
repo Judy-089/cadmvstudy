@@ -107,7 +107,8 @@
       "module": "M02",
       "tags": [
         "traffic-signs",
-        "signals"
+        "signals",
+        "yellow-light"
       ],
       "explanation_zhHant": "閃烁的黄色信號燈表示減速并謹慎通行。你不需要停車，但應準備好讓行。",
       "stem_zhHant": "路口閃爍的黃色交通信號燈表示：",
@@ -181,7 +182,8 @@
       "module": "M02",
       "tags": [
         "traffic-signs",
-        "sign-shapes"
+        "sign-shapes",
+        "school-zone"
       ],
       "explanation_zhHant": "五邊形標誌表示學校區域或學校人行橫道。你應注意觀察兒童并準備停車。",
       "stem_zhHant": "這個五邊形標誌通常表示什麼？",

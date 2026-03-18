@@ -126,7 +126,9 @@
           "answer": "B",
           "explanation_en": "Do not stop in a crosswalk when waiting at a red light or stop sign. You block pedestrian traffic and put pedestrians in danger.",
           "explanation_zhHant": "在等紅燈或停車標誌時，不要停在人行橫道上。你會擋住行人通行並將行人置於危險中。",
-          "tags": []
+          "tags": [
+            "red-light"
+          ]
         },
         {
           "id": "M08-S01-Q05",
@@ -546,7 +548,9 @@
           "answer": "A",
           "explanation_en": "If the road is divided by a physical barrier or median, you do not need to stop when approaching a school bus from the opposite direction.",
           "explanation_zhHant": "如果道路有物理隔離帶或中央分隔帶，從對面方向駛來時不需要為校車停車。",
-          "tags": []
+          "tags": [
+            "school-bus"
+          ]
         },
         {
           "id": "M08-S04-Q03",

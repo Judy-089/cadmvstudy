@@ -195,7 +195,9 @@
           "answer": "B",
           "explanation_en": "When parking uphill with a curb, turn your front wheels away from the curb (left). If the car rolls, it will roll into the curb and stop.",
           "explanation_zhHant": "上坡有路緣停車時，將前輪向遠離路緣的方向（左邊）轉。如果車輛滑動，會滾向路緣而停下。",
-          "tags": []
+          "tags": [
+            "parking-hill"
+          ]
         },
         {
           "id": "M06-S02-Q02",
@@ -226,7 +228,9 @@
           "answer": "B",
           "explanation_en": "When parking downhill with a curb, turn your front wheels toward the curb (right). If the car rolls, it will roll into the curb.",
           "explanation_zhHant": "下坡有路緣停車時，將前輪向路緣方向（右邊）轉。如果車輛滑動，會滾向路緣而停下。",
-          "tags": []
+          "tags": [
+            "parking-hill"
+          ]
         },
         {
           "id": "M06-S02-Q03",
@@ -290,7 +294,9 @@
           "answer": "C",
           "explanation_en": "With wheels turned correctly (away from curb when uphill), the car will roll backward into the curb and stop safely.",
           "explanation_zhHant": "如果車輪轉向正確（上坡時遠離路緣），車輛會向後滾向路緣而安全停下。",
-          "tags": []
+          "tags": [
+            "parking-hill"
+          ]
         },
         {
           "id": "M06-S02-Q05",
@@ -519,7 +525,9 @@
           "answer": "B",
           "explanation_en": "A white curb means stop only long enough to pick up or drop off passengers or mail.",
           "explanation_zhHant": "白色路緣僅允許短暫停車以上下乘客或收取郵件。",
-          "tags": []
+          "tags": [
+            "colored-curbs"
+          ]
         },
         {
           "id": "M06-S04-Q02",
@@ -550,7 +558,9 @@
           "answer": "C",
           "explanation_en": "A green curb means you may park for a limited time. Check the curb or sign for the time limit.",
           "explanation_zhHant": "綠色路緣為限時停車。查看路緣上的標誌或標記了解限時時間。",
-          "tags": []
+          "tags": [
+            "colored-curbs"
+          ]
         },
         {
           "id": "M06-S04-Q03",
@@ -614,7 +624,9 @@
           "answer": "C",
           "explanation_en": "A red curb means no stopping, standing, or parking at any time.",
           "explanation_zhHant": "紅色路緣任何時候不得停車、站立或停放。",
-          "tags": []
+          "tags": [
+            "colored-curbs"
+          ]
         },
         {
           "id": "M06-S04-Q05",
@@ -645,7 +657,9 @@
           "answer": "C",
           "explanation_en": "A blue curb is reserved for parking by disabled persons or drivers of disabled persons with a proper placard or special license plate.",
           "explanation_zhHant": "藍色路緣僅允許持有有效殘疾人標牌或特殊車牌的殘疾人或其駕駛員停車。",
-          "tags": []
+          "tags": [
+            "colored-curbs"
+          ]
         }
       ]
     }

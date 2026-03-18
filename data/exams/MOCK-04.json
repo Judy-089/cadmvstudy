@@ -32,7 +32,8 @@
       "module": "M02",
       "tags": [
         "traffic-signs",
-        "sign-shapes"
+        "sign-shapes",
+        "stop-sign"
       ],
       "explanation_zhHant": "八角形標誌始終表示停車。停車標誌是唯一使用這種形状的標誌，即使损壞或被雪覆蓋也容易識別。",
       "stem_zhHant": "八角形標誌始終表示：",
@@ -330,8 +331,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "intersections",
-        "stop-sign"
+        "intersections"
       ],
       "explanation_zhHant": "當兩輛車同時到達交叉路口時，直行車輛比左轉車輛擁有先行權。",
       "stem_zhHant": "兩輛車同時到達停車標誌處，一輛左轉另一輛直行，誰先行？",
@@ -368,8 +368,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "yield",
-        "yield-sign"
+        "yield"
       ],
       "explanation_zhHant": "讓行標誌表示你必須減速并準備停車讓交叉交通通過。你不必總是停車，但必須讓行。",
       "stem_zhHant": "看到讓行標誌時，你必須：",

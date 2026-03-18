@@ -107,7 +107,8 @@
       "module": "M02",
       "tags": [
         "traffic-signs",
-        "signals"
+        "signals",
+        "yellow-light"
       ],
       "explanation_zhHant": "穩定的黄燈表示信號即將變紅。如果你能安全停車就應該停車。如果你已經在交叉路口內，繼續通過。",
       "stem_zhHant": "當你看到這個穩定的黃色交通燈時，它表示：",
@@ -217,7 +218,8 @@
       "explanation_zh": "交叉标志（写有'Railroad Crossing'的大X）位于铁路道口。它要求你让行任何驶来的火车。",
       "module": "M02",
       "tags": [
-        "traffic-signs"
+        "traffic-signs",
+        "railroad"
       ],
       "explanation_zhHant": "交叉標誌（写有'Railroad Crossing'的大X）位於鐵路道口。它要求你讓行任何駛來的火車。",
       "stem_zhHant": "交叉標誌（帶有「Railroad Crossing」字樣的大X）位於：",
@@ -402,7 +404,8 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "left-turns"
+        "left-turns",
+        "green-light"
       ],
       "explanation_zhHant": "綠燈時左轉，進入交叉路口并等到安全後完成轉弯。讓所有迎面來的車輛先行。",
       "stem_zhHant": "你在綠燈時左轉，對面有車輛駛來，你應該：",
@@ -438,7 +441,8 @@
       "explanation_zh": "当校车闪烁红灯时，无论你从哪个方向行驶都必须停车。唯一的例外是当你与校车之间有物理隔离带或障碍物分隔时。",
       "module": "M03",
       "tags": [
-        "right-of-way"
+        "right-of-way",
+        "flashing-red"
       ],
       "explanation_zhHant": "當校車閃烁紅燈時，無論你從哪個方向行駛都必須停車。唯一的例外是當你與校車之間有物理隔離帶或障礙物分隔時。",
       "stem_zhHant": "校車閃爍紅燈時你必須停車：",

@@ -224,7 +224,9 @@
           "answer": "B",
           "explanation_en": "You may turn left on red only from a one-way street onto another one-way street, after stopping and yielding.",
           "explanation_zhHant": "只有從單行道轉入另一條單行道時，才可以在紅燈時左轉。必須先停車並讓行。",
-          "tags": []
+          "tags": [
+            "red-light"
+          ]
         },
         {
           "id": "M05-S02-Q03",

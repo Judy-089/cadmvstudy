@@ -69,7 +69,8 @@
       "module": "M02",
       "tags": [
         "traffic-signs",
-        "regulatory"
+        "regulatory",
+        "no-u-turn"
       ],
       "explanation_zhHant": "紅色圓圈加紅色斜杠覆蓋在一個符號上表示所描述的行為被禁止。例如，掉頭箭頭上的紅色斜杠表示禁止掉頭。",
       "stem_zhHant": "像這樣帶有紅圈和紅斜線的標誌表示：",
