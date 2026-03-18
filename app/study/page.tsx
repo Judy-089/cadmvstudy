@@ -40,7 +40,7 @@ export default function StudyPage() {
           const unlocked = isModuleUnlocked(mod.id);
           const mp = moduleProgress[mod.id];
           const completedCount = mp?.completedSections?.length ?? 0;
-          const pct = mp ? Math.min(100, Math.round((completedCount / 5) * 100)) : 0;
+          const pct = mp ? Math.min(100, Math.round((completedCount / mod.sectionCount) * 100)) : 0;
           const cardContent = (
             <div className={`group relative flex items-center gap-4 rounded-xl border bg-card p-5 shadow-sm transition-all hover:shadow-md ${
               mod.isNew ? "border-primary/40 hover:border-primary" : "border-border hover:border-primary/30"
