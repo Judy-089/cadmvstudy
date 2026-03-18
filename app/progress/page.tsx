@@ -125,7 +125,7 @@ export default function ProgressPage() {
             {modules.map((mod) => {
               const mp = moduleProgress[mod.id];
               const completedCount = mp?.completedSections?.length ?? 0;
-              const pct = mp ? Math.min(100, Math.round((completedCount / 5) * 100)) : 0;
+              const pct = mp ? Math.min(100, Math.round((completedCount / mod.sectionCount) * 100)) : 0;
               return (
                 <div key={mod.id} className="flex items-center gap-4 rounded-xl border border-border bg-card p-4 shadow-sm">
                   <span className="text-xl">{mod.icon}</span>

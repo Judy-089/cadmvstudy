@@ -192,8 +192,7 @@ export default function Home() {
           const unlocked = isModuleUnlocked(mod.id);
           const mp = moduleProgress[mod.id];
           const completedCount = mp?.completedSections?.length ?? 0;
-          // Estimate total sections (we'll use 5 as average if unknown)
-          const pct = mp ? Math.min(100, Math.round((completedCount / 5) * 100)) : 0;
+          const pct = mp ? Math.min(100, Math.round((completedCount / mod.sectionCount) * 100)) : 0;
           const cardContent = (
             <div className="group flex flex-col rounded-xl border border-border bg-card p-4 shadow-sm transition-all hover:border-primary/30 hover:shadow-md">
               <div className="flex items-center gap-3">
