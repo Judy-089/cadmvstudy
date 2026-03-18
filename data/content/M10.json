@@ -1,0 +1,334 @@
+{
+  "moduleId": "M10",
+  "titleEn": "Alcohol & Drugs",
+  "titleZh": "酒精与药物",
+  "sections": [
+    {
+      "id": "S01",
+      "titleEn": "Blood Alcohol Concentration (BAC) Limits",
+      "titleZh": "血液酒精浓度限制",
+      "knowledgePoints": [
+        {
+          "id": "M10-S01-K01",
+          "en": "It is illegal to drive with a blood alcohol concentration (BAC) of 0.08% or higher for drivers 21 or older.",
+          "zh": "21岁及以上的驾驶员血液酒精浓度（BAC）达到0.08%或以上时驾车是违法的。",
+          "isHighFreq": true,
+          "tags": [
+            "bac",
+            "legal-limit",
+            "dui"
+          ],
+          "zhHant": "21歲及以上的駕駛員血液酒精濃度（BAC）達到0.08%或以上時駕車是違法的。"
+        },
+        {
+          "id": "M10-S01-K02",
+          "en": "For drivers under 21, the BAC limit is 0.01%. California has a zero-tolerance policy for underage drinking and driving.",
+          "zh": "21岁以下的驾驶员BAC限制为0.01%。加州对未成年人饮酒驾车实行零容忍政策。",
+          "isHighFreq": true,
+          "tags": [
+            "bac",
+            "under-21",
+            "zero-tolerance"
+          ],
+          "zhHant": "21歲以下的駕駛員BAC限制為0.01%。加州對未成年人飲酒駕車實行零容忍政策。"
+        },
+        {
+          "id": "M10-S01-K03",
+          "en": "For commercial vehicle drivers, the BAC limit is 0.04% when operating a commercial vehicle.",
+          "zh": "商用车驾驶员在驾驶商用车时BAC限制为0.04%。",
+          "isHighFreq": true,
+          "tags": [
+            "bac",
+            "commercial"
+          ],
+          "zhHant": "商用車駕駛員在駕駛商用車時BAC限制為0.04%。"
+        },
+        {
+          "id": "M10-S01-K04",
+          "en": "For drivers on DUI probation, the BAC limit is 0.01%.",
+          "zh": "处于酒驾缓刑期的驾驶员BAC限制为0.01%。",
+          "isHighFreq": true,
+          "tags": [
+            "bac",
+            "probation"
+          ],
+          "zhHant": "處於酒駕緩刑期的駕駛員BAC限制為0.01%。"
+        },
+        {
+          "id": "M10-S01-K05",
+          "en": "You can be arrested for DUI even if your BAC is below the legal limit, if alcohol or drugs impair your ability to drive safely.",
+          "zh": "即使BAC低于法定限制，如果酒精或药物影响了你的安全驾驶能力，你仍然可能因酒驾被逮捕。",
+          "isHighFreq": true,
+          "tags": [
+            "dui",
+            "impairment"
+          ],
+          "zhHant": "即使BAC低於法定限制，如果酒精或藥物影響了你的安全駕駛能力，你仍然可能因酒駕被逮捕。"
+        }
+      ],
+      "titleZhHant": "血液酒精濃度限制"
+    },
+    {
+      "id": "S02",
+      "titleEn": "Implied Consent & Chemical Tests",
+      "titleZh": "默示同意与化学检测",
+      "knowledgePoints": [
+        {
+          "id": "M10-S02-K01",
+          "en": "California's implied consent law means that by driving on California roads, you have agreed to submit to a chemical test (blood or breath) if lawfully arrested for DUI.",
+          "zh": "加州的“默示同意“法规定，在加州道路上驾车即表示你同意在被合法逮捕涉嫌酒驾时接受化学检测（血液或呼气检测）。",
+          "isHighFreq": true,
+          "tags": [
+            "implied-consent",
+            "chemical-test"
+          ],
+          "zhHant": "加州的“默示同意“法規定，在加州道路上駕車即表示你同意在被合法逮捕涉嫌酒駕時接受化學檢測（血液或呼氣檢測）。"
+        },
+        {
+          "id": "M10-S02-K02",
+          "en": "Refusing a chemical test after a lawful DUI arrest will result in a mandatory 1-year license suspension for a first offense, 2 years for a second, and 3 years for a third.",
+          "zh": "在合法酒驾逮捕后拒绝化学检测将导致强制吊销驾照：初犯1年，第二次2年，第三次3年。",
+          "isHighFreq": true,
+          "tags": [
+            "implied-consent",
+            "refusal",
+            "suspension"
+          ],
+          "zhHant": "在合法酒駕逮捕後拒絕化學檢測將导致强制吊銷駕照：初犯1年，第二次2年，第三次3年。"
+        },
+        {
+          "id": "M10-S02-K03",
+          "en": "A preliminary alcohol screening (PAS) test at the roadside is mandatory for drivers under 21 and those on DUI probation. Other drivers may decline it, but must still submit to a test after arrest.",
+          "zh": "路边的初步酒精筛查测试（PAS）对21岁以下驾驶员和酒驾缓刑期间的驾驶员是强制性的。其他驾驶员可以拒绝路边测试，但被逮捕后仍必须接受化学检测。",
+          "isHighFreq": true,
+          "tags": [
+            "pas-test",
+            "roadside"
+          ],
+          "zhHant": "路邊的初步酒精筛查測試（PAS）對21歲以下駕駛員和酒駕緩刑期間的駕駛員是强制性的。其他駕駛員可以拒絕路邊測試，但被逮捕後仍必須接受化學檢測。"
+        },
+        {
+          "id": "M10-S02-K04",
+          "en": "If you are arrested for DUI, you generally have the choice between a blood test or a breath test.",
+          "zh": "如果你因酒驾被逮捕，通常可以在血液检测和呼气检测之间选择。",
+          "isHighFreq": false,
+          "tags": [
+            "chemical-test",
+            "choice"
+          ],
+          "zhHant": "如果你因酒駕被逮捕，通常可以在血液檢測和呼氣檢測之間選擇。"
+        }
+      ],
+      "titleZhHant": "默示同意與化學檢測"
+    },
+    {
+      "id": "S03",
+      "titleEn": "DUI Penalties",
+      "titleZh": "酒驾处罚",
+      "knowledgePoints": [
+        {
+          "id": "M10-S03-K01",
+          "en": "A first DUI conviction can result in 3-5 years of probation, fines up to $1,000 (plus penalty assessments), a 6-month license suspension, and mandatory DUI education.",
+          "zh": "首次酒驾定罪可能导致3-5年缓刑、最高1,000美元罚款（加上罚款附加费）、吊销驾照6个月以及强制参加酒驾教育课程。",
+          "isHighFreq": true,
+          "tags": [
+            "dui",
+            "penalties",
+            "first-offense"
+          ],
+          "zhHant": "首次酒駕定罪可能导致3-5年緩刑、最高1,000美元罰款（加上罰款附加費）、吊銷駕照6個月以及强制參加酒駕教育課程。"
+        },
+        {
+          "id": "M10-S03-K02",
+          "en": "A DUI that causes injury can be charged as a felony, resulting in state prison time and longer license suspension.",
+          "zh": "造成人员受伤的酒驾可能被控重罪，导致州监狱监禁和更长时间的驾照吊销。",
+          "isHighFreq": true,
+          "tags": [
+            "dui",
+            "felony",
+            "injury"
+          ],
+          "zhHant": "造成人員受傷的酒駕可能被控重罪，导致州監獄監禁和更长時間的駕照吊銷。"
+        },
+        {
+          "id": "M10-S03-K03",
+          "en": "If you are convicted of DUI, you will be required to install an Ignition Interlock Device (IID) on your vehicle.",
+          "zh": "如果酒驾定罪，你将被要求在车辆上安装点火联锁装置（IID），需要吹气通过才能启动车辆。",
+          "isHighFreq": true,
+          "tags": [
+            "dui",
+            "iid",
+            "ignition-interlock"
+          ],
+          "zhHant": "如果酒駕定罪，你將被要求在車輛上安裝點火聯鎖裝置（IID），需要吹氣通過才能啟動車輛。"
+        },
+        {
+          "id": "M10-S03-K04",
+          "en": "A DUI conviction stays on your driving record for 10 years. Second and subsequent offenses carry increasingly severe penalties.",
+          "zh": "酒驾定罪记录将在你的驾驶记录上保留10年。第二次及以后的违规会受到越来越严厉的处罚。",
+          "isHighFreq": true,
+          "tags": [
+            "dui",
+            "record",
+            "10-years"
+          ],
+          "zhHant": "酒駕定罪記錄將在你的駕駛記錄上保留10年。第二次及以後的違規會受到越來越嚴厲的處罰。"
+        },
+        {
+          "id": "M10-S03-K05",
+          "en": "Vehicular manslaughter while intoxicated (killing someone while driving drunk) is a felony that can result in state prison time.",
+          "zh": "醉酒车辆过失杀人（在醉驾时致人死亡）是重罪，可导致州监狱监禁。",
+          "isHighFreq": true,
+          "tags": [
+            "dui",
+            "manslaughter",
+            "felony"
+          ],
+          "zhHant": "醉酒車輛過失殺人（在醉駕時致人死亡）是重罪，可导致州監獄監禁。"
+        }
+      ],
+      "titleZhHant": "酒駕處罰"
+    },
+    {
+      "id": "S04",
+      "titleEn": "Effects of Alcohol & Drugs on Driving",
+      "titleZh": "酒精与药物对驾驶的影响",
+      "knowledgePoints": [
+        {
+          "id": "M10-S04-K01",
+          "en": "Alcohol impairs judgment, slows reaction time, reduces coordination, and affects vision. These effects begin with the first drink.",
+          "zh": "酒精会损害判断力、减慢反应时间、降低协调能力并影响视力。这些影响从第一杯酒就开始了。",
+          "isHighFreq": true,
+          "tags": [
+            "alcohol",
+            "impairment",
+            "effects"
+          ],
+          "zhHant": "酒精會损害判斷力、減慢反應時間、降低協調能力并影響视力。這些影響從第一杯酒就開始了。"
+        },
+        {
+          "id": "M10-S04-K02",
+          "en": "Prescription and over-the-counter medications can impair driving. Read labels for warnings about drowsiness or dizziness before driving.",
+          "zh": "处方药和非处方药都可能影响驾驶能力。驾车前阅读药物标签上关于嗜睡或头晕的警告。",
+          "isHighFreq": true,
+          "tags": [
+            "medication",
+            "impairment"
+          ],
+          "zhHant": "處方藥和非處方藥都可能影響駕駛能力。駕車前閱讀藥物標簽上關於嗜睡或頭暈的警告。"
+        },
+        {
+          "id": "M10-S04-K03",
+          "en": "Marijuana impairs driving ability. It is illegal to drive under the influence of marijuana, whether you have a medical card or not.",
+          "zh": "大麻会损害驾驶能力。无论是否持有医用大麻卡，在大麻影响下驾车都是违法的。",
+          "isHighFreq": true,
+          "tags": [
+            "marijuana",
+            "dui"
+          ],
+          "zhHant": "大麻會损害駕駛能力。無論是否持有醫用大麻卡，在大麻影響下駕車都是違法的。"
+        },
+        {
+          "id": "M10-S04-K04",
+          "en": "Combining alcohol with drugs (including prescription medications) can multiply their impairing effects, making driving extremely dangerous.",
+          "zh": "将酒精与药物（包括处方药）混合使用会成倍增加其损害效果，使驾驶极其危险。",
+          "isHighFreq": true,
+          "tags": [
+            "combined-substances",
+            "danger"
+          ],
+          "zhHant": "將酒精與藥物（包括處方藥）混合使用會成倍增加其损害效果，使駕駛極其危險。"
+        },
+        {
+          "id": "M10-S04-K05",
+          "en": "Only time can reduce your BAC. Coffee, cold showers, and exercise do not sober you up or make it safe to drive.",
+          "zh": "只有时间能降低血液酒精浓度。咖啡、冷水澡和运动不能使你清醒或安全驾驶。",
+          "isHighFreq": true,
+          "tags": [
+            "bac",
+            "sobering-myths"
+          ],
+          "zhHant": "隻有時間能降低血液酒精濃度。咖啡、冷水澡和運動不能使你清醒或安全駕駛。"
+        },
+        {
+          "id": "M10-S04-K06",
+          "en": "It is illegal to have an open container of alcohol in the passenger area of a motor vehicle on a highway.",
+          "zh": "在公路上的机动车乘客区域内放置已开封的酒精容器是违法的。",
+          "isHighFreq": true,
+          "tags": [
+            "open-container",
+            "law"
+          ],
+          "zhHant": "在公路上的機動車乘客區域內放置已開封的酒精容器是違法的。"
+        }
+      ],
+      "titleZhHant": "酒精與藥物對駕駛的影響"
+    },
+    {
+      "id": "S05",
+      "titleEn": "Administrative & Legal Consequences",
+      "titleZh": "行政与法律后果",
+      "knowledgePoints": [
+        {
+          "id": "M10-S05-K01",
+          "en": "If arrested for DUI, the DMV will take your license and issue a temporary one. You have 10 days to request an administrative hearing to challenge the suspension.",
+          "zh": "如果因酒驾被逮捕，DMV会没收你的驾照并发放临时驾照。你有10天时间申请行政听证来质疑吊销。",
+          "isHighFreq": true,
+          "tags": [
+            "dui",
+            "hearing",
+            "10-days"
+          ],
+          "zhHant": "如果因酒駕被逮捕，DMV會沒收你的駕照并發放臨時駕照。你有10天時間申請行政聽證來質疑吊銷。"
+        },
+        {
+          "id": "M10-S05-K02",
+          "en": "A DUI conviction will significantly increase your car insurance rates. You may be required to file an SR-22 form as proof of financial responsibility.",
+          "zh": "酒驾定罪将大幅提高你的汽车保险费率。你可能需要提交SR-22表格作为经济责任证明。",
+          "isHighFreq": true,
+          "tags": [
+            "dui",
+            "insurance",
+            "sr-22"
+          ],
+          "zhHant": "酒駕定罪將大幅提高你的汽車保險費率。你可能需要提交SR-22表格作為經濟責任證明。"
+        },
+        {
+          "id": "M10-S05-K03",
+          "en": "Drivers under 21 who are caught with a BAC of 0.01% or more will have their license suspended for 1 year.",
+          "zh": "21岁以下的驾驶员如果BAC达到0.01%或更高，驾照将被吊销1年。",
+          "isHighFreq": true,
+          "tags": [
+            "under-21",
+            "suspension"
+          ],
+          "zhHant": "21歲以下的駕駛員如果BAC達到0.01%或更高，駕照將被吊銷1年。"
+        },
+        {
+          "id": "M10-S05-K04",
+          "en": "If you are under 21, purchasing, attempting to purchase, or possessing alcohol is a misdemeanor. Your driving privilege may be suspended for 1 year.",
+          "zh": "21岁以下购买、试图购买或持有酒精属于轻罪。你的驾驶权可能被暂停1年。",
+          "isHighFreq": false,
+          "tags": [
+            "under-21",
+            "possession"
+          ],
+          "zhHant": "21歲以下購買、試圖購買或持有酒精屬於輕罪。你的駕駛權可能被暫停1年。"
+        },
+        {
+          "id": "M10-S05-K05",
+          "en": "Designate a sober driver before drinking. Use rideshare, taxi, or public transit if you plan to consume alcohol.",
+          "zh": "饮酒前指定一名清醒的驾驶员。如果计划饮酒，使用网约车、出租车或公共交通。",
+          "isHighFreq": false,
+          "tags": [
+            "designated-driver",
+            "alternatives"
+          ],
+          "zhHant": "飲酒前指定一名清醒的駕駛員。如果计劃飲酒，使用网约車、出租車或公共交通。"
+        }
+      ],
+      "titleZhHant": "行政與法律後果"
+    }
+  ],
+  "titleZhHant": "酒精與藥物"
+}

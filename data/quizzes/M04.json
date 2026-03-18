@@ -1,0 +1,914 @@
+{
+  "moduleId": "M04",
+  "sections": [
+    {
+      "sectionId": "S01",
+      "questions": [
+        {
+          "id": "M04-S01-Q01",
+          "stem_en": "California's Basic Speed Law states that you should:",
+          "stem_zhHant": "加州基本速度法規定您應該：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Always drive at the posted speed limit",
+              "text_zhHant": "始終按標示限速行駛"
+            },
+            {
+              "key": "B",
+              "text_en": "Never drive faster than is safe for current conditions",
+              "text_zhHant": "任何時候都不得以超過當前路況安全速度行駛"
+            },
+            {
+              "key": "C",
+              "text_en": "Drive at least 10 mph below the speed limit",
+              "text_zhHant": "以至少低於限速10英里的速度行駛"
+            },
+            {
+              "key": "D",
+              "text_en": "Match the speed of surrounding traffic",
+              "text_zhHant": "與周圍車流速度保持一致"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "California's Basic Speed Law states you must never drive faster than is safe for current conditions, regardless of the posted speed limit.",
+          "explanation_zhHant": "加州基本速度法規定：無論標示限速為多少，任何時候都不得以超過當前路況安全速度行駛。",
+          "tags": []
+        },
+        {
+          "id": "M04-S01-Q02",
+          "stem_en": "What is the default speed limit in a residential area?",
+          "stem_zhHant": "住宅區的默認限速是多少？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "15 mph",
+              "text_zhHant": "15英里/小時"
+            },
+            {
+              "key": "B",
+              "text_en": "20 mph",
+              "text_zhHant": "20英里/小時"
+            },
+            {
+              "key": "C",
+              "text_en": "25 mph",
+              "text_zhHant": "25英里/小時"
+            },
+            {
+              "key": "D",
+              "text_en": "35 mph",
+              "text_zhHant": "35英里/小時"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "The speed limit in a residential area is 25 mph unless otherwise posted.",
+          "explanation_zhHant": "住宅區限速為25英里/小時，除非另有標示。",
+          "tags": []
+        },
+        {
+          "id": "M04-S01-Q03",
+          "stem_en": "What is the speed limit in an alley?",
+          "stem_zhHant": "小巷中的限速是多少？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "10 mph",
+              "text_zhHant": "10英里/小時"
+            },
+            {
+              "key": "B",
+              "text_en": "15 mph",
+              "text_zhHant": "15英里/小時"
+            },
+            {
+              "key": "C",
+              "text_en": "20 mph",
+              "text_zhHant": "20英里/小時"
+            },
+            {
+              "key": "D",
+              "text_en": "25 mph",
+              "text_zhHant": "25英里/小時"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "The speed limit in alleys is 15 mph.",
+          "explanation_zhHant": "小巷中的限速為15英里/小時。",
+          "tags": []
+        },
+        {
+          "id": "M04-S01-Q04",
+          "stem_en": "What is the maximum speed limit on most California highways?",
+          "stem_zhHant": "加州大多數高速公路的最高限速是多少？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "55 mph",
+              "text_zhHant": "55英里/小時"
+            },
+            {
+              "key": "B",
+              "text_en": "60 mph",
+              "text_zhHant": "60英里/小時"
+            },
+            {
+              "key": "C",
+              "text_en": "65 mph",
+              "text_zhHant": "65英里/小時"
+            },
+            {
+              "key": "D",
+              "text_en": "70 mph",
+              "text_zhHant": "70英里/小時"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "The maximum speed limit on most California highways is 65 mph. Some may be posted at 70 mph.",
+          "explanation_zhHant": "加州大多數高速公路最高限速為65英里/小時。部分公路可能標示為70英里/小時。",
+          "tags": []
+        },
+        {
+          "id": "M04-S01-Q05",
+          "stem_en": "The speed limit near a school when children are present is:",
+          "stem_zhHant": "學校附近有兒童時的限速是：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "15 mph",
+              "text_zhHant": "15英里/小時"
+            },
+            {
+              "key": "B",
+              "text_en": "20 mph",
+              "text_zhHant": "20英里/小時"
+            },
+            {
+              "key": "C",
+              "text_en": "25 mph",
+              "text_zhHant": "25英里/小時"
+            },
+            {
+              "key": "D",
+              "text_en": "35 mph",
+              "text_zhHant": "35英里/小時"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "The speed limit near schools when children are present is 25 mph.",
+          "explanation_zhHant": "學校附近有兒童時限速為25英里/小時。",
+          "tags": []
+        },
+        {
+          "id": "M04-S01-Q06",
+          "stem_en": "Near a railroad crossing where you cannot see tracks for 400 feet, the speed limit within 100 feet of the crossing is:",
+          "stem_zhHant": "在無法看到400英尺範圍鐵軌的鐵路道口，距道口100英尺以內的限速是：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "10 mph",
+              "text_zhHant": "10英里/小時"
+            },
+            {
+              "key": "B",
+              "text_en": "15 mph",
+              "text_zhHant": "15英里/小時"
+            },
+            {
+              "key": "C",
+              "text_en": "20 mph",
+              "text_zhHant": "20英里/小時"
+            },
+            {
+              "key": "D",
+              "text_en": "25 mph",
+              "text_zhHant": "25英里/小時"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Near railroad crossings where you cannot see tracks for 400 feet in both directions, the speed limit is 15 mph within 100 feet of the crossing.",
+          "explanation_zhHant": "在無法看到400英尺範圍鐵軌的鐵路道口，距道口100英尺以內限速為15英里/小時。",
+          "tags": [
+            "railroad"
+          ]
+        },
+        {
+          "id": "M04-S01-Q07",
+          "stem_en": "The speed limit on a two-lane undivided highway is:",
+          "stem_zhHant": "雙車道無隔離帶公路的限速是：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "45 mph",
+              "text_zhHant": "45英里/小時"
+            },
+            {
+              "key": "B",
+              "text_en": "55 mph",
+              "text_zhHant": "55英里/小時"
+            },
+            {
+              "key": "C",
+              "text_en": "65 mph",
+              "text_zhHant": "65英里/小時"
+            },
+            {
+              "key": "D",
+              "text_en": "70 mph",
+              "text_zhHant": "70英里/小時"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "The speed limit on a two-lane undivided highway is 55 mph unless otherwise posted.",
+          "explanation_zhHant": "雙車道無隔離帶公路的限速為55英里/小時，除非另有標示。",
+          "tags": [
+            "divided-highway"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "S02",
+      "questions": [
+        {
+          "id": "M04-S02-Q01",
+          "stem_en": "In fog, you should use:",
+          "stem_zhHant": "在霧天，您應該使用：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "High-beam headlights",
+              "text_zhHant": "遠光燈"
+            },
+            {
+              "key": "B",
+              "text_en": "Low-beam headlights",
+              "text_zhHant": "近光燈"
+            },
+            {
+              "key": "C",
+              "text_en": "Hazard flashers",
+              "text_zhHant": "雙閃燈"
+            },
+            {
+              "key": "D",
+              "text_en": "No lights to avoid reflecting off the fog",
+              "text_zhHant": "不開燈以避免霧氣反射"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "In fog, use low-beam headlights. High beams reflect off fog and reduce visibility.",
+          "explanation_zhHant": "在霧天使用近光燈。遠光燈會被霧氣反射，反而降低能見度。",
+          "tags": []
+        },
+        {
+          "id": "M04-S02-Q02",
+          "stem_en": "At what speed on a wet road can hydroplaning occur?",
+          "stem_zhHant": "在濕滑路面上，多少速度可能發生水漂現象？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "15 mph or more",
+              "text_zhHant": "15英里/小時以上"
+            },
+            {
+              "key": "B",
+              "text_en": "25 mph or more",
+              "text_zhHant": "25英里/小時以上"
+            },
+            {
+              "key": "C",
+              "text_en": "35 mph or more",
+              "text_zhHant": "35英里/小時以上"
+            },
+            {
+              "key": "D",
+              "text_en": "55 mph or more",
+              "text_zhHant": "55英里/小時以上"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "At 35 mph or more on a wet road, your tires can hydroplane, causing loss of traction and control.",
+          "explanation_zhHant": "在濕路上時速達到35英里以上時，輪胎可能發生水漂現象，導致失去抓地力和控制。",
+          "tags": []
+        },
+        {
+          "id": "M04-S02-Q03",
+          "stem_en": "On a two-lane road, if 5 or more vehicles are following behind you, you should:",
+          "stem_zhHant": "在雙車道公路上，如果有5輛或以上車輛跟在您後面，您應該：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Speed up to create more space",
+              "text_zhHant": "加速創造更多空間"
+            },
+            {
+              "key": "B",
+              "text_en": "Ignore them and maintain your speed",
+              "text_zhHant": "忽略他們保持速度"
+            },
+            {
+              "key": "C",
+              "text_en": "Pull to the right to let them pass",
+              "text_zhHant": "靠右讓他們通過"
+            },
+            {
+              "key": "D",
+              "text_en": "Apply your brakes to signal them to slow down",
+              "text_zhHant": "踩刹車示意他們減速"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "On a two-lane road, pull to the right when 5 or more vehicles are following you. Driving too slowly can be as dangerous as driving too fast.",
+          "explanation_zhHant": "在雙車道公路上，如果有5輛或以上車輛跟在後面，應靠右讓行。開車太慢可能和太快一樣危險。",
+          "tags": []
+        },
+        {
+          "id": "M04-S02-Q04",
+          "stem_en": "Can you be cited for driving at the posted speed limit if conditions are poor?",
+          "stem_zhHant": "如果路況不好，即使按標示限速行駛也可能被罰嗎？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "No, you are always safe if under the posted limit",
+              "text_zhHant": "不會，只要不超過標示限速就安全"
+            },
+            {
+              "key": "B",
+              "text_en": "Yes, you may be cited for driving too fast for conditions",
+              "text_zhHant": "會，可能因速度過快不適合路況而被罰"
+            },
+            {
+              "key": "C",
+              "text_en": "Only if there is a special advisory speed sign",
+              "text_zhHant": "僅在有特殊建議速度標誌時"
+            },
+            {
+              "key": "D",
+              "text_en": "Only in school zones",
+              "text_zhHant": "僅在學校區域"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "You may be cited for driving too fast for conditions even if you are under the posted speed limit.",
+          "explanation_zhHant": "即使未超過限速，如果速度對於當前路況過快也可能被罰。",
+          "tags": []
+        },
+        {
+          "id": "M04-S02-Q05",
+          "stem_en": "On wet roads, you should reduce your speed by approximately:",
+          "stem_zhHant": "在濕滑路面上，您應該減速約：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "1-3 mph",
+              "text_zhHant": "1-3英里/小時"
+            },
+            {
+              "key": "B",
+              "text_en": "5-10 mph",
+              "text_zhHant": "5-10英里/小時"
+            },
+            {
+              "key": "C",
+              "text_en": "15-20 mph",
+              "text_zhHant": "15-20英里/小時"
+            },
+            {
+              "key": "D",
+              "text_en": "25-30 mph",
+              "text_zhHant": "25-30英里/小時"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "On wet roads, reduce speed by 5-10 mph to maintain safe traction.",
+          "explanation_zhHant": "濕滑路面上應降低5-10英里/小時的車速以保持安全的抓地力。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S03",
+      "questions": [
+        {
+          "id": "M04-S03-Q01",
+          "stem_en": "The legal BAC limit for drivers 21 and older is:",
+          "stem_zhHant": "21歲及以上駕駛員的合法血液酒精濃度上限為：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "0.01%",
+              "text_zhHant": "0.01%"
+            },
+            {
+              "key": "B",
+              "text_en": "0.04%",
+              "text_zhHant": "0.04%"
+            },
+            {
+              "key": "C",
+              "text_en": "0.08%",
+              "text_zhHant": "0.08%"
+            },
+            {
+              "key": "D",
+              "text_en": "0.10%",
+              "text_zhHant": "0.10%"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "The legal BAC limit is 0.08% for drivers 21 and older, 0.04% for commercial drivers, and 0.01% for drivers under 21.",
+          "explanation_zhHant": "21歲及以上駕駛員的合法BAC上限為0.08%，商業駕照持有者為0.04%，21歲以下為0.01%。",
+          "tags": [
+            "bac"
+          ]
+        },
+        {
+          "id": "M04-S03-Q02",
+          "stem_en": "California's Implied Consent law means:",
+          "stem_zhHant": "加州的「默示同意法」意味著：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "You agree to follow all traffic laws by driving",
+              "text_zhHant": "駕車即同意遵守所有交通法規"
+            },
+            {
+              "key": "B",
+              "text_en": "You consent to a chemical test if lawfully arrested for DUI",
+              "text_zhHant": "因酒駕被合法逮捕後自動同意接受化學測試"
+            },
+            {
+              "key": "C",
+              "text_en": "You consent to vehicle searches at any time",
+              "text_zhHant": "隨時同意車輛搜查"
+            },
+            {
+              "key": "D",
+              "text_en": "You agree to pay all traffic fines",
+              "text_zhHant": "同意支付所有交通罰款"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "By driving in California, you automatically consent to a chemical test (blood, breath, or urine) if lawfully arrested for DUI.",
+          "explanation_zhHant": "在加州駕車即自動同意在因酒駕被合法逮捕後接受化學測試。",
+          "tags": []
+        },
+        {
+          "id": "M04-S03-Q03",
+          "stem_en": "Is it legal to drive under the influence of prescription medication?",
+          "stem_zhHant": "在處方藥影響下駕車合法嗎？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Yes, since it is prescribed by a doctor",
+              "text_zhHant": "合法，因為是醫生開的處方"
+            },
+            {
+              "key": "B",
+              "text_en": "Yes, as long as you have the prescription bottle",
+              "text_zhHant": "合法，只要帶著處方藥瓶"
+            },
+            {
+              "key": "C",
+              "text_en": "No, if it impairs your ability to drive",
+              "text_zhHant": "不合法，如果影響了駕駛能力"
+            },
+            {
+              "key": "D",
+              "text_en": "Yes, for all medications except painkillers",
+              "text_zhHant": "合法，除了止痛藥以外的所有藥物"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Driving under the influence of any drug that impairs your ability to drive is illegal, even if the drug is legal for you to use.",
+          "explanation_zhHant": "在任何影響駕駛能力的藥物作用下駕車都是違法的，即使你有合法使用該藥物的權利。",
+          "tags": []
+        },
+        {
+          "id": "M04-S03-Q04",
+          "stem_en": "It is illegal to have an open container of alcohol in your vehicle:",
+          "stem_zhHant": "車內有已開封的酒精飲料容器屬於違法行為：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Only if you are driving",
+              "text_zhHant": "僅在駕車時"
+            },
+            {
+              "key": "B",
+              "text_en": "Only if you are under 21",
+              "text_zhHant": "僅在21歲以下時"
+            },
+            {
+              "key": "C",
+              "text_en": "Whether you are driving or riding as a passenger",
+              "text_zhHant": "無論是駕駛員還是乘客"
+            },
+            {
+              "key": "D",
+              "text_en": "Only on freeways",
+              "text_zhHant": "僅在高速公路上"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "It is illegal to have an open container of alcohol in your vehicle, whether you are driving or riding as a passenger.",
+          "explanation_zhHant": "無論是駕駛員還是乘客，車內都不得有已開封的酒精飲料容器。",
+          "tags": []
+        },
+        {
+          "id": "M04-S03-Q05",
+          "stem_en": "The legal BAC limit for drivers under 21 is:",
+          "stem_zhHant": "21歲以下駕駛員的合法血液酒精濃度上限為：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "0.00%",
+              "text_zhHant": "0.00%"
+            },
+            {
+              "key": "B",
+              "text_en": "0.01%",
+              "text_zhHant": "0.01%"
+            },
+            {
+              "key": "C",
+              "text_en": "0.04%",
+              "text_zhHant": "0.04%"
+            },
+            {
+              "key": "D",
+              "text_en": "0.08%",
+              "text_zhHant": "0.08%"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "For drivers under 21, the BAC limit is 0.01% (zero tolerance policy).",
+          "explanation_zhHant": "21歲以下駕駛員的BAC上限為0.01%（零容忍政策）。",
+          "tags": [
+            "bac"
+          ]
+        },
+        {
+          "id": "M04-S03-Q06",
+          "stem_en": "What happens when you combine alcohol and drugs while driving?",
+          "stem_zhHant": "駕車時同時使用酒精和藥物會怎樣？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "The effects cancel each other out",
+              "text_zhHant": "效果會互相抵消"
+            },
+            {
+              "key": "B",
+              "text_en": "The effects of impairment are multiplied",
+              "text_zhHant": "損害效果會成倍增加"
+            },
+            {
+              "key": "C",
+              "text_en": "Only the alcohol affects driving",
+              "text_zhHant": "只有酒精會影響駕駛"
+            },
+            {
+              "key": "D",
+              "text_en": "There is no additional danger",
+              "text_zhHant": "沒有額外的危險"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Alcohol and drugs together multiply the effects of impairment. Even small amounts combined can make driving unsafe.",
+          "explanation_zhHant": "酒精與藥物同時使用會成倍增加損害效果。即使少量組合也可能導致無法安全駕駛。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S04",
+      "questions": [
+        {
+          "id": "M04-S04-Q01",
+          "stem_en": "Under normal conditions, maintain a following distance of at least:",
+          "stem_zhHant": "正常情況下，應保持至少多少秒的跟車距離？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "1 second",
+              "text_zhHant": "1秒"
+            },
+            {
+              "key": "B",
+              "text_en": "2 seconds",
+              "text_zhHant": "2秒"
+            },
+            {
+              "key": "C",
+              "text_en": "3 seconds",
+              "text_zhHant": "3秒"
+            },
+            {
+              "key": "D",
+              "text_en": "5 seconds",
+              "text_zhHant": "5秒"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Maintain a following distance of at least 3 seconds under normal conditions. Increase to 4+ seconds in bad weather.",
+          "explanation_zhHant": "正常情況下與前車保持至少3秒的跟車距離。惡劣天氣時應增加到4秒或更多。",
+          "tags": []
+        },
+        {
+          "id": "M04-S04-Q02",
+          "stem_en": "How do you measure a safe following distance?",
+          "stem_zhHant": "如何測量安全的跟車距離？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Count car lengths between you and the vehicle ahead",
+              "text_zhHant": "計算您與前車之間的車身長度"
+            },
+            {
+              "key": "B",
+              "text_en": "Pick a fixed object and count seconds after the car ahead passes it",
+              "text_zhHant": "選定固定物體，在前車通過後數秒數"
+            },
+            {
+              "key": "C",
+              "text_en": "Estimate the distance in feet",
+              "text_zhHant": "估算英尺距離"
+            },
+            {
+              "key": "D",
+              "text_en": "Use your odometer to check the distance",
+              "text_zhHant": "使用里程表檢查距離"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Pick a fixed object. When the vehicle ahead passes it, count seconds. If you reach it before counting to three, you are too close.",
+          "explanation_zhHant": "選定路邊一個固定物體，當前車經過時開始數秒。如果還沒數到三你就到了，說明跟車太近。",
+          "tags": []
+        },
+        {
+          "id": "M04-S04-Q03",
+          "stem_en": "You should increase your following distance when:",
+          "stem_zhHant": "以下哪種情況應該增大跟車距離？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Following a small car",
+              "text_zhHant": "跟隨一輛小型車"
+            },
+            {
+              "key": "B",
+              "text_en": "Driving on a clear sunny day",
+              "text_zhHant": "在晴朗的天氣行駛"
+            },
+            {
+              "key": "C",
+              "text_en": "Following a large truck or on slippery roads",
+              "text_zhHant": "跟隨大型卡車或在濕滑路面上"
+            },
+            {
+              "key": "D",
+              "text_en": "Driving in light traffic",
+              "text_zhHant": "在輕鬆的車流中行駛"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Increase following distance when following large trucks, motorcycles, on slippery roads, or when being tailgated.",
+          "explanation_zhHant": "跟隨大型卡車、摩托車、在濕滑路面行駛或被人尾隨時應增大跟車距離。",
+          "tags": []
+        },
+        {
+          "id": "M04-S04-Q04",
+          "stem_en": "Average perception-reaction time is about:",
+          "stem_zhHant": "平均感知反應時間約為：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "0.5 seconds",
+              "text_zhHant": "0.5秒"
+            },
+            {
+              "key": "B",
+              "text_en": "1.0 seconds",
+              "text_zhHant": "1.0秒"
+            },
+            {
+              "key": "C",
+              "text_en": "1.5 seconds",
+              "text_zhHant": "1.5秒"
+            },
+            {
+              "key": "D",
+              "text_en": "3.0 seconds",
+              "text_zhHant": "3.0秒"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Average perception-reaction time is about 1.5 seconds. At 55 mph, you travel about 121 feet during this time.",
+          "explanation_zhHant": "平均感知反應時間約為1.5秒。在55英里/小時的速度下，在開始剎車之前已經行駛了約121英尺。",
+          "tags": []
+        },
+        {
+          "id": "M04-S04-Q05",
+          "stem_en": "In bad weather or poor visibility, your following distance should be:",
+          "stem_zhHant": "在惡劣天氣或能見度差時，跟車距離應為：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "The same 3 seconds as normal",
+              "text_zhHant": "與正常時相同的3秒"
+            },
+            {
+              "key": "B",
+              "text_en": "2 seconds",
+              "text_zhHant": "2秒"
+            },
+            {
+              "key": "C",
+              "text_en": "4 or more seconds",
+              "text_zhHant": "4秒或更多"
+            },
+            {
+              "key": "D",
+              "text_en": "1 second",
+              "text_zhHant": "1秒"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "In bad weather or poor visibility, increase your following distance to 4 or more seconds.",
+          "explanation_zhHant": "惡劣天氣或能見度差時，應將跟車距離增加到4秒或更多。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S05",
+      "questions": [
+        {
+          "id": "M04-S05-Q01",
+          "stem_en": "Fines for traffic violations in highway construction zones when workers are present can be:",
+          "stem_zhHant": "在有工人的公路施工區域，交通違規的罰款可能：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "The same as normal",
+              "text_zhHant": "與正常罰款相同"
+            },
+            {
+              "key": "B",
+              "text_en": "Doubled",
+              "text_zhHant": "加倍"
+            },
+            {
+              "key": "C",
+              "text_en": "Tripled",
+              "text_zhHant": "三倍"
+            },
+            {
+              "key": "D",
+              "text_en": "Reduced if you cooperate",
+              "text_zhHant": "如果配合可以減少"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Fines for traffic violations in highway construction or maintenance zones can be doubled when workers are present.",
+          "explanation_zhHant": "在有工人的公路施工或養護區域，交通違規的罰款可能加倍。",
+          "tags": [
+            "worker-symbol"
+          ]
+        },
+        {
+          "id": "M04-S05-Q02",
+          "stem_en": "Speed contests (racing) on public roads can result in:",
+          "stem_zhHant": "在公共道路上進行競速（飆車）可能導致：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "A warning only",
+              "text_zhHant": "僅收到警告"
+            },
+            {
+              "key": "B",
+              "text_en": "Fines, license suspension, and vehicle impoundment",
+              "text_zhHant": "罰款、駕照暫停和車輛被扣押"
+            },
+            {
+              "key": "C",
+              "text_en": "A small fine only",
+              "text_zhHant": "僅小額罰款"
+            },
+            {
+              "key": "D",
+              "text_en": "Community service only",
+              "text_zhHant": "僅社區服務"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Speed contests on public roads are illegal and can result in fines, license suspension, and vehicle impoundment for up to 30 days.",
+          "explanation_zhHant": "在公共道路上競速屬於違法行為，處罰包括罰款、駕照暫停，車輛可能被扣押最長30天。",
+          "tags": []
+        },
+        {
+          "id": "M04-S05-Q03",
+          "stem_en": "When passing a stationary emergency vehicle with flashing lights, you must:",
+          "stem_zhHant": "經過停在路邊閃燈的緊急車輛時，您必須：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Stop completely and wait for them to leave",
+              "text_zhHant": "完全停車等待他們離開"
+            },
+            {
+              "key": "B",
+              "text_en": "Move over a lane if safe, or slow down",
+              "text_zhHant": "如果安全則變道避讓，否則減速"
+            },
+            {
+              "key": "C",
+              "text_en": "Flash your headlights and proceed at normal speed",
+              "text_zhHant": "閃大燈並以正常速度通過"
+            },
+            {
+              "key": "D",
+              "text_en": "Honk to alert the officers",
+              "text_zhHant": "按喇叭提醒警察"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Move over a lane if safe to do so, or slow down to a reasonable speed when passing a stationary emergency vehicle with flashing lights.",
+          "explanation_zhHant": "經過停在路邊閃燈的緊急車輛時，如果安全則變道避讓，否則須減速到合理安全的速度通過。",
+          "tags": [
+            "merging-traffic"
+          ]
+        },
+        {
+          "id": "M04-S05-Q04",
+          "stem_en": "When a trolley or bus is stopped at a safety zone with no marked crosswalk, you may not pass at more than:",
+          "stem_zhHant": "當有軌電車或公交車在安全區停靠且附近沒有標記的人行橫道時，通過速度不得超過：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "5 mph",
+              "text_zhHant": "5英里/小時"
+            },
+            {
+              "key": "B",
+              "text_en": "10 mph",
+              "text_zhHant": "10英里/小時"
+            },
+            {
+              "key": "C",
+              "text_en": "15 mph",
+              "text_zhHant": "15英里/小時"
+            },
+            {
+              "key": "D",
+              "text_en": "25 mph",
+              "text_zhHant": "25英里/小時"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When a trolley or bus is stopped at a safety zone with no marked crosswalk, you may not pass at more than 10 mph.",
+          "explanation_zhHant": "當有軌電車或公交車在安全區停靠且附近沒有明確標記的人行橫道時，通過速度不得超過10英里/小時。",
+          "tags": [
+            "pedestrian-crossing"
+          ]
+        },
+        {
+          "id": "M04-S05-Q05",
+          "stem_en": "A safety zone is a space set aside for pedestrians that you:",
+          "stem_zhHant": "安全區是為行人設置的區域，您：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "May drive through at 10 mph or less",
+              "text_zhHant": "可以以10英里/小時以下通過"
+            },
+            {
+              "key": "B",
+              "text_en": "May drive through if no pedestrians are present",
+              "text_zhHant": "如果沒有行人可以通過"
+            },
+            {
+              "key": "C",
+              "text_en": "Must not drive through at any speed",
+              "text_zhHant": "任何速度都不允許駛入"
+            },
+            {
+              "key": "D",
+              "text_en": "May use only during rush hour",
+              "text_zhHant": "僅在高峰時段可以使用"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "You must not drive through a safety zone at any speed. It is set aside exclusively for pedestrians.",
+          "explanation_zhHant": "安全區內禁止車輛通行，任何速度都不允許駛入。",
+          "tags": [
+            "pedestrian-crossing"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1659 @@
+{
+  "examId": "MOCK-02",
+  "questions": [
+    {
+      "id": "Q-MOCK02-001",
+      "stem_en": "A round sign with a black cross (X) symbol indicates:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A hospital ahead",
+          "text_zhHant": "前方有醫院"
+        },
+        {
+          "key": "B",
+          "text_en": "A railroad crossing ahead",
+          "text_zhHant": "前方有鐵路道口"
+        },
+        {
+          "key": "C",
+          "text_en": "An intersection ahead",
+          "text_zhHant": "前方有路口"
+        },
+        {
+          "key": "D",
+          "text_en": "A dead end ahead",
+          "text_zhHant": "前方是死胡同"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A round yellow sign with a black X is an advance warning sign for a railroad crossing ahead. Be prepared to stop.",
+      "explanation_zh": "带有黑色X的圆形黄色标志是前方铁路道口的预警标志。做好停车准备。",
+      "module": "M02",
+      "tags": [
+        "traffic-signs"
+      ],
+      "explanation_zhHant": "帶有黑色X的圓形黄色標誌是前方鐵路道口的預警標誌。做好停車準備。",
+      "stem_zhHant": "帶有黑色十字（X）符號的圓形標誌表示：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-002",
+      "stem_en": "A red circle with a red slash on a sign, like this one, means:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Slow down",
+          "text_zhHant": "減速"
+        },
+        {
+          "key": "B",
+          "text_en": "The action shown is not allowed",
+          "text_zhHant": "所示行為不允許"
+        },
+        {
+          "key": "C",
+          "text_en": "You must stop",
+          "text_zhHant": "你必須停車"
+        },
+        {
+          "key": "D",
+          "text_en": "Yield to oncoming traffic",
+          "text_zhHant": "讓迎面來車先行"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A red circle with a red diagonal slash over a symbol means the action depicted is prohibited. For example, a red slash over a U-turn arrow means no U-turns.",
+      "explanation_zh": "红色圆圈加红色斜杠覆盖在一个符号上表示所描述的行为被禁止。例如，掉头箭头上的红色斜杠表示禁止掉头。",
+      "module": "M02",
+      "tags": [
+        "traffic-signs",
+        "regulatory"
+      ],
+      "explanation_zhHant": "紅色圓圈加紅色斜杠覆蓋在一個符號上表示所描述的行為被禁止。例如，掉頭箭頭上的紅色斜杠表示禁止掉頭。",
+      "stem_zhHant": "像這樣帶有紅圈和紅斜線的標誌表示：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-003",
+      "stem_en": "When you see this yellow diamond-shaped sign, it means:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "You must turn right",
+          "text_zhHant": "你必須右轉"
+        },
+        {
+          "key": "B",
+          "text_en": "Right lane ends ahead",
+          "text_zhHant": "右車道前方結束"
+        },
+        {
+          "key": "C",
+          "text_en": "The road curves ahead to the right",
+          "text_zhHant": "前方道路向右彎曲"
+        },
+        {
+          "key": "D",
+          "text_en": "A right turn lane is ahead",
+          "text_zhHant": "前方有右轉車道"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Yellow diamond-shaped signs are warning signs. An arrow curving to the right warns that the road ahead curves to the right. Slow down before the curve.",
+      "explanation_zh": "黄色菱形标志是警告标志。向右弯曲的箭头警告前方道路向右弯曲。在弯道前减速。",
+      "module": "M02",
+      "tags": [
+        "traffic-signs",
+        "warning"
+      ],
+      "explanation_zhHant": "黄色菱形標誌是警告標誌。向右弯曲的箭頭警告前方道路向右弯曲。在弯道前減速。",
+      "stem_zhHant": "當你看到這個黃色菱形標誌時，它表示：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-004",
+      "stem_en": "A green traffic signal light means:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Speed up to get through the intersection",
+          "text_zhHant": "加速通過路口"
+        },
+        {
+          "key": "B",
+          "text_en": "Go, but yield to any vehicle or pedestrian still in the intersection",
+          "text_zhHant": "通行，但要讓仍在路口內的車輛或行人先行"
+        },
+        {
+          "key": "C",
+          "text_en": "You have absolute right-of-way",
+          "text_zhHant": "你有絕對的優先通行權"
+        },
+        {
+          "key": "D",
+          "text_en": "You may turn left without yielding",
+          "text_zhHant": "可以不讓行左轉"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A green light means you may proceed, but you must yield to any vehicle or pedestrian still in the intersection.",
+      "explanation_zh": "绿灯表示你可以通行，但必须让仍在交叉路口内的车辆或行人先行。",
+      "module": "M02",
+      "tags": [
+        "traffic-signs",
+        "signals",
+        "green-light"
+      ],
+      "explanation_zhHant": "綠燈表示你可以通行，但必須讓仍在交叉路口內的車輛或行人先行。",
+      "stem_zhHant": "綠色交通信號燈表示：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-005",
+      "stem_en": "Double solid yellow lines in the center of the road mean:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "You may pass if no traffic is coming",
+          "text_zhHant": "如果沒有來車可以超車"
+        },
+        {
+          "key": "B",
+          "text_en": "Passing is not allowed from either direction",
+          "text_zhHant": "任何方向都不允許超車"
+        },
+        {
+          "key": "C",
+          "text_en": "The road is one-way",
+          "text_zhHant": "道路是單行道"
+        },
+        {
+          "key": "D",
+          "text_en": "You may cross them to turn into a driveway",
+          "text_zhHant": "你可以越過它們轉入車道"
+        }
+      ],
+      "answer": "D",
+      "explanation_en": "Double solid yellow lines mean you cannot pass in either direction. However, you may cross them to turn left into a driveway, private road, or to make a U-turn where permitted.",
+      "explanation_zh": "双实线黄线表示双方向都不允许超车。但是，你可以越过它们左转进入车道、私人道路或在允许的地方掉头。",
+      "module": "M02",
+      "tags": [
+        "traffic-signs",
+        "road-markings"
+      ],
+      "explanation_zhHant": "雙實線黄線表示雙方向都不允許超車。但是，你可以越過它们左轉進入車道、私人道路或在允許的地方掉頭。",
+      "stem_zhHant": "道路中央的雙實線黃線表示：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-006",
+      "stem_en": "A yield sign is shaped like a(n):",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Octagon",
+          "text_zhHant": "八角形"
+        },
+        {
+          "key": "B",
+          "text_en": "Triangle pointing downward",
+          "text_zhHant": "向下指的三角形"
+        },
+        {
+          "key": "C",
+          "text_en": "Circle",
+          "text_zhHant": "圓形"
+        },
+        {
+          "key": "D",
+          "text_en": "Square",
+          "text_zhHant": "正方形"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A yield sign is a red and white downward-pointing triangle. It means you must slow down and yield the right-of-way to vehicles and pedestrians.",
+      "explanation_zh": "让行标志是一个红白相间的倒三角形。它表示你必须减速并让行车辆和行人。",
+      "module": "M02",
+      "tags": [
+        "traffic-signs",
+        "sign-shapes"
+      ],
+      "explanation_zhHant": "讓行標誌是一個紅白相間的倒三角形。它表示你必須減速并讓行車輛和行人。",
+      "stem_zhHant": "讓行標誌的形狀是：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-007",
+      "stem_en": "When you see this red arrow signal, it means:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "You may turn in the direction of the arrow after stopping",
+          "text_zhHant": "停車後可以向箭頭方向轉彎"
+        },
+        {
+          "key": "B",
+          "text_en": "Stop and do not turn in the direction of the arrow until the red arrow goes off",
+          "text_zhHant": "停車，在紅色箭頭熄滅前不得向箭頭方向轉彎"
+        },
+        {
+          "key": "C",
+          "text_en": "Slow down and proceed with caution in that direction",
+          "text_zhHant": "減速謹慎向該方向通行"
+        },
+        {
+          "key": "D",
+          "text_en": "Yield, then turn in the direction of the arrow",
+          "text_zhHant": "讓行，然後向箭頭方向轉彎"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A red arrow means stop and do not turn in the direction of the arrow. Wait until the red arrow goes off and a green signal or green arrow appears before making your turn.",
+      "explanation_zh": "红色箭头表示停车且不得向箭头方向转弯。等到红色箭头熄灭并出现绿色信号或绿色箭头后才能转弯。",
+      "module": "M02",
+      "tags": [
+        "traffic-signs",
+        "signals"
+      ],
+      "explanation_zhHant": "紅色箭頭表示停車且不得向箭頭方向轉弯。等到紅色箭頭熄滅并出現綠色信號或綠色箭頭後才能轉弯。",
+      "stem_zhHant": "當你看到這個紅色箭頭信號時，它表示：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-008",
+      "stem_en": "When you reach a roundabout (traffic circle), you must:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Stop and wait for all traffic to clear",
+          "text_zhHant": "停車等待所有車輛通過"
+        },
+        {
+          "key": "B",
+          "text_en": "Yield to traffic already in the roundabout",
+          "text_zhHant": "讓已在環內行駛的車輛先行"
+        },
+        {
+          "key": "C",
+          "text_en": "Speed up to merge into traffic",
+          "text_zhHant": "加速合流進入車流"
+        },
+        {
+          "key": "D",
+          "text_en": "Always turn right first",
+          "text_zhHant": "總是先右轉"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When entering a roundabout, yield to traffic already in the circle. Look left before entering and keep moving in a counterclockwise direction.",
+      "explanation_zh": "进入环形交叉路口时，让已在环内的车辆先行。进入前向左看，并沿逆时针方向行驶。",
+      "module": "M03",
+      "tags": [
+        "right-of-way",
+        "roundabouts",
+        "roundabout"
+      ],
+      "explanation_zhHant": "進入環形交叉路口時，讓已在環內的車輛先行。進入前向左看，并沿逆時针方向行駛。",
+      "stem_zhHant": "到達環形交叉路口時，你必須：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-009",
+      "stem_en": "Who has the right-of-way when a pedestrian is in a crosswalk that has no traffic signal?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The vehicle",
+          "text_zhHant": "車輛"
+        },
+        {
+          "key": "B",
+          "text_en": "The pedestrian",
+          "text_zhHant": "行人"
+        },
+        {
+          "key": "C",
+          "text_en": "Whoever arrives first",
+          "text_zhHant": "先到達的一方"
+        },
+        {
+          "key": "D",
+          "text_en": "It depends on the speed of the vehicle",
+          "text_zhHant": "取決於車輛的速度"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Pedestrians always have the right-of-way in crosswalks, whether marked or unmarked. Drivers must stop and wait for them to cross.",
+      "explanation_zh": "行人在人行横道上始终拥有先行权，无论是有标记还是无标记的人行横道。驾驶员必须停车等待行人通过。",
+      "module": "M03",
+      "tags": [
+        "right-of-way",
+        "pedestrians",
+        "pedestrian-crossing"
+      ],
+      "explanation_zhHant": "行人在人行橫道上始終擁有先行權，無論是有標記還是無標記的人行橫道。駕駛員必須停車等待行人通過。",
+      "stem_zhHant": "在沒有交通信號的人行橫道上，行人有優先通行權的是誰？",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-010",
+      "stem_en": "When turning left on a green light, you must yield to:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Only vehicles turning right",
+          "text_zhHant": "僅右轉的車輛"
+        },
+        {
+          "key": "B",
+          "text_en": "Oncoming vehicles going straight or turning right",
+          "text_zhHant": "直行或右轉的迎面來車"
+        },
+        {
+          "key": "C",
+          "text_en": "No one, because you have a green light",
+          "text_zhHant": "沒有人，因為你有綠燈"
+        },
+        {
+          "key": "D",
+          "text_en": "Only pedestrians if they are already in the crosswalk",
+          "text_zhHant": "僅已在人行橫道上的行人"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When turning left on a green light, you must yield to oncoming vehicles going straight or turning right, as well as pedestrians in the crosswalk.",
+      "explanation_zh": "绿灯时左转，你必须让直行或右转的迎面来车以及在人行横道上的行人先行。",
+      "module": "M03",
+      "tags": [
+        "right-of-way",
+        "left-turns",
+        "green-light"
+      ],
+      "explanation_zhHant": "綠燈時左轉，你必須讓直行或右轉的迎面來車以及在人行橫道上的行人先行。",
+      "stem_zhHant": "綠燈時左轉，你必須讓：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-011",
+      "stem_en": "If you are entering a road from a driveway, you must:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Yield to vehicles and pedestrians already on the road",
+          "text_zhHant": "讓已在道路上的車輛和行人先行"
+        },
+        {
+          "key": "B",
+          "text_en": "Honk to warn other drivers",
+          "text_zhHant": "按喇叭警告其他駕駛員"
+        },
+        {
+          "key": "C",
+          "text_en": "Turn right only",
+          "text_zhHant": "只能右轉"
+        },
+        {
+          "key": "D",
+          "text_en": "Proceed without stopping if you have a clear view",
+          "text_zhHant": "如果視線良好可以不停車直接通行"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "When entering a road from a driveway, private road, or unpaved road, you must yield to all vehicles and pedestrians already on the road.",
+      "explanation_zh": "从车道、私人道路或未铺路面进入道路时，你必须让已在道路上的所有车辆和行人先行。",
+      "module": "M03",
+      "tags": [
+        "right-of-way",
+        "driveways"
+      ],
+      "explanation_zhHant": "從車道、私人道路或未鋪路面進入道路時，你必須讓已在道路上的所有車輛和行人先行。",
+      "stem_zhHant": "從車道入口進入道路時，你必須：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-012",
+      "stem_en": "At a T-intersection without traffic signs or signals, who has the right-of-way?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Traffic on the through (continuing) road",
+          "text_zhHant": "貫通道路上的車輛"
+        },
+        {
+          "key": "B",
+          "text_en": "Traffic on the terminating road",
+          "text_zhHant": "終止道路上的車輛"
+        },
+        {
+          "key": "C",
+          "text_en": "The vehicle that arrived first",
+          "text_zhHant": "先到達的車輛"
+        },
+        {
+          "key": "D",
+          "text_en": "The vehicle making a left turn",
+          "text_zhHant": "正在左轉的車輛"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "At a T-intersection, vehicles on the through (continuing) road have the right-of-way over vehicles on the terminating road.",
+      "explanation_zh": "在丁字路口，贯通道路上的车辆比终止道路上的车辆有先行权。",
+      "module": "M03",
+      "tags": [
+        "right-of-way",
+        "intersections",
+        "t-intersection-sign"
+      ],
+      "explanation_zhHant": "在丁字路口，貫通道路上的車輛比終止道路上的車輛有先行權。",
+      "stem_zhHant": "在沒有交通標誌或信號燈的丁字路口，誰有優先通行權？",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-013",
+      "stem_en": "You are approaching an intersection where you want to turn right on a red light. You must:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Slow down and turn when safe",
+          "text_zhHant": "減速，安全時轉彎"
+        },
+        {
+          "key": "B",
+          "text_en": "Come to a complete stop first, then turn when safe",
+          "text_zhHant": "先完全停車，然後安全時轉彎"
+        },
+        {
+          "key": "C",
+          "text_en": "Wait for the green light",
+          "text_zhHant": "等待綠燈"
+        },
+        {
+          "key": "D",
+          "text_en": "Yield but you do not need to stop",
+          "text_zhHant": "讓行但不需要停車"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You may turn right on a red light after coming to a complete stop, unless a sign says 'No Turn on Red.' Yield to pedestrians and traffic before turning.",
+      "explanation_zh": "红灯时你可以右转，但必须先完全停车，除非有标志写着'红灯禁止转弯'。转弯前让行行人和车辆。",
+      "module": "M03",
+      "tags": [
+        "right-of-way",
+        "right-on-red",
+        "red-light"
+      ],
+      "explanation_zhHant": "紅燈時你可以右轉，但必須先完全停車，除非有標誌写着'紅燈禁止轉弯'。轉弯前讓行行人和車輛。",
+      "stem_zhHant": "你駛近一個路口想在紅燈時右轉，你必須：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-014",
+      "stem_en": "A blind pedestrian using a white cane or guide dog is at the corner. You must:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Honk to let them know you are there",
+          "text_zhHant": "按喇叭讓他們知道你在那裡"
+        },
+        {
+          "key": "B",
+          "text_en": "Stop and yield the right-of-way",
+          "text_zhHant": "停車讓行"
+        },
+        {
+          "key": "C",
+          "text_en": "Proceed carefully around them",
+          "text_zhHant": "小心地繞過他們"
+        },
+        {
+          "key": "D",
+          "text_en": "Flash your headlights to alert them",
+          "text_zhHant": "閃燈提醒他們"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You must always yield to a blind pedestrian using a white cane or guide dog. Do not honk, as it may startle them. Wait until they have completely crossed the street.",
+      "explanation_zh": "你必须始终让使用白手杖或导盲犬的盲人行人先行。不要按喇叭，因为可能会惊吓到他们。等待他们完全穿过街道。",
+      "module": "M03",
+      "tags": [
+        "right-of-way",
+        "blind-pedestrians",
+        "pedestrian-crossing"
+      ],
+      "explanation_zhHant": "你必須始終讓使用白手杖或导盲犬的盲人行人先行。不要按喇叭，因為可能會驚吓到他们。等待他们完全穿過街道。",
+      "stem_zhHant": "使用白手杖或導盲犬的盲人行人在路口，你必須：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-015",
+      "stem_en": "The speed limit near a senior center or children's playground is typically:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "15 mph",
+          "text_zhHant": "15英里/小時"
+        },
+        {
+          "key": "B",
+          "text_en": "20 mph",
+          "text_zhHant": "20英里/小時"
+        },
+        {
+          "key": "C",
+          "text_en": "25 mph",
+          "text_zhHant": "25英里/小時"
+        },
+        {
+          "key": "D",
+          "text_en": "30 mph",
+          "text_zhHant": "30英里/小時"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "The speed limit near a senior center or playground is typically 25 mph when posted. Always watch for pedestrians in these areas.",
+      "explanation_zh": "在标示的情况下，老年人中心或游乐场附近的速度限制通常为25英里/小时。在这些区域始终注意行人。",
+      "module": "M04",
+      "tags": [
+        "speed-laws",
+        "special-zones"
+      ],
+      "explanation_zhHant": "在標示的情况下，老年人中心或遊乐場附近的速度限制通常為25英裡/小時。在這些區域始終注意行人。",
+      "stem_zhHant": "老年中心或兒童遊樂場附近的速度限制通常是：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-016",
+      "stem_en": "You should reduce your speed when:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The road is dry and visibility is clear",
+          "text_zhHant": "道路乾燥且能見度良好"
+        },
+        {
+          "key": "B",
+          "text_en": "You cannot see 1,000 feet ahead due to fog",
+          "text_zhHant": "因霧而看不到前方1000英尺"
+        },
+        {
+          "key": "C",
+          "text_en": "You are on a straight freeway",
+          "text_zhHant": "在筆直的高速公路上"
+        },
+        {
+          "key": "D",
+          "text_en": "Traffic is flowing smoothly",
+          "text_zhHant": "交通流暢"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You should reduce your speed when visibility is limited, such as when fog prevents you from seeing 1,000 feet ahead. Always drive at a speed that is safe for current conditions.",
+      "explanation_zh": "当能见度受限时应减速，例如当雾气使你无法看到前方1000英尺时。始终以适合当前条件的安全速度行驶。",
+      "module": "M04",
+      "tags": [
+        "speed-laws",
+        "visibility"
+      ],
+      "explanation_zhHant": "當能見度受限時應減速，例如當霧氣使你無法看到前方1000英尺時。始終以適合當前條件的安全速度行駛。",
+      "stem_zhHant": "你應該在什麼時候減速？",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-017",
+      "stem_en": "The speed limit in an unposted blind intersection is:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "10 mph",
+          "text_zhHant": "10英里/小時"
+        },
+        {
+          "key": "B",
+          "text_en": "15 mph",
+          "text_zhHant": "15英里/小時"
+        },
+        {
+          "key": "C",
+          "text_en": "20 mph",
+          "text_zhHant": "20英里/小時"
+        },
+        {
+          "key": "D",
+          "text_en": "25 mph",
+          "text_zhHant": "25英里/小時"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "The speed limit at a blind intersection (where you cannot see 100 feet in either direction in the last 100 feet before crossing) is 15 mph.",
+      "explanation_zh": "在盲交叉路口（在交叉路口前最后100英尺内，任一方向都无法看到100英尺处的路口），速度限制为15英里/小时。",
+      "module": "M04",
+      "tags": [
+        "speed-laws",
+        "blind-intersection"
+      ],
+      "explanation_zhHant": "在盲交叉路口（在交叉路口前最後100英尺內，任一方向都無法看到100英尺處的路口），速度限制為15英裡/小時。",
+      "stem_zhHant": "未標示的盲區路口速度限制是：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-018",
+      "stem_en": "When driving in heavy rain, your speed should be reduced by about:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "5 to 10 mph",
+          "text_zhHant": "5到10英里/小時"
+        },
+        {
+          "key": "B",
+          "text_en": "One-third of the normal speed",
+          "text_zhHant": "正常速度的三分之一"
+        },
+        {
+          "key": "C",
+          "text_en": "Half of the normal speed",
+          "text_zhHant": "正常速度的一半"
+        },
+        {
+          "key": "D",
+          "text_en": "No reduction is needed with good tires",
+          "text_zhHant": "如果輪胎好不需要降速"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "In heavy rain, reduce your speed by about one-third. On packed snow, reduce by half. On ice, slow to a crawl.",
+      "explanation_zh": "在大雨中，将速度降低约三分之一。在压实的雪地上，减速一半。在冰面上，缓慢行驶。",
+      "module": "M04",
+      "tags": [
+        "speed-laws",
+        "adverse-weather"
+      ],
+      "explanation_zhHant": "在大雨中，將速度降低约三分之一。在壓實的雪地上，減速一半。在冰面上，緩慢行駛。",
+      "stem_zhHant": "在大雨中駕駛時，你的速度應降低約：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-019",
+      "stem_en": "When a lane ends and you need to merge, who has the right-of-way?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The driver in the ending lane",
+          "text_zhHant": "結束車道的駕駛員"
+        },
+        {
+          "key": "B",
+          "text_en": "The driver in the continuing lane",
+          "text_zhHant": "繼續車道的駕駛員"
+        },
+        {
+          "key": "C",
+          "text_en": "Whoever gets there first",
+          "text_zhHant": "先到達的人"
+        },
+        {
+          "key": "D",
+          "text_en": "The faster vehicle",
+          "text_zhHant": "速度較快的車輛"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When your lane ends and you need to merge, you must yield to traffic already in the continuing lane. Signal early, check blind spots, and merge safely.",
+      "explanation_zh": "当你的车道结束需要合流时，你必须让已在连续车道上的车辆先行。提前打信号灯，检查盲区，安全合流。",
+      "module": "M05",
+      "tags": [
+        "lane-control",
+        "merging",
+        "lane-ends",
+        "merging-traffic"
+      ],
+      "explanation_zhHant": "當你的車道結束需要合流時，你必須讓已在連續車道上的車輛先行。提前打信號燈，檢查盲區，安全合流。",
+      "stem_zhHant": "車道結束需要合流時，誰有優先通行權？",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-021",
+      "stem_en": "When making a left turn from a two-way street onto a one-way street, you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Turn into any lane on the one-way street",
+          "text_zhHant": "轉入單行道的任何車道"
+        },
+        {
+          "key": "B",
+          "text_en": "Complete the turn into the left lane of the one-way street",
+          "text_zhHant": "完成轉彎進入單行道的左車道"
+        },
+        {
+          "key": "C",
+          "text_en": "Turn into the right lane of the one-way street",
+          "text_zhHant": "轉入單行道的右車道"
+        },
+        {
+          "key": "D",
+          "text_en": "Wait until all lanes are clear before turning",
+          "text_zhHant": "等所有車道都暢通後再轉彎"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When turning left from a two-way street onto a one-way street, you should complete the turn into the left lane (closest lane) of the one-way street.",
+      "explanation_zh": "从双向街道左转到单行道时，你应完成转弯进入单行道的左车道（最近车道）。",
+      "module": "M05",
+      "tags": [
+        "lane-control",
+        "turning",
+        "one-way"
+      ],
+      "explanation_zhHant": "從雙向街道左轉到單行道時，你應完成轉弯進入單行道的左車道（最近車道）。",
+      "stem_zhHant": "從雙向道路左轉進入單行道時，你應該：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-022",
+      "stem_en": "It is illegal to pass another vehicle:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "On a broken yellow line",
+          "text_zhHant": "在虛線黃線處"
+        },
+        {
+          "key": "B",
+          "text_en": "Within 100 feet of an intersection or railroad crossing",
+          "text_zhHant": "在距路口或鐵路道口100英尺範圍內"
+        },
+        {
+          "key": "C",
+          "text_en": "When the road is wide enough",
+          "text_zhHant": "道路足夠寬時"
+        },
+        {
+          "key": "D",
+          "text_en": "On a two-lane road with clear visibility",
+          "text_zhHant": "在能見度良好的雙車道上"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "It is illegal to pass within 100 feet of an intersection, bridge, tunnel, or railroad crossing. You also cannot pass when a solid yellow line is on your side.",
+      "explanation_zh": "在距交叉路口、桥梁、隧道或铁路道口100英尺范围内超车是违法的。当你这一侧有实线黄线时也不能超车。",
+      "module": "M05",
+      "tags": [
+        "lane-control",
+        "passing"
+      ],
+      "explanation_zhHant": "在距交叉路口、橋梁、隧道或鐵路道口100英尺範圍內超車是違法的。當你這一側有實線黄線時也不能超車。",
+      "stem_zhHant": "在以下情況下超車是違法的：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-023",
+      "stem_en": "A solid white line between lanes means:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "You may change lanes freely",
+          "text_zhHant": "可以自由變換車道"
+        },
+        {
+          "key": "B",
+          "text_en": "Lane changing is discouraged",
+          "text_zhHant": "不鼓勵變換車道"
+        },
+        {
+          "key": "C",
+          "text_en": "The lane is for carpool vehicles only",
+          "text_zhHant": "該車道僅限合乘車輛"
+        },
+        {
+          "key": "D",
+          "text_en": "The road is about to end",
+          "text_zhHant": "道路即將結束"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A solid white line between lanes means lane changes are discouraged. You should stay in your lane unless it is absolutely necessary to change.",
+      "explanation_zh": "车道之间的实线白线表示不鼓励变道。你应该待在自己的车道内，除非绝对必要。",
+      "module": "M05",
+      "tags": [
+        "lane-control",
+        "road-markings"
+      ],
+      "explanation_zhHant": "車道之間的實線白線表示不鼓勵變道。你應該待在自己的車道內，除非絕對必要。",
+      "stem_zhHant": "車道間的白色實線表示：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-025",
+      "stem_en": "It is illegal to park your vehicle:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "On the right side of the road facing uphill",
+          "text_zhHant": "在面朝上坡的道路右側"
+        },
+        {
+          "key": "B",
+          "text_en": "In a crosswalk",
+          "text_zhHant": "在人行橫道上"
+        },
+        {
+          "key": "C",
+          "text_en": "More than 18 inches from the curb",
+          "text_zhHant": "距路緣超過18英寸"
+        },
+        {
+          "key": "D",
+          "text_en": "Both B and C",
+          "text_zhHant": "B和C都是"
+        }
+      ],
+      "answer": "D",
+      "explanation_en": "It is illegal to park in a crosswalk. You must also park within 18 inches of the curb. Parking more than 18 inches away from the curb is a violation.",
+      "explanation_zh": "在人行横道上停车是违法的。你还必须在距路缘18英寸以内停车。距路缘超过18英寸停车是违规行为。",
+      "module": "M06",
+      "tags": [
+        "parking",
+        "illegal-parking"
+      ],
+      "explanation_zhHant": "在人行橫道上停車是違法的。你還必須在距路緣18英寸以內停車。距路緣超過18英寸停車是違規行為。",
+      "stem_zhHant": "在以下地方停車是違法的：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-026",
+      "stem_en": "A curb painted red means:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "No parking for longer than the time posted",
+          "text_zhHant": "停車時間不超過標示時間"
+        },
+        {
+          "key": "B",
+          "text_en": "Loading zone for passengers only",
+          "text_zhHant": "僅限乘客裝卸區"
+        },
+        {
+          "key": "C",
+          "text_en": "No stopping, standing, or parking",
+          "text_zhHant": "禁止停車、站立或泊車"
+        },
+        {
+          "key": "D",
+          "text_en": "Parking for disabled persons only",
+          "text_zhHant": "僅限殘疾人停車"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A red curb means no stopping, standing, or parking at any time. This includes buses and taxis unless otherwise posted.",
+      "explanation_zh": "红色路缘表示任何时候都不允许停车、站立或泊车。这包括公交车和出租车，除非另有标示。",
+      "module": "M06",
+      "tags": [
+        "parking",
+        "curb-colors",
+        "colored-curbs"
+      ],
+      "explanation_zhHant": "紅色路緣表示任何時候都不允許停車、站立或泊車。這包括公交車和出租車，除非另有標示。",
+      "stem_zhHant": "紅色路緣表示：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-027",
+      "stem_en": "When driving at night, you should dim your high beam headlights when you are within:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "200 feet of an oncoming vehicle",
+          "text_zhHant": "200英尺"
+        },
+        {
+          "key": "B",
+          "text_en": "300 feet of a vehicle ahead going in the same direction",
+          "text_zhHant": "跟車300英尺"
+        },
+        {
+          "key": "C",
+          "text_en": "500 feet of an oncoming vehicle",
+          "text_zhHant": "迎面來車500英尺"
+        },
+        {
+          "key": "D",
+          "text_en": "Both A and B",
+          "text_zhHant": "A和B都是"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Dim your high beams to low beams within 500 feet of an oncoming vehicle and within 300 feet of a vehicle you are following. High beams can blind other drivers.",
+      "explanation_zh": "在距迎面来车500英尺以内以及距你跟随的前车300英尺以内时，将远光灯切换为近光灯。远光灯可能会使其他驾驶员眩目。",
+      "module": "M07",
+      "tags": [
+        "special-conditions",
+        "night-driving"
+      ],
+      "explanation_zhHant": "在距迎面來車500英尺以內以及距你跟隨的前車300英尺以內時，將遠光燈切換為近光燈。遠光燈可能會使其他駕駛員眩目。",
+      "stem_zhHant": "夜間駕駛時，在距迎面來車多遠時應將遠光燈切換為近光燈？",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-029",
+      "stem_en": "What should you do if your brakes fail while driving?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Turn off the engine immediately",
+          "text_zhHant": "立即關閉引擎"
+        },
+        {
+          "key": "B",
+          "text_en": "Pump the brake pedal rapidly, shift to a lower gear, and use the parking brake",
+          "text_zhHant": "快速踩煞車踏板，降檔，使用手煞車"
+        },
+        {
+          "key": "C",
+          "text_en": "Open the door and drag your foot",
+          "text_zhHant": "打開車門用腳拖地"
+        },
+        {
+          "key": "D",
+          "text_en": "Steer into oncoming traffic to slow down",
+          "text_zhHant": "駛向迎面車流以減速"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "If your brakes fail, pump the brake pedal rapidly, downshift to a lower gear to slow the vehicle, and gradually apply the parking brake. Look for something soft to steer into if necessary.",
+      "explanation_zh": "如果刹车失灵，快速踩刹车踏板，降档以减慢车速，并逐渐拉手刹。如果有必要，寻找柔软的东西将车驶入。",
+      "module": "M07",
+      "tags": [
+        "special-conditions",
+        "brake-failure"
+      ],
+      "explanation_zhHant": "如果刹車失靈，快速踩刹車踏板，降檔以減慢車速，并逐渐拉手刹。如果有必要，尋找柔軟的東西將車駛入。",
+      "stem_zhHant": "駕駛時煞車失靈怎麼辦？",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-031",
+      "stem_en": "When approaching a stopped trolley or bus where passengers are boarding or exiting, you must:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Speed up to pass quickly",
+          "text_zhHant": "加速快速通過"
+        },
+        {
+          "key": "B",
+          "text_en": "Stop behind it and wait",
+          "text_zhHant": "在後方停車等待"
+        },
+        {
+          "key": "C",
+          "text_en": "Honk and pass carefully",
+          "text_zhHant": "按喇叭後小心通過"
+        },
+        {
+          "key": "D",
+          "text_en": "Change lanes and pass at a safe speed",
+          "text_zhHant": "變道以安全速度通過"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When a trolley or streetcar is stopped to load or unload passengers, you must stop behind it and wait. Some transit buses may have yield signs requiring you to yield when they signal to re-enter traffic.",
+      "explanation_zh": "当有轨电车或街车停下来让乘客上下车时，你必须在其后方停车等待。一些公交车可能有让行标志，要求你在它们发出信号重新进入交通时让行。",
+      "module": "M08",
+      "tags": [
+        "sharing-road",
+        "public-transit",
+        "stop-sign"
+      ],
+      "explanation_zhHant": "當有軌电車或街車停下來讓乘客上下車時，你必須在其後方停車等待。一些公交車可能有讓行標誌，要求你在它们發出信號重新進入交通時讓行。",
+      "stem_zhHant": "駛近正在上下乘客的停靠有軌電車或公車時，你必須：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-032",
+      "stem_en": "Bicyclists on the road have:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Fewer rights than motor vehicles",
+          "text_zhHant": "比機動車有更少的權利"
+        },
+        {
+          "key": "B",
+          "text_en": "The same rights and responsibilities as motor vehicle drivers",
+          "text_zhHant": "與機動車駕駛員享有相同的權利和責任"
+        },
+        {
+          "key": "C",
+          "text_en": "More rights than motor vehicles",
+          "text_zhHant": "比機動車有更多的權利"
+        },
+        {
+          "key": "D",
+          "text_en": "No rights on the roadway",
+          "text_zhHant": "在道路上沒有權利"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Bicyclists on the road have the same rights and responsibilities as motor vehicle drivers. They must obey traffic signals, signs, and lane markings.",
+      "explanation_zh": "在道路上的骑自行车者与机动车驾驶员拥有相同的权利和责任。他们必须遵守交通信号、标志和车道标记。",
+      "module": "M08",
+      "tags": [
+        "sharing-road",
+        "bicyclists"
+      ],
+      "explanation_zhHant": "在道路上的騎自行車者與機動車駕駛員擁有相同的權利和責任。他们必須遵守交通信號、標誌和車道標記。",
+      "stem_zhHant": "道路上的騎自行車者：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-035",
+      "stem_en": "To avoid being blinded by the glare of oncoming headlights at night, you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Look directly at the headlights",
+          "text_zhHant": "直視車燈"
+        },
+        {
+          "key": "B",
+          "text_en": "Look toward the right edge of the road",
+          "text_zhHant": "看向道路右側邊緣"
+        },
+        {
+          "key": "C",
+          "text_en": "Flash your high beams",
+          "text_zhHant": "閃遠光燈"
+        },
+        {
+          "key": "D",
+          "text_en": "Close one eye",
+          "text_zhHant": "閉上一隻眼"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "To avoid glare from oncoming headlights at night, look toward the right edge of the road. Avoid looking directly at the bright lights.",
+      "explanation_zh": "为避免夜间迎面车灯的眩光，看向道路的右边缘。避免直视强光。",
+      "module": "M09",
+      "tags": [
+        "safe-driving",
+        "night-driving"
+      ],
+      "explanation_zhHant": "為避免夜間迎面車燈的眩光，看向道路的右邊緣。避免直视强光。",
+      "stem_zhHant": "為避免夜間迎面車燈的眩光，你應該：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-037",
+      "stem_en": "Looking far ahead while driving helps you to:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Drive faster",
+          "text_zhHant": "開得更快"
+        },
+        {
+          "key": "B",
+          "text_en": "Spot potential hazards early",
+          "text_zhHant": "及早發現潛在危險"
+        },
+        {
+          "key": "C",
+          "text_en": "Read road signs more easily",
+          "text_zhHant": "更容易閱讀路牌"
+        },
+        {
+          "key": "D",
+          "text_en": "Reduce eye strain",
+          "text_zhHant": "減少眼部疲勞"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Looking far ahead while driving helps you spot potential hazards early and gives you more time to react. Scan 10 to 15 seconds ahead for potential problems.",
+      "explanation_zh": "驾驶时向远处看有助于早期发现潜在危险，并给你更多的反应时间。提前10到15秒扫视前方的潜在问题。",
+      "module": "M09",
+      "tags": [
+        "safe-driving",
+        "scanning"
+      ],
+      "explanation_zhHant": "駕駛時向遠處看有助於早期發現潛在危險，并給你更多的反應時間。提前10到15秒掃视前方的潛在問題。",
+      "stem_zhHant": "駕駛時向遠處看有助於：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-038",
+      "stem_en": "Which of the following will help sober you up after drinking?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Drinking coffee",
+          "text_zhHant": "喝咖啡"
+        },
+        {
+          "key": "B",
+          "text_en": "Taking a cold shower",
+          "text_zhHant": "洗冷水澡"
+        },
+        {
+          "key": "C",
+          "text_en": "Only time",
+          "text_zhHant": "只有時間"
+        },
+        {
+          "key": "D",
+          "text_en": "Eating a large meal",
+          "text_zhHant": "吃一頓大餐"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Only time will sober you up. Coffee, cold showers, food, or exercise will not reduce your blood alcohol concentration (BAC). Your body eliminates alcohol at a fixed rate.",
+      "explanation_zh": "只有时间能让你清醒。咖啡、冷水澡、食物或运动都不会降低你的血液酒精浓度（BAC）。你的身体以固定速率分解酒精。",
+      "module": "M10",
+      "tags": [
+        "alcohol-drugs",
+        "sobering-up"
+      ],
+      "explanation_zhHant": "隻有時間能讓你清醒。咖啡、冷水澡、食物或運動都不會降低你的血液酒精濃度（BAC）。你的身體以固定速率分解酒精。",
+      "stem_zhHant": "以下哪項能讓你在飲酒後恢復清醒？",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-040",
+      "stem_en": "If you refuse to take a chemical test when arrested for DUI, your driving privilege will be suspended for:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "6 months",
+          "text_zhHant": "6個月"
+        },
+        {
+          "key": "B",
+          "text_en": "1 year",
+          "text_zhHant": "1年"
+        },
+        {
+          "key": "C",
+          "text_en": "2 years",
+          "text_zhHant": "2年"
+        },
+        {
+          "key": "D",
+          "text_en": "3 years",
+          "text_zhHant": "3年"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "If you refuse a chemical test when lawfully arrested for DUI, your driving privilege will be suspended for one year for a first offense. Subsequent refusals carry longer suspensions.",
+      "explanation_zh": "如果你在因酒驾被合法逮捕时拒绝化学检测，初次违规你的驾驶资格将被暂停一年。后续拒绝将导致更长的暂停期。",
+      "module": "M10",
+      "tags": [
+        "alcohol-drugs",
+        "chemical-test-refusal"
+      ],
+      "explanation_zhHant": "如果你在因酒駕被合法逮捕時拒絕化學檢測，初次違規你的駕駛資格將被暫停一年。後續拒絕將导致更长的暫停期。",
+      "stem_zhHant": "因酒駕被逮捕後拒絕化學檢測，你的駕駛資格將被暫停：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-041",
+      "stem_en": "Alcohol affects your driving ability by:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Improving your reaction time",
+          "text_zhHant": "改善你的反應時間"
+        },
+        {
+          "key": "B",
+          "text_en": "Reducing your inhibitions, judgment, and reaction time",
+          "text_zhHant": "降低抑制力、判斷力和反應時間"
+        },
+        {
+          "key": "C",
+          "text_en": "Making you more alert",
+          "text_zhHant": "讓你更加警覺"
+        },
+        {
+          "key": "D",
+          "text_en": "Improving your night vision",
+          "text_zhHant": "改善你的夜間視力"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Alcohol impairs your driving by reducing inhibitions, impairing judgment, slowing reaction time, and affecting coordination and vision. Even small amounts affect your ability to drive safely.",
+      "explanation_zh": "酒精会降低抑制力、损害判断力、减慢反应时间并影响协调能力和视力，从而影响你的驾驶。即使少量也会影响你的安全驾驶能力。",
+      "module": "M10",
+      "tags": [
+        "alcohol-drugs",
+        "impairment"
+      ],
+      "explanation_zhHant": "酒精會降低抑制力、损害判斷力、減慢反應時間并影響協調能力和视力，從而影響你的駕駛。即使少量也會影響你的安全駕駛能力。",
+      "stem_zhHant": "酒精影響你的駕駛能力的方式是：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-044",
+      "stem_en": "If you are involved in a collision, you must report it to the DMV within:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "5 days",
+          "text_zhHant": "5天"
+        },
+        {
+          "key": "B",
+          "text_en": "10 days",
+          "text_zhHant": "10天"
+        },
+        {
+          "key": "C",
+          "text_en": "15 days",
+          "text_zhHant": "15天"
+        },
+        {
+          "key": "D",
+          "text_en": "30 days",
+          "text_zhHant": "30天"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You must report a traffic collision to the DMV within 10 days if anyone was injured or killed, or if property damage exceeds $1,000.",
+      "explanation_zh": "如果有人受伤或死亡，或财产损失超过1000美元，你必须在10天内向DMV报告交通碰撞事故。",
+      "module": "M11",
+      "tags": [
+        "insurance",
+        "collision-reporting"
+      ],
+      "explanation_zhHant": "如果有人受傷或死亡，或財產损失超過1000美元，你必須在10天內向DMV報告交通碰撞事故。",
+      "stem_zhHant": "如果你發生碰撞事故，必須在多少天內向DMV報告？",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-045",
+      "stem_en": "California's minimum liability insurance requirements are commonly known as:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "10/20/5",
+          "text_zhHant": "10/20/5"
+        },
+        {
+          "key": "B",
+          "text_en": "15/30/5",
+          "text_zhHant": "15/30/5"
+        },
+        {
+          "key": "C",
+          "text_en": "25/50/10",
+          "text_zhHant": "25/50/10"
+        },
+        {
+          "key": "D",
+          "text_en": "20/40/10",
+          "text_zhHant": "20/40/10"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "California's minimum liability insurance is 15/30/5: $15,000 for injury or death of one person, $30,000 for injury or death of two or more persons, and $5,000 for property damage.",
+      "explanation_zh": "加州最低责任保险为15/30/5：单人伤亡15,000美元，两人或以上伤亡30,000美元，财产损失5,000美元。",
+      "module": "M11",
+      "tags": [
+        "insurance",
+        "minimum-coverage"
+      ],
+      "explanation_zhHant": "加州最低責任保險為15/30/5：單人傷亡15,000美元，兩人或以上傷亡30,000美元，財產损失5,000美元。",
+      "stem_zhHant": "加州最低責任保險要求通常被稱為：",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-046",
+      "stem_en": "When you see a triangular orange sign on the back of a vehicle, it indicates:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The vehicle is making a wide turn",
+          "text_zhHant": "車輛正在大幅度轉彎"
+        },
+        {
+          "key": "B",
+          "text_en": "The vehicle is a slow-moving vehicle",
+          "text_zhHant": "車輛是慢速車輛"
+        },
+        {
+          "key": "C",
+          "text_en": "The vehicle is carrying hazardous materials",
+          "text_zhHant": "車輛正在運輸危險物品"
+        },
+        {
+          "key": "D",
+          "text_en": "The vehicle is an emergency vehicle",
+          "text_zhHant": "車輛是緊急車輛"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A triangular orange sign (slow-moving vehicle emblem) on the back of a vehicle indicates it is a slow-moving vehicle traveling 25 mph or less. Use caution and be prepared to reduce your speed.",
+      "explanation_zh": "车辆后方的三角形橙色标志（慢速车辆标志）表示这是一辆速度为25英里/小时或更低的慢速车辆。请谨慎驾驶并准备减速。",
+      "module": "M08",
+      "tags": [
+        "sharing-road",
+        "slow-vehicles",
+        "bac"
+      ],
+      "explanation_zhHant": "車輛後方的三角形橙色標誌（慢速車輛標誌）表示這是一輛速度為25英裡/小時或更低的慢速車輛。請謹慎駕駛并準備減速。",
+      "stem_zhHant": "車輛後方的三角形橙色標誌表示：",
+      "driverEd": false
+    },
+    {
+      "stem_en": "During the first 12 months of having a provisional license, a minor cannot drive between 11 PM and 5 AM unless:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "They have a signed note from a physician or employer"
+        },
+        {
+          "key": "B",
+          "text_en": "They are with a friend over 21"
+        },
+        {
+          "key": "C",
+          "text_en": "They have completed extra driving hours"
+        },
+        {
+          "key": "D",
+          "text_en": "They are driving on local streets only"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "Exceptions to the driving curfew include medical need, school activity, employment, or family necessity, each requiring appropriate signed documentation.",
+      "explanation_zh": "宵禁例外包括医疗需要、学校活动、工作或家庭需要，每种情况都需要相应的签署文件。",
+      "module": "M01",
+      "tags": [
+        "minor",
+        "curfew-exception"
+      ],
+      "id": "Q-MOCK02-DE01",
+      "driverEd": true
+    },
+    {
+      "stem_en": "A minor's instruction permit is valid for:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "6 months"
+        },
+        {
+          "key": "B",
+          "text_en": "12 months"
+        },
+        {
+          "key": "C",
+          "text_en": "18 months"
+        },
+        {
+          "key": "D",
+          "text_en": "24 months"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "An instruction permit is valid for 12 months from the date the application is accepted.",
+      "explanation_zh": "学习许可证自申请被接受之日起有效期为12个月。",
+      "module": "M01",
+      "tags": [
+        "minor",
+        "permit-validity"
+      ],
+      "id": "Q-MOCK02-DE02",
+      "driverEd": true
+    },
+    {
+      "stem_en": "When practicing driving with a permit, a minor must be accompanied by a California-licensed driver who is at least:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "18 years old"
+        },
+        {
+          "key": "B",
+          "text_en": "21 years old"
+        },
+        {
+          "key": "C",
+          "text_en": "25 years old"
+        },
+        {
+          "key": "D",
+          "text_en": "30 years old"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A minor with a permit must be accompanied by a California-licensed driver who is at least 25 years old.",
+      "explanation_zh": "持有学习许可证的未成年人驾车时必须有年满25岁的加州持照驾驶员陪同。",
+      "module": "M01",
+      "tags": [
+        "minor",
+        "supervising-driver"
+      ],
+      "id": "Q-MOCK02-DE03",
+      "driverEd": true
+    },
+    {
+      "stem_en": "The knowledge test for minors applying for a Class C license has:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "36 questions, need 30 correct"
+        },
+        {
+          "key": "B",
+          "text_en": "46 questions, need 38 correct"
+        },
+        {
+          "key": "C",
+          "text_en": "50 questions, need 40 correct"
+        },
+        {
+          "key": "D",
+          "text_en": "36 questions, need 31 correct"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "The minor knowledge test has 46 questions and requires at least 38 correct answers (83%) to pass.",
+      "explanation_zh": "未成年人笔试共46道题，需答对至少38题（83%）才能通过。",
+      "module": "M01",
+      "tags": [
+        "minor",
+        "knowledge-test"
+      ],
+      "id": "Q-MOCK02-DE04",
+      "driverEd": true
+    },
+    {
+      "stem_en": "If minors fail the knowledge test, they must wait how long before retaking it?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "24 hours"
+        },
+        {
+          "key": "B",
+          "text_en": "3 days"
+        },
+        {
+          "key": "C",
+          "text_en": "7 days"
+        },
+        {
+          "key": "D",
+          "text_en": "14 days"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Minors must wait 7 days to retake a failed knowledge test, not including the day of failure.",
+      "explanation_zh": "未成年人笔试不合格需等待7天才能重考，不包括考试当天。",
+      "module": "M01",
+      "tags": [
+        "minor",
+        "test-retake"
+      ],
+      "id": "Q-MOCK02-DE05",
+      "driverEd": true
+    },
+    {
+      "stem_en": "A parent or guardian can cancel a minor's driver license by:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Calling the DMV"
+        },
+        {
+          "key": "B",
+          "text_en": "Sending an email to DMV"
+        },
+        {
+          "key": "C",
+          "text_en": "Completing a Request for Cancellation form"
+        },
+        {
+          "key": "D",
+          "text_en": "Going to any police station"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A parent or guardian may cancel their teen's license by completing a Request for Cancellation or Surrender form.",
+      "explanation_zh": "父母或监护人可以通过填写取消或放弃驾照申请表来取消其未成年子女的驾照。",
+      "module": "M01",
+      "tags": [
+        "minor",
+        "parent-cancel"
+      ],
+      "id": "Q-MOCK02-DE06",
+      "driverEd": true
+    },
+    {
+      "stem_en": "A minor with a provisional license who needs to drive a family member can drive during curfew hours if they have:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A note signed by their parent or guardian"
+        },
+        {
+          "key": "B",
+          "text_en": "A note signed by the family member"
+        },
+        {
+          "key": "C",
+          "text_en": "A note signed by their school"
+        },
+        {
+          "key": "D",
+          "text_en": "No special documentation needed"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "To drive a family member during curfew, the minor must carry a note signed by parent/guardian stating the reason and family member.",
+      "explanation_zh": "要在宵禁时间开车送家人，未成年人必须携带父母/监护人签署的说明，注明原因和家庭成员。",
+      "module": "M01",
+      "tags": [
+        "minor",
+        "family-exception"
+      ],
+      "id": "Q-MOCK02-DE07",
+      "driverEd": true
+    },
+    {
+      "stem_en": "Driver education for minors is offered at:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Only DMV-licensed driving schools"
+        },
+        {
+          "key": "B",
+          "text_en": "Only high schools"
+        },
+        {
+          "key": "C",
+          "text_en": "Both DMV-licensed driving schools and some high schools"
+        },
+        {
+          "key": "D",
+          "text_en": "Only online programs"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Driver education and training are offered at DMV-licensed driving schools and some high schools.",
+      "explanation_zh": "驾驶教育和培训在DMV授权的驾校和一些高中提供。",
+      "module": "M01",
+      "tags": [
+        "minor",
+        "driver-ed-location"
+      ],
+      "id": "Q-MOCK02-DE08",
+      "driverEd": true
+    },
+    {
+      "stem_en": "A minor cannot use their instruction permit until they:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Turn 16"
+        },
+        {
+          "key": "B",
+          "text_en": "Start behind-the-wheel training with an instructor who validates the permit"
+        },
+        {
+          "key": "C",
+          "text_en": "Complete 10 hours of driving"
+        },
+        {
+          "key": "D",
+          "text_en": "Pass a vision test again"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Minors must wait to use their permit until they start behind-the-wheel training with an instructor who validates it.",
+      "explanation_zh": "未成年人需等到开始跟教练进行路训，由教练验证许可证后才能使用学习许可证。",
+      "module": "M01",
+      "tags": [
+        "minor",
+        "permit-activation"
+      ],
+      "id": "Q-MOCK02-DE09",
+      "driverEd": true
+    },
+    {
+      "stem_en": "If both parents share joint custody of a minor, who must sign the license application?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Either parent"
+        },
+        {
+          "key": "B",
+          "text_en": "Both parents"
+        },
+        {
+          "key": "C",
+          "text_en": "Only the parent the minor lives with"
+        },
+        {
+          "key": "D",
+          "text_en": "Neither — the minor can sign alone at 16"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "If parents share joint custody, both must sign the minor's application.",
+      "explanation_zh": "如果父母共同拥有监护权，则双方都必须签署未成年人的申请。",
+      "module": "M01",
+      "tags": [
+        "minor",
+        "joint-custody"
+      ],
+      "id": "Q-MOCK02-DE10",
+      "driverEd": true
+    }
+  ]
+}

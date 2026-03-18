@@ -1,0 +1,898 @@
+{
+  "moduleId": "M01",
+  "sections": [
+    {
+      "sectionId": "S01",
+      "questions": [
+        {
+          "id": "M01-S01-Q01",
+          "stem_en": "A Class C driver license allows you to drive a 2-axle vehicle with a GVWR of how many pounds or less?",
+          "stem_zhHant": "C類駕照允許您駕駛總重量不超過多少磅的兩軸車輛？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "10,000 lbs",
+              "text_zhHant": "10,000磅"
+            },
+            {
+              "key": "B",
+              "text_en": "18,000 lbs",
+              "text_zhHant": "18,000磅"
+            },
+            {
+              "key": "C",
+              "text_en": "26,000 lbs",
+              "text_zhHant": "26,000磅"
+            },
+            {
+              "key": "D",
+              "text_en": "33,000 lbs",
+              "text_zhHant": "33,000磅"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "A Class C license allows you to drive a 2-axle vehicle with a GVWR of 26,000 lbs or less, including towing a trailer of 10,000 lbs GVWR or less.",
+          "explanation_zhHant": "C類駕照允許駕駛總重量不超過26,000磅的兩軸車輛，包括拖掛重量不超過10,000磅的拖車。",
+          "tags": []
+        },
+        {
+          "id": "M01-S01-Q02",
+          "stem_en": "Which license class is required to operate a two-wheel motorcycle?",
+          "stem_zhHant": "駕駛兩輪摩托車需要哪種類別的駕照？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Class C",
+              "text_zhHant": "C類"
+            },
+            {
+              "key": "B",
+              "text_en": "Class M1",
+              "text_zhHant": "M1類"
+            },
+            {
+              "key": "C",
+              "text_en": "Class M2",
+              "text_zhHant": "M2類"
+            },
+            {
+              "key": "D",
+              "text_en": "Class B",
+              "text_zhHant": "B類"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "A Class M1 license is required to operate a two-wheel motorcycle or motor-driven cycle. Class M2 is for motorized bicycles and mopeds.",
+          "explanation_zhHant": "M1類駕照用於駕駛兩輪摩托車。M2類駕照用於駕駛機動自行車和助力車。",
+          "tags": []
+        },
+        {
+          "id": "M01-S01-Q03",
+          "stem_en": "If you hold a valid Class A license, which of the following vehicles can you legally drive?",
+          "stem_zhHant": "如果您持有有效的A類駕照，您可以合法駕駛以下哪種車輛？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Only commercial combination vehicles",
+              "text_zhHant": "僅限商業組合車輛"
+            },
+            {
+              "key": "B",
+              "text_en": "Only vehicles requiring a Class A license",
+              "text_zhHant": "僅限需要A類駕照的車輛"
+            },
+            {
+              "key": "C",
+              "text_en": "Vehicles covered by Class A, B, and C licenses",
+              "text_zhHant": "A類、B類和C類駕照允許的所有車輛"
+            },
+            {
+              "key": "D",
+              "text_en": "Vehicles covered by Class A and M1 licenses",
+              "text_zhHant": "A類和M1類駕照允許的車輛"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Higher class licenses include the privileges of lower classes. A Class A license holder can drive vehicles covered by Class A, B, and C licenses.",
+          "explanation_zhHant": "高級別駕照包含低級別駕照的駕駛權限。持有A類駕照可以駕駛A類、B類和C類駕照允許的所有車輛。",
+          "tags": []
+        },
+        {
+          "id": "M01-S01-Q04",
+          "stem_en": "A Class M2 license is required to operate which type of vehicle?",
+          "stem_zhHant": "M2類駕照用於駕駛哪種類型的車輛？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "A two-wheel motorcycle",
+              "text_zhHant": "兩輪摩托車"
+            },
+            {
+              "key": "B",
+              "text_en": "A motorized bicycle or moped",
+              "text_zhHant": "機動自行車或助力車"
+            },
+            {
+              "key": "C",
+              "text_en": "A bus with passengers",
+              "text_zhHant": "載客公交車"
+            },
+            {
+              "key": "D",
+              "text_en": "A vehicle over 26,001 lbs GVWR",
+              "text_zhHant": "總重量超過26,001磅的車輛"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "A Class M2 license is for motorized bicycles, mopeds, or any bicycle with an attached motor.",
+          "explanation_zhHant": "M2類駕照用於駕駛機動自行車、助力車或任何裝有馬達的自行車。",
+          "tags": []
+        },
+        {
+          "id": "M01-S01-Q05",
+          "stem_en": "A commercial Class B license is required to operate:",
+          "stem_zhHant": "商業B類駕照用於駕駛：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "A combination of vehicles over 26,001 lbs with a towed vehicle over 10,000 lbs",
+              "text_zhHant": "總重量超過26,001磅且被拖車輛超過10,000磅的組合車輛"
+            },
+            {
+              "key": "B",
+              "text_en": "A single vehicle with a GVWR of 26,001 lbs or more, or a bus",
+              "text_zhHant": "總重量超過26,001磅的單一車輛或公交車"
+            },
+            {
+              "key": "C",
+              "text_en": "A standard passenger car",
+              "text_zhHant": "標準乘用車"
+            },
+            {
+              "key": "D",
+              "text_en": "A two-wheel motorcycle",
+              "text_zhHant": "兩輪摩托車"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "A commercial Class B license is required for a single vehicle with a GVWR of 26,001 lbs or more, or any bus (except a trailer bus).",
+          "explanation_zhHant": "商業B類駕照用於駕駛總重量超過26,001磅的單一車輛或公交車（拖車公交車除外）。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S02",
+      "questions": [
+        {
+          "id": "M01-S02-Q01",
+          "stem_en": "To apply for an original California driver license, which of the following is required?",
+          "stem_zhHant": "首次申請加州駕照，以下哪項是必須的？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Apply online without visiting a DMV office",
+              "text_zhHant": "在網上申請，無需前往DMV辦公室"
+            },
+            {
+              "key": "B",
+              "text_en": "Visit a DMV office and complete a DL 44 application form",
+              "text_zhHant": "親自前往DMV辦公室並填寫DL 44申請表"
+            },
+            {
+              "key": "C",
+              "text_en": "Have a relative submit the application on your behalf",
+              "text_zhHant": "讓親屬代為提交申請"
+            },
+            {
+              "key": "D",
+              "text_en": "Mail in the application with a photo",
+              "text_zhHant": "郵寄申請表和照片"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "To apply for an original California driver license, you must visit a DMV office in person and complete a DL 44 application form.",
+          "explanation_zhHant": "首次申請加州駕照需要親自前往DMV辦公室，填寫DL 44申請表。",
+          "tags": []
+        },
+        {
+          "id": "M01-S02-Q02",
+          "stem_en": "How many questions are on the Class C knowledge test, and what score is needed to pass?",
+          "stem_zhHant": "C類駕照筆試有多少道題，需要多少分才能通過？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "25 questions, 20 correct (80%)",
+              "text_zhHant": "25道題，答對20題（80%）"
+            },
+            {
+              "key": "B",
+              "text_en": "36 questions, 30 correct (83%)",
+              "text_zhHant": "36道題，答對30題（83%）"
+            },
+            {
+              "key": "C",
+              "text_en": "46 questions, 38 correct (83%)",
+              "text_zhHant": "46道題，答對38題（83%）"
+            },
+            {
+              "key": "D",
+              "text_en": "50 questions, 40 correct (80%)",
+              "text_zhHant": "50道題，答對40題（80%）"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "The Class C knowledge test has 36 questions. You must answer at least 30 correctly (83%) to pass.",
+          "explanation_zhHant": "C類駕照筆試共36道題，需答對至少30題（正確率83%）才能通過。",
+          "tags": []
+        },
+        {
+          "id": "M01-S02-Q03",
+          "stem_en": "How long is your instruction permit valid after your application is accepted?",
+          "stem_zhHant": "學習許可證自申請被接受之日起有效期為多長？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "6 months",
+              "text_zhHant": "6個月"
+            },
+            {
+              "key": "B",
+              "text_en": "12 months",
+              "text_zhHant": "12個月"
+            },
+            {
+              "key": "C",
+              "text_en": "24 months",
+              "text_zhHant": "24個月"
+            },
+            {
+              "key": "D",
+              "text_en": "5 years",
+              "text_zhHant": "5年"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Your instruction permit is valid for 12 months from the date your application is accepted. If you do not get your license within 12 months, you must reapply.",
+          "explanation_zhHant": "學習許可證自申請被接受之日起有效期為12個月。如果12個月內沒有拿到駕照，則需要重新申請。",
+          "tags": []
+        },
+        {
+          "id": "M01-S02-Q04",
+          "stem_en": "If you fail the driving test, how long must you wait before retaking it?",
+          "stem_zhHant": "如果路考不合格，需要等待多長時間才能重考？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "7 days",
+              "text_zhHant": "7天"
+            },
+            {
+              "key": "B",
+              "text_en": "10 days",
+              "text_zhHant": "10天"
+            },
+            {
+              "key": "C",
+              "text_en": "14 days",
+              "text_zhHant": "14天"
+            },
+            {
+              "key": "D",
+              "text_en": "30 days",
+              "text_zhHant": "30天"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "If you fail the driving test, you must wait at least 14 days before retaking it. You have 3 attempts within the 12-month period.",
+          "explanation_zhHant": "路考不合格需等待至少14天才能重考。12個月內共有3次路考機會。",
+          "tags": []
+        },
+        {
+          "id": "M01-S02-Q05",
+          "stem_en": "Which tests must you pass to receive a California driver license?",
+          "stem_zhHant": "要獲得加州駕照，必須通過哪些考試？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Only a knowledge test",
+              "text_zhHant": "僅筆試"
+            },
+            {
+              "key": "B",
+              "text_en": "A vision exam and a knowledge test only",
+              "text_zhHant": "僅視力檢查和筆試"
+            },
+            {
+              "key": "C",
+              "text_en": "A vision exam, a knowledge test, and a behind-the-wheel driving test",
+              "text_zhHant": "視力檢查、筆試和路考"
+            },
+            {
+              "key": "D",
+              "text_en": "A physical exam and a driving test only",
+              "text_zhHant": "僅體檢和路考"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "You must pass a vision exam, a knowledge test (written or computer-based), and a behind-the-wheel driving test to receive your license.",
+          "explanation_zhHant": "申請駕照需要通過視力檢查、交規筆試（紙質或電腦考試）和路考三項測試。",
+          "tags": []
+        },
+        {
+          "id": "M01-S02-Q06",
+          "stem_en": "A REAL ID compliant driver license requires how many proofs of California residency?",
+          "stem_zhHant": "申請符合REAL ID標準的駕照需要幾份加州居住證明？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "One",
+              "text_zhHant": "一份"
+            },
+            {
+              "key": "B",
+              "text_en": "Two",
+              "text_zhHant": "兩份"
+            },
+            {
+              "key": "C",
+              "text_en": "Three",
+              "text_zhHant": "三份"
+            },
+            {
+              "key": "D",
+              "text_en": "None",
+              "text_zhHant": "不需要"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "A REAL ID compliant driver license requires proof of identity, proof of Social Security Number, and two proofs of California residency.",
+          "explanation_zhHant": "申請符合REAL ID標準的駕照需要身份證明、社會安全號碼證明以及兩份加州居住證明。",
+          "tags": []
+        },
+        {
+          "id": "M01-S02-Q07",
+          "stem_en": "How many attempts do you have to pass the knowledge test within the 12-month application period?",
+          "stem_zhHant": "在12個月的申請有效期內，您有幾次筆試機會？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "1 attempt",
+              "text_zhHant": "1次"
+            },
+            {
+              "key": "B",
+              "text_en": "2 attempts",
+              "text_zhHant": "2次"
+            },
+            {
+              "key": "C",
+              "text_en": "3 attempts",
+              "text_zhHant": "3次"
+            },
+            {
+              "key": "D",
+              "text_en": "Unlimited attempts",
+              "text_zhHant": "不限次數"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "You have 3 attempts to pass the knowledge test within the 12-month application period.",
+          "explanation_zhHant": "在12個月的申請有效期內有3次考試機會。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S03",
+      "questions": [
+        {
+          "id": "M01-S03-Q01",
+          "stem_en": "How long must a minor hold a provisional instruction permit before taking the driving test?",
+          "stem_zhHant": "未成年人必須持有臨時學習許可證多長時間才能參加路考？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "3 months",
+              "text_zhHant": "3個月"
+            },
+            {
+              "key": "B",
+              "text_en": "6 months",
+              "text_zhHant": "6個月"
+            },
+            {
+              "key": "C",
+              "text_en": "9 months",
+              "text_zhHant": "9個月"
+            },
+            {
+              "key": "D",
+              "text_en": "12 months",
+              "text_zhHant": "12個月"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Minors under 18 must hold a provisional instruction permit for at least 6 months before taking the driving test.",
+          "explanation_zhHant": "未滿18歲的申請人必須持有臨時學習許可證至少6個月後才能參加路考。",
+          "tags": []
+        },
+        {
+          "id": "M01-S03-Q02",
+          "stem_en": "How many hours of supervised driving practice must a minor complete before taking the driving test?",
+          "stem_zhHant": "未成年人在參加路考前必須完成多少小時的有監督駕駛練習？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "25 hours, including 5 hours at night",
+              "text_zhHant": "25小時，其中5小時為夜間駕駛"
+            },
+            {
+              "key": "B",
+              "text_en": "50 hours, including 10 hours at night",
+              "text_zhHant": "50小時，其中10小時為夜間駕駛"
+            },
+            {
+              "key": "C",
+              "text_en": "100 hours, including 20 hours at night",
+              "text_zhHant": "100小時，其中20小時為夜間駕駛"
+            },
+            {
+              "key": "D",
+              "text_en": "30 hours, including 5 hours at night",
+              "text_zhHant": "30小時，其中5小時為夜間駕駛"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "A minor must complete at least 50 hours of supervised driving practice, including at least 10 hours of night driving.",
+          "explanation_zhHant": "未成年人在參加路考前必須完成至少50小時的有監督駕駛練習，其中至少10小時為夜間駕駛。",
+          "tags": []
+        },
+        {
+          "id": "M01-S03-Q03",
+          "stem_en": "During the first 12 months after licensing, a minor may NOT drive between which hours?",
+          "stem_zhHant": "未成年人拿到駕照後的前12個月內，不得在哪個時間段駕車？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "10 PM and 6 AM",
+              "text_zhHant": "晚10點至早6點"
+            },
+            {
+              "key": "B",
+              "text_en": "11 PM and 5 AM",
+              "text_zhHant": "晚11點至凌晨5點"
+            },
+            {
+              "key": "C",
+              "text_en": "Midnight and 6 AM",
+              "text_zhHant": "午夜至早6點"
+            },
+            {
+              "key": "D",
+              "text_en": "9 PM and 5 AM",
+              "text_zhHant": "晚9點至凌晨5點"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "During the first 12 months, a minor may not drive between 11 PM and 5 AM unless accompanied by a licensed parent/guardian or a licensed driver 25 or older.",
+          "explanation_zhHant": "未成年人拿到駕照後的前12個月內，不得在晚11點至凌晨5點之間駕車，除非有持照的父母/監護人或25歲以上的持照駕駛員陪同。",
+          "tags": []
+        },
+        {
+          "id": "M01-S03-Q04",
+          "stem_en": "What is the minimum age to apply for an instruction permit in California?",
+          "stem_zhHant": "在加州申請學習許可證的最低年齡是多少？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "14 years old",
+              "text_zhHant": "14歲"
+            },
+            {
+              "key": "B",
+              "text_en": "15 years old",
+              "text_zhHant": "15歲"
+            },
+            {
+              "key": "C",
+              "text_en": "15 years and 6 months old",
+              "text_zhHant": "15歲半"
+            },
+            {
+              "key": "D",
+              "text_en": "16 years old",
+              "text_zhHant": "16歲"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Minors must be at least 15 years and 6 months old to apply for an instruction permit, and must have completed driver education.",
+          "explanation_zhHant": "未成年人必須年滿15歲半才能申請學習許可證，且必須已完成駕駛教育課程。",
+          "tags": []
+        },
+        {
+          "id": "M01-S03-Q05",
+          "stem_en": "A 17-year-old with a provisional license is driving at night. Which situation is legal?",
+          "stem_zhHant": "一名17歲持有臨時駕照的司機在夜間駕車。以下哪種情況是合法的？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Driving alone at midnight",
+              "text_zhHant": "午夜獨自駕車"
+            },
+            {
+              "key": "B",
+              "text_en": "Driving with a 19-year-old friend at 11:30 PM",
+              "text_zhHant": "晚上11:30與一位19歲的朋友一起駕車"
+            },
+            {
+              "key": "C",
+              "text_en": "Driving with a licensed parent at 1 AM",
+              "text_zhHant": "凌晨1點與持照父母一起駕車"
+            },
+            {
+              "key": "D",
+              "text_en": "Driving with a 22-year-old sibling at midnight",
+              "text_zhHant": "午夜與一位22歲的兄弟姐妹一起駕車"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "A minor may drive between 11 PM and 5 AM only when accompanied by a licensed parent/guardian or a licensed driver 25 or older.",
+          "explanation_zhHant": "未成年人只有在持照父母/監護人或25歲以上的持照駕駛員陪同下，才可以在晚11點至凌晨5點之間駕車。",
+          "tags": []
+        },
+        {
+          "id": "M01-S03-Q06",
+          "stem_en": "How many questions are on the minor knowledge test?",
+          "stem_zhHant": "未成年人筆試共有多少道題？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "36 questions",
+              "text_zhHant": "36道題"
+            },
+            {
+              "key": "B",
+              "text_en": "40 questions",
+              "text_zhHant": "40道題"
+            },
+            {
+              "key": "C",
+              "text_en": "46 questions",
+              "text_zhHant": "46道題"
+            },
+            {
+              "key": "D",
+              "text_en": "50 questions",
+              "text_zhHant": "50道題"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "The minor knowledge test has 46 questions. You must answer at least 38 correctly to pass.",
+          "explanation_zhHant": "未成年人筆試共46道題，需答對至少38題才能通過。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S04",
+      "questions": [
+        {
+          "id": "M01-S04-Q01",
+          "stem_en": "How long is a standard California driver license valid?",
+          "stem_zhHant": "加州標準駕照的有效期是多長？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "3 years",
+              "text_zhHant": "3年"
+            },
+            {
+              "key": "B",
+              "text_en": "4 years",
+              "text_zhHant": "4年"
+            },
+            {
+              "key": "C",
+              "text_en": "5 years",
+              "text_zhHant": "5年"
+            },
+            {
+              "key": "D",
+              "text_en": "10 years",
+              "text_zhHant": "10年"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "A standard California driver license is valid for 5 years.",
+          "explanation_zhHant": "加州標準駕照有效期為5年。",
+          "tags": []
+        },
+        {
+          "id": "M01-S04-Q02",
+          "stem_en": "At what age must drivers renew their license in person at a DMV office?",
+          "stem_zhHant": "多大年齡的駕駛員必須親自到DMV辦公室辦理續期？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "60 years old",
+              "text_zhHant": "60歲"
+            },
+            {
+              "key": "B",
+              "text_en": "65 years old",
+              "text_zhHant": "65歲"
+            },
+            {
+              "key": "C",
+              "text_en": "70 years old",
+              "text_zhHant": "70歲"
+            },
+            {
+              "key": "D",
+              "text_en": "75 years old",
+              "text_zhHant": "75歲"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Drivers 70 years of age and older must renew their license in person at a DMV office and cannot renew by mail or online.",
+          "explanation_zhHant": "70歲及以上的駕駛員必須親自到DMV辦公室辦理續期，不能通過郵寄或網上續期。",
+          "tags": []
+        },
+        {
+          "id": "M01-S04-Q03",
+          "stem_en": "How many days do you have to notify the DMV after a change of address?",
+          "stem_zhHant": "地址變更後必須在多少天內通知DMV？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "5 days",
+              "text_zhHant": "5天"
+            },
+            {
+              "key": "B",
+              "text_en": "10 days",
+              "text_zhHant": "10天"
+            },
+            {
+              "key": "C",
+              "text_en": "15 days",
+              "text_zhHant": "15天"
+            },
+            {
+              "key": "D",
+              "text_en": "30 days",
+              "text_zhHant": "30天"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "You must notify the DMV within 10 days of any change of address.",
+          "explanation_zhHant": "地址變更後必須在10天內通知DMV。",
+          "tags": []
+        },
+        {
+          "id": "M01-S04-Q04",
+          "stem_en": "If your license has been expired for more than one year, what must you do?",
+          "stem_zhHant": "如果您的駕照過期超過一年，您必須怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Renew online with a late fee",
+              "text_zhHant": "在網上繳納滯納金續期"
+            },
+            {
+              "key": "B",
+              "text_en": "Renew by mail",
+              "text_zhHant": "通過郵寄續期"
+            },
+            {
+              "key": "C",
+              "text_en": "Apply for a new license and retake all tests",
+              "text_zhHant": "重新申請駕照並重新參加所有考試"
+            },
+            {
+              "key": "D",
+              "text_en": "Visit DMV to get an extension",
+              "text_zhHant": "前往DMV辦理延期"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "If your license has been expired for more than one year, you cannot renew it. You must apply for a new license and retake all tests.",
+          "explanation_zhHant": "如果駕照過期超過一年，則無法續期，必須重新申請駕照並重新參加所有考試。",
+          "tags": []
+        },
+        {
+          "id": "M01-S04-Q05",
+          "stem_en": "Approximately how many days before your license expires will you receive a renewal notice?",
+          "stem_zhHant": "駕照到期前大約多少天會收到續期通知？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "30 days",
+              "text_zhHant": "30天"
+            },
+            {
+              "key": "B",
+              "text_en": "60 days",
+              "text_zhHant": "60天"
+            },
+            {
+              "key": "C",
+              "text_en": "90 days",
+              "text_zhHant": "90天"
+            },
+            {
+              "key": "D",
+              "text_en": "120 days",
+              "text_zhHant": "120天"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "You will receive a renewal notice about 60 days before your license expires.",
+          "explanation_zhHant": "駕照到期前約60天會收到續期通知。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S05",
+      "questions": [
+        {
+          "id": "M01-S05-Q01",
+          "stem_en": "What happens to your license if you refuse to take a chemical test when lawfully requested by an officer for a first offense?",
+          "stem_zhHant": "如果初犯時在執法人員合法要求下拒絕接受化學測試，您的駕照會怎樣？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Warning only",
+              "text_zhHant": "僅收到警告"
+            },
+            {
+              "key": "B",
+              "text_en": "Suspended for 6 months",
+              "text_zhHant": "暫停6個月"
+            },
+            {
+              "key": "C",
+              "text_en": "Suspended for 1 year",
+              "text_zhHant": "暫停1年"
+            },
+            {
+              "key": "D",
+              "text_en": "Revoked permanently",
+              "text_zhHant": "永久吊銷"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "If you refuse a chemical test when lawfully requested, your license will be suspended for 1 year for a first offense under California's Implied Consent law.",
+          "explanation_zhHant": "根據加州的「默示同意法」，如果在執法人員合法要求下拒絕接受化學測試，初犯將被暫停駕照1年。",
+          "tags": []
+        },
+        {
+          "id": "M01-S05-Q02",
+          "stem_en": "Under the Negligent Operator Treatment System (NOTS), accumulating how many points in 12 months results in a license suspension?",
+          "stem_zhHant": "根據過失駕駛員處理系統（NOTS），12個月內累計多少分將導致駕照暫停？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "2 points",
+              "text_zhHant": "2分"
+            },
+            {
+              "key": "B",
+              "text_en": "3 points",
+              "text_zhHant": "3分"
+            },
+            {
+              "key": "C",
+              "text_en": "4 points",
+              "text_zhHant": "4分"
+            },
+            {
+              "key": "D",
+              "text_en": "6 points",
+              "text_zhHant": "6分"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Accumulating 4 points in 12 months, 6 in 24 months, or 8 in 36 months results in a suspension.",
+          "explanation_zhHant": "12個月內累計4分、24個月內6分或36個月內8分將導致駕照暫停。",
+          "tags": []
+        },
+        {
+          "id": "M01-S05-Q03",
+          "stem_en": "A DUI conviction counts as how many points on your driving record?",
+          "stem_zhHant": "酒駕定罪在駕駛記錄上記幾分？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "1 point",
+              "text_zhHant": "1分"
+            },
+            {
+              "key": "B",
+              "text_en": "2 points",
+              "text_zhHant": "2分"
+            },
+            {
+              "key": "C",
+              "text_en": "3 points",
+              "text_zhHant": "3分"
+            },
+            {
+              "key": "D",
+              "text_en": "4 points",
+              "text_zhHant": "4分"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Major violations such as DUI, hit-and-run, or reckless driving count as 2 points. Most other traffic convictions count as 1 point.",
+          "explanation_zhHant": "酒駕、肇事逃逸、魯莽駕駛等嚴重違規記2分。大多數其他交通違規記1分。",
+          "tags": []
+        },
+        {
+          "id": "M01-S05-Q04",
+          "stem_en": "Your driving privilege will be suspended if you are involved in a collision and did not have:",
+          "stem_zhHant": "如果發生事故時您沒有以下哪項，駕駛權將被暫停？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "A valid driver license",
+              "text_zhHant": "有效駕照"
+            },
+            {
+              "key": "B",
+              "text_en": "Proper insurance or financial responsibility",
+              "text_zhHant": "適當的保險或財務擔保"
+            },
+            {
+              "key": "C",
+              "text_en": "A passenger in the car",
+              "text_zhHant": "車內乘客"
+            },
+            {
+              "key": "D",
+              "text_en": "Vehicle registration",
+              "text_zhHant": "車輛登記"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Your driving privilege will be suspended if you are involved in a collision and did not have proper insurance or financial responsibility.",
+          "explanation_zhHant": "如果發生事故時沒有購買適當保險或不具備財務擔保能力，駕駛權將被暫停。",
+          "tags": []
+        },
+        {
+          "id": "M01-S05-Q05",
+          "stem_en": "Which of the following will result in your license being revoked?",
+          "stem_zhHant": "以下哪項將導致您的駕照被吊銷？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Running a red light",
+              "text_zhHant": "闖紅燈"
+            },
+            {
+              "key": "B",
+              "text_en": "Speeding 15 mph over the limit",
+              "text_zhHant": "超速15英里/小時"
+            },
+            {
+              "key": "C",
+              "text_en": "A hit-and-run resulting in injury",
+              "text_zhHant": "肇事逃逸造成人員傷亡"
+            },
+            {
+              "key": "D",
+              "text_en": "Parking in a no-parking zone",
+              "text_zhHant": "在禁停區停車"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Your license will be revoked if you are convicted of a DUI or a hit-and-run resulting in injury.",
+          "explanation_zhHant": "因酒駕或肇事逃逸造成人員傷亡被定罪的，駕照將被吊銷。",
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "moduleId": "M03",
+  "titleEn": "Right-of-Way Rules",
+  "titleZh": "路权规则",
+  "sections": [
+    {
+      "id": "S01",
+      "titleEn": "Right-of-Way at Intersections",
+      "titleZh": "交叉路口的路权",
+      "knowledgePoints": [
+        {
+          "id": "M03-S01-K01",
+          "en": "At an uncontrolled intersection (no signs or signals), yield to the vehicle that arrived first. If two vehicles arrive at the same time, yield to the vehicle on your right.",
+          "zh": "在无交通标志或信号灯的路口，让先到达的车辆先行。如果两辆车同时到达，让右侧车辆先行。这是最基本的路权原则。",
+          "isHighFreq": true,
+          "tags": [
+            "intersection",
+            "uncontrolled"
+          ],
+          "zhHant": "在無交通標誌或信號燈的路口，讓先到達的車輛先行。如果兩輛車同時到達，讓右側車輛先行。這是最基本的路權原則。"
+        },
+        {
+          "id": "M03-S01-K02",
+          "en": "At a 4-way stop, the first vehicle to stop has the right-of-way. If two vehicles stop at the same time, the vehicle on the right goes first.",
+          "zh": "在四向停车路口，先停车的车辆有优先通行权。如果两辆车同时停车，右侧车辆优先。",
+          "isHighFreq": true,
+          "tags": [
+            "intersection",
+            "four-way-stop"
+          ],
+          "zhHant": "在四向停車路口，先停車的車輛有優先通行權。如果兩輛車同時停車，右側車輛優先。"
+        },
+        {
+          "id": "M03-S01-K03",
+          "en": "At a T-intersection without signs or signals, vehicles on the through (continuing) road have the right-of-way over vehicles on the terminating road.",
+          "zh": "在没有标志或信号灯的丁字路口，直行道路上的车辆优先于从终止道路驶来的车辆。从支路进入主路的车辆必须让行。",
+          "isHighFreq": true,
+          "tags": [
+            "intersection",
+            "t-intersection",
+            "t-intersection-sign"
+          ],
+          "zhHant": "在沒有標誌或信號燈的丁字路口，直行道路上的車輛優先於從終止道路駛來的車輛。從支路進入主路的車輛必須讓行。"
+        },
+        {
+          "id": "M03-S01-K04",
+          "en": "When making a left turn at an intersection, you must yield to oncoming traffic and pedestrians until it is safe to complete the turn.",
+          "zh": "在路口左转时，必须让对向直行车辆和行人先行，直到确认安全后才能完成左转。左转车辆永远没有优先权。",
+          "isHighFreq": true,
+          "tags": [
+            "intersection",
+            "left-turn"
+          ],
+          "zhHant": "在路口左轉時，必須讓對向直行車輛和行人先行，直到確認安全後才能完成左轉。左轉車輛永遠沒有優先權。"
+        },
+        {
+          "id": "M03-S01-K05",
+          "en": "When entering a road from a driveway, alley, or private road, you must stop and yield to all traffic on the road and to pedestrians on the sidewalk.",
+          "zh": "从车道入口、小巷或私人道路进入公共道路时，必须停车并让公路上所有车辆和人行道上的行人先行。",
+          "isHighFreq": true,
+          "tags": [
+            "intersection",
+            "driveway"
+          ],
+          "zhHant": "從車道入口、小巷或私人道路進入公共道路時，必須停車并讓公路上所有車輛和人行道上的行人先行。"
+        },
+        {
+          "id": "M03-S01-K06",
+          "en": "You must yield to traffic already on the freeway when entering via an on-ramp. Merge at or near the speed of freeway traffic.",
+          "zh": "通过匝道进入高速公路时，必须让已在高速上行驶的车辆先行。应以接近高速公路车流的速度汇入。",
+          "isHighFreq": true,
+          "tags": [
+            "intersection",
+            "freeway-merge",
+            "merging-traffic"
+          ],
+          "zhHant": "通過匝道進入高速公路時，必須讓已在高速上行駛的車輛先行。應以接近高速公路車流的速度匯入。"
+        }
+      ],
+      "titleZhHant": "交叉路口的路權"
+    },
+    {
+      "id": "S02",
+      "titleEn": "Pedestrian Right-of-Way",
+      "titleZh": "行人优先权",
+      "knowledgePoints": [
+        {
+          "id": "M03-S02-K01",
+          "en": "Pedestrians have the right-of-way at marked and unmarked crosswalks. You must stop for pedestrians who are in your half of the road or approaching closely from your half.",
+          "zh": "行人在有标记和无标记的人行横道上都有优先通行权。当行人在你这半边道路上或从你这一侧接近时，必须停车让行。",
+          "isHighFreq": true,
+          "tags": [
+            "pedestrian",
+            "crosswalk",
+            "pedestrian-crossing"
+          ],
+          "zhHant": "行人在有標記和無標記的人行橫道上都有優先通行權。當行人在你這半邊道路上或從你這一側接近時，必須停車讓行。"
+        },
+        {
+          "id": "M03-S02-K02",
+          "en": "Even if a pedestrian is crossing illegally (jaywalking), you must still exercise due care and yield to avoid a collision.",
+          "zh": "即使行人违规横穿马路（乱穿马路），驾驶员仍有义务尽合理注意避免碰撞，必须让行。",
+          "isHighFreq": true,
+          "tags": [
+            "pedestrian",
+            "jaywalking"
+          ],
+          "zhHant": "即使行人違規橫穿馬路（亂穿馬路），駕駛員仍有義務尽合理注意避免碰撞，必須讓行。"
+        },
+        {
+          "id": "M03-S02-K03",
+          "en": "When turning at an intersection, whether right or left, you must always yield to pedestrians crossing in the crosswalk.",
+          "zh": "在路口无论左转还是右转，都必须让正在人行横道上通行的行人先走。",
+          "isHighFreq": true,
+          "tags": [
+            "pedestrian",
+            "turning"
+          ],
+          "zhHant": "在路口無論左轉還是右轉，都必須讓正在人行橫道上通行的行人先走。"
+        },
+        {
+          "id": "M03-S02-K04",
+          "en": "Blind pedestrians carrying a white cane or accompanied by a guide dog always have the right-of-way. You must stop and wait until they have completely crossed the street.",
+          "zh": "持白色手杖或由导盲犬陪同的视障行人始终拥有优先通行权。必须停车等待他们完全穿过街道。",
+          "isHighFreq": true,
+          "tags": [
+            "pedestrian",
+            "blind"
+          ],
+          "zhHant": "持白色手杖或由导盲犬陪同的视障行人始終擁有優先通行權。必須停車等待他们完全穿過街道。"
+        },
+        {
+          "id": "M03-S02-K05",
+          "en": "Do not stop your vehicle in a crosswalk. This forces pedestrians to walk around your vehicle, putting them in danger.",
+          "zh": "不要将车辆停在人行横道上。这会迫使行人绕行你的车辆，使他们面临危险。",
+          "isHighFreq": true,
+          "tags": [
+            "pedestrian",
+            "crosswalk-blocking"
+          ],
+          "zhHant": "不要將車輛停在人行橫道上。這會迫使行人繞行你的車輛，使他们面臨危險。"
+        },
+        {
+          "id": "M03-S02-K06",
+          "en": "Pedestrian signals show a walking person (WALK) or a raised hand (DON'T WALK). A flashing DON'T WALK means finish crossing if you have started, but do not start crossing.",
+          "zh": "行人信号灯显示行走的人形（可以走）或举起的手（不要走）。闪烁的“不要走“信号表示已开始过马路的可以继续走完，但不要开始新的横穿。",
+          "isHighFreq": true,
+          "tags": [
+            "pedestrian",
+            "signals",
+            "pedestrian-signal"
+          ],
+          "zhHant": "行人信號燈显示行走的人形（可以走）或舉起的手（不要走）。閃烁的“不要走“信號表示已開始過馬路的可以繼續走完，但不要開始新的橫穿。"
+        }
+      ],
+      "titleZhHant": "行人優先權"
+    },
+    {
+      "id": "S03",
+      "titleEn": "Emergency Vehicles and Special Situations",
+      "titleZh": "紧急车辆与特殊情况",
+      "knowledgePoints": [
+        {
+          "id": "M03-S03-K01",
+          "en": "You must yield the right-of-way to any emergency vehicle (fire truck, ambulance, police car) using a siren and red lights. Pull over to the right edge of the road and stop until it passes.",
+          "zh": "必须为使用警笛和红色灯光的紧急车辆（消防车、救护车、警车）让路。靠右侧路边停车，直到紧急车辆通过。",
+          "isHighFreq": true,
+          "tags": [
+            "emergency",
+            "yield",
+            "emergency-vehicle"
+          ],
+          "zhHant": "必須為使用警笛和紅色燈光的緊急車輛（消防車、救護車、警車）讓路。靠右側路邊停車，直到緊急車輛通過。"
+        },
+        {
+          "id": "M03-S03-K02",
+          "en": "If you are in an intersection when an emergency vehicle approaches, proceed through the intersection first, then pull over to the right and stop.",
+          "zh": "如果紧急车辆接近时你正在路口内，应先通过路口，然后靠右侧停车。不要在路口中间停车阻挡紧急车辆。",
+          "isHighFreq": true,
+          "tags": [
+            "emergency",
+            "intersection"
+          ],
+          "zhHant": "如果緊急車輛接近時你正在路口內，應先通過路口，然後靠右側停車。不要在路口中間停車阻擋緊急車輛。"
+        },
+        {
+          "id": "M03-S03-K03",
+          "en": "The Move Over law requires you to move over one lane or slow down when passing a stationary emergency vehicle, tow truck, or Caltrans vehicle with flashing lights on the side of the road.",
+          "zh": "移车法要求在经过停在路边的闪灯紧急车辆、拖车或加州交通局车辆时，必须向旁边变道一个车道，或者减速通过。",
+          "isHighFreq": true,
+          "tags": [
+            "emergency",
+            "move-over",
+            "emergency-vehicle"
+          ],
+          "zhHant": "移車法要求在經過停在路邊的閃燈緊急車輛、拖車或加州交通局車輛時，必須向旁邊變道一個車道，或者減速通過。"
+        },
+        {
+          "id": "M03-S03-K04",
+          "en": "You must stop for a school bus that is flashing red lights and has the stop sign arm extended. Traffic in BOTH directions must stop, unless you are on a divided highway.",
+          "zh": "看到校车闪烁红灯且伸出停车臂时，双向车辆都必须停车，除非你在有隔离带的高速公路上。违反此规定罚款严重。",
+          "isHighFreq": true,
+          "tags": [
+            "school-bus",
+            "stop"
+          ],
+          "zhHant": "看到校車閃烁紅燈且伸出停車臂時，雙向車輛都必須停車，除非你在有隔離帶的高速公路上。違反此規定罰款嚴重。"
+        },
+        {
+          "id": "M03-S03-K05",
+          "en": "On a divided highway with a median or barrier, only traffic traveling in the same direction as the school bus must stop when the bus flashes its red lights.",
+          "zh": "在有中央隔离带的公路上，只有与校车同向行驶的车辆需要停车。对向车道有隔离带保护，不需要停车。",
+          "isHighFreq": true,
+          "tags": [
+            "school-bus",
+            "divided-highway"
+          ],
+          "zhHant": "在有中央隔離帶的公路上，隻有與校車同向行駛的車輛需要停車。對向車道有隔離帶保護，不需要停車。"
+        },
+        {
+          "id": "M03-S03-K06",
+          "en": "At railroad crossings, you must stop at least 15 feet from the nearest rail when lights flash, gates lower, or a flagman signals. Never race a train to a crossing.",
+          "zh": "在铁路道口，当灯光闪烁、栏杆放下或信号员示意时，必须在距最近铁轨至少15英尺处停车。绝不要试图抢在火车前面通过道口。",
+          "isHighFreq": true,
+          "tags": [
+            "railroad",
+            "crossing"
+          ],
+          "zhHant": "在鐵路道口，當燈光閃烁、欄杆放下或信號員示意時，必須在距最近鐵軌至少15英尺處停車。絕不要試圖搶在火車前面通過道口。"
+        }
+      ],
+      "titleZhHant": "緊急車輛與特殊情况"
+    },
+    {
+      "id": "S04",
+      "titleEn": "Bicyclists and Motorcyclists",
+      "titleZh": "自行车和摩托车路权",
+      "knowledgePoints": [
+        {
+          "id": "M03-S04-K01",
+          "en": "Bicyclists have the same rights and responsibilities as motor vehicle drivers. You must share the road with them and give them adequate space.",
+          "zh": "自行车骑行者与机动车驾驶员享有同等的权利和责任。必须与他们共享道路并给予足够空间。",
+          "isHighFreq": true,
+          "tags": [
+            "bicycle",
+            "rights"
+          ],
+          "zhHant": "自行車騎行者與機動車駕駛員享有同等的權利和責任。必須與他们共享道路并給予足夠空間。"
+        },
+        {
+          "id": "M03-S04-K02",
+          "en": "When passing a bicyclist, you must give at least 3 feet of clearance. If you cannot give 3 feet, slow down to a safe speed and pass only when safe.",
+          "zh": "超越自行车骑行者时，必须保持至少3英尺（约1米）的安全距离。如果无法保持3英尺，需减速到安全速度，在安全时才能超越。",
+          "isHighFreq": true,
+          "tags": [
+            "bicycle",
+            "passing"
+          ],
+          "zhHant": "超越自行車騎行者時，必須保持至少3英尺（约1米）的安全距離。如果無法保持3英尺，需減速到安全速度，在安全時才能超越。"
+        },
+        {
+          "id": "M03-S04-K03",
+          "en": "Do not drive in a marked bicycle lane unless you are within 200 feet of making a right turn, entering or leaving a driveway, or need to park where parking is permitted.",
+          "zh": "除非在200英尺内准备右转、进出车道入口、或在允许停车处停车，否则不得在自行车专用道内行驶。",
+          "isHighFreq": true,
+          "tags": [
+            "bicycle",
+            "bike-lane",
+            "bicycle-lane"
+          ],
+          "zhHant": "除非在200英尺內準備右轉、進出車道入口、或在允許停車處停車，否則不得在自行車專用道內行駛。"
+        },
+        {
+          "id": "M03-S04-K04",
+          "en": "Lane splitting by motorcyclists (riding between lanes of traffic) is legal in California. Be aware of motorcycles that may be passing between lanes, especially in slow or stopped traffic.",
+          "zh": "在加州，摩托车在车道之间穿行（分车道行驶）是合法的。要注意可能在车道间穿行的摩托车，特别是在缓慢或停滞的车流中。",
+          "isHighFreq": true,
+          "tags": [
+            "motorcycle",
+            "lane-splitting"
+          ],
+          "zhHant": "在加州，摩托車在車道之間穿行（分車道行駛）是合法的。要注意可能在車道間穿行的摩托車，特別是在緩慢或停滞的車流中。"
+        },
+        {
+          "id": "M03-S04-K05",
+          "en": "Always check your mirrors and blind spots before changing lanes or turning to avoid hitting a motorcyclist or bicyclist you may not have seen.",
+          "zh": "变道或转弯前务必检查后视镜和盲区，以避免撞到可能未注意到的摩托车或自行车骑行者。",
+          "isHighFreq": true,
+          "tags": [
+            "motorcycle",
+            "blind-spots",
+            "bicycle-safety"
+          ],
+          "zhHant": "變道或轉弯前務必檢查後视鏡和盲區，以避免撞到可能未注意到的摩托車或自行車騎行者。"
+        }
+      ],
+      "titleZhHant": "自行車和摩托車路權"
+    }
+  ],
+  "titleZhHant": "路權規則"
+}

@@ -1,0 +1,1301 @@
+{
+  "examId": "MOCK-09",
+  "questions": [
+    {
+      "id": "Q-MOCK09-001",
+      "stem_en": "When using hand-to-hand (push/pull) steering, where should your hands be positioned on the steering wheel?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "10 and 2 o'clock"
+        },
+        {
+          "key": "B",
+          "text_en": "9 and 3 o'clock or 8 and 4 o'clock"
+        },
+        {
+          "key": "C",
+          "text_en": "12 and 6 o'clock"
+        },
+        {
+          "key": "D",
+          "text_en": "Anywhere comfortable on the wheel"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "The recommended hand positions for hand-to-hand (push/pull) steering are 9 and 3 o'clock or 8 and 4 o'clock. You should not cross your hands over the middle of the steering wheel.",
+      "explanation_zh": "推拉式转向的推荐手位是9点和3点或8点和4点。不要让双手交叉越过方向盘中心。",
+      "module": "M02",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-002",
+      "stem_en": "You should signal before pulling away from or next to a curb:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Only when other vehicles are visible"
+        },
+        {
+          "key": "B",
+          "text_en": "Only on busy streets"
+        },
+        {
+          "key": "C",
+          "text_en": "Even when you do not see other vehicles around you"
+        },
+        {
+          "key": "D",
+          "text_en": "Only when required by a sign"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "You should always signal before pulling next to or away from the curb, even when you do not see other vehicles around you.",
+      "explanation_zh": "在靠近或驶离路缘之前，即使看不到其他车辆，也应始终打信号灯。",
+      "module": "M02",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-003",
+      "stem_en": "A minor practicing driving with an instruction permit must be accompanied by a licensed driver who is at least:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "18 years old"
+        },
+        {
+          "key": "B",
+          "text_en": "21 years old"
+        },
+        {
+          "key": "C",
+          "text_en": "25 years old"
+        },
+        {
+          "key": "D",
+          "text_en": "30 years old"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A minor practicing driving with an instruction permit must be accompanied by a California-licensed driver who is at least 25 years old. This person must sit close enough to take control of the vehicle.",
+      "explanation_zh": "未成年人持学习许可证练习驾驶时，必须有至少25岁的加州持照驾驶员陪同。此人必须坐在足够近的位置以便控制车辆。",
+      "module": "M02",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK09-004",
+      "stem_en": "When parallel parking, your rear wheel should be within how many inches of the curb before you straighten out?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "6 inches"
+        },
+        {
+          "key": "B",
+          "text_en": "12 inches"
+        },
+        {
+          "key": "C",
+          "text_en": "18 inches"
+        },
+        {
+          "key": "D",
+          "text_en": "24 inches"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "When parallel parking, begin turning the steering wheel away from the curb when your rear wheel is within 18 inches of the curb. Your vehicle should end up parallel and within 18 inches of the curb.",
+      "explanation_zh": "平行停车时，当后轮距路缘18英寸以内时开始将方向盘转离路缘。您的车辆最终应平行停放，距路缘18英寸以内。",
+      "module": "M02",
+      "tags": [
+        "parallel-parking"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-005",
+      "stem_en": "A bicycle boulevard is a street that:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Is exclusively for bicycles with no motor vehicles allowed"
+        },
+        {
+          "key": "B",
+          "text_en": "Prioritizes bicycle travel on streets shared with vehicle traffic"
+        },
+        {
+          "key": "C",
+          "text_en": "Has a physical barrier separating bikes from cars"
+        },
+        {
+          "key": "D",
+          "text_en": "Is painted entirely green for bicycle use"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A bicycle boulevard prioritizes bicycle travel on streets shared with vehicle traffic, different from a separated bikeway which has physical separation from motor vehicles.",
+      "explanation_zh": "自行车大道是在与机动车共用的街道上优先考虑自行车通行的道路，不同于有物理隔离的独立自行车道。",
+      "module": "M02",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-006",
+      "stem_en": "When stopped behind another vehicle at a traffic light, how much space should you leave?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Enough space to see their license plate"
+        },
+        {
+          "key": "B",
+          "text_en": "Enough space to see their rear wheels"
+        },
+        {
+          "key": "C",
+          "text_en": "At least one full car length"
+        },
+        {
+          "key": "D",
+          "text_en": "As close as possible to prevent others from cutting in"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When stopping behind another vehicle, leave enough space to see their rear wheels. This provides a safety buffer in case you need to maneuver.",
+      "explanation_zh": "在另一辆车后面停车时，留出足够的空间以便能看到他们的后轮。这在您需要机动时提供了安全缓冲。",
+      "module": "M02",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-007",
+      "stem_en": "On a sloping driveway, you should park with your wheels turned so that:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The vehicle will roll toward the street"
+        },
+        {
+          "key": "B",
+          "text_en": "The vehicle will not roll into the street"
+        },
+        {
+          "key": "C",
+          "text_en": "The wheels are perfectly straight"
+        },
+        {
+          "key": "D",
+          "text_en": "The vehicle faces downhill"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "On a sloping driveway, turn the wheels so the vehicle will not roll into the street. Always leave the vehicle in park and set the parking brake.",
+      "explanation_zh": "在倾斜的车道上，转动车轮使车辆不会滚入街道。始终将车辆挂驻车档并拉起驻车制动器。",
+      "module": "M02",
+      "tags": [
+        "parking-hill"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-008",
+      "stem_en": "When a minor under 18 receives a driver's license, the license will have which word printed on it?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Temporary"
+        },
+        {
+          "key": "B",
+          "text_en": "Restricted"
+        },
+        {
+          "key": "C",
+          "text_en": "Provisional"
+        },
+        {
+          "key": "D",
+          "text_en": "Learner"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "When you are under 18 years old, your driver's license will have the word 'provisional' on it, indicating certain driving restrictions apply.",
+      "explanation_zh": "未满18岁时，您的驾驶执照上会印有provisional（临时）字样，表示适用某些驾驶限制。",
+      "module": "M02",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK09-009",
+      "stem_en": "When driving through a work zone, you should NOT:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Slow down and allow extra space between vehicles"
+        },
+        {
+          "key": "B",
+          "text_en": "Watch for workers and equipment"
+        },
+        {
+          "key": "C",
+          "text_en": "Cross over cones or drums to merge quickly"
+        },
+        {
+          "key": "D",
+          "text_en": "Be prepared for sudden stops"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "In a work zone, you should never cross over cones or drums. Merge as soon as it is safe while following the barriers that guide you through the zone.",
+      "explanation_zh": "在施工区域内，切勿越过锥筒或路障桶。在安全时尽早合流，同时遵循引导您通过该区域的隔离设施。",
+      "module": "M03",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-010",
+      "stem_en": "A provisional driver under 18 who needs to drive during curfew hours for work must carry:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A copy of their birth certificate"
+        },
+        {
+          "key": "B",
+          "text_en": "A signed note from their employer confirming employment"
+        },
+        {
+          "key": "C",
+          "text_en": "A parent riding in the vehicle"
+        },
+        {
+          "key": "D",
+          "text_en": "No special documentation is needed"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A provisional driver who must drive for work reasons during curfew hours must carry a note signed by their employer confirming their employment.",
+      "explanation_zh": "在宵禁时间内因工作原因需要驾车的临时驾照持有者，必须携带雇主签署的确认其就业的便条。",
+      "module": "M03",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK09-011",
+      "stem_en": "You may make a U-turn in a residential district if:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "You signal at least 50 feet in advance"
+        },
+        {
+          "key": "B",
+          "text_en": "No vehicles are approaching within 200 feet"
+        },
+        {
+          "key": "C",
+          "text_en": "There is a stop sign at the intersection"
+        },
+        {
+          "key": "D",
+          "text_en": "You honk your horn before turning"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "In a residential district, you may make a U-turn if no vehicles are approaching you within 200 feet and you can see clearly for 200 feet in each direction.",
+      "explanation_zh": "在住宅区，如果200英尺内没有车辆接近且每个方向都能清楚地看到200英尺，您可以掉头。",
+      "module": "M03",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-012",
+      "stem_en": "When turning left from a two-way street onto a one-way street with three or more lanes, where may you end your turn?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Only in the far-left lane"
+        },
+        {
+          "key": "B",
+          "text_en": "Only in the center lane"
+        },
+        {
+          "key": "C",
+          "text_en": "In any lane that is open"
+        },
+        {
+          "key": "D",
+          "text_en": "Only in the far-right lane"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "When turning left from a two-way street onto a one-way street with three or more lanes in your direction, you may end your turn in any lane that is open.",
+      "explanation_zh": "从双向道路左转进入有三条或更多车道的单行道时，您可以在任何空闲的车道上完成转弯。",
+      "module": "M03",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-013",
+      "stem_en": "A dedicated right turn lane that does not merge into another lane allows you to:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Turn right without stopping, even at a red light for through traffic"
+        },
+        {
+          "key": "B",
+          "text_en": "Turn right only on a green light"
+        },
+        {
+          "key": "C",
+          "text_en": "Speed up to merge with traffic"
+        },
+        {
+          "key": "D",
+          "text_en": "Turn left from the right lane"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "A dedicated right turn lane does not merge into another lane and allows you to turn right even if there is a red light for vehicles going straight. However, you must obey any traffic light or sign on the right curb.",
+      "explanation_zh": "专用右转车道不与其他车道合并，即使直行信号灯为红色也允许您右转。但您必须遵守右侧路缘的任何交通灯或标志。",
+      "module": "M03",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-014",
+      "stem_en": "You should never make a U-turn in front of a fire station because:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "It is a school zone"
+        },
+        {
+          "key": "B",
+          "text_en": "Fire station driveways must remain clear for emergency vehicles"
+        },
+        {
+          "key": "C",
+          "text_en": "The speed limit is too low"
+        },
+        {
+          "key": "D",
+          "text_en": "There are always pedestrians present"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Never make a U-turn in front of a fire station or use a fire station driveway to turn around. The driveway must remain clear for emergency vehicle access.",
+      "explanation_zh": "永远不要在消防站前掉头或使用消防站车道掉头。车道必须保持畅通以便紧急车辆出入。",
+      "module": "M03",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-015",
+      "stem_en": "When a vehicle merges in front of you too closely on the highway, you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Honk your horn and flash your lights"
+        },
+        {
+          "key": "B",
+          "text_en": "Take your foot off the accelerator to create space"
+        },
+        {
+          "key": "C",
+          "text_en": "Immediately change lanes"
+        },
+        {
+          "key": "D",
+          "text_en": "Speed up to maintain your position"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "If a vehicle merges in front of you too closely, take your foot off the accelerator. This creates space between you and the vehicle ahead without sudden braking.",
+      "explanation_zh": "如果一辆车太近地并入您前方，松开油门。这无需急刹车即可在您和前方车辆之间创造空间。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-016",
+      "stem_en": "If a minor with a provisional license has two at-fault collisions or traffic violations within 12 months, DMV may:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Issue a warning letter only"
+        },
+        {
+          "key": "B",
+          "text_en": "Restrict driving for 30 days unless a licensed adult 25 or older rides along"
+        },
+        {
+          "key": "C",
+          "text_en": "Revoke the license permanently"
+        },
+        {
+          "key": "D",
+          "text_en": "Require the minor to retake the written test"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "If a minor has two at-fault collisions, two traffic violation convictions, or one of each, they cannot drive for 30 days unless a licensed adult at least 25 years old rides with them.",
+      "explanation_zh": "如果未成年人有两次有责碰撞、两次交通违规定罪或各一次，则30天内不能开车，除非至少25岁的持照成年人同行。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK09-017",
+      "stem_en": "When driving at night and another vehicle's headlights are too bright, you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Turn on your high beams in response"
+        },
+        {
+          "key": "B",
+          "text_en": "Look toward the right edge of your lane"
+        },
+        {
+          "key": "C",
+          "text_en": "Flash your headlights repeatedly"
+        },
+        {
+          "key": "D",
+          "text_en": "Close one eye to preserve night vision"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When oncoming headlights are too bright, look toward the right edge of your lane and watch the oncoming vehicle out of the corner of your eye. Do not keep your high beams on in response.",
+      "explanation_zh": "当对面车灯太亮时，看向车道右侧边缘，用眼角余光观察来车。不要因此而保持远光灯。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-018",
+      "stem_en": "When your vehicle stalls on railroad tracks and no train is visible or warning lights flashing, the FIRST thing you should do is:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Try to restart the engine"
+        },
+        {
+          "key": "B",
+          "text_en": "Call 911 immediately from inside the vehicle"
+        },
+        {
+          "key": "C",
+          "text_en": "Exit your vehicle and call the number posted on the railroad crossing"
+        },
+        {
+          "key": "D",
+          "text_en": "Push the vehicle off the tracks alone"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "If your vehicle stalls on tracks with no train approaching, exit first, then dial the number on the railroad crossing posts or metal control box near the tracks and call 911.",
+      "explanation_zh": "如果车辆在铁轨上熄火且没有列车接近，首先下车，然后拨打铁路道口柱子或附近金属控制箱上的号码，并拨打911。",
+      "module": "M05",
+      "tags": [
+        "railroad"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-019",
+      "stem_en": "A locked wheel skid is usually caused by:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Turning the steering wheel too quickly"
+        },
+        {
+          "key": "B",
+          "text_en": "Braking too hard when going too fast"
+        },
+        {
+          "key": "C",
+          "text_en": "Accelerating too quickly"
+        },
+        {
+          "key": "D",
+          "text_en": "Driving with underinflated tires"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A locked wheel skid is usually caused by braking too hard when you are going too fast. The vehicle will skid no matter which way the steering wheel is turned.",
+      "explanation_zh": "锁轮打滑通常是因为速度过快时制动过猛。无论方向盘转向哪个方向，车辆都会打滑。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-020",
+      "stem_en": "When exiting a highway, you should signal at least:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "100 feet before the exit"
+        },
+        {
+          "key": "B",
+          "text_en": "3 seconds before the exit"
+        },
+        {
+          "key": "C",
+          "text_en": "5 seconds (about 400 feet) before the exit"
+        },
+        {
+          "key": "D",
+          "text_en": "After you enter the exit ramp"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "When exiting a highway, signal five seconds (approximately 400 feet) before your exit. Make sure you are at a safe speed and in the proper lane.",
+      "explanation_zh": "在驶离高速公路时，在出口前五秒钟（约400英尺）打信号灯。确保您在安全速度和正确车道上。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-021",
+      "stem_en": "It is against the law for a minor to use a cell phone while driving, except to:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Send a quick text message"
+        },
+        {
+          "key": "B",
+          "text_en": "Make a call for emergency assistance"
+        },
+        {
+          "key": "C",
+          "text_en": "Use GPS navigation"
+        },
+        {
+          "key": "D",
+          "text_en": "Check social media at a red light"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "It is illegal for a minor to use a cell phone or electronic wireless device while driving. The only exception is making a call for emergency assistance.",
+      "explanation_zh": "未成年人在驾驶时使用手机或电子无线设备是违法的。唯一的例外是拨打紧急求助电话。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK09-022",
+      "stem_en": "A safety zone is a space set aside for pedestrians waiting for:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "School buses only"
+        },
+        {
+          "key": "B",
+          "text_en": "Buses, streetcars, and trolleys"
+        },
+        {
+          "key": "C",
+          "text_en": "Emergency vehicles"
+        },
+        {
+          "key": "D",
+          "text_en": "Rideshare vehicles"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Safety zones are spaces set aside for pedestrians waiting for buses, streetcars, and trolleys. They are marked by raised buttons or markers, and you must never drive through them.",
+      "explanation_zh": "安全区是为等待公共汽车、有轨电车和无轨电车的行人设置的空间。它们由凸起按钮或标记标示，绝对不能穿过。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-023",
+      "stem_en": "On a divided highway with four or more lanes in one direction, large trucks may be driven in:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Any lane they choose"
+        },
+        {
+          "key": "B",
+          "text_en": "The two lanes farthest to the right"
+        },
+        {
+          "key": "C",
+          "text_en": "Only the far-left lane"
+        },
+        {
+          "key": "D",
+          "text_en": "Only the center lanes"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "On a divided highway with four or more traffic lanes in one direction, large trucks may only be driven in the two lanes farthest to the right.",
+      "explanation_zh": "在单方向有四条或更多车道的分隔公路上，大型卡车只能在最右侧的两条车道上行驶。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-024",
+      "stem_en": "When driving alongside a large truck, you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Stay beside the truck to maintain visibility"
+        },
+        {
+          "key": "B",
+          "text_en": "Pass quickly on the left and move ahead of it"
+        },
+        {
+          "key": "C",
+          "text_en": "Drive in the truck's blind spot to avoid wind"
+        },
+        {
+          "key": "D",
+          "text_en": "Tailgate the truck to draft behind it"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Do not drive next to a large truck longer than necessary. Always pass on the left side and move ahead after passing. Driving alongside makes it hard for the truck driver to avoid dangers.",
+      "explanation_zh": "不要在大卡车旁边行驶超过必要的时间。始终从左侧超车并驶到前方。并排行驶会让卡车司机难以避开危险。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-025",
+      "stem_en": "The average passenger vehicle traveling at 55 mph can stop within approximately:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "100 feet"
+        },
+        {
+          "key": "B",
+          "text_en": "200 feet"
+        },
+        {
+          "key": "C",
+          "text_en": "300 feet"
+        },
+        {
+          "key": "D",
+          "text_en": "400 feet"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "The average passenger vehicle traveling at 55 mph can stop within 300 feet. A large truck traveling at the same speed may need up to 400 feet to stop.",
+      "explanation_zh": "以55英里/小时行驶的普通乘用车可以在300英尺内停车。同速行驶的大型卡车可能需要400英尺才能停下。",
+      "module": "M08",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-026",
+      "stem_en": "High winds are especially dangerous for which type of vehicle?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Sedans"
+        },
+        {
+          "key": "B",
+          "text_en": "Low sports cars"
+        },
+        {
+          "key": "C",
+          "text_en": "Larger vehicles such as trucks, campers, and vehicles with trailers"
+        },
+        {
+          "key": "D",
+          "text_en": "Electric vehicles"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "High winds are especially hazardous for larger vehicles such as trucks, campers, and vehicles with trailers due to their larger surface area.",
+      "explanation_zh": "强风对卡车、露营车和带拖车的车辆等较大型车辆尤其危险，因为它们的表面积较大。",
+      "module": "M08",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-027",
+      "stem_en": "Turning 18 years old does NOT erase existing:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Insurance requirements"
+        },
+        {
+          "key": "B",
+          "text_en": "Restrictions, suspensions, or probation sentences on a minor's license"
+        },
+        {
+          "key": "C",
+          "text_en": "Vehicle registration requirements"
+        },
+        {
+          "key": "D",
+          "text_en": "The need to carry a license while driving"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Turning 18 years old does not erase or end existing restrictions, suspensions, or probation sentences on a minor's provisional license.",
+      "explanation_zh": "年满18岁并不能消除或结束未成年人临时驾照上已有的限制、暂停或缓刑判决。",
+      "module": "M08",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK09-028",
+      "stem_en": "Symptoms of carbon monoxide poisoning from a vehicle's exhaust include all of the following EXCEPT:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Dizziness and nausea"
+        },
+        {
+          "key": "B",
+          "text_en": "Headache and tiredness"
+        },
+        {
+          "key": "C",
+          "text_en": "Ringing in the ears"
+        },
+        {
+          "key": "D",
+          "text_en": "Improved alertness and focus"
+        }
+      ],
+      "answer": "D",
+      "explanation_en": "Carbon monoxide is a deadly, odorless gas from a vehicle's exhaust. Symptoms include tiredness, yawning, dizziness, nausea, headache, and ringing in the ears — not improved alertness.",
+      "explanation_zh": "一氧化碳是车辆排气管排出的致命无味气体。症状包括疲倦、打哈欠、头晕、恶心、头痛和耳鸣，而不是提高警觉性。",
+      "module": "M08",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-029",
+      "stem_en": "If you have a tire blowout while driving, the FIRST thing you should do is:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Slam on the brakes immediately"
+        },
+        {
+          "key": "B",
+          "text_en": "Hold the steering wheel firmly with both hands"
+        },
+        {
+          "key": "C",
+          "text_en": "Swerve to the shoulder immediately"
+        },
+        {
+          "key": "D",
+          "text_en": "Shift into neutral"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "If you have a tire blowout, do not panic. The first step is to hold the steering wheel with both hands. Maintain your speed if safe, then gradually release the accelerator.",
+      "explanation_zh": "如果轮胎爆裂，不要惊慌。第一步是双手紧握方向盘。如果安全保持车速，然后逐渐松开油门。",
+      "module": "M08",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-030",
+      "stem_en": "When approaching a stationary emergency vehicle or tow truck displaying flashing amber warning lights, drivers must:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Continue at the posted speed limit"
+        },
+        {
+          "key": "B",
+          "text_en": "Move over and slow down"
+        },
+        {
+          "key": "C",
+          "text_en": "Stop completely and wait"
+        },
+        {
+          "key": "D",
+          "text_en": "Turn on their hazard lights and pass quickly"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "The Move Over law requires drivers to move over and slow down for stationary emergency vehicles, tow trucks, or road work vehicles displaying flashing lights.",
+      "explanation_zh": "让道法要求驾驶员在遇到闪灯的静止紧急车辆、拖车或道路施工车辆时让道并减速。",
+      "module": "M09",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-031",
+      "stem_en": "A provisional driver under 18 who needs to drive an immediate family member during curfew hours must carry:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Their school ID"
+        },
+        {
+          "key": "B",
+          "text_en": "A note signed by their parent or guardian stating the reason, family member, and end date"
+        },
+        {
+          "key": "C",
+          "text_en": "A note from their doctor"
+        },
+        {
+          "key": "D",
+          "text_en": "Nothing extra is required"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A provisional driver who must drive an immediate family member during curfew hours must carry a note signed by their parent or legal guardian stating the reason, the family member, and the date when the need will end.",
+      "explanation_zh": "在宵禁时间需要搭载直系家庭成员的临时驾照持有者，必须携带父母或法定监护人签署的便条，说明原因、家庭成员及需要结束的日期。",
+      "module": "M09",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK09-032",
+      "stem_en": "Animal-drawn vehicles and people on horseback are:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Not allowed on public roads"
+        },
+        {
+          "key": "B",
+          "text_en": "Only allowed on rural roads"
+        },
+        {
+          "key": "C",
+          "text_en": "Allowed to share the road with motor vehicles"
+        },
+        {
+          "key": "D",
+          "text_en": "Required to use designated animal crossings"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Horse-drawn vehicles and people riding horses or other animals are allowed to share the road with motor vehicles. It is illegal to intentionally scare horses or livestock.",
+      "explanation_zh": "马车和骑马或其他动物的人可以与机动车共用道路。故意惊吓马匹或牲畜是违法的。",
+      "module": "M09",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-033",
+      "stem_en": "A motorcyclist sharing your lane is practicing what is known as:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Lane filtering"
+        },
+        {
+          "key": "B",
+          "text_en": "Lane splitting"
+        },
+        {
+          "key": "C",
+          "text_en": "Lane blocking"
+        },
+        {
+          "key": "D",
+          "text_en": "Lane drafting"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "It is legal for motorcycles to share lanes with other vehicles in California. This practice is known as lane splitting. Never try to pass a motorcycle in the same lane.",
+      "explanation_zh": "在加州，摩托车与其他车辆共用车道是合法的。这种做法被称为车道分裂（lane splitting）。不要试图在同一车道内超越摩托车。",
+      "module": "M09",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-034",
+      "stem_en": "When possible, you should move to one side of your lane to give motorcyclists:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Less visibility"
+        },
+        {
+          "key": "B",
+          "text_en": "More room to pass"
+        },
+        {
+          "key": "C",
+          "text_en": "A reason to change lanes"
+        },
+        {
+          "key": "D",
+          "text_en": "An opportunity to tailgate"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When possible, move to one side of your lane to give motorcyclists more room to pass. Check for motorcycles when changing lanes, as they are smaller and harder to see.",
+      "explanation_zh": "在可能的情况下，移到车道的一侧给摩托车手更多通过空间。变道时检查摩托车，因为它们较小不易被发现。",
+      "module": "M09",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-035",
+      "stem_en": "You must not park or leave your vehicle within how many feet of an unmarked crosswalk?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "10 feet"
+        },
+        {
+          "key": "B",
+          "text_en": "15 feet"
+        },
+        {
+          "key": "C",
+          "text_en": "20 feet"
+        },
+        {
+          "key": "D",
+          "text_en": "25 feet"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "You must not park within 20 feet of an unmarked or marked crosswalk, or within 15 feet of a crosswalk where a curb extension is present.",
+      "explanation_zh": "您不得在无标记或有标记的人行横道20英尺以内停车，或在有路缘延伸的人行横道15英尺以内停车。",
+      "module": "M10",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-036",
+      "stem_en": "It is illegal to park within how many feet of a sidewalk ramp for disabled persons?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "1 foot"
+        },
+        {
+          "key": "B",
+          "text_en": "3 feet"
+        },
+        {
+          "key": "C",
+          "text_en": "5 feet"
+        },
+        {
+          "key": "D",
+          "text_en": "10 feet"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You must never park within three feet of a sidewalk ramp for disabled persons or in front of a curb that provides wheelchair access to a sidewalk.",
+      "explanation_zh": "您不得在残疾人人行道坡道3英尺以内或提供轮椅通道的路缘前停车。",
+      "module": "M10",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-037",
+      "stem_en": "A minor aged 15 to 20 convicted of using alcohol or a controlled substance may have their driving privilege:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Suspended for 30 days"
+        },
+        {
+          "key": "B",
+          "text_en": "Suspended for one year or have eligibility delayed"
+        },
+        {
+          "key": "C",
+          "text_en": "Revoked permanently"
+        },
+        {
+          "key": "D",
+          "text_en": "Unaffected since they are a minor"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A minor aged 15 to 20 convicted of using alcohol or a controlled substance may have their driving privilege suspended for one year or have their eligibility to apply for a license delayed.",
+      "explanation_zh": "15至20岁的未成年人因使用酒精或受管制物质被定罪，可能被暂停驾驶特权一年或推迟申请驾照的资格。",
+      "module": "M10",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK09-038",
+      "stem_en": "A vehicle stopped on a freeway for more than how many hours may be removed?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "2 hours"
+        },
+        {
+          "key": "B",
+          "text_en": "4 hours"
+        },
+        {
+          "key": "C",
+          "text_en": "6 hours"
+        },
+        {
+          "key": "D",
+          "text_en": "8 hours"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A vehicle that is stopped, parked, or left standing on a freeway for more than four hours may be removed.",
+      "explanation_zh": "在高速公路上停放超过四小时的车辆可能会被拖走。",
+      "module": "M10",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-039",
+      "stem_en": "It is against the law to carry anything on a passenger vehicle that extends beyond the left fenders or more than how many inches beyond the right fenders?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "3 inches"
+        },
+        {
+          "key": "B",
+          "text_en": "6 inches"
+        },
+        {
+          "key": "C",
+          "text_en": "12 inches"
+        },
+        {
+          "key": "D",
+          "text_en": "18 inches"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You must not carry anything in or on a passenger vehicle that extends beyond the fenders on the left side or more than 6 inches beyond the fenders on the right side.",
+      "explanation_zh": "您不得在客车上携带超出左侧挡泥板或超出右侧挡泥板6英寸以上的物品。",
+      "module": "M06",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-040",
+      "stem_en": "A parent or guardian may cancel their minor's driver's license by:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Calling DMV on the phone"
+        },
+        {
+          "key": "B",
+          "text_en": "Completing a Request for Cancellation or Surrender form"
+        },
+        {
+          "key": "C",
+          "text_en": "Sending an email to DMV"
+        },
+        {
+          "key": "D",
+          "text_en": "Returning the license to the DMV office"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A parent or guardian may cancel their teen's license by completing a Request for Cancellation or Surrender of a Driver License or ID Card form.",
+      "explanation_zh": "父母或监护人可以通过填写驾照或身份证注销或交回申请表来取消其青少年的驾照。",
+      "module": "M06",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK09-041",
+      "stem_en": "A person convicted of manslaughter resulting from evading law enforcement may face imprisonment of:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Up to 1 year"
+        },
+        {
+          "key": "B",
+          "text_en": "Up to 3 years"
+        },
+        {
+          "key": "C",
+          "text_en": "4 to 10 years"
+        },
+        {
+          "key": "D",
+          "text_en": "Up to 6 months"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A person convicted of manslaughter resulting from evading law enforcement during a pursuit is subject to imprisonment in a state prison for a minimum of 4 to 10 years.",
+      "explanation_zh": "因在追捕中逃避执法导致过失杀人罪成立的人，将面临最低4至10年的州监狱监禁。",
+      "module": "M06",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-042",
+      "stem_en": "It is illegal to drive with a BAC of 0.04% or higher if you are:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A pedestrian"
+        },
+        {
+          "key": "B",
+          "text_en": "Driving a vehicle requiring a commercial license or driving a passenger for hire"
+        },
+        {
+          "key": "C",
+          "text_en": "Over 65 years old"
+        },
+        {
+          "key": "D",
+          "text_en": "Driving during daytime hours"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "It is illegal to drive with a BAC of 0.04% or higher if you drive a vehicle requiring a commercial driver's license or if you are driving a passenger for hire.",
+      "explanation_zh": "如果您驾驶需要商业驾照的车辆或载客营运，血液酒精浓度达到0.04%或更高即为违法。",
+      "module": "M07",
+      "tags": [
+        "bac"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-043",
+      "stem_en": "If you are convicted of DUI, the conviction stays on your driver's record for:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "3 years"
+        },
+        {
+          "key": "B",
+          "text_en": "5 years"
+        },
+        {
+          "key": "C",
+          "text_en": "7 years"
+        },
+        {
+          "key": "D",
+          "text_en": "10 years"
+        }
+      ],
+      "answer": "D",
+      "explanation_en": "All DUI convictions remain on your driver's record for 10 years. Additional DUIs during that time may result in harsher penalties.",
+      "explanation_zh": "所有DUI定罪在驾驶记录上保留10年。在此期间再次酒驾可能导致更严厉的处罚。",
+      "module": "M07",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-044",
+      "stem_en": "Your driving privilege may be suspended for up to four years if you are in a collision and do not have:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A valid driver's license"
+        },
+        {
+          "key": "B",
+          "text_en": "Vehicle registration"
+        },
+        {
+          "key": "C",
+          "text_en": "Proper insurance coverage"
+        },
+        {
+          "key": "D",
+          "text_en": "An emergency kit in your vehicle"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Your driving privilege will be suspended for up to four years if you are in a collision and do not have proper insurance coverage, regardless of who was at fault.",
+      "explanation_zh": "如果您发生碰撞且没有适当的保险，无论谁有过错，您的驾驶特权将被暂停最长四年。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-045",
+      "stem_en": "When buying a vehicle in California, you must transfer ownership to your name within:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "5 days"
+        },
+        {
+          "key": "B",
+          "text_en": "10 days"
+        },
+        {
+          "key": "C",
+          "text_en": "20 days"
+        },
+        {
+          "key": "D",
+          "text_en": "30 days"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When you buy a vehicle, you have 10 days to transfer ownership to your name with the DMV.",
+      "explanation_zh": "购买车辆时，您有10天时间在DMV将所有权转移到您的名下。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-046",
+      "stem_en": "A minor must complete a driver education program before they can:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Register for school"
+        },
+        {
+          "key": "B",
+          "text_en": "Apply for an instruction permit"
+        },
+        {
+          "key": "C",
+          "text_en": "Ride a bicycle on public roads"
+        },
+        {
+          "key": "D",
+          "text_en": "Purchase a vehicle"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "If you are under 18, you must complete a driver education program before applying for an instruction permit.",
+      "explanation_zh": "如果您未满18岁，必须在申请学习许可证之前完成驾驶员教育课程。",
+      "module": "M11",
+      "tags": [],
+      "driverEd": true
+    }
+  ]
+}

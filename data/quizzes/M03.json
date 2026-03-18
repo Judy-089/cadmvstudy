@@ -1,0 +1,772 @@
+{
+  "moduleId": "M03",
+  "sections": [
+    {
+      "sectionId": "S01",
+      "questions": [
+        {
+          "id": "M03-S01-Q01",
+          "stem_en": "At an uncontrolled intersection where two vehicles arrive at the same time, who has the right-of-way?",
+          "stem_zhHant": "在無交通控制的路口，兩輛車同時到達時，誰有優先通行權？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "The vehicle on the left",
+              "text_zhHant": "左側車輛"
+            },
+            {
+              "key": "B",
+              "text_en": "The vehicle on the right",
+              "text_zhHant": "右側車輛"
+            },
+            {
+              "key": "C",
+              "text_en": "The larger vehicle",
+              "text_zhHant": "較大的車輛"
+            },
+            {
+              "key": "D",
+              "text_en": "The vehicle going faster",
+              "text_zhHant": "速度較快的車輛"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "At an uncontrolled intersection, if two vehicles arrive at the same time, yield to the vehicle on your right.",
+          "explanation_zhHant": "在無交通控制的路口，如果兩輛車同時到達，讓右側車輛先行。",
+          "tags": []
+        },
+        {
+          "id": "M03-S01-Q02",
+          "stem_en": "When making a left turn at an intersection, you must yield to:",
+          "stem_zhHant": "在路口左轉時，您必須讓哪些對象先行？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Only pedestrians",
+              "text_zhHant": "僅行人"
+            },
+            {
+              "key": "B",
+              "text_en": "Only vehicles turning right",
+              "text_zhHant": "僅右轉車輛"
+            },
+            {
+              "key": "C",
+              "text_en": "Oncoming traffic and pedestrians",
+              "text_zhHant": "對向直行車輛和行人"
+            },
+            {
+              "key": "D",
+              "text_en": "No one if you have a green light",
+              "text_zhHant": "如果是綠燈則不需要讓任何人"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "When making a left turn, you must yield to oncoming traffic and pedestrians until it is safe to complete the turn.",
+          "explanation_zhHant": "在路口左轉時，必須讓對向直行車輛和行人先行，直到確認安全後才能完成左轉。",
+          "tags": []
+        },
+        {
+          "id": "M03-S01-Q03",
+          "stem_en": "When entering a road from a driveway, you must:",
+          "stem_zhHant": "從車道入口進入公共道路時，您必須：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Honk your horn and proceed",
+              "text_zhHant": "按喇叭然後繼續行駛"
+            },
+            {
+              "key": "B",
+              "text_en": "Yield only to traffic on the left",
+              "text_zhHant": "只讓左側來車"
+            },
+            {
+              "key": "C",
+              "text_en": "Stop and yield to all traffic and pedestrians",
+              "text_zhHant": "停車並讓所有車輛和行人先行"
+            },
+            {
+              "key": "D",
+              "text_en": "Proceed if you can merge safely",
+              "text_zhHant": "如果能安全匯入則繼續行駛"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "When entering a road from a driveway, alley, or private road, you must stop and yield to all traffic on the road and pedestrians on the sidewalk.",
+          "explanation_zhHant": "從車道入口、小巷或私人道路進入公共道路時，必須停車並讓公路上所有車輛和人行道上的行人先行。",
+          "tags": []
+        },
+        {
+          "id": "M03-S01-Q04",
+          "stem_en": "At a T-intersection without signs or signals, who has the right-of-way?",
+          "stem_zhHant": "在沒有標誌或信號燈的丁字路口，誰有優先通行權？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Vehicles on the terminating road",
+              "text_zhHant": "從終止道路駛來的車輛"
+            },
+            {
+              "key": "B",
+              "text_en": "Vehicles on the through (continuing) road",
+              "text_zhHant": "直行道路上的車輛"
+            },
+            {
+              "key": "C",
+              "text_en": "The vehicle on the right regardless of which road",
+              "text_zhHant": "不論在哪條路上，右側車輛"
+            },
+            {
+              "key": "D",
+              "text_en": "Whoever arrives first",
+              "text_zhHant": "先到者"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "At a T-intersection without signs or signals, vehicles on the through road have the right-of-way over vehicles on the terminating road.",
+          "explanation_zhHant": "在沒有標誌或信號燈的丁字路口，直行道路上的車輛優先於從終止道路駛來的車輛。",
+          "tags": [
+            "t-intersection-sign"
+          ]
+        },
+        {
+          "id": "M03-S01-Q05",
+          "stem_en": "When entering a freeway via an on-ramp, you should:",
+          "stem_zhHant": "通過匝道進入高速公路時，您應該：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Stop at the end of the on-ramp and wait for a gap",
+              "text_zhHant": "在匝道末端停車等待間隙"
+            },
+            {
+              "key": "B",
+              "text_en": "Merge at or near the speed of freeway traffic",
+              "text_zhHant": "以接近高速公路車流的速度匯入"
+            },
+            {
+              "key": "C",
+              "text_en": "Drive as slow as possible to be safe",
+              "text_zhHant": "盡可能慢速行駛以確保安全"
+            },
+            {
+              "key": "D",
+              "text_en": "Signal freeway traffic to make room for you",
+              "text_zhHant": "示意高速車流為你讓出空間"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When entering a freeway, you must yield to traffic already on the freeway and merge at or near their speed.",
+          "explanation_zhHant": "進入高速公路時，必須讓已在高速上行駛的車輛先行，應以接近高速公路車流的速度匯入。",
+          "tags": []
+        },
+        {
+          "id": "M03-S01-Q06",
+          "stem_en": "At a 4-way stop, if two vehicles stop at the same time, the right-of-way goes to:",
+          "stem_zhHant": "在四向停車路口，如果兩輛車同時停車，優先通行權歸：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "The vehicle on the left",
+              "text_zhHant": "左側車輛"
+            },
+            {
+              "key": "B",
+              "text_en": "The vehicle going straight",
+              "text_zhHant": "直行車輛"
+            },
+            {
+              "key": "C",
+              "text_en": "The vehicle on the right",
+              "text_zhHant": "右側車輛"
+            },
+            {
+              "key": "D",
+              "text_en": "The vehicle that honks first",
+              "text_zhHant": "先按喇叭的車輛"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "At a 4-way stop, if two vehicles stop at the same time, the vehicle on the right goes first.",
+          "explanation_zhHant": "在四向停車路口，如果兩輛車同時停車，右側車輛優先。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S02",
+      "questions": [
+        {
+          "id": "M03-S02-Q01",
+          "stem_en": "Pedestrians have the right-of-way at:",
+          "stem_zhHant": "行人在以下哪些地方有優先通行權？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Marked crosswalks only",
+              "text_zhHant": "僅有標記的人行橫道"
+            },
+            {
+              "key": "B",
+              "text_en": "Both marked and unmarked crosswalks",
+              "text_zhHant": "有標記和無標記的人行橫道"
+            },
+            {
+              "key": "C",
+              "text_en": "Only when they have a WALK signal",
+              "text_zhHant": "僅在有行走信號時"
+            },
+            {
+              "key": "D",
+              "text_en": "Nowhere unless there is a crossing guard",
+              "text_zhHant": "除非有交通協管員，否則沒有"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Pedestrians have the right-of-way at both marked and unmarked crosswalks.",
+          "explanation_zhHant": "行人在有標記和無標記的人行橫道上都有優先通行權。",
+          "tags": [
+            "pedestrian-crossing"
+          ]
+        },
+        {
+          "id": "M03-S02-Q02",
+          "stem_en": "If a pedestrian is crossing the road illegally (jaywalking), you must:",
+          "stem_zhHant": "如果行人違規橫穿馬路（亂穿馬路），您必須：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Continue driving since they are breaking the law",
+              "text_zhHant": "繼續行駛因為他們在違法"
+            },
+            {
+              "key": "B",
+              "text_en": "Honk and drive around them",
+              "text_zhHant": "按喇叭並繞過他們"
+            },
+            {
+              "key": "C",
+              "text_en": "Still exercise due care and yield to avoid a collision",
+              "text_zhHant": "仍須盡合理注意並讓行以避免碰撞"
+            },
+            {
+              "key": "D",
+              "text_en": "Flash your headlights as a warning",
+              "text_zhHant": "閃大燈警告"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Even if a pedestrian is jaywalking, you must still exercise due care and yield to avoid a collision.",
+          "explanation_zhHant": "即使行人違規橫穿馬路，駕駛員仍有義務盡合理注意避免碰撞，必須讓行。",
+          "tags": [
+            "pedestrian-crossing"
+          ]
+        },
+        {
+          "id": "M03-S02-Q03",
+          "stem_en": "A blind pedestrian carrying a white cane is at a crosswalk. You must:",
+          "stem_zhHant": "一位持白色手杖的視障行人在人行橫道處。您必須：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Honk to let them know you are there",
+              "text_zhHant": "按喇叭讓他們知道您在那裡"
+            },
+            {
+              "key": "B",
+              "text_en": "Stop and wait until they have completely crossed",
+              "text_zhHant": "停車等待他們完全穿過街道"
+            },
+            {
+              "key": "C",
+              "text_en": "Drive slowly past them",
+              "text_zhHant": "慢速從他們旁邊駛過"
+            },
+            {
+              "key": "D",
+              "text_en": "Wave them across",
+              "text_zhHant": "揮手示意他們通過"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Blind pedestrians carrying a white cane or with a guide dog always have the right-of-way. You must stop and wait until they have completely crossed.",
+          "explanation_zhHant": "持白色手杖或由導盲犬陪同的視障行人始終擁有優先通行權。必須停車等待他們完全穿過街道。",
+          "tags": [
+            "pedestrian-crossing"
+          ]
+        },
+        {
+          "id": "M03-S02-Q04",
+          "stem_en": "A flashing 'DON'T WALK' pedestrian signal means:",
+          "stem_zhHant": "閃爍的「不要走」行人信號表示：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Pedestrians must stop immediately wherever they are",
+              "text_zhHant": "行人必須立即在原地停下"
+            },
+            {
+              "key": "B",
+              "text_en": "Do not start crossing, but finish crossing if you have already started",
+              "text_zhHant": "不要開始橫穿，但已開始的可以繼續走完"
+            },
+            {
+              "key": "C",
+              "text_en": "Pedestrians should run to finish crossing",
+              "text_zhHant": "行人應跑著穿過"
+            },
+            {
+              "key": "D",
+              "text_en": "The signal is malfunctioning",
+              "text_zhHant": "信號燈故障"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "A flashing DON'T WALK signal means finish crossing if you have started, but do not start crossing.",
+          "explanation_zhHant": "閃爍的「不要走」信號表示已開始過馬路的可以繼續走完，但不要開始新的橫穿。",
+          "tags": [
+            "pedestrian-signal",
+            "pedestrian-crossing"
+          ]
+        },
+        {
+          "id": "M03-S02-Q05",
+          "stem_en": "Why should you NOT stop your vehicle in a crosswalk?",
+          "stem_zhHant": "為什麼不應該將車輛停在人行橫道上？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "It blocks the view for other drivers",
+              "text_zhHant": "它擋住了其他駕駛員的視線"
+            },
+            {
+              "key": "B",
+              "text_en": "It forces pedestrians to walk around your vehicle, putting them in danger",
+              "text_zhHant": "它迫使行人繞行您的車輛，使他們面臨危險"
+            },
+            {
+              "key": "C",
+              "text_en": "It damages the crosswalk markings",
+              "text_zhHant": "它會損壞人行橫道標記"
+            },
+            {
+              "key": "D",
+              "text_en": "It is only illegal during school hours",
+              "text_zhHant": "只在上學時間違法"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Stopping in a crosswalk forces pedestrians to walk around your vehicle, putting them in danger from other traffic.",
+          "explanation_zhHant": "將車輛停在人行橫道上會迫使行人繞行車輛，使他們面臨危險。",
+          "tags": [
+            "pedestrian-crossing"
+          ]
+        },
+        {
+          "id": "M03-S02-Q06",
+          "stem_en": "When turning at an intersection, you must:",
+          "stem_zhHant": "在路口轉彎時，您必須：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Yield to pedestrians only if they have a WALK signal",
+              "text_zhHant": "僅在行人有行走信號時讓行"
+            },
+            {
+              "key": "B",
+              "text_en": "Always yield to pedestrians crossing in the crosswalk",
+              "text_zhHant": "始終讓正在人行橫道上通行的行人先走"
+            },
+            {
+              "key": "C",
+              "text_en": "Honk to warn pedestrians before turning",
+              "text_zhHant": "轉彎前按喇叭提醒行人"
+            },
+            {
+              "key": "D",
+              "text_en": "Yield to pedestrians only when turning left",
+              "text_zhHant": "僅左轉時讓行人先行"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When turning at an intersection, whether right or left, you must always yield to pedestrians crossing in the crosswalk.",
+          "explanation_zhHant": "在路口無論左轉還是右轉，都必須讓正在人行橫道上通行的行人先走。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S03",
+      "questions": [
+        {
+          "id": "M03-S03-Q01",
+          "stem_en": "When you hear a siren and see flashing red lights from an emergency vehicle, you should:",
+          "stem_zhHant": "當您聽到警笛並看到緊急車輛的閃爍紅燈時，您應該：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Speed up to get out of the way",
+              "text_zhHant": "加速讓路"
+            },
+            {
+              "key": "B",
+              "text_en": "Stop in the middle of the intersection",
+              "text_zhHant": "在路口中間停車"
+            },
+            {
+              "key": "C",
+              "text_en": "Pull over to the right edge of the road and stop",
+              "text_zhHant": "靠右側路邊停車"
+            },
+            {
+              "key": "D",
+              "text_en": "Continue driving at the same speed",
+              "text_zhHant": "繼續以相同速度行駛"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Pull over to the right edge of the road and stop until the emergency vehicle passes.",
+          "explanation_zhHant": "靠右側路邊停車，直到緊急車輛通過。",
+          "tags": [
+            "merging-traffic",
+            "red-light",
+            "flashing-red"
+          ]
+        },
+        {
+          "id": "M03-S03-Q02",
+          "stem_en": "When a school bus is flashing red lights with its stop sign arm extended, traffic in which direction(s) must stop?",
+          "stem_zhHant": "當校車閃爍紅燈且伸出停車臂時，哪個方向的車輛必須停車？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Only traffic behind the bus",
+              "text_zhHant": "僅校車後方的車輛"
+            },
+            {
+              "key": "B",
+              "text_en": "Traffic in both directions",
+              "text_zhHant": "雙向車輛"
+            },
+            {
+              "key": "C",
+              "text_en": "Only traffic in front of the bus",
+              "text_zhHant": "僅校車前方的車輛"
+            },
+            {
+              "key": "D",
+              "text_en": "No one needs to stop",
+              "text_zhHant": "無人需要停車"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Traffic in BOTH directions must stop for a school bus with flashing red lights, unless on a divided highway.",
+          "explanation_zhHant": "雙向車輛都必須停車，除非在有隔離帶的高速公路上。",
+          "tags": [
+            "red-light",
+            "flashing-red",
+            "school-bus"
+          ]
+        },
+        {
+          "id": "M03-S03-Q03",
+          "stem_en": "The Move Over law requires you to do what when passing a stationary emergency vehicle with flashing lights?",
+          "stem_zhHant": "移車法要求您在經過停在路邊的閃燈緊急車輛時怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Stop completely and wait",
+              "text_zhHant": "完全停車等待"
+            },
+            {
+              "key": "B",
+              "text_en": "Move over one lane or slow down",
+              "text_zhHant": "變道一個車道或減速"
+            },
+            {
+              "key": "C",
+              "text_en": "Flash your headlights as you pass",
+              "text_zhHant": "經過時閃大燈"
+            },
+            {
+              "key": "D",
+              "text_en": "Honk to alert the officers",
+              "text_zhHant": "按喇叭提醒警察"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "The Move Over law requires you to move over one lane if safe, or slow down when passing stationary emergency vehicles, tow trucks, or Caltrans vehicles with flashing lights.",
+          "explanation_zhHant": "移車法要求在經過停在路邊閃燈的緊急車輛、拖車或加州交通局車輛時，變道一個車道或減速通過。",
+          "tags": [
+            "merging-traffic"
+          ]
+        },
+        {
+          "id": "M03-S03-Q04",
+          "stem_en": "At a railroad crossing with flashing lights and lowered gates, you must stop at least how many feet from the nearest rail?",
+          "stem_zhHant": "在有閃燈和放下欄杆的鐵路道口，您必須在距最近鐵軌至少多少英尺處停車？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "5 feet",
+              "text_zhHant": "5英尺"
+            },
+            {
+              "key": "B",
+              "text_en": "10 feet",
+              "text_zhHant": "10英尺"
+            },
+            {
+              "key": "C",
+              "text_en": "15 feet",
+              "text_zhHant": "15英尺"
+            },
+            {
+              "key": "D",
+              "text_en": "25 feet",
+              "text_zhHant": "25英尺"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "At railroad crossings, you must stop at least 15 feet from the nearest rail when lights flash or gates lower.",
+          "explanation_zhHant": "在鐵路道口，當燈光閃爍或欄杆放下時，必須在距最近鐵軌至少15英尺處停車。",
+          "tags": [
+            "railroad"
+          ]
+        },
+        {
+          "id": "M03-S03-Q05",
+          "stem_en": "On a divided highway with a median, when a school bus is flashing red lights:",
+          "stem_zhHant": "在有中央隔離帶的公路上，當校車閃爍紅燈時：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "All traffic in both directions must stop",
+              "text_zhHant": "雙向所有車輛都必須停車"
+            },
+            {
+              "key": "B",
+              "text_en": "Only traffic in the same direction as the bus must stop",
+              "text_zhHant": "只有與校車同向的車輛必須停車"
+            },
+            {
+              "key": "C",
+              "text_en": "No one needs to stop on a divided highway",
+              "text_zhHant": "在分隔公路上無人需要停車"
+            },
+            {
+              "key": "D",
+              "text_en": "Only traffic directly behind the bus must stop",
+              "text_zhHant": "只有校車正後方的車輛必須停車"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "On a divided highway with a median, only traffic traveling in the same direction as the school bus must stop.",
+          "explanation_zhHant": "在有中央隔離帶的公路上，只有與校車同向行駛的車輛需要停車。",
+          "tags": [
+            "divided-highway",
+            "red-light",
+            "flashing-red",
+            "school-bus"
+          ]
+        },
+        {
+          "id": "M03-S03-Q06",
+          "stem_en": "If you are in an intersection when an emergency vehicle approaches, you should:",
+          "stem_zhHant": "如果緊急車輛接近時您正在路口內，您應該：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Stop immediately in the intersection",
+              "text_zhHant": "立即在路口中間停車"
+            },
+            {
+              "key": "B",
+              "text_en": "Proceed through the intersection first, then pull over to the right",
+              "text_zhHant": "先通過路口，然後靠右側停車"
+            },
+            {
+              "key": "C",
+              "text_en": "Back up to clear the intersection",
+              "text_zhHant": "倒車離開路口"
+            },
+            {
+              "key": "D",
+              "text_en": "Turn left to get out of the way",
+              "text_zhHant": "左轉讓路"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "If you are in an intersection when an emergency vehicle approaches, proceed through the intersection first, then pull over to the right and stop.",
+          "explanation_zhHant": "如果緊急車輛接近時正在路口內，應先通過路口，然後靠右側停車。",
+          "tags": [
+            "merging-traffic"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "S04",
+      "questions": [
+        {
+          "id": "M03-S04-Q01",
+          "stem_en": "When passing a bicyclist, you must give at least how many feet of clearance?",
+          "stem_zhHant": "超越自行車騎行者時，必須保持至少多少英尺的安全距離？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "1 foot",
+              "text_zhHant": "1英尺"
+            },
+            {
+              "key": "B",
+              "text_en": "2 feet",
+              "text_zhHant": "2英尺"
+            },
+            {
+              "key": "C",
+              "text_en": "3 feet",
+              "text_zhHant": "3英尺"
+            },
+            {
+              "key": "D",
+              "text_en": "5 feet",
+              "text_zhHant": "5英尺"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "When passing a bicyclist, you must give at least 3 feet of clearance.",
+          "explanation_zhHant": "超越自行車騎行者時，必須保持至少3英尺的安全距離。",
+          "tags": []
+        },
+        {
+          "id": "M03-S04-Q02",
+          "stem_en": "Is lane splitting by motorcyclists legal in California?",
+          "stem_zhHant": "在加州，摩托車在車道之間穿行（分車道行駛）合法嗎？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "No, it is always illegal",
+              "text_zhHant": "不，這始終是違法的"
+            },
+            {
+              "key": "B",
+              "text_en": "Yes, it is legal in California",
+              "text_zhHant": "是的，在加州是合法的"
+            },
+            {
+              "key": "C",
+              "text_en": "Only on freeways",
+              "text_zhHant": "僅在高速公路上合法"
+            },
+            {
+              "key": "D",
+              "text_en": "Only during heavy traffic",
+              "text_zhHant": "僅在交通擁堵時合法"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Lane splitting by motorcyclists is legal in California. Be aware of motorcycles passing between lanes, especially in slow traffic.",
+          "explanation_zhHant": "在加州，摩托車在車道之間穿行是合法的。要注意可能在車道間穿行的摩托車。",
+          "tags": []
+        },
+        {
+          "id": "M03-S04-Q03",
+          "stem_en": "You may drive in a marked bicycle lane when:",
+          "stem_zhHant": "以下哪種情況下可以在自行車專用道內行駛？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "There are no bicyclists present",
+              "text_zhHant": "沒有自行車騎行者時"
+            },
+            {
+              "key": "B",
+              "text_en": "You are within 200 feet of making a right turn",
+              "text_zhHant": "在200英尺內準備右轉"
+            },
+            {
+              "key": "C",
+              "text_en": "You are driving under 25 mph",
+              "text_zhHant": "時速低於25英里"
+            },
+            {
+              "key": "D",
+              "text_en": "It is rush hour and traffic is heavy",
+              "text_zhHant": "交通高峰期車流量大時"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Do not drive in a bicycle lane unless you are within 200 feet of making a right turn, entering or leaving a driveway, or parking.",
+          "explanation_zhHant": "除非在200英尺內準備右轉、進出車道入口或在允許停車處停車，否則不得在自行車專用道內行駛。",
+          "tags": []
+        },
+        {
+          "id": "M03-S04-Q04",
+          "stem_en": "Bicyclists on the road have:",
+          "stem_zhHant": "道路上的自行車騎行者擁有：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Fewer rights than motor vehicles",
+              "text_zhHant": "比機動車更少的權利"
+            },
+            {
+              "key": "B",
+              "text_en": "The same rights and responsibilities as motor vehicle drivers",
+              "text_zhHant": "與機動車駕駛員同等的權利和責任"
+            },
+            {
+              "key": "C",
+              "text_en": "More rights than motor vehicles",
+              "text_zhHant": "比機動車更多的權利"
+            },
+            {
+              "key": "D",
+              "text_en": "No legal rights on public roads",
+              "text_zhHant": "在公共道路上沒有合法權利"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Bicyclists have the same rights and responsibilities as motor vehicle drivers.",
+          "explanation_zhHant": "自行車騎行者與機動車駕駛員享有同等的權利和責任。",
+          "tags": []
+        },
+        {
+          "id": "M03-S04-Q05",
+          "stem_en": "Before changing lanes or turning, you should always check your blind spots to avoid hitting:",
+          "stem_zhHant": "變道或轉彎前應始終檢查盲區以避免撞到：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Only large trucks",
+              "text_zhHant": "僅大型卡車"
+            },
+            {
+              "key": "B",
+              "text_en": "Motorcyclists and bicyclists you may not have seen",
+              "text_zhHant": "可能未注意到的摩托車或自行車騎行者"
+            },
+            {
+              "key": "C",
+              "text_en": "Only vehicles in the next lane",
+              "text_zhHant": "僅相鄰車道的車輛"
+            },
+            {
+              "key": "D",
+              "text_en": "Parked cars only",
+              "text_zhHant": "僅停放的車輛"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Always check mirrors and blind spots before changing lanes or turning to avoid hitting motorcyclists or bicyclists you may not have seen.",
+          "explanation_zhHant": "變道或轉彎前務必檢查後視鏡和盲區，以避免撞到可能未注意到的摩托車或自行車騎行者。",
+          "tags": [
+            "blind-spots"
+          ]
+        }
+      ]
+    }
+  ]
+}

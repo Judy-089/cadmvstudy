@@ -1,0 +1,1313 @@
+{
+  "examId": "MOCK-08",
+  "questions": [
+    {
+      "id": "Q-MOCK08-001",
+      "stem_en": "A T-intersection warning sign indicates:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A curve ahead"
+        },
+        {
+          "key": "B",
+          "text_en": "An intersection where one road ends at another"
+        },
+        {
+          "key": "C",
+          "text_en": "A tunnel ahead"
+        },
+        {
+          "key": "D",
+          "text_en": "A dead end"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A T-intersection sign warns that the road you are on ends ahead. You must turn left or right.",
+      "explanation_zh": "T型路口标志警告你所在的道路前方结束。你必须左转或右转。",
+      "module": "M02",
+      "tags": [
+        "t-intersection-sign"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-002",
+      "stem_en": "A slippery when wet sign warns you that:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The road is always slippery"
+        },
+        {
+          "key": "B",
+          "text_en": "There is a water crossing ahead"
+        },
+        {
+          "key": "C",
+          "text_en": "The road may be slippery when wet"
+        },
+        {
+          "key": "D",
+          "text_en": "You must stop"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A slippery when wet sign warns the road surface may become slippery in wet conditions. Reduce your speed.",
+      "explanation_zh": "湿滑路面标志警告路面在潮湿条件下可能变得湿滑。降低速度。",
+      "module": "M02",
+      "tags": [
+        "slippery-when-wet"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-003",
+      "stem_en": "A curve ahead sign warns you to:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Speed up through the curve"
+        },
+        {
+          "key": "B",
+          "text_en": "Slow down before entering the curve"
+        },
+        {
+          "key": "C",
+          "text_en": "Stop before the curve"
+        },
+        {
+          "key": "D",
+          "text_en": "Change lanes before the curve"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A curve ahead sign warns of a curve. Reduce speed before entering the curve to maintain control.",
+      "explanation_zh": "前方弯道标志警告有弯道。在进入弯道前减速以保持控制。",
+      "module": "M02",
+      "tags": [
+        "curve-ahead"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-004",
+      "stem_en": "A keep right sign means:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Drive to the right of an obstacle or divider"
+        },
+        {
+          "key": "B",
+          "text_en": "The right lane is closed"
+        },
+        {
+          "key": "C",
+          "text_en": "Right turns only"
+        },
+        {
+          "key": "D",
+          "text_en": "Slower traffic must use the right lane"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "A keep right sign indicates you must drive to the right of an obstacle, divider, or median.",
+      "explanation_zh": "靠右行驶标志表示你必须在障碍物或分隔带的右侧行驶。",
+      "module": "M02",
+      "tags": [
+        "keep-right"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-005",
+      "stem_en": "A no left turn sign means:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Left turns are prohibited at this location"
+        },
+        {
+          "key": "B",
+          "text_en": "Left turns allowed only on green arrows"
+        },
+        {
+          "key": "C",
+          "text_en": "Left turns for emergency vehicles only"
+        },
+        {
+          "key": "D",
+          "text_en": "Left turns restricted during rush hour"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "A no left turn sign prohibits left turns at that location.",
+      "explanation_zh": "禁止左转标志禁止在该位置左转。",
+      "module": "M02",
+      "tags": [
+        "no-left-turn"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-006",
+      "stem_en": "A green traffic signal means you may proceed, but you must still:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Accelerate immediately"
+        },
+        {
+          "key": "B",
+          "text_en": "Yield to vehicles and pedestrians already in the intersection"
+        },
+        {
+          "key": "C",
+          "text_en": "Stop and look both ways"
+        },
+        {
+          "key": "D",
+          "text_en": "Honk before entering"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A green light means GO, but yield to any vehicle, bicyclist, or pedestrian already in the intersection.",
+      "explanation_zh": "绿灯表示可以通行，但仍须让行已在路口内的车辆、骑自行车者和行人。",
+      "module": "M02",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-007",
+      "stem_en": "A no U-turn sign prohibits you from:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Making a right turn"
+        },
+        {
+          "key": "B",
+          "text_en": "Changing lanes"
+        },
+        {
+          "key": "C",
+          "text_en": "Turning around to go back the way you came"
+        },
+        {
+          "key": "D",
+          "text_en": "Backing up"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A no U-turn sign means you may not make a U-turn at that location.",
+      "explanation_zh": "禁止掉头标志表示在该位置不得掉头。",
+      "module": "M02",
+      "tags": [
+        "no-u-turn"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-008",
+      "stem_en": "Yellow raised pavement markers on the road indicate:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The boundary between opposite-direction traffic"
+        },
+        {
+          "key": "B",
+          "text_en": "A bike lane"
+        },
+        {
+          "key": "C",
+          "text_en": "A parking zone"
+        },
+        {
+          "key": "D",
+          "text_en": "A construction zone"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "Yellow raised pavement markers indicate the boundary between traffic traveling in opposite directions.",
+      "explanation_zh": "黄色凸起路面标记表示对向行驶车辆之间的分界线。",
+      "module": "M02",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-009",
+      "stem_en": "When you reach a roundabout, you must:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Stop completely before entering"
+        },
+        {
+          "key": "B",
+          "text_en": "Slow down, yield to traffic in the roundabout, and enter when safe"
+        },
+        {
+          "key": "C",
+          "text_en": "Speed up to merge quickly"
+        },
+        {
+          "key": "D",
+          "text_en": "Honk before entering"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "At a roundabout, slow down, yield to all traffic already in the roundabout, and enter when safe.",
+      "explanation_zh": "在环形交叉路口，减速，让行已在环形路口内的所有车辆，安全时驶入。",
+      "module": "M03",
+      "tags": [
+        "roundabout"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-010",
+      "stem_en": "When you miss your exit in a roundabout, you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Stop and reverse"
+        },
+        {
+          "key": "B",
+          "text_en": "Make a U-turn"
+        },
+        {
+          "key": "C",
+          "text_en": "Continue around until you reach your exit again"
+        },
+        {
+          "key": "D",
+          "text_en": "Cut across the center island"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Continue driving around until you return to your exit. Do not stop or reverse.",
+      "explanation_zh": "继续行驶直到再次到达出口。不要停车或倒车。",
+      "module": "M03",
+      "tags": [
+        "roundabout"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-011",
+      "stem_en": "Pedestrians have the right-of-way in:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Marked crosswalks only"
+        },
+        {
+          "key": "B",
+          "text_en": "Unmarked crosswalks only"
+        },
+        {
+          "key": "C",
+          "text_en": "Crosswalks with signals only"
+        },
+        {
+          "key": "D",
+          "text_en": "Both marked and unmarked crosswalks"
+        }
+      ],
+      "answer": "D",
+      "explanation_en": "Pedestrians have the right-of-way in both marked and unmarked crosswalks.",
+      "explanation_zh": "行人在标记和未标记的人行横道上都拥有优先通行权。",
+      "module": "M03",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-012",
+      "stem_en": "When entering a highway from a merging lane, you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Stop at the end of the ramp"
+        },
+        {
+          "key": "B",
+          "text_en": "Match highway speed and merge safely without stopping"
+        },
+        {
+          "key": "C",
+          "text_en": "Drive slowly until you find an opening"
+        },
+        {
+          "key": "D",
+          "text_en": "Signal with your horn"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Be at or near the speed of traffic and merge safely. Do not stop unless absolutely necessary.",
+      "explanation_zh": "速度应达到或接近车流速度并安全合并。除非绝对必要，不要停车。",
+      "module": "M03",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-013",
+      "stem_en": "A buffered bike lane provides separation using:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Concrete barriers"
+        },
+        {
+          "key": "B",
+          "text_en": "Chevrons or diagonal markings"
+        },
+        {
+          "key": "C",
+          "text_en": "Metal guardrails"
+        },
+        {
+          "key": "D",
+          "text_en": "Raised curbs"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A buffered bike lane uses chevrons or diagonal markings for greater separation from traffic.",
+      "explanation_zh": "缓冲自行车道使用人字形或对角线标记提供与交通更大的分隔。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-014",
+      "stem_en": "End of lane markings on freeways are usually marked with:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Large broken lines"
+        },
+        {
+          "key": "B",
+          "text_en": "Solid yellow lines"
+        },
+        {
+          "key": "C",
+          "text_en": "Dotted white circles"
+        },
+        {
+          "key": "D",
+          "text_en": "Red reflectors"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "Ending lanes are usually marked with large broken lines. Be prepared to exit or merge.",
+      "explanation_zh": "车道结束处通常用大的虚线标记。做好驶出或合并的准备。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-015",
+      "stem_en": "A yield line is a row of solid white triangles showing:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Where to park"
+        },
+        {
+          "key": "B",
+          "text_en": "Where to make a U-turn"
+        },
+        {
+          "key": "C",
+          "text_en": "Where vehicles should yield or stop"
+        },
+        {
+          "key": "D",
+          "text_en": "Where to change lanes"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A yield line shows approaching vehicles where to yield or stop. Triangles point toward approaching vehicles.",
+      "explanation_zh": "让行线指示接近的车辆应在哪里让行或停车。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-016",
+      "stem_en": "A separated bikeway is physically separated from motor vehicles by:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Paint only"
+        },
+        {
+          "key": "B",
+          "text_en": "Shared lane markings"
+        },
+        {
+          "key": "C",
+          "text_en": "Signs only"
+        },
+        {
+          "key": "D",
+          "text_en": "Barriers, flexible posts, or grade separation"
+        }
+      ],
+      "answer": "D",
+      "explanation_en": "A separated bikeway is physically separated from motor vehicles using flexible posts, grade separation, barriers, or on-street parking.",
+      "explanation_zh": "隔离自行车道通过柔性柱、坡度分隔、护栏或路边停车与机动车物理分隔。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-017",
+      "stem_en": "HOV carpool lanes on the road surface are marked with:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A diamond symbol"
+        },
+        {
+          "key": "B",
+          "text_en": "A circle"
+        },
+        {
+          "key": "C",
+          "text_en": "A triangle"
+        },
+        {
+          "key": "D",
+          "text_en": "An arrow"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "HOV lanes are marked with a diamond symbol and the words Carpool Lane. Use designated entrances and exits.",
+      "explanation_zh": "HOV车道在路面上标有菱形符号和“拼车道”字样。使用指定的入口和出口。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-018",
+      "stem_en": "The maximum speed limit on a two-lane undivided highway is:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "45 mph"
+        },
+        {
+          "key": "B",
+          "text_en": "55 mph"
+        },
+        {
+          "key": "C",
+          "text_en": "65 mph"
+        },
+        {
+          "key": "D",
+          "text_en": "70 mph"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Unless otherwise posted, the speed limit on a two-lane undivided highway is 55 mph.",
+      "explanation_zh": "除非另有标示，双车道无隔离带公路的限速为55英里/小时。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-019",
+      "stem_en": "The speed limit at a blind intersection with no stop signs is:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "15 mph"
+        },
+        {
+          "key": "B",
+          "text_en": "20 mph"
+        },
+        {
+          "key": "C",
+          "text_en": "25 mph"
+        },
+        {
+          "key": "D",
+          "text_en": "30 mph"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "A blind intersection has no stop signs and limited visibility. The speed limit is 15 mph.",
+      "explanation_zh": "盲交叉路口没有停车标志且能见度有限。限速为15英里/小时。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-020",
+      "stem_en": "As your speed increases, your stopping distance:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Decreases"
+        },
+        {
+          "key": "B",
+          "text_en": "Stays the same"
+        },
+        {
+          "key": "C",
+          "text_en": "Increases significantly"
+        },
+        {
+          "key": "D",
+          "text_en": "Depends only on tire condition"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Stopping distance increases significantly with speed. At 55 mph a car needs about 300 feet to stop.",
+      "explanation_zh": "随着速度增加，制动距离显著增加。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-021",
+      "stem_en": "Which of the following qualifies you to use an HOV carpool lane?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Driving during non-peak hours"
+        },
+        {
+          "key": "B",
+          "text_en": "You have the required number of people or qualifying vehicle"
+        },
+        {
+          "key": "C",
+          "text_en": "Driving a truck with three or more axles"
+        },
+        {
+          "key": "D",
+          "text_en": "You need to pass slower traffic"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Use an HOV lane if you have the minimum number of occupants posted, drive a qualifying low/zero emission vehicle, or ride a motorcycle.",
+      "explanation_zh": "如果你有标志上公布的最少乘员数、驾驶符合条件的低/零排放车辆或骑摩托车，可使用HOV车道。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-022",
+      "stem_en": "When driving faster or slower than the speed limit, you may be:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Cited for a traffic violation"
+        },
+        {
+          "key": "B",
+          "text_en": "Given a warning only"
+        },
+        {
+          "key": "C",
+          "text_en": "Required to take a driving test"
+        },
+        {
+          "key": "D",
+          "text_en": "Fined only if an accident occurs"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "You may be cited for driving faster or slower than the speed limit.",
+      "explanation_zh": "驾驶速度快于或慢于限速都可能被开罚单。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-023",
+      "stem_en": "Blind pedestrians using guide dogs or white canes have the right-of-way:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Only at marked crosswalks"
+        },
+        {
+          "key": "B",
+          "text_en": "Only when traffic lights are green"
+        },
+        {
+          "key": "C",
+          "text_en": "At all times"
+        },
+        {
+          "key": "D",
+          "text_en": "Only during daylight"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Blind pedestrians using guide dogs or white canes have the right-of-way at all times.",
+      "explanation_zh": "使用导盲犬或白手杖的盲人行人在任何时候都拥有优先通行权。",
+      "module": "M08",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-024",
+      "stem_en": "What rights do bicyclists have on public roads?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Fewer rights than motor vehicles"
+        },
+        {
+          "key": "B",
+          "text_en": "More rights than motor vehicles"
+        },
+        {
+          "key": "C",
+          "text_en": "The same rights and responsibilities as other drivers"
+        },
+        {
+          "key": "D",
+          "text_en": "Right-of-way at all times"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Bicyclists have the same rights and responsibilities as other drivers on public roads.",
+      "explanation_zh": "骑自行车的人与其他驾驶员拥有相同的权利和责任。",
+      "module": "M08",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-025",
+      "stem_en": "NEVs are restricted from roads with speed limits exceeding:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "25 mph"
+        },
+        {
+          "key": "B",
+          "text_en": "35 mph"
+        },
+        {
+          "key": "C",
+          "text_en": "45 mph"
+        },
+        {
+          "key": "D",
+          "text_en": "55 mph"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "NEVs reach 25 mph max and are restricted from roads with limits greater than 35 mph.",
+      "explanation_zh": "NEV最高速度25英里/小时，不得在限速超过35英里/小时的道路上行驶。",
+      "module": "M08",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-026",
+      "stem_en": "Driving to the scene of a fire or disaster is illegal because:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "You may obstruct emergency personnel and can be arrested"
+        },
+        {
+          "key": "B",
+          "text_en": "Your insurance won't cover you"
+        },
+        {
+          "key": "C",
+          "text_en": "It is only illegal during rush hour"
+        },
+        {
+          "key": "D",
+          "text_en": "You might get a parking ticket"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "You can be arrested for driving to an emergency scene as you obstruct rescue personnel.",
+      "explanation_zh": "开车到紧急现场可能被逞捕，因为你会妨碍救援人员。",
+      "module": "M08",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-027",
+      "stem_en": "You must turn on headlights beginning:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "One hour after sunset"
+        },
+        {
+          "key": "B",
+          "text_en": "30 minutes after sunset until 30 minutes before sunrise"
+        },
+        {
+          "key": "C",
+          "text_en": "When the sun goes down"
+        },
+        {
+          "key": "D",
+          "text_en": "Only when completely dark"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Use headlights beginning 30 minutes after sunset until 30 minutes before sunrise.",
+      "explanation_zh": "在日落后30分钟开始使用车灯，直到日出前30分钟。",
+      "module": "M09",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-028",
+      "stem_en": "Dim high-beam headlights to low beams within how many feet of an oncoming vehicle?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "500 feet"
+        },
+        {
+          "key": "B",
+          "text_en": "300 feet"
+        },
+        {
+          "key": "C",
+          "text_en": "200 feet"
+        },
+        {
+          "key": "D",
+          "text_en": "1,000 feet"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "Dim high beams within 500 feet of an oncoming vehicle or 300 feet of a vehicle you are following.",
+      "explanation_zh": "在距对面来车500英尺或距你跟随的车辆300英尺范围内切换为近光灯。",
+      "module": "M09",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-029",
+      "stem_en": "When you see a hazard ahead, warn drivers behind you by:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Swerving your vehicle"
+        },
+        {
+          "key": "B",
+          "text_en": "Stopping suddenly"
+        },
+        {
+          "key": "C",
+          "text_en": "Flashing high beams only"
+        },
+        {
+          "key": "D",
+          "text_en": "Turning on emergency flashers and lightly tapping your brake pedal"
+        }
+      ],
+      "answer": "D",
+      "explanation_en": "Turn on emergency flashers and lightly tap your brake pedal 3-4 times to warn following drivers.",
+      "explanation_zh": "打开应急闪光灯并轻踩刹车踏板3-4次以警告后方驾驶员。",
+      "module": "M09",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-030",
+      "stem_en": "What is the legal BAC limit when driving a vehicle that requires a commercial license?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "0.02%"
+        },
+        {
+          "key": "B",
+          "text_en": "0.04%"
+        },
+        {
+          "key": "C",
+          "text_en": "0.08%"
+        },
+        {
+          "key": "D",
+          "text_en": "0.10%"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "The BAC limit is 0.04% for commercial vehicle drivers and for driving passengers for hire.",
+      "explanation_zh": "商用车辆驾驶员和载客收费驾驶员的BAC限制为0.04%。",
+      "module": "M10",
+      "tags": [
+        "bac"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-031",
+      "stem_en": "It is illegal to smoke in a vehicle when:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Any passenger objects"
+        },
+        {
+          "key": "B",
+          "text_en": "The windows are closed"
+        },
+        {
+          "key": "C",
+          "text_en": "A minor is in the vehicle"
+        },
+        {
+          "key": "D",
+          "text_en": "Driving on a highway"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "You must not smoke when a minor is in the vehicle. You can be fined.",
+      "explanation_zh": "当未成年人在车内时不得吸烟。可被罚款。",
+      "module": "M10",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-032",
+      "stem_en": "A blue painted curb means parking is reserved for:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Disabled persons with special placards or plates"
+        },
+        {
+          "key": "B",
+          "text_en": "No parking at any time"
+        },
+        {
+          "key": "C",
+          "text_en": "Loading and unloading only"
+        },
+        {
+          "key": "D",
+          "text_en": "Short-term parking"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "A blue curb is reserved for disabled persons with a special placard or special license plate.",
+      "explanation_zh": "蓝色路缘专为持有特殊停车牌或特殊车牌的残疾人停车保留。",
+      "module": "M06",
+      "tags": [
+        "colored-curbs"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-033",
+      "stem_en": "You may NOT park on a bridge or in a tunnel unless:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "It is an emergency"
+        },
+        {
+          "key": "B",
+          "text_en": "You are loading passengers"
+        },
+        {
+          "key": "C",
+          "text_en": "Permitted by signs"
+        },
+        {
+          "key": "D",
+          "text_en": "Traffic is stopped"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Do not park in a tunnel or on a bridge unless permitted by signs.",
+      "explanation_zh": "除非有标志允许，不得在隧道或桥梁上停车。",
+      "module": "M06",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-034",
+      "stem_en": "Double parking means:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Parking in two spaces"
+        },
+        {
+          "key": "B",
+          "text_en": "Parking on the road side of a vehicle already at the curb"
+        },
+        {
+          "key": "C",
+          "text_en": "Parking on a hill"
+        },
+        {
+          "key": "D",
+          "text_en": "Parking in a loading zone"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Double parking is parking on the road side of a vehicle at the curb. It is illegal.",
+      "explanation_zh": "双重停车是停在已停在路缘旁车辆的道路一侧。这是违法的。",
+      "module": "M06",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-035",
+      "stem_en": "During a law enforcement traffic break, you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Speed up to pass the patrol vehicle"
+        },
+        {
+          "key": "B",
+          "text_en": "Turn on flashers, match the officer speed, and do not pass"
+        },
+        {
+          "key": "C",
+          "text_en": "Pull over immediately"
+        },
+        {
+          "key": "D",
+          "text_en": "Change lanes to avoid the officer"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Turn on emergency flashers, slowly match the officer's speed, and do not pass the patrol vehicle.",
+      "explanation_zh": "打开应急闪光灯，慢慢减速到与警察相同速度，不要超越巡逻车。",
+      "module": "M07",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-036",
+      "stem_en": "If you encounter flooding on a road, you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Drive through quickly to avoid stalling"
+        },
+        {
+          "key": "B",
+          "text_en": "Find another route if the water is deep"
+        },
+        {
+          "key": "C",
+          "text_en": "Drive on the shoulder to avoid the water"
+        },
+        {
+          "key": "D",
+          "text_en": "Follow the vehicle in front of you closely"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "It may not be possible to determine flood depth by looking. If deep, find another route. If you must drive through, go slowly and test brakes after.",
+      "explanation_zh": "可能无法通过观察判断水深。如果水深，找另一条路。如必须通过，慢慢行驶并在之后测试刹车。",
+      "module": "M07",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-037",
+      "stem_en": "A minor must have their instruction permit validated by whom before using it?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A parent or guardian"
+        },
+        {
+          "key": "B",
+          "text_en": "A DMV examiner"
+        },
+        {
+          "key": "C",
+          "text_en": "A behind-the-wheel driver training instructor"
+        },
+        {
+          "key": "D",
+          "text_en": "A law enforcement officer"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A minor cannot use their permit until they start training with an instructor who validates it.",
+      "explanation_zh": "未成年人在开始跟教练进行实际驾驶培训并由教练验证许可证后才能使用。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK08-038",
+      "stem_en": "The provisional license curfew restriction applies for:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The first 6 months"
+        },
+        {
+          "key": "B",
+          "text_en": "The first 12 months"
+        },
+        {
+          "key": "C",
+          "text_en": "Until age 18"
+        },
+        {
+          "key": "D",
+          "text_en": "Until age 21"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "The curfew (11 p.m. to 5 a.m.) applies during the first 12 months of having a provisional license.",
+      "explanation_zh": "宵禁（11pm-5am）适用于持有临时驾照的前12个月。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK08-039",
+      "stem_en": "If a minor has two at-fault collisions or violations within 12 months, DMV may:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Revoke their license permanently"
+        },
+        {
+          "key": "B",
+          "text_en": "Restrict driving for 30 days unless a licensed adult 25+ rides along"
+        },
+        {
+          "key": "C",
+          "text_en": "Require retaking the knowledge test"
+        },
+        {
+          "key": "D",
+          "text_en": "Issue a warning only"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Two at-fault incidents means no driving for 30 days unless a licensed adult 25+ accompanies them.",
+      "explanation_zh": "两次有过失事件意味着30天内不得驾驶，除非25岁以上的持照成年人陪同。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK08-040",
+      "stem_en": "If both parents share joint custody, who must sign the minor's license application?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Only the custodial parent"
+        },
+        {
+          "key": "B",
+          "text_en": "Only one parent"
+        },
+        {
+          "key": "C",
+          "text_en": "The school counselor"
+        },
+        {
+          "key": "D",
+          "text_en": "Both parents"
+        }
+      ],
+      "answer": "D",
+      "explanation_en": "If parents share joint custody, both must sign the application.",
+      "explanation_zh": "如果父母共同拥有监护权，双方都必须签字。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK08-041",
+      "stem_en": "A minor must wait how many days to retake a failed behind-the-wheel test?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "3 days"
+        },
+        {
+          "key": "B",
+          "text_en": "7 days"
+        },
+        {
+          "key": "C",
+          "text_en": "14 days"
+        },
+        {
+          "key": "D",
+          "text_en": "30 days"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Minors must wait 14 days (not including the day of failure) to retake a failed drive test.",
+      "explanation_zh": "未成年人必须等待14天（不包括失败当天）才能重新参加路考。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK08-042",
+      "stem_en": "A parent or guardian may cancel their teen's license by:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Completing a Request for Cancellation form"
+        },
+        {
+          "key": "B",
+          "text_en": "Calling DMV"
+        },
+        {
+          "key": "C",
+          "text_en": "Sending an email"
+        },
+        {
+          "key": "D",
+          "text_en": "Visiting the school"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "A parent can cancel by completing a Request for Cancellation or Surrender of a Driver License or ID Card form.",
+      "explanation_zh": "父母可以通过填写取消或交回驾照或身份证表格来取消。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK08-043",
+      "stem_en": "On the drive test, an accompanying licensed driver for a minor must be at least:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "18 years old"
+        },
+        {
+          "key": "B",
+          "text_en": "21 years old"
+        },
+        {
+          "key": "C",
+          "text_en": "25 years old"
+        },
+        {
+          "key": "D",
+          "text_en": "30 years old"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "For minors, the accompanying licensed driver must be at least 25 years old.",
+      "explanation_zh": "对于未成年人，陪同的持照驾驶员必须至少25岁。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK08-044",
+      "stem_en": "A cell phone used while driving by an adult must be mounted on the:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Passenger seat"
+        },
+        {
+          "key": "B",
+          "text_en": "Sun visor"
+        },
+        {
+          "key": "C",
+          "text_en": "Cup holder only"
+        },
+        {
+          "key": "D",
+          "text_en": "Windshield, dashboard, or center console without blocking the view"
+        }
+      ],
+      "answer": "D",
+      "explanation_en": "Mount your cell phone on the windshield, dashboard, or center console. It cannot block your view. Use single swipe or touch only.",
+      "explanation_zh": "将手机安装在挡风玻璃、仪表板或中控台上。不能遮挡视线。只使用单次滑动或触摸功能。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK08-045",
+      "stem_en": "Children under 2 years old must be secured in:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A rear-facing child passenger restraint system"
+        },
+        {
+          "key": "B",
+          "text_en": "A forward-facing car seat"
+        },
+        {
+          "key": "C",
+          "text_en": "A booster seat"
+        },
+        {
+          "key": "D",
+          "text_en": "A regular seat belt"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "Children under 2, under 40 lbs, under 3ft 4in must be in a rear-facing restraint. They may not ride in front of an airbag-equipped vehicle.",
+      "explanation_zh": "2岁以下、40磅以下、身高不足3英尺4英寸的儿童必须使用后向式约束系统。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK08-046",
+      "stem_en": "During a traffic stop, law enforcement must state the reason for the stop:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Only if you request it"
+        },
+        {
+          "key": "B",
+          "text_en": "Before beginning any questioning about a violation"
+        },
+        {
+          "key": "C",
+          "text_en": "After issuing a citation"
+        },
+        {
+          "key": "D",
+          "text_en": "Only if you are arrested"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Officers must state the stop reason before questioning, unless withholding is necessary to protect life or property from imminent threat.",
+      "explanation_zh": "执法人员必须在询问前说明停车原因，除非隐瞒原因是为了保护生命或财产免受紧迫威胁。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    }
+  ]
+}

@@ -1,0 +1,661 @@
+{
+  "moduleId": "M06",
+  "sections": [
+    {
+      "sectionId": "S01",
+      "questions": [
+        {
+          "id": "M06-S01-Q01",
+          "stem_en": "When parallel parking on a level road, your wheels must be within how many inches of the curb?",
+          "stem_zhHant": "在平坦道路上平行停車時，車輪必須距離路緣多少英寸以內？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "6 inches",
+              "text_zhHant": "6英寸"
+            },
+            {
+              "key": "B",
+              "text_en": "12 inches",
+              "text_zhHant": "12英寸"
+            },
+            {
+              "key": "C",
+              "text_en": "18 inches",
+              "text_zhHant": "18英寸"
+            },
+            {
+              "key": "D",
+              "text_en": "24 inches",
+              "text_zhHant": "24英寸"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "When parallel parking on a level road next to a curb, your wheels must be within 18 inches of the curb.",
+          "explanation_zhHant": "在平坦道路上靠路緣平行停車時，車輪必須距離路緣18英寸以內。",
+          "tags": [
+            "parallel-parking"
+          ]
+        },
+        {
+          "id": "M06-S01-Q02",
+          "stem_en": "What should you always do when parking your vehicle?",
+          "stem_zhHant": "停車時您應該始終做什麼？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Leave the engine running",
+              "text_zhHant": "讓引擎保持運轉"
+            },
+            {
+              "key": "B",
+              "text_en": "Set the parking brake",
+              "text_zhHant": "拉上手剎"
+            },
+            {
+              "key": "C",
+              "text_en": "Leave the windows open",
+              "text_zhHant": "打開車窗"
+            },
+            {
+              "key": "D",
+              "text_en": "Turn on hazard flashers",
+              "text_zhHant": "打開雙閃燈"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Always set the parking brake when parking. Leave the vehicle in gear (manual) or Park (automatic).",
+          "explanation_zhHant": "停車時務必拉上手剎。手動擋掛入擋位，自動擋掛入P擋。",
+          "tags": []
+        },
+        {
+          "id": "M06-S01-Q03",
+          "stem_en": "What is the 'Dutch Reach' method for opening a car door?",
+          "stem_zhHant": "什麼是「荷蘭式開門法」？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Open the door quickly to save time",
+              "text_zhHant": "快速開門以節省時間"
+            },
+            {
+              "key": "B",
+              "text_en": "Open the door with the hand farthest from it to naturally look behind you",
+              "text_zhHant": "用離車門較遠的手開門，自然會轉身向後看"
+            },
+            {
+              "key": "C",
+              "text_en": "Open the door with both hands",
+              "text_zhHant": "用雙手開門"
+            },
+            {
+              "key": "D",
+              "text_en": "Open the door only when you see no traffic in the mirror",
+              "text_zhHant": "僅在後視鏡中看不到車輛時開門"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "The Dutch Reach method means opening the door with the hand farthest from it, which naturally causes you to turn and look behind you for approaching traffic.",
+          "explanation_zhHant": "荷蘭式開門法是用離車門較遠的手開門，這樣自然會轉身向後看是否有接近的車輛。",
+          "tags": []
+        },
+        {
+          "id": "M06-S01-Q04",
+          "stem_en": "When leaving your parked vehicle, you should never leave behind:",
+          "stem_zhHant": "離開停放的車輛時，絕不應該把什麼留在車內？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Your registration",
+              "text_zhHant": "您的車輛登記"
+            },
+            {
+              "key": "B",
+              "text_en": "Children or animals unattended",
+              "text_zhHant": "無人看管的兒童或動物"
+            },
+            {
+              "key": "C",
+              "text_en": "Sunglasses",
+              "text_zhHant": "太陽鏡"
+            },
+            {
+              "key": "D",
+              "text_en": "An umbrella",
+              "text_zhHant": "雨傘"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Never leave children or animals unattended in a parked vehicle.",
+          "explanation_zhHant": "不要將兒童或動物單獨留在停放的車輛中。",
+          "tags": []
+        },
+        {
+          "id": "M06-S01-Q05",
+          "stem_en": "Before opening your car door on the traffic side, you should:",
+          "stem_zhHant": "在靠近車流的一側開車門之前，您應該：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Open the door quickly and step out",
+              "text_zhHant": "快速開門並走出"
+            },
+            {
+              "key": "B",
+              "text_en": "Look carefully for motorcycles, bicycles, and pedestrians",
+              "text_zhHant": "仔細觀察是否有摩托車、自行車和行人"
+            },
+            {
+              "key": "C",
+              "text_en": "Honk your horn first",
+              "text_zhHant": "先按喇叭"
+            },
+            {
+              "key": "D",
+              "text_en": "Turn on your headlights",
+              "text_zhHant": "打開大燈"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Look carefully for motorcycles, bicycles, and pedestrians before opening your door on the traffic side.",
+          "explanation_zhHant": "在靠近車流一側開車門前，仔細觀察是否有摩托車、自行車和行人。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S02",
+      "questions": [
+        {
+          "id": "M06-S02-Q01",
+          "stem_en": "When parking uphill with a curb, you should turn your front wheels:",
+          "stem_zhHant": "上坡有路緣停車時，應將前輪轉向：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Toward the curb (right)",
+              "text_zhHant": "朝向路緣（右邊）"
+            },
+            {
+              "key": "B",
+              "text_en": "Away from the curb (left)",
+              "text_zhHant": "遠離路緣（左邊）"
+            },
+            {
+              "key": "C",
+              "text_en": "Straight ahead",
+              "text_zhHant": "保持直向"
+            },
+            {
+              "key": "D",
+              "text_en": "It does not matter",
+              "text_zhHant": "沒有關係"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When parking uphill with a curb, turn your front wheels away from the curb (left). If the car rolls, it will roll into the curb and stop.",
+          "explanation_zhHant": "上坡有路緣停車時，將前輪向遠離路緣的方向（左邊）轉。如果車輛滑動，會滾向路緣而停下。",
+          "tags": [
+            "parking-hill"
+          ]
+        },
+        {
+          "id": "M06-S02-Q02",
+          "stem_en": "When parking downhill with a curb, you should turn your front wheels:",
+          "stem_zhHant": "下坡有路緣停車時，應將前輪轉向：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Away from the curb (left)",
+              "text_zhHant": "遠離路緣（左邊）"
+            },
+            {
+              "key": "B",
+              "text_en": "Toward the curb (right)",
+              "text_zhHant": "朝向路緣（右邊）"
+            },
+            {
+              "key": "C",
+              "text_en": "Straight ahead",
+              "text_zhHant": "保持直向"
+            },
+            {
+              "key": "D",
+              "text_en": "Either direction is fine",
+              "text_zhHant": "哪個方向都可以"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When parking downhill with a curb, turn your front wheels toward the curb (right). If the car rolls, it will roll into the curb.",
+          "explanation_zhHant": "下坡有路緣停車時，將前輪向路緣方向（右邊）轉。如果車輛滑動，會滾向路緣而停下。",
+          "tags": [
+            "parking-hill"
+          ]
+        },
+        {
+          "id": "M06-S02-Q03",
+          "stem_en": "When parking on a hill with NO curb, you should turn your wheels:",
+          "stem_zhHant": "在沒有路緣的坡道上停車時，應將車輪轉向：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "To the left",
+              "text_zhHant": "左邊"
+            },
+            {
+              "key": "B",
+              "text_en": "To the right (toward the edge of the road)",
+              "text_zhHant": "右邊（朝向路邊）"
+            },
+            {
+              "key": "C",
+              "text_en": "Straight ahead",
+              "text_zhHant": "保持直向"
+            },
+            {
+              "key": "D",
+              "text_en": "Away from the hill",
+              "text_zhHant": "遠離山坡"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When parking on a hill with no curb (uphill or downhill), turn your wheels to the right so the car will roll off the road if it moves.",
+          "explanation_zhHant": "在沒有路緣的坡道上停車（無論上坡還是下坡），將前輪向右轉，車輛滑動時會駛離道路。",
+          "tags": [
+            "parking-hill"
+          ]
+        },
+        {
+          "id": "M06-S02-Q04",
+          "stem_en": "You are parking uphill with a curb. If your car starts to roll, which direction will it go?",
+          "stem_zhHant": "您在上坡有路緣處停車。如果您的車開始滑動，它會朝哪個方向滾動？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Forward up the hill",
+              "text_zhHant": "向前上坡"
+            },
+            {
+              "key": "B",
+              "text_en": "Backward down the hill",
+              "text_zhHant": "向後下坡"
+            },
+            {
+              "key": "C",
+              "text_en": "Into the curb (if wheels are turned correctly)",
+              "text_zhHant": "滾向路緣（如果車輪轉向正確）"
+            },
+            {
+              "key": "D",
+              "text_en": "Into the traffic lane",
+              "text_zhHant": "滾入行車道"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "With wheels turned correctly (away from curb when uphill), the car will roll backward into the curb and stop safely.",
+          "explanation_zhHant": "如果車輪轉向正確（上坡時遠離路緣），車輛會向後滾向路緣而安全停下。",
+          "tags": [
+            "parking-hill"
+          ]
+        },
+        {
+          "id": "M06-S02-Q05",
+          "stem_en": "When parking on a hill with a manual transmission, what gear should you use when facing downhill?",
+          "stem_zhHant": "手動擋車輛在坡道面朝下坡停車時，應掛什麼擋？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "First gear",
+              "text_zhHant": "一擋"
+            },
+            {
+              "key": "B",
+              "text_en": "Reverse",
+              "text_zhHant": "倒擋"
+            },
+            {
+              "key": "C",
+              "text_en": "Neutral",
+              "text_zhHant": "空擋"
+            },
+            {
+              "key": "D",
+              "text_en": "Second gear",
+              "text_zhHant": "二擋"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "For manual transmission, leave in reverse when parked facing downhill, and first gear when facing uphill.",
+          "explanation_zhHant": "手動擋車輛下坡時掛倒擋，上坡時掛一擋。",
+          "tags": [
+            "parking-hill"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "S03",
+      "questions": [
+        {
+          "id": "M06-S03-Q01",
+          "stem_en": "How far from a fire hydrant must you NOT park?",
+          "stem_zhHant": "不得在消防栓多少英尺範圍內停車？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "5 feet",
+              "text_zhHant": "5英尺"
+            },
+            {
+              "key": "B",
+              "text_en": "10 feet",
+              "text_zhHant": "10英尺"
+            },
+            {
+              "key": "C",
+              "text_en": "15 feet",
+              "text_zhHant": "15英尺"
+            },
+            {
+              "key": "D",
+              "text_en": "20 feet",
+              "text_zhHant": "20英尺"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Do not park within 15 feet of a fire hydrant.",
+          "explanation_zhHant": "不得在消防栓15英尺範圍內停車。",
+          "tags": []
+        },
+        {
+          "id": "M06-S03-Q02",
+          "stem_en": "Double parking (parking next to a parked car in the roadway) is:",
+          "stem_zhHant": "雙排停車（在已停車輛旁的車道上停車）：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Legal if you stay with your vehicle",
+              "text_zhHant": "如果留在車內是合法的"
+            },
+            {
+              "key": "B",
+              "text_en": "Legal for up to 5 minutes",
+              "text_zhHant": "5分鐘內是合法的"
+            },
+            {
+              "key": "C",
+              "text_en": "Always illegal",
+              "text_zhHant": "任何時候都是違法的"
+            },
+            {
+              "key": "D",
+              "text_en": "Legal in commercial zones",
+              "text_zhHant": "在商業區是合法的"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Double parking is always illegal.",
+          "explanation_zhHant": "雙排停車任何時候都是違法的。",
+          "tags": []
+        },
+        {
+          "id": "M06-S03-Q03",
+          "stem_en": "You may NOT park within how many feet of a railroad track?",
+          "stem_zhHant": "不得在鐵軌多少英尺範圍內停車？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "5 feet",
+              "text_zhHant": "5英尺"
+            },
+            {
+              "key": "B",
+              "text_en": "7.5 feet",
+              "text_zhHant": "7.5英尺"
+            },
+            {
+              "key": "C",
+              "text_en": "10 feet",
+              "text_zhHant": "10英尺"
+            },
+            {
+              "key": "D",
+              "text_en": "15 feet",
+              "text_zhHant": "15英尺"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Do not park within 7.5 feet of a railroad track.",
+          "explanation_zhHant": "不得在鐵軌7.5英尺範圍內停車。",
+          "tags": [
+            "railroad"
+          ]
+        },
+        {
+          "id": "M06-S03-Q04",
+          "stem_en": "Which of the following is an illegal place to park?",
+          "stem_zhHant": "以下哪個地方停車是違法的？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Next to a green curb",
+              "text_zhHant": "綠色路緣旁"
+            },
+            {
+              "key": "B",
+              "text_en": "In a marked crosswalk",
+              "text_zhHant": "在有標記的人行橫道上"
+            },
+            {
+              "key": "C",
+              "text_en": "In a metered parking space",
+              "text_zhHant": "在計時停車位"
+            },
+            {
+              "key": "D",
+              "text_en": "On the right side of the road",
+              "text_zhHant": "在道路右側"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Never park in a marked or unmarked crosswalk, on a sidewalk, in front of a driveway, or next to a red curb.",
+          "explanation_zhHant": "不得在標記或未標記的人行橫道、人行道上、車道入口前或紅色路緣旁停車。",
+          "tags": []
+        },
+        {
+          "id": "M06-S03-Q05",
+          "stem_en": "When may you park on a freeway?",
+          "stem_zhHant": "什麼時候可以在高速公路上停車？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "When traffic is stopped",
+              "text_zhHant": "交通停滯時"
+            },
+            {
+              "key": "B",
+              "text_en": "Only in an emergency",
+              "text_zhHant": "僅在緊急情況下"
+            },
+            {
+              "key": "C",
+              "text_en": "To check your phone",
+              "text_zhHant": "為了看手機"
+            },
+            {
+              "key": "D",
+              "text_en": "To pick up a passenger",
+              "text_zhHant": "為了接乘客"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Do not park on a freeway except in an emergency.",
+          "explanation_zhHant": "除緊急情況外不得在高速公路上停車。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S04",
+      "questions": [
+        {
+          "id": "M06-S04-Q01",
+          "stem_en": "A white-painted curb means you may stop only to:",
+          "stem_zhHant": "白色路緣表示您只能停車用於：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Load or unload freight",
+              "text_zhHant": "裝卸貨物"
+            },
+            {
+              "key": "B",
+              "text_en": "Pick up or drop off passengers or mail",
+              "text_zhHant": "上下乘客或收取郵件"
+            },
+            {
+              "key": "C",
+              "text_en": "Park for limited time",
+              "text_zhHant": "限時停車"
+            },
+            {
+              "key": "D",
+              "text_en": "Park with a disabled placard",
+              "text_zhHant": "持殘疾人標牌停車"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "A white curb means stop only long enough to pick up or drop off passengers or mail.",
+          "explanation_zhHant": "白色路緣僅允許短暫停車以上下乘客或收取郵件。",
+          "tags": []
+        },
+        {
+          "id": "M06-S04-Q02",
+          "stem_en": "A green-painted curb means:",
+          "stem_zhHant": "綠色路緣表示：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "No stopping at any time",
+              "text_zhHant": "任何時候都不得停車"
+            },
+            {
+              "key": "B",
+              "text_en": "Disabled parking only",
+              "text_zhHant": "僅限殘疾人停車"
+            },
+            {
+              "key": "C",
+              "text_en": "Park for a limited time",
+              "text_zhHant": "限時停車"
+            },
+            {
+              "key": "D",
+              "text_en": "Loading zone",
+              "text_zhHant": "裝卸區"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "A green curb means you may park for a limited time. Check the curb or sign for the time limit.",
+          "explanation_zhHant": "綠色路緣為限時停車。查看路緣上的標誌或標記了解限時時間。",
+          "tags": []
+        },
+        {
+          "id": "M06-S04-Q03",
+          "stem_en": "When parking at a yellow curb, the driver must:",
+          "stem_zhHant": "在黃色路緣停車時，駕駛員必須：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Lock the vehicle and leave",
+              "text_zhHant": "鎖車後離開"
+            },
+            {
+              "key": "B",
+              "text_en": "Stay with the vehicle",
+              "text_zhHant": "留在車內"
+            },
+            {
+              "key": "C",
+              "text_en": "Display a parking permit",
+              "text_zhHant": "展示停車許可證"
+            },
+            {
+              "key": "D",
+              "text_en": "Turn on hazard lights",
+              "text_zhHant": "打開雙閃燈"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "At a yellow curb, stop only long enough to load or unload. The driver of a noncommercial vehicle must stay with the vehicle.",
+          "explanation_zhHant": "黃色路緣僅允許短暫停車以裝卸貨物。非商業車輛駕駛員必須留在車內。",
+          "tags": [
+            "colored-curbs"
+          ]
+        },
+        {
+          "id": "M06-S04-Q04",
+          "stem_en": "A red-painted curb means:",
+          "stem_zhHant": "紅色路緣表示：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Limited-time parking (30 minutes)",
+              "text_zhHant": "限時停車（30分鐘）"
+            },
+            {
+              "key": "B",
+              "text_en": "Passenger loading only",
+              "text_zhHant": "僅供上下乘客"
+            },
+            {
+              "key": "C",
+              "text_en": "No stopping, standing, or parking at any time",
+              "text_zhHant": "任何時候不得停車、站立或停放"
+            },
+            {
+              "key": "D",
+              "text_en": "Emergency vehicles only during emergencies",
+              "text_zhHant": "僅緊急情況下供緊急車輛使用"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "A red curb means no stopping, standing, or parking at any time.",
+          "explanation_zhHant": "紅色路緣任何時候不得停車、站立或停放。",
+          "tags": []
+        },
+        {
+          "id": "M06-S04-Q05",
+          "stem_en": "A blue-painted curb is reserved for:",
+          "stem_zhHant": "藍色路緣專門留給：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Government vehicles only",
+              "text_zhHant": "僅限政府車輛"
+            },
+            {
+              "key": "B",
+              "text_en": "Taxi cabs only",
+              "text_zhHant": "僅限出租車"
+            },
+            {
+              "key": "C",
+              "text_en": "Disabled persons with proper placard or plates",
+              "text_zhHant": "持有有效標牌或車牌的殘疾人"
+            },
+            {
+              "key": "D",
+              "text_en": "Motorcycle parking only",
+              "text_zhHant": "僅限摩托車停車"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "A blue curb is reserved for parking by disabled persons or drivers of disabled persons with a proper placard or special license plate.",
+          "explanation_zhHant": "藍色路緣僅允許持有有效殘疾人標牌或特殊車牌的殘疾人或其駕駛員停車。",
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "moduleId": "M09",
+  "titleEn": "Safe Driving Practices",
+  "titleZh": "安全驾驶实践",
+  "sections": [
+    {
+      "id": "S01",
+      "titleEn": "Following Distance",
+      "titleZh": "跟车距离",
+      "knowledgePoints": [
+        {
+          "id": "M09-S01-K01",
+          "en": "Use the 3-second rule: maintain at least a 3-second following distance behind the vehicle ahead of you under normal conditions.",
+          "zh": "使用3秒规则：正常情况下，与前车保持至少3秒的跟车距离。",
+          "isHighFreq": true,
+          "tags": [
+            "following-distance",
+            "3-second-rule"
+          ],
+          "zhHant": "使用3秒規則：正常情况下，與前車保持至少3秒的跟車距離。"
+        },
+        {
+          "id": "M09-S01-K02",
+          "en": "Increase your following distance to 4 or more seconds in bad weather, heavy traffic, when following large vehicles, or on slippery roads.",
+          "zh": "在恶劣天气、拥堵交通、跟随大型车辆或在湿滑路面上时，将跟车距离增加到4秒或更多。",
+          "isHighFreq": true,
+          "tags": [
+            "following-distance",
+            "adverse-conditions"
+          ],
+          "zhHant": "在惡劣天氣、擁堵交通、跟隨大型車輛或在濕滑路面上時，將跟車距離增加到4秒或更多。"
+        },
+        {
+          "id": "M09-S01-K03",
+          "en": "When stopped behind another vehicle, leave enough space so you can see the rear tires of the vehicle in front of you touching the pavement.",
+          "zh": "在另一辆车后面停车时，留出足够的空间以便能看到前车的后轮接触地面。",
+          "isHighFreq": true,
+          "tags": [
+            "following-distance",
+            "stopped"
+          ],
+          "zhHant": "在另一輛車後面停車時，留出足夠的空間以便能看到前車的後輪接触地面。"
+        },
+        {
+          "id": "M09-S01-K04",
+          "en": "Tailgating (following too closely) is a major cause of rear-end collisions. It reduces your reaction time to stop safely.",
+          "zh": "紧跟前车（跟车太近）是追尾事故的主要原因。它减少了你安全停车的反应时间。",
+          "isHighFreq": true,
+          "tags": [
+            "tailgating",
+            "rear-end"
+          ],
+          "zhHant": "緊跟前車（跟車太近）是追尾事故的主要原因。它減少了你安全停車的反應時間。"
+        },
+        {
+          "id": "M09-S01-K05",
+          "en": "If a driver is tailgating you, gradually slow down to encourage them to pass, or change lanes to let them by. Do not brake suddenly.",
+          "zh": "如果有人紧跟你，逐渐减速鼓励他们超车，或者变道让他们通过。不要急刹车。",
+          "isHighFreq": true,
+          "tags": [
+            "tailgating",
+            "response"
+          ],
+          "zhHant": "如果有人緊跟你，逐渐減速鼓勵他们超車，或者變道讓他们通過。不要急刹車。"
+        }
+      ],
+      "titleZhHant": "跟車距離"
+    },
+    {
+      "id": "S02",
+      "titleEn": "Distracted Driving",
+      "titleZh": "分心驾驶",
+      "knowledgePoints": [
+        {
+          "id": "M09-S02-K01",
+          "en": "It is illegal to hold and use a cell phone or electronic device while driving in California. You may use a hands-free device.",
+          "zh": "在加州驾驶时手持使用手机或电子设备是违法的。可以使用免提设备。",
+          "isHighFreq": true,
+          "tags": [
+            "cell-phone",
+            "hands-free",
+            "law"
+          ],
+          "zhHant": "在加州駕駛時手持使用手機或电子設備是違法的。可以使用免提設備。"
+        },
+        {
+          "id": "M09-S02-K02",
+          "en": "Drivers under 18 may not use a cell phone or any electronic device while driving, even hands-free, except in emergencies.",
+          "zh": "18岁以下的驾驶员驾驶时不得使用手机或任何电子设备，包括免提设备，紧急情况除外。",
+          "isHighFreq": true,
+          "tags": [
+            "cell-phone",
+            "under-18"
+          ],
+          "zhHant": "18歲以下的駕駛員駕駛時不得使用手機或任何电子設備，包括免提設備，緊急情况除外。"
+        },
+        {
+          "id": "M09-S02-K03",
+          "en": "Texting while driving is illegal and extremely dangerous. Sending or reading a text takes your eyes off the road for about 5 seconds.",
+          "zh": "开车时发短信是违法且极其危险的。发送或阅读短信会让你的视线离开道路约5秒钟。",
+          "isHighFreq": true,
+          "tags": [
+            "texting",
+            "law"
+          ],
+          "zhHant": "開車時發短信是違法且極其危險的。發送或閱讀短信會讓你的视線離開道路约5秒鐘。"
+        },
+        {
+          "id": "M09-S02-K04",
+          "en": "Other forms of distracted driving include eating, grooming, reading, adjusting the radio, and interacting with passengers.",
+          "zh": "其他分心驾驶行为包括吃东西、化妆整理、阅读、调收音机和与乘客互动。",
+          "isHighFreq": false,
+          "tags": [
+            "distracted-driving",
+            "types"
+          ],
+          "zhHant": "其他分心駕駛行為包括吃東西、化妆整理、閱讀、調收音機和與乘客互動。"
+        },
+        {
+          "id": "M09-S02-K05",
+          "en": "If you must use your phone for navigation, set it up before driving and mount it on the windshield, dashboard, or center console in a position that does not block your view of the road. You may only use the single swipe or touch feature on the mounted cell phone while driving.",
+          "zh": "如果需要使用手机导航，在驾驶前设置好并安装在挡风玻璃、仪表板或中控台上，不得遮挡视线。驾驶中只能使用已安装手机的单次滑动或点击功能。",
+          "isNew": true,
+          "isHighFreq": true,
+          "tags": [
+            "cell-phone",
+            "navigation",
+            "mount"
+          ],
+          "zhHant": "如果需要使用手機导航，在駕駛前設置好并安裝在儀表板或擋風玻璃上。駕駛中隻能單次滑動或點擊操作。"
+        }
+      ],
+      "titleZhHant": "分心駕駛"
+    },
+    {
+      "id": "S03",
+      "titleEn": "Seat Belts & Child Safety",
+      "titleZh": "安全带与儿童安全",
+      "knowledgePoints": [
+        {
+          "id": "M09-S03-K01",
+          "en": "California law requires all vehicle occupants to wear seat belts. The driver can be fined for any unbelted passenger under 16.",
+          "zh": "加州法律要求所有车内人员系安全带。如果16岁以下的乘客未系安全带，驾驶员会被罚款。",
+          "isHighFreq": true,
+          "tags": [
+            "seat-belt",
+            "law"
+          ],
+          "zhHant": "加州法律要求所有車內人員系安全帶。如果16歲以下的乘客未系安全帶，駕駛員會被罰款。"
+        },
+        {
+          "id": "M09-S03-K02",
+          "en": "Children who are under 2 years old, under 40 pounds, and under 3 feet 4 inches tall must be secured in a rear-facing child passenger restraint system. A child in a rear-facing restraint may not ride in the front seat of an airbag-equipped vehicle.",
+          "zh": "2岁以下、体重不足40磅且身高不足3英尺4英寸的儿童必须使用后向式儿童安全座椅。使用后向式安全座椅的儿童不得坐在配有安全气囊的车辆前座。",
+          "isNew": true,
+          "isHighFreq": true,
+          "tags": [
+            "child-safety",
+            "rear-facing"
+          ],
+          "zhHant": "2歲以下兒童必須坐在後座的後向式安全座椅中，除非體重達到40磅以上或身高達到40英寸以上。"
+        },
+        {
+          "id": "M09-S03-K03",
+          "en": "Children who are under 8 years old, or who are less than 4 feet 9 inches tall, must be secured in a child passenger restraint system in the rear seat.",
+          "zh": "8岁以下或身高不足4英尺9英寸的儿童必须坐在后座的儿童安全座椅中。",
+          "isNew": true,
+          "isHighFreq": true,
+          "tags": [
+            "child-safety",
+            "booster-seat"
+          ],
+          "zhHant": "8歲以下的兒童必須坐在車輛後座的安全座椅或增高座椅中。"
+        },
+        {
+          "id": "M09-S03-K04",
+          "en": "Children 8 years old or older, or who are at least 4 feet 9 inches tall, may use a regular seat belt.",
+          "zh": "8岁或以上、或身高至少4英尺9英寸的儿童可以使用普通安全带。",
+          "isHighFreq": true,
+          "tags": [
+            "child-safety",
+            "seat-belt"
+          ],
+          "zhHant": "8歲或以上、或身高至少4英尺9英寸的兒童可以使用普通安全帶。"
+        },
+        {
+          "id": "M09-S03-K05",
+          "en": "The back seat is the safest place for children 12 and under. Never place a rear-facing car seat in front of an active airbag.",
+          "zh": "后座是12岁及以下儿童最安全的位置。不要将后向式安全座椅放在有激活安全气囊的前座。",
+          "isHighFreq": true,
+          "tags": [
+            "child-safety",
+            "airbag"
+          ],
+          "zhHant": "後座是12歲及以下兒童最安全的位置。不要將後向式安全座椅放在有激活安全氣囊的前座。"
+        }
+      ],
+      "titleZhHant": "安全帶與兒童安全"
+    },
+    {
+      "id": "S04",
+      "titleEn": "Defensive Driving Techniques",
+      "titleZh": "防御性驾驶技巧",
+      "knowledgePoints": [
+        {
+          "id": "M09-S04-K01",
+          "en": "Scan the road ahead 10-15 seconds (about one block in the city, a quarter mile on the highway) to anticipate hazards.",
+          "zh": "提前扫视前方10-15秒的道路（城市中约一个街区，高速公路上约四分之一英里），预判可能的危险。",
+          "isHighFreq": true,
+          "tags": [
+            "scanning",
+            "defensive-driving"
+          ],
+          "zhHant": "提前掃视前方10-15秒的道路（城市中约一個街區，高速公路上约四分之一英裡），預判可能的危險。"
+        },
+        {
+          "id": "M09-S04-K02",
+          "en": "Check your mirrors every 3-5 seconds to stay aware of traffic around you. Check your blind spot before changing lanes.",
+          "zh": "每3-5秒查看后视镜以了解周围交通状况。变道前检查盲区。",
+          "isHighFreq": true,
+          "tags": [
+            "mirrors",
+            "awareness"
+          ],
+          "zhHant": "每3-5秒查看後视鏡以了解周圍交通状况。變道前檢查盲區。"
+        },
+        {
+          "id": "M09-S04-K03",
+          "en": "Always have an escape route planned. Maintain space around your vehicle so you can maneuver if needed.",
+          "zh": "时刻计划好逃生路线。保持车辆周围的空间，以便在需要时可以机动避让。",
+          "isHighFreq": false,
+          "tags": [
+            "escape-route",
+            "space-management"
+          ],
+          "zhHant": "時刻计劃好逃生路線。保持車輛周圍的空間，以便在需要時可以機動避讓。"
+        },
+        {
+          "id": "M09-S04-K04",
+          "en": "Road rage is dangerous. If another driver is aggressive, do not make eye contact, do not challenge them, and do not block their path.",
+          "zh": "路怒症很危险。如果其他驾驶员有攻击性行为，不要与他们对视，不要挑衅他们，不要挡住他们的路。",
+          "isHighFreq": true,
+          "tags": [
+            "road-rage",
+            "aggressive-driving"
+          ],
+          "zhHant": "路怒症很危險。如果其他駕駛員有攻擊性行為，不要與他们對视，不要挑衅他们，不要擋住他们的路。"
+        },
+        {
+          "id": "M09-S04-K05",
+          "en": "Drowsy driving is as dangerous as drunk driving. If you are sleepy, pull over to a safe place and rest. Coffee or fresh air alone will not keep you alert.",
+          "zh": "疲劳驾驶和醉驾一样危险。如果感到困倦，靠边停在安全的地方休息。仅靠咖啡或新鲜空气不能保持清醒。",
+          "isHighFreq": true,
+          "tags": [
+            "drowsy-driving",
+            "fatigue"
+          ],
+          "zhHant": "疲劳駕駛和醉駕一樣危險。如果感到困倦，靠邊停在安全的地方休息。僅靠咖啡或新鮮空氣不能保持清醒。"
+        },
+        {
+          "id": "M09-S04-K06",
+          "en": "Signal at least 100 feet before turning in city areas and at least 200 feet before turning on highways.",
+          "zh": "在市区转弯前至少提前100英尺打转向灯，在高速公路上至少提前200英尺打转向灯。",
+          "isHighFreq": true,
+          "tags": [
+            "signaling",
+            "distance"
+          ],
+          "zhHant": "在市區轉弯前至少提前100英尺打轉向燈，在高速公路上至少提前200英尺打轉向燈。"
+        }
+      ],
+      "titleZhHant": "防禦性駕駛技巧"
+    },
+    {
+      "id": "S05",
+      "titleEn": "Freeway Driving",
+      "titleZh": "高速公路驾驶",
+      "knowledgePoints": [
+        {
+          "id": "M09-S05-K01",
+          "en": "When entering a freeway, use the on-ramp to accelerate to the speed of freeway traffic (or close to it) before merging.",
+          "zh": "驶入高速公路时，利用入口匝道加速到接近高速公路车流速度后再汇入。",
+          "isHighFreq": true,
+          "tags": [
+            "freeway",
+            "merging"
+          ],
+          "zhHant": "駛入高速公路時，利用入口匝道加速到接近高速公路車流速度後再匯入。"
+        },
+        {
+          "id": "M09-S05-K02",
+          "en": "Do not stop on the freeway on-ramp unless traffic is already stopped. Merge into traffic at or near the speed of traffic.",
+          "zh": "除非车流已经停止，否则不要在高速公路入口匝道上停车。以接近车流速度汇入。",
+          "isHighFreq": true,
+          "tags": [
+            "freeway",
+            "on-ramp"
+          ],
+          "zhHant": "除非車流已經停止，否則不要在高速公路入口匝道上停車。以接近車流速度匯入。"
+        },
+        {
+          "id": "M09-S05-K03",
+          "en": "When exiting the freeway, signal and move into the exit lane well in advance. Do not slow down until you are in the exit lane or deceleration lane.",
+          "zh": "驶出高速公路时，提前打灯并驶入出口车道。在进入出口车道或减速车道之前不要减速。",
+          "isHighFreq": true,
+          "tags": [
+            "freeway",
+            "exiting"
+          ],
+          "zhHant": "駛出高速公路時，提前打燈并駛入出口車道。在進入出口車道或減速車道之前不要減速。"
+        },
+        {
+          "id": "M09-S05-K04",
+          "en": "If you miss your freeway exit, do not stop, back up, or try to cross the median. Continue to the next exit.",
+          "zh": "如果错过高速公路出口，不要停车、倒车或试图穿越中央隔离带。继续行驶到下一个出口。",
+          "isHighFreq": true,
+          "tags": [
+            "freeway",
+            "missed-exit"
+          ],
+          "zhHant": "如果錯過高速公路出口，不要停車、倒車或試圖穿越中央隔離帶。繼續行駛到下一個出口。"
+        },
+        {
+          "id": "M09-S05-K05",
+          "en": "The minimum speed on most California freeways is 45 mph (unless posted otherwise or conditions require slower speeds).",
+          "zh": "加州大多数高速公路的最低限速为45英里/小时（除非另有标示或路况需要降低速度）。",
+          "isHighFreq": true,
+          "tags": [
+            "freeway",
+            "minimum-speed"
+          ],
+          "zhHant": "加州大多数高速公路的最低限速為45英裡/小時（除非另有標示或路况需要降低速度）。"
+        }
+      ],
+      "titleZhHant": "高速公路駕駛"
+    }
+  ],
+  "titleZhHant": "安全駕駛實踐"
+}

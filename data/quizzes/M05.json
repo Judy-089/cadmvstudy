@@ -1,0 +1,880 @@
+{
+  "moduleId": "M05",
+  "sections": [
+    {
+      "sectionId": "S01",
+      "questions": [
+        {
+          "id": "M05-S01-Q01",
+          "stem_en": "On a freeway with 3 or more lanes in your direction, the far left lane is generally used for:",
+          "stem_zhHant": "在同方向有三條或更多車道的高速公路上，最左車道通常用於：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Entering and exiting the freeway",
+              "text_zhHant": "進出高速公路"
+            },
+            {
+              "key": "B",
+              "text_en": "Slower traffic",
+              "text_zhHant": "慢速車輛"
+            },
+            {
+              "key": "C",
+              "text_en": "Passing or faster traffic",
+              "text_zhHant": "超車或快速車輛"
+            },
+            {
+              "key": "D",
+              "text_en": "Emergency vehicles only",
+              "text_zhHant": "僅限緊急車輛"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "On a freeway with 3 or more lanes, the far left lane is for passing or faster traffic, the middle for through traffic, and the far right for entering/exiting.",
+          "explanation_zhHant": "在同方向有三條或更多車道的高速公路上，最左車道供超車或快速車輛使用，中間車道供直行，最右車道用於進出。",
+          "tags": []
+        },
+        {
+          "id": "M05-S01-Q02",
+          "stem_en": "When changing lanes, what is the correct procedure?",
+          "stem_zhHant": "變道時，正確的程序是什麼？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Signal, change lanes, then check mirrors",
+              "text_zhHant": "打燈、變道、然後檢查後視鏡"
+            },
+            {
+              "key": "B",
+              "text_en": "Check mirrors, signal, then change lanes immediately",
+              "text_zhHant": "檢查後視鏡、打燈、然後立即變道"
+            },
+            {
+              "key": "C",
+              "text_en": "Signal, check mirrors, check blind spot, then change lanes when safe",
+              "text_zhHant": "打燈、檢查後視鏡、查看盲區、確認安全後變道"
+            },
+            {
+              "key": "D",
+              "text_en": "Honk your horn, then change lanes",
+              "text_zhHant": "按喇叭，然後變道"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "When changing lanes: signal, check mirrors, look over your shoulder to check your blind spot, and change lanes only when safe.",
+          "explanation_zhHant": "變道時：先打轉向燈，檢查後視鏡，轉頭查看盲區，確認安全後再變道。",
+          "tags": []
+        },
+        {
+          "id": "M05-S01-Q03",
+          "stem_en": "A broken white line between lanes means:",
+          "stem_zhHant": "車道之間的白色虛線表示：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "You must not change lanes",
+              "text_zhHant": "不得變道"
+            },
+            {
+              "key": "B",
+              "text_en": "You may change lanes when safe",
+              "text_zhHant": "安全時可以變道"
+            },
+            {
+              "key": "C",
+              "text_en": "The lane is ending",
+              "text_zhHant": "車道即將結束"
+            },
+            {
+              "key": "D",
+              "text_en": "The lane is for bicycles only",
+              "text_zhHant": "該車道僅供自行車使用"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "A broken white line between same-direction lanes means you may change lanes when it is safe to do so.",
+          "explanation_zhHant": "同方向車道之間的白色虛線表示在安全時可以變道。",
+          "tags": []
+        },
+        {
+          "id": "M05-S01-Q04",
+          "stem_en": "Double solid yellow lines mean you may NOT cross them to pass, but you MAY cross them to:",
+          "stem_zhHant": "雙實黃線表示不得越線超車，但可以越過它們來：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Pass a slow vehicle",
+              "text_zhHant": "超越慢速車輛"
+            },
+            {
+              "key": "B",
+              "text_en": "Turn left into a driveway or private road",
+              "text_zhHant": "左轉進入車道入口或私人道路"
+            },
+            {
+              "key": "C",
+              "text_en": "Avoid road debris",
+              "text_zhHant": "避開路面雜物"
+            },
+            {
+              "key": "D",
+              "text_en": "Pass a bicycle",
+              "text_zhHant": "超越自行車"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "You may cross double yellow lines to turn left into a driveway or private road, but not to pass another vehicle.",
+          "explanation_zhHant": "可以越過雙實黃線左轉進入車道入口或私人道路，但不得用於超車。",
+          "tags": []
+        },
+        {
+          "id": "M05-S01-Q05",
+          "stem_en": "Frequent lane changes in traffic are dangerous because they:",
+          "stem_zhHant": "在車流中頻繁變道很危險，因為：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Waste fuel",
+              "text_zhHant": "浪費燃油"
+            },
+            {
+              "key": "B",
+              "text_en": "Increase the risk of a collision",
+              "text_zhHant": "增加碰撞風險"
+            },
+            {
+              "key": "C",
+              "text_en": "Confuse traffic signals",
+              "text_zhHant": "干擾交通信號"
+            },
+            {
+              "key": "D",
+              "text_en": "Damage your tires",
+              "text_zhHant": "損壞輪胎"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Frequent lane changes (weaving) increase the risk of a collision. Do not weave in and out of traffic.",
+          "explanation_zhHant": "頻繁變道穿插會增加碰撞風險。不要在車流中頻繁變道。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S02",
+      "questions": [
+        {
+          "id": "M05-S02-Q01",
+          "stem_en": "When preparing to turn, you should begin signaling approximately how many feet before the turn?",
+          "stem_zhHant": "準備轉彎時，應在轉彎前約多少英尺開始打轉向燈？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "50 feet",
+              "text_zhHant": "50英尺"
+            },
+            {
+              "key": "B",
+              "text_en": "100 feet",
+              "text_zhHant": "100英尺"
+            },
+            {
+              "key": "C",
+              "text_en": "200 feet",
+              "text_zhHant": "200英尺"
+            },
+            {
+              "key": "D",
+              "text_en": "300 feet",
+              "text_zhHant": "300英尺"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Begin signaling about 100 feet before the turn.",
+          "explanation_zhHant": "在轉彎前約100英尺開始打轉向燈。",
+          "tags": []
+        },
+        {
+          "id": "M05-S02-Q02",
+          "stem_en": "You may turn left on a red light ONLY when:",
+          "stem_zhHant": "只有在以下哪種情況下可以在紅燈時左轉？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "There is no oncoming traffic",
+              "text_zhHant": "沒有對向來車時"
+            },
+            {
+              "key": "B",
+              "text_en": "You are on a one-way street turning onto another one-way street",
+              "text_zhHant": "從單行道轉入另一條單行道"
+            },
+            {
+              "key": "C",
+              "text_en": "You have a green arrow",
+              "text_zhHant": "有綠色箭頭時"
+            },
+            {
+              "key": "D",
+              "text_en": "The intersection has no cameras",
+              "text_zhHant": "路口沒有攝像頭時"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "You may turn left on red only from a one-way street onto another one-way street, after stopping and yielding.",
+          "explanation_zhHant": "只有從單行道轉入另一條單行道時，才可以在紅燈時左轉。必須先停車並讓行。",
+          "tags": [
+            "red-light"
+          ]
+        },
+        {
+          "id": "M05-S02-Q03",
+          "stem_en": "When turning right, if there is a bike lane you should enter it no more than how many feet before the turn?",
+          "stem_zhHant": "右轉時，如果有自行車道，應在轉彎前不超過多少英尺處駛入？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "100 feet",
+              "text_zhHant": "100英尺"
+            },
+            {
+              "key": "B",
+              "text_en": "200 feet",
+              "text_zhHant": "200英尺"
+            },
+            {
+              "key": "C",
+              "text_en": "300 feet",
+              "text_zhHant": "300英尺"
+            },
+            {
+              "key": "D",
+              "text_en": "50 feet",
+              "text_zhHant": "50英尺"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When turning right, enter the bike lane no more than 200 feet before the turn.",
+          "explanation_zhHant": "右轉時，在轉彎前不超過200英尺處駛入自行車道。",
+          "tags": []
+        },
+        {
+          "id": "M05-S02-Q04",
+          "stem_en": "If you are already in the intersection waiting to turn left and the light changes to red, you should:",
+          "stem_zhHant": "如果您已經在路口中等待左轉且信號燈變紅，您應該：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Stop immediately in the intersection",
+              "text_zhHant": "立即在路口中停車"
+            },
+            {
+              "key": "B",
+              "text_en": "Back up to behind the stop line",
+              "text_zhHant": "倒車退回停止線後"
+            },
+            {
+              "key": "C",
+              "text_en": "Complete your turn when safe",
+              "text_zhHant": "在安全時完成轉彎"
+            },
+            {
+              "key": "D",
+              "text_en": "Wait for the next green light",
+              "text_zhHant": "等待下一個綠燈"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "If you are already in the intersection and the light changes to red, complete your turn when safe.",
+          "explanation_zhHant": "如果已經在路口中且信號燈變紅，在安全時完成轉彎。",
+          "tags": []
+        },
+        {
+          "id": "M05-S02-Q05",
+          "stem_en": "A center left turn lane should be used for:",
+          "stem_zhHant": "中央左轉車道應用於：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Passing other vehicles",
+              "text_zhHant": "超車"
+            },
+            {
+              "key": "B",
+              "text_en": "Traveling as a regular lane",
+              "text_zhHant": "作為普通行車道使用"
+            },
+            {
+              "key": "C",
+              "text_en": "Preparing for and making a left turn or U-turn only",
+              "text_zhHant": "僅用於準備和執行左轉或掉頭"
+            },
+            {
+              "key": "D",
+              "text_en": "Emergency parking",
+              "text_zhHant": "緊急停車"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "A center left turn lane should only be used to prepare for and make a left turn or a permitted U-turn. Do not travel in this lane.",
+          "explanation_zhHant": "中央左轉車道只能用於準備和執行左轉或允許的掉頭，不可在此車道內行駛。",
+          "tags": []
+        },
+        {
+          "id": "M05-S02-Q06",
+          "stem_en": "When making a right turn on red, you must first:",
+          "stem_zhHant": "在紅燈時右轉，您必須首先：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Slow down and check for traffic",
+              "text_zhHant": "減速並檢查交通"
+            },
+            {
+              "key": "B",
+              "text_en": "Come to a complete stop and yield to pedestrians and traffic",
+              "text_zhHant": "完全停車並讓行人和車輛先行"
+            },
+            {
+              "key": "C",
+              "text_en": "Honk your horn to warn pedestrians",
+              "text_zhHant": "按喇叭警告行人"
+            },
+            {
+              "key": "D",
+              "text_en": "Flash your headlights",
+              "text_zhHant": "閃大燈"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "You must come to a complete stop and yield to pedestrians and cross traffic before turning right on red.",
+          "explanation_zhHant": "紅燈時右轉必須先完全停車，讓行人和橫向車輛先行。",
+          "tags": []
+        },
+        {
+          "id": "M05-S02-Q07",
+          "stem_en": "When making a left turn from a two-way road, you should complete the turn into:",
+          "stem_zhHant": "從雙向道路左轉時，您應該駛入目標道路的：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Any available lane",
+              "text_zhHant": "任何可用車道"
+            },
+            {
+              "key": "B",
+              "text_en": "The far right lane",
+              "text_zhHant": "最右車道"
+            },
+            {
+              "key": "C",
+              "text_en": "The lane closest to the center line of the road you enter",
+              "text_zhHant": "最靠近中心線的車道"
+            },
+            {
+              "key": "D",
+              "text_en": "The lane with the least traffic",
+              "text_zhHant": "車流最少的車道"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Complete the turn in the lane closest to the center line of the road you enter.",
+          "explanation_zhHant": "駛入目標道路時進入最靠近中心線的車道。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S03",
+      "questions": [
+        {
+          "id": "M05-S03-Q01",
+          "stem_en": "U-turns are illegal in which of the following situations?",
+          "stem_zhHant": "以下哪種情況下掉頭是違法的？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "At an intersection with a green light",
+              "text_zhHant": "在有綠燈的路口"
+            },
+            {
+              "key": "B",
+              "text_en": "In a residential area with no traffic within 200 feet",
+              "text_zhHant": "在200英尺內無車輛的住宅區"
+            },
+            {
+              "key": "C",
+              "text_en": "On a one-way street",
+              "text_zhHant": "在單行道上"
+            },
+            {
+              "key": "D",
+              "text_en": "At an intersection with a green arrow",
+              "text_zhHant": "在有綠色箭頭的路口"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "U-turns are illegal on one-way streets, across double yellow lines, on divided highways, and where a No U-Turn sign is posted.",
+          "explanation_zhHant": "在單行道上、越過雙黃線、在分隔公路上以及有禁止掉頭標誌的地方掉頭都是違法的。",
+          "tags": [
+            "no-u-turn"
+          ]
+        },
+        {
+          "id": "M05-S03-Q02",
+          "stem_en": "On a highway, a U-turn is illegal if other drivers cannot see you within:",
+          "stem_zhHant": "在公路上，如果其他駕駛員在多少英尺內無法看到您，則掉頭違法？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "100 feet",
+              "text_zhHant": "100英尺"
+            },
+            {
+              "key": "B",
+              "text_en": "200 feet",
+              "text_zhHant": "200英尺"
+            },
+            {
+              "key": "C",
+              "text_en": "300 feet",
+              "text_zhHant": "300英尺"
+            },
+            {
+              "key": "D",
+              "text_en": "500 feet",
+              "text_zhHant": "500英尺"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "U-turns are illegal on a highway where you cannot be seen by other drivers within 200 feet in either direction.",
+          "explanation_zhHant": "如果在公路上任一方向200英尺內其他駕駛員無法看到你，則掉頭違法。",
+          "tags": [
+            "no-u-turn"
+          ]
+        },
+        {
+          "id": "M05-S03-Q03",
+          "stem_en": "U-turns are NOT allowed in front of:",
+          "stem_zhHant": "以下哪處前方不允許掉頭？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Schools",
+              "text_zhHant": "學校"
+            },
+            {
+              "key": "B",
+              "text_en": "Hospitals",
+              "text_zhHant": "醫院"
+            },
+            {
+              "key": "C",
+              "text_en": "Fire stations",
+              "text_zhHant": "消防站"
+            },
+            {
+              "key": "D",
+              "text_en": "Police stations",
+              "text_zhHant": "警察局"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "U-turns are not allowed in front of fire stations. Never use a fire station driveway to turn around.",
+          "explanation_zhHant": "消防站前方不允許掉頭。永遠不要使用消防站的車道來掉頭。",
+          "tags": [
+            "no-u-turn"
+          ]
+        },
+        {
+          "id": "M05-S03-Q04",
+          "stem_en": "In a residential area, a U-turn is legal when:",
+          "stem_zhHant": "在住宅區，以下哪種情況下掉頭合法？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "There is a No U-Turn sign",
+              "text_zhHant": "有禁止掉頭標誌"
+            },
+            {
+              "key": "B",
+              "text_en": "No vehicle is approaching within 200 feet",
+              "text_zhHant": "200英尺內沒有車輛接近"
+            },
+            {
+              "key": "C",
+              "text_en": "You are on a divided highway",
+              "text_zhHant": "在分隔公路上"
+            },
+            {
+              "key": "D",
+              "text_en": "It is after dark",
+              "text_zhHant": "天黑以後"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "In a residential area, a U-turn is legal when no vehicle is approaching within 200 feet.",
+          "explanation_zhHant": "在住宅區，當200英尺內沒有車輛接近時，掉頭是合法的。",
+          "tags": [
+            "no-u-turn"
+          ]
+        },
+        {
+          "id": "M05-S03-Q05",
+          "stem_en": "You should never make a U-turn near the top of a hill because:",
+          "stem_zhHant": "不應在山頂附近掉頭，因為：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "It is hard on your brakes",
+              "text_zhHant": "對剎車負擔大"
+            },
+            {
+              "key": "B",
+              "text_en": "Other drivers cannot see you from at least 200 feet away",
+              "text_zhHant": "其他駕駛員在200英尺內看不到你"
+            },
+            {
+              "key": "C",
+              "text_en": "The road is too narrow",
+              "text_zhHant": "道路太窄"
+            },
+            {
+              "key": "D",
+              "text_en": "Your engine may stall",
+              "text_zhHant": "引擎可能熄火"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Never make a U-turn near the top of a hill or on a curve where other drivers cannot see you from at least 200 feet away.",
+          "explanation_zhHant": "不要在山頂附近或彎道處掉頭，因為其他駕駛員在200英尺內可能看不到你。",
+          "tags": [
+            "no-u-turn",
+            "parking-hill"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "S04",
+      "questions": [
+        {
+          "id": "M05-S04-Q01",
+          "stem_en": "When may you pass on the right side of another vehicle?",
+          "stem_zhHant": "什麼時候可以從右側超車？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Whenever you want to go faster",
+              "text_zhHant": "任何時候想要加速時"
+            },
+            {
+              "key": "B",
+              "text_en": "When the vehicle ahead is making a left turn, or on a one-way street",
+              "text_zhHant": "當前車正在左轉，或在單行道上"
+            },
+            {
+              "key": "C",
+              "text_en": "When there is a solid yellow line",
+              "text_zhHant": "有實黃線時"
+            },
+            {
+              "key": "D",
+              "text_en": "Only on freeways",
+              "text_zhHant": "僅在高速公路上"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "You may pass on the right only when the vehicle ahead is making a left turn, on a one-way street, or on a road with 2+ lanes in your direction.",
+          "explanation_zhHant": "只有在前車正在左轉、在單行道上或在同方向有兩條以上車道的道路上，才可以從右側超車。",
+          "tags": []
+        },
+        {
+          "id": "M05-S04-Q02",
+          "stem_en": "You should NOT pass another vehicle within how many feet of an intersection?",
+          "stem_zhHant": "在距離路口多少英尺以內不應超車？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "50 feet",
+              "text_zhHant": "50英尺"
+            },
+            {
+              "key": "B",
+              "text_en": "100 feet",
+              "text_zhHant": "100英尺"
+            },
+            {
+              "key": "C",
+              "text_en": "200 feet",
+              "text_zhHant": "200英尺"
+            },
+            {
+              "key": "D",
+              "text_en": "300 feet",
+              "text_zhHant": "300英尺"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Do not pass within 100 feet of an intersection or railroad crossing.",
+          "explanation_zhHant": "在距離路口或鐵路道口100英尺內不要超車。",
+          "tags": []
+        },
+        {
+          "id": "M05-S04-Q03",
+          "stem_en": "Before returning to the right lane after passing, you should:",
+          "stem_zhHant": "超車後返回右車道之前，您應該：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Return immediately after passing",
+              "text_zhHant": "超車後立即返回"
+            },
+            {
+              "key": "B",
+              "text_en": "Wait until you can see the passed vehicle's front in your rearview mirror",
+              "text_zhHant": "等到能在後視鏡中看到被超車輛的前部"
+            },
+            {
+              "key": "C",
+              "text_en": "Wait 10 seconds",
+              "text_zhHant": "等待10秒"
+            },
+            {
+              "key": "D",
+              "text_en": "Flash your headlights at the passed vehicle",
+              "text_zhHant": "向被超車輛閃大燈"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Before returning to the right lane, make sure you can see the front of the passed vehicle in your rearview mirror.",
+          "explanation_zhHant": "超車後返回右車道之前，確保能在後視鏡中看到被超車輛的前部。",
+          "tags": []
+        },
+        {
+          "id": "M05-S04-Q04",
+          "stem_en": "When being passed by another vehicle, you should:",
+          "stem_zhHant": "被其他車輛超車時，您應該：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Speed up to prevent the pass",
+              "text_zhHant": "加速阻止超車"
+            },
+            {
+              "key": "B",
+              "text_en": "Move to the shoulder",
+              "text_zhHant": "移到路肩"
+            },
+            {
+              "key": "C",
+              "text_en": "Maintain your speed or slow down",
+              "text_zhHant": "保持車速或減速"
+            },
+            {
+              "key": "D",
+              "text_en": "Honk your horn as a warning",
+              "text_zhHant": "按喇叭警告"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "When being passed, maintain your speed or slow down. Do not speed up to prevent the pass.",
+          "explanation_zhHant": "被超車時，保持車速或減速。不要加速阻止超車。",
+          "tags": []
+        },
+        {
+          "id": "M05-S04-Q05",
+          "stem_en": "It is illegal to pass on a two-lane road when:",
+          "stem_zhHant": "在雙車道道路上，以下哪種情況超車違法？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "There is a broken yellow line on your side",
+              "text_zhHant": "你這一側是虛黃線"
+            },
+            {
+              "key": "B",
+              "text_en": "There is a solid yellow line on your side",
+              "text_zhHant": "你這一側是實黃線"
+            },
+            {
+              "key": "C",
+              "text_en": "The road is straight and flat",
+              "text_zhHant": "道路是直的且平坦的"
+            },
+            {
+              "key": "D",
+              "text_en": "You can see oncoming traffic clearly",
+              "text_zhHant": "能清楚看到對向來車"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "It is illegal to pass on a two-lane road when a solid yellow line is on your side of the center line.",
+          "explanation_zhHant": "在雙車道道路上，如果中心線在你這一側是實黃線，則超車違法。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S05",
+      "questions": [
+        {
+          "id": "M05-S05-Q01",
+          "stem_en": "HOV (carpool) lanes are marked with a:",
+          "stem_zhHant": "HOV（合乘）車道用什麼標記？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Circle symbol",
+              "text_zhHant": "圓形標記"
+            },
+            {
+              "key": "B",
+              "text_en": "Diamond symbol",
+              "text_zhHant": "菱形標記"
+            },
+            {
+              "key": "C",
+              "text_en": "Triangle symbol",
+              "text_zhHant": "三角形標記"
+            },
+            {
+              "key": "D",
+              "text_en": "Square symbol",
+              "text_zhHant": "方形標記"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "HOV/carpool lanes are marked with a diamond symbol.",
+          "explanation_zhHant": "HOV/合乘車道用菱形標誌標記。",
+          "tags": []
+        },
+        {
+          "id": "M05-S05-Q02",
+          "stem_en": "Which vehicles may use HOV lanes regardless of the number of occupants?",
+          "stem_zhHant": "哪些車輛無論車內人數都可以使用HOV車道？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Pickup trucks and SUVs",
+              "text_zhHant": "皮卡車和SUV"
+            },
+            {
+              "key": "B",
+              "text_en": "Motorcycles, buses, and clean air vehicles with special decals",
+              "text_zhHant": "摩托車、公交車和持有特殊貼紙的清潔能源車輛"
+            },
+            {
+              "key": "C",
+              "text_en": "All electric vehicles",
+              "text_zhHant": "所有電動車"
+            },
+            {
+              "key": "D",
+              "text_en": "Vehicles with disabled placards",
+              "text_zhHant": "持殘疾人標牌的車輛"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Motorcycles, buses, and certain clean air vehicles with special DMV decals may use HOV lanes regardless of occupants.",
+          "explanation_zhHant": "摩托車、公交車以及持有特殊DMV貼紙的清潔能源車輛無論車內人數都可以使用HOV車道。",
+          "tags": []
+        },
+        {
+          "id": "M05-S05-Q03",
+          "stem_en": "You may enter or exit an HOV lane separated by double solid white lines:",
+          "stem_zhHant": "以雙白實線分隔的HOV車道，您可以在哪裡進出？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Anywhere along the line",
+              "text_zhHant": "沿線的任何地方"
+            },
+            {
+              "key": "B",
+              "text_en": "Only at designated entry/exit points",
+              "text_zhHant": "僅在指定的進出口處"
+            },
+            {
+              "key": "C",
+              "text_en": "Whenever there is a gap in traffic",
+              "text_zhHant": "車流有間隙時"
+            },
+            {
+              "key": "D",
+              "text_en": "Only during off-peak hours",
+              "text_zhHant": "僅在非高峰時段"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "You may only cross double solid white lines to enter or exit an HOV lane at designated entry/exit points.",
+          "explanation_zhHant": "只能在指定的進出口處越過雙白實線進入或離開HOV車道。",
+          "tags": []
+        },
+        {
+          "id": "M05-S05-Q04",
+          "stem_en": "A lane marked with a red X overhead means:",
+          "stem_zhHant": "上方標有紅色X的車道表示：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "The lane is for emergency vehicles only",
+              "text_zhHant": "該車道僅供緊急車輛使用"
+            },
+            {
+              "key": "B",
+              "text_en": "Slow down in this lane",
+              "text_zhHant": "在該車道減速"
+            },
+            {
+              "key": "C",
+              "text_en": "Do not drive in this lane",
+              "text_zhHant": "不要在該車道行駛"
+            },
+            {
+              "key": "D",
+              "text_en": "The lane is for turning only",
+              "text_zhHant": "該車道僅供轉彎"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Never drive in a lane marked with a red X. It means the lane is closed to traffic in your direction.",
+          "explanation_zhHant": "絕不要在標有紅色X的車道行駛。這表示該車道對你的行駛方向關閉。",
+          "tags": []
+        },
+        {
+          "id": "M05-S05-Q05",
+          "stem_en": "You should not drive in a bike lane except when:",
+          "stem_zhHant": "除了以下哪種情況外，不應在自行車道內行駛？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Traffic is heavy",
+              "text_zhHant": "交通擁堵時"
+            },
+            {
+              "key": "B",
+              "text_en": "Making a turn within 200 feet of the turn",
+              "text_zhHant": "在距轉彎200英尺內準備轉彎"
+            },
+            {
+              "key": "C",
+              "text_en": "The bike lane is empty",
+              "text_zhHant": "自行車道是空的"
+            },
+            {
+              "key": "D",
+              "text_en": "You are driving under 15 mph",
+              "text_zhHant": "時速低於15英里"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Do not drive in a bike lane except when making a turn within 200 feet of the turn.",
+          "explanation_zhHant": "除非在距轉彎200英尺內準備轉彎，否則不得在自行車道內行駛。",
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

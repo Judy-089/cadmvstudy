@@ -1,0 +1,1321 @@
+{
+  "examId": "MOCK-07",
+  "questions": [
+    {
+      "id": "Q-MOCK07-001",
+      "stem_en": "A yield ahead warning sign is shaped like a:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Circle"
+        },
+        {
+          "key": "B",
+          "text_en": "Diamond"
+        },
+        {
+          "key": "C",
+          "text_en": "Pentagon"
+        },
+        {
+          "key": "D",
+          "text_en": "Triangle pointing downward"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A yield ahead warning sign is a diamond-shaped yellow sign that warns you a yield sign is ahead. The yield sign itself is a downward-pointing triangle.",
+      "explanation_zh": "让行预告标志是菱形黄色标志，提醒您前方有让行标志。让行标志本身是一个倒三角形。",
+      "module": "M02",
+      "tags": [
+        "yield-ahead"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-002",
+      "stem_en": "A lane ends sign warns you that:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The road is closed ahead"
+        },
+        {
+          "key": "B",
+          "text_en": "A lane will end and you must merge"
+        },
+        {
+          "key": "C",
+          "text_en": "A new lane is being added"
+        },
+        {
+          "key": "D",
+          "text_en": "You are approaching a toll plaza"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A lane ends sign warns that a lane will end ahead and you must merge into an adjacent lane. Be prepared to change lanes safely.",
+      "explanation_zh": "车道结束标志警告前方车道将结束，你必须并入相邻车道。做好安全变道的准备。",
+      "module": "M02",
+      "tags": [
+        "lane-ends"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-003",
+      "stem_en": "A divided highway sign warns you that:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The road is merging into one lane"
+        },
+        {
+          "key": "B",
+          "text_en": "The road ahead is divided by a median or barrier"
+        },
+        {
+          "key": "C",
+          "text_en": "Construction ahead"
+        },
+        {
+          "key": "D",
+          "text_en": "A railroad crossing is ahead"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A divided highway sign warns that the road ahead has a dividing median or barrier separating traffic moving in opposite directions.",
+      "explanation_zh": "分隔公路标志警告前方道路有中央分隔带或隔离栏将对向行驶的车辆分开。",
+      "module": "M02",
+      "tags": [
+        "divided-highway"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-004",
+      "stem_en": "A pedestrian crossing sign is a:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Red octagon"
+        },
+        {
+          "key": "B",
+          "text_en": "Green circle"
+        },
+        {
+          "key": "C",
+          "text_en": "Yellow diamond with a person walking"
+        },
+        {
+          "key": "D",
+          "text_en": "Blue rectangle"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A pedestrian crossing warning sign is a yellow diamond-shaped sign showing a person walking. It warns drivers to watch for pedestrians.",
+      "explanation_zh": "行人过马路警告标志是一个黄色菱形标志，上面画着一个行走的人。它警告驾驶员注意行人。",
+      "module": "M02",
+      "tags": [
+        "pedestrian-crossing"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-005",
+      "stem_en": "A crossroad warning sign indicates:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A dead end ahead"
+        },
+        {
+          "key": "B",
+          "text_en": "A four-way intersection ahead"
+        },
+        {
+          "key": "C",
+          "text_en": "A one-way street ahead"
+        },
+        {
+          "key": "D",
+          "text_en": "A bridge ahead"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A crossroad warning sign alerts you that a four-way intersection is ahead. Be prepared to slow down and watch for cross traffic.",
+      "explanation_zh": "十字路口警告标志提醒您前方有四向交叉路口。准备减速并注意横向车辆。",
+      "module": "M02",
+      "tags": [
+        "crossroad"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-006",
+      "stem_en": "A winding road sign warns you of:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A single sharp curve ahead"
+        },
+        {
+          "key": "B",
+          "text_en": "A series of curves in the road ahead"
+        },
+        {
+          "key": "C",
+          "text_en": "A steep hill ahead"
+        },
+        {
+          "key": "D",
+          "text_en": "A road ending ahead"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A winding road sign is a yellow diamond-shaped sign that warns of a series of curves in the road ahead. Reduce your speed before entering the curves.",
+      "explanation_zh": "蜿蜒道路标志是黄色菱形标志，警告前方有一系列弯道。在进入弯道前减速。",
+      "module": "M02",
+      "tags": [
+        "winding-road"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-007",
+      "stem_en": "A traffic signal ahead sign warns you that:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "There is a stop sign ahead"
+        },
+        {
+          "key": "B",
+          "text_en": "There is a traffic signal ahead that may not be visible from a distance"
+        },
+        {
+          "key": "C",
+          "text_en": "The traffic signal ahead is always green"
+        },
+        {
+          "key": "D",
+          "text_en": "You must turn right at the next signal"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A traffic signal ahead sign warns that there is a traffic signal ahead that may be hidden by a curve, hill, or other obstruction. Be prepared to stop.",
+      "explanation_zh": "前方交通信号灯标志警告前方有可能被弯道、山丘或其他障碍物遮挡的交通信号灯。准备停车。",
+      "module": "M02",
+      "tags": [
+        "traffic-signal-ahead"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-008",
+      "stem_en": "An added lane sign tells you that:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A lane is being removed"
+        },
+        {
+          "key": "B",
+          "text_en": "An additional lane is joining the road and no merging is needed"
+        },
+        {
+          "key": "C",
+          "text_en": "You must exit the highway"
+        },
+        {
+          "key": "D",
+          "text_en": "The speed limit is increasing"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "An added lane sign indicates that a new lane is being added to the road. Traffic entering from the new lane does not need to merge because it has its own lane.",
+      "explanation_zh": "新增车道标志表示道路正在增加一条新车道。从新车道进入的车辆不需要合并，因为它有自己的车道。",
+      "module": "M02",
+      "tags": [
+        "added-lane"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-009",
+      "stem_en": "When making a right turn on a red light, you must first:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Slow down and proceed cautiously"
+        },
+        {
+          "key": "B",
+          "text_en": "Come to a complete stop and yield to pedestrians and traffic"
+        },
+        {
+          "key": "C",
+          "text_en": "Flash your headlights to warn other drivers"
+        },
+        {
+          "key": "D",
+          "text_en": "Honk your horn before turning"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You may turn right at a red light after coming to a complete stop, unless a NO TURN ON RED sign is posted. You must yield to pedestrians and all traffic before turning.",
+      "explanation_zh": "你可以在红灯时右转，但必须先完全停车，除非有禁止红灯右转的标志。转弯前必须让行行人和所有车辆。",
+      "module": "M03",
+      "tags": [
+        "red-light"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-010",
+      "stem_en": "When you are in an intersection and the light turns red, you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Stop immediately where you are"
+        },
+        {
+          "key": "B",
+          "text_en": "Back up out of the intersection"
+        },
+        {
+          "key": "C",
+          "text_en": "Continue through the intersection"
+        },
+        {
+          "key": "D",
+          "text_en": "Wait in the intersection for the next green light"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "If you are already in the intersection when the light turns red, you should continue through carefully. Do not stop or back up in the intersection.",
+      "explanation_zh": "如果你在信号灯变红时已经在路口内，你应该小心地继续通过。不要在路口内停车或倒车。",
+      "module": "M03",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-011",
+      "stem_en": "It is against the law to block an intersection. You should not enter an intersection unless:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The light is green"
+        },
+        {
+          "key": "B",
+          "text_en": "You can get completely across before the light turns red"
+        },
+        {
+          "key": "C",
+          "text_en": "There is at least one car length of space"
+        },
+        {
+          "key": "D",
+          "text_en": "The crosswalk is empty"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Do not enter an intersection unless you can get completely across before the traffic signal light turns red. Blocking an intersection is against the law.",
+      "explanation_zh": "除非你能在信号灯变红前完全通过路口，否则不要进入路口。阻挡路口是违法的。",
+      "module": "M03",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-012",
+      "stem_en": "When a blind pedestrian pulls in their cane and steps away from the intersection, it usually means:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "They need help crossing"
+        },
+        {
+          "key": "B",
+          "text_en": "They are waiting for a bus"
+        },
+        {
+          "key": "C",
+          "text_en": "You may proceed"
+        },
+        {
+          "key": "D",
+          "text_en": "You should honk to let them know you are there"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "When a blind person pulls in their cane and steps away from the intersection, this gesture usually means you may go. Never honk at a blind pedestrian.",
+      "explanation_zh": "当盲人收起拐杖并离开路口时，这个手势通常表示你可以通行。永远不要对盲人行人按喇叭。",
+      "module": "M03",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-013",
+      "stem_en": "When making a left turn from a two-way street, you should start and end the turn in:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Any available lane"
+        },
+        {
+          "key": "B",
+          "text_en": "The lane closest to the center of the road"
+        },
+        {
+          "key": "C",
+          "text_en": "The right lane"
+        },
+        {
+          "key": "D",
+          "text_en": "The center left-turn lane if available, ending in any lane"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When making a left turn from a two-way street, start the turn in the left lane closest to the center and end in the left lane closest to the center going in your direction to reduce collision risk.",
+      "explanation_zh": "在双向街道左转时，从最靠近中心的左车道开始转弯，并在你行驶方向最靠近中心的左车道结束转弯，以降低碰撞风险。",
+      "module": "M03",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-014",
+      "stem_en": "You may turn left from a one-way street onto a one-way street at a red light:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Never"
+        },
+        {
+          "key": "B",
+          "text_en": "Only if there is no sign prohibiting the turn and after a complete stop"
+        },
+        {
+          "key": "C",
+          "text_en": "Only with a green arrow"
+        },
+        {
+          "key": "D",
+          "text_en": "Only during daylight hours"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You may turn left against a red light from a one-way street onto another one-way street, as long as there is no sign prohibiting it. You must come to a complete stop and yield first.",
+      "explanation_zh": "你可以在红灯时从单行道左转到另一条单行道，只要没有禁止转弯的标志。你必须先完全停车并让行。",
+      "module": "M03",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-015",
+      "stem_en": "Double solid white lines on the road indicate that you may not:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Park in the area"
+        },
+        {
+          "key": "B",
+          "text_en": "Change lanes or cross the lines"
+        },
+        {
+          "key": "C",
+          "text_en": "Turn right"
+        },
+        {
+          "key": "D",
+          "text_en": "Make a U-turn"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Double solid white lines indicate a lane barrier. Never change lanes over double solid white lines. Wait until you see a single broken white line.",
+      "explanation_zh": "双实白线表示车道隔离。永远不要越过双实白线变道。等到看到单条虚白线再变道。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-016",
+      "stem_en": "When changing lanes on a freeway, you should signal at least:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "100 feet before the change"
+        },
+        {
+          "key": "B",
+          "text_en": "Three seconds before the change"
+        },
+        {
+          "key": "C",
+          "text_en": "Five seconds before the change"
+        },
+        {
+          "key": "D",
+          "text_en": "200 feet before the change"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Before changing lanes on a freeway, signal at least five seconds before you change lanes to give other drivers time to react.",
+      "explanation_zh": "在高速公路上变道前，至少提前五秒打转向灯，让其他驾驶员有时间做出反应。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-017",
+      "stem_en": "A broken yellow line on your side of the center line means:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "No passing allowed"
+        },
+        {
+          "key": "B",
+          "text_en": "You may pass if it is safe to do so"
+        },
+        {
+          "key": "C",
+          "text_en": "Road construction ahead"
+        },
+        {
+          "key": "D",
+          "text_en": "The road is one-way"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A broken yellow line indicates you may pass if the broken line is next to your driving lane and it is safe to do so.",
+      "explanation_zh": "虚黄线表示如果虚线在你的行驶车道旁边，且安全的话，你可以超车。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-018",
+      "stem_en": "When towing a trailer on a highway, you must drive in:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The left lane"
+        },
+        {
+          "key": "B",
+          "text_en": "The far-right lane or a lane marked for slower vehicles"
+        },
+        {
+          "key": "C",
+          "text_en": "Any lane you choose"
+        },
+        {
+          "key": "D",
+          "text_en": "The center lane"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When towing a trailer, you must drive in the far-right lane or a lane marked for slower vehicles. If no lanes are marked and there are four or more lanes in your direction, use the two lanes closest to the right.",
+      "explanation_zh": "拖挂拖车时，你必须在最右侧车道或标记为慢速车辆的车道行驶。如果没有标记且你的方向有四条或以上车道，使用最靠右的两条车道。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-019",
+      "stem_en": "You should not pass within how many feet of an intersection?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "50 feet"
+        },
+        {
+          "key": "B",
+          "text_en": "75 feet"
+        },
+        {
+          "key": "C",
+          "text_en": "100 feet"
+        },
+        {
+          "key": "D",
+          "text_en": "200 feet"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Do not pass within 100 feet of an intersection, bridge, tunnel, railroad crossing, or other hazardous area.",
+      "explanation_zh": "不要在距路口、桥梁、隧道、铁路道口或其他危险区域100英尺范围内超车。",
+      "module": "M05",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-020",
+      "stem_en": "California's Basic Speed Law states that you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Always drive at the posted speed limit"
+        },
+        {
+          "key": "B",
+          "text_en": "Never drive faster than is safe for current conditions"
+        },
+        {
+          "key": "C",
+          "text_en": "Drive at least 10 mph below the posted limit"
+        },
+        {
+          "key": "D",
+          "text_en": "Match the speed of the fastest vehicle on the road"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "California's Basic Speed Law states you may never drive faster than is safe for current road conditions, regardless of the posted speed limit.",
+      "explanation_zh": "加州基本限速法规定，无论张贴的限速是多少，你的驾驶速度绝不能超过当前道路条件下的安全速度。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-021",
+      "stem_en": "If you are driving too slowly on a highway, you may:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Be pulled over for driving too fast"
+        },
+        {
+          "key": "B",
+          "text_en": "Be cited for blocking traffic"
+        },
+        {
+          "key": "C",
+          "text_en": "Be exempt from following traffic rules"
+        },
+        {
+          "key": "D",
+          "text_en": "Use the carpool lane"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "If you drive faster or slower than the speed limit, you may be cited. Driving too slowly can block normal and reasonable traffic flow.",
+      "explanation_zh": "如果你驾驶速度快于或慢于限速，你可能被开罚单。驾驶过慢可能会阻碍正常合理的交通流量。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-022",
+      "stem_en": "When driving on packed snow, you should reduce your speed by about:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "5 to 10 mph"
+        },
+        {
+          "key": "B",
+          "text_en": "One-quarter of your speed"
+        },
+        {
+          "key": "C",
+          "text_en": "Half your speed"
+        },
+        {
+          "key": "D",
+          "text_en": "Two-thirds of your speed"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "On packed snow, reduce your speed by half. On wet roads, reduce by 5-10 mph, and on ice, slow to no more than 5 mph.",
+      "explanation_zh": "在积雪路面上，减速一半。在湿滑路面上减速5-10英里/小时，在冰面上减至不超过5英里/小时。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-023",
+      "stem_en": "The speed limit in an alley is:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "10 mph"
+        },
+        {
+          "key": "B",
+          "text_en": "15 mph"
+        },
+        {
+          "key": "C",
+          "text_en": "20 mph"
+        },
+        {
+          "key": "D",
+          "text_en": "25 mph"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "The speed limit in an alley is 15 mph. An alley is any road no wider than 25 feet used to access the rear or side entrances of buildings.",
+      "explanation_zh": "在小巷中的限速为15英里/小时。小巷是不超过25英尺宽的道路，用于通往建筑物的后门或侧门。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-024",
+      "stem_en": "When workers are present in a highway construction zone, traffic fines are:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The same as regular fines"
+        },
+        {
+          "key": "B",
+          "text_en": "Doubled"
+        },
+        {
+          "key": "C",
+          "text_en": "Tripled"
+        },
+        {
+          "key": "D",
+          "text_en": "Reduced"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Fines are doubled in highway construction zones when workers are present. Fines can be $1,000 or more.",
+      "explanation_zh": "当有工人在场时，施工区罚款加倍。罚款可达1000美元或以上。",
+      "module": "M04",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-025",
+      "stem_en": "When a large truck makes a right turn, it often:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Stays close to the right curb"
+        },
+        {
+          "key": "B",
+          "text_en": "Swings wide to the left first"
+        },
+        {
+          "key": "C",
+          "text_en": "Stops completely before turning"
+        },
+        {
+          "key": "D",
+          "text_en": "Signals with its horn"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When a large truck turns, the rear wheels follow a shorter path than the front wheels. The longer the vehicle, the wider it must swing. A truck may swing left before turning right.",
+      "explanation_zh": "当大卡车转弯时，后轮走的路径比前轮短。车辆越长，需要的转弯空间越大。卡车可能在右转前先向左摆动。",
+      "module": "M08",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-026",
+      "stem_en": "You must stop for a school bus with flashing red lights on a divided highway:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "From both directions at all times"
+        },
+        {
+          "key": "B",
+          "text_en": "Only if you are on the same side as the bus"
+        },
+        {
+          "key": "C",
+          "text_en": "Only if children are visible"
+        },
+        {
+          "key": "D",
+          "text_en": "Never, if the highway has a median"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "If a school bus is on the other side of a divided or multilane highway (two or more lanes in each direction), you do not need to stop. But if on the same side, you must stop.",
+      "explanation_zh": "如果校车在分隔或多车道高速公路（每个方向两条或以上车道）的另一侧，你不需要停车。但如果在同一侧，你必须停车。",
+      "module": "M08",
+      "tags": [
+        "school-bus"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-027",
+      "stem_en": "It is illegal to follow within how many feet of an emergency vehicle that has its siren or lights on?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "200 feet"
+        },
+        {
+          "key": "B",
+          "text_en": "300 feet"
+        },
+        {
+          "key": "C",
+          "text_en": "400 feet"
+        },
+        {
+          "key": "D",
+          "text_en": "500 feet"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "It is against the law to follow within 300 feet of any fire engine, law enforcement vehicle, ambulance, or other emergency vehicle when their siren or flashing lights are on.",
+      "explanation_zh": "当消防车、执法车辆、救护车或其他紧急车辆的警报器或闪灯开启时，跟随距离不得少于300英尺。",
+      "module": "M08",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-028",
+      "stem_en": "When approaching a horse and rider on the road, you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Honk your horn to alert the rider"
+        },
+        {
+          "key": "B",
+          "text_en": "Speed up and pass quickly"
+        },
+        {
+          "key": "C",
+          "text_en": "Slow down and pass cautiously to avoid scaring the horse"
+        },
+        {
+          "key": "D",
+          "text_en": "Flash your headlights"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "When approaching a horse and rider, slow down and pass cautiously. It is against the law to intentionally scare horses or livestock.",
+      "explanation_zh": "接近马匹和骑手时，减速并小心通过。故意惊吓马匹或牲畜是违法的。",
+      "module": "M08",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-029",
+      "stem_en": "The Move Over law requires drivers approaching a stationary emergency vehicle to:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Stop completely"
+        },
+        {
+          "key": "B",
+          "text_en": "Move to another lane if possible, and slow down"
+        },
+        {
+          "key": "C",
+          "text_en": "Turn on their hazard lights"
+        },
+        {
+          "key": "D",
+          "text_en": "Honk their horn to warn the officer"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "The Move Over law requires drivers to move over and slow down for stationary emergency vehicles, tow trucks, and road work vehicles displaying flashing lights.",
+      "explanation_zh": "移开让路法要求驾驶员为停放的紧急车辆、拖车和显示闪灯的道路作业车辆移至另一车道并减速。",
+      "module": "M08",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-030",
+      "stem_en": "The knowledge test for minors applying for a Class C license consists of how many questions?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "25 questions"
+        },
+        {
+          "key": "B",
+          "text_en": "36 questions"
+        },
+        {
+          "key": "C",
+          "text_en": "46 questions"
+        },
+        {
+          "key": "D",
+          "text_en": "50 questions"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "The knowledge test for minors applying for a Class C license has 46 multiple choice questions. You are allowed three attempts to pass.",
+      "explanation_zh": "申请C类驾照的未成年人笔试有46道选择题。你有三次通过机会。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK07-031",
+      "stem_en": "Driver education and driver training for minors are offered at:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Community colleges only"
+        },
+        {
+          "key": "B",
+          "text_en": "DMV-licensed driving schools and some high schools"
+        },
+        {
+          "key": "C",
+          "text_en": "Online-only programs"
+        },
+        {
+          "key": "D",
+          "text_en": "Police academies"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Driver education and driver training are offered at DMV-licensed driving schools and some high schools. Instructors must carry an instructor's ID card.",
+      "explanation_zh": "驾驶教育和驾驶培训由DMV认证的驾校和一些高中提供。教练必须携带教练证。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK07-032",
+      "stem_en": "A minor's instruction permit becomes valid when they:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Turn 16 years old"
+        },
+        {
+          "key": "B",
+          "text_en": "Begin behind-the-wheel driver training with an instructor who validates it"
+        },
+        {
+          "key": "C",
+          "text_en": "Complete 50 hours of practice"
+        },
+        {
+          "key": "D",
+          "text_en": "Pass the vision test"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A minor must wait to use their permit until they start behind-the-wheel training with an instructor who validates it.",
+      "explanation_zh": "未成年人必须等到开始跟教练进行实际驾驶培训并验证许可证后才能使用。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK07-033",
+      "stem_en": "What is the minimum age to take the behind-the-wheel drive test in California?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "15 years old"
+        },
+        {
+          "key": "B",
+          "text_en": "15 and a half years old"
+        },
+        {
+          "key": "C",
+          "text_en": "16 years old"
+        },
+        {
+          "key": "D",
+          "text_en": "17 years old"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A minor must be at least 16 years old and have held an instruction permit for at least 6 months to take the behind-the-wheel drive test.",
+      "explanation_zh": "未成年人必须年满16岁并持有学习许可证至少6个月才能参加路考。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK07-034",
+      "stem_en": "A minor with a provisional license cannot drive for pay or operate vehicles requiring a:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Class C license"
+        },
+        {
+          "key": "B",
+          "text_en": "Commercial Class A, B, or C license"
+        },
+        {
+          "key": "C",
+          "text_en": "Motorcycle license"
+        },
+        {
+          "key": "D",
+          "text_en": "Standard passenger vehicle license"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A provisional driver under 18 cannot drive for pay or operate vehicles that require a commercial Class A, B, or C license.",
+      "explanation_zh": "持临时驾照的未满18岁驾驶员不得进行有偿驾驶或驾驶需要商业A、B或C类驾照的车辆。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK07-035",
+      "stem_en": "The BAC legal limit for drivers over 21 in California is:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "0.04%"
+        },
+        {
+          "key": "B",
+          "text_en": "0.05%"
+        },
+        {
+          "key": "C",
+          "text_en": "0.08%"
+        },
+        {
+          "key": "D",
+          "text_en": "0.10%"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "It is illegal to drive with a BAC of 0.08% or higher if you are over 21 years old. Even below legal limits, alcohol can still impair driving ability.",
+      "explanation_zh": "如果你超过21岁，驾驶时血液酒精浓度达到0.08%或更高即为违法。即使低于法定限度，酒精仍可能影响驾驶能力。",
+      "module": "M10",
+      "tags": [
+        "bac"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-036",
+      "stem_en": "If a law enforcement officer suspects you of DUI, they may require you to take a:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Lie detector test"
+        },
+        {
+          "key": "B",
+          "text_en": "Breath, blood, or urine test"
+        },
+        {
+          "key": "C",
+          "text_en": "Written knowledge test"
+        },
+        {
+          "key": "D",
+          "text_en": "Vision test"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "If an officer suspects DUI, they can require you to take a breath, blood, or urine test. Refusing can result in suspension or revocation of your driving privilege.",
+      "explanation_zh": "如果警察怀疑你酒驾，他们可以要求你进行呼气、血液或尿液测试。拒绝可能导致你的驾驶特权被暂停或吊销。",
+      "module": "M10",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-037",
+      "stem_en": "When parking on a hill headed uphill with a curb, you should turn your front wheels:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Into the curb (to the right)"
+        },
+        {
+          "key": "B",
+          "text_en": "Away from the curb (to the left)"
+        },
+        {
+          "key": "C",
+          "text_en": "Straight ahead"
+        },
+        {
+          "key": "D",
+          "text_en": "Slightly to the right"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When parked uphill with a curb, turn wheels away from the curb (left, toward center of road) and let the vehicle roll back so the wheel gently touches the curb.",
+      "explanation_zh": "在有路缘的上坡停车时，将前轮转离路缘（向左，朝向道路中心），让车辆后退使车轮轻触路缘。",
+      "module": "M06",
+      "tags": [
+        "parking-hill"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-038",
+      "stem_en": "When parallel parking, how close to the curb must your vehicle be?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "6 inches"
+        },
+        {
+          "key": "B",
+          "text_en": "12 inches"
+        },
+        {
+          "key": "C",
+          "text_en": "18 inches"
+        },
+        {
+          "key": "D",
+          "text_en": "24 inches"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "When parallel parking, your vehicle should be parallel to and within 18 inches of the curb.",
+      "explanation_zh": "平行停车时，你的车辆应与路缘平行，且距路缘不超过18英寸。",
+      "module": "M06",
+      "tags": [
+        "parallel-parking"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-039",
+      "stem_en": "When parking on a hill without a curb, you should turn your wheels:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "To the left"
+        },
+        {
+          "key": "B",
+          "text_en": "To the right, toward the shoulder"
+        },
+        {
+          "key": "C",
+          "text_en": "Straight ahead"
+        },
+        {
+          "key": "D",
+          "text_en": "It does not matter which direction"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When parking on a hill without a curb, turn your wheels to the right so the vehicle will roll away from the center of the road if the brakes fail.",
+      "explanation_zh": "在没有路缘的山坡上停车时，将车轮转向右侧，使车辆在刹车失灵时滚离道路中心。",
+      "module": "M06",
+      "tags": [
+        "parking-hill"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-040",
+      "stem_en": "When bridges and overpasses may have icy spots, you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Speed up to cross quickly"
+        },
+        {
+          "key": "B",
+          "text_en": "Drive carefully as they freeze before the rest of the road"
+        },
+        {
+          "key": "C",
+          "text_en": "Use cruise control for stability"
+        },
+        {
+          "key": "D",
+          "text_en": "Turn off your headlights"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Bridges and overpasses tend to freeze before the rest of the road. They can have icy spots even when other road surfaces are dry. Drive carefully in cold weather.",
+      "explanation_zh": "桥梁和立交桥往往比其他路面先结冰。即使其他路面干燥，它们也可能有冰点。在寒冷天气中谨慎驾驶。",
+      "module": "M07",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-041",
+      "stem_en": "If the fog becomes too thick to drive safely, you should:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Continue driving slowly with high beams"
+        },
+        {
+          "key": "B",
+          "text_en": "Pull off the road and activate emergency flashers"
+        },
+        {
+          "key": "C",
+          "text_en": "Stop in the middle of the road"
+        },
+        {
+          "key": "D",
+          "text_en": "Turn off all lights to reduce glare"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "If fog becomes too thick, pull off the road, activate your emergency flashers, and wait for conditions to improve. Do not stop on the road.",
+      "explanation_zh": "如果雾太浓无法安全驾驶，驶离道路，打开应急闪光灯，等待条件改善。不要停在道路上。",
+      "module": "M07",
+      "tags": [],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-042",
+      "stem_en": "It is illegal for a minor to use a cell phone while driving except to:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Check text messages"
+        },
+        {
+          "key": "B",
+          "text_en": "Use GPS navigation"
+        },
+        {
+          "key": "C",
+          "text_en": "Make a call for emergency assistance"
+        },
+        {
+          "key": "D",
+          "text_en": "Call a parent or guardian"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "It is against the law for a minor to use a cell phone while driving, including hands-free mode. The only exception is to make a call for emergency assistance.",
+      "explanation_zh": "未成年人在驾驶时使用手机（包括免提模式）是违法的。唯一的例外是拨打紧急求助电话。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK07-043",
+      "stem_en": "A minor with a provisional license who needs to drive for work during curfew hours must carry:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A note signed by their school principal"
+        },
+        {
+          "key": "B",
+          "text_en": "A note signed by their employer confirming employment"
+        },
+        {
+          "key": "C",
+          "text_en": "Their parent in the vehicle"
+        },
+        {
+          "key": "D",
+          "text_en": "Nothing special is required"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A minor who must drive for work during curfew hours must carry a note signed by their employer confirming their employment.",
+      "explanation_zh": "在宵禁时间因工作需要驾驶的未成年人必须携带雇主签署的确认雇佣关系的证明。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK07-044",
+      "stem_en": "Advanced driver assistance technologies such as automated parallel parking are:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Required during the drive test"
+        },
+        {
+          "key": "B",
+          "text_en": "Not permitted during the behind-the-wheel drive test"
+        },
+        {
+          "key": "C",
+          "text_en": "Encouraged during the drive test"
+        },
+        {
+          "key": "D",
+          "text_en": "Only permitted for drivers over 25"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Advanced driver assistance technologies such as automated parallel parking, lane departure, and adaptive cruise control are not permitted during the drive test, as the test evaluates your abilities.",
+      "explanation_zh": "高级驾驶辅助技术（如自动平行停车、车道偏离和自适应巡航控制）在路考期间不允许使用，因为考试评估的是你的能力。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK07-045",
+      "stem_en": "If a minor fails the knowledge test, they must wait how many days before retaking it?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "3 days"
+        },
+        {
+          "key": "B",
+          "text_en": "5 days"
+        },
+        {
+          "key": "C",
+          "text_en": "7 days"
+        },
+        {
+          "key": "D",
+          "text_en": "14 days"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Minors must wait seven days to retake a failed knowledge test, not including the day of the failure. They are allowed three attempts before they must reapply.",
+      "explanation_zh": "未成年人必须等待7天才能重新参加未通过的笔试，不包括失败当天。他们有三次机会，之后必须重新申请。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    },
+    {
+      "id": "Q-MOCK07-046",
+      "stem_en": "A minor with a provisional license who needs to drive an immediate family member during curfew must carry:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A note from their employer"
+        },
+        {
+          "key": "B",
+          "text_en": "A note from their school"
+        },
+        {
+          "key": "C",
+          "text_en": "A note signed by their parent or guardian stating the reason"
+        },
+        {
+          "key": "D",
+          "text_en": "Their family member's identification"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A minor must carry a note signed by their parent or guardian stating the reason, the family member, and the date when the need will end.",
+      "explanation_zh": "未成年人必须携带父母或监护人签署的说明，注明原因、家庭成员以及需求结束的日期。",
+      "module": "M01",
+      "tags": [],
+      "driverEd": true
+    }
+  ]
+}

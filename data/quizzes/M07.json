@@ -1,0 +1,905 @@
+{
+  "moduleId": "M07",
+  "sections": [
+    {
+      "sectionId": "S01",
+      "questions": [
+        {
+          "id": "M07-S01-Q01",
+          "stem_en": "When driving in fog, which headlights should you use?",
+          "stem_zhHant": "霧天駕駛時，應使用哪種車燈？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "High-beam headlights",
+              "text_zhHant": "遠光燈"
+            },
+            {
+              "key": "B",
+              "text_en": "Low-beam headlights",
+              "text_zhHant": "近光燈"
+            },
+            {
+              "key": "C",
+              "text_en": "Parking lights only",
+              "text_zhHant": "僅停車燈"
+            },
+            {
+              "key": "D",
+              "text_en": "Emergency flashers only",
+              "text_zhHant": "僅雙閃警示燈"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "In fog, use low-beam headlights. High beams reflect off the fog and make it harder to see.",
+          "explanation_zhHant": "霧天行駛時使用近光燈。遠光燈會被霧反射，反而更難看清道路。",
+          "tags": []
+        },
+        {
+          "id": "M07-S01-Q02",
+          "stem_en": "If visibility is extremely poor due to heavy fog, what should you do?",
+          "stem_zhHant": "如果因大霧導致能見度極差，你應該怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Turn on high beams and drive slowly",
+              "text_zhHant": "打開遠光燈並慢速行駛"
+            },
+            {
+              "key": "B",
+              "text_en": "Pull completely off the road, turn off driving lights, and turn on emergency flashers",
+              "text_zhHant": "將車完全駛離道路，關閉車燈，打開雙閃警示燈"
+            },
+            {
+              "key": "C",
+              "text_en": "Stop in the traffic lane and wait for fog to clear",
+              "text_zhHant": "在車道上停車等霧散去"
+            },
+            {
+              "key": "D",
+              "text_en": "Speed up to get through the fog quickly",
+              "text_zhHant": "加速快速通過霧區"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "If visibility is very poor, pull completely off the road, turn off your driving lights, and turn on your emergency flashers.",
+          "explanation_zhHant": "如果能見度非常差，將車完全駛離道路，關閉車燈，打開雙閃警示燈。",
+          "tags": []
+        },
+        {
+          "id": "M07-S01-Q03",
+          "stem_en": "When driving in fog, what can you use as a guide to stay in your lane?",
+          "stem_zhHant": "霧天駕駛時，你可以用什麼作為引導來保持車道？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "The taillights of the car ahead",
+              "text_zhHant": "前車的尾燈"
+            },
+            {
+              "key": "B",
+              "text_en": "The center dividing line",
+              "text_zhHant": "中心分隔線"
+            },
+            {
+              "key": "C",
+              "text_en": "The right edge of the road or painted road markings",
+              "text_zhHant": "道路右側邊緣或路面標線"
+            },
+            {
+              "key": "D",
+              "text_en": "Your GPS navigation screen",
+              "text_zhHant": "你的GPS導航螢幕"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Use the right edge of the road or painted road markings as a guide when driving in fog.",
+          "explanation_zhHant": "霧天駕駛時，利用道路右側邊緣或路面標線作為引導。",
+          "tags": []
+        },
+        {
+          "id": "M07-S01-Q04",
+          "stem_en": "What equipment should you use in foggy conditions to improve visibility?",
+          "stem_zhHant": "在霧天條件下，應使用什麼設備來提高能見度？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "High-beam headlights and horn",
+              "text_zhHant": "遠光燈和喇叭"
+            },
+            {
+              "key": "B",
+              "text_en": "Defroster and windshield wipers",
+              "text_zhHant": "除霧器和雨刷器"
+            },
+            {
+              "key": "C",
+              "text_en": "Interior lights",
+              "text_zhHant": "車內燈"
+            },
+            {
+              "key": "D",
+              "text_en": "Sunglasses",
+              "text_zhHant": "太陽眼鏡"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Use your defroster and windshield wipers in foggy conditions to improve visibility.",
+          "explanation_zhHant": "霧天使用除霧器和雨刷器來提高能見度。",
+          "tags": []
+        },
+        {
+          "id": "M07-S01-Q05",
+          "stem_en": "In heavy fog, what should you avoid doing?",
+          "stem_zhHant": "在大霧中，你應該避免做什麼？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Reducing your speed",
+              "text_zhHant": "減速"
+            },
+            {
+              "key": "B",
+              "text_en": "Using your defroster",
+              "text_zhHant": "使用除霧器"
+            },
+            {
+              "key": "C",
+              "text_en": "Crossing or passing other traffic",
+              "text_zhHant": "橫穿或超越其他車輛"
+            },
+            {
+              "key": "D",
+              "text_en": "Increasing following distance",
+              "text_zhHant": "增加跟車距離"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Avoid crossing or passing traffic in heavy fog. Listen for traffic you cannot see.",
+          "explanation_zhHant": "在大霧中避免橫穿或超越車輛。注意聽那些你看不到的車輛的聲音。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S02",
+      "questions": [
+        {
+          "id": "M07-S02-Q01",
+          "stem_en": "When is a road most slippery during rain?",
+          "stem_zhHant": "雨天路面什麼時候最滑？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "After several hours of heavy rain",
+              "text_zhHant": "大雨下了幾小時之後"
+            },
+            {
+              "key": "B",
+              "text_en": "During the first few minutes of rain",
+              "text_zhHant": "下雨最初幾分鐘"
+            },
+            {
+              "key": "C",
+              "text_en": "Right after the rain stops",
+              "text_zhHant": "雨剛停的時候"
+            },
+            {
+              "key": "D",
+              "text_en": "Only during a thunderstorm",
+              "text_zhHant": "只有雷暴期間"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "The road is most slippery during the first few minutes of rain because oil on the road mixes with the water.",
+          "explanation_zhHant": "下雨最初幾分鐘路面最滑，因為路面上的油污與水混合在一起。",
+          "tags": [
+            "slippery-when-wet"
+          ]
+        },
+        {
+          "id": "M07-S02-Q02",
+          "stem_en": "What is hydroplaning?",
+          "stem_zhHant": "什麼是水滑現象？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Your engine stalling in water",
+              "text_zhHant": "你的引擎在水中熄火"
+            },
+            {
+              "key": "B",
+              "text_en": "Your tires riding on a thin film of water, losing traction",
+              "text_zhHant": "輪胎在水膜上滑行，失去抓地力"
+            },
+            {
+              "key": "C",
+              "text_en": "Your windshield fogging up in rain",
+              "text_zhHant": "你的擋風玻璃在雨中起霧"
+            },
+            {
+              "key": "D",
+              "text_en": "Water leaking into the car",
+              "text_zhHant": "水滲入車內"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Hydroplaning occurs when your tires ride on a thin film of water at high speeds, causing you to lose traction and control.",
+          "explanation_zhHant": "水滑現象是指高速行駛時，輪胎在水膜上滑行，導致失去抓地力和控制。",
+          "tags": []
+        },
+        {
+          "id": "M07-S02-Q03",
+          "stem_en": "If your tires lose traction due to hydroplaning, what should you do?",
+          "stem_zhHant": "如果你的輪胎因水滑而失去抓地力，你應該怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Brake hard immediately",
+              "text_zhHant": "立即急刹車"
+            },
+            {
+              "key": "B",
+              "text_en": "Turn the steering wheel sharply",
+              "text_zhHant": "急轉方向盤"
+            },
+            {
+              "key": "C",
+              "text_en": "Slow down gradually without hard braking or sudden turning",
+              "text_zhHant": "逐漸減速，不要急刹車或突然轉向"
+            },
+            {
+              "key": "D",
+              "text_en": "Accelerate to regain traction",
+              "text_zhHant": "加速以重新獲得抓地力"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "If your tires lose traction (hydroplaning), slow down gradually. Do not brake hard or turn suddenly.",
+          "explanation_zhHant": "如果輪胎失去抓地力（水滑），逐漸減速。不要急刹車或突然轉向。",
+          "tags": []
+        },
+        {
+          "id": "M07-S02-Q04",
+          "stem_en": "According to California law, when must you turn on your headlights?",
+          "stem_zhHant": "根據加州法律，什麼時候必須打開前車燈？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Only at night",
+              "text_zhHant": "僅在夜間"
+            },
+            {
+              "key": "B",
+              "text_en": "When windshield wipers are in continuous use",
+              "text_zhHant": "當雨刷器持續使用時"
+            },
+            {
+              "key": "C",
+              "text_en": "Only in heavy rain",
+              "text_zhHant": "僅在大雨中"
+            },
+            {
+              "key": "D",
+              "text_en": "Only on the freeway",
+              "text_zhHant": "僅在高速公路上"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "California law requires headlights when windshield wipers are in continuous use.",
+          "explanation_zhHant": "加州法律要求在持續使用雨刷器時必須開啟前車燈。",
+          "tags": []
+        },
+        {
+          "id": "M07-S02-Q05",
+          "stem_en": "Why should you never drive through flooded areas?",
+          "stem_zhHant": "為什麼永遠不要駛入積水區域？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "It will damage your paint",
+              "text_zhHant": "會損壞車漆"
+            },
+            {
+              "key": "B",
+              "text_en": "Even shallow water can cause you to lose control",
+              "text_zhHant": "即使淺水也可能導致你失控"
+            },
+            {
+              "key": "C",
+              "text_en": "It is only dangerous to motorcycles",
+              "text_zhHant": "僅對摩托車危險"
+            },
+            {
+              "key": "D",
+              "text_en": "Your insurance won't cover water damage",
+              "text_zhHant": "你的保險不會賠償水損"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Never drive through flooded areas. Even shallow water can cause you to lose control, and 6 inches of moving water can knock you down.",
+          "explanation_zhHant": "不要駛入積水區域。即使淺水也可能導致你失控，6英寸深的流動水就足以使人摔倒。",
+          "tags": []
+        },
+        {
+          "id": "M07-S02-Q06",
+          "stem_en": "When driving in the rain, where should you try to position your tires?",
+          "stem_zhHant": "雨天駕駛時，你的輪胎應盡量放在什麼位置？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "In the center of the lane",
+              "text_zhHant": "在車道中央"
+            },
+            {
+              "key": "B",
+              "text_en": "Close to the curb",
+              "text_zhHant": "靠近路緣"
+            },
+            {
+              "key": "C",
+              "text_en": "In the tire tracks of the car ahead of you",
+              "text_zhHant": "沿著前車的輪跡"
+            },
+            {
+              "key": "D",
+              "text_en": "On the lane divider markings",
+              "text_zhHant": "在車道分隔線上"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Try to drive in the tire tracks of the car ahead of you, as there is less water accumulation in those tracks.",
+          "explanation_zhHant": "盡量沿著前車的輪跡行駛，因為那裡積水較少。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S03",
+      "questions": [
+        {
+          "id": "M07-S03-Q01",
+          "stem_en": "When must you use your headlights?",
+          "stem_zhHant": "什麼時候必須使用前車燈？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Only after midnight",
+              "text_zhHant": "僅在午夜之後"
+            },
+            {
+              "key": "B",
+              "text_en": "From 30 minutes after sunset to 30 minutes before sunrise",
+              "text_zhHant": "日落後30分鐘到日出前30分鐘"
+            },
+            {
+              "key": "C",
+              "text_en": "Only when it is completely dark",
+              "text_zhHant": "僅在完全天黑時"
+            },
+            {
+              "key": "D",
+              "text_en": "Only on unlit roads",
+              "text_zhHant": "僅在無照明的道路上"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Use your headlights from 30 minutes after sunset to 30 minutes before sunrise, and anytime conditions prevent you from seeing 1,000 feet ahead.",
+          "explanation_zhHant": "日落後30分鐘到日出前30分鐘須開前車燈，以及任何無法看清前方1,000英尺的情況下也須開燈。",
+          "tags": []
+        },
+        {
+          "id": "M07-S03-Q02",
+          "stem_en": "When must you switch to low-beam headlights at night?",
+          "stem_zhHant": "夜間什麼時候必須切換到近光燈？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Within 500 feet of an oncoming vehicle or 300 feet of a vehicle you are following",
+              "text_zhHant": "距迎面來車500英尺以內或距你跟隨的車輛300英尺以內"
+            },
+            {
+              "key": "B",
+              "text_en": "Within 1,000 feet of any vehicle",
+              "text_zhHant": "距任何車輛1,000英尺以內"
+            },
+            {
+              "key": "C",
+              "text_en": "Only when entering a city",
+              "text_zhHant": "僅在進入城市時"
+            },
+            {
+              "key": "D",
+              "text_en": "Within 100 feet of any vehicle",
+              "text_zhHant": "距任何車輛100英尺以內"
+            }
+          ],
+          "answer": "A",
+          "explanation_en": "Use low-beam headlights within 500 feet of an oncoming vehicle or within 300 feet of a vehicle you are following.",
+          "explanation_zhHant": "在距迎面來車500英尺以內或距你跟隨的車輛300英尺以內時，使用近光燈。",
+          "tags": []
+        },
+        {
+          "id": "M07-S03-Q03",
+          "stem_en": "If an oncoming vehicle's high beams are blinding you, where should you look?",
+          "stem_zhHant": "如果迎面來車的遠光燈使你目眩，你應該看向哪裡？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Directly at the oncoming vehicle's headlights",
+              "text_zhHant": "直視迎面來車的車燈"
+            },
+            {
+              "key": "B",
+              "text_en": "At the center of your lane",
+              "text_zhHant": "車道中心"
+            },
+            {
+              "key": "C",
+              "text_en": "Toward the right edge of the road",
+              "text_zhHant": "道路右側邊緣"
+            },
+            {
+              "key": "D",
+              "text_en": "Close your eyes briefly",
+              "text_zhHant": "短暫閉上眼睛"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "If an oncoming vehicle has blinding high beams, look toward the right edge of the road to avoid being blinded.",
+          "explanation_zhHant": "如果迎面來車的遠光燈使你目眩，注視道路右側邊緣以避免被晃到。",
+          "tags": []
+        },
+        {
+          "id": "M07-S03-Q04",
+          "stem_en": "How should you adjust your speed when driving at night?",
+          "stem_zhHant": "夜間駕駛時應如何調整車速？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Drive at the posted speed limit",
+              "text_zhHant": "按照限速標誌行駛"
+            },
+            {
+              "key": "B",
+              "text_en": "Drive so you can stop within the distance illuminated by your headlights",
+              "text_zhHant": "調整車速使你能在前車燈照亮的距離內停下車"
+            },
+            {
+              "key": "C",
+              "text_en": "Drive faster to reduce time on the road",
+              "text_zhHant": "開快些以減少在路上的時間"
+            },
+            {
+              "key": "D",
+              "text_en": "Maintain the same speed as daytime driving",
+              "text_zhHant": "保持與白天相同的速度"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Adjust your speed at night so you can stop within the distance illuminated by your headlights.",
+          "explanation_zhHant": "夜間調整車速，使你能在前車燈照亮的距離內停下車。",
+          "tags": []
+        },
+        {
+          "id": "M07-S03-Q05",
+          "stem_en": "Why should you NOT use high-beam headlights in fog, heavy rain, or snow?",
+          "stem_zhHant": "為什麼不應該在霧天、大雨或下雪時使用遠光燈？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "They use too much battery power",
+              "text_zhHant": "會消耗太多電池電量"
+            },
+            {
+              "key": "B",
+              "text_en": "They can damage the headlight bulbs",
+              "text_zhHant": "會損壞車燈燈泡"
+            },
+            {
+              "key": "C",
+              "text_en": "The light reflects off precipitation and reduces visibility",
+              "text_zhHant": "光線會被雨雪反射，降低能見度"
+            },
+            {
+              "key": "D",
+              "text_en": "It is only a suggestion, not a rule",
+              "text_zhHant": "這只是建議，不是規定"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Do not use high-beam headlights in fog, heavy rain, or snow. The light reflects off precipitation and reduces visibility.",
+          "explanation_zhHant": "在霧天、大雨或下雪時不要使用遠光燈。光線會被雨雪反射，降低能見度。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S04",
+      "questions": [
+        {
+          "id": "M07-S04-Q01",
+          "stem_en": "If your brakes fail while driving, what should you do first?",
+          "stem_zhHant": "如果駕駛時刹車失靈，你應該先做什麼？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Turn off the engine immediately",
+              "text_zhHant": "立即關閉引擎"
+            },
+            {
+              "key": "B",
+              "text_en": "Pump the brake pedal rapidly",
+              "text_zhHant": "快速連踩刹車踏板"
+            },
+            {
+              "key": "C",
+              "text_en": "Jump out of the vehicle",
+              "text_zhHant": "跳出車外"
+            },
+            {
+              "key": "D",
+              "text_en": "Turn the steering wheel back and forth",
+              "text_zhHant": "左右轉動方向盤"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "If your brakes fail, pump the brake pedal rapidly. If that doesn't work, use the parking brake gradually and shift to a lower gear.",
+          "explanation_zhHant": "刹車失靈時，快速連踩刹車踏板。如果不起作用，逐漸拉起手刹。換入低擋減速。",
+          "tags": []
+        },
+        {
+          "id": "M07-S04-Q02",
+          "stem_en": "What should you do if you have a tire blowout while driving?",
+          "stem_zhHant": "如果駕駛時輪胎爆裂，你應該怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Brake suddenly to stop quickly",
+              "text_zhHant": "急刹車以快速停車"
+            },
+            {
+              "key": "B",
+              "text_en": "Grip the steering wheel firmly, slow down gradually, and pull off the road",
+              "text_zhHant": "緊握方向盤，逐漸減速並將車駛離道路"
+            },
+            {
+              "key": "C",
+              "text_en": "Speed up to maintain control",
+              "text_zhHant": "加速以保持控制"
+            },
+            {
+              "key": "D",
+              "text_en": "Turn sharply to the shoulder",
+              "text_zhHant": "急轉向路肩"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "If you have a tire blowout, grip the steering wheel firmly, slow down gradually, and pull off the road. Do not brake suddenly.",
+          "explanation_zhHant": "如果輪胎爆裂，緊握方向盤，逐漸減速並將車駛離道路。不要急刹車。",
+          "tags": []
+        },
+        {
+          "id": "M07-S04-Q03",
+          "stem_en": "If your car starts to skid, what should you do?",
+          "stem_zhHant": "如果車輛開始打滑，你應該怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Brake firmly and steer in the opposite direction",
+              "text_zhHant": "用力踩刹車並向相反方向轉向"
+            },
+            {
+              "key": "B",
+              "text_en": "Accelerate to pull out of the skid",
+              "text_zhHant": "加速擺脫打滑"
+            },
+            {
+              "key": "C",
+              "text_en": "Ease off the gas and steer in the direction you want the front of the car to go",
+              "text_zhHant": "松開油門，將方向盤轉向你希望車頭朝向的方向"
+            },
+            {
+              "key": "D",
+              "text_en": "Shift into neutral and wait",
+              "text_zhHant": "換入空擋等待"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "If your car starts to skid, ease off the gas and steer in the direction you want the front of the car to go. Do not brake.",
+          "explanation_zhHant": "如果車輛開始打滑，松開油門，將方向盤轉向你希望車頭朝向的方向。不要踩刹車。",
+          "tags": []
+        },
+        {
+          "id": "M07-S04-Q04",
+          "stem_en": "If your accelerator (gas pedal) gets stuck, what should you do?",
+          "stem_zhHant": "如果油門踏板卡住，你應該怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Turn off the engine immediately",
+              "text_zhHant": "立即關閉引擎"
+            },
+            {
+              "key": "B",
+              "text_en": "Shift to neutral, apply brakes, and pull safely off the road",
+              "text_zhHant": "換入空擋，踩刹車，安全駛離道路"
+            },
+            {
+              "key": "C",
+              "text_en": "Pump the gas pedal repeatedly",
+              "text_zhHant": "反覆踩油門踏板"
+            },
+            {
+              "key": "D",
+              "text_en": "Open the car door and drag your foot on the ground",
+              "text_zhHant": "打開車門用腳拖地減速"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "If your accelerator sticks, shift to neutral, apply the brakes, and pull safely off the road.",
+          "explanation_zhHant": "如果油門踏板卡住，換入空擋，踩刹車，安全駛離道路。",
+          "tags": []
+        },
+        {
+          "id": "M07-S04-Q05",
+          "stem_en": "What should you do if your vehicle stalls on railroad tracks?",
+          "stem_zhHant": "如果你的車輛在鐵軌上熄火，你應該怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Try to restart the engine repeatedly",
+              "text_zhHant": "反覆嘗試重啟引擎"
+            },
+            {
+              "key": "B",
+              "text_en": "Wait in the car for help",
+              "text_zhHant": "在車裡等待救援"
+            },
+            {
+              "key": "C",
+              "text_en": "Get everyone out immediately and move away from the tracks",
+              "text_zhHant": "立即讓所有人下車並遠離鐵軌"
+            },
+            {
+              "key": "D",
+              "text_en": "Push the car off the tracks by yourself",
+              "text_zhHant": "獨自將車推離鐵軌"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "If your vehicle stalls on railroad tracks, get everyone out immediately and move away from the tracks. Call 911 or the emergency number posted at the crossing.",
+          "explanation_zhHant": "如果車輛在鐵軌上熄火，立即讓所有人下車並遠離鐵軌。撥打911或道口處張貼的緊急電話。",
+          "tags": [
+            "railroad"
+          ]
+        },
+        {
+          "id": "M07-S04-Q06",
+          "stem_en": "If your vehicle breaks down on the freeway, what should you do to signal for help?",
+          "stem_zhHant": "如果你的車輛在高速公路上拋錨，你應該怎樣發出求助信號？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Stand in the traffic lane and wave",
+              "text_zhHant": "站在車道上揮手"
+            },
+            {
+              "key": "B",
+              "text_en": "Raise the hood or tie a white cloth to the antenna",
+              "text_zhHant": "打開引擎蓋或在天線上系白布"
+            },
+            {
+              "key": "C",
+              "text_en": "Honk your horn continuously",
+              "text_zhHant": "持續按喇叭"
+            },
+            {
+              "key": "D",
+              "text_en": "Turn on your high beams",
+              "text_zhHant": "打開遠光燈"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "If your vehicle breaks down on the freeway, pull completely off the road. Raise the hood or tie a white cloth to the antenna.",
+          "explanation_zhHant": "如果車輛在高速公路上拋錨，將車完全駛離道路。打開引擎蓋或在天線上系白布。",
+          "tags": []
+        },
+        {
+          "id": "M07-S04-Q07",
+          "stem_en": "If your headlights suddenly go out while driving, what should you do?",
+          "stem_zhHant": "如果駕駛時前車燈突然熄滅，你應該怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Continue driving using parking lights",
+              "text_zhHant": "使用停車燈繼續行駛"
+            },
+            {
+              "key": "B",
+              "text_en": "Try the headlight switch, slow down, and pull off the road",
+              "text_zhHant": "嘗試開關燈光開關，減速並將車駛離道路"
+            },
+            {
+              "key": "C",
+              "text_en": "Flash your high beams repeatedly",
+              "text_zhHant": "反覆閃遠光燈"
+            },
+            {
+              "key": "D",
+              "text_en": "Speed up to reach a lighted area",
+              "text_zhHant": "加速駛向有照明的區域"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "If your headlights suddenly go out, try the headlight switch. Slow down and pull off the road.",
+          "explanation_zhHant": "如果前車燈突然熄滅，嘗試開關燈光開關。減速並將車駛離道路。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S05",
+      "questions": [
+        {
+          "id": "M07-S05-Q01",
+          "stem_en": "When should you install tire chains on your vehicle?",
+          "stem_zhHant": "什麼時候應該在車輛上安裝防滑鏈？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Whenever it is cold outside",
+              "text_zhHant": "只要外面很冷"
+            },
+            {
+              "key": "B",
+              "text_en": "When required by signs or CalTrans",
+              "text_zhHant": "當標誌或加州交通局要求時"
+            },
+            {
+              "key": "C",
+              "text_en": "Only during a blizzard",
+              "text_zhHant": "僅在暴風雪期間"
+            },
+            {
+              "key": "D",
+              "text_en": "On all wet roads",
+              "text_zhHant": "在所有濕滑路面上"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Install chains on your drive wheels when required by signs or CalTrans. Carry chains when driving in mountain areas during winter.",
+          "explanation_zhHant": "當標誌或加州交通局要求時，在驅動輪上安裝防滑鏈。冬季在山區行駛時攜帶防滑鏈。",
+          "tags": []
+        },
+        {
+          "id": "M07-S05-Q02",
+          "stem_en": "Which road surfaces tend to freeze before others?",
+          "stem_zhHant": "哪些路面比其他路面更早結冰？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Tunnels and underpasses",
+              "text_zhHant": "隧道和地下通道"
+            },
+            {
+              "key": "B",
+              "text_en": "Bridges and overpasses",
+              "text_zhHant": "橋梁和高架橋"
+            },
+            {
+              "key": "C",
+              "text_en": "Parking lots",
+              "text_zhHant": "停車場"
+            },
+            {
+              "key": "D",
+              "text_en": "Downtown city streets",
+              "text_zhHant": "市中心街道"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Bridges and overpasses freeze before other road surfaces.",
+          "explanation_zhHant": "橋梁和高架橋面比其他路面更早結冰。",
+          "tags": []
+        },
+        {
+          "id": "M07-S05-Q03",
+          "stem_en": "How much should you increase your following distance on icy or snowy roads?",
+          "stem_zhHant": "在冰雪路面上，你應該將跟車距離增加多少？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Double the normal distance",
+              "text_zhHant": "正常距離的2倍"
+            },
+            {
+              "key": "B",
+              "text_en": "3 to 4 times the normal distance",
+              "text_zhHant": "正常距離的3到4倍"
+            },
+            {
+              "key": "C",
+              "text_en": "Same as normal conditions",
+              "text_zhHant": "與正常情況相同"
+            },
+            {
+              "key": "D",
+              "text_en": "10 times the normal distance",
+              "text_zhHant": "正常距離的10倍"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Increase following distance to 3-4 times the normal distance on icy or snowy roads.",
+          "explanation_zhHant": "在冰雪路面上將跟車距離增加到正常距離的3到4倍。",
+          "tags": []
+        },
+        {
+          "id": "M07-S05-Q04",
+          "stem_en": "If you start to slide on ice, what should you do?",
+          "stem_zhHant": "如果你在冰面上開始打滑，你應該怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Brake hard to stop the slide",
+              "text_zhHant": "急刹車以停止打滑"
+            },
+            {
+              "key": "B",
+              "text_en": "Gently ease off the accelerator and avoid sudden braking or steering",
+              "text_zhHant": "輕輕松開油門，避免突然刹車或轉向"
+            },
+            {
+              "key": "C",
+              "text_en": "Accelerate to regain traction",
+              "text_zhHant": "加速以重新獲得抓地力"
+            },
+            {
+              "key": "D",
+              "text_en": "Turn the steering wheel sharply in the opposite direction",
+              "text_zhHant": "將方向盤急轉向相反方向"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "If you start to slide on ice, gently ease off the accelerator and avoid sudden braking or steering movements.",
+          "explanation_zhHant": "如果在冰面上開始打滑，輕輕松開油門，避免突然刹車或轉向。",
+          "tags": []
+        },
+        {
+          "id": "M07-S05-Q05",
+          "stem_en": "When driving downhill on slippery surfaces, what should you do to maintain control?",
+          "stem_zhHant": "在濕滑路面下坡時，你應該怎麼做以保持控制？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Use your brakes constantly",
+              "text_zhHant": "持續踩刹車"
+            },
+            {
+              "key": "B",
+              "text_en": "Put the car in neutral",
+              "text_zhHant": "將車掛空擋"
+            },
+            {
+              "key": "C",
+              "text_en": "Use lower gears",
+              "text_zhHant": "使用低擋位"
+            },
+            {
+              "key": "D",
+              "text_en": "Turn off traction control",
+              "text_zhHant": "關閉牽引力控制系統"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Use lower gears to maintain better control when driving downhill on slippery surfaces.",
+          "explanation_zhHant": "在濕滑路面下坡時使用低擋位以保持更好的控制力。",
+          "tags": [
+            "slippery-when-wet",
+            "parking-hill"
+          ]
+        }
+      ]
+    }
+  ]
+}

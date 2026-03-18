@@ -1,0 +1,248 @@
+{
+  "moduleId": "M01-5",
+  "titleEn": "2025 Updates",
+  "titleZh": "2025年更新内容",
+  "sections": [
+    {
+      "id": "S01",
+      "titleEn": "eLearning & Testing Updates",
+      "titleZh": "在线学习与考试更新",
+      "knowledgePoints": [
+        {
+          "id": "M01-5-S01-K01",
+          "en": "When renewing your driver's license, eLearning may be an alternative testing option instead of the traditional knowledge test. This is a no-fail, self-paced interactive modulated course with quizzes after each module.",
+          "zh": "续期驾照时，eLearning在线学习可以作为传统笔试的替代选项。这是一个不会不及格的、自定节奏的互动模块化课程，每个模块后有小测验。",
+          "isHighFreq": true,
+          "tags": ["elearning", "renewal", "knowledge-test"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S01-K02",
+          "en": "The eLearning course can be taken on a computer, laptop, tablet, or mobile device. Testing options will be available once you complete your application at dmv.ca.gov.",
+          "zh": "eLearning课程可以在电脑、笔记本电脑、平板电脑或手机上完成。完成在线申请后即可选择考试方式。",
+          "isHighFreq": false,
+          "tags": ["elearning", "devices"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S01-K03",
+          "en": "Beginning May 2025, your driver's license or ID card must be REAL ID compliant to board domestic flights, enter military bases, or enter most federal facilities.",
+          "zh": "从2025年5月起，乘坐国内航班、进入军事基地或大多数联邦设施，您的驾照或身份证必须符合REAL ID标准。",
+          "isHighFreq": true,
+          "tags": ["real-id", "deadline", "2025"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S01-K04",
+          "en": "You are not allowed to use any testing aids during knowledge tests, such as a California Driver's Handbook or cell phone.",
+          "zh": "交规笔试期间不允许使用任何辅助工具，如加州驾驶员手册或手机。",
+          "isHighFreq": true,
+          "tags": ["knowledge-test", "rules"],
+          "isNew": true
+        }
+      ],
+      "titleZhHant": "在線學習與考試更新"
+    },
+    {
+      "id": "S02",
+      "titleEn": "Enforcement Stop Rights",
+      "titleZh": "执法拦停权利",
+      "knowledgePoints": [
+        {
+          "id": "M01-5-S02-K01",
+          "en": "Law enforcement officers must state the reason for a traffic or pedestrian stop before they begin any questioning related to a criminal investigation or traffic violation. The reason must be documented on the traffic citation or law enforcement report.",
+          "zh": "执法人员在开始任何与刑事调查或交通违规相关的询问之前，必须说明交通或行人拦停的原因。原因必须记录在交通罚单或执法报告中。",
+          "isHighFreq": true,
+          "tags": ["enforcement-stop", "rights", "reason"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S02-K02",
+          "en": "In California, only federal law enforcement officers can ask about your immigration status. State and local officers are prohibited from asking drivers or passengers about immigration status. You can decline to answer if asked by a California law enforcement officer.",
+          "zh": "在加州，只有联邦执法人员可以询问您的移民身份。州和地方执法人员被禁止询问驾驶员或乘客的移民身份。如果加州执法人员询问，您可以拒绝回答。",
+          "isHighFreq": true,
+          "tags": ["enforcement-stop", "immigration", "rights"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S02-K03",
+          "en": "If an officer asks your permission to search your vehicle, you have the right to decline. However, the officer may have legal authority to search under certain circumstances. If you do not consent, clearly state that you do not give permission, but do not physically resist or obstruct.",
+          "zh": "如果执法人员请求搜查您的车辆，您有权拒绝。但在某些情况下，执法人员可能有法律权力进行搜查。如果您不同意，请明确声明不给予许可，但不要进行身体抵抗或阻碍。",
+          "isHighFreq": true,
+          "tags": ["enforcement-stop", "search", "rights"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S02-K04",
+          "en": "All members of the public have a right to file a complaint against any law enforcement agency. It is against the law for any government employee to retaliate against you for filing a complaint. You have a right to be free from discrimination based on race, sex, ethnicity, national origin, age, religion, gender identity, sexual orientation, disability, or citizenship status.",
+          "zh": "所有公众都有权对任何执法机构提出投诉。任何政府雇员因您提出投诉而进行报复都是违法的。您有权不受基于种族、性别、民族、国籍、年龄、宗教、性别认同、性取向、残疾或公民身份的歧视。",
+          "isHighFreq": false,
+          "tags": ["enforcement-stop", "complaint", "discrimination"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S02-K05",
+          "en": "You generally have the right to record interactions with law enforcement in public spaces under the First Amendment. An officer cannot confiscate your device, delete recordings, or destroy the device if your recording does not interfere with their duties. You generally have the right to deny a request to unlock your phone or provide a password.",
+          "zh": "根据第一修正案，您通常有权在公共场所录制与执法人员的互动。如果录制不干扰执法人员履行职责，他们不得没收您的设备、删除录像或损坏设备。您通常有权拒绝解锁手机或提供密码的要求。",
+          "isHighFreq": false,
+          "tags": ["enforcement-stop", "recording", "rights"],
+          "isNew": true
+        }
+      ],
+      "titleZhHant": "執法攔停權利"
+    },
+    {
+      "id": "S03",
+      "titleEn": "Updated Safety Rules",
+      "titleZh": "更新的安全规则",
+      "knowledgePoints": [
+        {
+          "id": "M01-5-S03-K01",
+          "en": "Children who are under 2 years old, under 40 pounds, and under 3 feet 4 inches tall must be secured in a rear-facing child passenger restraint system. A child in a rear-facing restraint may not ride in the front seat of an airbag-equipped vehicle.",
+          "zh": "2岁以下、体重不足40磅且身高不足3英尺4英寸的儿童必须使用后向式儿童安全座椅。使用后向式安全座椅的儿童不得坐在配有安全气囊的车辆前座。",
+          "isHighFreq": true,
+          "tags": ["child-safety", "rear-facing", "restraint"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S03-K02",
+          "en": "Children who are under 8 years old or less than 4 feet 9 inches tall must be secured in a child passenger restraint system in the rear seat. Children 8 or older, or at least 4 feet 9 inches tall, may use a properly secured safety belt.",
+          "zh": "8岁以下或身高不足4英尺9英寸的儿童必须坐在后座的儿童安全座椅中。8岁及以上或身高至少4英尺9英寸的儿童可以使用正确固定的安全带。",
+          "isHighFreq": true,
+          "tags": ["child-safety", "booster-seat", "height"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S03-K03",
+          "en": "Mount your cell phone on the windshield, dashboard, or center console in a position that does not block your view of the road. While driving, you may only use the single swipe or touch feature on the mounted phone.",
+          "zh": "将手机安装在挡风玻璃、仪表板或中控台上，不得遮挡视线。驾驶时只能使用已安装手机的单次滑动或点击功能。",
+          "isHighFreq": true,
+          "tags": ["cell-phone", "mount", "hands-free"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S03-K04",
+          "en": "For vehicles with four-wheel antilock braking system (ABS), apply firm pressure on the brake pedal during a locked wheel skid. For rear-wheel ABS (common in light trucks), ease up on the brake to allow front wheels to roll so you can steer. For front-wheel ABS, remove your foot from the brake pedal to unlock the wheels.",
+          "zh": "配备四轮防抱死制动系统（ABS）的车辆，在车轮锁死打滑时应对刹车踏板施加稳定压力。后轮ABS（轻型卡车常见）应松开刹车让前轮滚动以便转向。前轮ABS应完全松开刹车踏板解锁车轮。",
+          "isHighFreq": true,
+          "tags": ["abs", "braking", "skid"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S03-K05",
+          "en": "Minors (under 18) may not use a cell phone or any electronic wireless device while driving, even hands-free, except to make emergency calls.",
+          "zh": "未成年人（18岁以下）驾驶时不得使用手机或任何电子无线设备，包括免提模式，紧急呼叫除外。",
+          "isHighFreq": true,
+          "tags": ["cell-phone", "minor", "hands-free"],
+          "isNew": true
+        }
+      ],
+      "titleZhHant": "更新的安全規則"
+    },
+    {
+      "id": "S04",
+      "titleEn": "Weather & Emergency Updates",
+      "titleZh": "天气与紧急情况更新",
+      "knowledgePoints": [
+        {
+          "id": "M01-5-S04-K01",
+          "en": "Hydroplaning occurs when a vehicle rides on water because the tires lose all contact with the road. A slight change of direction, applying the brakes, or a gust of wind could throw the vehicle into a skid. To avoid hydroplaning, drive slowly, steer around standing water, and slow down if you hear sloshing sounds from the tires.",
+          "zh": "水漂现象是指轮胎与路面完全失去接触，车辆在水面上行驶。轻微的方向变化、踩刹车或阵风都可能导致打滑。避免水漂应减速行驶、绕过积水、听到轮胎溅水声时减速。",
+          "isHighFreq": true,
+          "tags": ["hydroplaning", "wet-roads", "safety"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S04-K02",
+          "en": "Flooded roads are extremely dangerous. Dangers include being swept off the road, floating debris, the road collapsing, vehicle malfunction, and electrocution from fallen power lines. You may not be able to determine flood depth by looking. If water is deep, find another route.",
+          "zh": "洪水淹没的道路极其危险。危险包括被冲离道路、漂浮碎片、路面塌陷、车辆故障和倒落电线触电。无法通过目测判断洪水深度。如果水很深，请寻找其他路线。",
+          "isHighFreq": true,
+          "tags": ["flooding", "water", "danger"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S04-K03",
+          "en": "When driving in high winds: reduce your speed for better control, maintain a firm hand position on the steering wheel, be alert for debris on the road, do not use cruise control so you maintain maximum control of the accelerator, and consider pulling over to wait for the storm to pass.",
+          "zh": "在大风中驾驶时：减速以获得更好的控制、双手紧握方向盘、注意路面碎片、不要使用定速巡航以保持对油门的最大控制、考虑靠边等风暴过去。",
+          "isHighFreq": true,
+          "tags": ["high-winds", "weather", "safety"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S04-K04",
+          "en": "During a law enforcement traffic break, the officer turns on emergency lights and slowly weaves across lanes to slow or stop traffic for hazard removal or unusual conditions. You should turn on your emergency flashers, slowly decrease speed to match the officer's, not drive past the patrol vehicle, and not speed up until the officer turns off emergency lights.",
+          "zh": "在执法部门进行交通管制（Traffic Break）时，警官打开紧急灯并缓慢地在各车道间蛇行以减慢或停止交通。您应打开双闪灯、逐渐减速至与警官相同的速度、不要超越巡逻车、直到警官关闭紧急灯才能加速。",
+          "isHighFreq": true,
+          "tags": ["traffic-break", "law-enforcement", "procedure"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S04-K05",
+          "en": "If your vehicle stalls on railroad tracks with a train approaching, immediately exit and run diagonally away from the tracks in the direction the train is coming from, then call 911. If no train is approaching, exit and dial the emergency number on the railroad crossing posts.",
+          "zh": "如果车辆在铁轨上熄火且火车正在接近，立即下车沿火车驶来的方向斜向远离铁轨跑，然后拨打911。如果没有火车接近，下车拨打铁路道口柱子上的紧急电话号码。",
+          "isHighFreq": true,
+          "tags": ["railroad", "stalled", "emergency"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S04-K06",
+          "en": "The CHP Freeway Service Patrol (FSP) provides free emergency roadside services during commute times in certain areas. FSP can provide gas, jump starts, radiator refills, flat tire changes, and free towing to a CHP-approved location. Call 511 for FSP information.",
+          "zh": "加州高速公路巡警队的高速公路服务巡逻队（FSP）在通勤时段在某些地区提供免费紧急路边服务。FSP可以提供汽油、搭电启动、加注冷却液、换轮胎以及免费拖车到CHP批准的地点。拨打511获取FSP信息。",
+          "isHighFreq": false,
+          "tags": ["fsp", "freeway", "roadside-service"],
+          "isNew": true
+        }
+      ],
+      "titleZhHant": "天氣與緊急情況更新"
+    },
+    {
+      "id": "S05",
+      "titleEn": "Bicycle & Pedestrian Updates",
+      "titleZh": "自行车与行人更新",
+      "knowledgePoints": [
+        {
+          "id": "M01-5-S05-K01",
+          "en": "When passing a bicyclist, you must allow at least three feet of space between your vehicle and the bicyclist. If you cannot give three feet of clearance, do not pass the cyclist until three feet can be given.",
+          "zh": "超越自行车骑行者时，必须在车辆和骑行者之间保持至少3英尺的空间。如果无法保持3英尺的间距，在能给出3英尺空间之前不要超越骑行者。",
+          "isHighFreq": true,
+          "tags": ["bicycle", "3-foot-rule", "passing"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S05-K02",
+          "en": "Shared roadway bicycle markings (sharrows) alert drivers that bicyclists can occupy the lane and help bicyclists maintain a safe lane position in traffic.",
+          "zh": "共享道路自行车标记（Sharrows）提醒驾驶员自行车骑行者可以占用该车道，并帮助骑行者在交通中保持安全的车道位置。",
+          "isHighFreq": true,
+          "tags": ["bicycle", "shared-roadway", "markings"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S05-K03",
+          "en": "A yield line is a line of solid white triangles that shows approaching vehicles where to yield or stop. The triangles point towards approaching vehicles.",
+          "zh": "让行线是一排实心白色三角形，向接近的车辆指示在哪里让行或停车。三角形尖端朝向接近的车辆。",
+          "isHighFreq": true,
+          "tags": ["yield-line", "pavement-markings", "triangles"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S05-K04",
+          "en": "Bicyclists have the same rights and responsibilities as other vehicle drivers. They may legally ride on certain sections of freeways where there is no alternate route, move left to avoid hazards, choose to ride near the left curb on one-way streets, and use crosswalks by stopping and crossing as a pedestrian.",
+          "zh": "自行车骑行者与其他车辆驾驶员享有相同的权利和责任。在没有替代路线的高速公路某些路段可以合法骑行，可以向左移动以避开障碍物，可以在单行道靠左侧骑行，也可以停车后作为行人使用人行横道。",
+          "isHighFreq": false,
+          "tags": ["bicycle", "rights", "responsibilities"],
+          "isNew": true
+        },
+        {
+          "id": "M01-5-S05-K05",
+          "en": "There are multiple types of bike lanes: standard bike lanes marked by a solid white line, buffered bike lanes with chevrons for greater separation, bike routes with signs and shared road markings, bicycle boulevards that prioritize bicycle travel, and separated bikeways physically separated from motor vehicle traffic.",
+          "zh": "自行车道有多种类型：用实白线标记的标准自行车道、用人字形标记提供更大间距的缓冲自行车道、用标志和共享道路标记的自行车路线、优先自行车通行的自行车大道，以及与机动车交通物理隔离的分离式自行车道。",
+          "isHighFreq": false,
+          "tags": ["bicycle", "bike-lanes", "types"],
+          "isNew": true
+        }
+      ],
+      "titleZhHant": "自行車與行人更新"
+    }
+  ],
+  "titleZhHant": "2025年更新內容"
+}

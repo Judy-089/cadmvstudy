@@ -1,0 +1,839 @@
+{
+  "moduleId": "M09",
+  "sections": [
+    {
+      "sectionId": "S01",
+      "questions": [
+        {
+          "id": "M09-S01-Q01",
+          "stem_en": "What is the recommended minimum following distance under normal driving conditions?",
+          "stem_zhHant": "正常駕駛條件下，建議的最小跟車距離是多少？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "1 second",
+              "text_zhHant": "1秒"
+            },
+            {
+              "key": "B",
+              "text_en": "2 seconds",
+              "text_zhHant": "2秒"
+            },
+            {
+              "key": "C",
+              "text_en": "3 seconds",
+              "text_zhHant": "3秒"
+            },
+            {
+              "key": "D",
+              "text_en": "5 seconds",
+              "text_zhHant": "5秒"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Use the 3-second rule: maintain at least a 3-second following distance behind the vehicle ahead of you under normal conditions.",
+          "explanation_zhHant": "使用3秒規則：正常情況下，與前車保持至少3秒的跟車距離。",
+          "tags": []
+        },
+        {
+          "id": "M09-S01-Q02",
+          "stem_en": "When should you increase your following distance to 4 or more seconds?",
+          "stem_zhHant": "什麼時候應該將跟車距離增加到4秒或更多？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Only during nighttime",
+              "text_zhHant": "僅在夜間"
+            },
+            {
+              "key": "B",
+              "text_en": "In bad weather, heavy traffic, when following large vehicles, or on slippery roads",
+              "text_zhHant": "在惡劣天氣、擁堵交通、跟隨大型車輛或在濕滑路面上時"
+            },
+            {
+              "key": "C",
+              "text_en": "Only on the freeway",
+              "text_zhHant": "僅在高速公路上"
+            },
+            {
+              "key": "D",
+              "text_en": "Only when driving in a school zone",
+              "text_zhHant": "僅在學校區域駕駛時"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Increase your following distance to 4 or more seconds in bad weather, heavy traffic, when following large vehicles, or on slippery roads.",
+          "explanation_zhHant": "在惡劣天氣、擁堵交通、跟隨大型車輛或在濕滑路面上時，將跟車距離增加到4秒或更多。",
+          "tags": []
+        },
+        {
+          "id": "M09-S01-Q03",
+          "stem_en": "When stopped behind another vehicle, how much space should you leave?",
+          "stem_zhHant": "在另一輛車後面停車時，你應該留出多少空間？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Just enough so your bumpers almost touch",
+              "text_zhHant": "剛好讓保險槓幾乎接觸"
+            },
+            {
+              "key": "B",
+              "text_en": "Enough so you can see the rear tires of the vehicle ahead touching the pavement",
+              "text_zhHant": "足夠看到前車的後輪接觸地面"
+            },
+            {
+              "key": "C",
+              "text_en": "At least 2 car lengths",
+              "text_zhHant": "至少2個車身長度"
+            },
+            {
+              "key": "D",
+              "text_en": "No space is needed",
+              "text_zhHant": "不需要留空間"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When stopped behind another vehicle, leave enough space so you can see the rear tires of the vehicle in front of you touching the pavement.",
+          "explanation_zhHant": "在另一輛車後面停車時，留出足夠的空間以便能看到前車的後輪接觸地面。",
+          "tags": []
+        },
+        {
+          "id": "M09-S01-Q04",
+          "stem_en": "Tailgating (following too closely) is a major cause of what type of collision?",
+          "stem_zhHant": "緊跟前車（跟車太近）是哪種碰撞的主要原因？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Head-on collisions",
+              "text_zhHant": "迎面碰撞"
+            },
+            {
+              "key": "B",
+              "text_en": "Side-swipe collisions",
+              "text_zhHant": "側面刮擦碰撞"
+            },
+            {
+              "key": "C",
+              "text_en": "Rear-end collisions",
+              "text_zhHant": "追尾碰撞"
+            },
+            {
+              "key": "D",
+              "text_en": "Rollover accidents",
+              "text_zhHant": "翻車事故"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Tailgating (following too closely) is a major cause of rear-end collisions. It reduces your reaction time to stop safely.",
+          "explanation_zhHant": "緊跟前車（跟車太近）是追尾事故的主要原因。它減少了你安全停車的反應時間。",
+          "tags": []
+        },
+        {
+          "id": "M09-S01-Q05",
+          "stem_en": "If a driver is tailgating you, what should you do?",
+          "stem_zhHant": "如果有人緊跟你，你應該怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Brake suddenly to teach them a lesson",
+              "text_zhHant": "急刹車給他們一個教訓"
+            },
+            {
+              "key": "B",
+              "text_en": "Speed up significantly",
+              "text_zhHant": "大幅加速"
+            },
+            {
+              "key": "C",
+              "text_en": "Gradually slow down to encourage them to pass, or change lanes",
+              "text_zhHant": "逐漸減速鼓勵他們超車，或者變道"
+            },
+            {
+              "key": "D",
+              "text_en": "Ignore them completely",
+              "text_zhHant": "完全無視他們"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "If a driver is tailgating you, gradually slow down to encourage them to pass, or change lanes to let them by. Do not brake suddenly.",
+          "explanation_zhHant": "如果有人緊跟你，逐漸減速鼓勵他們超車，或者變道讓他們通過。不要急刹車。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S02",
+      "questions": [
+        {
+          "id": "M09-S02-Q01",
+          "stem_en": "Is it legal to hold and use a cell phone while driving in California?",
+          "stem_zhHant": "在加州駕駛時手持使用手機是否合法？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Yes, as long as you are careful",
+              "text_zhHant": "是的，只要你小心"
+            },
+            {
+              "key": "B",
+              "text_en": "No, it is illegal; you may use a hands-free device",
+              "text_zhHant": "不，這是違法的；你可以使用免提設備"
+            },
+            {
+              "key": "C",
+              "text_en": "Yes, but only for phone calls",
+              "text_zhHant": "是的，但僅限打電話"
+            },
+            {
+              "key": "D",
+              "text_en": "Yes, but only at red lights",
+              "text_zhHant": "是的，但僅在紅燈時"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "It is illegal to hold and use a cell phone or electronic device while driving in California. You may use a hands-free device.",
+          "explanation_zhHant": "在加州駕駛時手持使用手機或電子設備是違法的。可以使用免提設備。",
+          "tags": []
+        },
+        {
+          "id": "M09-S02-Q02",
+          "stem_en": "Can drivers under 18 use a hands-free device while driving?",
+          "stem_zhHant": "18歲以下的駕駛員可以在駕駛時使用免提設備嗎？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Yes, hands-free is allowed for all drivers",
+              "text_zhHant": "是的，所有駕駛員都可以使用免提"
+            },
+            {
+              "key": "B",
+              "text_en": "No, they may not use any electronic device, even hands-free, except in emergencies",
+              "text_zhHant": "不，他們不得使用任何電子設備，包括免提設備，緊急情況除外"
+            },
+            {
+              "key": "C",
+              "text_en": "Yes, but only for GPS navigation",
+              "text_zhHant": "是的，但僅限GPS導航"
+            },
+            {
+              "key": "D",
+              "text_en": "Yes, with parental permission",
+              "text_zhHant": "是的，有家長許可即可"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Drivers under 18 may not use a cell phone or any electronic device while driving, even hands-free, except in emergencies.",
+          "explanation_zhHant": "18歲以下的駕駛員駕駛時不得使用手機或任何電子設備，包括免提設備，緊急情況除外。",
+          "tags": []
+        },
+        {
+          "id": "M09-S02-Q03",
+          "stem_en": "Approximately how long does sending or reading a text take your eyes off the road?",
+          "stem_zhHant": "發送或閱讀短信大約會讓你的視線離開道路多長時間？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "About 1 second",
+              "text_zhHant": "約1秒"
+            },
+            {
+              "key": "B",
+              "text_en": "About 3 seconds",
+              "text_zhHant": "約3秒"
+            },
+            {
+              "key": "C",
+              "text_en": "About 5 seconds",
+              "text_zhHant": "約5秒"
+            },
+            {
+              "key": "D",
+              "text_en": "About 10 seconds",
+              "text_zhHant": "約10秒"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Texting while driving is illegal and extremely dangerous. Sending or reading a text takes your eyes off the road for about 5 seconds.",
+          "explanation_zhHant": "開車時發短信是違法且極其危險的。發送或閱讀短信會讓你的視線離開道路約5秒鐘。",
+          "tags": []
+        },
+        {
+          "id": "M09-S02-Q04",
+          "stem_en": "If you use your phone for navigation while driving, how should it be set up?",
+          "stem_zhHant": "如果你在駕駛時使用手機導航，應該如何設置？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Hold it in one hand while driving",
+              "text_zhHant": "駕駛時用一隻手拿著"
+            },
+            {
+              "key": "B",
+              "text_en": "Set it up before driving and mount it on the dashboard or windshield",
+              "text_zhHant": "在駕駛前設置好並安裝在儀表板或擋風玻璃上"
+            },
+            {
+              "key": "C",
+              "text_en": "Have a passenger hold it for you",
+              "text_zhHant": "讓乘客幫你拿著"
+            },
+            {
+              "key": "D",
+              "text_en": "Place it on your lap",
+              "text_zhHant": "放在你的膝蓋上"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "If you must use your phone for navigation, set it up before driving and mount it on the dashboard or windshield. You may only touch it with a single swipe or tap.",
+          "explanation_zhHant": "如果需要使用手機導航，在駕駛前設置好並安裝在儀表板或擋風玻璃上。駕駛中只能單次滑動或點擊操作。",
+          "tags": []
+        },
+        {
+          "id": "M09-S02-Q05",
+          "stem_en": "Which of the following is also considered distracted driving?",
+          "stem_zhHant": "以下哪項也被視為分心駕駛？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Checking mirrors",
+              "text_zhHant": "檢查後視鏡"
+            },
+            {
+              "key": "B",
+              "text_en": "Using turn signals",
+              "text_zhHant": "使用轉向燈"
+            },
+            {
+              "key": "C",
+              "text_en": "Eating, grooming, or adjusting the radio",
+              "text_zhHant": "吃東西、化妝整理或調收音機"
+            },
+            {
+              "key": "D",
+              "text_en": "Looking at road signs",
+              "text_zhHant": "看路標"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Other forms of distracted driving include eating, grooming, reading, adjusting the radio, and interacting with passengers.",
+          "explanation_zhHant": "其他分心駕駛行為包括吃東西、化妝整理、閱讀、調收音機和與乘客互動。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S03",
+      "questions": [
+        {
+          "id": "M09-S03-Q01",
+          "stem_en": "Who can be fined if a passenger under 16 is not wearing a seat belt?",
+          "stem_zhHant": "如果16歲以下的乘客未系安全帶，誰會被罰款？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "The passenger",
+              "text_zhHant": "乘客"
+            },
+            {
+              "key": "B",
+              "text_en": "The driver",
+              "text_zhHant": "駕駛員"
+            },
+            {
+              "key": "C",
+              "text_en": "The passenger's parents",
+              "text_zhHant": "乘客的父母"
+            },
+            {
+              "key": "D",
+              "text_en": "No one — seat belts are optional",
+              "text_zhHant": "沒有人——安全帶是可選的"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "California law requires all vehicle occupants to wear seat belts. The driver can be fined for any unbelted passenger under 16.",
+          "explanation_zhHant": "加州法律要求所有車內人員系安全帶。如果16歲以下的乘客未系安全帶，駕駛員會被罰款。",
+          "tags": []
+        },
+        {
+          "id": "M09-S03-Q02",
+          "stem_en": "Where must children under 2 years old ride in a vehicle?",
+          "stem_zhHant": "2歲以下的兒童必須坐在車輛的哪裡？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "In the front seat with a seat belt",
+              "text_zhHant": "在前座繫安全帶"
+            },
+            {
+              "key": "B",
+              "text_en": "In a rear-facing car seat in the back seat",
+              "text_zhHant": "在後座的後向式安全座椅中"
+            },
+            {
+              "key": "C",
+              "text_en": "On an adult's lap in the back seat",
+              "text_zhHant": "在後座成人的腿上"
+            },
+            {
+              "key": "D",
+              "text_en": "In any car seat in any position",
+              "text_zhHant": "在任何位置的任何安全座椅中"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Children under 2 years old must ride in a rear-facing car seat in the back seat, unless they weigh 40 pounds or more, or are 40 inches or taller.",
+          "explanation_zhHant": "2歲以下兒童必須坐在後座的後向式安全座椅中，除非體重達到40磅以上或身高達到40英寸以上。",
+          "tags": []
+        },
+        {
+          "id": "M09-S03-Q03",
+          "stem_en": "Until what age must children be secured in a car seat or booster seat?",
+          "stem_zhHant": "兒童到幾歲必須坐在安全座椅或增高座椅中？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Until age 4",
+              "text_zhHant": "到4歲"
+            },
+            {
+              "key": "B",
+              "text_en": "Until age 6",
+              "text_zhHant": "到6歲"
+            },
+            {
+              "key": "C",
+              "text_en": "Until age 8",
+              "text_zhHant": "到8歲"
+            },
+            {
+              "key": "D",
+              "text_en": "Until age 10",
+              "text_zhHant": "到10歲"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Children under 8 years old must be secured in a car seat or booster seat in the back seat of the vehicle.",
+          "explanation_zhHant": "8歲以下的兒童必須坐在車輛後座的安全座椅或增高座椅中。",
+          "tags": []
+        },
+        {
+          "id": "M09-S03-Q04",
+          "stem_en": "At what age or height can a child use a regular seat belt instead of a booster seat?",
+          "stem_zhHant": "兒童到幾歲或多高可以使用普通安全帶代替增高座椅？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Age 6 or 4 feet tall",
+              "text_zhHant": "6歲或4英尺高"
+            },
+            {
+              "key": "B",
+              "text_en": "Age 8 or at least 4 feet 9 inches tall",
+              "text_zhHant": "8歲或至少4英尺9英寸高"
+            },
+            {
+              "key": "C",
+              "text_en": "Age 10 or 5 feet tall",
+              "text_zhHant": "10歲或5英尺高"
+            },
+            {
+              "key": "D",
+              "text_en": "Age 12 or 5 feet 5 inches tall",
+              "text_zhHant": "12歲或5英尺5英寸高"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Children 8 years old or older, or who are at least 4 feet 9 inches tall, may use a regular seat belt.",
+          "explanation_zhHant": "8歲或以上、或身高至少4英尺9英寸的兒童可以使用普通安全帶。",
+          "tags": []
+        },
+        {
+          "id": "M09-S03-Q05",
+          "stem_en": "Why should you NEVER place a rear-facing car seat in front of an active airbag?",
+          "stem_zhHant": "為什麼永遠不要將後向式安全座椅放在有激活安全氣囊的前座？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "It blocks the driver's view",
+              "text_zhHant": "會擋住駕駛員的視線"
+            },
+            {
+              "key": "B",
+              "text_en": "The airbag can injure or kill a child in a rear-facing seat",
+              "text_zhHant": "安全氣囊可能傷害或致死後向式座椅中的兒童"
+            },
+            {
+              "key": "C",
+              "text_en": "It is uncomfortable for the child",
+              "text_zhHant": "兒童會不舒服"
+            },
+            {
+              "key": "D",
+              "text_en": "It is only a recommendation, not a law",
+              "text_zhHant": "這只是建議，不是法律"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "The back seat is the safest place for children 12 and under. Never place a rear-facing car seat in front of an active airbag because the airbag can seriously injure or kill the child.",
+          "explanation_zhHant": "後座是12歲及以下兒童最安全的位置。不要將後向式安全座椅放在有激活安全氣囊的前座，因為安全氣囊可能嚴重傷害或致死兒童。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S04",
+      "questions": [
+        {
+          "id": "M09-S04-Q01",
+          "stem_en": "How far ahead should you scan the road to anticipate hazards?",
+          "stem_zhHant": "你應該掃視前方多遠的道路來預判危險？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "2-3 seconds ahead",
+              "text_zhHant": "前方2-3秒"
+            },
+            {
+              "key": "B",
+              "text_en": "5 seconds ahead",
+              "text_zhHant": "前方5秒"
+            },
+            {
+              "key": "C",
+              "text_en": "10-15 seconds ahead",
+              "text_zhHant": "前方10-15秒"
+            },
+            {
+              "key": "D",
+              "text_en": "30 seconds ahead",
+              "text_zhHant": "前方30秒"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Scan the road ahead 10-15 seconds (about one block in the city, a quarter mile on the highway) to anticipate hazards.",
+          "explanation_zhHant": "提前掃視前方10-15秒的道路（城市中約一個街區，高速公路上約四分之一英里），預判可能的危險。",
+          "tags": []
+        },
+        {
+          "id": "M09-S04-Q02",
+          "stem_en": "How often should you check your mirrors while driving?",
+          "stem_zhHant": "駕駛時應該多久查看一次後視鏡？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Every 30 seconds",
+              "text_zhHant": "每30秒"
+            },
+            {
+              "key": "B",
+              "text_en": "Every 3-5 seconds",
+              "text_zhHant": "每3-5秒"
+            },
+            {
+              "key": "C",
+              "text_en": "Only before turning or changing lanes",
+              "text_zhHant": "僅在轉彎或變道前"
+            },
+            {
+              "key": "D",
+              "text_en": "Every minute",
+              "text_zhHant": "每分鐘"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Check your mirrors every 3-5 seconds to stay aware of traffic around you. Check your blind spot before changing lanes.",
+          "explanation_zhHant": "每3-5秒查看後視鏡以了解周圍交通狀況。變道前檢查盲區。",
+          "tags": []
+        },
+        {
+          "id": "M09-S04-Q03",
+          "stem_en": "If another driver is acting aggressively toward you, what should you do?",
+          "stem_zhHant": "如果其他駕駛員對你有攻擊性行為，你應該怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Make eye contact and confront them",
+              "text_zhHant": "與他們對視並對抗"
+            },
+            {
+              "key": "B",
+              "text_en": "Speed up to get away from them",
+              "text_zhHant": "加速遠離他們"
+            },
+            {
+              "key": "C",
+              "text_en": "Do not make eye contact, do not challenge them, and do not block their path",
+              "text_zhHant": "不要與他們對視，不要挑釁他們，不要擋住他們的路"
+            },
+            {
+              "key": "D",
+              "text_en": "Brake check them",
+              "text_zhHant": "故意急刹車"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "If another driver is aggressive, do not make eye contact, do not challenge them, and do not block their path.",
+          "explanation_zhHant": "如果其他駕駛員有攻擊性行為，不要與他們對視，不要挑釁他們，不要擋住他們的路。",
+          "tags": []
+        },
+        {
+          "id": "M09-S04-Q04",
+          "stem_en": "What should you do if you feel drowsy while driving?",
+          "stem_zhHant": "如果你在駕駛時感到困倦，應該怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Drink coffee and keep driving",
+              "text_zhHant": "喝咖啡繼續開車"
+            },
+            {
+              "key": "B",
+              "text_en": "Open the window for fresh air",
+              "text_zhHant": "打開車窗呼吸新鮮空氣"
+            },
+            {
+              "key": "C",
+              "text_en": "Pull over to a safe place and rest",
+              "text_zhHant": "靠邊停在安全的地方休息"
+            },
+            {
+              "key": "D",
+              "text_en": "Turn up the music to stay alert",
+              "text_zhHant": "把音樂調大以保持警覺"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Drowsy driving is as dangerous as drunk driving. If you are sleepy, pull over to a safe place and rest. Coffee or fresh air alone will not keep you alert.",
+          "explanation_zhHant": "疲勞駕駛和醉駕一樣危險。如果感到困倦，靠邊停在安全的地方休息。僅靠咖啡或新鮮空氣不能保持清醒。",
+          "tags": []
+        },
+        {
+          "id": "M09-S04-Q05",
+          "stem_en": "How far before turning should you signal in city areas?",
+          "stem_zhHant": "在市區轉彎前應提前多遠打轉向燈？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "At least 50 feet",
+              "text_zhHant": "至少50英尺"
+            },
+            {
+              "key": "B",
+              "text_en": "At least 100 feet",
+              "text_zhHant": "至少100英尺"
+            },
+            {
+              "key": "C",
+              "text_en": "At least 200 feet",
+              "text_zhHant": "至少200英尺"
+            },
+            {
+              "key": "D",
+              "text_en": "At least 500 feet",
+              "text_zhHant": "至少500英尺"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Signal at least 100 feet before turning in city areas and at least 200 feet before turning on highways.",
+          "explanation_zhHant": "在市區轉彎前至少提前100英尺打轉向燈，在高速公路上至少提前200英尺打轉向燈。",
+          "tags": []
+        },
+        {
+          "id": "M09-S04-Q06",
+          "stem_en": "How far before turning should you signal on highways?",
+          "stem_zhHant": "在高速公路上轉彎前應提前多遠打轉向燈？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "At least 50 feet",
+              "text_zhHant": "至少50英尺"
+            },
+            {
+              "key": "B",
+              "text_en": "At least 100 feet",
+              "text_zhHant": "至少100英尺"
+            },
+            {
+              "key": "C",
+              "text_en": "At least 200 feet",
+              "text_zhHant": "至少200英尺"
+            },
+            {
+              "key": "D",
+              "text_en": "At least 500 feet",
+              "text_zhHant": "至少500英尺"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Signal at least 200 feet before turning on highways.",
+          "explanation_zhHant": "在高速公路上至少提前200英尺打轉向燈。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "sectionId": "S05",
+      "questions": [
+        {
+          "id": "M09-S05-Q01",
+          "stem_en": "When entering a freeway, what should you do on the on-ramp?",
+          "stem_zhHant": "駛入高速公路時，在入口匝道上你應該做什麼？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Stop at the end of the ramp and wait for a gap",
+              "text_zhHant": "在匝道盡頭停車等待間隙"
+            },
+            {
+              "key": "B",
+              "text_en": "Accelerate to the speed of freeway traffic before merging",
+              "text_zhHant": "在匯入前加速到接近高速公路車流速度"
+            },
+            {
+              "key": "C",
+              "text_en": "Drive slowly and merge at 25 mph",
+              "text_zhHant": "慢速行駛並以25英里/小時匯入"
+            },
+            {
+              "key": "D",
+              "text_en": "Flash your lights to signal your intention",
+              "text_zhHant": "閃燈示意你的意圖"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When entering a freeway, use the on-ramp to accelerate to the speed of freeway traffic (or close to it) before merging.",
+          "explanation_zhHant": "駛入高速公路時，利用入口匝道加速到接近高速公路車流速度後再匯入。",
+          "tags": []
+        },
+        {
+          "id": "M09-S05-Q02",
+          "stem_en": "When exiting the freeway, when should you begin to slow down?",
+          "stem_zhHant": "駛出高速公路時，什麼時候應該開始減速？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "As soon as you signal",
+              "text_zhHant": "一打燈就開始"
+            },
+            {
+              "key": "B",
+              "text_en": "In the travel lanes before the exit",
+              "text_zhHant": "在出口前的行車道上"
+            },
+            {
+              "key": "C",
+              "text_en": "Only after you are in the exit lane or deceleration lane",
+              "text_zhHant": "只有在進入出口車道或減速車道之後"
+            },
+            {
+              "key": "D",
+              "text_en": "Right at the exit ramp",
+              "text_zhHant": "就在出口匝道處"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "When exiting the freeway, signal and move into the exit lane well in advance. Do not slow down until you are in the exit lane or deceleration lane.",
+          "explanation_zhHant": "駛出高速公路時，提前打燈並駛入出口車道。在進入出口車道或減速車道之前不要減速。",
+          "tags": []
+        },
+        {
+          "id": "M09-S05-Q03",
+          "stem_en": "If you miss your freeway exit, what should you do?",
+          "stem_zhHant": "如果你錯過了高速公路出口，你應該怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Stop and back up to the exit",
+              "text_zhHant": "停車倒回出口"
+            },
+            {
+              "key": "B",
+              "text_en": "Cross the median to turn around",
+              "text_zhHant": "穿越中央隔離帶掉頭"
+            },
+            {
+              "key": "C",
+              "text_en": "Continue to the next exit",
+              "text_zhHant": "繼續行駛到下一個出口"
+            },
+            {
+              "key": "D",
+              "text_en": "Make a U-turn on the freeway",
+              "text_zhHant": "在高速公路上掉頭"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "If you miss your freeway exit, do not stop, back up, or try to cross the median. Continue to the next exit.",
+          "explanation_zhHant": "如果錯過高速公路出口，不要停車、倒車或試圖穿越中央隔離帶。繼續行駛到下一個出口。",
+          "tags": []
+        },
+        {
+          "id": "M09-S05-Q04",
+          "stem_en": "What is the minimum speed on most California freeways?",
+          "stem_zhHant": "加州大多數高速公路的最低限速是多少？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "35 mph",
+              "text_zhHant": "35英里/小時"
+            },
+            {
+              "key": "B",
+              "text_en": "40 mph",
+              "text_zhHant": "40英里/小時"
+            },
+            {
+              "key": "C",
+              "text_en": "45 mph",
+              "text_zhHant": "45英里/小時"
+            },
+            {
+              "key": "D",
+              "text_en": "55 mph",
+              "text_zhHant": "55英里/小時"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "The minimum speed on most California freeways is 45 mph (unless posted otherwise or conditions require slower speeds).",
+          "explanation_zhHant": "加州大多數高速公路的最低限速為45英里/小時（除非另有標示或路況需要降低速度）。",
+          "tags": []
+        },
+        {
+          "id": "M09-S05-Q05",
+          "stem_en": "Should you stop on the freeway on-ramp before merging?",
+          "stem_zhHant": "你應該在高速公路入口匝道上停車再匯入嗎？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Yes, always stop to check for traffic",
+              "text_zhHant": "是的，總是停車檢查車流"
+            },
+            {
+              "key": "B",
+              "text_en": "No, unless traffic is already stopped",
+              "text_zhHant": "不，除非車流已經停止"
+            },
+            {
+              "key": "C",
+              "text_en": "Yes, stop and wait for a large gap",
+              "text_zhHant": "是的，停車等待大間隙"
+            },
+            {
+              "key": "D",
+              "text_en": "Only during rush hour",
+              "text_zhHant": "僅在高峰時段"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Do not stop on the freeway on-ramp unless traffic is already stopped. Merge into traffic at or near the speed of traffic.",
+          "explanation_zhHant": "除非車流已經停止，否則不要在高速公路入口匝道上停車。以接近車流速度匯入。",
+          "tags": [
+            "stop-sign",
+            "merging-traffic"
+          ]
+        }
+      ]
+    }
+  ]
+}

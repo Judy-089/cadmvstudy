@@ -1,26 +1,80 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: #1A56DB;
+  --color-primary-light: #E8F0FE;
+  --color-text-dark: #1F2937;
+  --color-text-gray: #6B7280;
+  --color-text-light: #4B5563;
+  --color-success: #059669;
+  --color-success-light: #D1FAE5;
+  --color-warning: #D97706;
+  --color-warning-light: #FEF3C7;
+  --color-error: #DC2626;
+  --color-error-light: #FEE2E2;
+  --color-bg: #F9FAFB;
+  --color-card: #FFFFFF;
+  --color-border: #E5E7EB;
+  --font-sans: "Inter", "Noto Sans TC", "Noto Sans SC", system-ui, sans-serif;
+  --font-mono: "Fira Code", ui-monospace, monospace;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text-dark);
+  font-family: var(--font-sans);
+}
+
+/* Chinese text helpers */
+.text-zh {
+  font-size: 0.875rem;
+  color: var(--color-text-gray);
+  line-height: 1.6;
+}
+
+.text-zhHant {
+  font-family: "Noto Sans TC", "Noto Sans SC", system-ui, sans-serif;
+  font-size: 1rem;
+  color: var(--color-text-dark);
+  line-height: 1.7;
+}
+
+/* High frequency badge */
+.badge-high-freq {
+  background: var(--color-warning-light);
+  color: var(--color-warning);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+}
+
+/* Toast slide-down animation */
+@keyframes slideDown {
+  0% { opacity: 0; transform: translate(-50%, -1rem); }
+  100% { opacity: 1; transform: translate(-50%, 0); }
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-4px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Testimonial carousel animation */
+@keyframes scroll-testimonials {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
 }
