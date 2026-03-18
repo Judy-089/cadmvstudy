@@ -68,9 +68,12 @@ export default function Home() {
           </div>
 
           <h1 className="mt-6 text-3xl font-bold text-text-dark md:text-4xl">
-            CA DMV <span className="text-primary">Study</span>
+            <span className="text-primary">Ace</span>DriveGo
           </h1>
-          <p className="mt-2 text-base text-text-gray">
+          <p className="mt-2 text-sm font-medium text-text-gray">
+            Ace Your California DMV Test
+          </p>
+          <p className="mt-1 text-sm text-text-gray">
             加州驾考双语学习平台
           </p>
 

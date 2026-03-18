@@ -5,9 +5,9 @@ import { AuthProvider } from "@/components/AuthProvider";
 import { GuestGuard } from "@/components/GuestGuard";
 
 export const metadata: Metadata = {
-  title: "CA DMV Study - 加州驾考双语学习平台",
+  title: "AceDriveGo - Ace Your California DMV Test",
   description:
-    "Bilingual CA DMV driver's license study platform. English-first with Chinese assistance.",
+    "Bilingual CA DMV driver's license study platform. Ace your California DMV test with bilingual content and realistic mock exams.",
 };
 
 export default function RootLayout({

@@ -228,7 +228,7 @@ const strings = {
   },
 
   // ── Tutorial ──
-  "tutorial.welcome.title": { en: "Welcome to CA DMV Study!", zhHant: "歡迎使用加州駕考學習平台！", zhHans: "欢迎使用加州驾考学习平台！" },
+  "tutorial.welcome.title": { en: "Welcome to AceDriveGo!", zhHant: "歡迎使用AceDriveGo！", zhHans: "欢迎使用AceDriveGo！" },
   "tutorial.welcome.desc": {
     en: "Your bilingual companion for passing the California DMV written test. Let us show you around!",
     zhHant: "你的雙語加州DMV筆試備考助手。讓我們為你導覽！",

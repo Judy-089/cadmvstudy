@@ -60,8 +60,15 @@ export function Navbar() {
       <nav className="sticky top-0 z-50 border-b border-border bg-card shadow-sm">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 lg:px-8">
           <Link href="/" className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-sm font-bold text-white">CA</div>
-            <span className="hidden font-semibold text-text-dark sm:block">DMV Study</span>
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary shadow-sm">
+              <svg className="h-5 w-5 text-white" viewBox="0 0 48 48" fill="none">
+                <path d="M8 40L18 8h12l10 32H8z" fill="currentColor" fillOpacity="0.25" />
+                <rect x="22" y="12" width="4" height="6" rx="1" fill="currentColor" />
+                <rect x="22" y="22" width="4" height="6" rx="1" fill="currentColor" />
+                <rect x="22" y="32" width="4" height="6" rx="1" fill="currentColor" />
+              </svg>
+            </div>
+            <span className="hidden font-semibold text-text-dark sm:block"><span className="text-primary">Ace</span>DriveGo</span>
           </Link>
 
           {/* Desktop links */}
