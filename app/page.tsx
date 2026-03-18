@@ -182,8 +182,8 @@ export default function Home() {
           </div>
           <div className="rounded-xl border border-border bg-card p-4 text-center shadow-sm">
             <p className="text-2xl font-bold text-text-dark">
-              {testResults.length > 0
-                ? `${testResults[testResults.length - 1].score}/${testResults[testResults.length - 1].totalQuestions}`
+              {Object.keys(testResults).length > 0
+                ? (() => { const vals = Object.values(testResults); const last = vals[vals.length - 1]; return `${last.score}/${last.total}`; })()
                 : "--"}
             </p>
             <p className="mt-0.5 text-xs text-text-gray">{t("home.testScore")}</p>

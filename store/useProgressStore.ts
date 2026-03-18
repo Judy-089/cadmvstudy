@@ -16,7 +16,7 @@ import {
 interface ProgressState {
   // Data
   moduleProgress: Record<string, ModuleProgress>;
-  testResults: TestResult[];
+  testResults: Record<string, { score: number; total: number }>;
   quizResults: Record<string, QuizResultData>;
   loaded: boolean;
 
@@ -31,7 +31,7 @@ interface ProgressState {
 
 export const useProgressStore = create<ProgressState>((set, get) => ({
   moduleProgress: {},
-  testResults: [],
+  testResults: {},
   quizResults: {},
   loaded: false,
 
@@ -46,7 +46,10 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
       const mpMap: Record<string, ModuleProgress> = {};
       mp.forEach((m) => { mpMap[m.moduleId] = m; });
 
-      set({ moduleProgress: mpMap, testResults: tr, quizResults: qr, loaded: true });
+      const trMap: Record<string, { score: number; total: number }> = {};
+      tr.forEach((t) => { trMap[t.examId] = { score: t.score, total: t.totalQuestions }; });
+
+      set({ moduleProgress: mpMap, testResults: trMap, quizResults: qr, loaded: true });
     } catch {
       set({ loaded: true });
     }
@@ -85,7 +88,10 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
     try {
       await saveTestResult(userId, testId, result);
       set((state) => ({
-        testResults: [...state.testResults, { ...result, completedAt: { seconds: Date.now() / 1000, nanoseconds: 0 } as any }],
+        testResults: {
+          ...state.testResults,
+          [result.examId]: { score: result.score, total: result.totalQuestions },
+        },
       }));
     } catch { /* ignore */ }
   },
