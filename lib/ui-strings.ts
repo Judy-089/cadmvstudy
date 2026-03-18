@@ -87,9 +87,14 @@ const strings = {
   // ── Study Center ──
   "study.title": { en: "Study Center", zhHant: "學習中心", zhHans: "学习中心" },
   "study.subtitle": {
-    en: "11 modules based on the California Driver Handbook. Study at your own pace.",
-    zhHant: "基於加州駕駛員手冊的11個模組。按自己的節奏學習。",
-    zhHans: "基于加州驾驶员手册的11个模块。按自己的节奏学习。",
+    en: "12 modules based on the California Driver Handbook. Study at your own pace.",
+    zhHant: "基於加州駕駛員手冊的12個模組。按自己的節奏學習。",
+    zhHans: "基于加州驾驶员手册的12个模块。按自己的节奏学习。",
+  },
+  "study.repeatNote": {
+    en: "Some key concepts are repeated across modules to reinforce learning. Feel free to skip sections you've already mastered.",
+    zhHant: "部分重要內容會在不同模組中重複出現以加深記憶，您可根據自身情況跳過已掌握的部分。",
+    zhHans: "部分重要内容会在不同模块中重复出现以加深记忆，您可根据自身情况跳过已掌握的部分。",
   },
   "study.guestBanner": {
     en: "Guest: M01 & M02 available",

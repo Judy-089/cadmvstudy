@@ -25,6 +25,7 @@ export default function StudyPage() {
         {t("study.title")}
       </h1>
       <p className="mt-2 text-text-gray">{t("study.subtitle")}</p>
+      <p className="mt-1 text-xs text-text-gray/70">💡 {t("study.repeatNote")}</p>
 
       {sessionMode === "guest" && (
         <div className="mt-4 flex items-center gap-2 rounded-lg bg-warning-light px-4 py-2 text-sm text-warning">
