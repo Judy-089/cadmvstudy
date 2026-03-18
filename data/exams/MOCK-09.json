@@ -196,9 +196,7 @@
       "explanation_en": "On a sloping driveway, turn the wheels so the vehicle will not roll into the street. Always leave the vehicle in park and set the parking brake.",
       "explanation_zh": "在倾斜的车道上，转动车轮使车辆不会滚入街道。始终将车辆挂驻车档并拉起驻车制动器。",
       "module": "M02",
-      "tags": [
-        "parking-hill"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -506,9 +504,7 @@
       "explanation_en": "If your vehicle stalls on tracks with no train approaching, exit first, then dial the number on the railroad crossing posts or metal control box near the tracks and call 911.",
       "explanation_zh": "如果车辆在铁轨上熄火且没有列车接近，首先下车，然后拨打铁路道口柱子或附近金属控制箱上的号码，并拨打911。",
       "module": "M05",
-      "tags": [
-        "railroad"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {

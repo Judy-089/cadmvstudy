@@ -406,8 +406,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "pedestrians",
-        "pedestrian-crossing"
+        "pedestrians"
       ],
       "explanation_zhHant": "你必須在有標記和無標記的人行橫道上都讓行行人。無標記的人行橫道存在於道路交匯的任何交叉路口。",
       "stem_zhHant": "你必須讓行人先行：",
@@ -558,8 +557,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "emergency-vehicles",
-        "merging-traffic"
+        "emergency-vehicles"
       ],
       "explanation_zhHant": "當帶有閃烁燈光和警笛的緊急車輛靠近時，你必須靠右停在路邊，直到緊急車輛通過。",
       "stem_zhHant": "當閃燈和警笛的緊急車輛從後方駛來時，你必須：",
@@ -632,8 +630,7 @@
       "explanation_zh": "当有儿童在场或学校场地没有围栏时，学校附近的速度限制为25英里/小时。一些学区可能有更低的标示限速。",
       "module": "M04",
       "tags": [
-        "speed-laws",
-        "school-zone"
+        "speed-laws"
       ],
       "explanation_zhHant": "當有兒童在場或學校場地沒有圍欄時，學校附近的速度限制為25英裡/小時。一些學區可能有更低的標示限速。",
       "stem_zhHant": "有兒童在場時學校區域的速度限制是：",
@@ -966,8 +963,7 @@
       "module": "M05",
       "tags": [
         "lane-control",
-        "u-turns",
-        "no-u-turn"
+        "u-turns"
       ],
       "explanation_zhHant": "在消防站車道附近不允許掉頭。在穿越隔離帶的雙向分隔公路上、消防站前方以及單行道上也禁止掉頭。",
       "stem_zhHant": "以下哪裡不允許掉頭：",

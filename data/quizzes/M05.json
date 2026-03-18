@@ -224,9 +224,7 @@
           "answer": "B",
           "explanation_en": "You may turn left on red only from a one-way street onto another one-way street, after stopping and yielding.",
           "explanation_zhHant": "只有從單行道轉入另一條單行道時，才可以在紅燈時左轉。必須先停車並讓行。",
-          "tags": [
-            "red-light"
-          ]
+          "tags": []
         },
         {
           "id": "M05-S02-Q03",
@@ -417,9 +415,7 @@
           "answer": "C",
           "explanation_en": "U-turns are illegal on one-way streets, across double yellow lines, on divided highways, and where a No U-Turn sign is posted.",
           "explanation_zhHant": "在單行道上、越過雙黃線、在分隔公路上以及有禁止掉頭標誌的地方掉頭都是違法的。",
-          "tags": [
-            "no-u-turn"
-          ]
+          "tags": []
         },
         {
           "id": "M05-S03-Q02",
@@ -450,9 +446,7 @@
           "answer": "B",
           "explanation_en": "U-turns are illegal on a highway where you cannot be seen by other drivers within 200 feet in either direction.",
           "explanation_zhHant": "如果在公路上任一方向200英尺內其他駕駛員無法看到你，則掉頭違法。",
-          "tags": [
-            "no-u-turn"
-          ]
+          "tags": []
         },
         {
           "id": "M05-S03-Q03",
@@ -483,9 +477,7 @@
           "answer": "C",
           "explanation_en": "U-turns are not allowed in front of fire stations. Never use a fire station driveway to turn around.",
           "explanation_zhHant": "消防站前方不允許掉頭。永遠不要使用消防站的車道來掉頭。",
-          "tags": [
-            "no-u-turn"
-          ]
+          "tags": []
         },
         {
           "id": "M05-S03-Q04",
@@ -516,9 +508,7 @@
           "answer": "B",
           "explanation_en": "In a residential area, a U-turn is legal when no vehicle is approaching within 200 feet.",
           "explanation_zhHant": "在住宅區，當200英尺內沒有車輛接近時，掉頭是合法的。",
-          "tags": [
-            "no-u-turn"
-          ]
+          "tags": []
         },
         {
           "id": "M05-S03-Q05",
@@ -549,10 +539,7 @@
           "answer": "B",
           "explanation_en": "Never make a U-turn near the top of a hill or on a curve where other drivers cannot see you from at least 200 feet away.",
           "explanation_zhHant": "不要在山頂附近或彎道處掉頭，因為其他駕駛員在200英尺內可能看不到你。",
-          "tags": [
-            "no-u-turn",
-            "parking-hill"
-          ]
+          "tags": []
         }
       ]
     },

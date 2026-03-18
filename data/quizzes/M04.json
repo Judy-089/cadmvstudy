@@ -188,9 +188,7 @@
           "answer": "B",
           "explanation_en": "Near railroad crossings where you cannot see tracks for 400 feet in both directions, the speed limit is 15 mph within 100 feet of the crossing.",
           "explanation_zhHant": "在無法看到400英尺範圍鐵軌的鐵路道口，距道口100英尺以內限速為15英里/小時。",
-          "tags": [
-            "railroad"
-          ]
+          "tags": []
         },
         {
           "id": "M04-S01-Q07",
@@ -221,9 +219,7 @@
           "answer": "B",
           "explanation_en": "The speed limit on a two-lane undivided highway is 55 mph unless otherwise posted.",
           "explanation_zhHant": "雙車道無隔離帶公路的限速為55英里/小時，除非另有標示。",
-          "tags": [
-            "divided-highway"
-          ]
+          "tags": []
         }
       ]
     },
@@ -774,9 +770,7 @@
           "answer": "B",
           "explanation_en": "Fines for traffic violations in highway construction or maintenance zones can be doubled when workers are present.",
           "explanation_zhHant": "在有工人的公路施工或養護區域，交通違規的罰款可能加倍。",
-          "tags": [
-            "worker-symbol"
-          ]
+          "tags": []
         },
         {
           "id": "M04-S05-Q02",
@@ -838,9 +832,7 @@
           "answer": "B",
           "explanation_en": "Move over a lane if safe to do so, or slow down to a reasonable speed when passing a stationary emergency vehicle with flashing lights.",
           "explanation_zhHant": "經過停在路邊閃燈的緊急車輛時，如果安全則變道避讓，否則須減速到合理安全的速度通過。",
-          "tags": [
-            "merging-traffic"
-          ]
+          "tags": []
         },
         {
           "id": "M04-S05-Q04",
@@ -871,9 +863,7 @@
           "answer": "B",
           "explanation_en": "When a trolley or bus is stopped at a safety zone with no marked crosswalk, you may not pass at more than 10 mph.",
           "explanation_zhHant": "當有軌電車或公交車在安全區停靠且附近沒有明確標記的人行橫道時，通過速度不得超過10英里/小時。",
-          "tags": [
-            "pedestrian-crossing"
-          ]
+          "tags": []
         },
         {
           "id": "M04-S05-Q05",
@@ -904,9 +894,7 @@
           "answer": "C",
           "explanation_en": "You must not drive through a safety zone at any speed. It is set aside exclusively for pedestrians.",
           "explanation_zhHant": "安全區內禁止車輛通行，任何速度都不允許駛入。",
-          "tags": [
-            "pedestrian-crossing"
-          ]
+          "tags": []
         }
       ]
     }

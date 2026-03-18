@@ -193,9 +193,7 @@
           "answer": "B",
           "explanation_en": "The road is most slippery during the first few minutes of rain because oil on the road mixes with the water.",
           "explanation_zhHant": "下雨最初幾分鐘路面最滑，因為路面上的油污與水混合在一起。",
-          "tags": [
-            "slippery-when-wet"
-          ]
+          "tags": []
         },
         {
           "id": "M07-S02-Q02",
@@ -670,9 +668,7 @@
           "answer": "C",
           "explanation_en": "If your vehicle stalls on railroad tracks, get everyone out immediately and move away from the tracks. Call 911 or the emergency number posted at the crossing.",
           "explanation_zhHant": "如果車輛在鐵軌上熄火，立即讓所有人下車並遠離鐵軌。撥打911或道口處張貼的緊急電話。",
-          "tags": [
-            "railroad"
-          ]
+          "tags": []
         },
         {
           "id": "M07-S04-Q06",
@@ -894,10 +890,7 @@
           "answer": "C",
           "explanation_en": "Use lower gears to maintain better control when driving downhill on slippery surfaces.",
           "explanation_zhHant": "在濕滑路面下坡時使用低擋位以保持更好的控制力。",
-          "tags": [
-            "slippery-when-wet",
-            "parking-hill"
-          ]
+          "tags": []
         }
       ]
     }

@@ -226,9 +226,7 @@
           "answer": "B",
           "explanation_en": "Pedestrians have the right-of-way at both marked and unmarked crosswalks.",
           "explanation_zhHant": "行人在有標記和無標記的人行橫道上都有優先通行權。",
-          "tags": [
-            "pedestrian-crossing"
-          ]
+          "tags": []
         },
         {
           "id": "M03-S02-Q02",
@@ -259,9 +257,7 @@
           "answer": "C",
           "explanation_en": "Even if a pedestrian is jaywalking, you must still exercise due care and yield to avoid a collision.",
           "explanation_zhHant": "即使行人違規橫穿馬路，駕駛員仍有義務盡合理注意避免碰撞，必須讓行。",
-          "tags": [
-            "pedestrian-crossing"
-          ]
+          "tags": []
         },
         {
           "id": "M03-S02-Q03",
@@ -292,9 +288,7 @@
           "answer": "B",
           "explanation_en": "Blind pedestrians carrying a white cane or with a guide dog always have the right-of-way. You must stop and wait until they have completely crossed.",
           "explanation_zhHant": "持白色手杖或由導盲犬陪同的視障行人始終擁有優先通行權。必須停車等待他們完全穿過街道。",
-          "tags": [
-            "pedestrian-crossing"
-          ]
+          "tags": []
         },
         {
           "id": "M03-S02-Q04",
@@ -359,9 +353,7 @@
           "answer": "B",
           "explanation_en": "Stopping in a crosswalk forces pedestrians to walk around your vehicle, putting them in danger from other traffic.",
           "explanation_zhHant": "將車輛停在人行橫道上會迫使行人繞行車輛，使他們面臨危險。",
-          "tags": [
-            "pedestrian-crossing"
-          ]
+          "tags": []
         },
         {
           "id": "M03-S02-Q06",
@@ -498,9 +490,7 @@
           "answer": "B",
           "explanation_en": "The Move Over law requires you to move over one lane if safe, or slow down when passing stationary emergency vehicles, tow trucks, or Caltrans vehicles with flashing lights.",
           "explanation_zhHant": "移車法要求在經過停在路邊閃燈的緊急車輛、拖車或加州交通局車輛時，變道一個車道或減速通過。",
-          "tags": [
-            "merging-traffic"
-          ]
+          "tags": []
         },
         {
           "id": "M03-S03-Q04",
@@ -531,9 +521,7 @@
           "answer": "C",
           "explanation_en": "At railroad crossings, you must stop at least 15 feet from the nearest rail when lights flash or gates lower.",
           "explanation_zhHant": "在鐵路道口，當燈光閃爍或欄杆放下時，必須在距最近鐵軌至少15英尺處停車。",
-          "tags": [
-            "railroad"
-          ]
+          "tags": []
         },
         {
           "id": "M03-S03-Q05",
@@ -600,9 +588,7 @@
           "answer": "B",
           "explanation_en": "If you are in an intersection when an emergency vehicle approaches, proceed through the intersection first, then pull over to the right and stop.",
           "explanation_zhHant": "如果緊急車輛接近時正在路口內，應先通過路口，然後靠右側停車。",
-          "tags": [
-            "merging-traffic"
-          ]
+          "tags": []
         }
       ]
     },

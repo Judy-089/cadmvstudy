@@ -828,10 +828,7 @@
           "answer": "B",
           "explanation_en": "Do not stop on the freeway on-ramp unless traffic is already stopped. Merge into traffic at or near the speed of traffic.",
           "explanation_zhHant": "除非車流已經停止，否則不要在高速公路入口匝道上停車。以接近車流速度匯入。",
-          "tags": [
-            "stop-sign",
-            "merging-traffic"
-          ]
+          "tags": []
         }
       ]
     }

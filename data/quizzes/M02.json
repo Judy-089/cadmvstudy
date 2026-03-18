@@ -524,9 +524,7 @@
           "answer": "B",
           "explanation_en": "You may turn right on a steady red light after stopping, unless a sign prohibits it. You must yield to pedestrians and traffic.",
           "explanation_zhHant": "停車後可以在穩定紅燈時右轉，除非有標誌禁止。必須讓行人和車輛先行。",
-          "tags": [
-            "red-light"
-          ]
+          "tags": []
         },
         {
           "id": "M02-S03-Q02",
@@ -557,9 +555,7 @@
           "answer": "C",
           "explanation_en": "A steady yellow light means the red light is about to appear. Stop if you can safely do so. If already in the intersection, continue through carefully.",
           "explanation_zhHant": "黃燈亮表示紅燈即將出現。如果能安全停車則停下。如果已經進入路口，應謹慎通過。",
-          "tags": [
-            "yellow-light"
-          ]
+          "tags": []
         },
         {
           "id": "M02-S03-Q03",
@@ -786,9 +782,7 @@
           "answer": "B",
           "explanation_en": "A steady green light means GO, but only after yielding to any vehicles, bicyclists, or pedestrians still in the intersection.",
           "explanation_zhHant": "綠燈亮表示可以通行，但須先讓已在路口內的車輛、自行車和行人通過。",
-          "tags": [
-            "green-light"
-          ]
+          "tags": []
         }
       ]
     },
@@ -1072,9 +1066,7 @@
           "answer": "B",
           "explanation_en": "A yellow curb means loading/unloading only. Drivers of noncommercial vehicles must stay with the vehicle.",
           "explanation_zhHant": "黃色路緣僅供裝卸貨物，非商業車輛司機須留在車內。",
-          "tags": [
-            "colored-curbs"
-          ]
+          "tags": []
         },
         {
           "id": "M02-S04-Q10",

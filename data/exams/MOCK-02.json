@@ -367,8 +367,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "left-turns",
-        "green-light"
+        "left-turns"
       ],
       "explanation_zhHant": "綠燈時左轉，你必須讓直行或右轉的迎面來車以及在人行橫道上的行人先行。",
       "stem_zhHant": "綠燈時左轉，你必須讓：",
@@ -480,8 +479,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "right-on-red",
-        "red-light"
+        "right-on-red"
       ],
       "explanation_zhHant": "紅燈時你可以右轉，但必須先完全停車，除非有標誌写着'紅燈禁止轉弯'。轉弯前讓行行人和車輛。",
       "stem_zhHant": "你駛近一個路口想在紅燈時右轉，你必須：",
@@ -518,8 +516,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "blind-pedestrians",
-        "pedestrian-crossing"
+        "blind-pedestrians"
       ],
       "explanation_zhHant": "你必須始終讓使用白手杖或导盲犬的盲人行人先行。不要按喇叭，因為可能會驚吓到他们。等待他们完全穿過街道。",
       "stem_zhHant": "使用白手杖或導盲犬的盲人行人在路口，你必須：",
@@ -704,9 +701,7 @@
       "module": "M05",
       "tags": [
         "lane-control",
-        "merging",
-        "lane-ends",
-        "merging-traffic"
+        "merging"
       ],
       "explanation_zhHant": "當你的車道結束需要合流時，你必須讓已在連續車道上的車輛先行。提前打信號燈，檢查盲區，安全合流。",
       "stem_zhHant": "車道結束需要合流時，誰有優先通行權？",
@@ -743,8 +738,7 @@
       "module": "M05",
       "tags": [
         "lane-control",
-        "turning",
-        "one-way"
+        "turning"
       ],
       "explanation_zhHant": "從雙向街道左轉到單行道時，你應完成轉弯進入單行道的左車道（最近車道）。",
       "stem_zhHant": "從雙向道路左轉進入單行道時，你應該：",
@@ -892,8 +886,7 @@
       "module": "M06",
       "tags": [
         "parking",
-        "curb-colors",
-        "colored-curbs"
+        "curb-colors"
       ],
       "explanation_zhHant": "紅色路緣表示任何時候都不允許停車、站立或泊車。這包括公交車和出租車，除非另有標示。",
       "stem_zhHant": "紅色路緣表示：",
@@ -1004,8 +997,7 @@
       "module": "M08",
       "tags": [
         "sharing-road",
-        "public-transit",
-        "stop-sign"
+        "public-transit"
       ],
       "explanation_zhHant": "當有軌电車或街車停下來讓乘客上下車時，你必須在其後方停車等待。一些公交車可能有讓行標誌，要求你在它们發出信號重新進入交通時讓行。",
       "stem_zhHant": "駛近正在上下乘客的停靠有軌電車或公車時，你必須：",

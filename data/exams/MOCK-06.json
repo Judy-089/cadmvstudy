@@ -114,9 +114,7 @@
       "explanation_en": "A flashing yellow arrow means you can turn, but your turn is not protected from other traffic. You must yield to oncoming traffic and proceed with caution.",
       "explanation_zh": "闪烁的黄色箭头表示你可以转弯，但你的转弯不受保护。你必须让行对向车辆并谨慎通行。",
       "module": "M02",
-      "tags": [
-        "flashing-yellow"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -626,9 +624,7 @@
       "explanation_en": "The speed limit is 25 mph within 500 feet of a school while children are outside or crossing. Some school zones may have limits as low as 15 mph.",
       "explanation_zh": "在距学校500英尺范围内，当儿童在户外或过马路时，限速为25英里/小时。某些学区可能低至15英里/小时。",
       "module": "M04",
-      "tags": [
-        "school-zone"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -824,9 +820,7 @@
       "explanation_en": "Slow-moving vehicles display an orange and red triangle on their back. These vehicles usually travel at 25 mph or less.",
       "explanation_zh": "慢速车辆在车尾展示橙色和红色三角形标志。这些车辆通常以25英里/小时或更低速度行驶。",
       "module": "M08",
-      "tags": [
-        "slow-moving-vehicle"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {

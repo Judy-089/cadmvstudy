@@ -404,8 +404,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "left-turns",
-        "green-light"
+        "left-turns"
       ],
       "explanation_zhHant": "綠燈時左轉，進入交叉路口并等到安全後完成轉弯。讓所有迎面來的車輛先行。",
       "stem_zhHant": "你在綠燈時左轉，對面有車輛駛來，你應該：",
@@ -481,8 +480,7 @@
       "module": "M04",
       "tags": [
         "speed-laws",
-        "highway",
-        "divided-highway"
+        "highway"
       ],
       "explanation_zhHant": "除非另有標示，雙車道非分隔公路的最高速度限制為55英裡/小時。",
       "stem_zhHant": "除非另有標示，雙車道無分隔公路的最高速度限制是？",
@@ -630,8 +628,7 @@
       "module": "M05",
       "tags": [
         "lane-control",
-        "u-turns",
-        "no-u-turn"
+        "u-turns"
       ],
       "explanation_zhHant": "如果從任一方向駛來的其他駕駛員在200英尺內無法看到你，則不允許在公路上掉頭。",
       "stem_zhHant": "在以下情況下在公路上掉頭是違法的：",
@@ -705,8 +702,7 @@
       "module": "M05",
       "tags": [
         "lane-control",
-        "defensive-driving",
-        "merging-traffic"
+        "defensive-driving"
       ],
       "explanation_zhHant": "如果另一輛車開始合流到你的車道，準備減速或安全變道以避免碰撞。防禦性駕駛有助於防止事故。",
       "stem_zhHant": "你在多車道公路上行駛，另一輛車開始合流到你的車道，你應該：",
@@ -743,8 +739,7 @@
       "module": "M06",
       "tags": [
         "parking",
-        "curb-colors",
-        "colored-curbs"
+        "curb-colors"
       ],
       "explanation_zhHant": "白色路緣表示你隻能停留足夠长的時間來接送乘客或郵件。不允許停車或等待。",
       "stem_zhHant": "白色路緣表示：",
@@ -818,8 +813,7 @@
       "module": "M06",
       "tags": [
         "parking",
-        "curb-colors",
-        "colored-curbs"
+        "curb-colors"
       ],
       "explanation_zhHant": "黄色路緣表示僅供貨運裝卸區。如果你是駕駛員，你隻能在標示的時間內停留裝卸貨物。",
       "stem_zhHant": "黃色路緣表示：",
@@ -1265,8 +1259,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "railroad-crossings",
-        "railroad"
+        "railroad-crossings"
       ],
       "explanation_zhHant": "在鐵路道口停車後，等火車通過且你能清楚看到兩個方向後才能通行。確保欄杆完全升起且燈光已停止閃烁。",
       "stem_zhHant": "在鐵路道口停車後，不要通行直到：",

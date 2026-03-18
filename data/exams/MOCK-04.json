@@ -404,8 +404,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "blind-pedestrians",
-        "pedestrian-crossing"
+        "blind-pedestrians"
       ],
       "explanation_zhHant": "當视障人士將白手杖伸入街道時，他们正表示即將過馬路。你必須停車等待直到他们安全通過。",
       "stem_zhHant": "盲人或視障行人將白手杖伸入街道，你應該：",
@@ -442,8 +441,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "one-way-streets",
-        "one-way"
+        "one-way-streets"
       ],
       "explanation_zhHant": "從單行道左轉到另一條單行道時，從最靠近左側路緣或道路邊緣的車道開始轉弯。",
       "stem_zhHant": "從單行道左轉進入另一條單行道時，你應從哪個車道開始轉彎？",
@@ -813,8 +811,7 @@
       "module": "M06",
       "tags": [
         "parking",
-        "curb-colors",
-        "colored-curbs"
+        "curb-colors"
       ],
       "explanation_zhHant": "綠色路緣表示你隻能停車有限的時間。查看路緣上的標誌或標記以了解時間限制。",
       "stem_zhHant": "綠色路緣表示：",
@@ -888,8 +885,7 @@
       "module": "M06",
       "tags": [
         "parking",
-        "curb-colors",
-        "colored-curbs"
+        "curb-colors"
       ],
       "explanation_zhHant": "藍色路緣專為展示残疾人停車牌或残疾人車牌的車輛停車。未經授權使用可能會被處以高額罰款。",
       "stem_zhHant": "藍色路緣表示：",
@@ -1074,8 +1070,7 @@
       "module": "M08",
       "tags": [
         "sharing-road",
-        "blind-pedestrians",
-        "pedestrian-crossing"
+        "blind-pedestrians"
       ],
       "explanation_zhHant": "不要對帶导盲犬的盲人行人按喇叭。聲音可能會迷惑导盲犬并使行人迷失方向。安静耐心地等待。",
       "stem_zhHant": "在帶有導盲犬的盲人行人附近駕駛時，你不應該：",

@@ -33,9 +33,7 @@
           "answer": "B",
           "explanation_en": "Always yield to pedestrians in marked and unmarked crosswalks. An unmarked crosswalk exists at every intersection where roads meet.",
           "explanation_zhHant": "在有標記和無標記的人行橫道上必須讓行人先行。每個道路交匯的路口都存在無標記的人行橫道。",
-          "tags": [
-            "pedestrian-crossing"
-          ]
+          "tags": []
         },
         {
           "id": "M08-S01-Q02",
@@ -66,9 +64,7 @@
           "answer": "C",
           "explanation_en": "Do not pass a vehicle stopped at a crosswalk. A pedestrian you cannot see may be crossing.",
           "explanation_zhHant": "不要超越在人行橫道前停著的車輛。可能有你看不到的行人正在過馬路。",
-          "tags": [
-            "pedestrian-crossing"
-          ]
+          "tags": []
         },
         {
           "id": "M08-S01-Q03",
@@ -132,10 +128,7 @@
           "answer": "B",
           "explanation_en": "Do not stop in a crosswalk when waiting at a red light or stop sign. You block pedestrian traffic and put pedestrians in danger.",
           "explanation_zhHant": "在等紅燈或停車標誌時，不要停在人行橫道上。你會擋住行人通行並將行人置於危險中。",
-          "tags": [
-            "pedestrian-crossing",
-            "red-light"
-          ]
+          "tags": []
         },
         {
           "id": "M08-S01-Q05",
@@ -166,9 +159,7 @@
           "answer": "B",
           "explanation_en": "Be especially watchful for pedestrians in residential areas, near schools, and in parking lots.",
           "explanation_zhHant": "在住宅區、學校附近和停車場要格外注意行人。",
-          "tags": [
-            "pedestrian-crossing"
-          ]
+          "tags": []
         }
       ]
     },
@@ -524,11 +515,7 @@
           "answer": "B",
           "explanation_en": "When a school bus flashes red lights and has its stop arm out, you must stop from both directions on an undivided road. Remain stopped until the red lights stop flashing.",
           "explanation_zhHant": "當校車閃爍紅燈並伸出停車臂時，在無分隔道路上雙方向的車輛都必須停車。保持停車直到紅燈停止閃爍。",
-          "tags": [
-            "red-light",
-            "school-bus",
-            "stop-sign"
-          ]
+          "tags": []
         },
         {
           "id": "M08-S04-Q02",
@@ -559,9 +546,7 @@
           "answer": "A",
           "explanation_en": "If the road is divided by a physical barrier or median, you do not need to stop when approaching a school bus from the opposite direction.",
           "explanation_zhHant": "如果道路有物理隔離帶或中央分隔帶，從對面方向駛來時不需要為校車停車。",
-          "tags": [
-            "school-bus"
-          ]
+          "tags": []
         },
         {
           "id": "M08-S04-Q03",
@@ -592,9 +577,7 @@
           "answer": "C",
           "explanation_en": "The speed limit in a school zone is 25 mph when children are present.",
           "explanation_zhHant": "學校區域有兒童時限速25英里/小時。",
-          "tags": [
-            "school-zone"
-          ]
+          "tags": []
         },
         {
           "id": "M08-S04-Q04",
@@ -625,9 +608,7 @@
           "answer": "C",
           "explanation_en": "The fine for illegally passing a stopped school bus can be up to $1,000 for a first offense.",
           "explanation_zhHant": "非法越過停靠的校車的罰款，初犯最高可達1,000美元。",
-          "tags": [
-            "school-bus"
-          ]
+          "tags": []
         },
         {
           "id": "M08-S04-Q05",
@@ -658,10 +639,7 @@
           "answer": "A",
           "explanation_en": "When a school bus flashes yellow lights, it is preparing to stop. Slow down and be ready to stop.",
           "explanation_zhHant": "當校車閃爍黃燈時，表示正在準備停車。減速並準備停車。",
-          "tags": [
-            "yellow-light",
-            "school-bus"
-          ]
+          "tags": []
         }
       ]
     },
@@ -823,9 +801,7 @@
           "answer": "A",
           "explanation_en": "When following a truck uphill, increase your following distance. Trucks often slow significantly on steep grades.",
           "explanation_zhHant": "在上坡跟隨卡車時增加跟車距離。卡車在陡坡上通常會明顯減速。",
-          "tags": [
-            "parking-hill"
-          ]
+          "tags": []
         }
       ]
     },
@@ -861,9 +837,7 @@
           "answer": "B",
           "explanation_en": "When you see or hear an emergency vehicle with flashing lights or a siren, pull to the right edge of the road and stop until the emergency vehicle passes.",
           "explanation_zhHant": "看到或聽到閃燈或響警笛的緊急車輛時，靠右停車等待緊急車輛通過。",
-          "tags": [
-            "merging-traffic"
-          ]
+          "tags": []
         },
         {
           "id": "M08-S06-Q02",
@@ -990,10 +964,7 @@
           "answer": "C",
           "explanation_en": "Never stop or park in a lane next to a stopped emergency vehicle with flashing lights.",
           "explanation_zhHant": "不要在亮著閃燈的停靠緊急車輛旁邊的車道上停車或停放。",
-          "tags": [
-            "merging-traffic",
-            "stop-sign"
-          ]
+          "tags": []
         }
       ]
     }

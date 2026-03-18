@@ -143,8 +143,7 @@
       "module": "M02",
       "tags": [
         "traffic-signs",
-        "road-markings",
-        "yield-sign"
+        "road-markings"
       ],
       "explanation_zhHant": "讓行線是由指向來車方向的三角形組成的實線白線。它指示在哪裡讓行或停車後再通行。",
       "stem_zhHant": "由白色實心三角形組成的讓行線告訴你：",
@@ -218,8 +217,7 @@
       "module": "M02",
       "tags": [
         "traffic-signs",
-        "signals",
-        "red-light"
+        "signals"
       ],
       "explanation_zhHant": "你可以在紅燈處右轉，前提是完全停車并讓行行人和交通，除非有禁止紅燈右轉的標誌。",
       "stem_zhHant": "紅燈時可以右轉，僅在：",
@@ -407,9 +405,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "left-turns",
-        "one-way",
-        "red-light"
+        "left-turns"
       ],
       "explanation_zhHant": "你可以在紅燈時從單行道左轉進入另一條單行道，前提是完全停車、讓行其他車輛和行人，并確認沒有禁止轉弯的標誌。",
       "stem_zhHant": "你可以在紅燈時從單行道左轉進入另一條單行道：",
@@ -483,8 +479,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "emergency-vehicles",
-        "merging-traffic"
+        "emergency-vehicles"
       ],
       "explanation_zhHant": "當消防車、執法車輛、救護車或其他緊急車輛的警笛或閃烁燈亮起時，跟在它们300英尺以內是違法的。",
       "stem_zhHant": "跟在開啟警笛和燈光的緊急車輛後方多少英尺以內是違法的？",
@@ -521,8 +516,7 @@
       "module": "M04",
       "tags": [
         "speed-laws",
-        "highway",
-        "divided-highway"
+        "highway"
       ],
       "explanation_zhHant": "雙車道無分隔公路的最高速度限制為55英裡/小時，除非另有標示。",
       "stem_zhHant": "雙車道無分隔公路的最高速度限制是：",
@@ -596,8 +590,7 @@
       "module": "M04",
       "tags": [
         "speed-laws",
-        "railroad-crossing",
-        "railroad"
+        "railroad-crossing"
       ],
       "explanation_zhHant": "在鐵路道口100英尺範圍內，如果你看不到兩個方向400英尺的軌道，速度限制為15英裡/小時，除非由欄杆或信號燈控制。",
       "stem_zhHant": "在看不到兩個方向400英尺軌道的鐵路道口100英尺範圍內，速度限制是：",
@@ -708,8 +701,7 @@
       "module": "M05",
       "tags": [
         "lane-control",
-        "passing",
-        "railroad"
+        "passing"
       ],
       "explanation_zhHant": "不要在交叉路口、橋梁、隧道、鐵路道口或其他危險區域100英尺範圍內超車。",
       "stem_zhHant": "在距路口或鐵路道口多少英尺範圍內不應超車？",
@@ -1116,8 +1108,7 @@
       "module": "M09",
       "tags": [
         "safe-driving",
-        "move-over-law",
-        "merging-traffic"
+        "move-over-law"
       ],
       "explanation_zhHant": "當接近显示閃烁燈光的静止緊急車輛或拖車時，如果可能的話移到另一條車道并減速安全通過。",
       "stem_zhHant": "駛近路邊閃燈的停靠緊急車輛時，你必須：",
@@ -1339,8 +1330,7 @@
       "module": "M11",
       "tags": [
         "insurance",
-        "railroad-emergency",
-        "railroad"
+        "railroad-emergency"
       ],
       "explanation_zhHant": "如果你的車輛在鐵軌上熄火且火車正在駛來，立即下車并沿着火車駛來的方向斜向遠離鐵軌跑。然後撥打911。",
       "stem_zhHant": "如果你的車輛在鐵軌上熄火且火車正在駛來，你應該：",

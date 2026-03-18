@@ -195,9 +195,7 @@
           "answer": "B",
           "explanation_en": "When parking uphill with a curb, turn your front wheels away from the curb (left). If the car rolls, it will roll into the curb and stop.",
           "explanation_zhHant": "上坡有路緣停車時，將前輪向遠離路緣的方向（左邊）轉。如果車輛滑動，會滾向路緣而停下。",
-          "tags": [
-            "parking-hill"
-          ]
+          "tags": []
         },
         {
           "id": "M06-S02-Q02",
@@ -228,9 +226,7 @@
           "answer": "B",
           "explanation_en": "When parking downhill with a curb, turn your front wheels toward the curb (right). If the car rolls, it will roll into the curb.",
           "explanation_zhHant": "下坡有路緣停車時，將前輪向路緣方向（右邊）轉。如果車輛滑動，會滾向路緣而停下。",
-          "tags": [
-            "parking-hill"
-          ]
+          "tags": []
         },
         {
           "id": "M06-S02-Q03",
@@ -294,9 +290,7 @@
           "answer": "C",
           "explanation_en": "With wheels turned correctly (away from curb when uphill), the car will roll backward into the curb and stop safely.",
           "explanation_zhHant": "如果車輪轉向正確（上坡時遠離路緣），車輛會向後滾向路緣而安全停下。",
-          "tags": [
-            "parking-hill"
-          ]
+          "tags": []
         },
         {
           "id": "M06-S02-Q05",
@@ -427,9 +421,7 @@
           "answer": "B",
           "explanation_en": "Do not park within 7.5 feet of a railroad track.",
           "explanation_zhHant": "不得在鐵軌7.5英尺範圍內停車。",
-          "tags": [
-            "railroad"
-          ]
+          "tags": []
         },
         {
           "id": "M06-S03-Q04",
@@ -589,9 +581,7 @@
           "answer": "B",
           "explanation_en": "At a yellow curb, stop only long enough to load or unload. The driver of a noncommercial vehicle must stay with the vehicle.",
           "explanation_zhHant": "黃色路緣僅允許短暫停車以裝卸貨物。非商業車輛駕駛員必須留在車內。",
-          "tags": [
-            "colored-curbs"
-          ]
+          "tags": []
         },
         {
           "id": "M06-S04-Q04",

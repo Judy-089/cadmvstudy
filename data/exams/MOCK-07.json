@@ -266,9 +266,7 @@
       "explanation_en": "You may turn right at a red light after coming to a complete stop, unless a NO TURN ON RED sign is posted. You must yield to pedestrians and all traffic before turning.",
       "explanation_zh": "你可以在红灯时右转，但必须先完全停车，除非有禁止红灯右转的标志。转弯前必须让行行人和所有车辆。",
       "module": "M03",
-      "tags": [
-        "red-light"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
