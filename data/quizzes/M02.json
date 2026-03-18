@@ -263,9 +263,7 @@
           "answer": "C",
           "explanation_en": "Yellow diamond-shaped signs are warning signs that alert you to upcoming road conditions or hazards.",
           "explanation_zhHant": "黃色菱形標誌是警告標誌，提醒前方可能有路況變化或危險情況。",
-          "tags": [
-            "curve-ahead"
-          ]
+          "tags": []
         },
         {
           "id": "M02-S02-Q02",

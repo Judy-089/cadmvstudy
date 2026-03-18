@@ -27,7 +27,7 @@
       "explanation_zh": "让行预告标志是菱形黄色标志，提醒您前方有让行标志。让行标志本身是一个倒三角形。",
       "module": "M02",
       "tags": [
-        "yield-sign"
+        "yield-ahead"
       ],
       "driverEd": false
     },
@@ -169,7 +169,7 @@
       "explanation_zh": "蜿蜒道路标志是黄色菱形标志，警告前方有一系列弯道。在进入弯道前减速。",
       "module": "M02",
       "tags": [
-        "curve-ahead"
+        "winding-road"
       ],
       "driverEd": false
     },
@@ -199,7 +199,7 @@
       "explanation_zh": "前方交通信号灯标志警告前方有可能被弯道、山丘或其他障碍物遮挡的交通信号灯。准备停车。",
       "module": "M02",
       "tags": [
-        "curve-ahead"
+        "traffic-signal-ahead"
       ],
       "driverEd": false
     },
@@ -398,9 +398,7 @@
       "explanation_en": "You may turn left against a red light from a one-way street onto another one-way street, as long as there is no sign prohibiting it. You must come to a complete stop and yield first.",
       "explanation_zh": "你可以在红灯时从单行道左转到另一条单行道，只要没有禁止转弯的标志。你必须先完全停车并让行。",
       "module": "M03",
-      "tags": [
-        "red-light"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {

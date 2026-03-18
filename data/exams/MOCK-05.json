@@ -403,8 +403,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "left-turns",
-        "red-light"
+        "left-turns"
       ],
       "explanation_zhHant": "你可以在紅燈時從單行道左轉進入另一條單行道，前提是完全停車、讓行其他車輛和行人，并確認沒有禁止轉弯的標誌。",
       "stem_zhHant": "你可以在紅燈時從單行道左轉進入另一條單行道：",
