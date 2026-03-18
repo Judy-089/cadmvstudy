@@ -5,6 +5,9 @@ import { useState, useEffect, Suspense, useMemo } from "react";
 import Link from "next/link";
 import { tagImages, ImageMapping } from "@/data/imageMap";
 import { useAppStore } from "@/store/useAppStore";
+import { useAuthStore } from "@/store/useAuthStore";
+import { useWrongQuestionStore } from "@/store/useWrongQuestionStore";
+import { saveWrongQuestion } from "@/lib/firestore";
 import { getExamText } from "@/lib/language";
 import { getPassThreshold, getAdultExamQuestions } from "@/lib/examUtils";
 import type { ExamLanguage } from "@/store/useAppStore";
@@ -59,6 +62,37 @@ function ResultContent() {
     const questions = isAdult ? getAdultExamQuestions(rawExam.questions) : rawExam.questions;
     return { ...rawExam, questions };
   }, [rawExam, ageGroup, sessionMode]);
+
+  // Collect wrong answers
+  const addWrongQuestion = useWrongQuestionStore((s) => s.addWrongQuestion);
+  const user = useAuthStore((s) => s.user);
+
+  useEffect(() => {
+    if (!exam) return;
+    exam.questions.forEach((q, i) => {
+      const userAnswer = answers[i];
+      if (userAnswer && userAnswer !== q.answer) {
+        const wrongQ = {
+          questionId: q.id,
+          source: "mock" as const,
+          sourceId: examId,
+          moduleId: q.module,
+          wrongAnswer: userAnswer,
+          correctAnswer: q.answer,
+        };
+        addWrongQuestion(wrongQ);
+        // Save to Firestore
+        if (user) {
+          const store = useWrongQuestionStore.getState();
+          const full = store.questions[q.id];
+          if (full) {
+            saveWrongQuestion(user.uid, full).catch(() => {});
+          }
+        }
+      }
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [exam]);
 
   const passThreshold = getPassThreshold(total);
   const passed = score >= passThreshold;

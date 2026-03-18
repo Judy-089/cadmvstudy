@@ -5,6 +5,8 @@ import { useQuizStore } from "@/store/useQuizStore";
 import { useAppStore } from "@/store/useAppStore";
 import { useAuthStore } from "@/store/useAuthStore";
 import { useProgressStore } from "@/store/useProgressStore";
+import { useWrongQuestionStore } from "@/store/useWrongQuestionStore";
+import { saveWrongQuestion } from "@/lib/firestore";
 import { useT } from "@/lib/useT";
 import { tagImages, type ImageMapping } from "@/data/imageMap";
 
@@ -109,6 +111,25 @@ export function SectionQuiz({ moduleId, sectionId, sectionTitle, onClose }: Prop
       if (user) {
         useProgressStore.getState().saveQuiz(user.uid, moduleId, sectionId, score, totalQ);
       }
+      // Collect wrong answers
+      const addWrong = useWrongQuestionStore.getState().addWrongQuestion;
+      questions.forEach((q, i) => {
+        if (answers[i] && answers[i] !== q.answer) {
+          const wrongQ = {
+            questionId: q.id,
+            source: "quiz" as const,
+            sourceId: `${moduleId}-${sectionId}`,
+            moduleId,
+            wrongAnswer: answers[i],
+            correctAnswer: q.answer,
+          };
+          addWrong(wrongQ);
+          if (user) {
+            const full = useWrongQuestionStore.getState().questions[q.id];
+            if (full) saveWrongQuestion(user.uid, full).catch(() => {});
+          }
+        }
+      });
       setPhase("results");
     }
   };

@@ -5,8 +5,9 @@ import { useAuthStore } from "@/store/useAuthStore";
 import { useAppStore } from "@/store/useAppStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useQuizStore } from "@/store/useQuizStore";
+import { useWrongQuestionStore } from "@/store/useWrongQuestionStore";
 import { onAuthChange } from "@/lib/auth";
-import { getLanguagePreference } from "@/lib/firestore";
+import { getLanguagePreference, loadWrongQuestions } from "@/lib/firestore";
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const setUser = useAuthStore((s) => s.setUser);
@@ -43,6 +44,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
             });
             loadQuizResults(quizMap);
           }
+        } catch { /* ignore */ }
+        // Load wrong questions
+        try {
+          const wrongQs = await loadWrongQuestions(user.uid);
+          useWrongQuestionStore.getState().loadQuestions(wrongQs);
         } catch { /* ignore */ }
         setUser(user);
       } else {

@@ -8,6 +8,7 @@ import { signInWithGoogle } from "@/lib/auth";
 import { modules } from "@/data/modules";
 import { useT } from "@/lib/useT";
 import { useProgressStore } from "@/store/useProgressStore";
+import { useWrongQuestionStore } from "@/store/useWrongQuestionStore";
 import { AgeSelectionModal } from "@/components/AgeSelectionModal";
 import { OnboardingModal } from "@/components/OnboardingModal";
 import { LockedCard, FreeBadge } from "@/components/LockedOverlay";
@@ -228,17 +229,27 @@ export default function Home() {
         <h2 className="mb-4 text-xl font-bold text-text-dark">
           {t("home.mistakeReview")}
         </h2>
-        {sessionMode === "authenticated" ? (
-          <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
+        {sessionMode === "authenticated" ? (() => {
+          const unresolvedCount = useWrongQuestionStore.getState().unresolvedCount();
+          const totalCount = useWrongQuestionStore.getState().totalCount();
+          return (
+          <Link href="/mistakes" className="block rounded-xl border border-border bg-card p-6 shadow-sm hover:border-primary/30 hover:shadow-md transition-all">
             <div className="flex items-center gap-4">
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-error-light text-xl">✏️</div>
               <div className="flex-1">
                 <h3 className="font-semibold text-text-dark">{t("home.reviewWrong")}</h3>
-                <p className="text-sm text-text-gray">{t("home.reviewDesc")}</p>
+                <p className="text-sm text-text-gray">
+                  {totalCount > 0
+                    ? `${unresolvedCount} to review / ${totalCount} total`
+                    : t("home.reviewDesc")}
+                </p>
               </div>
-              <span className="rounded-full bg-gray-100 px-3 py-1 text-xs text-text-gray">{t("home.comingSoon")}</span>
+              {unresolvedCount > 0 && (
+                <span className="rounded-full bg-error px-3 py-1 text-xs font-bold text-white">{unresolvedCount}</span>
+              )}
             </div>
-          </div>
+          </Link>);
+        })()
         ) : (
           <LockedCard>
             <div className="rounded-xl border border-border bg-card p-6 shadow-sm">

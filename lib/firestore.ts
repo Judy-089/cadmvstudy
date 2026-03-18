@@ -179,3 +179,37 @@ export async function saveLanguagePreference(
     examLanguage: prefs.examLanguage,
   });
 }
+
+// --- Wrong Questions ---
+
+export interface WrongQuestionData {
+  questionId: string;
+  source: "mock" | "quiz";
+  sourceId: string;
+  moduleId: string;
+  wrongAnswer: string;
+  correctAnswer: string;
+  wrongCount: number;
+  lastWrongAt: number;
+  resolved: boolean;
+}
+
+export async function saveWrongQuestion(userId: string, q: WrongQuestionData) {
+  const ref = doc(getDb(), "users", userId, "wrongQuestions", q.questionId);
+  await setDoc(ref, q);
+}
+
+export async function loadWrongQuestions(userId: string): Promise<Record<string, WrongQuestionData>> {
+  const ref = collection(getDb(), "users", userId, "wrongQuestions");
+  const snap = await getDocs(ref);
+  const results: Record<string, WrongQuestionData> = {};
+  snap.docs.forEach((d) => {
+    results[d.id] = d.data() as WrongQuestionData;
+  });
+  return results;
+}
+
+export async function resolveWrongQuestion(userId: string, questionId: string) {
+  const ref = doc(getDb(), "users", userId, "wrongQuestions", questionId);
+  await updateDoc(ref, { resolved: true });
+}
