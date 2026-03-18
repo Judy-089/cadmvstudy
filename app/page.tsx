@@ -229,27 +229,8 @@ export default function Home() {
         <h2 className="mb-4 text-xl font-bold text-text-dark">
           {t("home.mistakeReview")}
         </h2>
-        {sessionMode === "authenticated" ? (() => {
-          const unresolvedCount = useWrongQuestionStore.getState().unresolvedCount();
-          const totalCount = useWrongQuestionStore.getState().totalCount();
-          return (
-          <Link href="/mistakes" className="block rounded-xl border border-border bg-card p-6 shadow-sm hover:border-primary/30 hover:shadow-md transition-all">
-            <div className="flex items-center gap-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-error-light text-xl">✏️</div>
-              <div className="flex-1">
-                <h3 className="font-semibold text-text-dark">{t("home.reviewWrong")}</h3>
-                <p className="text-sm text-text-gray">
-                  {totalCount > 0
-                    ? `${unresolvedCount} to review / ${totalCount} total`
-                    : t("home.reviewDesc")}
-                </p>
-              </div>
-              {unresolvedCount > 0 && (
-                <span className="rounded-full bg-error px-3 py-1 text-xs font-bold text-white">{unresolvedCount}</span>
-              )}
-            </div>
-          </Link>);
-        })()
+        {sessionMode === "authenticated" ? (
+          <MistakeReviewCard t={t} />
         ) : (
           <LockedCard>
             <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
@@ -277,5 +258,29 @@ export default function Home() {
       {/* Tutorial walkthrough — shows after onboarding, only once */}
       {!showOnboarding && <Tutorial />}
     </div>
+  );
+}
+
+function MistakeReviewCard({ t }: { t: (key: any) => string }) {
+  const unresolvedCount = useWrongQuestionStore((s) => s.unresolvedCount)();
+  const totalCount = useWrongQuestionStore((s) => s.totalCount)();
+
+  return (
+    <Link href="/mistakes" className="block rounded-xl border border-border bg-card p-6 shadow-sm hover:border-primary/30 hover:shadow-md transition-all">
+      <div className="flex items-center gap-4">
+        <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-error-light text-xl">✏️</div>
+        <div className="flex-1">
+          <h3 className="font-semibold text-text-dark">{t("home.reviewWrong")}</h3>
+          <p className="text-sm text-text-gray">
+            {totalCount > 0
+              ? `${unresolvedCount} to review / ${totalCount} total`
+              : t("home.reviewDesc")}
+          </p>
+        </div>
+        {unresolvedCount > 0 && (
+          <span className="rounded-full bg-error px-3 py-1 text-xs font-bold text-white">{unresolvedCount}</span>
+        )}
+      </div>
+    </Link>
   );
 }
