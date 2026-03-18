@@ -318,7 +318,6 @@
           "explanation_en": "A flashing DON'T WALK signal means finish crossing if you have started, but do not start crossing.",
           "explanation_zhHant": "閃爍的「不要走」信號表示已開始過馬路的可以繼續走完，但不要開始新的橫穿。",
           "tags": [
-            "pedestrian-crossing",
             "pedestrian-signal"
           ]
         },
