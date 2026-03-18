@@ -69,28 +69,32 @@ function ResultContent() {
 
   useEffect(() => {
     if (!exam) return;
+    const wrongs: { questionId: string; source: "mock"; sourceId: string; moduleId: string; wrongAnswer: string; correctAnswer: string }[] = [];
     exam.questions.forEach((q, i) => {
       const userAnswer = answers[i];
       if (userAnswer && userAnswer !== q.answer) {
-        const wrongQ = {
+        wrongs.push({
           questionId: q.id,
-          source: "mock" as const,
+          source: "mock",
           sourceId: examId,
           moduleId: q.module,
           wrongAnswer: userAnswer,
           correctAnswer: q.answer,
-        };
-        addWrongQuestion(wrongQ);
-        // Save to Firestore
-        if (user) {
-          const store = useWrongQuestionStore.getState();
-          const full = store.questions[q.id];
-          if (full) {
-            saveWrongQuestion(user.uid, full).catch(() => {});
-          }
-        }
+        });
       }
     });
+    // Batch add to store
+    wrongs.forEach((w) => addWrongQuestion(w));
+    // Save to Firestore after store is updated
+    if (user && wrongs.length > 0) {
+      setTimeout(() => {
+        const store = useWrongQuestionStore.getState();
+        wrongs.forEach((w) => {
+          const full = store.questions[w.questionId];
+          if (full) saveWrongQuestion(user.uid, full).catch(() => {});
+        });
+      }, 100);
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [exam]);
 

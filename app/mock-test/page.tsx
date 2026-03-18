@@ -7,6 +7,7 @@ import { signInWithGoogle } from "@/lib/auth";
 import { getPassThreshold } from "@/lib/examUtils";
 import { useT } from "@/lib/useT";
 import { useRequireSession } from "@/lib/useRequireSession";
+import { useProgressStore } from "@/store/useProgressStore";
 
 const mockExams = [
   { id: "MOCK-01", title: "Mock Exam 1", titleZh: "模拟考试 1", isNew: false },
@@ -27,6 +28,7 @@ export default function MockTestPage() {
   const isExamUnlocked = useAppStore((s) => s.isExamUnlocked);
   const t = useT();
   const redirecting = useRequireSession();
+  const testResults = useProgressStore((s) => s.testResults);
 
   if (redirecting) return null;
 
@@ -79,15 +81,25 @@ export default function MockTestPage() {
       <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {mockExams.map((exam) => {
           const unlocked = isExamUnlocked(exam.id);
-          const examNum = exam.id.replace("MOCK-", "");
+          const result = testResults[exam.id];
+          const hasTaken = !!result;
+          const examPassed = result ? result.score >= getPassThreshold(result.total) : false;
           const cardContent = (
             <div className={`group relative rounded-xl border bg-card p-5 shadow-sm transition-all hover:shadow-md ${
               exam.isNew ? "border-primary/40 hover:border-primary" : "border-border hover:border-primary/30"
             }`}>
-              {/* NEW ribbon for new exams */}
-              {exam.isNew && (
+              {/* NEW ribbon */}
+              {exam.isNew && !hasTaken && (
                 <div className="absolute -top-2.5 -right-2.5 rounded-full bg-primary px-2.5 py-1 text-[10px] font-bold text-white shadow-md">
                   NEW
+                </div>
+              )}
+              {/* PASS/FAIL badge */}
+              {hasTaken && (
+                <div className={`absolute -top-2.5 -right-2.5 rounded-full px-2.5 py-1 text-[10px] font-bold text-white shadow-md ${
+                  examPassed ? "bg-success" : "bg-error"
+                }`}>
+                  {examPassed ? "PASS" : "FAIL"}
                 </div>
               )}
 
@@ -97,8 +109,19 @@ export default function MockTestPage() {
               <p className="text-sm text-text-gray">{exam.titleZh}</p>
 
               <div className="mt-3 flex items-center justify-between text-xs text-text-gray">
-                <span>{questionCount} {t("mock.questions")}</span>
-                <span>{t("mock.pass")}: {passScore}/{questionCount}</span>
+                {hasTaken ? (
+                  <>
+                    <span className={`font-semibold ${examPassed ? "text-success" : "text-error"}`}>
+                      {result.score}/{result.total}
+                    </span>
+                    <span>{Math.round((result.score / result.total) * 100)}%</span>
+                  </>
+                ) : (
+                  <>
+                    <span>{questionCount} {t("mock.questions")}</span>
+                    <span>{t("mock.pass")}: {passScore}/{questionCount}</span>
+                  </>
+                )}
               </div>
             </div>
           );

@@ -78,6 +78,11 @@ const strings = {
     zhHans: "登录以追踪和回顾你的错题。",
   },
   "home.comingSoon": { en: "Coming Soon", zhHant: "即將推出", zhHans: "即将推出" },
+  "home.guidePrompt": {
+    en: "Not sure how to prepare? Check our step-by-step Guide",
+    zhHant: "不知道如何準備？查看我們的分步指南",
+    zhHans: "不知道如何准备？查看我们的分步指南",
+  },
   "home.guestBanner": { en: "Guest mode — limited access", zhHant: "訪客模式 — 有限存取", zhHans: "访客模式 — 有限访问" },
   "home.signInUnlock": { en: "Sign In to Unlock", zhHant: "登入解鎖", zhHans: "登录解锁" },
   "home.progress": { en: "Progress", zhHant: "進度", zhHans: "进度" },

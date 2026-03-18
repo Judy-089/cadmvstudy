@@ -91,39 +91,52 @@ export function Navbar() {
 
           {/* Right side */}
           <div className="flex items-center gap-2">
-            {/* UI Language switcher */}
-            <UILanguageSwitcher className="hidden sm:flex" />
-
-            {/* Study language selector — for both guest and authenticated */}
-            {(sessionMode === "authenticated" || sessionMode === "guest") && (
-              <div className="relative hidden md:block">
-                <button
-                  onClick={() => { setLangOpen(!langOpen); setMenuOpen(false); }}
-                  className="flex items-center gap-1 rounded-lg px-2 py-1.5 text-xs font-medium text-text-gray hover:bg-gray-100"
-                >
-                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                  </svg>
-                  {LANGUAGE_MODE_LABELS[languageMode].en}
-                </button>
-                {langOpen && (
-                  <div className="absolute right-0 top-9 w-52 rounded-lg border border-border bg-card py-1 shadow-lg">
-                    {(Object.keys(LANGUAGE_MODE_LABELS) as LanguageMode[]).map((mode) => (
-                      <button
-                        key={mode}
-                        onClick={() => handleLanguageChange(mode)}
-                        className={`w-full px-3 py-2 text-left text-sm ${
-                          mode === languageMode ? "bg-primary-light font-medium text-primary" : "text-text-gray hover:bg-gray-50"
-                        }`}
-                      >
-                        {LANGUAGE_MODE_LABELS[mode].en}
-                        <span className="ml-2 text-xs text-text-gray">{LANGUAGE_MODE_LABELS[mode].zh}</span>
-                      </button>
-                    ))}
+            {/* Combined language switcher — globe icon */}
+            <div className="relative hidden sm:block">
+              <button
+                onClick={() => { setLangOpen(!langOpen); setMenuOpen(false); }}
+                className="flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-medium text-text-gray hover:bg-gray-100 transition-colors"
+              >
+                <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                {t("nav.language")}
+              </button>
+              {langOpen && (
+                <div className="absolute right-0 top-10 w-64 rounded-xl border border-border bg-card p-4 shadow-xl z-50">
+                  {/* UI Language */}
+                  <div>
+                    <p className="text-[10px] font-bold text-text-gray uppercase tracking-wider mb-2">
+                      {t("nav.language")} (UI)
+                    </p>
+                    <UILanguageSwitcher />
                   </div>
-                )}
-              </div>
-            )}
+
+                  {/* Study Language — auth only */}
+                  {sessionMode === "authenticated" && (
+                    <div className="mt-4 border-t border-border pt-3">
+                      <p className="text-[10px] font-bold text-text-gray uppercase tracking-wider mb-2">
+                        Study Language
+                      </p>
+                      <div className="space-y-1">
+                        {(Object.keys(LANGUAGE_MODE_LABELS) as LanguageMode[]).map((mode) => (
+                          <button
+                            key={mode}
+                            onClick={() => handleLanguageChange(mode)}
+                            className={`w-full rounded-lg px-3 py-2 text-left text-xs transition-colors ${
+                              mode === languageMode ? "bg-primary-light font-medium text-primary" : "text-text-gray hover:bg-gray-50"
+                            }`}
+                          >
+                            {LANGUAGE_MODE_LABELS[mode].en}
+                            <span className="ml-1 text-text-gray">{LANGUAGE_MODE_LABELS[mode].zh}</span>
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
 
             {/* Auth / Guest */}
             {loading ? (

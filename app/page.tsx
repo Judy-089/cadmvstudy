@@ -7,6 +7,7 @@ import { useAppStore } from "@/store/useAppStore";
 import { signInWithGoogle } from "@/lib/auth";
 import { modules } from "@/data/modules";
 import { useT } from "@/lib/useT";
+import { getPassThreshold } from "@/lib/examUtils";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useWrongQuestionStore } from "@/store/useWrongQuestionStore";
 import { AgeSelectionModal } from "@/components/AgeSelectionModal";
@@ -145,6 +146,9 @@ export default function Home() {
   }
 
   // ── Dashboard (guest or authenticated) ──
+  const ageGroup = useAppStore.getState().ageGroup;
+  const questionCount = ageGroup === "under18" ? 46 : 36;
+
   return (
     <div className="mx-auto max-w-5xl px-4 py-6 lg:px-8">
       {sessionMode === "guest" && (
@@ -187,6 +191,22 @@ export default function Home() {
         </div>
       )}
 
+      {/* Guide prompt */}
+      <Link
+        href="/guide"
+        className="mb-6 flex items-center gap-3 rounded-xl border border-primary/20 bg-primary-light/30 p-4 transition-all hover:bg-primary-light/50"
+      >
+        <span className="text-xl">🗺️</span>
+        <div className="flex-1">
+          <p className="text-sm font-medium text-primary">
+            {t("home.guidePrompt")}
+          </p>
+        </div>
+        <svg className="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+        </svg>
+      </Link>
+
       {/* Learning Modules — 3-column grid */}
       <h2 className="mb-4 text-xl font-bold text-text-dark">
         {t("home.learningModules")}
@@ -225,6 +245,47 @@ export default function Home() {
           }
           return <LockedCard key={mod.id}>{cardContent}</LockedCard>;
         })}
+      </div>
+
+      {/* Mock Tests */}
+      <div className="mt-10">
+        <h2 className="mb-4 text-xl font-bold text-text-dark">
+          {t("mock.title")}
+        </h2>
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-5">
+          {[1,2,3,4,5,6,7,8,9,10].map((num) => {
+            const examId = `MOCK-${num.toString().padStart(2,"0")}`;
+            const unlocked = useAppStore.getState().isExamUnlocked(examId);
+            const result = useProgressStore.getState().testResults[examId];
+            const hasTaken = !!result;
+            const passed = result ? result.score >= getPassThreshold(result.total) : false;
+            const isNew = num >= 6;
+
+            const card = (
+              <div className={`relative rounded-xl border bg-card p-3 text-center shadow-sm transition-all hover:shadow-md ${
+                isNew && !hasTaken ? "border-primary/40" : "border-border"
+              }`}>
+                {isNew && !hasTaken && (
+                  <div className="absolute -top-2 -right-2 rounded-full bg-primary px-1.5 py-0.5 text-[8px] font-bold text-white">NEW</div>
+                )}
+                {hasTaken && (
+                  <div className={`absolute -top-2 -right-2 rounded-full px-1.5 py-0.5 text-[8px] font-bold text-white ${passed ? "bg-success" : "bg-error"}`}>
+                    {passed ? "PASS" : "FAIL"}
+                  </div>
+                )}
+                <p className="text-sm font-semibold text-text-dark">#{num}</p>
+                {hasTaken ? (
+                  <p className={`text-xs font-medium ${passed ? "text-success" : "text-error"}`}>{result.score}/{result.total}</p>
+                ) : (
+                  <p className="text-xs text-text-gray">{questionCount}Q</p>
+                )}
+              </div>
+            );
+
+            if (unlocked) return <Link key={examId} href={`/mock-test/${examId}`}>{card}</Link>;
+            return <div key={examId} className="opacity-40 grayscale">{card}</div>;
+          })}
+        </div>
       </div>
 
       {/* Mistake Review */}
