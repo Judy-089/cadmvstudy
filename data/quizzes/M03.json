@@ -126,9 +126,7 @@
           "answer": "B",
           "explanation_en": "At a T-intersection without signs or signals, vehicles on the through road have the right-of-way over vehicles on the terminating road.",
           "explanation_zhHant": "在沒有標誌或信號燈的丁字路口，直行道路上的車輛優先於從終止道路駛來的車輛。",
-          "tags": [
-            "t-intersection-sign"
-          ]
+          "tags": []
         },
         {
           "id": "M03-S01-Q05",
@@ -320,7 +318,6 @@
           "explanation_en": "A flashing DON'T WALK signal means finish crossing if you have started, but do not start crossing.",
           "explanation_zhHant": "閃爍的「不要走」信號表示已開始過馬路的可以繼續走完，但不要開始新的橫穿。",
           "tags": [
-            "pedestrian-signal",
             "pedestrian-crossing"
           ]
         },
@@ -421,8 +418,6 @@
           "explanation_en": "Pull over to the right edge of the road and stop until the emergency vehicle passes.",
           "explanation_zhHant": "靠右側路邊停車，直到緊急車輛通過。",
           "tags": [
-            "merging-traffic",
-            "red-light",
             "flashing-red"
           ]
         },
@@ -456,9 +451,7 @@
           "explanation_en": "Traffic in BOTH directions must stop for a school bus with flashing red lights, unless on a divided highway.",
           "explanation_zhHant": "雙向車輛都必須停車，除非在有隔離帶的高速公路上。",
           "tags": [
-            "red-light",
-            "flashing-red",
-            "school-bus"
+            "stop-sign"
           ]
         },
         {
@@ -553,10 +546,7 @@
           "explanation_en": "On a divided highway with a median, only traffic traveling in the same direction as the school bus must stop.",
           "explanation_zhHant": "在有中央隔離帶的公路上，只有與校車同向行駛的車輛需要停車。",
           "tags": [
-            "divided-highway",
-            "red-light",
-            "flashing-red",
-            "school-bus"
+            "flashing-red"
           ]
         },
         {

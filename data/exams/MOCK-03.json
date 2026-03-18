@@ -107,8 +107,7 @@
       "module": "M02",
       "tags": [
         "traffic-signs",
-        "signals",
-        "yellow-light"
+        "signals"
       ],
       "explanation_zhHant": "穩定的黄燈表示信號即將變紅。如果你能安全停車就應該停車。如果你已經在交叉路口內，繼續通過。",
       "stem_zhHant": "當你看到這個穩定的黃色交通燈時，它表示：",
@@ -218,8 +217,7 @@
       "explanation_zh": "交叉标志（写有'Railroad Crossing'的大X）位于铁路道口。它要求你让行任何驶来的火车。",
       "module": "M02",
       "tags": [
-        "traffic-signs",
-        "railroad"
+        "traffic-signs"
       ],
       "explanation_zhHant": "交叉標誌（写有'Railroad Crossing'的大X）位於鐵路道口。它要求你讓行任何駛來的火車。",
       "stem_zhHant": "交叉標誌（帶有「Railroad Crossing」字樣的大X）位於：",
@@ -440,10 +438,7 @@
       "explanation_zh": "当校车闪烁红灯时，无论你从哪个方向行驶都必须停车。唯一的例外是当你与校车之间有物理隔离带或障碍物分隔时。",
       "module": "M03",
       "tags": [
-        "right-of-way",
-        "school-bus",
-        "flashing-red",
-        "red-light"
+        "right-of-way"
       ],
       "explanation_zhHant": "當校車閃烁紅燈時，無論你從哪個方向行駛都必須停車。唯一的例外是當你與校車之間有物理隔離帶或障礙物分隔時。",
       "stem_zhHant": "校車閃爍紅燈時你必須停車：",
@@ -739,7 +734,8 @@
       "module": "M06",
       "tags": [
         "parking",
-        "curb-colors"
+        "curb-colors",
+        "colored-curbs"
       ],
       "explanation_zhHant": "白色路緣表示你隻能停留足夠长的時間來接送乘客或郵件。不允許停車或等待。",
       "stem_zhHant": "白色路緣表示：",
@@ -813,7 +809,8 @@
       "module": "M06",
       "tags": [
         "parking",
-        "curb-colors"
+        "curb-colors",
+        "colored-curbs"
       ],
       "explanation_zhHant": "黄色路緣表示僅供貨運裝卸區。如果你是駕駛員，你隻能在標示的時間內停留裝卸貨物。",
       "stem_zhHant": "黃色路緣表示：",
@@ -1221,8 +1218,7 @@
       "module": "M08",
       "tags": [
         "sharing-road",
-        "slow-vehicles",
-        "bac"
+        "slow-vehicles"
       ],
       "explanation_zhHant": "車輛後方的橙色三角形是慢速車輛標誌，表示該車輛的行駛速度為25英裡/小時或更低。減速并在可以時安全超車。",
       "stem_zhHant": "如果你在高速公路上看到車輛後方的橙色三角形，你應該：",

@@ -69,7 +69,8 @@
       "module": "M02",
       "tags": [
         "traffic-signs",
-        "signals"
+        "signals",
+        "stop-sign"
       ],
       "explanation_zhHant": "紅色交通信號燈表示你必須在標記的停車線前或進入人行橫道或交叉路口前完全停車，并等待信號燈變綠後才能通行。",
       "stem_zhHant": "這個標誌是什麼意思？",
@@ -106,9 +107,7 @@
       "module": "M02",
       "tags": [
         "traffic-signs",
-        "signals",
-        "flashing-yellow",
-        "yellow-light"
+        "signals"
       ],
       "explanation_zhHant": "閃烁的黄色信號燈表示減速并謹慎通行。你不需要停車，但應準備好讓行。",
       "stem_zhHant": "路口閃爍的黃色交通信號燈表示：",
@@ -219,7 +218,8 @@
       "module": "M02",
       "tags": [
         "traffic-signs",
-        "sign-colors"
+        "sign-colors",
+        "worker-symbol"
       ],
       "explanation_zhHant": "帶有黑色字母或符號的橙色標誌用於施工或工作區域。它们警告駕駛員前方有道路施工，并可能包含限速或繞行信息。",
       "stem_zhHant": "當你看到這個標誌時，你應該知道它表示：",
@@ -294,8 +294,7 @@
       "tags": [
         "traffic-signs",
         "signals",
-        "flashing-red",
-        "red-light"
+        "flashing-red"
       ],
       "explanation_zhHant": "閃烁的紅色信號燈與停車標誌的含義相同。你必須完全停車，然後在安全時通行。",
       "stem_zhHant": "你正駛近一個閃爍紅燈的路口，你必須：",
@@ -518,9 +517,7 @@
       "tags": [
         "right-of-way",
         "railroad-crossings",
-        "red-light",
-        "flashing-red",
-        "railroad"
+        "flashing-red"
       ],
       "explanation_zhHant": "當鐵路道口的紅燈閃烁時，你必須在距最近鐵軌至少15英尺處停車，并等待燈光停止閃烁且欄杆完全升起後才能通行。",
       "stem_zhHant": "你正駛近紅燈閃爍的鐵路道口，你必須：",
@@ -1111,9 +1108,6 @@
       "module": "M08",
       "tags": [
         "sharing-road",
-        "school-bus",
-        "stop-sign",
-        "red-light",
         "flashing-red"
       ],
       "explanation_zhHant": "當校車閃烁紅燈時，雙向所有車輛都必須停車，直到紅燈停止閃烁，除非被物理隔離帶分隔。",

@@ -138,7 +138,9 @@
       "explanation_en": "A diamond-shaped sign warns you of specific road conditions and dangers ahead.",
       "explanation_zh": "菱形标志警告你前方有特定的道路状况和危险。",
       "module": "M02",
-      "tags": [],
+      "tags": [
+        "curve-ahead"
+      ],
       "driverEd": false
     },
     {
@@ -558,7 +560,9 @@
       "explanation_en": "When parking headed downhill, turn your front wheels into the curb or toward the right side of the road.",
       "explanation_zh": "下坡停车时，将前轮转向路缘或道路右侧。",
       "module": "M04",
-      "tags": [],
+      "tags": [
+        "parking-hill"
+      ],
       "driverEd": false
     },
     {
@@ -586,7 +590,9 @@
       "explanation_en": "When parallel parking, look for a space at least three feet longer than your vehicle.",
       "explanation_zh": "平行停车时，寻找一个至少比你的车辆长三英尺的空间。",
       "module": "M04",
-      "tags": [],
+      "tags": [
+        "parallel-parking"
+      ],
       "driverEd": false
     },
     {

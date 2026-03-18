@@ -95,9 +95,7 @@
           "answer": "C",
           "explanation_en": "Blind pedestrians carry white canes or use guide dogs. You must always yield to them, even if the traffic signal is in your favor.",
           "explanation_zhHant": "盲人行人持白色手杖或使用導盲犬。即使交通信號燈在你這一邊，你也必須讓他們先行。",
-          "tags": [
-            "pedestrian-crossing"
-          ]
+          "tags": []
         },
         {
           "id": "M08-S01-Q04",
@@ -515,7 +513,9 @@
           "answer": "B",
           "explanation_en": "When a school bus flashes red lights and has its stop arm out, you must stop from both directions on an undivided road. Remain stopped until the red lights stop flashing.",
           "explanation_zhHant": "當校車閃爍紅燈並伸出停車臂時，在無分隔道路上雙方向的車輛都必須停車。保持停車直到紅燈停止閃爍。",
-          "tags": []
+          "tags": [
+            "red-light"
+          ]
         },
         {
           "id": "M08-S04-Q02",
@@ -639,7 +639,9 @@
           "answer": "A",
           "explanation_en": "When a school bus flashes yellow lights, it is preparing to stop. Slow down and be ready to stop.",
           "explanation_zhHant": "當校車閃爍黃燈時，表示正在準備停車。減速並準備停車。",
-          "tags": []
+          "tags": [
+            "yellow-light"
+          ]
         }
       ]
     },
@@ -930,10 +932,7 @@
           "answer": "B",
           "explanation_en": "Slow-moving vehicles (traveling 25 mph or less) display an orange/red triangle on the back.",
           "explanation_zhHant": "慢速車輛（時速25英里或以下）在車尾貼有橙色/紅色三角標誌。",
-          "tags": [
-            "slow-moving-vehicle",
-            "bac"
-          ]
+          "tags": []
         },
         {
           "id": "M08-S06-Q05",

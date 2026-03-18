@@ -1176,9 +1176,7 @@
       "explanation_en": "It is illegal to drive with a BAC of 0.04% or higher if you drive a vehicle requiring a commercial driver's license or if you are driving a passenger for hire.",
       "explanation_zh": "如果您驾驶需要商业驾照的车辆或载客营运，血液酒精浓度达到0.04%或更高即为违法。",
       "module": "M07",
-      "tags": [
-        "bac"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {

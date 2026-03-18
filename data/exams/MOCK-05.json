@@ -217,7 +217,8 @@
       "module": "M02",
       "tags": [
         "traffic-signs",
-        "signals"
+        "signals",
+        "red-light"
       ],
       "explanation_zhHant": "你可以在紅燈處右轉，前提是完全停車并讓行行人和交通，除非有禁止紅燈右轉的標誌。",
       "stem_zhHant": "紅燈時可以右轉，僅在：",
@@ -291,8 +292,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "intersections",
-        "t-intersection-sign"
+        "intersections"
       ],
       "explanation_zhHant": "在沒有停車或讓行標誌的T字路口，直行道路上的車輛、騎自行車者和行人擁有先行權。",
       "stem_zhHant": "在沒有標誌或信號燈的丁字路口，誰有優先通行權？",
@@ -329,8 +329,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "roundabouts",
-        "roundabout"
+        "roundabouts"
       ],
       "explanation_zhHant": "進入環形交叉路口時，減速，讓已經在環形交叉路口內的所有交通先行，并在有安全間隙時向右駛入。",
       "stem_zhHant": "進入環形交叉路口時，你必須：",
@@ -367,8 +366,7 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "roundabouts",
-        "roundabout"
+        "roundabouts"
       ],
       "explanation_zhHant": "如果你在環形交叉路口錯過了出口，繼續繞行直到再次到達你的出口。不要停車、倒車或逆行。",
       "stem_zhHant": "如果你在環形交叉路口錯過了出口，你應該：",
@@ -405,7 +403,8 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "left-turns"
+        "left-turns",
+        "red-light"
       ],
       "explanation_zhHant": "你可以在紅燈時從單行道左轉進入另一條單行道，前提是完全停車、讓行其他車輛和行人，并確認沒有禁止轉弯的標誌。",
       "stem_zhHant": "你可以在紅燈時從單行道左轉進入另一條單行道：",
@@ -812,7 +811,8 @@
       "module": "M06",
       "tags": [
         "parking",
-        "curb-colors"
+        "curb-colors",
+        "colored-curbs"
       ],
       "explanation_zhHant": "紅色路緣表示任何時候都不得停車、站立或停放車輛。公交車可以在僅限公交車的紅色區域停靠。",
       "stem_zhHant": "紅色路緣表示：",
@@ -849,7 +849,8 @@
       "module": "M06",
       "tags": [
         "parking",
-        "curb-colors"
+        "curb-colors",
+        "colored-curbs"
       ],
       "explanation_zhHant": "黄色路緣表示你隻能停留足夠裝卸乘客或貨物的時間。不要停留超過標示的時間。非商業駕駛員通常必須留在車輛旁邊。",
       "stem_zhHant": "黃色路緣表示：",

@@ -581,7 +581,9 @@
           "answer": "B",
           "explanation_en": "At a yellow curb, stop only long enough to load or unload. The driver of a noncommercial vehicle must stay with the vehicle.",
           "explanation_zhHant": "黃色路緣僅允許短暫停車以裝卸貨物。非商業車輛駕駛員必須留在車內。",
-          "tags": []
+          "tags": [
+            "colored-curbs"
+          ]
         },
         {
           "id": "M06-S04-Q04",

@@ -26,9 +26,7 @@
       "explanation_en": "A T-intersection sign warns that the road you are on ends ahead. You must turn left or right.",
       "explanation_zh": "T型路口标志警告你所在的道路前方结束。你必须左转或右转。",
       "module": "M02",
-      "tags": [
-        "t-intersection-sign"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -56,9 +54,7 @@
       "explanation_en": "A slippery when wet sign warns the road surface may become slippery in wet conditions. Reduce your speed.",
       "explanation_zh": "湿滑路面标志警告路面在潮湿条件下可能变得湿滑。降低速度。",
       "module": "M02",
-      "tags": [
-        "slippery-when-wet"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -86,9 +82,7 @@
       "explanation_en": "A curve ahead sign warns of a curve. Reduce speed before entering the curve to maintain control.",
       "explanation_zh": "前方弯道标志警告有弯道。在进入弯道前减速以保持控制。",
       "module": "M02",
-      "tags": [
-        "curve-ahead"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -262,9 +256,7 @@
       "explanation_en": "At a roundabout, slow down, yield to all traffic already in the roundabout, and enter when safe.",
       "explanation_zh": "在环形交叉路口，减速，让行已在环形路口内的所有车辆，安全时驶入。",
       "module": "M03",
-      "tags": [
-        "roundabout"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -292,9 +284,7 @@
       "explanation_en": "Continue driving around until you return to your exit. Do not stop or reverse.",
       "explanation_zh": "继续行驶直到再次到达出口。不要停车或倒车。",
       "module": "M03",
-      "tags": [
-        "roundabout"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {

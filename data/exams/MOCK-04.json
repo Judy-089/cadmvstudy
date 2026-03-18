@@ -180,7 +180,8 @@
       "module": "M02",
       "tags": [
         "traffic-signs",
-        "no-passing"
+        "no-passing",
+        "do-not-pass"
       ],
       "explanation_zhHant": "三角旗形標誌（三角形指向右方）放置在雙車道道路的左側，警告你正在進入禁止超車區域。",
       "stem_zhHant": "雙車道上的三角旗形標誌表示：",
@@ -329,7 +330,8 @@
       "module": "M03",
       "tags": [
         "right-of-way",
-        "intersections"
+        "intersections",
+        "stop-sign"
       ],
       "explanation_zhHant": "當兩輛車同時到達交叉路口時，直行車輛比左轉車輛擁有先行權。",
       "stem_zhHant": "兩輛車同時到達停車標誌處，一輛左轉另一輛直行，誰先行？",
@@ -811,7 +813,8 @@
       "module": "M06",
       "tags": [
         "parking",
-        "curb-colors"
+        "curb-colors",
+        "colored-curbs"
       ],
       "explanation_zhHant": "綠色路緣表示你隻能停車有限的時間。查看路緣上的標誌或標記以了解時間限制。",
       "stem_zhHant": "綠色路緣表示：",
@@ -885,7 +888,8 @@
       "module": "M06",
       "tags": [
         "parking",
-        "curb-colors"
+        "curb-colors",
+        "colored-curbs"
       ],
       "explanation_zhHant": "藍色路緣專為展示残疾人停車牌或残疾人車牌的車輛停車。未經授權使用可能會被處以高額罰款。",
       "stem_zhHant": "藍色路緣表示：",

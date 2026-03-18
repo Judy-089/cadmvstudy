@@ -170,9 +170,7 @@
       "explanation_en": "A merging traffic sign warns that traffic from another road may be entering your lane. You should adjust your speed and position to allow safe merging.",
       "explanation_zh": "汇入车流标志警告您，来自另一条道路的车辆可能正在驶入您的车道。您应调整速度和位置以便安全汇入。",
       "module": "M02",
-      "tags": [
-        "merging-traffic"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -228,9 +226,7 @@
       "explanation_en": "A stop ahead warning sign alerts you that there is a stop sign or signal ahead. Prepare to slow down and stop.",
       "explanation_zh": "前方停车警告标志提醒您前方有停车标志或信号灯。准备减速并停车。",
       "module": "M02",
-      "tags": [
-        "stop-ahead"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -566,9 +562,7 @@
       "explanation_en": "The 15 mph speed limit near railroad crossings only applies when you cannot see the tracks for 400 feet in both directions. If controlled by gates or signals, you may drive faster than 15 mph.",
       "explanation_zh": "铁路道口附近15英里/小时的限速仅在你无法看到两个方向各400英尺铁轨时适用。如果有闸门或信号控制，可以超过15英里/小时。",
       "module": "M04",
-      "tags": [
-        "railroad"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -988,9 +982,7 @@
       "explanation_en": "It is illegal to drive with a BAC of 0.01% or higher if you are under 21 or on DUI probation at any age.",
       "explanation_zh": "如果未满21岁或处于酒驾缓刑期间，BAC达到0.01%或更高即违法。",
       "module": "M10",
-      "tags": [
-        "bac"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {

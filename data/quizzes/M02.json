@@ -66,9 +66,7 @@
           "answer": "C",
           "explanation_en": "A red and white triangular YIELD sign means you must slow down and be ready to stop to let any vehicle, bicyclist, or pedestrian pass.",
           "explanation_zhHant": "紅白三角形讓路標誌（YIELD）表示必須減速並準備停車，讓其他車輛、自行車或行人先行通過。",
-          "tags": [
-            "yield-sign"
-          ]
+          "tags": []
         },
         {
           "id": "M02-S01-Q03",
@@ -132,9 +130,7 @@
           "answer": "C",
           "explanation_en": "A WRONG WAY sign indicates you are traveling against the flow of traffic. Stop and go back the way you came.",
           "explanation_zhHant": "逆行標誌（WRONG WAY）表示你正在逆行。應立即停車並調頭返回。",
-          "tags": [
-            "wrong-way"
-          ]
+          "tags": []
         },
         {
           "id": "M02-S01-Q05",
@@ -296,7 +292,9 @@
           "answer": "B",
           "explanation_en": "A yellow pennant-shaped sign on the left side of the road means NO PASSING ZONE. You may not pass other vehicles in this area.",
           "explanation_zhHant": "道路左側黃色三角旗形標誌表示禁止超車區域。在該區域內不得超越前方車輛。",
-          "tags": []
+          "tags": [
+            "do-not-pass"
+          ]
         },
         {
           "id": "M02-S02-Q03",
@@ -358,7 +356,9 @@
           "answer": "C",
           "explanation_en": "An orange diamond-shaped sign indicates a construction zone or road work ahead. Slow down and watch for workers and equipment.",
           "explanation_zhHant": "橙色菱形標誌表示前方為施工區域。需減速行駛，注意施工人員和設備。",
-          "tags": []
+          "tags": [
+            "worker-symbol"
+          ]
         },
         {
           "id": "M02-S02-Q05",
@@ -453,9 +453,7 @@
           "answer": "C",
           "explanation_en": "When you see a construction zone sign, slow down and watch for workers and equipment. Fines for violations in construction zones are typically doubled.",
           "explanation_zhHant": "看到施工區標誌時需減速行駛，注意施工人員和設備。施工區域內違規罰款通常加倍。",
-          "tags": [
-            "worker-symbol"
-          ]
+          "tags": []
         },
         {
           "id": "M02-S02-Q08",
@@ -486,9 +484,7 @@
           "answer": "C",
           "explanation_en": "A round (circular) yellow sign is uniquely used for railroad crossing warnings.",
           "explanation_zhHant": "圓形黃色標誌是鐵路道口警告特有的形狀。",
-          "tags": [
-            "railroad"
-          ]
+          "tags": []
         }
       ]
     },
@@ -555,7 +551,9 @@
           "answer": "C",
           "explanation_en": "A steady yellow light means the red light is about to appear. Stop if you can safely do so. If already in the intersection, continue through carefully.",
           "explanation_zhHant": "黃燈亮表示紅燈即將出現。如果能安全停車則停下。如果已經進入路口，應謹慎通過。",
-          "tags": []
+          "tags": [
+            "yellow-light"
+          ]
         },
         {
           "id": "M02-S03-Q03",
@@ -587,7 +585,6 @@
           "explanation_en": "A flashing red light means STOP. Treat it the same as a stop sign: come to a full stop and proceed when safe.",
           "explanation_zhHant": "紅燈閃爍與停車標誌相同，必須完全停車，確認安全後方可繼續行駛。",
           "tags": [
-            "red-light",
             "flashing-red"
           ]
         },
@@ -718,7 +715,6 @@
           "explanation_en": "A flashing yellow light means proceed with caution. Slow down and be alert; you do not need to stop but must yield to hazards.",
           "explanation_zhHant": "黃燈閃爍表示謹慎通過。減速並保持警覺，不需要停車但必須讓行。",
           "tags": [
-            "yellow-light",
             "flashing-yellow"
           ]
         },
@@ -782,7 +778,9 @@
           "answer": "B",
           "explanation_en": "A steady green light means GO, but only after yielding to any vehicles, bicyclists, or pedestrians still in the intersection.",
           "explanation_zhHant": "綠燈亮表示可以通行，但須先讓已在路口內的車輛、自行車和行人通過。",
-          "tags": []
+          "tags": [
+            "green-light"
+          ]
         }
       ]
     },
@@ -1066,7 +1064,9 @@
           "answer": "B",
           "explanation_en": "A yellow curb means loading/unloading only. Drivers of noncommercial vehicles must stay with the vehicle.",
           "explanation_zhHant": "黃色路緣僅供裝卸貨物，非商業車輛司機須留在車內。",
-          "tags": []
+          "tags": [
+            "colored-curbs"
+          ]
         },
         {
           "id": "M02-S04-Q10",
@@ -1288,9 +1288,7 @@
           "answer": "C",
           "explanation_en": "A pentagon (5-sided) shape is used for school zone signs.",
           "explanation_zhHant": "五邊形標誌用於學校區域。",
-          "tags": [
-            "school-zone"
-          ]
+          "tags": []
         },
         {
           "id": "M02-S05-Q07",

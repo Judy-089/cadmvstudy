@@ -132,9 +132,7 @@
           "answer": "B",
           "explanation_en": "You can be arrested for DUI even if your BAC is below the legal limit, if alcohol or drugs impair your ability to drive safely.",
           "explanation_zhHant": "即使BAC低於法定限制，如果酒精或藥物影響了你的安全駕駛能力，你仍然可能因酒駕被逮捕。",
-          "tags": [
-            "bac"
-          ]
+          "tags": []
         },
         {
           "id": "M10-S01-Q05",
@@ -778,9 +776,7 @@
           "answer": "C",
           "explanation_en": "Drivers under 21 who are caught with a BAC of 0.01% or more will have their license suspended for 1 year.",
           "explanation_zhHant": "21歲以下的駕駛員如果BAC達到0.01%或更高，駕照將被吊銷1年。",
-          "tags": [
-            "bac"
-          ]
+          "tags": []
         },
         {
           "id": "M10-S05-Q04",

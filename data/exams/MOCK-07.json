@@ -26,9 +26,7 @@
       "explanation_en": "A yield ahead warning sign is a diamond-shaped yellow sign that warns you a yield sign is ahead. The yield sign itself is a downward-pointing triangle.",
       "explanation_zh": "让行预告标志是菱形黄色标志，提醒您前方有让行标志。让行标志本身是一个倒三角形。",
       "module": "M02",
-      "tags": [
-        "yield-ahead"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -56,9 +54,7 @@
       "explanation_en": "A lane ends sign warns that a lane will end ahead and you must merge into an adjacent lane. Be prepared to change lanes safely.",
       "explanation_zh": "车道结束标志警告前方车道将结束，你必须并入相邻车道。做好安全变道的准备。",
       "module": "M02",
-      "tags": [
-        "lane-ends"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -86,9 +82,7 @@
       "explanation_en": "A divided highway sign warns that the road ahead has a dividing median or barrier separating traffic moving in opposite directions.",
       "explanation_zh": "分隔公路标志警告前方道路有中央分隔带或隔离栏将对向行驶的车辆分开。",
       "module": "M02",
-      "tags": [
-        "divided-highway"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -116,9 +110,7 @@
       "explanation_en": "A pedestrian crossing warning sign is a yellow diamond-shaped sign showing a person walking. It warns drivers to watch for pedestrians.",
       "explanation_zh": "行人过马路警告标志是一个黄色菱形标志，上面画着一个行走的人。它警告驾驶员注意行人。",
       "module": "M02",
-      "tags": [
-        "pedestrian-crossing"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -146,9 +138,7 @@
       "explanation_en": "A crossroad warning sign alerts you that a four-way intersection is ahead. Be prepared to slow down and watch for cross traffic.",
       "explanation_zh": "十字路口警告标志提醒您前方有四向交叉路口。准备减速并注意横向车辆。",
       "module": "M02",
-      "tags": [
-        "crossroad"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -176,9 +166,7 @@
       "explanation_en": "A winding road sign is a yellow diamond-shaped sign that warns of a series of curves in the road ahead. Reduce your speed before entering the curves.",
       "explanation_zh": "蜿蜒道路标志是黄色菱形标志，警告前方有一系列弯道。在进入弯道前减速。",
       "module": "M02",
-      "tags": [
-        "winding-road"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -206,9 +194,7 @@
       "explanation_en": "A traffic signal ahead sign warns that there is a traffic signal ahead that may be hidden by a curve, hill, or other obstruction. Be prepared to stop.",
       "explanation_zh": "前方交通信号灯标志警告前方有可能被弯道、山丘或其他障碍物遮挡的交通信号灯。准备停车。",
       "module": "M02",
-      "tags": [
-        "traffic-signal-ahead"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -236,9 +222,7 @@
       "explanation_en": "An added lane sign indicates that a new lane is being added to the road. Traffic entering from the new lane does not need to merge because it has its own lane.",
       "explanation_zh": "新增车道标志表示道路正在增加一条新车道。从新车道进入的车辆不需要合并，因为它有自己的车道。",
       "module": "M02",
-      "tags": [
-        "added-lane"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -266,7 +250,9 @@
       "explanation_en": "You may turn right at a red light after coming to a complete stop, unless a NO TURN ON RED sign is posted. You must yield to pedestrians and all traffic before turning.",
       "explanation_zh": "你可以在红灯时右转，但必须先完全停车，除非有禁止红灯右转的标志。转弯前必须让行行人和所有车辆。",
       "module": "M03",
-      "tags": [],
+      "tags": [
+        "red-light"
+      ],
       "driverEd": false
     },
     {
@@ -406,7 +392,9 @@
       "explanation_en": "You may turn left against a red light from a one-way street onto another one-way street, as long as there is no sign prohibiting it. You must come to a complete stop and yield first.",
       "explanation_zh": "你可以在红灯时从单行道左转到另一条单行道，只要没有禁止转弯的标志。你必须先完全停车并让行。",
       "module": "M03",
-      "tags": [],
+      "tags": [
+        "red-light"
+      ],
       "driverEd": false
     },
     {
@@ -742,9 +730,7 @@
       "explanation_en": "If a school bus is on the other side of a divided or multilane highway (two or more lanes in each direction), you do not need to stop. But if on the same side, you must stop.",
       "explanation_zh": "如果校车在分隔或多车道高速公路（每个方向两条或以上车道）的另一侧，你不需要停车。但如果在同一侧，你必须停车。",
       "module": "M08",
-      "tags": [
-        "school-bus"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -996,9 +982,7 @@
       "explanation_en": "It is illegal to drive with a BAC of 0.08% or higher if you are over 21 years old. Even below legal limits, alcohol can still impair driving ability.",
       "explanation_zh": "如果你超过21岁，驾驶时血液酒精浓度达到0.08%或更高即为违法。即使低于法定限度，酒精仍可能影响驾驶能力。",
       "module": "M10",
-      "tags": [
-        "bac"
-      ],
+      "tags": [],
       "driverEd": false
     },
     {
@@ -1256,7 +1240,9 @@
       "explanation_en": "Advanced driver assistance technologies such as automated parallel parking, lane departure, and adaptive cruise control are not permitted during the drive test, as the test evaluates your abilities.",
       "explanation_zh": "高级驾驶辅助技术（如自动平行停车、车道偏离和自适应巡航控制）在路考期间不允许使用，因为考试评估的是你的能力。",
       "module": "M01",
-      "tags": [],
+      "tags": [
+        "parallel-parking"
+      ],
       "driverEd": true
     },
     {
