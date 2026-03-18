@@ -5,7 +5,7 @@ const strings = {
   "nav.home": { en: "Home", zhHant: "首頁", zhHans: "首页" },
   "nav.study": { en: "Study", zhHant: "學習", zhHans: "学习" },
   "nav.mockTest": { en: "Mock Test", zhHant: "模擬考試", zhHans: "模拟考试" },
-  "nav.progress": { en: "Progress", zhHant: "進度", zhHans: "进度" },
+  "nav.progress": { en: "About", zhHant: "關於", zhHans: "关于" },
   "nav.guide": { en: "Guide", zhHant: "指南", zhHans: "指南" },
   "nav.signIn": { en: "Sign In", zhHant: "登入", zhHans: "登录" },
   "nav.signOut": { en: "Sign Out", zhHant: "登出", zhHans: "退出" },
