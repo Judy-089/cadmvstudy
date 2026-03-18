@@ -1,15 +1,9 @@
-interface ExamQuestion {
-  id: string;
-  driverEd?: boolean;
-  [key: string]: unknown;
-}
-
 /**
  * Filters an exam to 36 questions for adult (18+) test-takers
  * by removing questions flagged as driver-education specific.
  * The real CA DMV test is 36 questions for adults, 46 for minors.
  */
-export function getAdultExamQuestions<T extends ExamQuestion>(
+export function getAdultExamQuestions<T extends { id: string; driverEd?: boolean }>(
   questions: T[]
 ): T[] {
   const filtered = questions.filter((q) => !q.driverEd);
