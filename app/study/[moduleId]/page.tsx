@@ -1,6 +1,6 @@
 "use client";
 
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { useState, useEffect, useRef, useCallback } from "react";
 import { modules } from "@/data/modules";
 import { tagImages, sectionImages, ImageMapping } from "@/data/imageMap";
@@ -95,8 +95,11 @@ function SectionHeaderImages({ sectionKey }: { sectionKey: string }) {
 
 export default function ModuleLearningPage() {
   const params = useParams();
+  const router = useRouter();
   const moduleId = params.moduleId as string;
   const moduleMeta = modules.find((m) => m.id === moduleId);
+  const moduleIndex = modules.findIndex((m) => m.id === moduleId);
+  const nextModule = modules[moduleIndex + 1] ?? null;
   const isModuleUnlocked = useAppStore((s) => s.isModuleUnlocked);
   const languageMode = useAppStore((s) => s.languageMode);
   const sessionMode = useAppStore((s) => s.sessionMode);
@@ -407,9 +410,15 @@ export default function ModuleLearningPage() {
           sectionTitle={currentSection.titleEn}
           onClose={() => {
             setShowQuiz(false);
-            // If there's a next section, move to it
             if (nextSection) {
+              // Move to next section within this module
               handleSectionChange(nextSection.id);
+            } else if (nextModule) {
+              // Last section of module → go to next module
+              router.push(`/study/${nextModule.id}`);
+            } else {
+              // Last module → go back to study center
+              router.push("/study");
             }
           }}
         />
