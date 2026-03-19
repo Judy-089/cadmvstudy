@@ -113,9 +113,25 @@ export default function ExamPage() {
   // Get text in chosen language
   const qt = getExamText(question, examLang);
 
+  // Challenger mode: show answer immediately after selecting
+  const isChallenger = examId === "MOCK-11";
+  const [showChallengerAnswer, setShowChallengerAnswer] = useState(false);
+
   const handleAnswer = (index: number, key: string) => {
+    if (isChallenger && answers[index] !== undefined) return; // prevent changing answer in challenger
     setAnswer(index, key);
     if (!langLocked) setLangLocked(true);
+    if (isChallenger) setShowChallengerAnswer(true);
+  };
+
+  const handleChallengerNext = () => {
+    setShowChallengerAnswer(false);
+    if (currentIndex < totalQuestions - 1) {
+      setCurrentIndex(currentIndex + 1);
+    } else {
+      // All questions answered — auto submit
+      submitExam();
+    }
   };
 
   if (isSubmitted) {
@@ -181,16 +197,23 @@ export default function ExamPage() {
           <span className="font-mono text-sm text-text-gray">
             {formatTime(elapsed)}
           </span>
-          <button
-            onClick={() => {
-              if (answeredCount < totalQuestions && !confirm(`You've answered ${answeredCount}/${totalQuestions} questions. Submit anyway?`))
-                return;
-              submitExam();
-            }}
-            className="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-primary/90"
-          >
-            Submit
-          </button>
+          {!isChallenger && (
+            <button
+              onClick={() => {
+                if (answeredCount < totalQuestions && !confirm(`You've answered ${answeredCount}/${totalQuestions} questions. Submit anyway?`))
+                  return;
+                submitExam();
+              }}
+              className="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-primary/90"
+            >
+              Submit
+            </button>
+          )}
+          {isChallenger && (
+            <span className="rounded-lg bg-gradient-to-r from-orange-500 to-red-500 px-3 py-1.5 text-xs font-bold text-white">
+              🔥 Challenger
+            </span>
+          )}
         </div>
       </div>
 
@@ -203,12 +226,14 @@ export default function ExamPage() {
       <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
         <div className="mb-4 flex items-center gap-2">
           <span className="text-xs text-text-gray">Q{currentIndex + 1}</span>
-          <button
-            onClick={() => toggleFlag(currentIndex)}
-            className={`text-xs ${flagged.has(currentIndex) ? "text-warning font-medium" : "text-text-gray hover:text-warning"}`}
-          >
-            {flagged.has(currentIndex) ? "⚑ Flagged" : "⚐ Flag"}
-          </button>
+          {!isChallenger && (
+            <button
+              onClick={() => toggleFlag(currentIndex)}
+              className={`text-xs ${flagged.has(currentIndex) ? "text-warning font-medium" : "text-text-gray hover:text-warning"}`}
+            >
+              {flagged.has(currentIndex) ? "⚑ Flagged" : "⚐ Flag"}
+            </button>
+          )}
         </div>
 
         <p className="text-lg leading-relaxed text-text-dark">{qt.stem}</p>
@@ -245,72 +270,135 @@ export default function ExamPage() {
           {question.options.map((opt) => {
             const isSelected = answers[currentIndex] === opt.key;
             const optText = qt.getOptionText(opt);
+            const isCorrect = opt.key === question.answer;
+            const showResult = isChallenger && showChallengerAnswer;
             return (
               <button
                 key={opt.key}
                 onClick={() => handleAnswer(currentIndex, opt.key)}
+                disabled={showResult}
                 className={`flex w-full items-center gap-3 rounded-xl border-2 p-4 text-left transition-all ${
-                  isSelected
+                  showResult
+                    ? isCorrect
+                      ? "border-green-500 bg-green-50"
+                      : isSelected
+                      ? "border-red-400 bg-red-50"
+                      : "border-border opacity-50"
+                    : isSelected
                     ? "border-primary bg-primary-light"
                     : "border-border hover:border-primary/30 hover:bg-gray-50"
                 }`}
               >
                 <span className={`flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full text-sm font-semibold ${
-                  isSelected ? "bg-primary text-white" : "bg-gray-100 text-text-gray"
+                  showResult
+                    ? isCorrect
+                      ? "bg-green-500 text-white"
+                      : isSelected
+                      ? "bg-red-400 text-white"
+                      : "bg-gray-100 text-text-gray"
+                    : isSelected ? "bg-primary text-white" : "bg-gray-100 text-text-gray"
                 }`}>
-                  {opt.key}
+                  {showResult ? (isCorrect ? "✓" : isSelected ? "✗" : opt.key) : opt.key}
                 </span>
                 <span className="text-text-dark">{optText}</span>
               </button>
             );
           })}
         </div>
+
+        {/* Challenger mode: show bilingual explanation immediately */}
+        {isChallenger && showChallengerAnswer && (
+          <div className="mt-6 rounded-xl border-2 border-primary/20 bg-primary-light/30 p-5">
+            <div className="mb-2 flex items-center gap-2">
+              {answers[currentIndex] === question.answer ? (
+                <span className="rounded-full bg-green-500 px-3 py-0.5 text-xs font-bold text-white">✓ Correct</span>
+              ) : (
+                <span className="rounded-full bg-red-400 px-3 py-0.5 text-xs font-bold text-white">✗ Incorrect</span>
+              )}
+              <span className="text-xs text-text-gray">
+                Answer: {question.answer}
+              </span>
+            </div>
+            {/* English explanation */}
+            <p className="text-sm leading-relaxed text-text-dark">{question.explanation_en}</p>
+            {/* Chinese explanation (zhHant or zh) */}
+            <p className="mt-2 text-sm leading-relaxed text-text-light">
+              {question.explanation_zhHant || question.explanation_zh}
+            </p>
+            <button
+              onClick={handleChallengerNext}
+              className="mt-4 w-full rounded-xl bg-primary py-3 text-sm font-semibold text-white hover:bg-primary/90 transition-colors"
+            >
+              {currentIndex < totalQuestions - 1 ? "Next Question →" : "See Results →"}
+            </button>
+          </div>
+        )}
       </div>
 
-      {/* Navigation */}
-      <div className="mt-6 flex items-center justify-between">
-        <button
-          onClick={() => setCurrentIndex(Math.max(0, currentIndex - 1))}
-          disabled={currentIndex === 0}
-          className="rounded-lg px-4 py-2 text-sm font-medium text-primary hover:bg-primary-light disabled:opacity-30"
-        >
-          ← Previous
-        </button>
-        <button
-          onClick={() => setCurrentIndex(Math.min(totalQuestions - 1, currentIndex + 1))}
-          disabled={currentIndex === totalQuestions - 1}
-          className="rounded-lg px-4 py-2 text-sm font-medium text-primary hover:bg-primary-light disabled:opacity-30"
-        >
-          Next →
-        </button>
-      </div>
-
-      {/* Question Grid */}
-      <div className="mt-6 rounded-xl border border-border bg-card p-4 shadow-sm">
-        <p className="mb-3 text-xs font-medium text-text-gray">Question Navigator</p>
-        <div className="flex flex-wrap gap-2">
-          {exam.questions.map((_, i) => {
-            const isAnswered = answers[i] !== undefined;
-            const isFlagged = flagged.has(i);
-            const isCurrent = i === currentIndex;
-            return (
-              <button
-                key={i}
-                onClick={() => setCurrentIndex(i)}
-                className={`flex h-8 w-8 items-center justify-center rounded-lg text-xs font-medium transition-all ${
-                  isCurrent ? "ring-2 ring-primary ring-offset-1" : ""
-                } ${
-                  isFlagged ? "bg-warning-light text-warning"
-                    : isAnswered ? "bg-primary-light text-primary"
-                    : "bg-gray-100 text-text-gray"
-                }`}
-              >
-                {i + 1}
-              </button>
-            );
-          })}
+      {/* Navigation — hidden in Challenger mode */}
+      {!isChallenger && (
+        <div className="mt-6 flex items-center justify-between">
+          <button
+            onClick={() => setCurrentIndex(Math.max(0, currentIndex - 1))}
+            disabled={currentIndex === 0}
+            className="rounded-lg px-4 py-2 text-sm font-medium text-primary hover:bg-primary-light disabled:opacity-30"
+          >
+            ← Previous
+          </button>
+          <button
+            onClick={() => setCurrentIndex(Math.min(totalQuestions - 1, currentIndex + 1))}
+            disabled={currentIndex === totalQuestions - 1}
+            className="rounded-lg px-4 py-2 text-sm font-medium text-primary hover:bg-primary-light disabled:opacity-30"
+          >
+            Next →
+          </button>
         </div>
-      </div>
+      )}
+
+      {/* Question Grid — hidden in Challenger mode */}
+      {!isChallenger && (
+        <div className="mt-6 rounded-xl border border-border bg-card p-4 shadow-sm">
+          <p className="mb-3 text-xs font-medium text-text-gray">Question Navigator</p>
+          <div className="flex flex-wrap gap-2">
+            {exam.questions.map((_, i) => {
+              const isAnswered = answers[i] !== undefined;
+              const isFlagged = flagged.has(i);
+              const isCurrent = i === currentIndex;
+              return (
+                <button
+                  key={i}
+                  onClick={() => setCurrentIndex(i)}
+                  className={`flex h-8 w-8 items-center justify-center rounded-lg text-xs font-medium transition-all ${
+                    isCurrent ? "ring-2 ring-primary ring-offset-1" : ""
+                  } ${
+                    isFlagged ? "bg-warning-light text-warning"
+                      : isAnswered ? "bg-primary-light text-primary"
+                      : "bg-gray-100 text-text-gray"
+                  }`}
+                >
+                  {i + 1}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* Challenger mode: progress bar */}
+      {isChallenger && (
+        <div className="mt-6 rounded-xl border border-border bg-card p-4 shadow-sm">
+          <div className="flex items-center justify-between text-xs text-text-gray mb-2">
+            <span>Progress: {answeredCount}/{totalQuestions}</span>
+            <span>{Math.round((answeredCount / totalQuestions) * 100)}%</span>
+          </div>
+          <div className="h-2 w-full rounded-full bg-gray-100">
+            <div
+              className="h-2 rounded-full bg-primary transition-all"
+              style={{ width: `${(answeredCount / totalQuestions) * 100}%` }}
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 }
