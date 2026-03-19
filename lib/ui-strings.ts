@@ -283,7 +283,7 @@ const strings = {
   },
   "tutorial.signIn.title": { en: "Sign In to Unlock", zhHant: "登入解鎖", zhHans: "登录解锁" },
   "tutorial.signIn.desc": {
-    en: "Sign in with Google to unlock all 12 modules, 11 mock exams, and save your progress across devices.",
+    en: "Sign in with Google to unlock all 13 modules, 11 mock exams, and save your progress across devices.",
     zhHant: "用Google登入即可解鎖全部13個模組、11套模擬考試，並跨設備保存學習進度。",
     zhHans: "用Google登录即可解锁全部13个模块、11套模拟考试，并跨设备保存学习进度。",
   },

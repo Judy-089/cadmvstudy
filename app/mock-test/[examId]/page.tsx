@@ -82,6 +82,10 @@ export default function ExamPage() {
     return `${m}:${s.toString().padStart(2, "0")}`;
   }, []);
 
+  // Challenger mode: show answer immediately after selecting
+  const isChallenger = examId === "MOCK-11";
+  const [showChallengerAnswer, setShowChallengerAnswer] = useState(false);
+
   // Timer tick
   const [, setTick] = useState(0);
   useEffect(() => {
@@ -112,10 +116,6 @@ export default function ExamPage() {
 
   // Get text in chosen language
   const qt = getExamText(question, examLang);
-
-  // Challenger mode: show answer immediately after selecting
-  const isChallenger = examId === "MOCK-11";
-  const [showChallengerAnswer, setShowChallengerAnswer] = useState(false);
 
   const handleAnswer = (index: number, key: string) => {
     if (isChallenger && answers[index] !== undefined) return; // prevent changing answer in challenger
