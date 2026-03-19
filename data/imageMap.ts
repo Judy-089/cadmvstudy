@@ -44,6 +44,16 @@ export const tagImages: Record<string, ImageMapping[]> = {
   ],
   "diagonal-crossing": [{ src: "/visuals/signals/diagonal-crossing.png", alt: "Diagonal Crossing", caption: "Diagonal Pedestrian Crossing", captionZh: "对角线行人过街" }],
 
+  // ── Hand-and-Arm Signals ──
+  "hand-signal-left": [{ src: "/visuals/hand-signals/left-turn.png", alt: "Hand Signal: Left Turn", caption: "Left Turn – arm straight out", captionZh: "左转手势 – 左臂伸直" }],
+  "hand-signal-right": [{ src: "/visuals/hand-signals/right-turn.png", alt: "Hand Signal: Right Turn", caption: "Right Turn – arm bent up", captionZh: "右转手势 – 左臂弯曲向上" }],
+  "hand-signal-stop": [{ src: "/visuals/hand-signals/slow-stop.png", alt: "Hand Signal: Slow or Stop", caption: "Slow / Stop – arm bent down", captionZh: "减速/停车手势 – 左臂弯曲向下" }],
+  "hand-signal": [
+    { src: "/visuals/hand-signals/left-turn.png", alt: "Hand Signal: Left Turn", caption: "Left Turn", captionZh: "左转" },
+    { src: "/visuals/hand-signals/right-turn.png", alt: "Hand Signal: Right Turn", caption: "Right Turn", captionZh: "右转" },
+    { src: "/visuals/hand-signals/slow-stop.png", alt: "Hand Signal: Slow or Stop", caption: "Slow / Stop", captionZh: "减速/停车" },
+  ],
+
   // ── Regulatory Signs (new individual images) ──
   "stop-sign": [{ src: "/visuals/signs/stop.gif", alt: "Stop Sign", caption: "STOP Sign", captionZh: "停车标志" }],
   "yield-sign": [{ src: "/visuals/signs/yield.gif", alt: "Yield Sign", caption: "YIELD Sign", captionZh: "让行标志" }],

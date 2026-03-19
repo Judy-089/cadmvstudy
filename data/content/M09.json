@@ -128,6 +128,22 @@
             "mount"
           ],
           "zhHant": "如果需要使用手機导航，在駕駛前設置好并安裝在儀表板或擋風玻璃上。駕駛中隻能單次滑動或點擊操作。"
+        },
+        {
+          "id": "M09-S02-K06",
+          "en": "Be Familiar with New Technology: Advanced driver assistance systems (ADAS) are becoming more common. Vehicles with these systems may respond to road situations differently than a human driver would. Understand how your vehicle's technology works.",
+          "zh": "熟悉新技术：高级驾驶辅助系统（ADAS）正变得越来越普遍。配备这些系统的车辆可能以与人类驾驶员不同的方式应对路况。了解你的车辆技术如何工作。",
+          "zhHant": "熟悉新技術：高級駕駛輔助系統（ADAS）正變得越來越普遍。配備這些系統的車輛可能以與人類駕駛員不同的方式應對路況。了解你的車輛技術如何工作。",
+          "isHighFreq": false,
+          "tags": ["adas", "technology"]
+        },
+        {
+          "id": "M09-S02-K07",
+          "en": "Be Aware of Carbon Monoxide: All gas-powered vehicles produce carbon monoxide, a deadly odorless gas. Never start your vehicle inside a garage with the door closed. Symptoms of carbon monoxide poisoning include tiredness, yawning, dizziness, nausea, and headache.",
+          "zh": "注意一氧化碳：所有燃油车辆都会产生一氧化碳，一种致命的无味气体。切勿在车库门关闭的情况下启动车辆。一氧化碳中毒的症状包括疲劳、打哈欠、头晕、恶心和头痛。",
+          "zhHant": "注意一氧化碳：所有燃油車輛都會產生一氧化碳，一種致命的無味氣體。切勿在車庫門關閉的情況下啟動車輛。一氧化碳中毒的症狀包括疲勞、打哈欠、頭暈、噁心和頭痛。",
+          "isHighFreq": false,
+          "tags": ["carbon-monoxide", "safety"]
         }
       ],
       "titleZhHant": "分心駕駛"
@@ -193,6 +209,22 @@
             "airbag"
           ],
           "zhHant": "後座是12歲及以下兒童最安全的位置。不要將後向式安全座椅放在有激活安全氣囊的前座。"
+        },
+        {
+          "id": "M09-S03-K06",
+          "en": "Air Bags: Ride at least 10 inches from the airbag cover to maintain full control. Children seated next to a side air bag may be at risk of serious or fatal injury. Passengers should also sit at least 10 inches away from the passenger-side air bag.",
+          "zh": "安全气囊：保持距离气囊盖至少10英寸以保持完全控制。坐在侧面安全气囊旁边的儿童可能面临严重或致命伤害的风险。乘客也应距离副驾驶侧安全气囊至少10英寸。",
+          "zhHant": "安全氣囊：保持距離氣囊蓋至少10英寸以保持完全控制。坐在側面安全氣囊旁邊的兒童可能面臨嚴重或致命傷害的風險。乘客也應距離副駕駛側安全氣囊至少10英寸。",
+          "isHighFreq": true,
+          "tags": ["air-bag", "safety"]
+        },
+        {
+          "id": "M09-S03-K07",
+          "en": "Unattended Children and Pets: It is illegal to leave a child who is six years old or younger unattended in a vehicle. A child may be left under the supervision of a person who is at least 12 years old. It is dangerous and illegal to leave children or animals in a hot vehicle — the temperature can rise rapidly even with a window slightly open.",
+          "zh": "无人看管的儿童和宠物：将六岁或以下的儿童单独留在车内是违法的。可以将儿童留在至少12岁的人的监护下。将儿童或动物留在炎热的车内是危险且违法的——即使车窗微开，车内温度也会迅速升高。",
+          "zhHant": "無人看管的兒童和寵物：將六歲或以下的兒童單獨留在車內是違法的。可以將兒童留在至少12歲的人的監護下。將兒童或動物留在炎熱的車內是危險且違法的——即使車窗微開，車內溫度也會迅速升高。",
+          "isHighFreq": true,
+          "tags": ["child-safety", "unattended"]
         }
       ],
       "titleZhHant": "安全帶與兒童安全"
@@ -267,6 +299,64 @@
             "distance"
           ],
           "zhHant": "在市區轉弯前至少提前100英尺打轉向燈，在高速公路上至少提前200英尺打轉向燈。"
+        },
+        {
+          "id": "M09-S04-K07",
+          "en": "Be Aware of Your Surroundings: Know what is around you at all times. Think of your vehicle as surrounded by zones: Green (ahead) — scan 10 seconds ahead for hazards; Blue (sides) — know what is next to you; Yellow (blind spots) — areas you cannot see in mirrors; Red (behind) — check rearview mirror frequently.",
+          "zh": "注意周围环境：时刻了解你周围的情况。将你的车辆想象成被不同区域包围：绿色区（前方）——提前10秒扫视前方的危险；蓝色区（两侧）——了解你旁边的情况；黄色区（盲区）——后视镜看不到的区域；红色区（后方）——经常检查后视镜。",
+          "isHighFreq": true,
+          "tags": [
+            "awareness",
+            "surroundings",
+            "zones",
+            "scanning"
+          ],
+          "zhHant": "注意周圍環境：時刻了解你周圍的情況。將你的車輛想像成被不同區域包圍：綠色區（前方）——提前10秒掃視前方的危險；藍色區（兩側）——了解你旁邊的情況；黃色區（盲區）——後視鏡看不到的區域；紅色區（後方）——經常檢查後視鏡。"
+        },
+        {
+          "id": "M09-S04-K08",
+          "en": "Carbon Monoxide: All gas-powered vehicles produce carbon monoxide, a deadly odorless gas. Never start your vehicle inside a garage with the door closed. Symptoms of carbon monoxide poisoning include: tiredness, yawning, dizziness, nausea, headache, and ringing in the ears. If you experience these symptoms, have your exhaust system checked.",
+          "zh": "一氧化碳：所有燃油车辆都会产生一氧化碳，这是一种致命的无味气体。不要在车库门关闭的情况下启动车辆。一氧化碳中毒的症状包括：疲倦、打哈欠、头晕、恶心、头痛和耳鸣。如果你出现这些症状，请检查排气系统。",
+          "isHighFreq": true,
+          "tags": [
+            "carbon-monoxide",
+            "exhaust",
+            "safety",
+            "symptoms"
+          ],
+          "zhHant": "一氧化碳：所有燃油車輛都會產生一氧化碳，這是一種致命的無味氣體。不要在車庫門關閉的情況下啟動車輛。一氧化碳中毒的症狀包括：疲倦、打哈欠、頭暈、噁心、頭痛和耳鳴。如果你出現這些症狀，請檢查排氣系統。"
+        },
+        {
+          "id": "M09-S04-K09",
+          "en": "Know What is at Your Side: Do not stay in another driver's blind spot. Avoid driving directly alongside other vehicles. Make space for vehicles entering freeways, even if you have the right-of-way.",
+          "zh": "了解你两侧的情况：不要停留在其他驾驶员的盲区内。避免与其他车辆并排行驶。为进入高速公路的车辆腾出空间，即使你有路权。",
+          "zhHant": "了解你兩側的情況：不要停留在其他駕駛員的盲區內。避免與其他車輛並排行駛。為進入高速公路的車輛騰出空間，即使你有路權。",
+          "isHighFreq": true,
+          "tags": ["blind-spot", "awareness"]
+        },
+        {
+          "id": "M09-S04-K10",
+          "en": "Know What is Behind You: Check traffic behind you often by using your rearview mirror, side mirrors, and turning your head. Check behind you when you: change lanes, check your blind spots, reduce your speed, turn into a side road or driveway, stop to pull into a parking space, pull up to and away from the curb, or back up.",
+          "zh": "了解你后方的情况：经常通过后视镜、侧视镜和转头来检查后方交通。在以下情况下检查后方：变道、检查盲区、减速、转入侧路或车道、停车进入停车位、靠近或离开路边、或倒车时。",
+          "zhHant": "了解你後方的情況：經常通過後視鏡、側視鏡和轉頭來檢查後方交通。在以下情況下檢查後方：變道、檢查盲區、減速、轉入側路或車道、停車進入停車位、靠近或離開路邊、或倒車時。",
+          "isHighFreq": true,
+          "tags": ["mirrors", "awareness"]
+        },
+        {
+          "id": "M09-S04-K11",
+          "en": "Sun Glare: To manage sun glare, keep your windshield clean, wear polarized sunglasses, maintain enough space between vehicles, make sure your car visor works properly, be aware of pedestrians you may have difficulty seeing, and try to avoid driving during sunrise and sunset.",
+          "zh": "太阳眩光：为应对太阳眩光，保持挡风玻璃清洁，佩戴偏光太阳镜，保持与其他车辆的安全距离，确保遮阳板正常工作，注意可能难以看到的行人，并尽量避免在日出和日落时段驾驶。",
+          "zhHant": "太陽眩光：為應對太陽眩光，保持擋風玻璃清潔，佩戴偏光太陽鏡，保持與其他車輛的安全距離，確保遮陽板正常工作，注意可能難以看到的行人，並盡量避免在日出和日落時段駕駛。",
+          "isHighFreq": false,
+          "tags": ["sun-glare", "visibility"]
+        },
+        {
+          "id": "M09-S04-K12",
+          "en": "Choose Between Hazards: When dangers are on both sides of the road, give more space to the most dangerous situation. For example, on a two-lane road with an oncoming vehicle to the left and a bicyclist to the right, slow down and let the oncoming vehicle pass first, then move left to pass the bicyclist with at least three feet of clearance.",
+          "zh": "在危险之间选择：当道路两侧都有危险时，给最危险的情况留出更多空间。例如，在双车道道路上，左侧有对向来车，右侧有自行车，应减速让对向车辆先通过，然后向左移动，保持至少三英尺的间距超越自行车。",
+          "zhHant": "在危險之間選擇：當道路兩側都有危險時，給最危險的情況留出更多空間。例如，在雙車道道路上，左側有對向來車，右側有自行車，應減速讓對向車輛先通過，然後向左移動，保持至少三英尺的間距超越自行車。",
+          "isHighFreq": true,
+          "tags": ["hazard-avoidance"]
         }
       ],
       "titleZhHant": "防禦性駕駛技巧"
@@ -330,6 +420,22 @@
             "minimum-speed"
           ],
           "zhHant": "加州大多数高速公路的最低限速為45英裡/小時（除非另有標示或路况需要降低速度）。"
+        },
+        {
+          "id": "M09-S05-K06",
+          "en": "If Your Vehicle Becomes Disabled on the Freeway: (1) Safely pull over to the right shoulder. (2) Exit on the right side away from traffic. (3) Dial 511 or call for assistance. (4) Stay inside your vehicle with your seat belt on until help arrives. (5) Use emergency flashers to help other vehicles see you.",
+          "zh": "如果你的车在高速公路上抛锚：(1) 安全地靠右停到路肩。(2) 从右侧远离车流的一边下车。(3) 拨打511或寻求帮助。(4) 系好安全带留在车内直到救援到达。(5) 打开双闪灯帮助其他车辆看到你。",
+          "zhHant": "如果你的車在高速公路上拋錨：(1) 安全地靠右停到路肩。(2) 從右側遠離車流的一邊下車。(3) 撥打511或尋求幫助。(4) 繫好安全帶留在車內直到救援到達。(5) 打開雙閃燈幫助其他車輛看到你。",
+          "isHighFreq": true,
+          "tags": ["freeway", "disabled-vehicle", "emergency"]
+        },
+        {
+          "id": "M09-S05-K07",
+          "en": "California Highway Patrol (CHP) Freeway Service Patrol (FSP): During commute times, FSP provides free emergency roadside services on freeways. FSP will provide a gallon of gas, jump start your battery, change a flat tire, and report a collision to CHP. Call 511 for FSP information.",
+          "zh": "加州公路巡警（CHP）高速公路服务巡逻队（FSP）：在通勤时段，FSP在高速公路上提供免费的紧急路边服务。FSP会提供一加仑汽油、帮你启动电瓶、更换漏气轮胎，并向CHP报告碰撞事故。拨打511了解FSP信息。",
+          "zhHant": "加州公路巡警（CHP）高速公路服務巡邏隊（FSP）：在通勤時段，FSP在高速公路上提供免費的緊急路邊服務。FSP會提供一加侖汽油、幫你啟動電瓶、更換漏氣輪胎，並向CHP報告碰撞事故。撥打511了解FSP信息。",
+          "isHighFreq": false,
+          "tags": ["fsp", "freeway", "chp"]
         }
       ],
       "titleZhHant": "高速公路駕駛"

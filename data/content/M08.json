@@ -65,6 +65,31 @@
             "awareness"
           ],
           "zhHant": "在住宅區、學校附近和停車場要格外注意行人。"
+        },
+        {
+          "id": "M08-S01-K06",
+          "en": "Pedestrian signals: WALK or Walking Person means you may cross the street. DON'T WALK or Raised Hand means you may not cross. Flashing DON'T WALK means the traffic signal is about to change — do not start crossing, but if you have already started, finish crossing quickly. Drivers must yield to pedestrians even if the DON'T WALK signal is flashing.",
+          "zh": "行人信号灯：WALK（行走）或行走的人形图标表示可以过马路。DON'T WALK（不要行走）或举起的手掌图标表示不可以过马路。闪烁的DON'T WALK表示交通信号即将变化——不要开始过马路，但如果已经开始过了，请尽快走完。即使DON'T WALK信号在闪烁，驾驶员也必须让行人先行。",
+          "isHighFreq": true,
+          "tags": [
+            "pedestrian",
+            "signals",
+            "walk",
+            "dont-walk"
+          ],
+          "zhHant": "行人信號燈：WALK（行走）或行走的人形圖標表示可以過馬路。DON'T WALK（不要行走）或舉起的手掌圖標表示不可以過馬路。閃爍的DON'T WALK表示交通信號即將變化——不要開始過馬路，但如果已經開始過了，請盡快走完。即使DON'T WALK信號在閃爍，駕駛員也必須讓行人先行。"
+        },
+        {
+          "id": "M08-S01-K07",
+          "en": "Diagonal crossing (scramble intersection): These are crisscross and diagonal crosswalks that allow pedestrians to cross the intersection in any direction at the same time. Cross only when the WALK signal allows it. Some crosswalks have flashing lights — whether or not the lights are flashing, look for pedestrians and be prepared to stop.",
+          "zh": "对角线过街（全向十字路口）：这些是交叉和对角线人行横道，允许行人同时从任何方向穿过路口。只有在WALK信号允许时才可过马路。一些人行横道有闪烁灯——无论灯是否在闪烁，都要注意行人并准备停车。",
+          "isHighFreq": true,
+          "tags": [
+            "pedestrian",
+            "diagonal-crossing",
+            "scramble"
+          ],
+          "zhHant": "對角線過街（全向十字路口）：這些是交叉和對角線人行橫道，允許行人同時從任何方向穿過路口。只有在WALK信號允許時才可過馬路。一些人行橫道有閃爍燈——無論燈是否在閃爍，都要注意行人並準備停車。"
         }
       ],
       "titleZhHant": "行人"
@@ -133,14 +158,102 @@
         {
           "id": "M08-S02-K06",
           "en": "Look carefully for bicyclists before opening your car door. Dooring (opening your door into a cyclist's path) is a common cause of bicycle accidents.",
-          "zh": "开车门前仔细观察是否有骑自行车的人。“开门撞人“（把车门打开到骑车人的行驶路线上）是自行车事故的常见原因。",
+          "zh": "开车门前仔细观察是否有骑自行车的人。「开门撞人」（把车门打开到骑车人的行驶路线上）是自行车事故的常见原因。",
           "isHighFreq": true,
           "tags": [
             "bicycle",
             "dooring",
             "safety"
           ],
-          "zhHant": "開車門前仔細觀察是否有騎自行車的人。“開門撞人“（把車門打開到騎車人的行駛路線上）是自行車事故的常見原因。"
+          "zhHant": "開車門前仔細觀察是否有騎自行車的人。「開門撞人」（把車門打開到騎車人的行駛路線上）是自行車事故的常見原因。"
+        },
+        {
+          "id": "M08-S02-K07",
+          "en": "It is illegal to drive in a bicycle lane unless you are: (1) parking where permitted, (2) entering or leaving the road, or (3) turning within 200 feet of an intersection. Before entering a bike lane, check your blind spots for bicyclists.",
+          "zh": "在自行车道内行驶是违法的，除非你：(1) 在允许的地方停车，(2) 进入或离开道路，或 (3) 在距路口200英尺以内转弯。进入自行车道之前，检查盲区是否有骑自行车的人。",
+          "isHighFreq": true,
+          "tags": [
+            "bicycle-lane",
+            "driving-rules",
+            "exceptions"
+          ],
+          "zhHant": "在自行車道內行駛是違法的，除非你：(1) 在允許的地方停車，(2) 進入或離開道路，或 (3) 在距路口200英尺以內轉彎。進入自行車道之前，檢查盲區是否有騎自行車的人。"
+        },
+        {
+          "id": "M08-S02-K08",
+          "en": "There are multiple types of bike lanes and markings: (1) Bike lane - established along streets adjacent to vehicle traffic, typically marked by a single solid white line. (2) Buffered bike lane - uses chevrons or diagonal markings to provide greater separation from traffic and on-street parking.",
+          "zh": "自行车道有多种类型和标记：(1) 自行车道——沿街道设置，紧邻机动车交通，通常以单条实线白线标记。(2) 缓冲自行车道——使用人字形或对角线标记，与机动车交通和路边停车提供更大的间隔。",
+          "isHighFreq": true,
+          "tags": [
+            "bicycle-lane",
+            "types",
+            "bike-lane",
+            "buffered"
+          ],
+          "zhHant": "自行車道有多種類型和標記：(1) 自行車道——沿街道設置，緊鄰機動車交通，通常以單條實線白線標記。(2) 緩衝自行車道——使用人字形或對角線標記，與機動車交通和路邊停車提供更大的間隔。"
+        },
+        {
+          "id": "M08-S02-K09",
+          "en": "More types of bike lanes: (3) Bike route - uses bike route signs and shared road markings to designate a preferred route for bicyclists on streets shared with vehicle traffic. (4) Bicycle boulevard - prioritizes bicycle travel on streets shared with vehicle traffic.",
+          "zh": "更多自行车道类型：(3) 自行车路线——使用自行车路线标志和共享道路标记，在与机动车共享的街道上为骑行者指定首选路线。(4) 自行车大道——在与机动车共享的街道上优先考虑自行车通行。",
+          "isHighFreq": true,
+          "tags": [
+            "bicycle-lane",
+            "types",
+            "bike-route",
+            "boulevard"
+          ],
+          "zhHant": "更多自行車道類型：(3) 自行車路線——使用自行車路線標誌和共享道路標記，在與機動車共享的街道上為騎行者指定首選路線。(4) 自行車大道——在與機動車共享的街道上優先考慮自行車通行。"
+        },
+        {
+          "id": "M08-S02-K10",
+          "en": "More types of bike lanes: (5) Separated bikeway - physically separated from motor vehicle traffic, also known as a cycle track or protected bike lane. Separation may include flexible posts, grade separation, inflexible barriers, or on-street parking. (6) Shared roadway bicycle markings (sharrows) - alert drivers that bicyclists can occupy the lane and help bicyclists maintain a safe lane position. Maintain three feet of distance between your car and a cyclist.",
+          "zh": "更多自行车道类型：(5) 分隔自行车道——与机动车交通物理分隔，也称为自行车专用道或受保护的自行车道。分隔方式包括弹性桩、高度差分隔、硬质隔离栏或路边停车。(6) 共享道路自行车标记（共享箭头）——提醒驾驶员骑行者可以占用车道，并帮助骑行者保持安全的车道位置。与骑行者保持三英尺的距离。",
+          "isHighFreq": true,
+          "tags": [
+            "bicycle-lane",
+            "types",
+            "separated",
+            "sharrows"
+          ],
+          "zhHant": "更多自行車道類型：(5) 分隔自行車道——與機動車交通物理分隔，也稱為自行車專用道或受保護的自行車道。分隔方式包括彈性樁、高度差分隔、硬質隔離欄或路邊停車。(6) 共享道路自行車標記（共享箭頭）——提醒駕駛員騎行者可以佔用車道，並幫助騎行者保持安全的車道位置。與騎行者保持三英尺的距離。"
+        },
+        {
+          "id": "M08-S02-K11",
+          "en": "Bicyclists traveling slower than the flow of traffic must ride as close as possible to the right curb or edge of the road, unless: (1) passing a vehicle or another bicycle in the same direction, (2) preparing to make a left turn, (3) avoiding a hazard or road condition, (4) a lane is too narrow for a bicycle and a vehicle to safely travel side-by-side in the lane, (5) approaching a right turn, or (6) on a one-way road with two or more lanes, where the bicyclist may ride near the left curb or edge.",
+          "zh": "骑自行车者在行驶速度低于车流速度时，必须尽可能靠近右侧路沿或路边骑行，除非：(1) 超越同方向的车辆或自行车，(2) 准备左转，(3) 为避开危险或路况，(4) 车道太窄，自行车和机动车无法安全并排通行，(5) 准备右转，或 (6) 在有两条或更多车道的单行道上，骑自行车者可以靠近左侧路沿或路边骑行。",
+          "isHighFreq": true,
+          "tags": [
+            "bicycle",
+            "travel-lanes",
+            "right-side"
+          ],
+          "zhHant": "騎自行車者在行駛速度低於車流速度時，必須盡可能靠近右側路沿或路邊騎行，除非：(1) 超越同方向的車輛或自行車，(2) 準備左轉，(3) 為避開危險或路況，(4) 車道太窄，自行車和機動車無法安全並排通行，(5) 準備右轉，或 (6) 在有兩條或更多車道的單行道上，騎自行車者可以靠近左側路沿或路邊騎行。"
+        },
+        {
+          "id": "M08-S02-K12",
+          "en": "Bicyclist responsibilities include: obey all traffic signs and signals, ride in the same direction as traffic, look over shoulder before turning or changing lanes, yield to pedestrians, wear a helmet if under 18, use a bike lane when available, and have fully functional brakes.",
+          "zh": "骑行者的责任包括：遵守所有交通标志和信号灯、与车流同方向骑行、转弯或变道前回头观察、礼让行人、18岁以下必须戴头盔、有自行车道时使用自行车道、以及刹车必须完好有效。",
+          "isHighFreq": true,
+          "tags": [
+            "bicycle",
+            "responsibilities",
+            "rules"
+          ],
+          "zhHant": "騎行者的責任包括：遵守所有交通標誌和信號燈、與車流同方向騎行、轉彎或變道前回頭觀察、禮讓行人、18歲以下必須戴頭盔、有自行車道時使用自行車道、以及剎車必須完好有效。"
+        },
+        {
+          "id": "M08-S02-K13",
+          "en": "When bicycling at night, bicycles must have: a front lamp with white light visible from 300 feet, a built-in rear red reflector or flashing red light visible from 500 feet, white or yellow reflectors on pedals or cyclist's shoes visible from 200 feet, and a white or yellow reflector on the front wheel and a white or red reflector on the rear wheel.",
+          "zh": "夜间骑行时，自行车必须配备：前方白色车灯，从300英尺外可见；后方内置红色反光镜或闪烁红灯，从500英尺外可见；踏板或骑行者鞋子上的白色或黄色反光镜，从200英尺外可见；前轮上的白色或黄色反光镜以及后轮上的白色或红色反光镜。",
+          "isHighFreq": false,
+          "tags": [
+            "bicycle",
+            "night",
+            "equipment",
+            "lights"
+          ],
+          "zhHant": "夜間騎行時，自行車必須配備：前方白色車燈，從300英尺外可見；後方內置紅色反光鏡或閃爍紅燈，從500英尺外可見；踏板或騎行者鞋子上的白色或黃色反光鏡，從200英尺外可見；前輪上的白色或黃色反光鏡以及後輪上的白色或紅色反光鏡。"
         }
       ],
       "titleZhHant": "自行車"
@@ -204,6 +317,14 @@
             "hazards"
           ],
           "zhHant": "對汽車來說較小的路况問題（坑洼、碎石、濕滑路面）對摩托車騎手來說可能是重大危險。"
+        },
+        {
+          "id": "M08-S03-K06",
+          "en": "Light Rail Vehicles: On public roads, light rail vehicles have the same rights and responsibilities as other vehicles. Never turn in front of an approaching light rail vehicle. Do not overtake and pass a light rail vehicle on the left side, whether it is moving or standing, unless: the tracks are so close to the right side that you cannot pass on the right, you are on a one-way street, or a traffic officer directs you to pass on the left.",
+          "zh": "轻轨车辆：在公共道路上，轻轨车辆与其他车辆享有相同的权利和责任。切勿在即将驶来的轻轨车辆前方转弯。不要从左侧超越或通过轻轨车辆（无论其是否在行驶），除非：轨道太靠近右侧无法从右侧通过、在单行道上、或交警指示你从左侧通过。",
+          "zhHant": "輕軌車輛：在公共道路上，輕軌車輛與其他車輛享有相同的權利和責任。切勿在即將駛來的輕軌車輛前方轉彎。不要從左側超越或通過輕軌車輛（無論其是否在行駛），除非：軌道太靠近右側無法從右側通過、在單行道上、或交警指示你從左側通過。",
+          "isHighFreq": true,
+          "tags": ["light-rail"]
         }
       ],
       "titleZhHant": "摩托車"
@@ -365,13 +486,13 @@
         {
           "id": "M08-S06-K02",
           "en": "California's Move Over law requires you to change lanes or slow down when passing a stopped emergency vehicle, tow truck, or CalTrans vehicle with flashing lights.",
-          "zh": "加州的“让路法“要求在经过亮着闪灯的停靠紧急车辆、拖车或加州交通局车辆时，必须变道或减速。",
+          "zh": "加州的「让路法」要求在经过亮着闪灯的停靠紧急车辆、拖车或加州交通局车辆时，必须变道或减速。",
           "isHighFreq": true,
           "tags": [
             "move-over-law",
             "emergency-vehicle"
           ],
-          "zhHant": "加州的“讓路法“要求在經過亮着閃燈的停靠緊急車輛、拖車或加州交通局車輛時，必須變道或減速。"
+          "zhHant": "加州的「讓路法」要求在經過亮着閃燈的停靠緊急車輛、拖車或加州交通局車輛時，必須變道或減速。"
         },
         {
           "id": "M08-S06-K03",
@@ -405,6 +526,30 @@
             "triangle"
           ],
           "zhHant": "慢速車輛（時速25英裡或以下）在車尾貼有橙色/紅色三角標誌。準備好調整你的車速。"
+        },
+        {
+          "id": "M08-S06-K06",
+          "en": "Neighborhood Electric Vehicles (NEVs) and Low-Speed Vehicles (LSVs) reach a maximum speed of 25 mph. They are restricted from roads where the speed limit is greater than 35 mph. Watch for NEV USE ONLY and NEV ROUTE signs and markings.",
+          "zh": "邻里电动车（NEV）和低速车辆（LSV）最高速度为25英里/小时。它们被限制不能在限速超过35英里/小时的道路上行驶。注意NEV USE ONLY和NEV ROUTE的标志和标记。",
+          "zhHant": "鄰里電動車（NEV）和低速車輛（LSV）最高速度為25英里/小時。它們被限制不能在限速超過35英里/小時的道路上行駛。注意NEV USE ONLY和NEV ROUTE的標誌和標記。",
+          "isHighFreq": false,
+          "tags": ["nev", "slow-vehicle"]
+        },
+        {
+          "id": "M08-S06-K07",
+          "en": "Animal-drawn vehicles and people riding horses are allowed to share the road with motor vehicles. It is against the law to intentionally scare horses or livestock.",
+          "zh": "马拉车辆和骑马的人被允许与机动车辆共享道路。故意惊吓马匹或牲畜是违法的。",
+          "zhHant": "馬拉車輛和騎馬的人被允許與機動車輛共享道路。故意驚嚇馬匹或牲畜是違法的。",
+          "isHighFreq": false,
+          "tags": ["animal-drawn", "horses"]
+        },
+        {
+          "id": "M08-S06-K08",
+          "en": "Vehicles with Hazardous Loads: A diamond-shaped sign on a truck means the truck's load may be dangerous (gas, explosives, etc.). Vehicles with these signs must stop before crossing railroad tracks.",
+          "zh": "危险品车辆：卡车上的菱形标志表示卡车装载的货物可能是危险的（汽油、爆炸物等）。带有这些标志的车辆必须在通过铁路道口前停车。",
+          "zhHant": "危險品車輛：卡車上的菱形標誌表示卡車裝載的貨物可能是危險的（汽油、爆炸物等）。帶有這些標誌的車輛必須在通過鐵路道口前停車。",
+          "isHighFreq": true,
+          "tags": ["hazardous-load", "railroad"]
         }
       ],
       "titleZhHant": "緊急車輛與慢速車輛"

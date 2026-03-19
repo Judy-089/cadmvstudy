@@ -16,7 +16,7 @@ import {
 interface ProgressState {
   // Data
   moduleProgress: Record<string, ModuleProgress>;
-  testResults: Record<string, { score: number; total: number }>;
+  testResults: Record<string, { score: number; total: number } | undefined>;
   quizResults: Record<string, QuizResultData>;
   loaded: boolean;
 

@@ -1,357 +1,280 @@
 {
   "moduleId": "M01",
-  "titleEn": "Licensing Requirements",
-  "titleZh": "驾照申请要求",
+  "titleEn": "Driving Basics",
+  "titleZh": "驾驶基础入门",
+  "titleZhHant": "駕駛基礎入門",
   "sections": [
     {
       "id": "S01",
-      "titleEn": "Driver License Classes",
-      "titleZh": "驾照类别",
+      "titleEn": "Driver Readiness",
+      "titleZh": "驾驶员身体准备",
+      "titleZhHant": "駕駛員身體準備",
       "knowledgePoints": [
         {
           "id": "M01-S01-K01",
-          "en": "A Class C license allows you to drive a 2-axle vehicle with a Gross Vehicle Weight Rating (GVWR) of 26,000 lbs or less, including a towing vehicle with a trailer weighing 10,000 lbs GVWR or less.",
-          "zh": "C类驾照允许驾驶总重量不超过26,000磅的两轴车辆，包括拖挂重量不超过10,000磅的拖车。这是最常见的私人小汽车驾照类型。",
+          "en": "Good vision is essential for safe driving. You must be able to notice hazards in different lighting conditions, judge distances accurately, and read signs from a safe distance.",
+          "zh": "良好的视力对安全驾驶至关重要。您必须能够在不同光线条件下注意到危险、准确判断距离，并在安全距离内看清标志。",
+          "zhHant": "良好的視力對安全駕駛至關重要。您必須能夠在不同光線條件下注意到危險、準確判斷距離，並在安全距離內看清標誌。",
           "isHighFreq": true,
-          "tags": [
-            "license-class",
-            "class-c"
-          ],
-          "zhHant": "C类駕照允許駕駛總重量不超過26,000磅的兩軸車輛，包括拖掛重量不超過10,000磅的拖車。這是最常見的私人小汽車駕照类型。"
+          "tags": ["driver-readiness", "vision"]
         },
         {
           "id": "M01-S01-K02",
-          "en": "A Class M1 license is required to operate a two-wheel motorcycle or motor-driven cycle. A Class M2 license is for motorized bicycles, mopeds, or any bicycle with an attached motor.",
-          "zh": "M1类驾照用于驾驶两轮摩托车，M2类驾照用于驾驶机动自行车或助力车。如果想骑摩托车，需要单独申请M1驾照。",
+          "en": "Good hearing helps you notice hazards such as horns, sirens, and screeching tires. It is illegal to wear earplugs or a headset covering both ears while driving or riding a bicycle. You may use a single earpiece hands-free device.",
+          "zh": "良好的听力有助于注意到喇叭声、警笛声和轮胎刺耳声等危险信号。驾车或骑自行车时，佩戴覆盖双耳的耳塞或耳机是违法的。您可以使用单耳免提设备。",
+          "zhHant": "良好的聽力有助於注意到喇叭聲、警笛聲和輪胎刺耳聲等危險信號。駕車或騎自行車時，佩戴覆蓋雙耳的耳塞或耳機是違法的。您可以使用單耳免持設備。",
           "isHighFreq": true,
-          "tags": [
-            "license-class",
-            "motorcycle"
-          ],
-          "zhHant": "M1类駕照用於駕駛兩輪摩托車，M2类駕照用於駕駛機動自行車或助力車。如果想騎摩托車，需要單獨申請M1駕照。"
+          "tags": ["driver-readiness", "hearing", "earplugs"]
         },
         {
           "id": "M01-S01-K03",
-          "en": "A commercial Class A license is required to operate any combination of vehicles with a GVWR of 26,001 lbs or more, provided the towed vehicle is over 10,000 lbs GVWR.",
-          "zh": "商业A类驾照用于驾驶总重量超过26,001磅的组合车辆，且被拖车辆重量超过10,000磅。适用于大型货车司机。",
-          "isHighFreq": false,
-          "tags": [
-            "license-class",
-            "commercial"
-          ],
-          "zhHant": "商業A类駕照用於駕駛總重量超過26,001磅的組合車輛，且被拖車輛重量超過10,000磅。適用於大型貨車司機。"
+          "en": "Fatigue and drowsiness affect your vision, increase your reaction time, and impair your judgment. If you feel drowsy while driving, pull over to a safe area and rest. Do not rely on coffee, fresh air, or turning up the radio to keep you awake.",
+          "zh": "疲劳和困倦会影响视力、增加反应时间并损害判断力。如果驾驶时感到困倦，请驶入安全区域停车休息。不要依赖咖啡、新鲜空气或调大收音机音量来保持清醒。",
+          "zhHant": "疲勞和困倦會影響視力、增加反應時間並損害判斷力。如果駕駛時感到困倦，請駛入安全區域停車休息。不要依賴咖啡、新鮮空氣或調大收音機音量來保持清醒。",
+          "isHighFreq": true,
+          "tags": ["driver-readiness", "fatigue", "drowsiness"]
         },
         {
           "id": "M01-S01-K04",
-          "en": "A commercial Class B license is required to operate a single vehicle with a GVWR of 26,001 lbs or more, or any bus (except a trailer bus).",
-          "zh": "商业B类驾照用于驾驶总重量超过26,001磅的单一车辆或公共汽车。例如大型公交车司机需要此类驾照。",
+          "en": "You must be in good physical and mental condition while driving. You need to be alert enough to make correct decisions quickly in unexpected situations on the road.",
+          "zh": "驾驶时必须保持良好的身体和精神状态。您需要足够警觉，以便在道路上遇到突发情况时能快速做出正确决定。",
+          "zhHant": "駕駛時必須保持良好的身體和精神狀態。您需要足夠警覺，以便在道路上遇到突發情況時能快速做出正確決定。",
           "isHighFreq": false,
-          "tags": [
-            "license-class",
-            "commercial"
-          ],
-          "zhHant": "商業B类駕照用於駕駛總重量超過26,001磅的單一車輛或公共汽車。例如大型公交車司機需要此类駕照。"
+          "tags": ["driver-readiness", "physical-condition", "mental-condition"]
         },
         {
           "id": "M01-S01-K05",
-          "en": "You may drive vehicles covered by Class C with a valid Class A or B license. Higher class licenses include the privileges of lower classes.",
-          "zh": "持有A类或B类驾照也可以驾驶C类驾照允许的车辆。高级别驾照包含低级别驾照的驾驶权限。",
+          "en": "Both prescription and over-the-counter medications can make you an unsafe driver. Know the effects of your medications before you drive. If a medication makes you drowsy or affects your coordination, do not drive.",
+          "zh": "处方药和非处方药都可能使您成为不安全的驾驶员。驾驶前请了解药物的副作用。如果药物使您昏昏欲睡或影响协调能力，请勿驾驶。",
+          "zhHant": "處方藥和非處方藥都可能使您成為不安全的駕駛員。駕駛前請了解藥物的副作用。如果藥物使您昏昏欲睡或影響協調能力，請勿駕駛。",
+          "isHighFreq": true,
+          "tags": ["driver-readiness", "medications"]
+        },
+        {
+          "id": "M01-S01-K06",
+          "en": "Physicians are required to report patients aged 14 and older who have conditions that could affect their ability to drive safely (such as lapses of consciousness) to the DMV. The DMV may then require a reexamination.",
+          "zh": "医生必须向DMV报告14岁及以上患有可能影响安全驾驶能力的疾病（如意识丧失）的患者。DMV随后可能要求重新检查。",
+          "zhHant": "醫生必須向DMV報告14歲及以上患有可能影響安全駕駛能力的疾病（如意識喪失）的患者。DMV隨後可能要求重新檢查。",
           "isHighFreq": false,
-          "tags": [
-            "license-class",
-            "privileges"
-          ],
-          "zhHant": "持有A类或B类駕照也可以駕駛C类駕照允許的車輛。高级別駕照包含低级別駕照的駕駛權限。"
+          "tags": ["driver-readiness", "health", "reporting"]
         }
-      ],
-      "titleZhHant": "駕照类別"
+      ]
     },
     {
       "id": "S02",
-      "titleEn": "Applying for a Driver License",
-      "titleZh": "申请驾照流程",
+      "titleEn": "Steering Techniques",
+      "titleZh": "方向盘控制技术",
+      "titleZhHant": "方向盤控制技術",
       "knowledgePoints": [
         {
           "id": "M01-S02-K01",
-          "en": "To apply for an original California driver license, you must visit a DMV office, complete a DL 44 application form, provide your true full name, present acceptable proof of identity and residency, provide your Social Security Number (SSN), and pay the application fee.",
-          "zh": "首次申请加州驾照需要亲自前往DMV办公室，填写DL 44申请表，提供真实全名、身份和居住地证明、社会安全号码，并缴纳申请费用。",
+          "en": "Keep both hands on the steering wheel whenever possible to maintain maximum control of the vehicle.",
+          "zh": "尽可能双手握住方向盘，以保持对车辆的最大控制力。",
+          "zhHant": "盡可能雙手握住方向盤，以保持對車輛的最大控制力。",
           "isHighFreq": true,
-          "tags": [
-            "application",
-            "requirements"
-          ],
-          "zhHant": "首次申請加州駕照需要親自前往DMV辦公室，填写DL 44申請表，提供真實全名、身份和居住地證明、社會安全號码，并繳納申請費用。"
+          "tags": ["steering", "both-hands"]
         },
         {
           "id": "M01-S02-K02",
-          "en": "You must pass a vision exam, a knowledge test (written or computer-based), and a behind-the-wheel driving test to receive your license.",
-          "zh": "申请驾照需要通过视力检查、交规笔试（纸质或电脑考试）和路考三项测试。",
+          "en": "Hand-to-Hand Steering (Push/Pull): Start with your hands at the 9 and 3 o'clock or 8 and 4 o'clock positions. Push up with one hand and pull down with the other. Do not cross your hands over the center of the steering wheel. Keep your hands in these positions even when turning.",
+          "zh": "推拉式转向（Hand-to-Hand）：双手起始位置在9点和3点钟方向，或8点和4点钟方向。一只手向上推，另一只手向下拉。不要让双手交叉越过方向盘中心。即使在转弯时也要保持双手在这些位置。",
+          "zhHant": "推拉式轉向（Hand-to-Hand）：雙手起始位置在9點和3點鐘方向，或8點和4點鐘方向。一隻手向上推，另一隻手向下拉。不要讓雙手交叉越過方向盤中心。即使在轉彎時也要保持雙手在這些位置。",
           "isHighFreq": true,
-          "tags": [
-            "application",
-            "tests"
-          ],
-          "zhHant": "申請駕照需要通過视力檢查、交規筆試（紙質或电腦考試）和路考三項測試。"
+          "tags": ["steering", "hand-to-hand", "push-pull"]
         },
         {
           "id": "M01-S02-K03",
-          "en": "The knowledge test has 36 questions for a Class C license. You must answer at least 30 questions correctly (83%) to pass. You have 3 attempts to pass within the 12-month application period.",
-          "zh": "C类驾照笔试共36道题，需答对至少30题（正确率83%）才能通过。在12个月的申请有效期内有3次考试机会。",
+          "en": "Hand-Over-Hand Steering: Used when turning at low speeds, parking, or recovering from a skid. Start with hands at 8 and 4 o'clock, reach across with one hand to grasp the opposite side of the wheel, let go with the other hand, and pull up to straighten.",
+          "zh": "交叉式转向（Hand-Over-Hand）：用于低速转弯、停车或打滑恢复。双手起始位置在8点和4点钟方向，一只手伸过去抓住方向盘对侧，另一只手松开，然后向上拉回以矫正方向。",
+          "zhHant": "交叉式轉向（Hand-Over-Hand）：用於低速轉彎、停車或打滑恢復。雙手起始位置在8點和4點鐘方向，一隻手伸過去抓住方向盤對側，另一隻手鬆開，然後向上拉回以矯正方向。",
           "isHighFreq": true,
-          "tags": [
-            "application",
-            "knowledge-test"
-          ],
-          "zhHant": "C类駕照筆試共36道題，需答對至少30題（正確率83%）才能通過。在12個月的申請有效期內有3次考試機會。"
+          "tags": ["steering", "hand-over-hand", "low-speed"]
         },
         {
           "id": "M01-S02-K04",
-          "en": "Your instruction permit is valid for 12 months from the date your application is accepted. If you do not get your license within 12 months, you must reapply.",
-          "zh": "学习许可证自申请被接受之日起有效期为12个月。如果12个月内没有拿到驾照，则需要重新申请。",
-          "isHighFreq": true,
-          "tags": [
-            "application",
-            "permit"
-          ],
-          "zhHant": "學習許可證自申請被接受之日起有效期為12個月。如果12個月內沒有拿到駕照，則需要重新申請。"
+          "en": "One-Hand Steering: Only use when backing up while turning to look behind you (place one hand at 12 o'clock position), or when operating vehicle controls that require removing a hand from the wheel.",
+          "zh": "单手转向：仅在倒车时转头看后方（一只手放在12点钟位置），或在操作需要单手离开方向盘的车辆控制装置时使用。",
+          "zhHant": "單手轉向：僅在倒車時轉頭看後方（一隻手放在12點鐘位置），或在操作需要單手離開方向盤的車輛控制裝置時使用。",
+          "isHighFreq": false,
+          "tags": ["steering", "one-hand", "backing-up"]
         },
         {
           "id": "M01-S02-K05",
-          "en": "If you fail the driving test, you must wait at least 14 days before retaking it. You have 3 attempts to pass within the 12-month period.",
-          "zh": "路考不合格需等待至少14天才能重考。12个月内共有3次路考机会，若3次都未通过则需重新申请。",
-          "isHighFreq": true,
-          "tags": [
-            "application",
-            "driving-test"
-          ],
-          "zhHant": "路考不合格需等待至少14天才能重考。12個月內共有3次路考機會，若3次都未通過則需重新申請。"
-        },
-        {
-          "id": "M01-S02-K06",
-          "en": "An acceptable document for proof of identity includes a valid US passport, a certified copy of a US birth certificate, a valid foreign passport with a valid US visa, or a Permanent Resident Card.",
-          "zh": "可接受的身份证明文件包括：有效的美国护照、美国出生证明公证件、带有效签证的外国护照或永久居民卡（绿卡）。",
+          "en": "Never let the steering wheel spin freely, and never remove both hands from the steering wheel while the vehicle is in motion.",
+          "zh": "绝不要让方向盘自由旋转，车辆行驶时绝不要双手同时离开方向盘。",
+          "zhHant": "絕不要讓方向盤自由旋轉，車輛行駛時絕不要雙手同時離開方向盤。",
           "isHighFreq": false,
-          "tags": [
-            "application",
-            "documents"
-          ],
-          "zhHant": "可接受的身份證明文件包括：有效的美国護照、美国出生證明公證件、帶有效簽證的外国護照或永久居民卡（綠卡）。"
-        },
-        {
-          "id": "M01-S02-K07",
-          "en": "A REAL ID compliant driver license or ID card requires additional documentation: proof of identity, proof of Social Security Number, and two proofs of California residency. Beginning May 2025, you must have a REAL ID to board domestic flights, enter military bases, or enter most federal facilities.",
-          "zh": "申请符合REAL ID标准的驾照或身份证需要额外的文件：身份证明、社会安全号码证明以及两份加州居住证明。从2025年5月起，乘坐国内航班、进入军事基地或大多数联邦设施必须持有REAL ID。",
-          "isHighFreq": true,
-          "isNew": true,
-          "tags": [
-            "application",
-            "real-id"
-          ],
-          "zhHant": "申請符合REAL ID標準的駕照或身份證需要額外的文件：身份證明、社會安全號码證明以及兩份加州居住證明。從2025年5月起，乘坐國內航班、進入軍事基地或大多數聯邦設施必須持有REAL ID。"
+          "tags": ["steering", "safety"]
         }
-      ],
-      "titleZhHant": "申請駕照流程"
+      ]
     },
     {
       "id": "S03",
-      "titleEn": "Provisional Licenses for Minors",
-      "titleZh": "未成年人临时驾照",
+      "titleEn": "Signaling",
+      "titleZh": "信号使用规则",
+      "titleZhHant": "信號使用規則",
       "knowledgePoints": [
         {
           "id": "M01-S03-K01",
-          "en": "Minors under 18 must hold a provisional instruction permit for at least 6 months before they can take the driving test.",
-          "zh": "未满18岁的申请人必须持有临时学习许可证至少6个月后才能参加路考。",
+          "en": "Always signal when you turn, change lanes, slow down, or stop. Signaling communicates your intentions to other drivers and bicyclists so they can react safely.",
+          "zh": "转弯、变道、减速或停车时务必打信号灯。打信号灯是向其他驾驶员和骑行者传达您的意图，以便他们安全应对。",
+          "zhHant": "轉彎、變道、減速或停車時務必打信號燈。打信號燈是向其他駕駛員和騎行者傳達您的意圖，以便他們安全應對。",
           "isHighFreq": true,
-          "tags": [
-            "minor",
-            "permit"
-          ],
-          "zhHant": "未滿18歲的申請人必須持有臨時學習許可證至少6個月後才能參加路考。"
+          "tags": ["signaling", "turn-signal"]
         },
         {
           "id": "M01-S03-K02",
-          "en": "A minor must complete at least 50 hours of supervised driving practice, including at least 10 hours of night driving, before taking the driving test.",
-          "zh": "未成年人在参加路考前必须完成至少50小时的有监督驾驶练习，其中至少10小时为夜间驾驶。",
+          "en": "Signal at least 100 feet before you turn in city or residential areas. On the freeway, signal at least 5 seconds before changing lanes to give other drivers time to react.",
+          "zh": "在城市或住宅区转弯前至少100英尺开始打信号灯。在高速公路上变道前至少提前5秒打信号灯，给其他驾驶员反应时间。",
+          "zhHant": "在城市或住宅區轉彎前至少100英尺開始打信號燈。在高速公路上變道前至少提前5秒打信號燈，給其他駕駛員反應時間。",
           "isHighFreq": true,
-          "tags": [
-            "minor",
-            "practice-hours"
-          ],
-          "zhHant": "未成年人在參加路考前必須完成至少50小時的有監督駕駛練習，其中至少10小時為夜間駕駛。"
+          "tags": ["signaling", "distance", "timing"]
         },
         {
           "id": "M01-S03-K03",
-          "en": "During the first 12 months after licensing, a minor may not drive between 11 PM and 5 AM, and may not transport passengers under 20 years of age unless accompanied by a licensed parent/guardian or a licensed driver 25 or older.",
-          "zh": "未成年人拿到驾照后的前12个月内，不得在晚11点至凌晨5点之间驾车，且不得搭载20岁以下乘客，除非有持照的父母/监护人或25岁以上的持照驾驶员陪同。",
+          "en": "Signal before pulling next to or away from the curb, even when you do not see other vehicles around you.",
+          "zh": "靠边停车或驶离路边前要打信号灯，即使您没有看到周围有其他车辆。",
+          "zhHant": "靠邊停車或駛離路邊前要打信號燈，即使您沒有看到周圍有其他車輛。",
           "isHighFreq": true,
-          "tags": [
-            "minor",
-            "restrictions"
-          ],
-          "zhHant": "未成年人拿到駕照後的前12個月內，不得在晚11點至凌晨5點之間駕車，且不得搭載20歲以下乘客，除非有持照的父母/監護人或25歲以上的持照駕駛員陪同。"
+          "tags": ["signaling", "curb"]
         },
         {
           "id": "M01-S03-K04",
-          "en": "A minor with a provisional permit must be accompanied by a California-licensed parent/guardian, licensed driver 25 or older, or a licensed/certified driving instructor.",
-          "zh": "持有临时学习许可证的未成年人驾车时，必须有持加州驾照的父母/监护人、25岁以上持照驾驶员或持证驾驶教练陪同。",
+          "en": "When signal lights don't work or bright sunlight makes them hard to see, use hand-and-arm signals: left arm straight out means Left Turn; left arm bent upward means Right Turn; left arm bent downward means Slow or Stop.",
+          "zh": "当信号灯不工作或强烈阳光使其难以看清时，使用手臂信号：左臂平伸表示左转；左臂向上弯曲表示右转；左臂向下弯曲表示减速或停车。",
+          "zhHant": "當信號燈不工作或強烈陽光使其難以看清時，使用手臂信號：左臂平伸表示左轉；左臂向上彎曲表示右轉；左臂向下彎曲表示減速或停車。",
           "isHighFreq": true,
-          "tags": [
-            "minor",
-            "supervision"
-          ],
-          "zhHant": "持有臨時學習許可證的未成年人駕車時，必須有持加州駕照的父母/監護人、25歲以上持照駕駛員或持證駕駛教練陪同。"
+          "tags": ["signaling", "hand-signal-left", "hand-signal-right", "hand-signal-stop"]
         },
         {
           "id": "M01-S03-K05",
-          "en": "Minors must be at least 15 years and 6 months old to apply for an instruction permit, and must have completed driver education.",
-          "zh": "未成年人必须年满15岁半才能申请学习许可证，且必须已完成驾驶教育课程。",
+          "en": "Turn off your signal after completing the turn or lane change so you don't confuse other drivers about your intentions.",
+          "zh": "完成转弯或变道后关闭信号灯，以免使其他驾驶员对您的意图产生困惑。",
+          "zhHant": "完成轉彎或變道後關閉信號燈，以免使其他駕駛員對您的意圖產生困惑。",
           "isHighFreq": true,
-          "tags": [
-            "minor",
-            "age-requirement"
-          ],
-          "zhHant": "未成年人必須年滿15歲半才能申請學習許可證，且必須已完成駕駛教育課程。"
+          "tags": ["signaling", "turn-off"]
         },
         {
           "id": "M01-S03-K06",
-          "en": "The minor knowledge test has 46 questions. You must answer at least 38 correctly to pass.",
-          "zh": "未成年人笔试共46道题，需答对至少38题才能通过。题目比成年人多，因为包含驾驶教育相关内容。",
-          "isHighFreq": true,
-          "tags": [
-            "minor",
-            "knowledge-test"
-          ],
-          "zhHant": "未成年人筆試共46道題，需答對至少38題才能通過。題目比成年人多，因為包含駕駛教育相關內容。"
+          "en": "Signal even when you think no other vehicles are around, because there may be a vehicle you don't see approaching from a blind spot or hidden area.",
+          "zh": "即使您认为周围没有其他车辆也要打信号灯，因为可能有您看不到的车辆正从盲区或隐蔽区域驶来。",
+          "zhHant": "即使您認為周圍沒有其他車輛也要打信號燈，因為可能有您看不到的車輛正從盲區或隱蔽區域駛來。",
+          "isHighFreq": false,
+          "tags": ["signaling", "always-signal"]
+        },
+        {
+          "id": "M01-S03-K07",
+          "en": "Bicyclists may signal a turn with their arm held straight out, pointing in the direction they plan to turn, instead of using the standard hand-and-arm signals.",
+          "zh": "骑自行车的人可以将手臂直接伸向他们计划转弯的方向来打转向信号，而不使用标准的手臂信号。",
+          "zhHant": "騎自行車的人可以將手臂直接伸向他們計劃轉彎的方向來打轉向信號，而不使用標準的手臂信號。",
+          "isHighFreq": false,
+          "tags": ["signaling", "bicycle"]
         }
-      ],
-      "titleZhHant": "未成年人臨時駕照"
+      ]
     },
     {
       "id": "S04",
-      "titleEn": "License Renewal and Senior Drivers",
-      "titleZh": "驾照续期与老年驾驶员",
+      "titleEn": "Headlights",
+      "titleZh": "车灯使用",
+      "titleZhHant": "車燈使用",
       "knowledgePoints": [
         {
           "id": "M01-S04-K01",
-          "en": "A standard California driver license is valid for 5 years. You will receive a renewal notice about 60 days before your license expires.",
-          "zh": "加州标准驾照有效期为5年。驾照到期前约60天会收到续期通知。",
+          "en": "Use headlights when it's too dark to see from 1,000 feet away. Headlights are required beginning 30 minutes after sunset until 30 minutes before sunrise.",
+          "zh": "当能见度不足1,000英尺时需开启大灯。日落后30分钟至日出前30分钟必须使用大灯。",
+          "zhHant": "當能見度不足1,000英尺時需開啟大燈。日落後30分鐘至日出前30分鐘必須使用大燈。",
           "isHighFreq": true,
-          "tags": [
-            "renewal",
-            "validity"
-          ],
-          "zhHant": "加州標準駕照有效期為5年。駕照到期前约60天會收到續期通知。"
+          "tags": ["headlights", "when-to-use", "sunset-sunrise"]
         },
         {
           "id": "M01-S04-K02",
-          "en": "Drivers 70 years of age and older must renew their license in person at a DMV office and cannot renew by mail or online.",
-          "zh": "70岁及以上的驾驶员必须亲自到DMV办公室办理续期，不能通过邮寄或网上续期。",
+          "en": "Use headlights in adverse weather conditions. If you need to use your windshield wipers due to fog, rain, or snow, California law requires you to turn on your low-beam headlights.",
+          "zh": "在恶劣天气条件下使用大灯。如果因雾、雨或雪需要使用雨刷器，加州法律要求您必须打开近光灯。",
+          "zhHant": "在惡劣天氣條件下使用大燈。如果因霧、雨或雪需要使用雨刷器，加州法律要求您必須打開近光燈。",
           "isHighFreq": true,
-          "tags": [
-            "renewal",
-            "senior"
-          ],
-          "zhHant": "70歲及以上的駕駛員必須親自到DMV辦公室辦理續期，不能通過郵寄或网上續期。"
+          "tags": ["headlights", "adverse-weather", "wipers"]
         },
         {
           "id": "M01-S04-K03",
-          "en": "You must notify the DMV within 10 days of any change of address. You can update your address online, by mail, or in person.",
-          "zh": "地址变更后必须在10天内通知DMV。可以通过网上、邮寄或亲自到场的方式更新地址。",
+          "en": "Use headlights when conditions such as clouds, dust, smoke, or fog prevent you from seeing other vehicles. Also use headlights on mountain roads and in tunnels (even on sunny days), when a road sign says headlights are required, and to help other drivers see you when the sun is low on the horizon.",
+          "zh": "当云层、灰尘、烟雾或大雾等条件导致您无法看到其他车辆时使用大灯。在山路和隧道中（即使是晴天）也要使用大灯，当路标要求开灯时要开灯，以及当太阳在地平线附近时开灯帮助其他驾驶员看到您。",
+          "zhHant": "當雲層、灰塵、煙霧或大霧等條件導致您無法看到其他車輛時使用大燈。在山路和隧道中（即使是晴天）也要使用大燈，當路標要求開燈時要開燈，以及當太陽在地平線附近時開燈幫助其他駕駛員看到您。",
           "isHighFreq": true,
-          "tags": [
-            "renewal",
-            "address-change"
-          ],
-          "zhHant": "地址變更後必須在10天內通知DMV。可以通過网上、郵寄或親自到場的方式更新地址。"
+          "tags": ["headlights", "visibility", "mountain-roads", "tunnels"]
         },
         {
           "id": "M01-S04-K04",
-          "en": "If your license has been expired for more than one year, you cannot renew it. You must apply for a new license and retake all tests.",
-          "zh": "如果驾照过期超过一年，则无法续期，必须重新申请驾照并重新参加所有考试。",
-          "isHighFreq": false,
-          "tags": [
-            "renewal",
-            "expired"
-          ],
-          "zhHant": "如果駕照過期超過一年，則無法續期，必須重新申請駕照并重新參加所有考試。"
+          "en": "Dim your high-beam headlights to low beams within 500 feet of an oncoming vehicle, or within 300 feet of a vehicle you are following. It is illegal to drive using only parking lights.",
+          "zh": "在距迎面驶来的车辆500英尺以内，或距前方车辆300英尺以内时，必须将远光灯切换为近光灯。仅使用示廓灯驾驶是违法的。",
+          "zhHant": "在距迎面駛來的車輛500英尺以內，或距前方車輛300英尺以內時，必須將遠光燈切換為近光燈。僅使用示廓燈駕駛是違法的。",
+          "isHighFreq": true,
+          "tags": ["headlights", "high-beam", "dimming"]
         },
         {
           "id": "M01-S04-K05",
-          "en": "It is illegal to drive with an expired license. Driving with an expired license may result in a traffic ticket.",
-          "zh": "持过期驾照驾车属于违法行为，可能会被开罚单。",
+          "en": "If an oncoming vehicle has blinding headlights, do not look directly at them. Instead, look toward the right edge of your lane and watch the oncoming vehicle out of the corner of your eye.",
+          "zh": "如果迎面驶来的车辆灯光刺眼，不要直视。应看向车道的右侧边缘，用余光观察迎面来车。",
+          "zhHant": "如果迎面駛來的車輛燈光刺眼，不要直視。應看向車道的右側邊緣，用餘光觀察迎面來車。",
+          "isHighFreq": true,
+          "tags": ["headlights", "glare", "blinding"]
+        },
+        {
+          "id": "M01-S04-K06",
+          "en": "When a vehicle with one headlight approaches you at night, drive as far to the right as possible. It could be a bicycle, motorcycle, or a vehicle with a missing headlight, making it difficult to judge its width and position.",
+          "zh": "当夜间有只亮一个前灯的车辆向您驶来时，尽量靠右行驶。它可能是自行车、摩托车或缺少一个前灯的车辆，难以判断其宽度和位置。",
+          "zhHant": "當夜間有只亮一個前燈的車輛向您駛來時，儘量靠右行駛。它可能是自行車、摩托車或缺少一個前燈的車輛，難以判斷其寬度和位置。",
           "isHighFreq": false,
-          "tags": [
-            "renewal",
-            "expired"
-          ],
-          "zhHant": "持過期駕照駕車屬於違法行為，可能會被開罰單。"
+          "tags": ["headlights", "one-headlight", "night"]
         }
-      ],
-      "titleZhHant": "駕照續期與老年駕駛員"
+      ]
     },
     {
       "id": "S05",
-      "titleEn": "Driver License Suspensions and Revocations",
-      "titleZh": "驾照暂停与吊销",
+      "titleEn": "Horn & Emergency Flashers",
+      "titleZh": "喇叭与紧急闪灯",
+      "titleZhHant": "喇叭與緊急閃燈",
       "knowledgePoints": [
         {
           "id": "M01-S05-K01",
-          "en": "Your license will be revoked if you are convicted of a DUI (driving under the influence) or hit-and-run resulting in injury.",
-          "zh": "因酒驾（DUI）或肇事逃逸造成人员伤亡被定罪的，驾照将被吊销。",
+          "en": "Use your horn to avoid collisions and to alert oncoming traffic on narrow mountain roads where you cannot see at least 200 feet ahead.",
+          "zh": "使用喇叭来避免碰撞，以及在看不到前方至少200英尺的狭窄山路上提醒迎面来车。",
+          "zhHant": "使用喇叭來避免碰撞，以及在看不到前方至少200英尺的狹窄山路上提醒迎面來車。",
           "isHighFreq": true,
-          "tags": [
-            "suspension",
-            "dui"
-          ],
-          "zhHant": "因酒駕（DUI）或肇事逃逸造成人員傷亡被定罪的，駕照將被吊銷。"
+          "tags": ["horn", "collision-avoidance", "mountain-roads"]
         },
         {
           "id": "M01-S05-K02",
-          "en": "If you refuse to take a chemical test (blood, breath, or urine) when lawfully requested by an officer, your license will be suspended for 1 year for a first offense.",
-          "zh": "如果在执法人员合法要求下拒绝接受化学测试（血液、呼气或尿液），初犯将被暂停驾照1年。这就是加州的「默示同意法」。",
+          "en": "Do not use your horn to show anger or honk at a blind pedestrian. A horn is a safety device, not a way to express frustration.",
+          "zh": "不要用喇叭来表达愤怒或对盲人行人按喇叭。喇叭是安全装置，不是表达不满的工具。",
+          "zhHant": "不要用喇叭來表達憤怒或對盲人行人按喇叭。喇叭是安全裝置，不是表達不滿的工具。",
           "isHighFreq": true,
-          "tags": [
-            "suspension",
-            "implied-consent"
-          ],
-          "zhHant": "如果在執法人員合法要求下拒絕接受化學測試（血液、呼氣或尿液），初犯將被暫停駕照1年。這就是加州的「默示同意法」。"
+          "tags": ["horn", "misuse", "blind-pedestrian"]
         },
         {
           "id": "M01-S05-K03",
-          "en": "The Negligent Operator Treatment System (NOTS) assigns points for traffic violations. Accumulating 4 points in 12 months, 6 in 24 months, or 8 in 36 months results in a suspension.",
-          "zh": "过失驾驶员处理系统（NOTS）会对交通违规进行积分。12个月内累计4分、24个月内6分或36个月内8分将导致驾照暂停。",
+          "en": "If you see a collision or hazard ahead, warn drivers behind you by turning on your emergency flashers, lightly tapping your brake pedal 3 to 4 times, or using a hand signal.",
+          "zh": "如果您看到前方有碰撞或危险，请通过打开紧急闪灯、轻踩刹车踏板3至4次或使用手势信号来警告后方驾驶员。",
+          "zhHant": "如果您看到前方有碰撞或危險，請通過打開緊急閃燈、輕踩煞車踏板3至4次或使用手勢信號來警告後方駕駛員。",
           "isHighFreq": true,
-          "tags": [
-            "suspension",
-            "points"
-          ],
-          "zhHant": "過失駕駛員處理系統（NOTS）會對交通違規進行積分。12個月內累计4分、24個月內6分或36個月內8分將导致駕照暫停。"
+          "tags": ["emergency-flashers", "hazard-warning"]
         },
         {
           "id": "M01-S05-K04",
-          "en": "Most traffic convictions count as 1 point. Major violations such as DUI, hit-and-run, or reckless driving count as 2 points.",
-          "zh": "大多数交通违规记1分。酒驾、肇事逃逸、鲁莽驾驶等严重违规记2分。",
+          "en": "If you need to stop due to vehicle trouble: turn on your emergency flashers (or turn signals if your vehicle has no flashers). If possible, pull completely off the road. If you can't get off the road, stop where people can see you. Don't stop just over a hill or around a curve. Call for roadside assistance and stay in your vehicle until help arrives.",
+          "zh": "如果因车辆故障需要停车：打开紧急闪灯（如果没有闪灯则打开转向灯）。如果可能，完全驶离道路。如果无法驶离道路，在其他人能看到您的地方停车。不要停在山顶另一侧或弯道处。呼叫路边救援并待在车内直到救援到达。",
+          "zhHant": "如果因車輛故障需要停車：打開緊急閃燈（如果沒有閃燈則打開轉向燈）。如果可能，完全駛離道路。如果無法駛離道路，在其他人能看到您的地方停車。不要停在山頂另一側或彎道處。呼叫路邊救援並待在車內直到救援到達。",
           "isHighFreq": true,
-          "tags": [
-            "suspension",
-            "points"
-          ],
-          "zhHant": "大多数交通違規記1分。酒駕、肇事逃逸、鲁莽駕駛等嚴重違規記2分。"
+          "tags": ["emergency-flashers", "vehicle-trouble", "breakdown"]
         },
         {
           "id": "M01-S05-K05",
-          "en": "Your driving privilege will be suspended if you are involved in a collision and did not have proper insurance or financial responsibility at the time.",
-          "zh": "如果发生事故时没有购买适当保险或不具备财务担保能力，驾驶权将被暂停。加州法律要求驾车时必须有保险。",
-          "isHighFreq": true,
-          "tags": [
-            "suspension",
-            "insurance"
-          ],
-          "zhHant": "如果發生事故時沒有購買適當保險或不具備財務擔保能力，駕駛權將被暫停。加州法律要求駕車時必須有保險。"
+          "en": "Do not drive using only your parking lights. It is illegal in California to drive with only parking lights on.",
+          "zh": "不要仅使用示廓灯驾驶。在加州，仅开示廓灯驾驶是违法的。",
+          "zhHant": "不要僅使用示廓燈駕駛。在加州，僅開示廓燈駕駛是違法的。",
+          "isHighFreq": false,
+          "tags": ["parking-lights", "illegal"]
         }
-      ],
-      "titleZhHant": "駕照暫停與吊銷"
+      ]
     }
-  ],
-  "titleZhHant": "駕照申請要求"
+  ]
 }

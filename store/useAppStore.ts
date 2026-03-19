@@ -7,7 +7,7 @@ export type AgeGroup = "under18" | "18plus";
 export type LanguageMode = "zhHant_zhHans" | "en_zhHans" | "en_only";
 export type ExamLanguage = "zhHant" | "en";
 
-const GUEST_MODULES = new Set(["M01", "M02"]);
+const GUEST_MODULES = new Set(["M00", "M01", "M02"]);
 const GUEST_EXAMS = new Set(["MOCK-01"]);
 
 interface AppState {

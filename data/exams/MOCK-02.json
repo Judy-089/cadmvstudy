@@ -600,40 +600,40 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK02-017",
-      "stem_en": "The speed limit in an unposted blind intersection is:",
+      "id": "Q-MOCK02-047",
+      "stem_en": "You should signal at least _____ before making a turn on a city street.",
+      "stem_zhHant": "在城市街道上轉彎前，你應該至少提前_____打信號燈。",
       "options": [
         {
           "key": "A",
-          "text_en": "10 mph",
-          "text_zhHant": "10英里/小時"
+          "text_en": "50 feet",
+          "text_zhHant": "50英尺"
         },
         {
           "key": "B",
-          "text_en": "15 mph",
-          "text_zhHant": "15英里/小時"
+          "text_en": "100 feet",
+          "text_zhHant": "100英尺"
         },
         {
           "key": "C",
-          "text_en": "20 mph",
-          "text_zhHant": "20英里/小時"
+          "text_en": "200 feet",
+          "text_zhHant": "200英尺"
         },
         {
           "key": "D",
-          "text_en": "25 mph",
-          "text_zhHant": "25英里/小時"
+          "text_en": "300 feet",
+          "text_zhHant": "300英尺"
         }
       ],
       "answer": "B",
-      "explanation_en": "The speed limit at a blind intersection (where you cannot see 100 feet in either direction in the last 100 feet before crossing) is 15 mph.",
-      "explanation_zh": "在盲交叉路口（在交叉路口前最后100英尺内，任一方向都无法看到100英尺处的路口），速度限制为15英里/小时。",
-      "module": "M04",
+      "explanation_en": "You should signal at least 100 feet before making a turn on a city street. On highways, signal at least 5 seconds before changing lanes.",
+      "explanation_zh": "在城市街道上转弯前，你应该至少提前100英尺打信号灯。在高速公路上，变道前至少提前5秒打信号灯。",
+      "module": "M01",
       "tags": [
-        "speed-laws",
-        "blind-intersection"
+        "driving-basics",
+        "signaling"
       ],
-      "explanation_zhHant": "在盲交叉路口（在交叉路口前最後100英尺內，任一方向都無法看到100英尺處的路口），速度限制為15英裡/小時。",
-      "stem_zhHant": "未標示的盲區路口速度限制是：",
+      "explanation_zhHant": "在城市街道上轉彎前，你應該至少提前100英尺打信號燈。在高速公路上，變道前至少提前5秒打信號燈。",
       "driverEd": false
     },
     {
@@ -859,41 +859,40 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK02-026",
-      "stem_en": "A curb painted red means:",
+      "id": "Q-MOCK02-049",
+      "stem_en": "You must turn on your headlights:",
+      "stem_zhHant": "你必須在以下情況下開啟車頭燈：",
       "options": [
         {
           "key": "A",
-          "text_en": "No parking for longer than the time posted",
-          "text_zhHant": "停車時間不超過標示時間"
+          "text_en": "Only when it is completely dark outside",
+          "text_zhHant": "只在外面完全天黑時"
         },
         {
           "key": "B",
-          "text_en": "Loading zone for passengers only",
-          "text_zhHant": "僅限乘客裝卸區"
+          "text_en": "30 minutes after sunset to 30 minutes before sunrise, or when you cannot see 1,000 feet ahead",
+          "text_zhHant": "日落後30分鐘到日出前30分鐘，或當你無法看到前方1,000英尺時"
         },
         {
           "key": "C",
-          "text_en": "No stopping, standing, or parking",
-          "text_zhHant": "禁止停車、站立或泊車"
+          "text_en": "Only during rainstorms",
+          "text_zhHant": "僅在暴風雨期間"
         },
         {
           "key": "D",
-          "text_en": "Parking for disabled persons only",
-          "text_zhHant": "僅限殘疾人停車"
+          "text_en": "Whenever you feel like it is getting dim",
+          "text_zhHant": "每當你覺得光線變暗時"
         }
       ],
-      "answer": "C",
-      "explanation_en": "A red curb means no stopping, standing, or parking at any time. This includes buses and taxis unless otherwise posted.",
-      "explanation_zh": "红色路缘表示任何时候都不允许停车、站立或泊车。这包括公交车和出租车，除非另有标示。",
-      "module": "M06",
+      "answer": "B",
+      "explanation_en": "California law requires headlights to be turned on from 30 minutes after sunset to 30 minutes before sunrise, or whenever visibility is less than 1,000 feet due to weather or other conditions.",
+      "explanation_zh": "加州法律要求从日落后30分钟到日出前30分钟开启车头灯，或在因天气或其他条件导致能见度不足1,000英尺时开启。",
+      "module": "M01",
       "tags": [
-        "parking",
-        "curb-colors",
-        "colored-curbs"
+        "driving-basics",
+        "headlights"
       ],
-      "explanation_zhHant": "紅色路緣表示任何時候都不允許停車、站立或泊車。這包括公交車和出租車，除非另有標示。",
-      "stem_zhHant": "紅色路緣表示：",
+      "explanation_zhHant": "加州法律要求從日落後30分鐘到日出前30分鐘開啟車頭燈，或在因天氣或其他條件導致能見度不足1,000英尺時開啟。",
       "driverEd": false
     },
     {
@@ -1282,8 +1281,8 @@
         },
         {
           "key": "C",
-          "text_en": "25/50/10",
-          "text_zhHant": "25/50/10"
+          "text_en": "30/60/15",
+          "text_zhHant": "30/60/15"
         },
         {
           "key": "D",
@@ -1291,53 +1290,52 @@
           "text_zhHant": "20/40/10"
         }
       ],
-      "answer": "B",
-      "explanation_en": "California's minimum liability insurance is 15/30/5: $15,000 for injury or death of one person, $30,000 for injury or death of two or more persons, and $5,000 for property damage.",
-      "explanation_zh": "加州最低责任保险为15/30/5：单人伤亡15,000美元，两人或以上伤亡30,000美元，财产损失5,000美元。",
+      "answer": "C",
+      "explanation_en": "California's minimum liability insurance is 30/60/15: $30,000 for a single death or injury, $60,000 for death or injury to more than one person, and $15,000 for property damage.",
+      "explanation_zh": "加州最低责任保险为30/60/15：单人伤亡30,000美元，两人或以上伤亡60,000美元，财产损失15,000美元。",
       "module": "M11",
       "tags": [
         "insurance",
         "minimum-coverage"
       ],
-      "explanation_zhHant": "加州最低責任保險為15/30/5：單人傷亡15,000美元，兩人或以上傷亡30,000美元，財產损失5,000美元。",
+      "explanation_zhHant": "加州最低責任保險為30/60/15：單人傷亡30,000美元，兩人或以上傷亡60,000美元，財產損失15,000美元。",
       "stem_zhHant": "加州最低責任保險要求通常被稱為：",
       "driverEd": false
     },
     {
-      "id": "Q-MOCK02-046",
-      "stem_en": "When you see a triangular orange sign on the back of a vehicle, it indicates:",
+      "id": "Q-MOCK02-048",
+      "stem_en": "The hand-and-arm signal for a left turn is:",
+      "stem_zhHant": "左轉的手臂信號是：",
       "options": [
         {
           "key": "A",
-          "text_en": "The vehicle is making a wide turn",
-          "text_zhHant": "車輛正在大幅度轉彎"
+          "text_en": "Left arm extended straight out horizontally",
+          "text_zhHant": "左臂水平向外伸直"
         },
         {
           "key": "B",
-          "text_en": "The vehicle is a slow-moving vehicle",
-          "text_zhHant": "車輛是慢速車輛"
+          "text_en": "Left arm extended upward at a 90-degree angle",
+          "text_zhHant": "左臂向上呈90度角伸出"
         },
         {
           "key": "C",
-          "text_en": "The vehicle is carrying hazardous materials",
-          "text_zhHant": "車輛正在運輸危險物品"
+          "text_en": "Left arm extended downward at a 90-degree angle",
+          "text_zhHant": "左臂向下呈90度角伸出"
         },
         {
           "key": "D",
-          "text_en": "The vehicle is an emergency vehicle",
-          "text_zhHant": "車輛是緊急車輛"
+          "text_en": "Right arm extended straight out horizontally",
+          "text_zhHant": "右臂水平向外伸直"
         }
       ],
-      "answer": "B",
-      "explanation_en": "A triangular orange sign (slow-moving vehicle emblem) on the back of a vehicle indicates it is a slow-moving vehicle traveling 25 mph or less. Use caution and be prepared to reduce your speed.",
-      "explanation_zh": "车辆后方的三角形橙色标志（慢速车辆标志）表示这是一辆速度为25英里/小时或更低的慢速车辆。请谨慎驾驶并准备减速。",
-      "module": "M08",
+      "answer": "A",
+      "explanation_en": "The hand-and-arm signal for a left turn is your left arm extended straight out horizontally from the vehicle. An upward bend signals a right turn, and a downward bend signals slowing or stopping.",
+      "explanation_zh": "左转的手臂信号是左臂从车辆水平向外伸直。向上弯曲表示右转，向下弯曲表示减速或停车。",
+      "module": "M01",
       "tags": [
-        "sharing-road",
-        "slow-vehicles"
+        "hand-signal-left"
       ],
-      "explanation_zhHant": "車輛後方的三角形橙色標誌（慢速車輛標誌）表示這是一輛速度為25英裡/小時或更低的慢速車輛。請謹慎駕駛并準備減速。",
-      "stem_zhHant": "車輛後方的三角形橙色標誌表示：",
+      "explanation_zhHant": "左轉的手臂信號是左臂從車輛水平向外伸直。向上彎曲表示右轉，向下彎曲表示減速或停車。",
       "driverEd": false
     },
     {
@@ -1363,7 +1361,7 @@
       "answer": "A",
       "explanation_en": "Exceptions to the driving curfew include medical need, school activity, employment, or family necessity, each requiring appropriate signed documentation.",
       "explanation_zh": "宵禁例外包括医疗需要、学校活动、工作或家庭需要，每种情况都需要相应的签署文件。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "curfew-exception"
@@ -1394,7 +1392,7 @@
       "answer": "B",
       "explanation_en": "An instruction permit is valid for 12 months from the date the application is accepted.",
       "explanation_zh": "学习许可证自申请被接受之日起有效期为12个月。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "permit-validity"
@@ -1425,7 +1423,7 @@
       "answer": "C",
       "explanation_en": "A minor with a permit must be accompanied by a California-licensed driver who is at least 25 years old.",
       "explanation_zh": "持有学习许可证的未成年人驾车时必须有年满25岁的加州持照驾驶员陪同。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "supervising-driver"
@@ -1456,7 +1454,7 @@
       "answer": "B",
       "explanation_en": "The minor knowledge test has 46 questions and requires at least 38 correct answers (83%) to pass.",
       "explanation_zh": "未成年人笔试共46道题，需答对至少38题（83%）才能通过。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "knowledge-test"
@@ -1487,7 +1485,7 @@
       "answer": "C",
       "explanation_en": "Minors must wait 7 days to retake a failed knowledge test, not including the day of failure.",
       "explanation_zh": "未成年人笔试不合格需等待7天才能重考，不包括考试当天。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "test-retake"
@@ -1518,7 +1516,7 @@
       "answer": "C",
       "explanation_en": "A parent or guardian may cancel their teen's license by completing a Request for Cancellation or Surrender form.",
       "explanation_zh": "父母或监护人可以通过填写取消或放弃驾照申请表来取消其未成年子女的驾照。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "parent-cancel"
@@ -1549,7 +1547,7 @@
       "answer": "A",
       "explanation_en": "To drive a family member during curfew, the minor must carry a note signed by parent/guardian stating the reason and family member.",
       "explanation_zh": "要在宵禁时间开车送家人，未成年人必须携带父母/监护人签署的说明，注明原因和家庭成员。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "family-exception"
@@ -1580,7 +1578,7 @@
       "answer": "C",
       "explanation_en": "Driver education and training are offered at DMV-licensed driving schools and some high schools.",
       "explanation_zh": "驾驶教育和培训在DMV授权的驾校和一些高中提供。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "driver-ed-location"
@@ -1611,7 +1609,7 @@
       "answer": "B",
       "explanation_en": "Minors must wait to use their permit until they start behind-the-wheel training with an instructor who validates it.",
       "explanation_zh": "未成年人需等到开始跟教练进行路训，由教练验证许可证后才能使用学习许可证。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "permit-activation"
@@ -1642,13 +1640,85 @@
       "answer": "B",
       "explanation_en": "If parents share joint custody, both must sign the minor's application.",
       "explanation_zh": "如果父母共同拥有监护权，则双方都必须签署未成年人的申请。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "joint-custody"
       ],
       "id": "Q-MOCK02-DE10",
       "driverEd": true
+    },
+    {
+      "id": "Q-MOCK02-050",
+      "stem_en": "A driver extends their left arm out the window, bent upward at 90 degrees. This signal means:",
+      "stem_zhHant": "駕駛員將左臂伸出車窗外，向上彎曲成90度。這個信號表示：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Left turn",
+          "text_zhHant": "左轉"
+        },
+        {
+          "key": "B",
+          "text_en": "Right turn",
+          "text_zhHant": "右轉"
+        },
+        {
+          "key": "C",
+          "text_en": "Slowing or stopping",
+          "text_zhHant": "減速或停車"
+        },
+        {
+          "key": "D",
+          "text_en": "Yield",
+          "text_zhHant": "讓行"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When a driver extends their left arm out the window and bends it upward at a 90-degree angle, it signals a right turn.",
+      "explanation_zh": "当驾驶员将左臂伸出车窗并向上弯曲成90度角时，表示右转信号。",
+      "explanation_zhHant": "當駕駛員將左臂伸出車窗並向上彎曲成90度角時，表示右轉信號。",
+      "module": "M01",
+      "tags": [
+        "hand-signal-right"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK02-051",
+      "stem_en": "When may you drive through a public transit bus lane?",
+      "stem_zhHant": "什麼時候可以駛入公共交通巴士車道？",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "At any time if no buses are present",
+          "text_zhHant": "在沒有公車的任何時候"
+        },
+        {
+          "key": "B",
+          "text_en": "Only during non-peak hours",
+          "text_zhHant": "僅在非高峰時段"
+        },
+        {
+          "key": "C",
+          "text_en": "To make a right turn",
+          "text_zhHant": "為了右轉"
+        },
+        {
+          "key": "D",
+          "text_en": "Never under any circumstances",
+          "text_zhHant": "任何情況下都不可以"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "You may drive in a bus lane only to make a right turn, and only within the allowed distance before the turn. Otherwise, bus lanes are reserved for public transit.",
+      "explanation_zh": "你只能为了右转而驶入公交车道，且只能在转弯前允许的距离内。否则，公交车道仅供公共交通使用。",
+      "explanation_zhHant": "您只能為了右轉而駛入公車道，且只能在轉彎前允許的距離內。否則，公車道僅供公共交通使用。",
+      "module": "M05",
+      "tags": [
+        "bus-lane"
+      ],
+      "driverEd": false
     }
   ]
 }

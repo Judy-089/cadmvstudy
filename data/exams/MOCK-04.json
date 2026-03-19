@@ -708,77 +708,77 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK04-020",
-      "stem_en": "When two vehicles meet on a steep mountain road where neither can pass, which vehicle must yield?",
+      "id": "Q-MOCK04-048",
+      "stem_en": "The FIRST thing you should do before changing lanes is:",
+      "stem_zhHant": "變換車道前你應該做的第一件事是：",
       "options": [
         {
           "key": "A",
-          "text_en": "The vehicle going downhill",
-          "text_zhHant": "下坡的車輛"
+          "text_en": "Check your rearview mirror",
+          "text_zhHant": "檢查後視鏡"
         },
         {
           "key": "B",
-          "text_en": "The vehicle going uphill",
-          "text_zhHant": "上坡的車輛"
+          "text_en": "Signal your intention",
+          "text_zhHant": "打信號燈表明你的意圖"
         },
         {
           "key": "C",
-          "text_en": "The larger vehicle",
-          "text_zhHant": "較大的車輛"
+          "text_en": "Speed up to create a gap",
+          "text_zhHant": "加速創造間距"
         },
         {
           "key": "D",
-          "text_en": "The vehicle that arrived last",
-          "text_zhHant": "後到達的車輛"
-        }
-      ],
-      "answer": "A",
-      "explanation_en": "When two vehicles meet on a steep mountain road, the vehicle going downhill must yield by backing up to a wider spot. The vehicle going uphill has the right-of-way because it is harder to back up uphill.",
-      "explanation_zh": "当两辆车在陡峭山路上相遇时，下坡的车辆必须倒退到较宽的地方让行。上坡的车辆拥有先行权，因为向上坡倒车更困难。",
-      "module": "M05",
-      "tags": [
-        "lane-control",
-        "mountain-roads"
-      ],
-      "explanation_zhHant": "當兩輛車在陡峭山路上相遇時，下坡的車輛必須倒退到較寬的地方讓行。上坡的車輛擁有先行權，因為向上坡倒車更困難。",
-      "stem_zhHant": "兩輛車在陡峭山路上相遇且都無法通過，哪輛車必須讓行？",
-      "driverEd": false
-    },
-    {
-      "id": "Q-MOCK04-021",
-      "stem_en": "Double solid white lines between lanes mean:",
-      "options": [
-        {
-          "key": "A",
-          "text_en": "You may change lanes carefully",
-          "text_zhHant": "可以小心變道"
-        },
-        {
-          "key": "B",
-          "text_en": "Changing lanes is prohibited",
-          "text_zhHant": "禁止變道"
-        },
-        {
-          "key": "C",
-          "text_en": "The lanes are for carpool only",
-          "text_zhHant": "該車道僅供合乘使用"
-        },
-        {
-          "key": "D",
-          "text_en": "The road is one-way",
-          "text_zhHant": "道路是單行道"
+          "text_en": "Turn your head to check your blind spot",
+          "text_zhHant": "轉頭檢查盲區"
         }
       ],
       "answer": "B",
-      "explanation_en": "Double solid white lines between lanes mean lane changing is prohibited. You must stay in your lane. This is often seen near toll plazas and certain freeway areas.",
-      "explanation_zh": "车道之间的双实白线表示禁止变道。你必须留在自己的车道上。这通常出现在收费站附近和某些高速公路区域。",
+      "explanation_en": "The first thing you should do before changing lanes is signal your intention. This lets other drivers know what you plan to do. Then check your mirrors and blind spots before moving over.",
+      "explanation_zh": "变换车道前你应该做的第一件事是打信号灯表明你的意图。这让其他驾驶员知道你的计划。然后检查后视镜和盲区再变道。",
       "module": "M05",
       "tags": [
-        "lane-control",
+        "lane-changes",
+        "signaling"
+      ],
+      "explanation_zhHant": "變換車道前你應該做的第一件事是打信號燈表明你的意圖。這讓其他駕駛員知道你的計劃。然後檢查後視鏡和盲區再變道。",
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK04-047",
+      "stem_en": "What do large broken lines on the road indicate?",
+      "stem_zhHant": "道路上的大型虛線表示什麼？",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A bicycle lane is ahead",
+          "text_zhHant": "前方有自行車道"
+        },
+        {
+          "key": "B",
+          "text_en": "The lane is ending; be prepared to exit or merge",
+          "text_zhHant": "車道即將結束；準備駛出或匯入"
+        },
+        {
+          "key": "C",
+          "text_en": "You may park along the road",
+          "text_zhHant": "你可以沿路停車"
+        },
+        {
+          "key": "D",
+          "text_en": "A construction zone is ahead",
+          "text_zhHant": "前方有施工區域"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Large broken lines (also called dotted lines) on the road indicate that your lane is ending and you should be prepared to exit or merge into the adjacent lane.",
+      "explanation_zh": "道路上的大型虚线（也称为点线）表示你的车道即将结束，你应该准备驶出或汇入相邻车道。",
+      "module": "M05",
+      "tags": [
+        "lane-changes",
         "road-markings"
       ],
-      "explanation_zhHant": "車道之間的雙實白線表示禁止變道。你必須留在自己的車道上。這通常出現在收費站附近和某些高速公路區域。",
-      "stem_zhHant": "車道間的雙實白線表示：",
+      "explanation_zhHant": "道路上的大型虛線（也稱為點線）表示你的車道即將結束，你應該準備駛出或匯入相鄰車道。",
       "driverEd": false
     },
     {
@@ -1080,40 +1080,40 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK04-030",
-      "stem_en": "When driving in a bike lane area, you may enter the bike lane:",
+      "id": "Q-MOCK04-049",
+      "stem_en": "A dedicated right turn lane allows you to:",
+      "stem_zhHant": "專用右轉車道允許你：",
       "options": [
         {
           "key": "A",
-          "text_en": "At any time to pass slower traffic",
-          "text_zhHant": "任何時候超越較慢車輛"
+          "text_en": "Turn right without stopping, even at a red light",
+          "text_zhHant": "即使紅燈也可以不停車右轉"
         },
         {
           "key": "B",
-          "text_en": "Only within 200 feet of making a right turn",
-          "text_zhHant": "僅在距右轉200英尺以內"
+          "text_en": "Turn right only when the signal is green",
+          "text_zhHant": "只有信號燈為綠燈時才能右轉"
         },
         {
           "key": "C",
-          "text_en": "Whenever the lane is empty",
-          "text_zhHant": "車道空閒時隨時"
+          "text_en": "Go straight or turn right",
+          "text_zhHant": "直行或右轉"
         },
         {
           "key": "D",
-          "text_en": "Only during rush hour",
-          "text_zhHant": "僅在高峰時段"
+          "text_en": "Make a U-turn when the lane is clear",
+          "text_zhHant": "當車道暢通時掉頭"
         }
       ],
-      "answer": "B",
-      "explanation_en": "You may enter a bike lane only within 200 feet of making a right turn, and only after checking for bicyclists. You must yield to any bicyclists in the lane.",
-      "explanation_zh": "你只能在距右转200英尺以内进入自行车道，并且只有在检查了是否有骑自行车者之后。你必须让自行车道内的骑车者先行。",
-      "module": "M08",
+      "answer": "A",
+      "explanation_en": "A dedicated right turn lane (sometimes called a free right turn lane or channelized turn lane) allows you to turn right without stopping, even at a red light, after yielding to pedestrians and cross traffic.",
+      "explanation_zh": "专用右转车道（有时称为自由右转车道或渠化转弯车道）允许你在让行行人和横向交通后，即使红灯也可以不停车右转。",
+      "module": "M05",
       "tags": [
-        "sharing-road",
-        "bike-lanes"
+        "lane-changes",
+        "right-turn"
       ],
-      "explanation_zhHant": "你隻能在距右轉200英尺以內進入自行車道，并且隻有在檢查了是否有騎自行車者之後。你必須讓自行車道內的騎車者先行。",
-      "stem_zhHant": "在自行車道區域，你可以在什麼情況下進入自行車道？",
+      "explanation_zhHant": "專用右轉車道（有時稱為自由右轉車道或渠化轉彎車道）允許你在讓行行人和橫向交通後，即使紅燈也可以不停車右轉。",
       "driverEd": false
     },
     {
@@ -1361,7 +1361,7 @@
       "answer": "B",
       "explanation_en": "The curfew for provisional license holders is 11 PM to 5 AM during the first 12 months.",
       "explanation_zh": "临时驾照持有人在获得驾照后的前12个月内，晚上11点至凌晨5点不得驾车。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "curfew-hours"
@@ -1392,7 +1392,7 @@
       "answer": "B",
       "explanation_en": "Driver training must be completed with a licensed or certified driving instructor.",
       "explanation_zh": "驾驶培训必须跟持有执照或认证的驾驶教练完成。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "instructor-requirement"
@@ -1423,7 +1423,7 @@
       "answer": "B",
       "explanation_en": "An instruction permit allows you to practice driving under the supervision of a licensed driver.",
       "explanation_zh": "学习许可证允许你在持照驾驶员监督下练习驾驶。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "permit-purpose"
@@ -1454,7 +1454,7 @@
       "answer": "B",
       "explanation_en": "If the 12-month permit period expires, you must reapply and retake all tests.",
       "explanation_zh": "如果12个月的许可证有效期过期，必须重新申请并重新参加所有考试。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "permit-expiry"
@@ -1485,7 +1485,7 @@
       "answer": "B",
       "explanation_en": "On the day of your test, you must bring your instruction permit or driver license.",
       "explanation_zh": "考试当天必须携带学习许可证或驾照。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "test-documents"
@@ -1516,7 +1516,7 @@
       "answer": "B",
       "explanation_en": "Provisional license driving restrictions apply during the first 12 months after licensing.",
       "explanation_zh": "临时驾照限制在获得驾照后的前12个月内有效。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "restriction-duration"
@@ -1547,7 +1547,7 @@
       "answer": "B",
       "explanation_en": "The use of recording devices, including video recorders, is prohibited during the test.",
       "explanation_zh": "路考期间禁止使用包括录像设备在内的录制设备。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "test-recording"
@@ -1578,7 +1578,7 @@
       "answer": "B",
       "explanation_en": "Only the examiner is allowed to accompany you during the drive test, with exceptions for service animals and training.",
       "explanation_zh": "路考期间只有考官可以陪同，服务动物和培训情况除外。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "test-passengers"
@@ -1609,7 +1609,7 @@
       "answer": "B",
       "explanation_en": "Instructors must carry an instructor's ID card. You should ask to see it.",
       "explanation_zh": "驾驶教练必须携带教练身份证。你应该要求查看。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "instructor-id"
@@ -1640,13 +1640,85 @@
       "answer": "A",
       "explanation_en": "For medical needs during curfew, the minor must carry a note signed by a physician with the medical condition and expected recovery date.",
       "explanation_zh": "因医疗需要在宵禁时间驾车的，必须携带医生签署的证明，注明病情和预期康复日期。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "medical-exception"
       ],
       "id": "Q-MOCK04-DE10",
       "driverEd": true
+    },
+    {
+      "id": "Q-MOCK04-050",
+      "stem_en": "When is it legal to pass a light rail vehicle on the left side?",
+      "stem_zhHant": "什麼時候可以合法地從左側超越輕軌車輛？",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Never",
+          "text_zhHant": "永遠不可以"
+        },
+        {
+          "key": "B",
+          "text_en": "When tracks are too close to the right, on a one-way street, or when directed by a traffic officer",
+          "text_zhHant": "當軌道太靠近右側、在單行道上、或由交通警察指示時"
+        },
+        {
+          "key": "C",
+          "text_en": "Any time you have enough room",
+          "text_zhHant": "任何時候有足夠空間"
+        },
+        {
+          "key": "D",
+          "text_en": "Only during daytime hours",
+          "text_zhHant": "僅在白天時段"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You may pass a light rail vehicle on the left when the tracks are too close to the right side of the road, when you are on a one-way street, or when a traffic officer directs you to do so.",
+      "explanation_zh": "当轨道太靠近道路右侧、在单行道上、或交通警察指示时，你可以从左侧超越轻轨车辆。",
+      "explanation_zhHant": "當軌道太靠近道路右側、在單行道上、或交通警察指示時，您可以從左側超越輕軌車輛。",
+      "module": "M08",
+      "tags": [
+        "light-rail"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK04-051",
+      "stem_en": "It is illegal to leave a child unattended in a vehicle if the child is:",
+      "stem_zhHant": "如果兒童年齡為以下情況，將兒童無人看管留在車內是違法的：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "8 years old or younger",
+          "text_zhHant": "8歲或以下"
+        },
+        {
+          "key": "B",
+          "text_en": "6 years old or younger",
+          "text_zhHant": "6歲或以下"
+        },
+        {
+          "key": "C",
+          "text_en": "10 years old or younger",
+          "text_zhHant": "10歲或以下"
+        },
+        {
+          "key": "D",
+          "text_en": "12 years old or younger",
+          "text_zhHant": "12歲或以下"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "It is illegal to leave a child 6 years old or younger unattended in a motor vehicle. A person 12 years or older must supervise the child.",
+      "explanation_zh": "将6岁或以下的儿童无人看管留在机动车内是违法的。必须有12岁或以上的人看管该儿童。",
+      "explanation_zhHant": "將6歲或以下的兒童無人看管留在機動車內是違法的。必須有12歲或以上的人看管該兒童。",
+      "module": "M09",
+      "tags": [
+        "child-safety"
+      ],
+      "driverEd": false
     }
   ]
 }

@@ -51,44 +51,34 @@ export default function Home() {
   // ── Landing screen (no session and no signed-in user) ──
   if (sessionMode === "none" && !user) {
     return (
-      <div className="min-h-[calc(100vh-4rem)] bg-gradient-to-b from-primary-light/40 to-bg">
-        <div className="mx-auto flex max-w-lg flex-col items-center px-4 pt-14 text-center md:pt-20">
-          {/* Logo */}
-          <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-primary shadow-lg">
-            <svg className="h-12 w-12 text-white" viewBox="0 0 48 48" fill="none">
-              {/* Road */}
-              <path d="M8 40L18 8h12l10 32H8z" fill="currentColor" fillOpacity="0.25" />
-              {/* Center dashes */}
-              <rect x="22" y="12" width="4" height="6" rx="1" fill="currentColor" />
-              <rect x="22" y="22" width="4" height="6" rx="1" fill="currentColor" />
-              <rect x="22" y="32" width="4" height="6" rx="1" fill="currentColor" />
-              {/* Car silhouette */}
-              <rect x="16" y="6" width="16" height="3" rx="1.5" fill="currentColor" />
-              <path d="M19 3h10l2 3H17l2-3z" fill="currentColor" />
-            </svg>
-          </div>
+      <div className="min-h-[calc(100vh-4rem)] bg-gradient-to-b from-primary-light/40 via-bg to-bg">
+        {/* Hero Section */}
+        <div className="mx-auto flex max-w-lg flex-col items-center px-4 pt-10 text-center md:pt-16">
+          {/* Logo — large combined mark */}
+          <img
+            src="/visuals/ACEDRIVEGO/aceDriveGo_combined_c_transparent.png"
+            alt="AceDriveGo"
+            className="h-44 w-44 object-contain md:h-52 md:w-52"
+          />
 
-          <h1 className="mt-6 text-3xl font-bold text-text-dark md:text-4xl">
-            <span className="text-primary">Ace</span>DriveGo
-          </h1>
-          <p className="mt-2 text-sm font-medium text-text-gray">
+          <p className="mt-1 text-base font-medium tracking-wide text-text-gray md:text-lg">
             Ace Your California DMV Test
           </p>
-          <p className="mt-1 text-sm text-text-gray">
+          <p className="mt-0.5 text-sm text-text-light">
             加州驾考双语学习平台
           </p>
 
-          {/* Language switcher — below subtitle */}
+          {/* Language switcher */}
           <div className="mt-3">
             <UILanguageSwitcher />
           </div>
 
-          <p className="mt-4 max-w-sm text-sm text-text-light">
+          <p className="mt-4 max-w-sm text-sm leading-relaxed text-text-light">
             {t("landing.subtitle")}
           </p>
 
-          {/* Entry mode selector — segmented control style */}
-          <div className="mt-8 w-full max-w-sm">
+          {/* Entry mode selector */}
+          <div className="mt-7 w-full max-w-sm">
             <div className="rounded-2xl border border-border bg-white p-1.5 shadow-sm">
               <div className="grid grid-cols-2 gap-1.5">
                 <button
@@ -111,8 +101,11 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
 
-          <div className="mt-10 grid w-full grid-cols-4 gap-2 text-center">
+        {/* Stats bar */}
+        <div className="mx-auto mt-8 max-w-lg px-4">
+          <div className="grid grid-cols-4 gap-2 text-center">
             {[
               { value: "460+", key: "landing.questions" as const },
               { value: "12", key: "landing.modules" as const },
@@ -125,11 +118,11 @@ export default function Home() {
               </div>
             ))}
           </div>
-
-          <p className="mt-6 text-xs text-text-gray">{t("landing.basedOn")}</p>
+          <p className="mt-4 text-center text-xs text-text-gray">{t("landing.basedOn")}</p>
         </div>
 
-        <div className="mt-10 pb-8">
+        {/* Testimonials — centered */}
+        <div className="mx-auto mt-8 max-w-2xl px-4 pb-8">
           <p className="mb-4 text-center text-sm font-medium text-text-gray">
             {t("landing.trusted")}
           </p>
@@ -183,7 +176,7 @@ export default function Home() {
           <div className="rounded-xl border border-border bg-card p-4 text-center shadow-sm">
             <p className="text-2xl font-bold text-text-dark">
               {Object.keys(testResults).length > 0
-                ? (() => { const vals = Object.values(testResults); const last = vals[vals.length - 1]; return `${last.score}/${last.total}`; })()
+                ? (() => { const vals = Object.values(testResults).filter(Boolean); const last = vals[vals.length - 1]; return last ? `${last.score}/${last.total}` : "--"; })()
                 : "--"}
             </p>
             <p className="mt-0.5 text-xs text-text-gray">{t("home.testScore")}</p>

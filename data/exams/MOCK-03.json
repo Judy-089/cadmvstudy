@@ -412,77 +412,77 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK03-012",
-      "stem_en": "You must stop for a school bus with flashing red lights:",
+      "id": "Q-MOCK03-047",
+      "stem_en": "You should use your horn to:",
+      "stem_zhHant": "你應該使用喇叭來：",
       "options": [
         {
           "key": "A",
-          "text_en": "Only when driving behind the bus",
-          "text_zhHant": "僅在校車後方行駛時"
+          "text_en": "Greet a friend on the sidewalk",
+          "text_zhHant": "向人行道上的朋友打招呼"
         },
         {
           "key": "B",
-          "text_en": "Only when children are visible",
-          "text_zhHant": "僅在看到兒童時"
+          "text_en": "Avoid collisions or alert traffic on narrow mountain roads",
+          "text_zhHant": "避免碰撞或在狹窄山路上提醒來車"
         },
         {
           "key": "C",
-          "text_en": "When traveling in either direction, unless separated by a physical divider",
-          "text_zhHant": "無論從哪個方向行駛，除非有物理隔離帶"
+          "text_en": "Express frustration at a slow driver",
+          "text_zhHant": "對慢速駕駛員表達不滿"
         },
         {
           "key": "D",
-          "text_en": "Only during school hours",
-          "text_zhHant": "僅在上課時間"
+          "text_en": "Signal pedestrians to move faster in a crosswalk",
+          "text_zhHant": "示意行人在人行橫道上加快速度"
         }
       ],
-      "answer": "C",
-      "explanation_en": "You must stop for a school bus with flashing red lights when traveling in either direction. The exception is when you are separated from the bus by a physical divider or barrier.",
-      "explanation_zh": "当校车闪烁红灯时，无论你从哪个方向行驶都必须停车。唯一的例外是当你与校车之间有物理隔离带或障碍物分隔时。",
-      "module": "M03",
+      "answer": "B",
+      "explanation_en": "Your horn should only be used to avoid collisions or to alert other traffic when necessary, such as on narrow mountain roads where visibility is limited. It should not be used to express anger or to rush other road users.",
+      "explanation_zh": "喇叭只应用于避免碰撞或在必要时提醒其他车辆，例如在能见度有限的狭窄山路上。不应使用喇叭表达愤怒或催促其他道路使用者。",
+      "module": "M01",
       "tags": [
-        "right-of-way",
-        "flashing-red"
+        "driving-basics",
+        "horn"
       ],
-      "explanation_zhHant": "當校車閃烁紅燈時，無論你從哪個方向行駛都必須停車。唯一的例外是當你與校車之間有物理隔離帶或障礙物分隔時。",
-      "stem_zhHant": "校車閃爍紅燈時你必須停車：",
+      "explanation_zhHant": "喇叭只應用於避免碰撞或在必要時提醒其他車輛，例如在能見度有限的狹窄山路上。不應使用喇叭表達憤怒或催促其他道路使用者。",
       "driverEd": false
     },
     {
-      "id": "Q-MOCK03-013",
-      "stem_en": "What is the maximum speed limit on a two-lane undivided highway unless otherwise posted?",
+      "id": "Q-MOCK03-049",
+      "stem_en": "If two vehicles meet on a steep narrow mountain road, which vehicle must yield?",
+      "stem_zhHant": "如果兩輛車在陡峭狹窄的山路上相遇，哪輛車必須讓行？",
       "options": [
         {
           "key": "A",
-          "text_en": "45 mph",
-          "text_zhHant": "45英里/小時"
+          "text_en": "The vehicle going uphill",
+          "text_zhHant": "上坡的車輛"
         },
         {
           "key": "B",
-          "text_en": "50 mph",
-          "text_zhHant": "50英里/小時"
+          "text_en": "The vehicle going downhill",
+          "text_zhHant": "下坡的車輛"
         },
         {
           "key": "C",
-          "text_en": "55 mph",
-          "text_zhHant": "55英里/小時"
+          "text_en": "The smaller vehicle",
+          "text_zhHant": "較小的車輛"
         },
         {
           "key": "D",
-          "text_en": "65 mph",
-          "text_zhHant": "65英里/小時"
+          "text_en": "The vehicle that arrived second",
+          "text_zhHant": "後到的車輛"
         }
       ],
-      "answer": "C",
-      "explanation_en": "The maximum speed limit on a two-lane undivided highway is 55 mph unless otherwise posted.",
-      "explanation_zh": "除非另有标示，双车道非分隔公路的最高速度限制为55英里/小时。",
-      "module": "M04",
+      "answer": "B",
+      "explanation_en": "On a steep narrow mountain road where only one vehicle can pass at a time, the vehicle going downhill must yield to the vehicle going uphill, because the uphill vehicle has less control and more difficulty stopping.",
+      "explanation_zh": "在一次只能通过一辆车的陡峭狭窄山路上，下坡车辆必须让行上坡车辆，因为上坡车辆控制力更弱，停车更困难。",
+      "module": "M03",
       "tags": [
-        "speed-laws",
-        "highway"
+        "right-of-way",
+        "mountain-road"
       ],
-      "explanation_zhHant": "除非另有標示，雙車道非分隔公路的最高速度限制為55英裡/小時。",
-      "stem_zhHant": "除非另有標示，雙車道無分隔公路的最高速度限制是？",
+      "explanation_zhHant": "在一次只能通過一輛車的陡峭狹窄山路上，下坡車輛必須讓行上坡車輛，因為上坡車輛控制力更弱，停車更困難。",
       "driverEd": false
     },
     {
@@ -1192,40 +1192,40 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK03-043",
-      "stem_en": "If you see an orange triangle on the back of a vehicle on the highway, you should:",
+      "id": "Q-MOCK03-048",
+      "stem_en": "When entering a roundabout, you should:",
+      "stem_zhHant": "進入環形交叉路口時，你應該：",
       "options": [
         {
           "key": "A",
-          "text_en": "Pass immediately on the right",
-          "text_zhHant": "立即從右側超車"
+          "text_en": "Speed up to merge into circulating traffic",
+          "text_zhHant": "加速匯入環內車流"
         },
         {
           "key": "B",
-          "text_en": "Slow down — it is a slow-moving vehicle",
-          "text_zhHant": "減速——這是慢速車輛"
+          "text_en": "Yield to traffic already in the roundabout and enter to the right",
+          "text_zhHant": "讓行已在環形交叉路口內的車輛，並從右側進入"
         },
         {
           "key": "C",
-          "text_en": "Maintain your speed",
-          "text_zhHant": "保持你的速度"
+          "text_en": "Stop completely and wait for all traffic to clear",
+          "text_zhHant": "完全停車，等待所有車輛通過"
         },
         {
           "key": "D",
-          "text_en": "Honk your horn to alert the driver",
-          "text_zhHant": "按喇叭提醒駕駛員"
+          "text_en": "Enter to the left and cut across lanes",
+          "text_zhHant": "從左側進入並切換車道"
         }
       ],
       "answer": "B",
-      "explanation_en": "An orange triangle on the rear of a vehicle is a slow-moving vehicle emblem, indicating the vehicle travels at 25 mph or less. Slow down and pass safely when able.",
-      "explanation_zh": "车辆后方的橙色三角形是慢速车辆标志，表示该车辆的行驶速度为25英里/小时或更低。减速并在可以时安全超车。",
-      "module": "M08",
+      "explanation_en": "When entering a roundabout, you must yield to traffic already circulating in the roundabout and enter to the right. Traffic in roundabouts flows counterclockwise.",
+      "explanation_zh": "进入环形交叉路口时，你必须让行已在环内行驶的车辆，并从右侧进入。环形交叉路口内的车辆按逆时针方向行驶。",
+      "module": "M03",
       "tags": [
-        "sharing-road",
-        "slow-vehicles"
+        "right-of-way",
+        "roundabout"
       ],
-      "explanation_zhHant": "車輛後方的橙色三角形是慢速車輛標誌，表示該車輛的行駛速度為25英裡/小時或更低。減速并在可以時安全超車。",
-      "stem_zhHant": "如果你在高速公路上看到車輛後方的橙色三角形，你應該：",
+      "explanation_zhHant": "進入環形交叉路口時，你必須讓行已在環內行駛的車輛，並從右側進入。環形交叉路口內的車輛按逆時針方向行駛。",
       "driverEd": false
     },
     {
@@ -1362,7 +1362,7 @@
       "answer": "C",
       "explanation_en": "You must be at least 16 years old to take the behind-the-wheel driving test.",
       "explanation_zh": "必须年满16岁才能参加路考。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "driving-test-age"
@@ -1393,7 +1393,7 @@
       "answer": "B",
       "explanation_en": "You have 3 attempts to pass the knowledge test within the 12-month application period.",
       "explanation_zh": "在12个月的申请有效期内有3次笔试机会。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "test-attempts"
@@ -1424,7 +1424,7 @@
       "answer": "B",
       "explanation_en": "When you are under 18, your driver license will have the word provisional.",
       "explanation_zh": "未满18岁时，驾照上会标注provisional（临时）字样。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "provisional-label"
@@ -1455,7 +1455,7 @@
       "answer": "C",
       "explanation_en": "The supervising driver must sit close enough to take control of the vehicle if needed.",
       "explanation_zh": "陪同驾驶员必须坐在足够近的位置，以便在需要时能够控制车辆。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "supervisor-position"
@@ -1486,7 +1486,7 @@
       "answer": "D",
       "explanation_en": "A minor can get a new license when they turn 18 (no longer need parental consent) or find another qualifying adult to sign.",
       "explanation_zh": "未成年人在满18岁（不再需要父母同意）或找到其他符合条件的成年人签字后可以重新获得驾照。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "license-cancellation"
@@ -1517,7 +1517,7 @@
       "answer": "B",
       "explanation_en": "For school-related driving during curfew, the minor must carry a note signed by the school principal, dean, or designee.",
       "explanation_zh": "因学校活动需在宵禁时间驾车的，必须携带校长、教务长或其指定人签署的证明。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "school-exception"
@@ -1548,7 +1548,7 @@
       "answer": "B",
       "explanation_en": "The drive test evaluates your ability to safely drive a vehicle in most road situations.",
       "explanation_zh": "路考评估你在大多数道路情况下安全驾驶车辆的能力。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "drive-test-purpose"
@@ -1579,7 +1579,7 @@
       "answer": "B",
       "explanation_en": "Advanced driver assistance systems like automated parallel parking, lane departure, and adaptive cruise control are not permitted during the drive test.",
       "explanation_zh": "路考期间不允许使用自动平行停车、车道偏离和自适应巡航控制等高级驾驶辅助系统。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "drive-test-rules"
@@ -1610,7 +1610,7 @@
       "answer": "A",
       "explanation_en": "For work-related driving during curfew, the minor must carry a note signed by the employer confirming employment.",
       "explanation_zh": "因工作需在宵禁时间驾车的，必须携带雇主签署的确认雇佣关系的证明。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "work-exception"
@@ -1641,13 +1641,85 @@
       "answer": "B",
       "explanation_en": "You have 3 attempts to pass the behind-the-wheel test within the 12-month period.",
       "explanation_zh": "在12个月内有3次路考机会。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "drive-test-attempts"
       ],
       "id": "Q-MOCK03-DE10",
       "driverEd": true
+    },
+    {
+      "id": "Q-MOCK03-050",
+      "stem_en": "A driver's left arm is extended out the window, bent downward. This signal means:",
+      "stem_zhHant": "駕駛員的左臂伸出車窗外，向下彎曲。這個信號表示：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Left turn",
+          "text_zhHant": "左轉"
+        },
+        {
+          "key": "B",
+          "text_en": "Right turn",
+          "text_zhHant": "右轉"
+        },
+        {
+          "key": "C",
+          "text_en": "Slowing or stopping",
+          "text_zhHant": "減速或停車"
+        },
+        {
+          "key": "D",
+          "text_en": "Waving other drivers to pass",
+          "text_zhHant": "揮手示意其他駕駛員通過"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "When a driver extends their left arm out the window and bends it downward, it signals that the vehicle is slowing down or stopping.",
+      "explanation_zh": "当驾驶员将左臂伸出车窗并向下弯曲时，表示车辆正在减速或停车。",
+      "explanation_zhHant": "當駕駛員將左臂伸出車窗並向下彎曲時，表示車輛正在減速或停車。",
+      "module": "M01",
+      "tags": [
+        "hand-signal-stop"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK03-051",
+      "stem_en": "When towing a trailer on a highway with 4 or more lanes in your direction, where must you drive?",
+      "stem_zhHant": "在您的方向有4條或更多車道的高速公路上拖曳拖車時，您必須在哪裡行駛？",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "In any lane you choose",
+          "text_zhHant": "在您選擇的任何車道"
+        },
+        {
+          "key": "B",
+          "text_en": "In the two lanes closest to the right edge",
+          "text_zhHant": "在最靠近右側邊緣的兩條車道"
+        },
+        {
+          "key": "C",
+          "text_en": "In the left lane only",
+          "text_zhHant": "僅在左側車道"
+        },
+        {
+          "key": "D",
+          "text_en": "In the center lanes",
+          "text_zhHant": "在中間車道"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When towing a trailer on a highway with four or more lanes in your direction and no lanes are marked for slower vehicles, you must drive in the two lanes closest to the right edge of the road.",
+      "explanation_zh": "在你的方向有四条或以上车道的高速公路上拖曳拖车时，如果没有标记慢速车辆车道，你必须在最靠近道路右侧边缘的两条车道行驶。",
+      "explanation_zhHant": "在您的方向有四條或以上車道的高速公路上拖曳拖車時，如果沒有標記慢速車輛車道，您必須在最靠近道路右側邊緣的兩條車道行駛。",
+      "module": "M04",
+      "tags": [
+        "towing"
+      ],
+      "driverEd": false
     }
   ]
 }

@@ -64,6 +64,18 @@
             "impairment"
           ],
           "zhHant": "即使BAC低於法定限制，如果酒精或藥物影響了你的安全駕駛能力，你仍然可能因酒駕被逮捕。"
+        },
+        {
+          "id": "M10-S01-K06",
+          "en": "If you are driving a passenger for hire (such as rideshare), the BAC limit is 0.04% or higher.",
+          "zh": "如果你是有偿载客驾驶（如网约车），BAC限制为0.04%或以上即为违法。",
+          "isHighFreq": true,
+          "tags": [
+            "bac",
+            "passenger-for-hire",
+            "rideshare"
+          ],
+          "zhHant": "如果你是有償載客駕駛（如網約車），BAC限制為0.04%或以上即為違法。"
         }
       ],
       "titleZhHant": "血液酒精濃度限制"
@@ -260,6 +272,18 @@
             "law"
           ],
           "zhHant": "在公路上的機動車乘客區域內放置已開封的酒精容器是違法的。"
+        },
+        {
+          "id": "M10-S04-K07",
+          "en": "If you are 13 to 20 years old and convicted of operating a bicycle while under the influence of alcohol or drugs, your driving privilege may be suspended or delayed for one year once you are eligible to drive.",
+          "zh": "如果你年龄在13至20岁之间，因在酒精或药物影响下骑自行车被定罪，一旦你有资格驾驶，你的驾驶权可能被暂停或推迟一年。",
+          "isHighFreq": false,
+          "tags": [
+            "bicycle-dui",
+            "minor",
+            "suspension"
+          ],
+          "zhHant": "如果你年齡在13至20歲之間，因在酒精或藥物影響下騎自行車被定罪，一旦你有資格駕駛，你的駕駛權可能被暫停或推遲一年。"
         }
       ],
       "titleZhHant": "酒精與藥物對駕駛的影響"

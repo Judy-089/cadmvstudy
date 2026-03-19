@@ -81,7 +81,7 @@ export default function MockTestPage() {
       <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {mockExams.map((exam) => {
           const unlocked = isExamUnlocked(exam.id);
-          const result = testResults[exam.id];
+          const result = testResults[exam.id as string];
           const hasTaken = !!result;
           const examPassed = result ? result.score >= getPassThreshold(result.total) : false;
           const cardContent = (

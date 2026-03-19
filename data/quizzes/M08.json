@@ -158,6 +158,37 @@
           "explanation_en": "Be especially watchful for pedestrians in residential areas, near schools, and in parking lots.",
           "explanation_zhHant": "在住宅區、學校附近和停車場要格外注意行人。",
           "tags": []
+        },
+        {
+          "id": "M08-S01-Q06",
+          "stem_en": "A flashing 'DON'T WALK' or raised hand pedestrian signal means:",
+          "stem_zhHant": "閃爍的「不要走」或舉手行人信號表示：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Pedestrians must stop immediately in the roadway",
+              "text_zhHant": "行人必須立即在路上停下"
+            },
+            {
+              "key": "B",
+              "text_en": "Do not start crossing; if already crossing, finish quickly",
+              "text_zhHant": "不要開始過馬路；如果已經在過，趕快走完"
+            },
+            {
+              "key": "C",
+              "text_en": "The signal is broken",
+              "text_zhHant": "信號燈壞了"
+            },
+            {
+              "key": "D",
+              "text_en": "Pedestrians should run across the street",
+              "text_zhHant": "行人應該跑步穿過街道"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "A flashing DON'T WALK or raised hand signal means do not start crossing the street. If you have already started crossing, finish crossing quickly.",
+          "explanation_zhHant": "閃爍的「不要走」或舉手信號表示不要開始過馬路。如果已經在過馬路中，應加快步伐走完。",
+          "tags": ["pedestrian-signal"]
         }
       ]
     },
@@ -317,6 +348,130 @@
           "answer": "C",
           "explanation_en": "Bicyclists are allowed to ride in the center of the lane when the lane is too narrow for a bicycle and vehicle to travel safely side by side.",
           "explanation_zhHant": "當車道太窄，自行車和機動車無法安全並排行駛時，騎自行車的人可以在車道中央騎行。",
+          "tags": []
+        },
+        {
+          "id": "M08-S02-Q06",
+          "stem_en": "When CAN you drive in a bicycle lane?",
+          "stem_zhHant": "什麼時候你可以在自行車道內行駛？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Whenever the bike lane is empty",
+              "text_zhHant": "只要自行車道是空的時候"
+            },
+            {
+              "key": "B",
+              "text_en": "Within 200 feet of an intersection to make a turn",
+              "text_zhHant": "在距路口200英尺內準備轉彎時"
+            },
+            {
+              "key": "C",
+              "text_en": "During rush hour to avoid traffic",
+              "text_zhHant": "在高峰期為了避開車流"
+            },
+            {
+              "key": "D",
+              "text_en": "When driving under 25 mph",
+              "text_zhHant": "當車速低於25英里/小時時"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "You may drive in a bicycle lane only within 200 feet of an intersection to make a turn, when entering or leaving a driveway, or when parking where permitted.",
+          "explanation_zhHant": "只有在距路口200英尺內準備轉彎、進出車道入口或在允許停車處停車時，才可以在自行車道內行駛。",
+          "tags": []
+        },
+        {
+          "id": "M08-S02-Q07",
+          "stem_en": "What is a buffered bicycle lane?",
+          "stem_zhHant": "什麼是緩衝自行車道？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "A bike lane with a physical barrier like a wall or fence",
+              "text_zhHant": "有牆壁或圍欄等實體障礙的自行車道"
+            },
+            {
+              "key": "B",
+              "text_en": "A bike lane with extra space marked by chevrons or diagonal lines separating it from traffic",
+              "text_zhHant": "用人字形或斜線標記的額外空間將其與車流分隔的自行車道"
+            },
+            {
+              "key": "C",
+              "text_en": "A shared lane where bicycles and cars drive together",
+              "text_zhHant": "自行車和汽車共用的車道"
+            },
+            {
+              "key": "D",
+              "text_en": "A bike lane that is only for electric bicycles",
+              "text_zhHant": "僅供電動自行車使用的車道"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "A buffered bicycle lane has extra painted buffer space marked with chevrons or diagonal lines to provide greater separation between bicyclists and motor vehicle traffic.",
+          "explanation_zhHant": "緩衝自行車道有額外的塗漆緩衝空間，用人字形或斜線標記，為騎車人和機動車之間提供更大的分隔距離。",
+          "tags": []
+        },
+        {
+          "id": "M08-S02-Q08",
+          "stem_en": "What is a separated bikeway?",
+          "stem_zhHant": "什麼是分離式自行車道？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "A bike lane with a painted buffer only",
+              "text_zhHant": "僅有塗漆緩衝的自行車道"
+            },
+            {
+              "key": "B",
+              "text_en": "A bike lane that is physically separated from motor vehicle traffic by a barrier, curb, or parked cars",
+              "text_zhHant": "透過護欄、路緣或停放的車輛與機動車道進行實體分隔的自行車道"
+            },
+            {
+              "key": "C",
+              "text_en": "A sidewalk shared with pedestrians",
+              "text_zhHant": "與行人共用的人行道"
+            },
+            {
+              "key": "D",
+              "text_en": "A lane for motorcycles and bicycles",
+              "text_zhHant": "供摩托車和自行車使用的車道"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "A separated bikeway is a bicycle lane that is physically separated from motor vehicle traffic by a barrier, curb, parked cars, or other physical feature. Motor vehicles must not drive in separated bikeways.",
+          "explanation_zhHant": "分離式自行車道是透過護欄、路緣、停放的車輛或其他實體設施與機動車道進行物理分隔的自行車道。機動車不得駛入分離式自行車道。",
+          "tags": []
+        },
+        {
+          "id": "M08-S02-Q09",
+          "stem_en": "What do shared roadway bicycle markings (sharrows) indicate?",
+          "stem_zhHant": "共用道路自行車標記（共享箭頭）表示什麼？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Only bicycles may use this lane",
+              "text_zhHant": "只有自行車可以使用這條車道"
+            },
+            {
+              "key": "B",
+              "text_en": "Bicyclists may occupy the full lane and drivers should expect to share the road",
+              "text_zhHant": "自行車騎士可以佔用整條車道，駕駛員應預期與其共用道路"
+            },
+            {
+              "key": "C",
+              "text_en": "This is a parking lane for bicycles",
+              "text_zhHant": "這是自行車停放車道"
+            },
+            {
+              "key": "D",
+              "text_en": "Bicyclists must ride on the sidewalk in this area",
+              "text_zhHant": "在此區域自行車騎士必須在人行道上騎行"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Shared roadway bicycle markings (sharrows) alert drivers that bicyclists may occupy the full lane. These markings are placed on roads where there is no separate bike lane.",
+          "explanation_zhHant": "共用道路自行車標記（共享箭頭）提醒駕駛員自行車騎士可能佔用整條車道。這些標記設置在沒有獨立自行車道的道路上。",
           "tags": []
         }
       ]
@@ -478,6 +633,21 @@
           "explanation_en": "Road conditions that are minor for cars (potholes, gravel, wet pavement) can be major hazards for motorcyclists.",
           "explanation_zhHant": "對汽車來說較小的路況問題（坑洼、碎石、濕滑路面）對摩托車騎手來說可能是重大危險。",
           "tags": []
+        },
+        {
+          "id": "M08-S03-Q04",
+          "stem_en": "When may you pass a light rail vehicle on the left side?",
+          "stem_zhHant": "什麼時候可以從左側超越輕軌車輛？",
+          "options": [
+            {"key": "A", "text_en": "Whenever it is stopped to pick up passengers", "text_zhHant": "當它停車上客時"},
+            {"key": "B", "text_en": "Only when the tracks are so close to the right that you cannot pass on the right, on a one-way street, or when directed by a traffic officer", "text_zhHant": "僅當軌道太靠近右側無法從右側通過、在單行道上、或交警指示時"},
+            {"key": "C", "text_en": "Any time you can safely do so", "text_zhHant": "任何你可以安全通過的時候"},
+            {"key": "D", "text_en": "Only during daytime hours", "text_zhHant": "僅在白天"}
+          ],
+          "answer": "B",
+          "explanation_en": "Do not pass a light rail vehicle on the left unless: tracks are too close to the right, you are on a one-way street, or a traffic officer directs you.",
+          "explanation_zhHant": "不要從左側超越輕軌車輛，除非：軌道太靠近右側、在單行道上、或交警指示。",
+          "tags": ["light-rail"]
         }
       ]
     },
@@ -966,6 +1136,21 @@
           "explanation_en": "Never stop or park in a lane next to a stopped emergency vehicle with flashing lights.",
           "explanation_zhHant": "不要在亮著閃燈的停靠緊急車輛旁邊的車道上停車或停放。",
           "tags": []
+        },
+        {
+          "id": "M08-S06-Q04",
+          "stem_en": "Vehicles displaying diamond-shaped hazardous load signs must do what before crossing railroad tracks?",
+          "stem_zhHant": "顯示菱形危險品標誌的車輛在通過鐵路道口前必須做什麼？",
+          "options": [
+            {"key": "A", "text_en": "Slow down to 15 mph", "text_zhHant": "減速至15英里/小時"},
+            {"key": "B", "text_en": "Honk their horn", "text_zhHant": "按喇叭"},
+            {"key": "C", "text_en": "Come to a complete stop", "text_zhHant": "完全停車"},
+            {"key": "D", "text_en": "Flash their headlights", "text_zhHant": "閃爍車燈"}
+          ],
+          "answer": "C",
+          "explanation_en": "Vehicles with hazardous load placards must stop before crossing railroad tracks.",
+          "explanation_zhHant": "帶有危險品標識的車輛必須在通過鐵路道口前停車。",
+          "tags": ["hazardous-load", "railroad"]
         }
       ]
     }

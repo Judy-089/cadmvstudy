@@ -478,6 +478,21 @@
           "explanation_en": "The back seat is the safest place for children 12 and under. Never place a rear-facing car seat in front of an active airbag because the airbag can seriously injure or kill the child.",
           "explanation_zhHant": "後座是12歲及以下兒童最安全的位置。不要將後向式安全座椅放在有激活安全氣囊的前座，因為安全氣囊可能嚴重傷害或致死兒童。",
           "tags": []
+        },
+        {
+          "id": "M09-S03-Q04",
+          "stem_en": "It is illegal to leave a child unattended in a vehicle if the child is:",
+          "stem_zhHant": "如果兒童年齡為以下情況，將其無人看管地留在車內是違法的：",
+          "options": [
+            {"key": "A", "text_en": "8 years old or younger", "text_zhHant": "8歲或以下"},
+            {"key": "B", "text_en": "10 years old or younger", "text_zhHant": "10歲或以下"},
+            {"key": "C", "text_en": "6 years old or younger", "text_zhHant": "6歲或以下"},
+            {"key": "D", "text_en": "4 years old or younger", "text_zhHant": "4歲或以下"}
+          ],
+          "answer": "C",
+          "explanation_en": "It is illegal to leave a child who is 6 years old or younger unattended in a vehicle.",
+          "explanation_zhHant": "將6歲或以下的兒童無人看管地留在車內是違法的。",
+          "tags": ["child-safety"]
         }
       ]
     },
@@ -669,6 +684,83 @@
           "explanation_en": "Signal at least 200 feet before turning on highways.",
           "explanation_zhHant": "在高速公路上至少提前200英尺打轉向燈。",
           "tags": []
+        },
+        {
+          "id": "M09-S04-Q07",
+          "stem_en": "In the four zones of awareness around your vehicle, which zone is the 'Yellow' zone?",
+          "stem_zhHant": "在車輛周圍的四個意識區域中，「黃色」區域是哪個？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "The area ahead of your vehicle",
+              "text_zhHant": "車輛前方的區域"
+            },
+            {
+              "key": "B",
+              "text_en": "The area behind your vehicle",
+              "text_zhHant": "車輛後方的區域"
+            },
+            {
+              "key": "C",
+              "text_en": "The areas on both sides of your vehicle",
+              "text_zhHant": "車輛兩側的區域"
+            },
+            {
+              "key": "D",
+              "text_en": "Your blind spots — areas not visible in mirrors",
+              "text_zhHant": "你的盲區——後視鏡中看不到的區域"
+            }
+          ],
+          "answer": "D",
+          "explanation_en": "The four zones of awareness are: Green (ahead), Blue (sides), Yellow (blind spots — areas not visible in mirrors), and Red (behind). The Yellow zone requires shoulder checks before changing lanes.",
+          "explanation_zhHant": "四個意識區域為：綠色（前方）、藍色（兩側）、黃色（盲區——後視鏡中看不到的區域）和紅色（後方）。黃色區域需要在變道前轉頭檢查。",
+          "tags": ["blind-spots"]
+        },
+        {
+          "id": "M09-S04-Q08",
+          "stem_en": "What is TRUE about carbon monoxide from vehicle exhaust?",
+          "stem_zhHant": "關於車輛排放的一氧化碳，以下哪項是正確的？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "It has a strong, noticeable smell",
+              "text_zhHant": "它有強烈的、明顯的氣味"
+            },
+            {
+              "key": "B",
+              "text_en": "It is odorless and colorless; never run your engine in a closed garage",
+              "text_zhHant": "它無色無味；永遠不要在封閉的車庫中啟動引擎"
+            },
+            {
+              "key": "C",
+              "text_en": "It is only dangerous to children",
+              "text_zhHant": "它只對兒童有危險"
+            },
+            {
+              "key": "D",
+              "text_en": "It is visible as blue smoke and easy to detect",
+              "text_zhHant": "它以藍色煙霧的形式可見，容易發現"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Carbon monoxide is an odorless, colorless, and deadly gas. Never start or run your engine in a closed garage, as carbon monoxide can build up and cause death.",
+          "explanation_zhHant": "一氧化碳是一種無色、無味且致命的氣體。永遠不要在封閉的車庫中啟動或運行引擎，因為一氧化碳會積聚並導致死亡。",
+          "tags": []
+        },
+        {
+          "id": "M09-S04-Q06",
+          "stem_en": "When dangers exist on both sides of the road, you should:",
+          "stem_zhHant": "當道路兩側都存在危險時，你應該：",
+          "options": [
+            {"key": "A", "text_en": "Speed up to get past the hazards quickly", "text_zhHant": "加速快速通過危險區域"},
+            {"key": "B", "text_en": "Give more space to the most dangerous situation", "text_zhHant": "給最危險的情況留出更多空間"},
+            {"key": "C", "text_en": "Stop immediately in the middle of the road", "text_zhHant": "立即在路中間停車"},
+            {"key": "D", "text_en": "Close your eyes and drive straight", "text_zhHant": "閉上眼睛直行"}
+          ],
+          "answer": "B",
+          "explanation_en": "When hazards are on both sides, give more space to the most dangerous situation.",
+          "explanation_zhHant": "當兩側都有危險時，給最危險的情況留出更多空間。",
+          "tags": ["hazard-avoidance"]
         }
       ]
     },
@@ -829,6 +921,21 @@
           "explanation_en": "Do not stop on the freeway on-ramp unless traffic is already stopped. Merge into traffic at or near the speed of traffic.",
           "explanation_zhHant": "除非車流已經停止，否則不要在高速公路入口匝道上停車。以接近車流速度匯入。",
           "tags": []
+        },
+        {
+          "id": "M09-S05-Q04",
+          "stem_en": "What free service does the California Highway Patrol Freeway Service Patrol (FSP) provide during commute times?",
+          "stem_zhHant": "加州公路巡警高速公路服務巡邏隊（FSP）在通勤時段提供什麼免費服務？",
+          "options": [
+            {"key": "A", "text_en": "Towing to your home", "text_zhHant": "拖車到你家"},
+            {"key": "B", "text_en": "A gallon of gas, jump starts, flat tire changes, and collision reports", "text_zhHant": "一加侖汽油、啟動電瓶、更換漏氣輪胎和碰撞報告"},
+            {"key": "C", "text_en": "Free car washes", "text_zhHant": "免費洗車"},
+            {"key": "D", "text_en": "Speeding ticket forgiveness", "text_zhHant": "超速罰單豁免"}
+          ],
+          "answer": "B",
+          "explanation_en": "FSP provides free gas, jump starts, flat tire changes, and reports collisions to CHP. Call 511 for information.",
+          "explanation_zhHant": "FSP提供免費汽油、啟動電瓶、更換漏氣輪胎，並向CHP報告碰撞事故。撥打511了解信息。",
+          "tags": ["fsp", "chp"]
         }
       ]
     }

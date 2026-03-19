@@ -349,6 +349,37 @@
           "explanation_en": "Try to drive in the tire tracks of the car ahead of you, as there is less water accumulation in those tracks.",
           "explanation_zhHant": "盡量沿著前車的輪跡行駛，因為那裡積水較少。",
           "tags": []
+        },
+        {
+          "id": "M07-S02-Q07",
+          "stem_en": "When driving in high winds, what should you NOT do?",
+          "stem_zhHant": "在大風天氣駕駛時，你不應該做什麼？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Reduce your speed",
+              "text_zhHant": "減速"
+            },
+            {
+              "key": "B",
+              "text_en": "Keep both hands on the steering wheel",
+              "text_zhHant": "雙手握住方向盤"
+            },
+            {
+              "key": "C",
+              "text_en": "Use cruise control",
+              "text_zhHant": "使用定速巡航"
+            },
+            {
+              "key": "D",
+              "text_en": "Be alert for debris on the road",
+              "text_zhHant": "注意路面上的雜物"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Do not use cruise control in high winds. You need full control of your speed and steering to react to sudden gusts that may push your vehicle.",
+          "explanation_zhHant": "大風天氣不要使用定速巡航。你需要完全控制車速和方向以應對突然的陣風推力。",
+          "tags": []
         }
       ]
     },
@@ -731,6 +762,83 @@
           "explanation_en": "If your headlights suddenly go out, try the headlight switch. Slow down and pull off the road.",
           "explanation_zhHant": "如果前車燈突然熄滅，嘗試開關燈光開關。減速並將車駛離道路。",
           "tags": []
+        },
+        {
+          "id": "M07-S04-Q08",
+          "stem_en": "If you experience a tire blowout while driving, what is the MOST important thing to do?",
+          "stem_zhHant": "如果駕駛時輪胎爆裂，最重要的是做什麼？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Brake suddenly to stop as quickly as possible",
+              "text_zhHant": "急刹車儘快停車"
+            },
+            {
+              "key": "B",
+              "text_en": "Hold the steering wheel firmly and do not brake suddenly",
+              "text_zhHant": "緊握方向盤，不要急刹車"
+            },
+            {
+              "key": "C",
+              "text_en": "Immediately turn off the engine",
+              "text_zhHant": "立即關閉引擎"
+            },
+            {
+              "key": "D",
+              "text_en": "Accelerate to maintain vehicle stability",
+              "text_zhHant": "加速以保持車輛穩定"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "During a tire blowout, hold the steering wheel firmly to maintain control. Do not brake suddenly — ease off the gas, slow down gradually, and steer to a safe spot off the road.",
+          "explanation_zhHant": "輪胎爆裂時，緊握方向盤以保持控制。不要急刹車——鬆開油門，逐漸減速，並將車駛到安全的路邊位置。",
+          "tags": []
+        },
+        {
+          "id": "M07-S04-Q09",
+          "stem_en": "When driving in fog, you should use:",
+          "stem_zhHant": "霧天駕駛時，你應該使用：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "High-beam headlights for maximum visibility",
+              "text_zhHant": "遠光燈以獲得最大能見度"
+            },
+            {
+              "key": "B",
+              "text_en": "Low-beam headlights, NOT high beams",
+              "text_zhHant": "近光燈，不要使用遠光燈"
+            },
+            {
+              "key": "C",
+              "text_en": "Only parking lights",
+              "text_zhHant": "僅停車燈"
+            },
+            {
+              "key": "D",
+              "text_en": "No lights at all to avoid glare",
+              "text_zhHant": "不開任何燈以避免眩光"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "In fog, always use low-beam headlights, NOT high beams. High beams reflect off the fog and create glare, reducing your visibility even further.",
+          "explanation_zhHant": "霧天始終使用近光燈，不要使用遠光燈。遠光燈會被霧氣反射造成眩光，進一步降低能見度。",
+          "tags": []
+        },
+        {
+          "id": "M07-S04-Q05",
+          "stem_en": "If your vehicle has a four-wheel antilock braking system (ABS) and you start to skid, you should:",
+          "stem_zhHant": "如果你的車輛配有四輪防抱死制動系統（ABS）並開始打滑，你應該：",
+          "options": [
+            {"key": "A", "text_en": "Pump the brake pedal rapidly", "text_zhHant": "快速反覆踩煞車踏板"},
+            {"key": "B", "text_en": "Apply firm, continuous pressure on the brake pedal", "text_zhHant": "穩定持續地踩住煞車踏板"},
+            {"key": "C", "text_en": "Release the brake pedal completely", "text_zhHant": "完全鬆開煞車踏板"},
+            {"key": "D", "text_en": "Shift into neutral and coast", "text_zhHant": "換到空檔滑行"}
+          ],
+          "answer": "B",
+          "explanation_en": "With four-wheel ABS, apply firm pressure on the brake pedal. Do not pump the brakes — the ABS system will do the pulsing for you.",
+          "explanation_zhHant": "配有四輪ABS時，穩定踩住煞車踏板。不要反覆踩煞車——ABS系統會自動脈動制動。",
+          "tags": ["abs", "skid"]
         }
       ]
     },
@@ -891,6 +999,21 @@
           "explanation_en": "Use lower gears to maintain better control when driving downhill on slippery surfaces.",
           "explanation_zhHant": "在濕滑路面下坡時使用低擋位以保持更好的控制力。",
           "tags": []
+        },
+        {
+          "id": "M07-S05-Q04",
+          "stem_en": "If your vehicle gets stuck in snow or mud, what should you do FIRST?",
+          "stem_zhHant": "如果你的車輛陷入雪地或泥地，你應該首先做什麼？",
+          "options": [
+            {"key": "A", "text_en": "Press the accelerator hard to spin out", "text_zhHant": "猛踩油門轉出來"},
+            {"key": "B", "text_en": "Shift into a low gear and keep the front wheels straight", "text_zhHant": "掛低檔並保持前輪正直"},
+            {"key": "C", "text_en": "Turn the steering wheel sharply", "text_zhHant": "急轉方向盤"},
+            {"key": "D", "text_en": "Shift into reverse immediately", "text_zhHant": "立即掛倒檔"}
+          ],
+          "answer": "B",
+          "explanation_en": "Shift into a low gear and keep the front wheels straight first. Then gently step on the accelerator — avoid spinning the wheels.",
+          "explanation_zhHant": "首先掛低檔並保持前輪正直。然後輕踩油門——避免車輪打滑。",
+          "tags": ["snow", "stuck"]
         }
       ]
     }

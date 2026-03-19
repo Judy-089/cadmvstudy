@@ -87,30 +87,38 @@
     },
     {
       "id": "Q-MOCK10-004",
-      "stem_en": "A broken yellow line on your side of the center line means:",
+      "stem_en": "If you have a tire blowout, the FIRST thing you should do is:",
+      "stem_zhHant": "如果您的輪胎爆裂，您應該做的第一件事是：",
       "options": [
         {
           "key": "A",
-          "text_en": "No passing allowed at any time"
+          "text_en": "Brake hard to stop as quickly as possible",
+          "text_zhHant": "猛踩刹車盡快停車"
         },
         {
           "key": "B",
-          "text_en": "You may pass when it is safe to do so"
+          "text_en": "Hold the steering wheel firmly with both hands",
+          "text_zhHant": "用雙手緊握方向盤"
         },
         {
           "key": "C",
-          "text_en": "The road is one-way"
+          "text_en": "Turn sharply to the side of the road",
+          "text_zhHant": "急轉到路邊"
         },
         {
           "key": "D",
-          "text_en": "You are in a school zone"
+          "text_en": "Immediately remove your foot from the accelerator",
+          "text_zhHant": "立即將腳從油門上移開"
         }
       ],
       "answer": "B",
-      "explanation_en": "A broken yellow line indicates you may pass if the broken line is next to your driving lane. Only pass when it is safe.",
-      "explanation_zh": "虚黄线表示如果虚线在你的行驶车道旁，你可以超车。仅在安全时才进行超车。",
-      "module": "M02",
-      "tags": [],
+      "explanation_en": "If you have a tire blowout, the first thing to do is hold the steering wheel firmly with both hands. Maintain your speed briefly if safe, then gradually slow down. Do not brake hard or turn sharply.",
+      "explanation_zh": "如果你的轮胎爆裂，首先要做的是用双手紧握方向盘。如果安全的话短暂保持速度，然后逐渐减速。不要猛踩刹车或急转弯。",
+      "module": "M07",
+      "tags": [
+        "tire-blowout"
+      ],
+      "explanation_zhHant": "如果您的輪胎爆裂，首先要做的是用雙手緊握方向盤。如果安全的話短暫保持速度，然後逐漸減速。不要猛踩刹車或急轉彎。",
       "driverEd": false
     },
     {
@@ -713,30 +721,38 @@
     },
     {
       "id": "Q-MOCK10-026",
-      "stem_en": "If the fog becomes too thick to drive safely, you should:",
+      "stem_en": "A buffered bike lane uses _____ to provide extra separation from vehicle traffic.",
+      "stem_zhHant": "緩衝自行車道使用_____來提供與機動車交通的額外分隔。",
       "options": [
         {
           "key": "A",
-          "text_en": "Turn on high-beam headlights and continue"
+          "text_en": "Concrete barriers",
+          "text_zhHant": "混凝土護欄"
         },
         {
           "key": "B",
-          "text_en": "Pull off the road, activate emergency flashers, and wait"
+          "text_en": "Chevrons or diagonal markings",
+          "text_zhHant": "人字形或對角線標記"
         },
         {
           "key": "C",
-          "text_en": "Speed up to get through the fog quickly"
+          "text_en": "Metal guardrails",
+          "text_zhHant": "金屬護欄"
         },
         {
           "key": "D",
-          "text_en": "Turn off all lights so they do not reflect"
+          "text_en": "Raised curbs",
+          "text_zhHant": "凸起路緣"
         }
       ],
       "answer": "B",
-      "explanation_en": "If the fog becomes too thick to drive safely, consider pulling off the road. Activate your emergency flashers and wait for conditions to improve.",
-      "explanation_zh": "如果雾太浓无法安全驾驶，考虑把车停到路边。打开应急闪光灯并等待条件好转。",
+      "explanation_en": "A buffered bike lane uses chevrons or diagonal markings to provide extra separation between bicyclists and vehicle traffic.",
+      "explanation_zh": "缓冲自行车道使用人字形或对角线标记来提供骑自行车者与机动车交通之间的额外分隔。",
       "module": "M08",
-      "tags": [],
+      "tags": [
+        "bike-lane"
+      ],
+      "explanation_zhHant": "緩衝自行車道使用人字形或對角線標記來提供騎自行車者與機動車交通之間的額外分隔。",
       "driverEd": false
     },
     {
@@ -769,30 +785,38 @@
     },
     {
       "id": "Q-MOCK10-028",
-      "stem_en": "If you have a tire blowout, the first thing you should do is:",
+      "stem_en": "When driving in high winds, you should NOT:",
+      "stem_zhHant": "在大風中駕駛時，您不應該：",
       "options": [
         {
           "key": "A",
-          "text_en": "Brake hard to stop as quickly as possible"
+          "text_en": "Use low-beam headlights",
+          "text_zhHant": "使用近光燈"
         },
         {
           "key": "B",
-          "text_en": "Hold the steering wheel firmly with both hands"
+          "text_en": "Keep both hands on the steering wheel",
+          "text_zhHant": "雙手握住方向盤"
         },
         {
           "key": "C",
-          "text_en": "Turn sharply to the side of the road"
+          "text_en": "Use cruise control",
+          "text_zhHant": "使用定速巡航"
         },
         {
           "key": "D",
-          "text_en": "Immediately remove your foot from the accelerator"
+          "text_en": "Check your mirrors",
+          "text_zhHant": "檢查後視鏡"
         }
       ],
-      "answer": "B",
-      "explanation_en": "If you have a tire blowout, hold the steering wheel with both hands, maintain your speed if possible and safe, then gradually release the accelerator.",
-      "explanation_zh": "如果轮胎爆裂，用双手紧握方向盘，如果可能且安全的话保持车速，然后逐渐松开油门。",
-      "module": "M08",
-      "tags": [],
+      "answer": "C",
+      "explanation_en": "When driving in high winds, do not use cruise control. You need maximum control of the accelerator in case a sudden gust pushes your vehicle.",
+      "explanation_zh": "在大风中驾驶时，不要使用定速巡航。你需要对油门有最大的控制力，以防突然阵风推动你的车辆。",
+      "module": "M07",
+      "tags": [
+        "high-winds"
+      ],
+      "explanation_zhHant": "在大風中駕駛時，不要使用定速巡航。您需要對油門有最大的控制力，以防突然陣風推動您的車輛。",
       "driverEd": false
     },
     {
@@ -1246,34 +1270,6 @@
       "driverEd": true
     },
     {
-      "id": "Q-MOCK10-DE09",
-      "stem_en": "It is against the law for a minor to use a cell phone while driving EXCEPT to:",
-      "options": [
-        {
-          "key": "A",
-          "text_en": "Send a text to a parent"
-        },
-        {
-          "key": "B",
-          "text_en": "Use a navigation app"
-        },
-        {
-          "key": "C",
-          "text_en": "Make a call for emergency assistance"
-        },
-        {
-          "key": "D",
-          "text_en": "Check the time"
-        }
-      ],
-      "answer": "C",
-      "explanation_en": "It is against the law for a minor to use a cell phone or electronic wireless device while driving, except to make a call for emergency assistance.",
-      "explanation_zh": "未成年人在驾驶时使用手机或电子无线设备是违法的，除非是为了拨打紧急救助电话。",
-      "module": "M08",
-      "tags": [],
-      "driverEd": true
-    },
-    {
       "id": "Q-MOCK10-DE10",
       "stem_en": "A provisional driver under 18 cannot drive for pay or operate vehicles requiring a:",
       "options": [
@@ -1300,6 +1296,78 @@
       "module": "M10",
       "tags": [],
       "driverEd": true
+    },
+    {
+      "id": "Q-MOCK10-037",
+      "stem_en": "How may a bicyclist signal a turn differently from the standard hand-and-arm signals?",
+      "stem_zhHant": "騎自行車的人如何以不同於標準手臂信號的方式示意轉彎？",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "By using a whistle",
+          "text_zhHant": "使用哨子"
+        },
+        {
+          "key": "B",
+          "text_en": "By pointing their arm straight in the direction they plan to turn",
+          "text_zhHant": "將手臂直接指向他們計劃轉彎的方向"
+        },
+        {
+          "key": "C",
+          "text_en": "By waving to other drivers",
+          "text_zhHant": "向其他駕駛員揮手"
+        },
+        {
+          "key": "D",
+          "text_en": "By flashing their bike light",
+          "text_zhHant": "閃爍自行車燈"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A bicyclist may signal a right turn by extending their right arm straight out to the right, rather than using the traditional left-arm-bent-upward signal. They may point in the direction they plan to turn.",
+      "explanation_zh": "骑自行车的人可以通过将右臂直接向右伸出来示意右转，而不是使用传统的左臂向上弯曲信号。他们可以指向计划转弯的方向。",
+      "explanation_zhHant": "騎自行車的人可以通過將右臂直接向右伸出來示意右轉，而不是使用傳統的左臂向上彎曲信號。他們可以指向計劃轉彎的方向。",
+      "module": "M01",
+      "tags": [
+        "bicycle"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK10-038",
+      "stem_en": "Bicyclists traveling slower than traffic must ride near the right curb UNLESS:",
+      "stem_zhHant": "行駛速度低於交通速度的騎自行車者必須靠近右側路緣行駛，除非：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "They want to pass another bicyclist",
+          "text_zhHant": "他們想超越另一位騎自行車者"
+        },
+        {
+          "key": "B",
+          "text_en": "The lane is too narrow for a bicycle and vehicle to travel safely side-by-side",
+          "text_zhHant": "車道太窄，自行車和車輛無法安全並排行駛"
+        },
+        {
+          "key": "C",
+          "text_en": "They are riding at night",
+          "text_zhHant": "他們在夜間騎行"
+        },
+        {
+          "key": "D",
+          "text_en": "The road has a speed limit above 30 mph",
+          "text_zhHant": "道路限速超過30英里/小時"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Bicyclists traveling slower than traffic must ride near the right curb or edge of the road, unless the lane is too narrow for a bicycle and vehicle to travel safely side-by-side, they are turning left, or they need to avoid hazards.",
+      "explanation_zh": "行驶速度低于交通流量的骑自行车者必须靠近右侧路缘或道路边缘骑行，除非车道太窄无法让自行车和车辆安全并排行驶、他们要左转、或需要避开危险。",
+      "explanation_zhHant": "行駛速度低於交通流量的騎自行車者必須靠近右側路緣或道路邊緣騎行，除非車道太窄無法讓自行車和車輛安全並排行駛、他們要左轉、或需要避開危險。",
+      "module": "M08",
+      "tags": [
+        "bicycle"
+      ],
+      "driverEd": false
     }
   ]
 }

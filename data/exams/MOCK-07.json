@@ -459,30 +459,38 @@
     },
     {
       "id": "Q-MOCK07-017",
-      "stem_en": "A broken yellow line on your side of the center line means:",
+      "stem_en": "You must dim your high-beam headlights to low beams within _____ feet of a vehicle you are following.",
+      "stem_zhHant": "您必須在跟隨前車_____英尺範圍內將遠光燈切換為近光燈。",
       "options": [
         {
           "key": "A",
-          "text_en": "No passing allowed"
+          "text_en": "200 feet",
+          "text_zhHant": "200英尺"
         },
         {
           "key": "B",
-          "text_en": "You may pass if it is safe to do so"
+          "text_en": "300 feet",
+          "text_zhHant": "300英尺"
         },
         {
           "key": "C",
-          "text_en": "Road construction ahead"
+          "text_en": "500 feet",
+          "text_zhHant": "500英尺"
         },
         {
           "key": "D",
-          "text_en": "The road is one-way"
+          "text_en": "1,000 feet",
+          "text_zhHant": "1,000英尺"
         }
       ],
       "answer": "B",
-      "explanation_en": "A broken yellow line indicates you may pass if the broken line is next to your driving lane and it is safe to do so.",
-      "explanation_zh": "虚黄线表示如果虚线在你的行驶车道旁边，且安全的话，你可以超车。",
-      "module": "M05",
-      "tags": [],
+      "explanation_en": "You must dim your high-beam headlights to low beams within 300 feet of a vehicle you are following. For oncoming vehicles, dim within 500 feet.",
+      "explanation_zh": "在跟随前车300英尺范围内，你必须将远光灯切换为近光灯。对于迎面而来的车辆，在500英尺范围内切换。",
+      "module": "M01",
+      "tags": [
+        "headlights"
+      ],
+      "explanation_zhHant": "在跟隨前車300英尺範圍內，您必須將遠光燈切換為近光燈。對於迎面而來的車輛，在500英尺範圍內切換。",
       "driverEd": false
     },
     {
@@ -847,7 +855,7 @@
       "answer": "C",
       "explanation_en": "The knowledge test for minors applying for a Class C license has 46 multiple choice questions. You are allowed three attempts to pass.",
       "explanation_zh": "申请C类驾照的未成年人笔试有46道选择题。你有三次通过机会。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -875,7 +883,7 @@
       "answer": "B",
       "explanation_en": "Driver education and driver training are offered at DMV-licensed driving schools and some high schools. Instructors must carry an instructor's ID card.",
       "explanation_zh": "驾驶教育和驾驶培训由DMV认证的驾校和一些高中提供。教练必须携带教练证。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -903,35 +911,7 @@
       "answer": "B",
       "explanation_en": "A minor must wait to use their permit until they start behind-the-wheel training with an instructor who validates it.",
       "explanation_zh": "未成年人必须等到开始跟教练进行实际驾驶培训并验证许可证后才能使用。",
-      "module": "M01",
-      "tags": [],
-      "driverEd": true
-    },
-    {
-      "id": "Q-MOCK07-033",
-      "stem_en": "What is the minimum age to take the behind-the-wheel drive test in California?",
-      "options": [
-        {
-          "key": "A",
-          "text_en": "15 years old"
-        },
-        {
-          "key": "B",
-          "text_en": "15 and a half years old"
-        },
-        {
-          "key": "C",
-          "text_en": "16 years old"
-        },
-        {
-          "key": "D",
-          "text_en": "17 years old"
-        }
-      ],
-      "answer": "C",
-      "explanation_en": "A minor must be at least 16 years old and have held an instruction permit for at least 6 months to take the behind-the-wheel drive test.",
-      "explanation_zh": "未成年人必须年满16岁并持有学习许可证至少6个月才能参加路考。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -959,7 +939,7 @@
       "answer": "B",
       "explanation_en": "A provisional driver under 18 cannot drive for pay or operate vehicles that require a commercial Class A, B, or C license.",
       "explanation_zh": "持临时驾照的未满18岁驾驶员不得进行有偿驾驶或驾驶需要商业A、B或C类驾照的车辆。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1053,32 +1033,38 @@
     },
     {
       "id": "Q-MOCK07-038",
-      "stem_en": "When parallel parking, how close to the curb must your vehicle be?",
+      "stem_en": "When should you turn on your emergency flashers?",
+      "stem_zhHant": "您應該在什麼時候打開應急閃光燈？",
       "options": [
         {
           "key": "A",
-          "text_en": "6 inches"
+          "text_en": "When you are double-parked",
+          "text_zhHant": "當您雙排停車時"
         },
         {
           "key": "B",
-          "text_en": "12 inches"
+          "text_en": "When you see a collision or hazard ahead, or when your vehicle is stopped due to trouble",
+          "text_zhHant": "當您看到前方有碰撞或危險，或者您的車輛因故障而停止時"
         },
         {
           "key": "C",
-          "text_en": "18 inches"
+          "text_en": "When driving slowly on a highway",
+          "text_zhHant": "在高速公路上慢速行駛時"
         },
         {
           "key": "D",
-          "text_en": "24 inches"
+          "text_en": "When looking for a parking space",
+          "text_zhHant": "在尋找停車位時"
         }
       ],
-      "answer": "C",
-      "explanation_en": "When parallel parking, your vehicle should be parallel to and within 18 inches of the curb.",
-      "explanation_zh": "平行停车时，你的车辆应与路缘平行，且距路缘不超过18英寸。",
-      "module": "M06",
+      "answer": "B",
+      "explanation_en": "Turn on your emergency flashers when you see a collision or hazard ahead and need to warn drivers behind you, or when your vehicle is stopped due to trouble on the roadside.",
+      "explanation_zh": "当你看到前方有碰撞或危险需要警告后方驾驶员时，或当你的车辆因故障停在路边时，打开应急闪光灯。",
+      "module": "M01",
       "tags": [
-        "parallel-parking"
+        "emergency-flashers"
       ],
+      "explanation_zhHant": "當您看到前方有碰撞或危險需要警告後方駕駛員時，或當您的車輛因故障停在路邊時，打開應急閃光燈。",
       "driverEd": false
     },
     {
@@ -1141,30 +1127,38 @@
     },
     {
       "id": "Q-MOCK07-041",
-      "stem_en": "If the fog becomes too thick to drive safely, you should:",
+      "stem_en": "You must not park within _____ feet of a fire hydrant.",
+      "stem_zhHant": "您不得在消防栓_____英尺範圍內停車。",
       "options": [
         {
           "key": "A",
-          "text_en": "Continue driving slowly with high beams"
+          "text_en": "10 feet",
+          "text_zhHant": "10英尺"
         },
         {
           "key": "B",
-          "text_en": "Pull off the road and activate emergency flashers"
+          "text_en": "15 feet",
+          "text_zhHant": "15英尺"
         },
         {
           "key": "C",
-          "text_en": "Stop in the middle of the road"
+          "text_en": "20 feet",
+          "text_zhHant": "20英尺"
         },
         {
           "key": "D",
-          "text_en": "Turn off all lights to reduce glare"
+          "text_en": "25 feet",
+          "text_zhHant": "25英尺"
         }
       ],
       "answer": "B",
-      "explanation_en": "If fog becomes too thick, pull off the road, activate your emergency flashers, and wait for conditions to improve. Do not stop on the road.",
-      "explanation_zh": "如果雾太浓无法安全驾驶，驶离道路，打开应急闪光灯，等待条件改善。不要停在道路上。",
-      "module": "M07",
-      "tags": [],
+      "explanation_en": "You must not park within 15 feet of a fire hydrant. Blocking access to a fire hydrant can delay emergency response and is illegal.",
+      "explanation_zh": "你不得在消防栓15英尺范围内停车。阻挡消防栓的通道会延误紧急响应，而且是违法的。",
+      "module": "M06",
+      "tags": [
+        "fire-hydrant"
+      ],
+      "explanation_zhHant": "您不得在消防栓15英尺範圍內停車。阻擋消防栓的通道會延誤緊急響應，而且是違法的。",
       "driverEd": false
     },
     {
@@ -1191,7 +1185,7 @@
       "answer": "C",
       "explanation_en": "It is against the law for a minor to use a cell phone while driving, including hands-free mode. The only exception is to make a call for emergency assistance.",
       "explanation_zh": "未成年人在驾驶时使用手机（包括免提模式）是违法的。唯一的例外是拨打紧急求助电话。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1219,7 +1213,7 @@
       "answer": "B",
       "explanation_en": "A minor who must drive for work during curfew hours must carry a note signed by their employer confirming their employment.",
       "explanation_zh": "在宵禁时间因工作需要驾驶的未成年人必须携带雇主签署的确认雇佣关系的证明。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1247,7 +1241,7 @@
       "answer": "B",
       "explanation_en": "Advanced driver assistance technologies such as automated parallel parking, lane departure, and adaptive cruise control are not permitted during the drive test, as the test evaluates your abilities.",
       "explanation_zh": "高级驾驶辅助技术（如自动平行停车、车道偏离和自适应巡航控制）在路考期间不允许使用，因为考试评估的是你的能力。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1275,7 +1269,7 @@
       "answer": "C",
       "explanation_en": "Minors must wait seven days to retake a failed knowledge test, not including the day of the failure. They are allowed three attempts before they must reapply.",
       "explanation_zh": "未成年人必须等待7天才能重新参加未通过的笔试，不包括失败当天。他们有三次机会，之后必须重新申请。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1303,9 +1297,81 @@
       "answer": "C",
       "explanation_en": "A minor must carry a note signed by their parent or guardian stating the reason, the family member, and the date when the need will end.",
       "explanation_zh": "未成年人必须携带父母或监护人签署的说明，注明原因、家庭成员以及需求结束的日期。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
+    },
+    {
+      "id": "Q-MOCK07-047",
+      "stem_en": "What is the FIRST thing to do if stuck in snow or mud?",
+      "stem_zhHant": "如果車輛陷入雪地或泥地中，首先應該做什麼？",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Press the accelerator hard to power through",
+          "text_zhHant": "猛踩油門強行通過"
+        },
+        {
+          "key": "B",
+          "text_en": "Shift to low gear and keep front wheels straight",
+          "text_zhHant": "換到低檔並保持前輪直行"
+        },
+        {
+          "key": "C",
+          "text_en": "Call a tow truck immediately",
+          "text_zhHant": "立即打電話叫拖車"
+        },
+        {
+          "key": "D",
+          "text_en": "Turn off the engine",
+          "text_zhHant": "關掉引擎"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "If stuck in snow or mud, the first thing to do is shift to low gear and keep your front wheels straight. Gently accelerate to ease the vehicle out without spinning the wheels.",
+      "explanation_zh": "如果陷入雪地或泥地，首先应该换到低档并保持前轮直行。轻踩油门让车辆缓慢驶出，不要让车轮打滑。",
+      "explanation_zhHant": "如果陷入雪地或泥地，首先應該換到低檔並保持前輪直行。輕踩油門讓車輛緩慢駛出，不要讓車輪打滑。",
+      "module": "M07",
+      "tags": [
+        "snow"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK07-048",
+      "stem_en": "The CHP Freeway Service Patrol (FSP) provides free services including:",
+      "stem_zhHant": "加州公路巡警高速公路服務巡邏隊（FSP）提供的免費服務包括：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Towing your vehicle to a mechanic",
+          "text_zhHant": "將您的車輛拖到修車廠"
+        },
+        {
+          "key": "B",
+          "text_en": "Gas, jump starts, and flat tire changes",
+          "text_zhHant": "加油、搭電啟動和換輪胎"
+        },
+        {
+          "key": "C",
+          "text_en": "Paying for your repairs",
+          "text_zhHant": "為您支付修理費"
+        },
+        {
+          "key": "D",
+          "text_en": "Replacing your battery",
+          "text_zhHant": "更換您的電池"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "The CHP Freeway Service Patrol (FSP) provides free assistance including gas, jump starts, flat tire changes, coolant, and towing to the nearest off-ramp during commute hours.",
+      "explanation_zh": "加州公路巡警高速公路服务巡逻队（FSP）在通勤时段提供免费援助，包括加油、搭电启动、换轮胎、冷却液和拖车到最近的出口。",
+      "explanation_zhHant": "加州公路巡警高速公路服務巡邏隊（FSP）在通勤時段提供免費援助，包括加油、搭電啟動、換輪胎、冷卻液和拖車到最近的出口。",
+      "module": "M09",
+      "tags": [
+        "fsp"
+      ],
+      "driverEd": false
     }
   ]
 }

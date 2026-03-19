@@ -143,14 +143,14 @@
         {
           "id": "M03-S02-K06",
           "en": "Pedestrian signals show a walking person (WALK) or a raised hand (DON'T WALK). A flashing DON'T WALK means finish crossing if you have started, but do not start crossing.",
-          "zh": "行人信号灯显示行走的人形（可以走）或举起的手（不要走）。闪烁的“不要走“信号表示已开始过马路的可以继续走完，但不要开始新的横穿。",
+          "zh": "行人信号灯显示行走的人形（可以走）或举起的手（不要走）。闪烁的「不要走」信号表示已开始过马路的可以继续走完，但不要开始新的横穿。",
           "isHighFreq": true,
           "tags": [
             "pedestrian",
             "signals",
             "pedestrian-signal"
           ],
-          "zhHant": "行人信號燈显示行走的人形（可以走）或舉起的手（不要走）。閃烁的“不要走“信號表示已開始過馬路的可以繼續走完，但不要開始新的橫穿。"
+          "zhHant": "行人信號燈显示行走的人形（可以走）或舉起的手（不要走）。閃烁的「不要走」信號表示已開始過馬路的可以繼續走完，但不要開始新的橫穿。"
         }
       ],
       "titleZhHant": "行人優先權"
@@ -185,40 +185,6 @@
         },
         {
           "id": "M03-S03-K03",
-          "en": "The Move Over law requires you to move over one lane or slow down when passing a stationary emergency vehicle, tow truck, or Caltrans vehicle with flashing lights on the side of the road.",
-          "zh": "移车法要求在经过停在路边的闪灯紧急车辆、拖车或加州交通局车辆时，必须向旁边变道一个车道，或者减速通过。",
-          "isHighFreq": true,
-          "tags": [
-            "emergency",
-            "move-over",
-            "emergency-vehicle"
-          ],
-          "zhHant": "移車法要求在經過停在路邊的閃燈緊急車輛、拖車或加州交通局車輛時，必須向旁邊變道一個車道，或者減速通過。"
-        },
-        {
-          "id": "M03-S03-K04",
-          "en": "You must stop for a school bus that is flashing red lights and has the stop sign arm extended. Traffic in BOTH directions must stop, unless you are on a divided highway.",
-          "zh": "看到校车闪烁红灯且伸出停车臂时，双向车辆都必须停车，除非你在有隔离带的高速公路上。违反此规定罚款严重。",
-          "isHighFreq": true,
-          "tags": [
-            "school-bus",
-            "stop"
-          ],
-          "zhHant": "看到校車閃烁紅燈且伸出停車臂時，雙向車輛都必須停車，除非你在有隔離帶的高速公路上。違反此規定罰款嚴重。"
-        },
-        {
-          "id": "M03-S03-K05",
-          "en": "On a divided highway with a median or barrier, only traffic traveling in the same direction as the school bus must stop when the bus flashes its red lights.",
-          "zh": "在有中央隔离带的公路上，只有与校车同向行驶的车辆需要停车。对向车道有隔离带保护，不需要停车。",
-          "isHighFreq": true,
-          "tags": [
-            "school-bus",
-            "divided-highway"
-          ],
-          "zhHant": "在有中央隔離帶的公路上，隻有與校車同向行駛的車輛需要停車。對向車道有隔離帶保護，不需要停車。"
-        },
-        {
-          "id": "M03-S03-K06",
           "en": "At railroad crossings, you must stop at least 15 feet from the nearest rail when lights flash, gates lower, or a flagman signals. Never race a train to a crossing.",
           "zh": "在铁路道口，当灯光闪烁、栏杆放下或信号员示意时，必须在距最近铁轨至少15英尺处停车。绝不要试图抢在火车前面通过道口。",
           "isHighFreq": true,
@@ -238,28 +204,6 @@
       "knowledgePoints": [
         {
           "id": "M03-S04-K01",
-          "en": "Bicyclists have the same rights and responsibilities as motor vehicle drivers. You must share the road with them and give them adequate space.",
-          "zh": "自行车骑行者与机动车驾驶员享有同等的权利和责任。必须与他们共享道路并给予足够空间。",
-          "isHighFreq": true,
-          "tags": [
-            "bicycle",
-            "rights"
-          ],
-          "zhHant": "自行車騎行者與機動車駕駛員享有同等的權利和責任。必須與他们共享道路并給予足夠空間。"
-        },
-        {
-          "id": "M03-S04-K02",
-          "en": "When passing a bicyclist, you must give at least 3 feet of clearance. If you cannot give 3 feet, slow down to a safe speed and pass only when safe.",
-          "zh": "超越自行车骑行者时，必须保持至少3英尺（约1米）的安全距离。如果无法保持3英尺，需减速到安全速度，在安全时才能超越。",
-          "isHighFreq": true,
-          "tags": [
-            "bicycle",
-            "passing"
-          ],
-          "zhHant": "超越自行車騎行者時，必須保持至少3英尺（约1米）的安全距離。如果無法保持3英尺，需減速到安全速度，在安全時才能超越。"
-        },
-        {
-          "id": "M03-S04-K03",
           "en": "Do not drive in a marked bicycle lane unless you are within 200 feet of making a right turn, entering or leaving a driveway, or need to park where parking is permitted.",
           "zh": "除非在200英尺内准备右转、进出车道入口、或在允许停车处停车，否则不得在自行车专用道内行驶。",
           "isHighFreq": true,
@@ -271,7 +215,7 @@
           "zhHant": "除非在200英尺內準備右轉、進出車道入口、或在允許停車處停車，否則不得在自行車專用道內行駛。"
         },
         {
-          "id": "M03-S04-K04",
+          "id": "M03-S04-K02",
           "en": "Lane splitting by motorcyclists (riding between lanes of traffic) is legal in California. Be aware of motorcycles that may be passing between lanes, especially in slow or stopped traffic.",
           "zh": "在加州，摩托车在车道之间穿行（分车道行驶）是合法的。要注意可能在车道间穿行的摩托车，特别是在缓慢或停滞的车流中。",
           "isHighFreq": true,
@@ -282,7 +226,7 @@
           "zhHant": "在加州，摩托車在車道之間穿行（分車道行駛）是合法的。要注意可能在車道間穿行的摩托車，特別是在緩慢或停滞的車流中。"
         },
         {
-          "id": "M03-S04-K05",
+          "id": "M03-S04-K03",
           "en": "Always check your mirrors and blind spots before changing lanes or turning to avoid hitting a motorcyclist or bicyclist you may not have seen.",
           "zh": "变道或转弯前务必检查后视镜和盲区，以避免撞到可能未注意到的摩托车或自行车骑行者。",
           "isHighFreq": true,
@@ -295,6 +239,73 @@
         }
       ],
       "titleZhHant": "自行車和摩托車路權"
+    },
+    {
+      "id": "S05",
+      "titleEn": "Roundabouts & Mountain Roads",
+      "titleZh": "环岛与山路",
+      "knowledgePoints": [
+        {
+          "id": "M03-S05-K01",
+          "en": "In a roundabout, traffic travels in one direction around a central island. To use a roundabout: (1) Slow down as you approach. (2) Yield to all traffic already in the roundabout. (3) Enter heading to the right when there is a big enough gap. (4) Watch for signs and lane markings. (5) Travel in a counterclockwise direction — do not stop or pass. (6) Signal when you change lanes or exit. (7) If you miss your exit, continue around until you return to it.",
+          "zh": "在环岛中，车辆沿中央岛屿单方向行驶。使用环岛的方法：(1) 接近时减速。(2) 让已在环岛内的所有车辆先行。(3) 在有足够间隙时向右驶入。(4) 注意标志和车道标记。(5) 沿逆时针方向行驶——不要停车或超车。(6) 变道或驶出时打转向灯。(7) 如果错过出口，继续绕行直到回到该出口。",
+          "isHighFreq": true,
+          "tags": [
+            "roundabout",
+            "procedure",
+            "yield"
+          ],
+          "zhHant": "在環島中，車輛沿中央島嶼單方向行駛。使用環島的方法：(1) 接近時減速。(2) 讓已在環島內的所有車輛先行。(3) 在有足夠間隙時向右駛入。(4) 注意標誌和車道標記。(5) 沿逆時針方向行駛——不要停車或超車。(6) 變道或駛出時打轉向燈。(7) 如果錯過出口，繼續繞行直到回到該出口。"
+        },
+        {
+          "id": "M03-S05-K02",
+          "en": "If a roundabout has multiple lanes, choose your entry or exit lane based on your destination: Turn right (yellow car) — choose the right lane and exit in the right lane. Go straight (red car) — choose either lane and exit in the lane you entered. Turn left (blue car) — enter and continue driving until you reach the exit in the direction you choose.",
+          "zh": "如果环岛有多条车道，根据目的地选择进入或驶出车道：右转（黄色车）——选择右侧车道并从右侧车道驶出。直行（红色车）——选择任一车道并从进入时的车道驶出。左转（蓝色车）——驶入并继续行驶，直到到达你选择方向的出口。",
+          "isHighFreq": true,
+          "tags": [
+            "roundabout",
+            "lanes",
+            "multi-lane"
+          ],
+          "zhHant": "如果環島有多條車道，根據目的地選擇進入或駛出車道：右轉（黃色車）——選擇右側車道並從右側車道駛出。直行（紅色車）——選擇任一車道並從進入時的車道駛出。左轉（藍色車）——駛入並繼續行駛，直到到達你選擇方向的出口。"
+        },
+        {
+          "id": "M03-S05-K03",
+          "en": "If two vehicles meet on a steep narrow mountain road and neither vehicle can pass, the vehicle facing uphill has the right-of-way. The vehicle facing downhill must back up because it has more control when backing uphill.",
+          "zh": "如果两辆车在陡窄的山路上相遇且都无法通过，面朝上坡方向的车辆有优先通行权。面朝下坡方向的车辆必须倒车，因为倒车上坡时更容易控制车辆。",
+          "isHighFreq": true,
+          "tags": [
+            "mountain-road",
+            "right-of-way",
+            "narrow"
+          ],
+          "zhHant": "如果兩輛車在陡窄的山路上相遇且都無法通過，面朝上坡方向的車輛有優先通行權。面朝下坡方向的車輛必須倒車，因為倒車上坡時更容易控制車輛。"
+        },
+        {
+          "id": "M03-S05-K04",
+          "en": "A blind intersection has no stop signs at any corner. If your view is blocked, move slowly forward until you can see. The speed limit for a blind intersection is 15 mph.",
+          "zh": "盲区路口是指任何角落都没有停车标志的路口。如果视线被遮挡，缓慢向前移动直到可以看清。盲区路口的限速为15英里/小时。",
+          "isHighFreq": true,
+          "tags": [
+            "blind-intersection",
+            "speed-limit"
+          ],
+          "zhHant": "盲區路口是指任何角落都沒有停車標誌的路口。如果視線被遮擋，緩慢向前移動直到可以看清。盲區路口的限速為15英里/小時。"
+        },
+        {
+          "id": "M03-S05-K05",
+          "en": "An alley is any road no wider than 25 feet used to access the rear of buildings or properties. You may drive on or cross a sidewalk to enter or exit a driveway or alley. The speed limit in an alley is 15 mph.",
+          "zh": "小巷是指宽度不超过25英尺、用于通往建筑物或房产后方的道路。你可以驶上或穿过人行道来进出车道入口或小巷。小巷的限速为15英里/小时。",
+          "isHighFreq": true,
+          "tags": [
+            "alley",
+            "speed-limit",
+            "driveway"
+          ],
+          "zhHant": "小巷是指寬度不超過25英尺、用於通往建築物或房產後方的道路。你可以駛上或穿過人行道來進出車道入口或小巷。小巷的限速為15英里/小時。"
+        }
+      ],
+      "titleZhHant": "環島與山路"
     }
   ],
   "titleZhHant": "路權規則"

@@ -932,40 +932,40 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK01-026",
-      "stem_en": "A U-turn is not allowed:",
+      "id": "Q-MOCK01-049",
+      "stem_en": "It is illegal to wear earplugs or headsets covering _____ while driving.",
+      "stem_zhHant": "開車時戴著遮住_____的耳塞或耳機是違法的。",
       "options": [
         {
           "key": "A",
-          "text_en": "In a residential area with no vehicles within 200 feet",
-          "text_zhHant": "200英尺內無車輛的住宅區"
+          "text_en": "One ear",
+          "text_zhHant": "一隻耳朵"
         },
         {
           "key": "B",
-          "text_en": "On a divided highway with an opening for turns",
-          "text_zhHant": "有轉彎開口的分隔公路上"
+          "text_en": "Both ears",
+          "text_zhHant": "兩隻耳朵"
         },
         {
           "key": "C",
-          "text_en": "Near a fire station entrance",
-          "text_zhHant": "消防站入口附近"
+          "text_en": "Either ear while in a school zone",
+          "text_zhHant": "在學校區域內任一隻耳朵"
         },
         {
           "key": "D",
-          "text_en": "At a green arrow traffic signal",
-          "text_zhHant": "綠色箭頭信號燈處"
+          "text_en": "Any ear at any time",
+          "text_zhHant": "任何時候任何耳朵"
         }
       ],
-      "answer": "C",
-      "explanation_en": "U-turns are not allowed near fire station driveways. They are also prohibited on a divided highway by crossing a dividing section, in front of a fire station, and on a one-way street.",
-      "explanation_zh": "在消防站车道附近不允许掉头。在穿越隔离带的双向分隔公路上、消防站前方以及单行道上也禁止掉头。",
-      "module": "M05",
+      "answer": "B",
+      "explanation_en": "California law prohibits wearing earplugs or headsets that cover both ears while driving or riding a bicycle. You may wear a single earpiece for hands-free phone use.",
+      "explanation_zh": "加州法律禁止在驾驶或骑自行车时佩戴遮住双耳的耳塞或耳机。你可以佩戴单耳耳机用于免提通话。",
+      "module": "M01",
       "tags": [
-        "lane-control",
-        "u-turns"
+        "driving-basics",
+        "laws"
       ],
-      "explanation_zhHant": "在消防站車道附近不允許掉頭。在穿越隔離帶的雙向分隔公路上、消防站前方以及單行道上也禁止掉頭。",
-      "stem_zhHant": "以下哪裡不允許掉頭：",
+      "explanation_zhHant": "加州法律禁止在駕駛或騎自行車時佩戴遮住雙耳的耳塞或耳機。你可以佩戴單耳耳機用於免提通話。",
       "driverEd": false
     },
     {
@@ -1080,40 +1080,40 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK01-035",
-      "stem_en": "When a school bus with flashing red lights is stopped ahead on your side of the road, you must:",
+      "id": "Q-MOCK01-047",
+      "stem_en": "Where should your hands be positioned for hand-to-hand (push/pull) steering?",
+      "stem_zhHant": "使用手到手（推/拉）轉向時，你的手應該放在什麼位置？",
       "options": [
         {
           "key": "A",
-          "text_en": "Slow down to 15 mph",
-          "text_zhHant": "減速到15英里/小時"
+          "text_en": "12 and 6 o'clock",
+          "text_zhHant": "12點和6點方向"
         },
         {
           "key": "B",
-          "text_en": "Stop until the red lights stop flashing",
-          "text_zhHant": "停車直到紅燈停止閃爍"
+          "text_en": "9 and 3 o'clock (or 8 and 4 o'clock)",
+          "text_zhHant": "9點和3點方向（或8點和4點方向）"
         },
         {
           "key": "C",
-          "text_en": "Pass carefully on the left",
-          "text_zhHant": "從左側小心通過"
+          "text_en": "10 and 2 o'clock",
+          "text_zhHant": "10點和2點方向"
         },
         {
           "key": "D",
-          "text_en": "Honk and proceed slowly",
-          "text_zhHant": "按喇叭並慢速通過"
+          "text_en": "One hand at 12 o'clock",
+          "text_zhHant": "一隻手放在12點方向"
         }
       ],
       "answer": "B",
-      "explanation_en": "When a school bus displays flashing red lights, all traffic in both directions must stop until the red lights stop flashing, unless separated by a physical divider.",
-      "explanation_zh": "当校车闪烁红灯时，双向所有车辆都必须停车，直到红灯停止闪烁，除非被物理隔离带分隔。",
-      "module": "M08",
+      "explanation_en": "For hand-to-hand (push/pull) steering, your hands should be at the 9 and 3 o'clock or 8 and 4 o'clock positions. This provides good control and keeps your hands away from the airbag deployment zone.",
+      "explanation_zh": "使用手到手（推/拉）转向时，你的手应该放在9点和3点方向或8点和4点方向。这样能提供良好的控制力，并使手远离安全气囊展开区域。",
+      "module": "M01",
       "tags": [
-        "sharing-road",
-        "flashing-red"
+        "driving-basics",
+        "steering"
       ],
-      "explanation_zhHant": "當校車閃烁紅燈時，雙向所有車輛都必須停車，直到紅燈停止閃烁，除非被物理隔離帶分隔。",
-      "stem_zhHant": "當校車閃爍紅燈停在你前方同側道路上時，你必須：",
+      "explanation_zhHant": "使用手到手（推/拉）轉向時，你的手應該放在9點和3點方向或8點和4點方向。這樣能提供良好的控制力，並使手遠離安全氣囊展開區域。",
       "driverEd": false
     },
     {
@@ -1302,40 +1302,40 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK01-046",
-      "stem_en": "You must have liability insurance on your vehicle. The minimum amount for property damage is:",
+      "id": "Q-MOCK01-048",
+      "stem_en": "When should you use hand-over-hand steering?",
+      "stem_zhHant": "你應該在什麼時候使用手交叉轉向法？",
       "options": [
         {
           "key": "A",
-          "text_en": "$3,000",
-          "text_zhHant": "$3,000"
+          "text_en": "When driving on the freeway at high speed",
+          "text_zhHant": "在高速公路上高速行駛時"
         },
         {
           "key": "B",
-          "text_en": "$5,000",
-          "text_zhHant": "$5,000"
+          "text_en": "When turning at low speeds, parking, or recovering from a skid",
+          "text_zhHant": "低速轉彎、停車或從打滑中恢復時"
         },
         {
           "key": "C",
-          "text_en": "$10,000",
-          "text_zhHant": "$10,000"
+          "text_en": "Only in an emergency situation",
+          "text_zhHant": "僅在緊急情況下"
         },
         {
           "key": "D",
-          "text_en": "$15,000",
-          "text_zhHant": "$15,000"
+          "text_en": "When driving in reverse on a straight road",
+          "text_zhHant": "在直路上倒車時"
         }
       ],
       "answer": "B",
-      "explanation_en": "California law requires minimum liability insurance of $15,000 for injury/death of one person, $30,000 for injury/death of more than one person, and $5,000 for property damage.",
-      "explanation_zh": "加州法律要求最低责任保险为：单人伤亡15,000美元，多人伤亡30,000美元，财产损失5,000美元。",
-      "module": "M11",
+      "explanation_en": "Hand-over-hand steering is appropriate when turning at low speeds, parking, or recovering from a skid. It allows for rapid, large steering inputs needed in these situations.",
+      "explanation_zh": "手交叉转向法适用于低速转弯、停车或从打滑中恢复时。它能够实现这些情况下所需的快速、大幅度转向操作。",
+      "module": "M01",
       "tags": [
-        "insurance",
-        "liability"
+        "driving-basics",
+        "steering"
       ],
-      "explanation_zhHant": "加州法律要求最低責任保險為：單人傷亡15,000美元，多人傷亡30,000美元，財產损失5,000美元。",
-      "stem_zhHant": "你必須為車輛投保責任保險。財產損失的最低保額是：",
+      "explanation_zhHant": "手交叉轉向法適用於低速轉彎、停車或從打滑中恢復時。它能夠實現這些情況下所需的快速、大幅度轉向操作。",
       "driverEd": false
     },
     {
@@ -1361,7 +1361,7 @@
       "answer": "B",
       "explanation_en": "During the first 12 months, provisional license holders under 18 cannot drive between 11 PM and 5 AM unless there is a signed exception.",
       "explanation_zh": "在拿到驾照后的前12个月内，未满18岁的临时驾照持有人不得在晚上11点至凌晨5点之间驾车，除非有签署的例外证明。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "provisional-license"
@@ -1392,7 +1392,7 @@
       "answer": "B",
       "explanation_en": "In California, you must be at least 15 1/2 years old to apply for an instruction permit.",
       "explanation_zh": "在加州，必须年满15岁半才能申请学习许可证。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "age-requirement"
@@ -1423,7 +1423,7 @@
       "answer": "C",
       "explanation_en": "A minor must complete at least 50 hours of supervised driving, including 10 hours at night.",
       "explanation_zh": "未成年人必须完成至少50小时有监督的驾驶练习，其中包括10小时夜间驾驶。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "practice-hours"
@@ -1454,7 +1454,7 @@
       "answer": "B",
       "explanation_en": "Provisional license holders cannot transport passengers under 20 unless a licensed parent/guardian or a licensed driver 25+ is in the vehicle.",
       "explanation_zh": "临时驾照持有人不得搭载20岁以下乘客，除非车内有持照父母/监护人或25岁以上的持照驾驶员。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "passenger-restriction"
@@ -1485,7 +1485,7 @@
       "answer": "B",
       "explanation_en": "Minors must hold an instruction permit for at least 6 months before they can take the driving test.",
       "explanation_zh": "未成年人必须持有学习许可证至少6个月才能参加路考。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "permit-duration"
@@ -1516,7 +1516,7 @@
       "answer": "C",
       "explanation_en": "Minors must complete both driver education (classroom) and driver training (behind-the-wheel with an instructor).",
       "explanation_zh": "未成年人必须同时完成驾驶教育（课堂）和驾驶培训（跟教练上路）。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "driver-education"
@@ -1547,7 +1547,7 @@
       "answer": "B",
       "explanation_en": "Minors must wait at least 14 days before retaking a failed behind-the-wheel drive test.",
       "explanation_zh": "未成年人路考不合格需等待至少14天才能重考。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "retake-wait"
@@ -1578,7 +1578,7 @@
       "answer": "B",
       "explanation_en": "A parent or legal guardian must sign the minor's application and accept financial responsibility.",
       "explanation_zh": "父母或法定监护人必须签署未成年人的申请并承担经济责任。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "parent-signature"
@@ -1609,7 +1609,7 @@
       "answer": "B",
       "explanation_en": "At least 10 of the 50 required practice hours must be completed at night.",
       "explanation_zh": "50小时练习中至少10小时必须在夜间完成。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "night-driving"
@@ -1640,13 +1640,85 @@
       "answer": "B",
       "explanation_en": "Provisional license holders may not drive for pay or operate vehicles requiring a commercial license.",
       "explanation_zh": "临时驾照持有人不得为获得报酬而驾车，也不得驾驶需要商业驾照的车辆。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "commercial-restriction"
       ],
       "id": "Q-MOCK01-DE10",
       "driverEd": true
+    },
+    {
+      "id": "Q-MOCK01-050",
+      "stem_en": "A driver extends their left arm straight out the window. This hand signal means:",
+      "stem_zhHant": "駕駛員將左臂直接伸出車窗外。這個手勢信號表示：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Right turn",
+          "text_zhHant": "右轉"
+        },
+        {
+          "key": "B",
+          "text_en": "Left turn",
+          "text_zhHant": "左轉"
+        },
+        {
+          "key": "C",
+          "text_en": "Slowing or stopping",
+          "text_zhHant": "減速或停車"
+        },
+        {
+          "key": "D",
+          "text_en": "Changing lanes",
+          "text_zhHant": "變換車道"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When a driver extends their left arm straight out horizontally from the window, it signals a left turn.",
+      "explanation_zh": "当驾驶员将左臂从车窗水平伸出时，表示左转信号。",
+      "explanation_zhHant": "當駕駛員將左臂從車窗水平伸出時，表示左轉信號。",
+      "module": "M01",
+      "tags": [
+        "hand-signal-left"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK01-051",
+      "stem_en": "On a two-lane road, if five or more vehicles are following you, you must:",
+      "stem_zhHant": "在雙車道道路上，如果有五輛或更多車輛跟在您後面，您必須：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Speed up to create distance",
+          "text_zhHant": "加速以拉開距離"
+        },
+        {
+          "key": "B",
+          "text_en": "Pull over at the nearest intersection",
+          "text_zhHant": "在最近的路口靠邊停車"
+        },
+        {
+          "key": "C",
+          "text_en": "Use a turnout area to let them pass",
+          "text_zhHant": "使用避讓區讓他們通過"
+        },
+        {
+          "key": "D",
+          "text_en": "Flash your hazard lights",
+          "text_zhHant": "閃爍危險警示燈"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "On a two-lane road where passing is unsafe, if five or more vehicles are following you, you must pull into a turnout area or off the road to let them pass.",
+      "explanation_zh": "在不安全超车的双车道道路上，如果有五辆或更多车辆跟在你后面，你必须驶入避让区或驶离道路让它们通过。",
+      "explanation_zhHant": "在不安全超車的雙車道道路上，如果有五輛或更多車輛跟在您後面，您必須駛入避讓區或駛離道路讓它們通過。",
+      "module": "M05",
+      "tags": [
+        "turnout"
+      ],
+      "driverEd": false
     }
   ]
 }

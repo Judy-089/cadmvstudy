@@ -743,6 +743,135 @@
           ]
         }
       ]
+    },
+    {
+      "sectionId": "S05",
+      "questions": [
+        {
+          "id": "M03-S05-Q01",
+          "stem_en": "How should you enter a roundabout?",
+          "stem_zhHant": "您應該如何進入圓環（環形交叉路口）？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Speed up and merge into the roundabout quickly",
+              "text_zhHant": "加速並快速匯入圓環"
+            },
+            {
+              "key": "B",
+              "text_en": "Yield to traffic already in the roundabout and enter to the right",
+              "text_zhHant": "讓圓環內的車輛先行，從右側駛入"
+            },
+            {
+              "key": "C",
+              "text_en": "Stop completely and wait for the roundabout to be empty",
+              "text_zhHant": "完全停車，等圓環內沒有車輛再進入"
+            },
+            {
+              "key": "D",
+              "text_en": "Enter from the left and cut across lanes",
+              "text_zhHant": "從左側駛入並穿越車道"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When entering a roundabout, yield to traffic already in the roundabout and enter to the right.",
+          "explanation_zhHant": "進入圓環時，讓已在圓環內行駛的車輛先行，從右側駛入。",
+          "tags": ["roundabout"]
+        },
+        {
+          "id": "M03-S05-Q02",
+          "stem_en": "In a roundabout, traffic travels in which direction?",
+          "stem_zhHant": "在圓環內，車輛朝哪個方向行駛？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Clockwise",
+              "text_zhHant": "順時針"
+            },
+            {
+              "key": "B",
+              "text_en": "Counterclockwise",
+              "text_zhHant": "逆時針"
+            },
+            {
+              "key": "C",
+              "text_en": "Either direction depending on traffic",
+              "text_zhHant": "根據車流情況可朝任一方向"
+            },
+            {
+              "key": "D",
+              "text_en": "Straight through the center",
+              "text_zhHant": "直接穿過中心"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "In the United States, traffic in a roundabout always travels counterclockwise.",
+          "explanation_zhHant": "在美國，圓環內的車流始終沿逆時針方向行駛。",
+          "tags": ["roundabout"]
+        },
+        {
+          "id": "M03-S05-Q03",
+          "stem_en": "On a steep, narrow mountain road where two vehicles cannot pass, who has the right-of-way?",
+          "stem_zhHant": "在陡窄的山路上，兩車無法同時通過時，誰有優先通行權？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "The vehicle going downhill",
+              "text_zhHant": "下坡的車輛"
+            },
+            {
+              "key": "B",
+              "text_en": "The vehicle going uphill",
+              "text_zhHant": "上坡的車輛"
+            },
+            {
+              "key": "C",
+              "text_en": "The larger vehicle",
+              "text_zhHant": "較大的車輛"
+            },
+            {
+              "key": "D",
+              "text_en": "The vehicle that arrived first",
+              "text_zhHant": "先到達的車輛"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "On a steep, narrow mountain road, the vehicle going uphill has the right-of-way. The vehicle going downhill should back up to allow the uphill vehicle to pass.",
+          "explanation_zhHant": "在陡窄的山路上，上坡車輛有優先通行權。下坡車輛應倒車讓上坡車輛通過。",
+          "tags": ["mountain-road"]
+        },
+        {
+          "id": "M03-S05-Q04",
+          "stem_en": "What is the speed limit at a blind intersection where you cannot see for 100 feet in either direction?",
+          "stem_zhHant": "在任一方向都無法看到100英尺的盲路口，限速是多少？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "10 mph",
+              "text_zhHant": "10英里/小時"
+            },
+            {
+              "key": "B",
+              "text_en": "15 mph",
+              "text_zhHant": "15英里/小時"
+            },
+            {
+              "key": "C",
+              "text_en": "20 mph",
+              "text_zhHant": "20英里/小時"
+            },
+            {
+              "key": "D",
+              "text_en": "25 mph",
+              "text_zhHant": "25英里/小時"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "The speed limit at a blind intersection where you cannot see for 100 feet in either direction is 15 mph.",
+          "explanation_zhHant": "在任一方向都無法看到100英尺的盲路口，限速為15英里/小時。",
+          "tags": []
+        }
+      ]
     }
   ]
 }

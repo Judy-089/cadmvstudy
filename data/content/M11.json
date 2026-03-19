@@ -73,14 +73,14 @@
       "knowledgePoints": [
         {
           "id": "M11-S02-K01",
-          "en": "California's minimum liability insurance requirements are: $15,000 for injury/death to one person, $30,000 for injury/death to more than one person, and $5,000 for property damage (15/30/5).",
-          "zh": "加州最低责任保险要求为：单人伤亡15,000美元、多人伤亡30,000美元、财产损失5,000美元（15/30/5）。",
+          "en": "California's minimum liability insurance requirements are: $30,000 for a single death or injury, $60,000 for death or injury to more than one person, and $15,000 for property damage (30/60/15).",
+          "zh": "加州最低责任保险要求为：单人伤亡30,000美元、多人伤亡60,000美元、财产损失15,000美元（30/60/15）。",
           "isHighFreq": true,
           "tags": [
             "minimum-insurance",
-            "15-30-5"
+            "30-60-15"
           ],
-          "zhHant": "加州最低責任保險要求為：單人傷亡15,000美元、多人傷亡30,000美元、財產损失5,000美元（15/30/5）。"
+          "zhHant": "加州最低責任保險要求為：單人傷亡30,000美元、多人傷亡60,000美元、財產損失15,000美元（30/60/15）。"
         },
         {
           "id": "M11-S02-K02",

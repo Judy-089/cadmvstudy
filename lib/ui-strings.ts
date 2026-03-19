@@ -20,9 +20,9 @@ const strings = {
   },
   "landing.guestBtn": { en: "Start as Guest", zhHant: "訪客模式", zhHans: "访客模式" },
   "landing.guestDesc": {
-    en: "Free preview \u00b7 2 modules + 1 mock test",
-    zhHant: "免費預覽 \u00b7 2個模組 + 1套模擬題",
-    zhHans: "免费预览 \u00b7 2个模块 + 1套模拟题",
+    en: "Free preview \u00b7 3 modules + 1 mock test",
+    zhHant: "免費預覽 \u00b7 3個模組 + 1套模擬題",
+    zhHans: "免费预览 \u00b7 3个模块 + 1套模拟题",
   },
   "landing.signInBtn": { en: "Sign In", zhHant: "登入", zhHans: "登录" },
   "landing.signInDesc": {
@@ -102,9 +102,9 @@ const strings = {
     zhHans: "部分重要内容会在不同模块中重复出现以加深记忆，您可根据自身情况跳过已掌握的部分。",
   },
   "study.guestBanner": {
-    en: "Guest: M01 & M02 available",
-    zhHant: "訪客：可使用 M01 和 M02",
-    zhHans: "访客：可使用 M01 和 M02",
+    en: "Guest mode: first 3 modules available",
+    zhHant: "訪客模式：前3個模組可用",
+    zhHans: "访客模式：前3个模块可用",
   },
   "study.signInUnlockAll": { en: "Sign In to Unlock All", zhHant: "登入解鎖全部", zhHans: "登录解锁全部" },
   "study.notStarted": { en: "Not Started", zhHant: "未開始", zhHans: "未开始" },

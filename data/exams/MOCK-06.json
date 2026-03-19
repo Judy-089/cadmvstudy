@@ -847,58 +847,74 @@
     },
     {
       "id": "Q-MOCK06-031",
-      "stem_en": "What is the correct response if your vehicle begins to hydroplane?",
+      "stem_en": "What should you do if you feel drowsy while driving?",
+      "stem_zhHant": "如果您在開車時感到昏昏欲睡，您應該怎麼做？",
       "options": [
         {
           "key": "A",
-          "text_en": "Brake firmly to slow down"
+          "text_en": "Turn up the music and keep driving",
+          "text_zhHant": "把音樂調大繼續開車"
         },
         {
           "key": "B",
-          "text_en": "Turn the steering wheel sharply"
+          "text_en": "Pull over to a safe place and rest",
+          "text_zhHant": "靠邊停到安全的地方休息"
         },
         {
           "key": "C",
-          "text_en": "Slow down gradually without using the brakes"
+          "text_en": "Open the window and splash water on your face",
+          "text_zhHant": "打開車窗並用水潑臉"
         },
         {
           "key": "D",
-          "text_en": "Accelerate to regain traction"
+          "text_en": "Drive faster to reach your destination sooner",
+          "text_zhHant": "開快一點以便更快到達目的地"
         }
       ],
-      "answer": "C",
-      "explanation_en": "If hydroplaning, slow down gradually and do not brake. Sudden braking may cause loss of control.",
-      "explanation_zh": "如果打水漂，逐渐减速不要刹车。突然刹车可能导致失控。",
-      "module": "M09",
-      "tags": [],
+      "answer": "B",
+      "explanation_en": "If you feel drowsy while driving, the safest action is to pull over to a safe place and rest. Drowsy driving is extremely dangerous and impairs your reaction time and judgment.",
+      "explanation_zh": "如果你在驾驶时感到困倦，最安全的做法是靠边停到安全的地方休息。疲劳驾驶非常危险，会影响你的反应时间和判断力。",
+      "module": "M01",
+      "tags": [
+        "drowsy-driving"
+      ],
+      "explanation_zhHant": "如果您在駕駛時感到困倦，最安全的做法是靠邊停到安全的地方休息。疲勞駕駛非常危險，會影響您的反應時間和判斷力。",
       "driverEd": false
     },
     {
       "id": "Q-MOCK06-032",
-      "stem_en": "If you experience a tire blowout while driving, you should:",
+      "stem_en": "When backing up, you should use _____ steering with your hand at the 12 o'clock position.",
+      "stem_zhHant": "倒車時，您應該將手放在12點鐘位置，使用_____轉向。",
       "options": [
         {
           "key": "A",
-          "text_en": "Brake hard immediately"
+          "text_en": "Two-hand",
+          "text_zhHant": "雙手"
         },
         {
           "key": "B",
-          "text_en": "Hold the steering wheel firmly, maintain speed briefly, then gradually slow down"
+          "text_en": "One-hand",
+          "text_zhHant": "單手"
         },
         {
           "key": "C",
-          "text_en": "Turn off the engine"
+          "text_en": "Hand-over-hand",
+          "text_zhHant": "手交叉"
         },
         {
           "key": "D",
-          "text_en": "Immediately pull the steering wheel to the right"
+          "text_en": "Push-pull",
+          "text_zhHant": "推拉式"
         }
       ],
       "answer": "B",
-      "explanation_en": "Hold the steering wheel with both hands, maintain speed if safe, then gradually release the accelerator. Do not panic or brake suddenly.",
-      "explanation_zh": "双手握紧方向盘，如果安全保持速度，然后逐渐松开油门。不要惊慌或突然刹车。",
-      "module": "M09",
-      "tags": [],
+      "explanation_en": "When backing up, use one-hand steering with your hand at the 12 o'clock position on the steering wheel. This allows you to turn your body to look behind you while maintaining control.",
+      "explanation_zh": "倒车时，使用单手转向，将手放在方向盘12点钟位置。这样可以让你转身向后看，同时保持对车辆的控制。",
+      "module": "M01",
+      "tags": [
+        "backing-up"
+      ],
+      "explanation_zhHant": "倒車時，使用單手轉向，將手放在方向盤12點鐘位置。這樣可以讓您轉身向後看，同時保持對車輛的控制。",
       "driverEd": false
     },
     {
@@ -931,30 +947,38 @@
     },
     {
       "id": "Q-MOCK06-034",
-      "stem_en": "When driving in heavy fog, you should use:",
+      "stem_en": "If your vehicle's signal lights are not working, you should:",
+      "stem_zhHant": "如果您的車輛信號燈不工作，您應該：",
       "options": [
         {
           "key": "A",
-          "text_en": "High-beam headlights for maximum visibility"
+          "text_en": "Continue driving without signaling",
+          "text_zhHant": "不打信號繼續開車"
         },
         {
           "key": "B",
-          "text_en": "Low-beam headlights"
+          "text_en": "Use hand-and-arm signals",
+          "text_zhHant": "使用手臂信號"
         },
         {
           "key": "C",
-          "text_en": "Parking lights only"
+          "text_en": "Honk your horn before turning",
+          "text_zhHant": "轉彎前按喇叭"
         },
         {
           "key": "D",
-          "text_en": "Fog lights only, without headlights"
+          "text_en": "Flash your headlights to signal a turn",
+          "text_zhHant": "閃車燈來表示轉彎"
         }
       ],
       "answer": "B",
-      "explanation_en": "In fog, use low-beam headlights. High beams reflect off fog and cause glare.",
-      "explanation_zh": "在雾中使用近光灯。远光灯会被雾反射造成眩光。",
-      "module": "M09",
-      "tags": [],
+      "explanation_en": "If your signal lights are not working, you must use hand-and-arm signals to indicate turns and stops. It is required by law to signal your intentions to other drivers.",
+      "explanation_zh": "如果你的信号灯不工作，你必须使用手臂信号来指示转弯和停车。法律要求你向其他驾驶员表明你的意图。",
+      "module": "M01",
+      "tags": [
+        "hand-signal"
+      ],
+      "explanation_zhHant": "如果您的信號燈不工作，您必須使用手臂信號來指示轉彎和停車。法律要求您向其他駕駛員表明您的意圖。",
       "driverEd": false
     },
     {
@@ -987,30 +1011,38 @@
     },
     {
       "id": "Q-MOCK06-036",
-      "stem_en": "If you are convicted of DUI, your conviction stays on your driver's record for:",
+      "stem_en": "Traffic in a roundabout travels in which direction?",
+      "stem_zhHant": "環形交叉路口的交通朝哪個方向行駛？",
       "options": [
         {
           "key": "A",
-          "text_en": "3 years"
+          "text_en": "Clockwise",
+          "text_zhHant": "順時針"
         },
         {
           "key": "B",
-          "text_en": "5 years"
+          "text_en": "Counterclockwise",
+          "text_zhHant": "逆時針"
         },
         {
           "key": "C",
-          "text_en": "7 years"
+          "text_en": "Either direction depending on the roundabout",
+          "text_zhHant": "取決於環形路口的任一方向"
         },
         {
           "key": "D",
-          "text_en": "10 years"
+          "text_en": "The direction with the least traffic",
+          "text_zhHant": "交通流量最少的方向"
         }
       ],
-      "answer": "D",
-      "explanation_en": "All DUI convictions remain on your driver's record for 10 years.",
-      "explanation_zh": "所有酒驾定罪记录将保留在驾驶记录中10年。",
-      "module": "M10",
-      "tags": [],
+      "answer": "B",
+      "explanation_en": "In the United States, traffic in a roundabout always travels counterclockwise (to the right upon entry). You must yield to vehicles already in the roundabout.",
+      "explanation_zh": "在美国，环形交叉路口的交通始终沿逆时针方向（进入时向右）行驶。你必须让行已在环形路口内的车辆。",
+      "module": "M03",
+      "tags": [
+        "roundabout"
+      ],
+      "explanation_zhHant": "在美國，環形交叉路口的交通始終沿逆時針方向（進入時向右）行駛。您必須讓行已在環形路口內的車輛。",
       "driverEd": false
     },
     {
@@ -1037,7 +1069,7 @@
       "answer": "B",
       "explanation_en": "A provisional driver under 18 cannot drive between 11 p.m. and 5 a.m. during the first 12 months of having their license, unless an exception applies.",
       "explanation_zh": "持有临时驾照的未满18岁驾驶员在获得驾照的前12个月内不得在晚上11点到凌晨5点之间驾车，除非有例外情况。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1065,7 +1097,7 @@
       "answer": "C",
       "explanation_en": "A provisional driver cannot carry passengers under 20 years old unless a parent, guardian, or licensed adult at least 25 years old rides with them.",
       "explanation_zh": "持临时驾照的驾驶员不得搭载20岁以下的乘客，除非父母、监护人或至少25岁的持照成年人陪同。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1093,7 +1125,7 @@
       "answer": "B",
       "explanation_en": "A minor must be at least 15 and a half years old to apply for a Class C instruction permit in California.",
       "explanation_zh": "在加州，未成年人必须年满15岁半才能申请C类学习许可证。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1121,7 +1153,7 @@
       "answer": "C",
       "explanation_en": "A minor must practice driving for at least 50 hours with a California-licensed driver who is at least 25 years old. Ten of those hours must be at night.",
       "explanation_zh": "未成年人必须与至少25岁的加州持照驾驶员一起练习驾驶至少50小时。其中10小时必须在夜间进行。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1149,7 +1181,7 @@
       "answer": "B",
       "explanation_en": "A minor must hold an instruction permit for at least 6 months (or turn 18) before scheduling their behind-the-wheel drive test.",
       "explanation_zh": "未成年人必须持有学习许可证至少6个月（或年满18岁）才能预约路考。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1177,7 +1209,7 @@
       "answer": "C",
       "explanation_en": "A minor must practice driving with a California-licensed driver who is at least 25 years old. This person must sit close enough to take control if needed.",
       "explanation_zh": "未成年人必须与至少25岁的加州持照驾驶员一起练习驾驶。此人必须坐在足够近的位置以便在需要时接管控制。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1205,7 +1237,7 @@
       "answer": "B",
       "explanation_en": "Of the 50 required practice hours, 10 hours must be at night with a California-licensed driver who is at least 25 years old.",
       "explanation_zh": "在50小时的必修练习中，10小时必须在夜间与至少25岁的加州持照驾驶员一起完成。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1233,7 +1265,7 @@
       "answer": "B",
       "explanation_en": "A minor must complete both driver education (classroom) and driver training (behind-the-wheel) before getting a driver's license.",
       "explanation_zh": "未成年人在获得驾照前必须完成驾驶教育（课堂学习）和驾驶培训（实际驾驶）。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1261,7 +1293,7 @@
       "answer": "B",
       "explanation_en": "When renewing your driver's license, eLearning may be an alternative. It is a no-fail, self-paced interactive course with quizzes that can be taken on a computer, tablet, or mobile device.",
       "explanation_zh": "在续签驾照时，电子学习可能是一种替代选择。这是一种不会不通过的、自定进度的互动课程，带有测验，可以在电脑、平板或手机上完成。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1289,9 +1321,81 @@
       "answer": "B",
       "explanation_en": "A minor driving for a school activity during curfew hours must carry a note signed by the school principal, dean, or designee.",
       "explanation_zh": "在宵禁时间因学校活动驾驶的未成年人必须携带由学校校长、教务长或指定人员签署的证明。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
+    },
+    {
+      "id": "Q-MOCK06-047",
+      "stem_en": "If your vehicle with four-wheel ABS starts to skid, you should:",
+      "stem_zhHant": "如果您配備四輪ABS的車輛開始打滑，您應該：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Pump the brakes rapidly",
+          "text_zhHant": "快速連續踩刹車"
+        },
+        {
+          "key": "B",
+          "text_en": "Apply firm, steady pressure on the brake pedal",
+          "text_zhHant": "在刹車踏板上施加穩定持續的壓力"
+        },
+        {
+          "key": "C",
+          "text_en": "Release the brake pedal entirely",
+          "text_zhHant": "完全鬆開刹車踏板"
+        },
+        {
+          "key": "D",
+          "text_en": "Shift to neutral and coast",
+          "text_zhHant": "換至空檔並滑行"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "With four-wheel ABS, apply firm and steady pressure on the brake pedal. Do not pump the brakes — the ABS system will pulse them automatically to prevent wheel lock-up.",
+      "explanation_zh": "使用四轮ABS时，在刹车踏板上施加稳定持续的压力。不要连续踩刹车——ABS系统会自动脉冲刹车以防止车轮锁死。",
+      "explanation_zhHant": "使用四輪ABS時，在刹車踏板上施加穩定持續的壓力。不要連續踩刹車——ABS系統會自動脈衝刹車以防止車輪鎖死。",
+      "module": "M07",
+      "tags": [
+        "abs"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK06-048",
+      "stem_en": "How far should you sit from the airbag cover for safety?",
+      "stem_zhHant": "為了安全，您應該坐在距離安全氣囊蓋多遠的地方？",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "At least 6 inches",
+          "text_zhHant": "至少6英寸"
+        },
+        {
+          "key": "B",
+          "text_en": "At least 10 inches",
+          "text_zhHant": "至少10英寸"
+        },
+        {
+          "key": "C",
+          "text_en": "At least 15 inches",
+          "text_zhHant": "至少15英寸"
+        },
+        {
+          "key": "D",
+          "text_en": "At least 24 inches",
+          "text_zhHant": "至少24英寸"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You should sit at least 10 inches from the airbag cover. Sitting too close can cause serious injury when the airbag deploys.",
+      "explanation_zh": "你应该坐在距离安全气囊盖至少10英寸的地方。坐得太近在安全气囊展开时可能造成严重伤害。",
+      "explanation_zhHant": "您應該坐在距離安全氣囊蓋至少10英寸的地方。坐得太近在安全氣囊展開時可能造成嚴重傷害。",
+      "module": "M09",
+      "tags": [
+        "air-bag"
+      ],
+      "driverEd": false
     }
   ]
 }

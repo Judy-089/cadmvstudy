@@ -158,6 +158,83 @@
           "explanation_en": "Frequent lane changes (weaving) increase the risk of a collision. Do not weave in and out of traffic.",
           "explanation_zhHant": "頻繁變道穿插會增加碰撞風險。不要在車流中頻繁變道。",
           "tags": []
+        },
+        {
+          "id": "M05-S01-Q06",
+          "stem_en": "Large broken white lines on the road indicate that:",
+          "stem_zhHant": "路面上的大段白色虛線表示：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "You are approaching a school zone",
+              "text_zhHant": "您正接近學校區域"
+            },
+            {
+              "key": "B",
+              "text_en": "The lane you are in is ending and you must merge",
+              "text_zhHant": "您所在的車道即將結束，您必須匯入其他車道"
+            },
+            {
+              "key": "C",
+              "text_en": "You may park in this area",
+              "text_zhHant": "您可以在此區域停車"
+            },
+            {
+              "key": "D",
+              "text_en": "A bicycle lane is starting",
+              "text_zhHant": "自行車道開始"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Large broken white lines (wider and more closely spaced than normal lane markings) indicate that your lane is ending and you need to merge into the adjacent lane.",
+          "explanation_zhHant": "大段白色虛線（比普通車道標線更寬且間距更近）表示您所在的車道即將結束，需要匯入相鄰車道。",
+          "tags": []
+        },
+        {
+          "id": "M05-S01-Q07",
+          "stem_en": "What is the correct ORDER of steps when changing lanes?",
+          "stem_zhHant": "變道時正確的步驟順序是什麼？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Check mirrors, change lanes, then signal",
+              "text_zhHant": "查看後視鏡、變道、然後打燈"
+            },
+            {
+              "key": "B",
+              "text_en": "Signal first, then check mirrors, then check blind spot over your shoulder",
+              "text_zhHant": "先打轉向燈，然後查看後視鏡，再轉頭查看盲區"
+            },
+            {
+              "key": "C",
+              "text_en": "Check blind spot, signal, then change lanes immediately",
+              "text_zhHant": "查看盲區、打燈、然後立即變道"
+            },
+            {
+              "key": "D",
+              "text_en": "Honk your horn, check mirrors, then change lanes",
+              "text_zhHant": "按喇叭、查看後視鏡、然後變道"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "The correct order for changing lanes is: signal first, then check your mirrors, then look over your shoulder to check your blind spot, and change lanes only when it is safe.",
+          "explanation_zhHant": "變道的正確順序是：先打轉向燈，然後查看後視鏡，再轉頭查看盲區，確認安全後才變道。",
+          "tags": []
+        },
+        {
+          "id": "M05-S01-Q05",
+          "stem_en": "On a two-lane road, how many vehicles must be following you before you are required to use a turnout area to let them pass?",
+          "stem_zhHant": "在雙車道道路上，有多少輛車跟在你後面時，你必須使用讓行區域讓他們通過？",
+          "options": [
+            {"key": "A", "text_en": "3 or more", "text_zhHant": "3輛或更多"},
+            {"key": "B", "text_en": "5 or more", "text_zhHant": "5輛或更多"},
+            {"key": "C", "text_en": "7 or more", "text_zhHant": "7輛或更多"},
+            {"key": "D", "text_en": "10 or more", "text_zhHant": "10輛或更多"}
+          ],
+          "answer": "B",
+          "explanation_en": "You must use a turnout area when 5 or more vehicles are following you on a two-lane road.",
+          "explanation_zhHant": "當雙車道道路上有5輛或更多車輛跟在你後面時，你必須使用讓行區域。",
+          "tags": ["turnout"]
         }
       ]
     },
@@ -381,6 +458,68 @@
           "answer": "C",
           "explanation_en": "Complete the turn in the lane closest to the center line of the road you enter.",
           "explanation_zhHant": "駛入目標道路時進入最靠近中心線的車道。",
+          "tags": []
+        },
+        {
+          "id": "M05-S02-Q08",
+          "stem_en": "When turning right onto a road that has a dedicated right-turn lane (acceleration lane), you:",
+          "stem_zhHant": "當右轉駛入一條設有專用右轉車道（加速車道）的道路時，您：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Must come to a complete stop before turning",
+              "text_zhHant": "必須完全停車後再轉彎"
+            },
+            {
+              "key": "B",
+              "text_en": "Can turn without stopping if you have a clear path into the dedicated lane",
+              "text_zhHant": "如果進入專用車道的路徑暢通，可以不停車直接轉入"
+            },
+            {
+              "key": "C",
+              "text_en": "Must wait for the traffic light to turn green",
+              "text_zhHant": "必須等交通燈變綠"
+            },
+            {
+              "key": "D",
+              "text_en": "Must honk before turning",
+              "text_zhHant": "轉彎前必須按喇叭"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When turning right onto a road with a dedicated right-turn lane, you can proceed into that lane without stopping, as long as the path is clear and it is safe to do so.",
+          "explanation_zhHant": "當右轉駛入設有專用右轉車道的道路時，只要路徑暢通且安全，可以不停車直接駛入該車道。",
+          "tags": []
+        },
+        {
+          "id": "M05-S02-Q09",
+          "stem_en": "When making a left turn from a two-way street onto a one-way street, you should:",
+          "stem_zhHant": "從雙向道路左轉進入單行道時，您應該：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Turn into any lane on the one-way street",
+              "text_zhHant": "轉入單行道的任何車道"
+            },
+            {
+              "key": "B",
+              "text_en": "Turn into the far left lane of the one-way street",
+              "text_zhHant": "轉入單行道最左側的車道"
+            },
+            {
+              "key": "C",
+              "text_en": "Turn into the far right lane of the one-way street",
+              "text_zhHant": "轉入單行道最右側的車道"
+            },
+            {
+              "key": "D",
+              "text_en": "Make a U-turn instead",
+              "text_zhHant": "改為掉頭"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When turning left from a two-way street onto a one-way street, complete the turn into the far left lane of the one-way street.",
+          "explanation_zhHant": "從雙向道路左轉進入單行道時，駛入單行道最左側的車道。",
           "tags": []
         }
       ]
@@ -861,6 +1000,88 @@
           "answer": "B",
           "explanation_en": "Do not drive in a bike lane except when making a turn within 200 feet of the turn.",
           "explanation_zhHant": "除非在距轉彎200英尺內準備轉彎，否則不得在自行車道內行駛。",
+          "tags": []
+        },
+        {
+          "id": "M05-S05-Q05",
+          "stem_en": "Under what condition may you drive through a public transit bus lane?",
+          "stem_zhHant": "在什麼情況下你可以駛過公車專用道？",
+          "options": [
+            {"key": "A", "text_en": "When the bus lane is empty", "text_zhHant": "當公車道為空時"},
+            {"key": "B", "text_en": "To make a right turn", "text_zhHant": "為了右轉"},
+            {"key": "C", "text_en": "During rush hour only", "text_zhHant": "僅在高峰時段"},
+            {"key": "D", "text_en": "When driving below the speed limit", "text_zhHant": "當低於限速行駛時"}
+          ],
+          "answer": "B",
+          "explanation_en": "You may cross a bus lane to make a right turn, but you cannot drive, stop, or park in a bus-only lane.",
+          "explanation_zhHant": "你可以穿過公車道進行右轉，但不能在公車專用道上行駛、停車或泊車。",
+          "tags": ["bus-lane"]
+        }
+      ]
+    },
+    {
+      "sectionId": "S06",
+      "questions": [
+        {
+          "id": "M05-S06-Q01",
+          "stem_en": "When merging onto a highway from an on-ramp, what should you do?",
+          "stem_zhHant": "從匝道匯入高速公路時，您應該怎麼做？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Stop at the end of the ramp and wait for a large gap",
+              "text_zhHant": "在匝道末端停車等待大的間隙"
+            },
+            {
+              "key": "B",
+              "text_en": "Match the speed of highway traffic and merge smoothly; do not stop on the ramp",
+              "text_zhHant": "配合高速公路車流速度順暢匯入，不要在匝道上停車"
+            },
+            {
+              "key": "C",
+              "text_en": "Drive slowly and force other vehicles to make room",
+              "text_zhHant": "慢速行駛並迫使其他車輛讓路"
+            },
+            {
+              "key": "D",
+              "text_en": "Turn on your hazard lights while merging",
+              "text_zhHant": "匯入時打開雙閃燈"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When merging onto a highway, use the on-ramp to match the speed of highway traffic and merge smoothly. Do not stop on the ramp unless traffic ahead has stopped.",
+          "explanation_zhHant": "匯入高速公路時，利用匝道加速至與高速公路車流相匹配的速度，順暢匯入。除非前方車流已停止，否則不要在匝道上停車。",
+          "tags": []
+        },
+        {
+          "id": "M05-S06-Q02",
+          "stem_en": "When exiting a highway, how far in advance should you signal?",
+          "stem_zhHant": "駛出高速公路時，應提前多遠打轉向燈？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "At least 100 feet before the exit",
+              "text_zhHant": "在出口前至少100英尺"
+            },
+            {
+              "key": "B",
+              "text_en": "Signal about 5 seconds before changing lanes to the exit",
+              "text_zhHant": "在變道駛向出口前約5秒鐘打燈"
+            },
+            {
+              "key": "C",
+              "text_en": "Just as you reach the exit ramp",
+              "text_zhHant": "到達出口匝道時才打燈"
+            },
+            {
+              "key": "D",
+              "text_en": "No signal is necessary on the highway",
+              "text_zhHant": "在高速公路上不需要打燈"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "When exiting a highway, signal approximately 5 seconds before changing lanes to move toward the exit. This gives other drivers enough time to react.",
+          "explanation_zhHant": "駛出高速公路時，在變道駛向出口前約5秒鐘打轉向燈，讓其他駕駛員有足夠時間反應。",
           "tags": []
         }
       ]

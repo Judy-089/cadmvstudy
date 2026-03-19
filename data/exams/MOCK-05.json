@@ -262,40 +262,40 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK05-010",
-      "stem_en": "At a T-intersection without signs or signals, who has the right-of-way?",
+      "id": "Q-MOCK05-047",
+      "stem_en": "You may legally drive in a bicycle lane when:",
+      "stem_zhHant": "在以下情況下你可以合法地在自行車道上行駛：",
       "options": [
         {
           "key": "A",
-          "text_en": "The vehicle on the terminating road",
-          "text_zhHant": "終止道路上的車輛"
+          "text_en": "There are no bicyclists present",
+          "text_zhHant": "沒有自行車騎士在場時"
         },
         {
           "key": "B",
-          "text_en": "The larger vehicle",
-          "text_zhHant": "較大的車輛"
+          "text_en": "Within 200 feet of an intersection to make a right turn",
+          "text_zhHant": "在距路口200英尺以內準備右轉時"
         },
         {
           "key": "C",
-          "text_en": "Vehicles on the through (continuing) road",
-          "text_zhHant": "貫通（繼續）道路上的車輛"
+          "text_en": "To avoid traffic congestion",
+          "text_zhHant": "為了避開交通擁堵"
         },
         {
           "key": "D",
-          "text_en": "The vehicle that is turning",
-          "text_zhHant": "正在轉彎的車輛"
+          "text_en": "When traveling under 25 mph",
+          "text_zhHant": "當行駛速度低於25英里/小時時"
         }
       ],
-      "answer": "C",
-      "explanation_en": "At a T-intersection without stop or yield signs, vehicles, bicyclists, and pedestrians on the through road (going straight) have the right-of-way.",
-      "explanation_zh": "在没有停车或让行标志的T字路口，直行道路上的车辆、骑自行车者和行人拥有先行权。",
-      "module": "M03",
+      "answer": "B",
+      "explanation_en": "You may drive in a bicycle lane only within 200 feet of an intersection when preparing to make a right turn. You must yield to any bicyclists already in the lane before entering.",
+      "explanation_zh": "你只能在距路口200英尺以内准备右转时驶入自行车道。在进入之前，你必须让行已在该车道内的自行车骑士。",
+      "module": "M08",
       "tags": [
-        "right-of-way",
-        "intersections"
+        "sharing-road",
+        "bicycle"
       ],
-      "explanation_zhHant": "在沒有停車或讓行標誌的T字路口，直行道路上的車輛、騎自行車者和行人擁有先行權。",
-      "stem_zhHant": "在沒有標誌或信號燈的丁字路口，誰有優先通行權？",
+      "explanation_zhHant": "你只能在距路口200英尺以內準備右轉時駛入自行車道。在進入之前，你必須讓行已在該車道內的自行車騎士。",
       "driverEd": false
     },
     {
@@ -818,41 +818,41 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK05-028",
-      "stem_en": "A yellow painted curb means:",
+      "id": "Q-MOCK05-048",
+      "stem_en": "Shared roadway bicycle markings (sharrows) indicate that:",
+      "stem_zhHant": "共享道路自行車標記（共享箭頭）表示：",
       "options": [
         {
           "key": "A",
-          "text_en": "No parking at any time",
-          "text_zhHant": "任何時候禁止停車"
+          "text_en": "Only bicyclists may use the lane",
+          "text_zhHant": "只有自行車騎士可以使用該車道"
         },
         {
           "key": "B",
-          "text_en": "Loading and unloading passengers or freight only",
-          "text_zhHant": "僅限裝卸乘客或貨物"
+          "text_en": "Bicyclists can occupy the full lane",
+          "text_zhHant": "自行車騎士可以佔用整條車道"
         },
         {
           "key": "C",
-          "text_en": "Disabled parking only",
-          "text_zhHant": "僅限殘疾人停車"
+          "text_en": "Motor vehicles have priority over bicyclists",
+          "text_zhHant": "機動車輛優先於自行車騎士"
         },
         {
           "key": "D",
-          "text_en": "Park for up to 2 hours",
-          "text_zhHant": "停車不超過2小時"
+          "text_en": "Bicyclists must ride on the sidewalk instead",
+          "text_zhHant": "自行車騎士必須改在人行道上騎行"
         }
       ],
       "answer": "B",
-      "explanation_en": "A yellow curb means you may stop only long enough to load or unload passengers or freight. Do not stop longer than the time posted. Noncommercial drivers usually must stay with the vehicle.",
-      "explanation_zh": "黄色路缘表示你只能停留足够装卸乘客或货物的时间。不要停留超过标示的时间。非商业驾驶员通常必须留在车辆旁边。",
-      "module": "M06",
+      "explanation_en": "Shared roadway bicycle markings (sharrows) indicate that bicyclists may occupy the full lane. These markings alert motorists that bicyclists may be present and have the right to ride in the lane.",
+      "explanation_zh": "共享道路自行车标记（共享箭头）表示自行车骑士可以占用整条车道。这些标记提醒驾驶员自行车骑士可能存在并有权在该车道骑行。",
+      "module": "M08",
       "tags": [
-        "parking",
-        "curb-colors",
-        "colored-curbs"
+        "sharing-road",
+        "bicycle",
+        "road-markings"
       ],
-      "explanation_zhHant": "黄色路緣表示你隻能停留足夠裝卸乘客或貨物的時間。不要停留超過標示的時間。非商業駕駛員通常必須留在車輛旁邊。",
-      "stem_zhHant": "黃色路緣表示：",
+      "explanation_zhHant": "共享道路自行車標記（共享箭頭）表示自行車騎士可以佔用整條車道。這些標記提醒駕駛員自行車騎士可能存在並有權在該車道騎行。",
       "driverEd": false
     },
     {
@@ -1226,40 +1226,40 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK05-044",
-      "stem_en": "It is illegal to wear headsets or earplugs while driving in:",
+      "id": "Q-MOCK05-049",
+      "stem_en": "A separated bikeway is:",
+      "stem_zhHant": "分離式自行車道是：",
       "options": [
         {
           "key": "A",
-          "text_en": "One ear only",
-          "text_zhHant": "僅一隻耳朵"
+          "text_en": "A lane marked with sharrows on a regular road",
+          "text_zhHant": "在普通道路上用共享箭頭標記的車道"
         },
         {
           "key": "B",
-          "text_en": "Both ears",
-          "text_zhHant": "雙耳"
+          "text_en": "A bike lane next to a parking lane",
+          "text_zhHant": "停車道旁邊的自行車道"
         },
         {
           "key": "C",
-          "text_en": "Either ear",
-          "text_zhHant": "任何一隻耳朵"
+          "text_en": "Physically separated from motor vehicle traffic by barriers or grade",
+          "text_zhHant": "通過護欄或高度差與機動車交通物理分離"
         },
         {
           "key": "D",
-          "text_en": "Headsets are always legal while driving",
-          "text_zhHant": "駕駛時佩戴耳機始終合法"
+          "text_en": "Any paved path in a park",
+          "text_zhHant": "公園中的任何鋪設路徑"
         }
       ],
-      "answer": "B",
-      "explanation_en": "It is illegal to wear a headset or earplugs in both ears while driving. You may wear one in a single ear. You must be able to hear sirens, horns, and other warning sounds.",
-      "explanation_zh": "驾驶时在双耳佩戴耳机或耳塞是违法的。你可以在单耳佩戴。你必须能够听到警笛、喇叭和其他警告声音。",
-      "module": "M10",
+      "answer": "C",
+      "explanation_en": "A separated bikeway (also known as a protected bike lane or cycle track) is physically separated from motor vehicle traffic by barriers, curbs, planters, or a grade difference, providing greater safety for bicyclists.",
+      "explanation_zh": "分离式自行车道（也称为受保护自行车道或自行车专用道）通过护栏、路缘、花坛或高度差与机动车交通物理分离，为自行车骑士提供更大的安全性。",
+      "module": "M08",
       "tags": [
-        "alcohol-drugs",
-        "impaired-driving"
+        "sharing-road",
+        "bicycle"
       ],
-      "explanation_zhHant": "駕駛時在雙耳佩戴耳機或耳塞是違法的。你可以在單耳佩戴。你必須能夠聽到警笛、喇叭和其他警告聲音。",
-      "stem_zhHant": "駕駛時在哪裡佩戴耳機或耳塞是違法的？",
+      "explanation_zhHant": "分離式自行車道（也稱為受保護自行車道或自行車專用道）通過護欄、路緣、花壇或高度差與機動車交通物理分離，為自行車騎士提供更大的安全性。",
       "driverEd": false
     },
     {
@@ -1283,19 +1283,19 @@
         },
         {
           "key": "D",
-          "text_en": "$25,000",
-          "text_zhHant": "$25,000"
+          "text_en": "$30,000",
+          "text_zhHant": "$30,000"
         }
       ],
-      "answer": "C",
-      "explanation_en": "California requires minimum liability insurance of $15,000 for injury or death of one person, $30,000 for injury or death of more than one person, and $5,000 for property damage.",
-      "explanation_zh": "加州要求最低责任保险为：单人伤亡15,000美元，多人伤亡30,000美元，财产损失5,000美元。",
+      "answer": "D",
+      "explanation_en": "California requires minimum liability insurance of $30,000 for a single death or injury, $60,000 for death or injury to more than one person, and $15,000 for property damage (30/60/15).",
+      "explanation_zh": "加州要求最低责任保险为：单人伤亡30,000美元，多人伤亡60,000美元，财产损失15,000美元（30/60/15）。",
       "module": "M11",
       "tags": [
         "insurance",
         "liability-coverage"
       ],
-      "explanation_zhHant": "加州要求最低責任保險為：單人傷亡15,000美元，多人傷亡30,000美元，財產损失5,000美元。",
+      "explanation_zhHant": "加州要求最低責任保險為：單人傷亡30,000美元，多人傷亡60,000美元，財產損失15,000美元（30/60/15）。",
       "stem_zhHant": "加州法律要求單人人身傷害或死亡的最低責任保險額度為：",
       "driverEd": false
     },
@@ -1359,7 +1359,7 @@
       "answer": "B",
       "explanation_en": "When you move to California, you must get a California driver license.",
       "explanation_zh": "搬到加州后，必须获得加州驾照。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "new-resident"
@@ -1390,7 +1390,7 @@
       "answer": "B",
       "explanation_en": "Tires must have at least 1/32 inch of uniform tread depth. Donut tires are not allowed.",
       "explanation_zh": "轮胎必须有至少1/32英寸的均匀胎面深度。备用小轮胎不允许使用。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "vehicle-requirements"
@@ -1421,7 +1421,7 @@
       "answer": "B",
       "explanation_en": "The horn must be loud enough to be heard from at least 200 feet.",
       "explanation_zh": "喇叭声音必须能在至少200英尺外听到。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "horn-requirement"
@@ -1452,7 +1452,7 @@
       "answer": "B",
       "explanation_en": "The examiner will ask you to demonstrate vehicle controls including mirrors, brake lights, horn, and turn signals.",
       "explanation_zh": "考官会要求你演示车辆控制装置，包括后视镜、刹车灯、喇叭和转向灯。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "pre-drive-check"
@@ -1483,7 +1483,7 @@
       "answer": "B",
       "explanation_en": "Your name must be on the rental contract, and the contract must not exclude behind-the-wheel tests.",
       "explanation_zh": "你的名字必须在租车合同上，且合同不得排除路考使用。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "rental-vehicle"
@@ -1514,7 +1514,7 @@
       "answer": "B",
       "explanation_en": "Interpreters may only be used during the pre-drive inspection, not during the actual driving test.",
       "explanation_zh": "口译员只能在路考前检查时使用，不能在实际驾驶考试期间使用。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "interpreter-rules"
@@ -1545,7 +1545,7 @@
       "answer": "B",
       "explanation_en": "There must be at least 1 inch of clearance between the brake pedal and the floorboard when depressed.",
       "explanation_zh": "刹车踏板踩下时与地板之间至少要有1英寸的间隙。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "brake-clearance"
@@ -1576,7 +1576,7 @@
       "answer": "B",
       "explanation_en": "You need at least two rearview mirrors, one of which must be on the left side.",
       "explanation_zh": "至少需要两面后视镜，其中一面必须在车辆左侧。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "mirror-requirement"
@@ -1607,7 +1607,7 @@
       "answer": "B",
       "explanation_en": "The window on the driver side must be able to open.",
       "explanation_zh": "驾驶员侧的车窗必须能够打开。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "window-requirement"
@@ -1638,13 +1638,85 @@
       "answer": "C",
       "explanation_en": "If your vehicle does not meet the requirements, your drive test will be rescheduled.",
       "explanation_zh": "如果车辆不符合要求，路考将被重新安排。",
-      "module": "M01",
+      "module": "M00",
       "tags": [
         "minor",
         "test-reschedule"
       ],
       "id": "Q-MOCK05-DE10",
       "driverEd": true
+    },
+    {
+      "id": "Q-MOCK05-050",
+      "stem_en": "A truck displaying a diamond-shaped hazardous load placard must __ before crossing railroad tracks.",
+      "stem_zhHant": "展示菱形危險物品標誌的卡車在穿越鐵路道口前必須__。",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Slow down and proceed with caution",
+          "text_zhHant": "減速並謹慎通過"
+        },
+        {
+          "key": "B",
+          "text_en": "Stop completely",
+          "text_zhHant": "完全停車"
+        },
+        {
+          "key": "C",
+          "text_en": "Honk the horn",
+          "text_zhHant": "按喇叭"
+        },
+        {
+          "key": "D",
+          "text_en": "Turn on hazard lights",
+          "text_zhHant": "打開危險警示燈"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Vehicles displaying diamond-shaped hazardous load placards must stop before crossing railroad tracks. This is required to ensure safety when transporting dangerous materials.",
+      "explanation_zh": "展示菱形危险物品标识的车辆在穿越铁路道口前必须停车。这是为了确保运输危险材料时的安全。",
+      "explanation_zhHant": "展示菱形危險物品標識的車輛在穿越鐵路道口前必須停車。這是為了確保運輸危險材料時的安全。",
+      "module": "M08",
+      "tags": [
+        "hazardous-load"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK05-051",
+      "stem_en": "When hazards exist on both sides of the road, you should:",
+      "stem_zhHant": "當道路兩側都存在危險時，您應該：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Drive down the middle of the road",
+          "text_zhHant": "在道路中間行駛"
+        },
+        {
+          "key": "B",
+          "text_en": "Stop and wait for the hazards to clear",
+          "text_zhHant": "停車等待危險消除"
+        },
+        {
+          "key": "C",
+          "text_en": "Give more space to the most dangerous situation",
+          "text_zhHant": "給最危險的情況更多空間"
+        },
+        {
+          "key": "D",
+          "text_en": "Speed up to pass both hazards quickly",
+          "text_zhHant": "加速以快速通過兩個危險"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "When hazards exist on both sides of the road, steer toward the least dangerous situation and give more space to the most dangerous one.",
+      "explanation_zh": "当道路两侧都存在危险时，向最不危险的一侧行驶，给最危险的情况留出更多空间。",
+      "explanation_zhHant": "當道路兩側都存在危險時，向最不危險的一側行駛，給最危險的情況留出更多空間。",
+      "module": "M09",
+      "tags": [
+        "hazard-avoidance"
+      ],
+      "driverEd": false
     }
   ]
 }

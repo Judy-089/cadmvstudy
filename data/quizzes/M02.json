@@ -491,6 +491,68 @@
           "tags": [
             "railroad"
           ]
+        },
+        {
+          "id": "M02-S02-Q09",
+          "stem_en": "What does a slow-moving vehicle sign look like, and what does it mean?",
+          "stem_zhHant": "慢速車輛標誌是什麼樣的，它表示什麼？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "A yellow circle; the vehicle is making a wide turn",
+              "text_zhHant": "黃色圓形；車輛正在大幅轉彎"
+            },
+            {
+              "key": "B",
+              "text_en": "An orange/red triangle; the vehicle travels at 25 mph or less",
+              "text_zhHant": "橙色/紅色三角形；車輛行駛速度為25英里/小時或以下"
+            },
+            {
+              "key": "C",
+              "text_en": "A green square; the vehicle is an electric car",
+              "text_zhHant": "綠色方形；車輛是電動車"
+            },
+            {
+              "key": "D",
+              "text_en": "A blue diamond; the vehicle is a government vehicle",
+              "text_zhHant": "藍色菱形；車輛是政府車輛"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "A slow-moving vehicle sign is an orange/red reflective triangle displayed on the rear of vehicles that travel at 25 mph or less, such as farm equipment.",
+          "explanation_zhHant": "慢速車輛標誌是一個橙色/紅色反光三角形，貼在行駛速度為25英里/小時或以下的車輛後方，例如農用設備。",
+          "tags": []
+        },
+        {
+          "id": "M02-S02-Q10",
+          "stem_en": "What are hazardous materials (hazmat) placards, and what special rule applies to vehicles displaying them?",
+          "stem_zhHant": "什麼是危險品標識牌，載有危險品標識牌的車輛有什麼特殊規定？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Round signs; they must travel in the left lane only",
+              "text_zhHant": "圓形標誌；必須只在左車道行駛"
+            },
+            {
+              "key": "B",
+              "text_en": "Diamond-shaped signs; the vehicle must stop at railroad crossings",
+              "text_zhHant": "菱形標誌；車輛必須在鐵路道口停車"
+            },
+            {
+              "key": "C",
+              "text_en": "Square signs; the vehicle cannot exceed 45 mph",
+              "text_zhHant": "方形標誌；車輛不得超過45英里/小時"
+            },
+            {
+              "key": "D",
+              "text_en": "Triangular signs; the vehicle must use hazard lights at all times",
+              "text_zhHant": "三角形標誌；車輛必須始終使用雙閃燈"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Hazardous materials placards are diamond-shaped signs on vehicles carrying dangerous loads. Vehicles displaying hazmat placards are required to stop at all railroad crossings.",
+          "explanation_zhHant": "危險品標識牌是貼在載有危險貨物車輛上的菱形標誌。載有危險品標識牌的車輛必須在所有鐵路道口停車。",
+          "tags": ["railroad"]
         }
       ]
     },

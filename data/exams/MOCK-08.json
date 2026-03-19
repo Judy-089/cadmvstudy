@@ -265,30 +265,38 @@
     },
     {
       "id": "Q-MOCK08-010",
-      "stem_en": "When you miss your exit in a roundabout, you should:",
+      "stem_en": "When merging onto a highway from an on-ramp, you should:",
+      "stem_zhHant": "從匝道匯入高速公路時，您應該：",
       "options": [
         {
           "key": "A",
-          "text_en": "Stop and reverse"
+          "text_en": "Stop at the end of the ramp and wait for a gap",
+          "text_zhHant": "在匝道盡頭停車等待空隙"
         },
         {
           "key": "B",
-          "text_en": "Make a U-turn"
+          "text_en": "Be at or near the speed of highway traffic before merging",
+          "text_zhHant": "在匯入前達到或接近高速公路交通的速度"
         },
         {
           "key": "C",
-          "text_en": "Continue around until you reach your exit again"
+          "text_en": "Merge at any speed and expect others to yield",
+          "text_zhHant": "以任何速度匯入並期望其他人讓行"
         },
         {
           "key": "D",
-          "text_en": "Cut across the center island"
+          "text_en": "Drive slowly until you find a gap",
+          "text_zhHant": "慢慢開直到找到空隙"
         }
       ],
-      "answer": "C",
-      "explanation_en": "Continue driving around until you return to your exit. Do not stop or reverse.",
-      "explanation_zh": "继续行驶直到再次到达出口。不要停车或倒车。",
-      "module": "M03",
-      "tags": [],
+      "answer": "B",
+      "explanation_en": "When merging onto a highway, use the on-ramp to accelerate to or near the speed of highway traffic before merging. Do not stop at the end of the ramp unless absolutely necessary.",
+      "explanation_zh": "汇入高速公路时，利用匝道加速到或接近高速公路车流速度后再汇入。除非绝对必要，不要在匝道尽头停车。",
+      "module": "M05",
+      "tags": [
+        "highway-merging"
+      ],
+      "explanation_zhHant": "匯入高速公路時，利用匝道加速到或接近高速公路車流速度後再匯入。除非絕對必要，不要在匝道盡頭停車。",
       "driverEd": false
     },
     {
@@ -349,30 +357,38 @@
     },
     {
       "id": "Q-MOCK08-013",
-      "stem_en": "A buffered bike lane provides separation using:",
+      "stem_en": "When driving in fog, you should use:",
+      "stem_zhHant": "在霧中駕駛時，您應該使用：",
       "options": [
         {
           "key": "A",
-          "text_en": "Concrete barriers"
+          "text_en": "High-beam headlights for maximum visibility",
+          "text_zhHant": "遠光燈以獲得最大能見度"
         },
         {
           "key": "B",
-          "text_en": "Chevrons or diagonal markings"
+          "text_en": "Low-beam headlights",
+          "text_zhHant": "近光燈"
         },
         {
           "key": "C",
-          "text_en": "Metal guardrails"
+          "text_en": "Parking lights only",
+          "text_zhHant": "僅停車燈"
         },
         {
           "key": "D",
-          "text_en": "Raised curbs"
+          "text_en": "No headlights to avoid glare",
+          "text_zhHant": "不開車燈以避免眩光"
         }
       ],
       "answer": "B",
-      "explanation_en": "A buffered bike lane uses chevrons or diagonal markings for greater separation from traffic.",
-      "explanation_zh": "缓冲自行车道使用人字形或对角线标记提供与交通更大的分隔。",
-      "module": "M05",
-      "tags": [],
+      "explanation_en": "When driving in fog, use low-beam headlights. High beams reflect off the fog and create glare, making it even harder to see.",
+      "explanation_zh": "在雾中驾驶时，使用近光灯。远光灯会被雾反射产生眩光，使视线更差。",
+      "module": "M07",
+      "tags": [
+        "fog"
+      ],
+      "explanation_zhHant": "在霧中駕駛時，使用近光燈。遠光燈會被霧反射產生眩光，使視線更差。",
       "driverEd": false
     },
     {
@@ -517,58 +533,38 @@
     },
     {
       "id": "Q-MOCK08-019",
-      "stem_en": "The speed limit at a blind intersection with no stop signs is:",
+      "stem_en": "When passing a bicyclist on a two-lane road and you cannot give 3 feet of space, you should:",
+      "stem_zhHant": "在雙車道道路上超越騎自行車的人時，如果您無法提供3英尺的空間，您應該：",
       "options": [
         {
           "key": "A",
-          "text_en": "15 mph"
+          "text_en": "Pass quickly to minimize time near the bicyclist",
+          "text_zhHant": "快速通過以減少靠近騎車者的時間"
         },
         {
           "key": "B",
-          "text_en": "20 mph"
+          "text_en": "Honk your horn and pass carefully",
+          "text_zhHant": "按喇叭並小心通過"
         },
         {
           "key": "C",
-          "text_en": "25 mph"
+          "text_en": "Slow down and wait until you can safely give 3 feet",
+          "text_zhHant": "減速並等到可以安全提供3英尺的空間"
         },
         {
           "key": "D",
-          "text_en": "30 mph"
-        }
-      ],
-      "answer": "A",
-      "explanation_en": "A blind intersection has no stop signs and limited visibility. The speed limit is 15 mph.",
-      "explanation_zh": "盲交叉路口没有停车标志且能见度有限。限速为15英里/小时。",
-      "module": "M04",
-      "tags": [],
-      "driverEd": false
-    },
-    {
-      "id": "Q-MOCK08-020",
-      "stem_en": "As your speed increases, your stopping distance:",
-      "options": [
-        {
-          "key": "A",
-          "text_en": "Decreases"
-        },
-        {
-          "key": "B",
-          "text_en": "Stays the same"
-        },
-        {
-          "key": "C",
-          "text_en": "Increases significantly"
-        },
-        {
-          "key": "D",
-          "text_en": "Depends only on tire condition"
+          "text_en": "Move to the shoulder to pass",
+          "text_zhHant": "移到路肩超車"
         }
       ],
       "answer": "C",
-      "explanation_en": "Stopping distance increases significantly with speed. At 55 mph a car needs about 300 feet to stop.",
-      "explanation_zh": "随着速度增加，制动距离显著增加。",
-      "module": "M04",
-      "tags": [],
+      "explanation_en": "If you cannot give a bicyclist at least 3 feet of space when passing, you must slow down to a reasonable speed and wait until you can safely provide at least 3 feet of clearance.",
+      "explanation_zh": "如果在超越骑自行车的人时无法提供至少3英尺的空间，你必须减速到合理速度并等到可以安全提供至少3英尺的间距。",
+      "module": "M08",
+      "tags": [
+        "bicyclist-passing"
+      ],
+      "explanation_zhHant": "如果在超越騎自行車的人時無法提供至少3英尺的空間，您必須減速到合理速度並等到可以安全提供至少3英尺的間距。",
       "driverEd": false
     },
     {
@@ -797,30 +793,38 @@
     },
     {
       "id": "Q-MOCK08-029",
-      "stem_en": "When you see a hazard ahead, warn drivers behind you by:",
+      "stem_en": "A flashing DON'T WALK signal means:",
+      "stem_zhHant": "閃爍的「不要行走」信號表示：",
       "options": [
         {
           "key": "A",
-          "text_en": "Swerving your vehicle"
+          "text_en": "You may start crossing the street",
+          "text_zhHant": "您可以開始過馬路"
         },
         {
           "key": "B",
-          "text_en": "Stopping suddenly"
+          "text_en": "You should run to cross before it changes",
+          "text_zhHant": "您應該在信號改變前跑過去"
         },
         {
           "key": "C",
-          "text_en": "Flashing high beams only"
+          "text_en": "If already crossing, finish crossing; do not start a new crossing",
+          "text_zhHant": "如果已經在過馬路，繼續走完；不要開始新的穿越"
         },
         {
           "key": "D",
-          "text_en": "Turning on emergency flashers and lightly tapping your brake pedal"
+          "text_en": "All pedestrians must immediately return to the curb",
+          "text_zhHant": "所有行人必須立即回到路緣"
         }
       ],
-      "answer": "D",
-      "explanation_en": "Turn on emergency flashers and lightly tap your brake pedal 3-4 times to warn following drivers.",
-      "explanation_zh": "打开应急闪光灯并轻踩刹车踏板3-4次以警告后方驾驶员。",
-      "module": "M09",
-      "tags": [],
+      "answer": "C",
+      "explanation_en": "A flashing DON'T WALK or raised hand signal means if you have already started crossing, finish crossing safely. Do not start a new crossing.",
+      "explanation_zh": "闪烁的不要行走或举手信号表示如果你已经开始过马路，安全地走完。不要开始新的穿越。",
+      "module": "M08",
+      "tags": [
+        "pedestrian-signal"
+      ],
+      "explanation_zhHant": "閃爍的不要行走或舉手信號表示如果您已經開始過馬路，安全地走完。不要開始新的穿越。",
       "driverEd": false
     },
     {
@@ -1047,7 +1051,7 @@
       "answer": "C",
       "explanation_en": "A minor cannot use their permit until they start training with an instructor who validates it.",
       "explanation_zh": "未成年人在开始跟教练进行实际驾驶培训并由教练验证许可证后才能使用。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1075,7 +1079,7 @@
       "answer": "B",
       "explanation_en": "The curfew (11 p.m. to 5 a.m.) applies during the first 12 months of having a provisional license.",
       "explanation_zh": "宵禁（11pm-5am）适用于持有临时驾照的前12个月。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1103,7 +1107,7 @@
       "answer": "B",
       "explanation_en": "Two at-fault incidents means no driving for 30 days unless a licensed adult 25+ accompanies them.",
       "explanation_zh": "两次有过失事件意味着30天内不得驾驶，除非25岁以上的持照成年人陪同。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1131,7 +1135,7 @@
       "answer": "D",
       "explanation_en": "If parents share joint custody, both must sign the application.",
       "explanation_zh": "如果父母共同拥有监护权，双方都必须签字。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1159,7 +1163,7 @@
       "answer": "C",
       "explanation_en": "Minors must wait 14 days (not including the day of failure) to retake a failed drive test.",
       "explanation_zh": "未成年人必须等待14天（不包括失败当天）才能重新参加路考。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1187,7 +1191,7 @@
       "answer": "A",
       "explanation_en": "A parent can cancel by completing a Request for Cancellation or Surrender of a Driver License or ID Card form.",
       "explanation_zh": "父母可以通过填写取消或交回驾照或身份证表格来取消。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1215,7 +1219,7 @@
       "answer": "C",
       "explanation_en": "For minors, the accompanying licensed driver must be at least 25 years old.",
       "explanation_zh": "对于未成年人，陪同的持照驾驶员必须至少25岁。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1243,7 +1247,7 @@
       "answer": "D",
       "explanation_en": "Mount your cell phone on the windshield, dashboard, or center console. It cannot block your view. Use single swipe or touch only.",
       "explanation_zh": "将手机安装在挡风玻璃、仪表板或中控台上。不能遮挡视线。只使用单次滑动或触摸功能。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1271,7 +1275,7 @@
       "answer": "A",
       "explanation_en": "Children under 2, under 40 lbs, under 3ft 4in must be in a rear-facing restraint. They may not ride in front of an airbag-equipped vehicle.",
       "explanation_zh": "2岁以下、40磅以下、身高不足3英尺4英寸的儿童必须使用后向式约束系统。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
     },
@@ -1299,9 +1303,81 @@
       "answer": "B",
       "explanation_en": "Officers must state the stop reason before questioning, unless withholding is necessary to protect life or property from imminent threat.",
       "explanation_zh": "执法人员必须在询问前说明停车原因，除非隐瞒原因是为了保护生命或财产免受紧迫威胁。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": true
+    },
+    {
+      "id": "Q-MOCK08-047",
+      "stem_en": "You should never start your vehicle inside a garage with the door closed because:",
+      "stem_zhHant": "您不應該在車庫門關閉的情況下啟動車輛，因為：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "It wastes fuel",
+          "text_zhHant": "浪費燃料"
+        },
+        {
+          "key": "B",
+          "text_en": "It can cause carbon monoxide poisoning",
+          "text_zhHant": "可能導致一氧化碳中毒"
+        },
+        {
+          "key": "C",
+          "text_en": "It may damage the engine",
+          "text_zhHant": "可能損壞引擎"
+        },
+        {
+          "key": "D",
+          "text_en": "It is too loud for neighbors",
+          "text_zhHant": "對鄰居來說太吵了"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Never start your vehicle in a closed garage. Carbon monoxide (CO) from the exhaust is colorless and odorless and can cause poisoning or death in an enclosed space.",
+      "explanation_zh": "切勿在封闭的车库中启动车辆。排气管排出的一氧化碳（CO）无色无味，在封闭空间中可能导致中毒或死亡。",
+      "explanation_zhHant": "切勿在封閉的車庫中啟動車輛。排氣管排出的一氧化碳（CO）無色無味，在封閉空間中可能導致中毒或死亡。",
+      "module": "M09",
+      "tags": [
+        "carbon-monoxide"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK08-048",
+      "stem_en": "Neighborhood Electric Vehicles (NEVs) are restricted from roads where the speed limit exceeds:",
+      "stem_zhHant": "社區電動車（NEV）被限制在速度限制超過以下的道路上行駛：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "25 mph",
+          "text_zhHant": "25英里/小時"
+        },
+        {
+          "key": "B",
+          "text_en": "35 mph",
+          "text_zhHant": "35英里/小時"
+        },
+        {
+          "key": "C",
+          "text_en": "45 mph",
+          "text_zhHant": "45英里/小時"
+        },
+        {
+          "key": "D",
+          "text_en": "55 mph",
+          "text_zhHant": "55英里/小時"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Neighborhood Electric Vehicles (NEVs) have a maximum speed of about 25 mph and are restricted from roads where the speed limit exceeds 35 mph.",
+      "explanation_zh": "社区电动车（NEV）最高速度约为25英里/小时，禁止在限速超过35英里/小时的道路上行驶。",
+      "explanation_zhHant": "社區電動車（NEV）最高速度約為25英里/小時，禁止在限速超過35英里/小時的道路上行駛。",
+      "module": "M08",
+      "tags": [
+        "nev"
+      ],
+      "driverEd": false
     }
   ]
 }

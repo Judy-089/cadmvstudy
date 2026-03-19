@@ -42,14 +42,15 @@
         },
         {
           "id": "M05-S01-K04",
-          "en": "When changing lanes, signal, check mirrors, look over your shoulder to check your blind spot, and change lanes only when safe.",
-          "zh": "变道时，先打转向灯，检查后视镜，转头查看盲区，确认安全后再变道。",
+          "en": "Before you change lanes, follow these steps IN ORDER: (1) Signal your intention. (2) Check your mirrors for traffic behind and beside you. (3) Check traffic behind and beside you. (4) Look over your shoulder in the direction you plan to move to check your blind spots for vehicles, motorcyclists, and bicyclists. (5) Make sure the lane is clear and there is enough space. (6) Change lanes smoothly. It is not necessary to slow down before a lane change. Do not let the vehicle drift into another lane. Stay in one lane as much as possible.",
+          "zh": "变道前，请按以下步骤依次操作：(1) 打转向灯示意。(2) 查看后视镜，注意后方和侧方的车辆。(3) 检查后方和侧方的交通状况。(4) 向你计划变道的方向转头查看盲区，留意车辆、摩托车和自行车。(5) 确认目标车道畅通且有足够空间。(6) 平稳地变道。变道前不需要减速。不要让车辆漂移到其他车道。尽量保持在同一车道行驶。",
           "isHighFreq": true,
           "tags": [
             "lane-change",
-            "blind-spot"
+            "procedure",
+            "blind-spots"
           ],
-          "zhHant": "變道時，先打轉向燈，檢查後视鏡，轉頭查看盲區，確認安全後再變道。"
+          "zhHant": "變道前，請按以下步驟依次操作：(1) 打轉向燈示意。(2) 查看後視鏡，注意後方和側方的車輛。(3) 檢查後方和側方的交通狀況。(4) 向你計劃變道的方向轉頭查看盲區，留意車輛、摩托車和自行車。(5) 確認目標車道暢通且有足夠空間。(6) 平穩地變道。變道前不需要減速。不要讓車輛漂移到其他車道。盡量保持在同一車道行駛。"
         },
         {
           "id": "M05-S01-K05",
@@ -82,6 +83,26 @@
             "double-yellow"
           ],
           "zhHant": "雙實黄線表示任何車輛不得越線超車。但你可以越過雙實黄線左轉進入或駛出車道或私人道路。"
+        },
+        {
+          "id": "M05-S01-K08",
+          "en": "End-of-lane markings: Ending freeway and street lanes are usually marked with large broken lines. If you are driving in a lane marked with these broken lines, be prepared to exit the freeway or for the lane to end. Look for a sign that tells you to exit or merge.",
+          "zh": "车道结束标记：高速公路和街道的即将结束的车道通常用大虚线标记。如果你行驶在标有这些大虚线的车道上，请准备好驶出高速公路或该车道即将结束。注意寻找指示你驶出或合流的标志。",
+          "isHighFreq": true,
+          "tags": [
+            "lane-markings",
+            "end-of-lane",
+            "freeway"
+          ],
+          "zhHant": "車道結束標記：高速公路和街道的即將結束的車道通常用大虛線標記。如果你行駛在標有這些大虛線的車道上，請準備好駛出高速公路或該車道即將結束。注意尋找指示你駛出或匯流的標誌。"
+        },
+        {
+          "id": "M05-S01-K09",
+          "en": "Turnout Areas or Lanes: Some two-lane roads have special turnout areas or lanes. If you are driving slowly on a two-lane road and five or more vehicles are following you, you must use a turnout area or lane to let them pass when it is safe.",
+          "zh": "让行区域或车道：一些双车道道路设有特殊的让行区域或车道。如果你在双车道道路上缓慢行驶且有五辆或更多车辆跟在你后面，你必须在安全时使用让行区域或车道让他们通过。",
+          "zhHant": "讓行區域或車道：一些雙車道道路設有特殊的讓行區域或車道。如果你在雙車道道路上緩慢行駛且有五輛或更多車輛跟在你後面，你必須在安全時使用讓行區域或車道讓他們通過。",
+          "isHighFreq": true,
+          "tags": ["turnout", "two-lane-road"]
         }
       ],
       "titleZhHant": "選擇車道"
@@ -167,6 +188,50 @@
             "technique"
           ],
           "zhHant": "從雙向道路左轉時，在中心線右側起步轉弯。駛入目標道路時進入最靠近中心線的車道。"
+        },
+        {
+          "id": "M05-S02-K08",
+          "en": "Right Turn onto a Road with a Dedicated Lane: If there is a dedicated right turn lane that does not merge into another lane, you may make a right turn without stopping, even if there is a red light for vehicles going straight. You must still obey any traffic light or sign on the right curb or right side of the right turn lane, and always yield to pedestrians in a crosswalk.",
+          "zh": "右转进入专用车道：如果有一条不与其他车道合并的专用右转车道，即使直行方向为红灯，你也可以不停车直接右转。但你仍须遵守右侧路缘或右转车道右侧的交通信号灯或标志，并始终让行人行道上的行人先行。",
+          "isHighFreq": true,
+          "tags": [
+            "right-turn",
+            "dedicated-lane"
+          ],
+          "zhHant": "右轉進入專用車道：如果有一條不與其他車道合併的專用右轉車道，即使直行方向為紅燈，你也可以不停車直接右轉。但你仍須遵守右側路緣或右轉車道右側的交通號誌或標誌，並始終禮讓行人穿越道上的行人先行。"
+        },
+        {
+          "id": "M05-S02-K09",
+          "en": "Examples of Turns - Left turn from a two-way street onto a two-way street: Start the turn in the left lane closest to the middle of the street. To reduce collision risk, end the turn in the left lane closest to the middle of the street going in your vehicle's direction.",
+          "zh": "转弯示例——从双向道路左转进入双向道路：从最靠近道路中间的左车道开始转弯。为减少碰撞风险，转弯结束时驶入你行驶方向上最靠近道路中间的左车道。",
+          "isHighFreq": true,
+          "tags": [
+            "left-turn",
+            "two-way"
+          ],
+          "zhHant": "轉彎示例——從雙向道路左轉進入雙向道路：從最靠近道路中間的左車道開始轉彎。為減少碰撞風險，轉彎結束時駛入你行駛方向上最靠近道路中間的左車道。"
+        },
+        {
+          "id": "M05-S02-K10",
+          "en": "Left turn from a two-way street onto a one-way street: Start the turn from the lane closest to the middle (far-left lane). If there are 3+ lanes in your direction of travel, you may end the turn in any open lane.",
+          "zh": "从双向道路左转进入单行道：从最靠近道路中间的车道（最左车道）开始转弯。如果你的行驶方向有三条或更多车道，你可以在任何空闲车道完成转弯。",
+          "isHighFreq": true,
+          "tags": [
+            "left-turn",
+            "one-way"
+          ],
+          "zhHant": "從雙向道路左轉進入單行道：從最靠近道路中間的車道（最左車道）開始轉彎。如果你的行駛方向有三條或更多車道，你可以在任何空閒車道完成轉彎。"
+        },
+        {
+          "id": "M05-S02-K11",
+          "en": "Left turn from a one-way street onto a two-way street: Start the turn from the far-left lane. To reduce collision risk, end the turn in the left lane closest to the middle of the street going in your direction.",
+          "zh": "从单行道左转进入双向道路：从最左车道开始转弯。为减少碰撞风险，转弯结束时驶入你行驶方向上最靠近道路中间的左车道。",
+          "isHighFreq": true,
+          "tags": [
+            "left-turn",
+            "one-way-to-two-way"
+          ],
+          "zhHant": "從單行道左轉進入雙向道路：從最左車道開始轉彎。為減少碰撞風險，轉彎結束時駛入你行駛方向上最靠近道路中間的左車道。"
         }
       ],
       "titleZhHant": "轉弯"
@@ -327,6 +392,18 @@
             "speed-limit"
           ],
           "zhHant": "在雙車道無分隔公路上，超車時的速度限制與標誌限速相同。超車時不得超速。"
+        },
+        {
+          "id": "M05-S04-K08",
+          "en": "Crossing or Entering Traffic: When entering traffic from a full stop, signal and leave a large enough space to get up to the speed of traffic. You need a space that is: half a block on city streets (about 150 feet), or a full block on the highway (about 300 feet). Even with a green light, do not start across an intersection if pedestrians or vehicles are blocking your pathway.",
+          "zh": "穿越或汇入车流：从完全停车状态汇入车流时，打转向灯并留出足够的空间以加速到车流速度。你需要的空间为：城市街道上半个街区（约150英尺），或公路上一个完整街区（约300英尺）。即使是绿灯，如果行人或车辆挡住了你的通行路线，也不要开始通过路口。",
+          "isHighFreq": true,
+          "tags": [
+            "entering-traffic",
+            "gap",
+            "merge"
+          ],
+          "zhHant": "穿越或匯入車流：從完全停車狀態匯入車流時，打轉向燈並留出足夠的空間以加速到車流速度。你需要的空間為：城市街道上半個街區（約150英尺），或公路上一個完整街區（約300英尺）。即使是綠燈，如果行人或車輛擋住了你的通行路線，也不要開始通過路口。"
         }
       ],
       "titleZhHant": "超車"
@@ -400,9 +477,71 @@
             "reversible-lanes"
           ],
           "zhHant": "絕不要在標有紅色X的車道行駛。車道上方的綠色箭頭表示可以使用該車道。閃烁的黄色X表示該車道僅供左轉使用。"
+        },
+        {
+          "id": "M05-S05-K07",
+          "en": "Right Turn at a Public Transit Bus Lane: It is illegal to drive, stop, or park in an area designated for public transit buses. Signs will indicate the lanes are for bus only use. However, you may cross a bus lane to make a right turn.",
+          "zh": "在公交专用道右转：在公交车专用区域行驶、停车或泊车是违法的。标志会标明这些车道仅供公交使用。但是，您可以穿过公交车道进行右转。",
+          "zhHant": "在公車專用道右轉：在公車專用區域行駛、停車或泊車是違法的。標誌會標明這些車道僅供公車使用。但是，您可以穿過公車道進行右轉。",
+          "isHighFreq": true,
+          "tags": ["bus-lane", "right-turn"]
         }
       ],
       "titleZhHant": "合乘車道與特殊車道"
+    },
+    {
+      "id": "S06",
+      "titleEn": "Braking & Backing",
+      "titleZh": "制动与倒车",
+      "titleZhHant": "制動與倒車",
+      "knowledgePoints": [
+        {
+          "id": "M05-S06-K01",
+          "en": "Braking: Remove your foot from the accelerator to slow down. Lightly press the brake until you come to a full stop. Give yourself enough space and time to perform this maneuver. When stopping at a limit line, do not cross over the line. If stopping behind a vehicle, leave enough space to see their rear wheels. When stopping behind a vehicle at a limit line, do not cross over the line. If stopping behind a vehicle, leave enough space to see their rear wheels.",
+          "zh": "制动：松开油门减速。轻踩刹车直到完全停车。给自己留出足够的空间和时间来完成此操作。在限制线前停车时，不要越过该线。在车辆后方停车时，留出足够的距离以能看到前车的后轮。在限制线处停在车辆后方时，不要越过该线。如果停在车辆后方，留出足够的距离以能看到前车的后轮。",
+          "isHighFreq": true,
+          "tags": [
+            "braking",
+            "stopping"
+          ],
+          "zhHant": "制動：鬆開油門減速。輕踩煞車直到完全停車。給自己留出足夠的空間和時間來完成此操作。在限制線前停車時，不要越過該線。在車輛後方停車時，留出足夠的距離以能看到前車的後輪。在限制線處停在車輛後方時，不要越過該線。如果停在車輛後方，留出足夠的距離以能看到前車的後輪。"
+        },
+        {
+          "id": "M05-S06-K02",
+          "en": "Straight Line Backing: To back up in a straight line: (1) Check traffic and blind spots. (2) Signal before pulling up to the curb. Cancel signal when done. (3) Look in your rearview mirror and over your shoulder for approaching vehicles and pedestrians. (4) Back in a straight line for three vehicle lengths while remaining within three feet of the curb. (5) Maintain control, adjust the steering wheel as needed.",
+          "zh": "直线倒车：直线倒车操作步骤：(1) 检查交通状况和盲区。(2) 靠近路缘前打转向灯，完成后取消信号灯。(3) 查看后视镜并转头观察是否有来车和行人。(4) 沿直线倒退三个车身长度，同时保持与路缘三英尺以内的距离。(5) 保持对车辆的控制，根据需要调整方向盘。",
+          "isHighFreq": true,
+          "tags": [
+            "backing",
+            "straight-line"
+          ],
+          "zhHant": "直線倒車：直線倒車操作步驟：(1) 檢查交通狀況和盲區。(2) 靠近路緣前打轉向燈，完成後取消信號燈。(3) 查看後視鏡並轉頭觀察是否有來車和行人。(4) 沿直線倒退三個車身長度，同時保持與路緣三英尺以內的距離。(5) 保持對車輛的控制，根據需要調整方向盤。"
+        },
+        {
+          "id": "M05-S06-K03",
+          "en": "Merging onto a Highway: Be in the proper lane on the on-ramp. Be at or near the speed of traffic. Merge into highway traffic when safe to do so — do not stop unless absolutely necessary. Use your mirrors and turn signals. Turn your head quickly to look over your shoulder before changing lanes or merging. Leave three seconds of space between you and the vehicle in front. Do not cross any solid lines when merging.",
+          "zh": "汇入高速公路：在匝道上驶入正确的车道。将车速提高到接近或等于车流速度。在安全时汇入高速公路车流——除非万不得已不要停车。使用后视镜和转向灯。变道或汇入前迅速转头查看肩后方。与前车保持三秒的跟车距离。汇入时不得越过任何实线。",
+          "isHighFreq": true,
+          "tags": [
+            "merging",
+            "highway",
+            "on-ramp"
+          ],
+          "zhHant": "匯入高速公路：在匝道上駛入正確的車道。將車速提高到接近或等於車流速度。在安全時匯入高速公路車流——除非萬不得已不要停車。使用後視鏡和轉向燈。變道或匯入前迅速轉頭查看肩後方。與前車保持三秒的跟車距離。匯入時不得越過任何實線。"
+        },
+        {
+          "id": "M05-S06-K04",
+          "en": "Exiting a Highway: Know your exit and be aware of when it is approaching. If you plan to change lanes, do so one at a time. Signal and look over your shoulder to check blind spots. When in the proper lane, signal five seconds (approximately 400 feet) before your exit. Make sure you are at a safe speed to exit. Do not cross over any solid lines when exiting.",
+          "zh": "驶出高速公路：了解你的出口并注意出口何时临近。如果需要变道，请逐条变道。打转向灯并转头查看盲区。进入正确车道后，在出口前五秒（约400英尺）打转向灯。确保以安全速度驶出。驶出时不得越过任何实线。",
+          "isHighFreq": true,
+          "tags": [
+            "exiting",
+            "highway",
+            "off-ramp"
+          ],
+          "zhHant": "駛出高速公路：了解你的出口並注意出口何時臨近。如果需要變道，請逐條變道。打轉向燈並轉頭查看盲區。進入正確車道後，在出口前五秒（約400英尺）打轉向燈。確保以安全速度駛出。駛出時不得越過任何實線。"
+        }
+      ]
     }
   ],
   "titleZhHant": "車道控制與轉弯"

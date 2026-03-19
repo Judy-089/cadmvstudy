@@ -178,6 +178,42 @@
             "school-zone"
           ],
           "zhHant": "五邊形黄色標誌表示前方為學校區域或學校路口。注意兒童安全，隨時準備停車。"
+        },
+        {
+          "id": "M02-S02-K08",
+          "en": "A yellow diamond sign showing two lanes merging into one (Lane Ends) warns that a lane is ending and you must merge. An Added Lane sign shows where a new lane joins the road.",
+          "zh": "黄色菱形标志显示两条车道合并为一条（车道结束）警告车道即将结束，你必须汇入。新增车道标志显示新车道加入道路的位置。",
+          "isHighFreq": true,
+          "tags": [
+            "warning-sign",
+            "lane-ends",
+            "added-lane"
+          ],
+          "zhHant": "黃色菱形標誌顯示兩條車道合併為一條（車道結束）警告車道即將結束，你必須匯入。新增車道標誌顯示新車道加入道路的位置。"
+        },
+        {
+          "id": "M02-S02-K09",
+          "en": "A slow moving vehicle displays an orange and red triangle on the back. These vehicles (such as farm equipment or road maintenance vehicles) usually travel at 25 mph or less. Adjust your speed to share the road with them.",
+          "zh": "慢速行驶车辆在车尾会显示一个橙色和红色的三角形标志。这些车辆（如农用设备或道路维护车辆）通常行驶速度在25英里/小时或以下。调整你的速度与它们共享道路。",
+          "isHighFreq": true,
+          "tags": [
+            "slow-moving-vehicle",
+            "triangle",
+            "orange"
+          ],
+          "zhHant": "慢速行駛車輛在車尾會顯示一個橙色和紅色的三角形標誌。這些車輛（如農用設備或道路維護車輛）通常行駛速度在25英里/小時或以下。調整你的速度與它們共享道路。"
+        },
+        {
+          "id": "M02-S02-K10",
+          "en": "A diamond-shaped sign on a truck means the truck's load may be dangerous (gas, explosives, etc.). Vehicles with hazardous load placards must stop before crossing railroad tracks.",
+          "zh": "卡车上的菱形标志表示该卡车装载的货物可能是危险品（汽油、炸药等）。带有危险品标牌的车辆在穿越铁路道口前必须停车。",
+          "isHighFreq": true,
+          "tags": [
+            "hazardous-loads",
+            "placards",
+            "diamond"
+          ],
+          "zhHant": "卡車上的菱形標誌表示該卡車裝載的貨物可能是危險品（汽油、炸藥等）。帶有危險品標牌的車輛在穿越鐵路道口前必須停車。"
         }
       ],
       "titleZhHant": "警告標誌"
@@ -374,15 +410,14 @@
         },
         {
           "id": "M02-S04-K08",
-          "en": "A red curb means NO stopping, standing, or parking at any time. A white curb means stop only to pick up or drop off passengers or mail. A yellow curb means loading/unloading only; drivers of noncommercial vehicles must stay with the vehicle. A green curb means limited-time parking. A blue curb means parking for disabled persons only.",
-          "zh": "红色路缘表示任何时候都不得停车。白色路缘仅供上下客或收发邮件。黄色路缘仅供装卸货物，非商业车辆司机须留在车内。绿色路缘为限时停车。蓝色路缘仅供残疾人停车。",
-          "isHighFreq": true,
+          "en": "Painted colored curbs have special parking rules (white, green, yellow, red, blue). See the Parking Rules module for detailed curb color rules.",
+          "zh": "涂有颜色的路缘有特殊的停车规则（白色、绿色、黄色、红色、蓝色）。详细的路缘颜色规则请参阅停车法规模块。",
+          "isHighFreq": false,
           "tags": [
-            "pavement",
             "curb-colors",
-            "colored-curbs"
+            "reference"
           ],
-          "zhHant": "紅色路緣表示任何時候都不得停車。白色路緣僅供上下客或收發郵件。黄色路緣僅供裝卸貨物，非商業車輛司機須留在車內。綠色路緣為限時停車。藍色路緣僅供残疾人停車。"
+          "zhHant": "塗有顏色的路緣有特殊的停車規則（白色、綠色、黃色、紅色、藍色）。詳細的路緣顏色規則請參閱停車法規模組。"
         }
       ],
       "titleZhHant": "路面標線"

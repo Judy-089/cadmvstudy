@@ -368,34 +368,6 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK09-014",
-      "stem_en": "You should never make a U-turn in front of a fire station because:",
-      "options": [
-        {
-          "key": "A",
-          "text_en": "It is a school zone"
-        },
-        {
-          "key": "B",
-          "text_en": "Fire station driveways must remain clear for emergency vehicles"
-        },
-        {
-          "key": "C",
-          "text_en": "The speed limit is too low"
-        },
-        {
-          "key": "D",
-          "text_en": "There are always pedestrians present"
-        }
-      ],
-      "answer": "B",
-      "explanation_en": "Never make a U-turn in front of a fire station or use a fire station driveway to turn around. The driveway must remain clear for emergency vehicle access.",
-      "explanation_zh": "永远不要在消防站前掉头或使用消防站车道掉头。车道必须保持畅通以便紧急车辆出入。",
-      "module": "M03",
-      "tags": [],
-      "driverEd": false
-    },
-    {
       "id": "Q-MOCK09-015",
       "stem_en": "When a vehicle merges in front of you too closely on the highway, you should:",
       "options": [
@@ -537,30 +509,38 @@
     },
     {
       "id": "Q-MOCK09-020",
-      "stem_en": "When exiting a highway, you should signal at least:",
+      "stem_en": "When parallel parking, your wheels must be within _____ inches of the curb.",
+      "stem_zhHant": "平行停車時，您的車輪必須在路緣_____英寸以內。",
       "options": [
         {
           "key": "A",
-          "text_en": "100 feet before the exit"
+          "text_en": "6 inches",
+          "text_zhHant": "6英寸"
         },
         {
           "key": "B",
-          "text_en": "3 seconds before the exit"
+          "text_en": "12 inches",
+          "text_zhHant": "12英寸"
         },
         {
           "key": "C",
-          "text_en": "5 seconds (about 400 feet) before the exit"
+          "text_en": "18 inches",
+          "text_zhHant": "18英寸"
         },
         {
           "key": "D",
-          "text_en": "After you enter the exit ramp"
+          "text_en": "24 inches",
+          "text_zhHant": "24英寸"
         }
       ],
       "answer": "C",
-      "explanation_en": "When exiting a highway, signal five seconds (approximately 400 feet) before your exit. Make sure you are at a safe speed and in the proper lane.",
-      "explanation_zh": "在驶离高速公路时，在出口前五秒钟（约400英尺）打信号灯。确保您在安全速度和正确车道上。",
-      "module": "M04",
-      "tags": [],
+      "explanation_en": "When parallel parking, your wheels must be within 18 inches of the curb. Your vehicle should be parallel to and within 18 inches of the curb.",
+      "explanation_zh": "平行停车时，你的车轮必须在距路缘18英寸以内。你的车辆应与路缘平行且距路缘不超过18英寸。",
+      "module": "M06",
+      "tags": [
+        "parallel-parking"
+      ],
+      "explanation_zhHant": "平行停車時，您的車輪必須在距路緣18英寸以內。您的車輛應與路緣平行且距路緣不超過18英寸。",
       "driverEd": false
     },
     {
@@ -788,34 +768,6 @@
       "driverEd": false
     },
     {
-      "id": "Q-MOCK09-029",
-      "stem_en": "If you have a tire blowout while driving, the FIRST thing you should do is:",
-      "options": [
-        {
-          "key": "A",
-          "text_en": "Slam on the brakes immediately"
-        },
-        {
-          "key": "B",
-          "text_en": "Hold the steering wheel firmly with both hands"
-        },
-        {
-          "key": "C",
-          "text_en": "Swerve to the shoulder immediately"
-        },
-        {
-          "key": "D",
-          "text_en": "Shift into neutral"
-        }
-      ],
-      "answer": "B",
-      "explanation_en": "If you have a tire blowout, do not panic. The first step is to hold the steering wheel with both hands. Maintain your speed if safe, then gradually release the accelerator.",
-      "explanation_zh": "如果轮胎爆裂，不要惊慌。第一步是双手紧握方向盘。如果安全保持车速，然后逐渐松开油门。",
-      "module": "M08",
-      "tags": [],
-      "driverEd": false
-    },
-    {
       "id": "Q-MOCK09-030",
       "stem_en": "When approaching a stationary emergency vehicle or tow truck displaying flashing amber warning lights, drivers must:",
       "options": [
@@ -985,30 +937,38 @@
     },
     {
       "id": "Q-MOCK09-036",
-      "stem_en": "It is illegal to park within how many feet of a sidewalk ramp for disabled persons?",
+      "stem_en": "When exiting a highway, you should signal at least _____ before your exit.",
+      "stem_zhHant": "駛出高速公路時，您應在出口前至少_____發出信號。",
       "options": [
         {
           "key": "A",
-          "text_en": "1 foot"
+          "text_en": "100 feet",
+          "text_zhHant": "100英尺"
         },
         {
           "key": "B",
-          "text_en": "3 feet"
+          "text_en": "3 seconds",
+          "text_zhHant": "3秒"
         },
         {
           "key": "C",
-          "text_en": "5 feet"
+          "text_en": "5 seconds (approximately 400 feet)",
+          "text_zhHant": "5秒（約400英尺）"
         },
         {
           "key": "D",
-          "text_en": "10 feet"
+          "text_en": "200 feet",
+          "text_zhHant": "200英尺"
         }
       ],
-      "answer": "B",
-      "explanation_en": "You must never park within three feet of a sidewalk ramp for disabled persons or in front of a curb that provides wheelchair access to a sidewalk.",
-      "explanation_zh": "您不得在残疾人人行道坡道3英尺以内或提供轮椅通道的路缘前停车。",
-      "module": "M10",
-      "tags": [],
+      "answer": "C",
+      "explanation_en": "When exiting a highway, signal for approximately 5 seconds (about 400 feet) before your exit to give other drivers enough notice of your intentions.",
+      "explanation_zh": "驶出高速公路时，在出口前约5秒钟（约400英尺）打转向灯，给其他驾驶员足够的通知。",
+      "module": "M05",
+      "tags": [
+        "highway-exit"
+      ],
+      "explanation_zhHant": "駛出高速公路時，在出口前約5秒鐘（約400英尺）打轉向燈，給其他駕駛員足夠的通知。",
       "driverEd": false
     },
     {
@@ -1201,8 +1161,8 @@
         }
       ],
       "answer": "D",
-      "explanation_en": "All DUI convictions remain on your driver's record for 10 years. Additional DUIs during that time may result in harsher penalties.",
-      "explanation_zh": "所有DUI定罪在驾驶记录上保留10年。在此期间再次酒驾可能导致更严厉的处罚。",
+      "explanation_en": "All DUI convictions remain on your driver's record for 10 years.",
+      "explanation_zh": "所有酒驾定罪记录将保留在驾驶记录中10年。",
       "module": "M07",
       "tags": [],
       "driverEd": false
@@ -1231,7 +1191,7 @@
       "answer": "C",
       "explanation_en": "Your driving privilege will be suspended for up to four years if you are in a collision and do not have proper insurance coverage, regardless of who was at fault.",
       "explanation_zh": "如果您发生碰撞且没有适当的保险，无论谁有过错，您的驾驶特权将被暂停最长四年。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": false
     },
@@ -1259,7 +1219,7 @@
       "answer": "B",
       "explanation_en": "When you buy a vehicle, you have 10 days to transfer ownership to your name with the DMV.",
       "explanation_zh": "购买车辆时，您有10天时间在DMV将所有权转移到您的名下。",
-      "module": "M01",
+      "module": "M00",
       "tags": [],
       "driverEd": false
     },
@@ -1290,6 +1250,78 @@
       "module": "M11",
       "tags": [],
       "driverEd": true
+    },
+    {
+      "id": "Q-MOCK09-047",
+      "stem_en": "Which of the following is NOT a recommended way to manage sun glare while driving?",
+      "stem_zhHant": "以下哪項不是駕駛時管理陽光眩光的推薦方法？",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Wear sunglasses",
+          "text_zhHant": "戴太陽眼鏡"
+        },
+        {
+          "key": "B",
+          "text_en": "Use the sun visor",
+          "text_zhHant": "使用遮陽板"
+        },
+        {
+          "key": "C",
+          "text_en": "Speed up to get out of the sun quickly",
+          "text_zhHant": "加速以快速離開陽光"
+        },
+        {
+          "key": "D",
+          "text_en": "Keep the windshield clean",
+          "text_zhHant": "保持擋風玻璃清潔"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Speeding up to get out of the sun is not a safe or recommended method. Instead, use your visor, wear sunglasses, keep your windshield clean, and slow down if visibility is reduced.",
+      "explanation_zh": "加速离开阳光不是安全或推荐的方法。应该使用遮阳板、戴太阳镜、保持挡风玻璃清洁，如果能见度降低则减速。",
+      "explanation_zhHant": "加速離開陽光不是安全或推薦的方法。應該使用遮陽板、戴太陽眼鏡、保持擋風玻璃清潔，如果能見度降低則減速。",
+      "module": "M09",
+      "tags": [
+        "sun-glare"
+      ],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK09-048",
+      "stem_en": "To avoid staying in another driver's blind spot, you should:",
+      "stem_zhHant": "為了避免停留在其他駕駛員的盲區中，您應該：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Honk your horn frequently",
+          "text_zhHant": "經常按喇叭"
+        },
+        {
+          "key": "B",
+          "text_en": "Flash your headlights",
+          "text_zhHant": "閃爍車頭燈"
+        },
+        {
+          "key": "C",
+          "text_en": "Avoid driving directly alongside other vehicles",
+          "text_zhHant": "避免直接在其他車輛旁邊行駛"
+        },
+        {
+          "key": "D",
+          "text_en": "Drive as close to other vehicles as possible",
+          "text_zhHant": "盡可能靠近其他車輛行駛"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "To avoid staying in another driver's blind spot, do not drive directly alongside other vehicles for an extended period. Either speed up or slow down to be visible in their mirrors.",
+      "explanation_zh": "为避免停留在其他驾驶员的盲区中，不要长时间直接在其他车辆旁边行驶。加速或减速以便在他们的后视镜中可见。",
+      "explanation_zhHant": "為避免停留在其他駕駛員的盲區中，不要長時間直接在其他車輛旁邊行駛。加速或減速以便在他們的後視鏡中可見。",
+      "module": "M09",
+      "tags": [
+        "blind-spot"
+      ],
+      "driverEd": false
     }
   ]
 }

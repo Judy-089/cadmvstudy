@@ -87,14 +87,15 @@
         },
         {
           "id": "M04-S01-K08",
-          "en": "The speed limit on a two-lane undivided highway is 55 mph unless otherwise posted.",
-          "zh": "双车道无隔离带公路的限速为55英里/小时，除非另有标示。",
+          "en": "The maximum speed limit on a two-lane undivided highway is 55 mph unless otherwise posted. For vehicles towing trailers, the maximum speed limit is also 55 mph on all highways.",
+          "zh": "双车道无隔离带公路的限速为55英里/小时，除非另有标示。拖挂拖车的车辆在所有公路上的最高限速也是55英里/小时。",
           "isHighFreq": true,
           "tags": [
             "speed-limit",
-            "undivided-highway"
+            "undivided-highway",
+            "towing-trailer"
           ],
-          "zhHant": "雙車道無隔離帶公路的限速為55英裡/小時，除非另有標示。"
+          "zhHant": "雙車道無隔離帶公路的限速為55英裡/小時，除非另有標示。拖掛拖車的車輛在所有公路上的最高限速也是55英裡/小時。"
         }
       ],
       "titleZhHant": "基本速度法與限速規定"
@@ -117,29 +118,6 @@
         },
         {
           "id": "M04-S02-K02",
-          "en": "In fog, use low-beam headlights (not high beams). Reduce speed and increase following distance. High beams reflect off fog and reduce visibility.",
-          "zh": "在雾天使用近光灯（不要用远光灯）。降低车速并增大跟车距离。远光灯会被雾气反射，反而降低能见度。",
-          "isHighFreq": true,
-          "tags": [
-            "speed-adjustment",
-            "fog"
-          ],
-          "zhHant": "在霧天使用近光燈（不要用遠光燈）。降低車速并增大跟車距離。遠光燈會被霧氣反射，反而降低能見度。"
-        },
-        {
-          "id": "M04-S02-K03",
-          "en": "On wet roads, reduce speed by 5-10 mph. At 35 mph or more on a wet road, your tires can ride on a thin film of water (hydroplaning), causing loss of traction and control.",
-          "zh": "湿滑路面上应降低5-10英里/小时的车速。在湿路上时速达到35英里以上时，轮胎可能在水膜上打滑（水漂现象），导致失去抓地力和控制。",
-          "isHighFreq": true,
-          "tags": [
-            "speed-adjustment",
-            "wet-roads",
-            "slippery-when-wet"
-          ],
-          "zhHant": "濕滑路面上應降低5-10英裡/小時的車速。在濕路上時速達到35英裡以上時，輪胎可能在水膜上打滑（水漂現象），导致失去抓地力和控制。"
-        },
-        {
-          "id": "M04-S02-K04",
           "en": "When driving near pedestrians, bicyclists, or near parked cars, reduce speed and be ready to stop. Expect the unexpected, especially with children.",
           "zh": "在行人、自行车骑行者或停放车辆附近行驶时，应降低速度并随时准备停车。对突发情况要有心理准备，尤其是有儿童的地方。",
           "isHighFreq": false,
@@ -150,7 +128,7 @@
           "zhHant": "在行人、自行車騎行者或停放車輛附近行駛時，應降低速度并隨時準備停車。對突發情况要有心理準備，尤其是有兒童的地方。"
         },
         {
-          "id": "M04-S02-K05",
+          "id": "M04-S02-K03",
           "en": "Driving too slowly can be just as dangerous as driving too fast. If you are blocking the normal flow of traffic, move to the right lane. On a two-lane road, pull to the right when 5 or more vehicles are following you.",
           "zh": "开车太慢可能和开车太快一样危险。如果阻挡了正常车流，应移到右侧车道。在双车道公路上，如果有5辆或以上车辆跟在后面，应靠右让行。",
           "isHighFreq": true,
@@ -160,154 +138,25 @@
             "slower-traffic-keep-right"
           ],
           "zhHant": "開車太慢可能和開車太快一樣危險。如果阻擋了正常車流，應移到右側車道。在雙車道公路上，如果有5輛或以上車輛跟在後面，應靠右讓行。"
+        },
+        {
+          "id": "M04-S02-K04",
+          "en": "When towing a vehicle or trailer, or driving a truck with three or more axles, you must drive in the far-right lane or a lane marked for slower vehicles. If no lanes are marked and there are four or more lanes in your direction, you may only drive in the two lanes closest to the right edge of the road.",
+          "zh": "当拖车或拖挂、或驾驶三轴及以上卡车时，你必须在最右车道或标有慢速车辆的车道行驶。如果没有标记的车道且你的方向有四条或更多车道，你只能在最靠近右侧路边的两条车道行驶。",
+          "zhHant": "當拖車或拖掛、或駕駛三軸及以上卡車時，你必須在最右車道或標有慢速車輛的車道行駛。如果沒有標記的車道且你的方向有四條或更多車道，你只能在最靠近右側路邊的兩條車道行駛。",
+          "isHighFreq": true,
+          "tags": ["towing", "lane-position"]
         }
       ],
       "titleZhHant": "根据路况調整車速"
     },
     {
       "id": "S03",
-      "titleEn": "Speed and DUI Laws",
-      "titleZh": "速度违规与酒驾法规",
-      "knowledgePoints": [
-        {
-          "id": "M04-S03-K01",
-          "en": "The legal Blood Alcohol Concentration (BAC) limit is 0.08% for drivers 21 and older. For commercial drivers it is 0.04%. For drivers under 21 it is 0.01%.",
-          "zh": "21岁及以上驾驶员的合法血液酒精浓度（BAC）上限为0.08%。商业驾照持有者为0.04%。21岁以下为0.01%（零容忍政策）。",
-          "isHighFreq": true,
-          "tags": [
-            "dui",
-            "bac"
-          ],
-          "zhHant": "21歲及以上駕駛員的合法血液酒精濃度（BAC）上限為0.08%。商業駕照持有者為0.04%。21歲以下為0.01%（零容忍政策）。"
-        },
-        {
-          "id": "M04-S03-K02",
-          "en": "California has an Implied Consent law: by driving in California, you automatically consent to a chemical test (blood, breath, or urine) if lawfully arrested for DUI.",
-          "zh": "加州有“默示同意法“：在加州驾车即自动同意在因酒驾被合法逮捕后接受化学测试（血液、呼气或尿液检测）。",
-          "isHighFreq": true,
-          "tags": [
-            "dui",
-            "implied-consent"
-          ],
-          "zhHant": "加州有“默示同意法“：在加州駕車即自動同意在因酒駕被合法逮捕後接受化學測試（血液、呼氣或尿液檢測）。"
-        },
-        {
-          "id": "M04-S03-K03",
-          "en": "A first DUI conviction can result in a fine of $390 to $1,000 (plus penalty assessments), up to 6 months in jail, and a 6-month license suspension.",
-          "zh": "首次酒驾定罪可导致390至1,000美元罚款（加上附加处罚），最高6个月监禁，以及6个月驾照暂停。",
-          "isHighFreq": true,
-          "tags": [
-            "dui",
-            "penalties"
-          ],
-          "zhHant": "首次酒駕定罪可导致390至1,000美元罰款（加上附加處罰），最高6個月監禁，以及6個月駕照暫停。"
-        },
-        {
-          "id": "M04-S03-K04",
-          "en": "It is illegal to have an open container of alcohol in your vehicle, whether you are driving or riding as a passenger.",
-          "zh": "无论是驾驶员还是乘客，车内都不得有已开封的酒精饮料容器。这在加州属于违法行为。",
-          "isHighFreq": true,
-          "tags": [
-            "dui",
-            "open-container"
-          ],
-          "zhHant": "無論是駕駛員還是乘客，車內都不得有已開封的酒精飲料容器。這在加州屬於違法行為。"
-        },
-        {
-          "id": "M04-S03-K05",
-          "en": "Driving under the influence of any drug (including prescription medication and marijuana) that impairs your ability to drive is illegal, even if the drug is legal for you to use.",
-          "zh": "在任何影响驾驶能力的药物（包括处方药和大麻）作用下驾车都是违法的，即使你有合法使用该药物的权利。",
-          "isHighFreq": true,
-          "tags": [
-            "dui",
-            "drugs"
-          ],
-          "zhHant": "在任何影響駕駛能力的藥物（包括處方藥和大麻）作用下駕車都是違法的，即使你有合法使用該藥物的權利。"
-        },
-        {
-          "id": "M04-S03-K06",
-          "en": "Alcohol and drugs together multiply the effects of impairment. Even small amounts of alcohol combined with medication can make it unsafe to drive.",
-          "zh": "酒精与药物同时使用会成倍增加损害效果。即使少量酒精与药物结合也可能导致无法安全驾驶。",
-          "isHighFreq": true,
-          "tags": [
-            "dui",
-            "combined-effects"
-          ],
-          "zhHant": "酒精與藥物同時使用會成倍增加损害效果。即使少量酒精與藥物結合也可能导致無法安全駕駛。"
-        }
-      ],
-      "titleZhHant": "速度違規與酒駕法規"
-    },
-    {
-      "id": "S04",
-      "titleEn": "Following Distance and Safe Stopping",
-      "titleZh": "跟车距离与安全停车",
-      "knowledgePoints": [
-        {
-          "id": "M04-S04-K01",
-          "en": "Maintain a following distance of at least 3 seconds behind the vehicle ahead under normal conditions. In bad weather or poor visibility, increase to 4 or more seconds.",
-          "zh": "正常情况下与前车保持至少3秒的跟车距离。恶劣天气或能见度差时，应增加到4秒或更多。",
-          "isHighFreq": true,
-          "tags": [
-            "following-distance",
-            "three-second-rule"
-          ],
-          "zhHant": "正常情况下與前車保持至少3秒的跟車距離。惡劣天氣或能見度差時，應增加到4秒或更多。"
-        },
-        {
-          "id": "M04-S04-K02",
-          "en": "To measure following distance, pick a fixed object on the road. When the vehicle ahead passes it, count 'one-thousand-one, one-thousand-two, one-thousand-three.' If you reach the object before finishing, you are too close.",
-          "zh": "测量跟车距离的方法：选定路边一个固定物体，当前车经过时开始数“一秒、两秒、三秒“。如果还没数完你就到了该物体处，说明跟车太近。",
-          "isHighFreq": true,
-          "tags": [
-            "following-distance",
-            "measurement"
-          ],
-          "zhHant": "測量跟車距離的方法：選定路邊一個固定物體，當前車經過時開始数“一秒、兩秒、三秒“。如果還沒数完你就到了該物體處，說明跟車太近。"
-        },
-        {
-          "id": "M04-S04-K03",
-          "en": "Increase following distance when following motorcycles, large trucks, or vehicles carrying hazardous materials. Also increase when you are being tailgated, driving on slippery roads, or cannot see around the vehicle ahead.",
-          "zh": "跟随摩托车、大型卡车或危险品运输车辆时应增大跟车距离。被人尾随、在湿滑路面行驶或看不到前方车辆前面的情况时也应加大距离。",
-          "isHighFreq": true,
-          "tags": [
-            "following-distance",
-            "special-situations"
-          ],
-          "zhHant": "跟隨摩托車、大型卡車或危險品運輸車輛時應增大跟車距離。被人尾隨、在濕滑路面行駛或看不到前方車輛前面的情况時也應加大距離。"
-        },
-        {
-          "id": "M04-S04-K04",
-          "en": "At freeway speeds of 55-65 mph, your vehicle travels the length of a football field in about 3-4 seconds. At these speeds, maintain at least a 3-second gap.",
-          "zh": "在55-65英里/小时的高速公路速度下，你的车在3-4秒内就能行驶一个足球场的长度。在这种速度下至少保持3秒的安全间距。",
-          "isHighFreq": false,
-          "tags": [
-            "following-distance",
-            "freeway"
-          ],
-          "zhHant": "在55-65英裡/小時的高速公路速度下，你的車在3-4秒內就能行駛一個足球場的长度。在這種速度下至少保持3秒的安全間距。"
-        },
-        {
-          "id": "M04-S04-K05",
-          "en": "Average perception-reaction time is about 1.5 seconds. At 55 mph, you travel about 121 feet during this time before you even start braking.",
-          "zh": "平均感知反应时间约为1.5秒。在55英里/小时的速度下，在你开始刹车之前已经行驶了约121英尺（约37米）的距离。",
-          "isHighFreq": true,
-          "tags": [
-            "stopping-distance",
-            "reaction-time"
-          ],
-          "zhHant": "平均感知反應時間约為1.5秒。在55英裡/小時的速度下，在你開始刹車之前已經行駛了约121英尺（约37米）的距離。"
-        }
-      ],
-      "titleZhHant": "跟車距離與安全停車"
-    },
-    {
-      "id": "S05",
       "titleEn": "Construction Zones and Special Speed Areas",
       "titleZh": "施工区域与特殊限速区",
       "knowledgePoints": [
         {
-          "id": "M04-S05-K01",
+          "id": "M04-S03-K01",
           "en": "Fines for traffic violations in highway construction or maintenance zones can be doubled when workers are present.",
           "zh": "在有工人的公路施工或养护区域，交通违规的罚款可能加倍。",
           "isHighFreq": true,
@@ -320,7 +169,7 @@
           "zhHant": "在有工人的公路施工或養護區域，交通違規的罰款可能加倍。"
         },
         {
-          "id": "M04-S05-K02",
+          "id": "M04-S03-K02",
           "en": "Obey the posted speed limits in construction zones. Watch for construction workers, slow-moving equipment, and lane changes.",
           "zh": "遵守施工区域的标示限速。注意施工人员、慢速移动的设备和车道变化。",
           "isHighFreq": true,
@@ -333,19 +182,7 @@
           "zhHant": "遵守施工區域的標示限速。注意施工人員、慢速移動的設備和車道變化。"
         },
         {
-          "id": "M04-S05-K03",
-          "en": "When passing a stationary emergency vehicle or tow truck displaying flashing lights, you must move over a lane if safe to do so, or slow down to a reasonable and prudent speed.",
-          "zh": "经过停在路边闪灯的紧急车辆或拖车时，如果安全的话必须变道避让，否则须减速到合理安全的速度通过。",
-          "isHighFreq": true,
-          "tags": [
-            "special-area",
-            "emergency-vehicles",
-            "emergency-vehicle"
-          ],
-          "zhHant": "經過停在路邊閃燈的緊急車輛或拖車時，如果安全的話必須變道避讓，否則須減速到合理安全的速度通過。"
-        },
-        {
-          "id": "M04-S05-K04",
+          "id": "M04-S03-K03",
           "en": "Speed contests (racing) on public roads are illegal. Penalties include fines, license suspension, and possible vehicle impoundment for up to 30 days.",
           "zh": "在公共道路上进行竞速（飙车）属于违法行为。处罚包括罚款、驾照暂停，车辆可能被扣押最长30天。",
           "isHighFreq": false,
@@ -354,28 +191,6 @@
             "racing"
           ],
           "zhHant": "在公共道路上進行競速（飙車）屬於違法行為。處罰包括罰款、駕照暫停，車輛可能被扣押最长30天。"
-        },
-        {
-          "id": "M04-S05-K05",
-          "en": "When driving through a safety zone (a space set aside for pedestrians, marked by raised buttons or markers), you must not drive through it at any speed.",
-          "zh": "安全区（为行人设置的、由凸起标记或路标标示的区域）内禁止车辆通行，任何速度都不允许驶入。",
-          "isHighFreq": false,
-          "tags": [
-            "special-area",
-            "safety-zone"
-          ],
-          "zhHant": "安全區（為行人設置的、由凸起標記或路標標示的區域）內禁止車輛通行，任何速度都不允許駛入。"
-        },
-        {
-          "id": "M04-S05-K06",
-          "en": "When a trolley, streetcar, or bus has stopped at a safety zone and there is no clearly marked pedestrian crosswalk, you may not pass at more than 10 mph.",
-          "zh": "当有轨电车或公交车在安全区停靠且附近没有明确标记的人行横道时，通过速度不得超过10英里/小时。",
-          "isHighFreq": false,
-          "tags": [
-            "special-area",
-            "trolley"
-          ],
-          "zhHant": "當有軌电車或公交車在安全區停靠且附近沒有明確標記的人行橫道時，通過速度不得超過10英裡/小時。"
         }
       ],
       "titleZhHant": "施工區域與特殊限速區"

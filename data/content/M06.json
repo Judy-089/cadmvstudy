@@ -43,13 +43,25 @@
         {
           "id": "M06-S01-K04",
           "en": "Look carefully for motorcycles, bicycles, and pedestrians before opening your door. Use the Dutch Reach method: open the door with the hand farthest from the door to naturally look behind you.",
-          "zh": "开车门前仔细观察是否有摩托车、自行车和行人。可以使用“荷兰式开门法“：用离车门较远的手开门，这样自然会转身向后看。",
+          "zh": "开车门前仔细观察是否有摩托车、自行车和行人。可以使用\"荷兰式开门法\"：用离车门较远的手开门，这样自然会转身向后看。",
           "isHighFreq": false,
           "tags": [
             "door-opening",
             "safety"
           ],
-          "zhHant": "開車門前仔細觀察是否有摩托車、自行車和行人。可以使用“荷蘭式開門法“：用離車門較遠的手開門，這樣自然會轉身向後看。"
+          "zhHant": "開車門前仔細觀察是否有摩托車、自行車和行人。可以使用\"荷蘭式開門法\"：用離車門較遠的手開門，這樣自然會轉身向後看。"
+        },
+        {
+          "id": "M06-S01-K05",
+          "en": "To parallel park: (1) Find a space at least 3 feet longer than your vehicle. Turn on your signal. (2) Pull up alongside the vehicle in front, about 2 feet away. Stop when your rear bumper is aligned with theirs. (3) Check your blind spots — look in rearview mirror and over your shoulder. (4) Begin backing up, turning the steering wheel toward the curb at about a 45-degree angle. (5) Straighten out when your rear wheel is within 18 inches of the curb. You may need to pull forward and backward to straighten out. Your vehicle should be parallel and within 18 inches of the curb.",
+          "zh": "平行停车步骤：(1) 找到一个至少比你的车长3英尺的车位，打开转向灯。(2) 与前方车辆并排停靠，相距约2英尺，当你的后保险杠与对方后保险杠对齐时停车。(3) 检查盲区——看后视镜并回头看。(4) 开始倒车，将方向盘向路缘方向转约45度角。(5) 当后轮距路缘18英寸以内时回正方向盘。你可能需要前后移动来调正车身。车辆应平行于路缘且距路缘18英寸以内。",
+          "isHighFreq": true,
+          "tags": [
+            "parallel-parking",
+            "steps",
+            "procedure"
+          ],
+          "zhHant": "平行停車步驟：(1) 找到一個至少比你的車長3英尺的車位，打開轉向燈。(2) 與前方車輛並排停靠，相距約2英尺，當你的後保險槓與對方後保險槓對齊時停車。(3) 檢查盲區——看後視鏡並回頭看。(4) 開始倒車，將方向盤向路緣方向轉約45度角。(5) 當後輪距路緣18英寸以內時回正方向盤。你可能需要前後移動來調正車身。車輛應平行於路緣且距路緣18英寸以內。"
         }
       ],
       "titleZhHant": "平行停車"
@@ -169,13 +181,60 @@
         {
           "id": "M06-S03-K06",
           "en": "Do not park where a 'No Parking' sign is posted or in a bus zone, taxi zone, or tow-away zone.",
-          "zh": "不得在有“禁止停车“标志的地方或在公交站区、出租车停靠区或拖车区停车。",
+          "zh": "不得在有\"禁止停车\"标志的地方或在公交站区、出租车停靠区或拖车区停车。",
           "isHighFreq": false,
           "tags": [
             "illegal-parking",
             "zones"
           ],
-          "zhHant": "不得在有“禁止停車“標誌的地方或在公交站區、出租車停靠區或拖車區停車。"
+          "zhHant": "不得在有\"禁止停車\"標誌的地方或在公交站區、出租車停靠區或拖車區停車。"
+        },
+        {
+          "id": "M06-S03-K07",
+          "en": "Never park or leave your vehicle in front of or on a curb that provides wheelchair access to a sidewalk.",
+          "zh": "不得在为轮椅提供人行道通道的路缘前方或上方停车或停放车辆。",
+          "isHighFreq": true,
+          "tags": [
+            "illegal-parking",
+            "wheelchair-ramp"
+          ],
+          "zhHant": "不得在為輪椅提供人行道通道的路緣前方或上方停車或停放車輛。"
+        },
+        {
+          "id": "M06-S03-K08",
+          "en": "Never park in a space designated for zero-emission vehicles unless you are driving or fueling a zero-emission vehicle.",
+          "zh": "不得在零排放车辆专用停车位停车，除非你驾驶或正在为零排放车辆加注能源。",
+          "isHighFreq": false,
+          "tags": [
+            "illegal-parking",
+            "ev-parking",
+            "zero-emission"
+          ],
+          "zhHant": "不得在零排放車輛專用停車位停車，除非你駕駛或正在為零排放車輛加注能源。"
+        },
+        {
+          "id": "M06-S03-K09",
+          "en": "Never park in a tunnel or on a bridge, unless permitted by signs.",
+          "zh": "不得在隧道内或桥上停车，除非标志允许。",
+          "isHighFreq": false,
+          "tags": [
+            "illegal-parking",
+            "tunnel",
+            "bridge"
+          ],
+          "zhHant": "不得在隧道內或橋上停車，除非標誌允許。"
+        },
+        {
+          "id": "M06-S03-K10",
+          "en": "Never park within 20 feet of an unmarked or marked crosswalk, or within 15 feet of a crosswalk where a curb extension is present.",
+          "zh": "不得在未标记或已标记的人行横道20英尺范围内停车，或在有路缘延伸的人行横道15英尺范围内停车。",
+          "isHighFreq": true,
+          "tags": [
+            "illegal-parking",
+            "crosswalk",
+            "distance"
+          ],
+          "zhHant": "不得在未標記或已標記的人行橫道20英尺範圍內停車，或在有路緣延伸的人行橫道15英尺範圍內停車。"
         }
       ],
       "titleZhHant": "違規停車"
@@ -240,6 +299,18 @@
             "disabled"
           ],
           "zhHant": "藍色路緣：僅允許持有有效残疾人標牌或特殊車牌的残疾人或其駕駛員停車。"
+        },
+        {
+          "id": "M06-S04-K06",
+          "en": "Local authorities can reserve parking spaces on public streets for electric vehicle charging. Look for the EV charging sign.",
+          "zh": "地方政府可以在公共街道上为电动车充电预留停车位。请留意电动车充电标志。",
+          "isHighFreq": false,
+          "tags": [
+            "curb-color",
+            "ev-charging",
+            "electric-vehicle"
+          ],
+          "zhHant": "地方政府可以在公共街道上為電動車充電預留停車位。請留意電動車充電標誌。"
         }
       ],
       "titleZhHant": "路緣顏色含義"

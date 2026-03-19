@@ -160,6 +160,37 @@
           "explanation_en": "Look carefully for motorcycles, bicycles, and pedestrians before opening your door on the traffic side.",
           "explanation_zhHant": "在靠近車流一側開車門前，仔細觀察是否有摩托車、自行車和行人。",
           "tags": []
+        },
+        {
+          "id": "M06-S01-Q06",
+          "stem_en": "What is the correct first step when parallel parking?",
+          "stem_zhHant": "平行停車的正確第一步是什麼？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Drive past the space and back in at a sharp angle",
+              "text_zhHant": "駛過停車位後以大角度倒車駛入"
+            },
+            {
+              "key": "B",
+              "text_en": "Pull up alongside the vehicle in front of the space, signal, and then steer into the space while backing slowly",
+              "text_zhHant": "駛至前方車輛旁邊，打轉向燈，然後慢慢倒車轉入車位"
+            },
+            {
+              "key": "C",
+              "text_en": "Drive directly into the space head first",
+              "text_zhHant": "直接車頭朝前駛入車位"
+            },
+            {
+              "key": "D",
+              "text_en": "Double park first, then slide into the space",
+              "text_zhHant": "先雙排停車，再滑入車位"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "To parallel park: pull up alongside the car in front of the empty space, signal, check mirrors and blind spots, then slowly back into the space while turning the steering wheel toward the curb.",
+          "explanation_zhHant": "平行停車步驟：駛至前方車輛旁邊，打轉向燈，檢查後視鏡和盲區，然後慢慢倒車並轉動方向盤朝向路緣，駛入車位。",
+          "tags": ["parallel-parking"]
         }
       ]
     },
@@ -489,6 +520,68 @@
           "answer": "B",
           "explanation_en": "Do not park on a freeway except in an emergency.",
           "explanation_zhHant": "除緊急情況外不得在高速公路上停車。",
+          "tags": []
+        },
+        {
+          "id": "M06-S03-Q06",
+          "stem_en": "How close to a crosswalk may you park your vehicle?",
+          "stem_zhHant": "您的車輛可以停在距人行橫道多近的地方？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "At least 10 feet away",
+              "text_zhHant": "至少10英尺"
+            },
+            {
+              "key": "B",
+              "text_en": "At least 15 feet away",
+              "text_zhHant": "至少15英尺"
+            },
+            {
+              "key": "C",
+              "text_en": "At least 20 feet away",
+              "text_zhHant": "至少20英尺"
+            },
+            {
+              "key": "D",
+              "text_en": "There is no minimum distance",
+              "text_zhHant": "沒有最小距離要求"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "Do not park within 20 feet of a crosswalk. Parking too close blocks the view for both drivers and pedestrians.",
+          "explanation_zhHant": "不得在人行橫道20英尺範圍內停車。停車太近會阻擋駕駛員和行人的視線。",
+          "tags": []
+        },
+        {
+          "id": "M06-S03-Q07",
+          "stem_en": "You must NOT park within _____ of a fire hydrant.",
+          "stem_zhHant": "不得在消防栓 _____ 範圍內停車。",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "5 feet",
+              "text_zhHant": "5英尺"
+            },
+            {
+              "key": "B",
+              "text_en": "10 feet",
+              "text_zhHant": "10英尺"
+            },
+            {
+              "key": "C",
+              "text_en": "15 feet",
+              "text_zhHant": "15英尺"
+            },
+            {
+              "key": "D",
+              "text_en": "20 feet",
+              "text_zhHant": "20英尺"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "You must not park within 15 feet of a fire hydrant. Fire trucks need quick access to hydrants in emergencies.",
+          "explanation_zhHant": "不得在消防栓15英尺範圍內停車。消防車在緊急情況下需要快速使用消防栓。",
           "tags": []
         }
       ]
