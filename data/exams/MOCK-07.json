@@ -805,7 +805,7 @@
     },
     {
       "id": "Q-MOCK07-029",
-      "stem_en": "The Move Over law requires drivers approaching a stationary emergency vehicle to:",
+      "stem_en": "The Move Over law requires drivers approaching any stationary vehicle on the side of the road to:",
       "options": [
         {
           "key": "A",
@@ -825,8 +825,8 @@
         }
       ],
       "answer": "B",
-      "explanation_en": "The Move Over law requires drivers to move over and slow down for stationary emergency vehicles, tow trucks, and road work vehicles displaying flashing lights.",
-      "explanation_zh": "移开让路法要求驾驶员为停放的紧急车辆、拖车和显示闪灯的道路作业车辆移至另一车道并减速。",
+      "explanation_en": "The Move Over law requires drivers to change lanes or slow down when approaching ANY stationary vehicle on the side of the road — including emergency vehicles, highway maintenance vehicles, and any vehicle displaying flashing hazard lights or other warning devices.",
+      "explanation_zh": "让路法要求驾驶员在接近路边任何停靠车辆时变道或减速——包括紧急车辆、公路养护车辆，以及任何开启危险警示灯或其他警示装置的车辆。",
       "module": "M08",
       "tags": [],
       "driverEd": false

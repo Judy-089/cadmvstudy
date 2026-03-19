@@ -21,4 +21,5 @@ export const modules: Module[] = [
   { id: "M09", titleEn: "Safe Driving Practices", titleZh: "安全驾驶实践", estimatedMinutes: 20, icon: "🛡️", sectionCount: 5 },
   { id: "M10", titleEn: "Alcohol & Drugs", titleZh: "酒精与药物", estimatedMinutes: 15, icon: "🚫", sectionCount: 5 },
   { id: "M11", titleEn: "Financial Responsibility & Insurance", titleZh: "经济责任与保险", estimatedMinutes: 10, icon: "💰", sectionCount: 4 },
+  { id: "M12", titleEn: "2026 New California Laws", titleZh: "2026加州新法规", estimatedMinutes: 10, icon: "⚖️", isNew: true, sectionCount: 3 },
 ];

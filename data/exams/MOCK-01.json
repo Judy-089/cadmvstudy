@@ -625,13 +625,13 @@
         }
       ],
       "answer": "C",
-      "explanation_en": "The speed limit near schools is 25 mph when children are present or the school grounds have no fence. Some school zones may have lower posted limits.",
-      "explanation_zh": "当有儿童在场或学校场地没有围栏时，学校附近的速度限制为25英里/小时。一些学区可能有更低的标示限速。",
+      "explanation_en": "The speed limit near schools is 25 mph when children are present or the school grounds have no fence. Some school zones may have lower posted limits. Note: Beginning January 1, 2031, the default school zone speed limit will change to 20 mph (AB 382), but the current limit remains 25 mph.",
+      "explanation_zh": "当有儿童在场或学校场地没有围栏时，学校附近的速度限制为25英里/小时。一些学区可能有更低的标示限速。注意：从2031年1月1日起，学校区域默认限速将变更为20英里/小时（AB 382法案），但目前限速仍为25英里/小时。",
       "module": "M04",
       "tags": [
         "speed-laws"
       ],
-      "explanation_zhHant": "當有兒童在場或學校場地沒有圍欄時，學校附近的速度限制為25英裡/小時。一些學區可能有更低的標示限速。",
+      "explanation_zhHant": "當有兒童在場或學校場地沒有圍欄時，學校附近的速度限制為25英裡/小時。一些學區可能有更低的標示限速。注意：從2031年1月1日起，學校區域預設限速將變更為20英裡/小時（AB 382法案），但目前限速仍為25英裡/小時。",
       "stem_zhHant": "有兒童在場時學校區域的速度限制是：",
       "driverEd": false
     },

@@ -30,7 +30,7 @@
             "under-21",
             "zero-tolerance"
           ],
-          "zhHant": "21歲以下的駕駛員BAC限制為0.01%。加州對未成年人飲酒駕車實行零容忍政策。"
+          "zhHant": "21歲以下的駕駛員 BAC 限制為0.01%。加州對未成年人飲酒駕車實行零容忍政策。"
         },
         {
           "id": "M10-S01-K03",
@@ -41,7 +41,7 @@
             "bac",
             "commercial"
           ],
-          "zhHant": "商用車駕駛員在駕駛商用車時BAC限制為0.04%。"
+          "zhHant": "商用車駕駛員在駕駛商用車時 BAC 限制為0.04%。"
         },
         {
           "id": "M10-S01-K04",
@@ -52,7 +52,7 @@
             "bac",
             "probation"
           ],
-          "zhHant": "處於酒駕緩刑期的駕駛員BAC限制為0.01%。"
+          "zhHant": "處於 DUI 緩刑期的駕駛員 BAC 限制為0.01%。"
         },
         {
           "id": "M10-S01-K05",
@@ -63,7 +63,7 @@
             "dui",
             "impairment"
           ],
-          "zhHant": "即使BAC低於法定限制，如果酒精或藥物影響了你的安全駕駛能力，你仍然可能因酒駕被逮捕。"
+          "zhHant": "即使 BAC 低於法定限制，如果酒精或藥物影響了你的安全駕駛能力，你仍然可能因酒後駕駛被逮捕。"
         },
         {
           "id": "M10-S01-K06",
@@ -75,10 +75,10 @@
             "passenger-for-hire",
             "rideshare"
           ],
-          "zhHant": "如果你是有償載客駕駛（如網約車），BAC限制為0.04%或以上即為違法。"
+          "zhHant": "如果你是有償載客駕駛（如網約車），BAC 限制為0.04%或以上即為違法。"
         }
       ],
-      "titleZhHant": "血液酒精濃度限制"
+      "titleZhHant": "血液酒精濃度（BAC）限制"
     },
     {
       "id": "S02",
@@ -88,13 +88,13 @@
         {
           "id": "M10-S02-K01",
           "en": "California's implied consent law means that by driving on California roads, you have agreed to submit to a chemical test (blood or breath) if lawfully arrested for DUI.",
-          "zh": "加州的“默示同意“法规定，在加州道路上驾车即表示你同意在被合法逮捕涉嫌酒驾时接受化学检测（血液或呼气检测）。",
+          "zh": "加州的「默示同意」法规定，在加州道路上驾车即表示你同意在被合法逮捕涉嫌酒驾时接受化学检测（血液或呼气检测）。",
           "isHighFreq": true,
           "tags": [
             "implied-consent",
             "chemical-test"
           ],
-          "zhHant": "加州的“默示同意“法規定，在加州道路上駕車即表示你同意在被合法逮捕涉嫌酒駕時接受化學檢測（血液或呼氣檢測）。"
+          "zhHant": "加州的「默示同意法」規定，在加州道路上駕車即表示你同意在被合法逮捕涉嫌 DUI 時接受化學測試（血液測試或呼氣測試）。"
         },
         {
           "id": "M10-S02-K02",
@@ -106,7 +106,7 @@
             "refusal",
             "suspension"
           ],
-          "zhHant": "在合法酒駕逮捕後拒絕化學檢測將导致强制吊銷駕照：初犯1年，第二次2年，第三次3年。"
+          "zhHant": "在合法 DUI 逮捕後拒絕化學測試將導致強制暫停駕駛執照：初犯1年，第二次2年，第三次3年。"
         },
         {
           "id": "M10-S02-K03",
@@ -117,7 +117,7 @@
             "pas-test",
             "roadside"
           ],
-          "zhHant": "路邊的初步酒精筛查測試（PAS）對21歲以下駕駛員和酒駕緩刑期間的駕駛員是强制性的。其他駕駛員可以拒絕路邊測試，但被逮捕後仍必須接受化學檢測。"
+          "zhHant": "路邊的初步酒精篩查（PAS）測試對21歲以下駕駛員和 DUI 緩刑期間的駕駛員是強制性的。其他駕駛員可以拒絕路邊測試，但被逮捕後仍必須接受化學測試。"
         },
         {
           "id": "M10-S02-K04",
@@ -128,10 +128,10 @@
             "chemical-test",
             "choice"
           ],
-          "zhHant": "如果你因酒駕被逮捕，通常可以在血液檢測和呼氣檢測之間選擇。"
+          "zhHant": "如果你因 DUI 被逮捕，通常可以在血液測試和呼氣測試之間選擇。"
         }
       ],
-      "titleZhHant": "默示同意與化學檢測"
+      "titleZhHant": "默示同意法與化學測試"
     },
     {
       "id": "S03",
@@ -148,7 +148,7 @@
             "penalties",
             "first-offense"
           ],
-          "zhHant": "首次酒駕定罪可能导致3-5年緩刑、最高1,000美元罰款（加上罰款附加費）、吊銷駕照6個月以及强制參加酒駕教育課程。"
+          "zhHant": "首次 DUI 定罪可能導致3至5年緩刑、最高1,000美元罰款（加上罰款附加費）、暫停駕駛執照6個月以及強制參加 DUI 教育課程。"
         },
         {
           "id": "M10-S03-K02",
@@ -160,19 +160,20 @@
             "felony",
             "injury"
           ],
-          "zhHant": "造成人員受傷的酒駕可能被控重罪，导致州監獄監禁和更长時間的駕照吊銷。"
+          "zhHant": "造成人員受傷的 DUI 可能被控重罪，導致州監獄監禁和更長時間的吊銷駕駛執照。"
         },
         {
           "id": "M10-S03-K03",
-          "en": "If you are convicted of DUI, you will be required to install an Ignition Interlock Device (IID) on your vehicle.",
-          "zh": "如果酒驾定罪，你将被要求在车辆上安装点火联锁装置（IID），需要吹气通过才能启动车辆。",
+          "en": "If you are convicted of DUI, you will be required to install an Ignition Interlock Device (IID) on your vehicle. California's IID program has been extended through January 1, 2033.",
+          "zh": "如果酒驾定罪，你将被要求在车辆上安装点火联锁装置（IID），需要吹气通过才能启动车辆。加州的IID计划已延长至2033年1月1日。",
           "isHighFreq": true,
+          "isNew": true,
           "tags": [
             "dui",
             "iid",
             "ignition-interlock"
           ],
-          "zhHant": "如果酒駕定罪，你將被要求在車輛上安裝點火聯鎖裝置（IID），需要吹氣通過才能啟動車輛。"
+          "zhHant": "如果 DUI 定罪，你將被要求在車輛上安裝點火互鎖裝置（IID），需要吹氣通過才能啟動車輛。加州的 IID 計劃已延長至2033年1月1日。"
         },
         {
           "id": "M10-S03-K04",
@@ -184,22 +185,23 @@
             "record",
             "10-years"
           ],
-          "zhHant": "酒駕定罪記錄將在你的駕駛記錄上保留10年。第二次及以後的違規會受到越來越嚴厲的處罰。"
+          "zhHant": "DUI 定罪記錄將在你的駕駛記錄上保留10年。第二次及以後的違規會受到越來越嚴厲的 DUI 處罰。"
         },
         {
           "id": "M10-S03-K05",
-          "en": "Vehicular manslaughter while intoxicated (killing someone while driving drunk) is a felony that can result in state prison time.",
-          "zh": "醉酒车辆过失杀人（在醉驾时致人死亡）是重罪，可导致州监狱监禁。",
+          "en": "Vehicular manslaughter while intoxicated (killing someone while driving drunk) is a felony that can result in state prison time. If convicted, probation is 3 to 5 years.",
+          "zh": "醉酒车辆过失杀人（在醉驾时致人死亡）是重罪，可导致州监狱监禁。如果定罪，缓刑期为3至5年。",
           "isHighFreq": true,
+          "isNew": true,
           "tags": [
             "dui",
             "manslaughter",
             "felony"
           ],
-          "zhHant": "醉酒車輛過失殺人（在醉駕時致人死亡）是重罪，可导致州監獄監禁。"
+          "zhHant": "醉酒車輛過失殺人（在酒後駕駛時致人死亡）是重罪，可導致州監獄監禁。如果定罪，緩刑期為3至5年。"
         }
       ],
-      "titleZhHant": "酒駕處罰"
+      "titleZhHant": "DUI 處罰"
     },
     {
       "id": "S04",
@@ -216,7 +218,7 @@
             "impairment",
             "effects"
           ],
-          "zhHant": "酒精會损害判斷力、減慢反應時間、降低協調能力并影響视力。這些影響從第一杯酒就開始了。"
+          "zhHant": "酒精會損害判斷力、減慢反應時間、降低協調能力並影響視力。這些影響從第一杯酒就開始了。"
         },
         {
           "id": "M10-S04-K02",
@@ -227,7 +229,7 @@
             "medication",
             "impairment"
           ],
-          "zhHant": "處方藥和非處方藥都可能影響駕駛能力。駕車前閱讀藥物標簽上關於嗜睡或頭暈的警告。"
+          "zhHant": "處方藥物和非處方藥物都可能影響駕駛能力。駕車前閱讀藥物標籤上關於嗜睡或頭暈的警告。"
         },
         {
           "id": "M10-S04-K03",
@@ -238,7 +240,7 @@
             "marijuana",
             "dui"
           ],
-          "zhHant": "大麻會损害駕駛能力。無論是否持有醫用大麻卡，在大麻影響下駕車都是違法的。"
+          "zhHant": "大麻會損害駕駛能力。無論是否持有醫用大麻卡，在大麻影響下駕車都是違法的。"
         },
         {
           "id": "M10-S04-K04",
@@ -249,7 +251,7 @@
             "combined-substances",
             "danger"
           ],
-          "zhHant": "將酒精與藥物（包括處方藥）混合使用會成倍增加其损害效果，使駕駛極其危險。"
+          "zhHant": "將酒精與藥物（包括處方藥物）混合使用會成倍增加其損害效果，使駕駛極其危險。"
         },
         {
           "id": "M10-S04-K05",
@@ -260,7 +262,7 @@
             "bac",
             "sobering-myths"
           ],
-          "zhHant": "隻有時間能降低血液酒精濃度。咖啡、冷水澡和運動不能使你清醒或安全駕駛。"
+          "zhHant": "只有時間能降低血液酒精濃度（BAC）。咖啡、冷水澡和運動不能使你清醒或安全駕駛。"
         },
         {
           "id": "M10-S04-K06",
@@ -271,7 +273,7 @@
             "open-container",
             "law"
           ],
-          "zhHant": "在公路上的機動車乘客區域內放置已開封的酒精容器是違法的。"
+          "zhHant": "在公路上的機動車乘客區域內放置開放容器裝有酒精是違法的。"
         },
         {
           "id": "M10-S04-K07",
@@ -303,7 +305,7 @@
             "hearing",
             "10-days"
           ],
-          "zhHant": "如果因酒駕被逮捕，DMV會沒收你的駕照并發放臨時駕照。你有10天時間申請行政聽證來質疑吊銷。"
+          "zhHant": "如果因 DUI 被逮捕，DMV 會沒收你的駕駛執照並發放臨時駕駛執照。你有10天時間申請行政聽證來質疑暫停駕駛執照。"
         },
         {
           "id": "M10-S05-K02",
@@ -315,7 +317,7 @@
             "insurance",
             "sr-22"
           ],
-          "zhHant": "酒駕定罪將大幅提高你的汽車保險費率。你可能需要提交SR-22表格作為經濟責任證明。"
+          "zhHant": "DUI 定罪將大幅提高你的汽車保險費率。你可能需要提交加州保險證明（SR 22/SR 1P）作為財務責任證明。"
         },
         {
           "id": "M10-S05-K03",
@@ -326,7 +328,7 @@
             "under-21",
             "suspension"
           ],
-          "zhHant": "21歲以下的駕駛員如果BAC達到0.01%或更高，駕照將被吊銷1年。"
+          "zhHant": "21歲以下的駕駛員如果 BAC 達到0.01%或更高，駕駛執照將被暫停1年。"
         },
         {
           "id": "M10-S05-K04",
@@ -348,7 +350,7 @@
             "designated-driver",
             "alternatives"
           ],
-          "zhHant": "飲酒前指定一名清醒的駕駛員。如果计劃飲酒，使用网约車、出租車或公共交通。"
+          "zhHant": "飲酒前指定一名指定司機（不飲酒的駕駛員）。如果計劃飲酒，使用網約車、出租車或公共交通。"
         }
       ],
       "titleZhHant": "行政與法律後果"

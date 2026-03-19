@@ -615,8 +615,8 @@
         }
       ],
       "answer": "B",
-      "explanation_en": "The speed limit is 25 mph within 500 feet of a school while children are outside or crossing. Some school zones may have limits as low as 15 mph.",
-      "explanation_zh": "在距学校500英尺范围内，当儿童在户外或过马路时，限速为25英里/小时。某些学区可能低至15英里/小时。",
+      "explanation_en": "The speed limit is 25 mph within 500 feet of a school while children are outside or crossing. Some school zones may have limits as low as 15 mph. Note: Beginning January 1, 2031, the default school zone speed limit will change to 20 mph (AB 382), but the current limit remains 25 mph.",
+      "explanation_zh": "在距学校500英尺范围内，当儿童在户外或过马路时，限速为25英里/小时。某些学区可能低至15英里/小时。注意：从2031年1月1日起，学校区域默认限速将变更为20英里/小时（AB 382法案），但目前限速仍为25英里/小时。",
       "module": "M04",
       "tags": [],
       "driverEd": false

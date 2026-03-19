@@ -1025,8 +1025,8 @@
             },
             {
               "key": "B",
-              "text_en": "Change lanes or slow down when passing a stopped emergency vehicle, tow truck, or CalTrans vehicle with flashing lights",
-              "text_zhHant": "經過亮著閃燈的停靠緊急車輛、拖車或加州交通局車輛時，必須變道或減速"
+              "text_en": "Change lanes or slow down when approaching any stationary vehicle on the side of the road displaying hazard lights or warning devices",
+              "text_zhHant": "接近路邊任何開啟危險警示燈或警示裝置的停靠車輛時，必須變道或減速"
             },
             {
               "key": "C",
@@ -1040,8 +1040,8 @@
             }
           ],
           "answer": "B",
-          "explanation_en": "California's Move Over law requires you to change lanes or slow down when passing a stopped emergency vehicle, tow truck, or CalTrans vehicle with flashing lights.",
-          "explanation_zhHant": "加州的「讓路法」要求在經過亮著閃燈的停靠緊急車輛、拖車或加州交通局車輛時，必須變道或減速。",
+          "explanation_en": "California's Move Over law requires you to change lanes or slow down when approaching ANY stationary vehicle on the side of the road — including emergency vehicles, highway maintenance vehicles, and any vehicle displaying flashing hazard lights or other warning devices. If you cannot change lanes safely, slow down to a reasonable and safe speed.",
+          "explanation_zhHant": "加州的「讓路法」要求在接近路邊任何停靠車輛時，必須變道或減速——包括緊急車輛、公路養護車輛，以及任何開啟危險警示燈或其他警示裝置的車輛。如果無法安全變道，應減速至合理安全的速度。",
           "tags": []
         },
         {

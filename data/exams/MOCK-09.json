@@ -769,7 +769,7 @@
     },
     {
       "id": "Q-MOCK09-030",
-      "stem_en": "When approaching a stationary emergency vehicle or tow truck displaying flashing amber warning lights, drivers must:",
+      "stem_en": "When approaching any stationary vehicle displaying flashing hazard lights or warning devices on the side of the road, drivers must:",
       "options": [
         {
           "key": "A",
@@ -789,8 +789,8 @@
         }
       ],
       "answer": "B",
-      "explanation_en": "The Move Over law requires drivers to move over and slow down for stationary emergency vehicles, tow trucks, or road work vehicles displaying flashing lights.",
-      "explanation_zh": "让道法要求驾驶员在遇到闪灯的静止紧急车辆、拖车或道路施工车辆时让道并减速。",
+      "explanation_en": "The Move Over law requires drivers to change lanes or slow down when approaching ANY stationary vehicle on the side of the road — including emergency vehicles, highway maintenance vehicles, and any vehicle displaying flashing hazard lights or other warning devices.",
+      "explanation_zh": "让路法要求驾驶员在接近路边任何停靠车辆时变道或减速——包括紧急车辆、公路养护车辆，以及任何开启危险警示灯或其他警示装置的车辆。",
       "module": "M09",
       "tags": [],
       "driverEd": false

@@ -17,7 +17,7 @@
             "following-distance",
             "3-second-rule"
           ],
-          "zhHant": "使用3秒規則：正常情况下，與前車保持至少3秒的跟車距離。"
+          "zhHant": "使用三秒規則：正常情況下，與前車保持至少3秒的跟車距離。"
         },
         {
           "id": "M09-S01-K02",
@@ -39,7 +39,7 @@
             "following-distance",
             "stopped"
           ],
-          "zhHant": "在另一輛車後面停車時，留出足夠的空間以便能看到前車的後輪接触地面。"
+          "zhHant": "在另一輛車後面停車時，留出足夠的空間以便能看到前車的後輪接觸地面。"
         },
         {
           "id": "M09-S01-K04",
@@ -50,7 +50,7 @@
             "tailgating",
             "rear-end"
           ],
-          "zhHant": "緊跟前車（跟車太近）是追尾事故的主要原因。它減少了你安全停車的反應時間。"
+          "zhHant": "尾隨過近（緊隨前車）是追尾碰撞的主要原因。它減少了你安全停車的反應時間。"
         },
         {
           "id": "M09-S01-K05",
@@ -61,7 +61,7 @@
             "tailgating",
             "response"
           ],
-          "zhHant": "如果有人緊跟你，逐渐減速鼓勵他们超車，或者變道讓他们通過。不要急刹車。"
+          "zhHant": "如果有人尾隨過近，逐漸減速鼓勵他們超車，或者變道讓他們通過。不要急煞車。"
         }
       ],
       "titleZhHant": "跟車距離"
@@ -81,7 +81,7 @@
             "hands-free",
             "law"
           ],
-          "zhHant": "在加州駕駛時手持使用手機或电子設備是違法的。可以使用免提設備。"
+          "zhHant": "在加州駕駛時手持手機或電子設備是違法的。可以使用免提設備。"
         },
         {
           "id": "M09-S02-K02",
@@ -92,7 +92,7 @@
             "cell-phone",
             "under-18"
           ],
-          "zhHant": "18歲以下的駕駛員駕駛時不得使用手機或任何电子設備，包括免提設備，緊急情况除外。"
+          "zhHant": "未成年人（18歲以下）駕駛時不得使用手機或任何電子設備，包括免提設備，緊急情況除外。"
         },
         {
           "id": "M09-S02-K03",
@@ -103,7 +103,7 @@
             "texting",
             "law"
           ],
-          "zhHant": "開車時發短信是違法且極其危險的。發送或閱讀短信會讓你的视線離開道路约5秒鐘。"
+          "zhHant": "駕駛時發短信是違法且極其危險的。發送或閱讀短信會讓你的視線離開道路約5秒鐘。駕駛時切勿分心。"
         },
         {
           "id": "M09-S02-K04",
@@ -114,7 +114,7 @@
             "distracted-driving",
             "types"
           ],
-          "zhHant": "其他分心駕駛行為包括吃東西、化妆整理、閱讀、調收音機和與乘客互動。"
+          "zhHant": "其他駕駛時分心行為包括吃東西、化妝整理、閱讀、調收音機和與乘客互動。"
         },
         {
           "id": "M09-S02-K05",
@@ -127,13 +127,13 @@
             "navigation",
             "mount"
           ],
-          "zhHant": "如果需要使用手機导航，在駕駛前設置好并安裝在儀表板或擋風玻璃上。駕駛中隻能單次滑動或點擊操作。"
+          "zhHant": "如果需要使用手機導航，在駕駛前設置好並安裝在擋風玻璃、儀表板或中控台上，不得遮擋視線。駕駛中只能使用已安裝手機的單次滑動或點擊功能。"
         },
         {
           "id": "M09-S02-K06",
           "en": "Be Familiar with New Technology: Advanced driver assistance systems (ADAS) are becoming more common. Vehicles with these systems may respond to road situations differently than a human driver would. Understand how your vehicle's technology works.",
           "zh": "熟悉新技术：高级驾驶辅助系统（ADAS）正变得越来越普遍。配备这些系统的车辆可能以与人类驾驶员不同的方式应对路况。了解你的车辆技术如何工作。",
-          "zhHant": "熟悉新技術：高級駕駛輔助系統（ADAS）正變得越來越普遍。配備這些系統的車輛可能以與人類駕駛員不同的方式應對路況。了解你的車輛技術如何工作。",
+          "zhHant": "熟悉新技術：高級駕駛輔助系統 (ADAS) 正變得越來越普遍。配備這些系統的車輛可能以與人類駕駛員不同的方式應對路況。了解你的車輛技術如何工作。",
           "isHighFreq": false,
           "tags": ["adas", "technology"]
         },
@@ -146,7 +146,7 @@
           "tags": ["carbon-monoxide", "safety"]
         }
       ],
-      "titleZhHant": "分心駕駛"
+      "titleZhHant": "駕駛時切勿分心"
     },
     {
       "id": "S03",
@@ -162,7 +162,7 @@
             "seat-belt",
             "law"
           ],
-          "zhHant": "加州法律要求所有車內人員系安全帶。如果16歲以下的乘客未系安全帶，駕駛員會被罰款。"
+          "zhHant": "加州法律要求所有車內人員繫安全帶。如果16歲以下的乘客未繫安全帶，駕駛員會被罰款。"
         },
         {
           "id": "M09-S03-K02",
@@ -174,7 +174,7 @@
             "child-safety",
             "rear-facing"
           ],
-          "zhHant": "2歲以下兒童必須坐在後座的後向式安全座椅中，除非體重達到40磅以上或身高達到40英寸以上。"
+          "zhHant": "2歲以下、體重不足40磅且身高不足3英尺4英寸的兒童必須使用面向兒童乘客約束系統。使用面向兒童乘客約束系統的兒童不得坐在配有安全氣囊的車輛前座。"
         },
         {
           "id": "M09-S03-K03",
@@ -186,7 +186,7 @@
             "child-safety",
             "booster-seat"
           ],
-          "zhHant": "8歲以下的兒童必須坐在車輛後座的安全座椅或增高座椅中。"
+          "zhHant": "8歲以下或身高不足4英尺9英寸的兒童必須坐在後排座椅上的兒童乘客約束裝置中。"
         },
         {
           "id": "M09-S03-K04",
@@ -197,7 +197,7 @@
             "child-safety",
             "seat-belt"
           ],
-          "zhHant": "8歲或以上、或身高至少4英尺9英寸的兒童可以使用普通安全帶。"
+          "zhHant": "8歲或以上、或身高至少4英尺9英寸的兒童可以直接使用安全帶。"
         },
         {
           "id": "M09-S03-K05",
@@ -208,13 +208,13 @@
             "child-safety",
             "airbag"
           ],
-          "zhHant": "後座是12歲及以下兒童最安全的位置。不要將後向式安全座椅放在有激活安全氣囊的前座。"
+          "zhHant": "後座是12歲及以下兒童最安全的位置。不要將面向兒童乘客約束系統放在有啟動安全氣囊的前座。"
         },
         {
           "id": "M09-S03-K06",
           "en": "Air Bags: Ride at least 10 inches from the airbag cover to maintain full control. Children seated next to a side air bag may be at risk of serious or fatal injury. Passengers should also sit at least 10 inches away from the passenger-side air bag.",
           "zh": "安全气囊：保持距离气囊盖至少10英寸以保持完全控制。坐在侧面安全气囊旁边的儿童可能面临严重或致命伤害的风险。乘客也应距离副驾驶侧安全气囊至少10英寸。",
-          "zhHant": "安全氣囊：保持距離氣囊蓋至少10英寸以保持完全控制。坐在側面安全氣囊旁邊的兒童可能面臨嚴重或致命傷害的風險。乘客也應距離副駕駛側安全氣囊至少10英寸。",
+          "zhHant": "安全氣囊：保持距離氣囊蓋至少 10 吋以保持完全控制。坐在側面安全氣囊旁邊的兒童可能面臨嚴重或致命傷害的風險。乘客也應距離副駕駛側安全氣囊至少 10 吋。",
           "isHighFreq": true,
           "tags": ["air-bag", "safety"]
         },
@@ -227,7 +227,7 @@
           "tags": ["child-safety", "unattended"]
         }
       ],
-      "titleZhHant": "安全帶與兒童安全"
+      "titleZhHant": "安全帶與兒童乘客約束裝置"
     },
     {
       "id": "S04",
@@ -243,7 +243,7 @@
             "scanning",
             "defensive-driving"
           ],
-          "zhHant": "提前掃视前方10-15秒的道路（城市中约一個街區，高速公路上约四分之一英裡），預判可能的危險。"
+          "zhHant": "提前掃視前方10-15秒的道路（城市中約一個街區，高速公路上約四分之一英里），預判可能的危險。"
         },
         {
           "id": "M09-S04-K02",
@@ -254,7 +254,7 @@
             "mirrors",
             "awareness"
           ],
-          "zhHant": "每3-5秒查看後视鏡以了解周圍交通状况。變道前檢查盲區。"
+          "zhHant": "每3-5秒查看後視鏡以了解周圍交通狀況。變道前檢查盲點。"
         },
         {
           "id": "M09-S04-K03",
@@ -265,7 +265,7 @@
             "escape-route",
             "space-management"
           ],
-          "zhHant": "時刻计劃好逃生路線。保持車輛周圍的空間，以便在需要時可以機動避讓。"
+          "zhHant": "時刻計劃好逃生路線。保持車輛周圍的空間，以便在需要時可以機動避讓。"
         },
         {
           "id": "M09-S04-K04",
@@ -276,7 +276,7 @@
             "road-rage",
             "aggressive-driving"
           ],
-          "zhHant": "路怒症很危險。如果其他駕駛員有攻擊性行為，不要與他们對视，不要挑衅他们，不要擋住他们的路。"
+          "zhHant": "路怒/攻擊性駕駛很危險。如果其他駕駛員有攻擊性行為，不要與他們對視，不要挑釁他們，不要擋住他們的路。"
         },
         {
           "id": "M09-S04-K05",
@@ -287,7 +287,7 @@
             "drowsy-driving",
             "fatigue"
           ],
-          "zhHant": "疲劳駕駛和醉駕一樣危險。如果感到困倦，靠邊停在安全的地方休息。僅靠咖啡或新鮮空氣不能保持清醒。"
+          "zhHant": "疲勞駕駛和醉駕一樣危險。如果感到困倦，靠邊停在安全的地方休息。僅靠咖啡或新鮮空氣不能保持清醒。"
         },
         {
           "id": "M09-S04-K06",
@@ -298,7 +298,7 @@
             "signaling",
             "distance"
           ],
-          "zhHant": "在市區轉弯前至少提前100英尺打轉向燈，在高速公路上至少提前200英尺打轉向燈。"
+          "zhHant": "在市區轉彎前至少提前100英尺打轉向燈，在高速公路上至少提前200英尺打轉向燈。"
         },
         {
           "id": "M09-S04-K07",
@@ -311,7 +311,7 @@
             "zones",
             "scanning"
           ],
-          "zhHant": "注意周圍環境：時刻了解你周圍的情況。將你的車輛想像成被不同區域包圍：綠色區（前方）——提前10秒掃視前方的危險；藍色區（兩側）——了解你旁邊的情況；黃色區（盲區）——後視鏡看不到的區域；紅色區（後方）——經常檢查後視鏡。"
+          "zhHant": "注意周圍環境：時刻了解你周圍的情況。將你的車輛想像成被不同區域包圍：綠色區（前方）——提前10秒掃視前方的危險；藍色區（明察兩側交通）——了解你旁邊的情況；黃色區（盲點）——後視鏡看不到的區域；紅色區（明察後方路況）——經常檢查後視鏡。"
         },
         {
           "id": "M09-S04-K08",
@@ -330,7 +330,7 @@
           "id": "M09-S04-K09",
           "en": "Know What is at Your Side: Do not stay in another driver's blind spot. Avoid driving directly alongside other vehicles. Make space for vehicles entering freeways, even if you have the right-of-way.",
           "zh": "了解你两侧的情况：不要停留在其他驾驶员的盲区内。避免与其他车辆并排行驶。为进入高速公路的车辆腾出空间，即使你有路权。",
-          "zhHant": "了解你兩側的情況：不要停留在其他駕駛員的盲區內。避免與其他車輛並排行駛。為進入高速公路的車輛騰出空間，即使你有路權。",
+          "zhHant": "明察兩側交通：不要停留在其他駕駛員的盲點內。避免與其他車輛並排行駛。為進入高速公路的車輛騰出空間，即使你有路權。",
           "isHighFreq": true,
           "tags": ["blind-spot", "awareness"]
         },
@@ -338,7 +338,7 @@
           "id": "M09-S04-K10",
           "en": "Know What is Behind You: Check traffic behind you often by using your rearview mirror, side mirrors, and turning your head. Check behind you when you: change lanes, check your blind spots, reduce your speed, turn into a side road or driveway, stop to pull into a parking space, pull up to and away from the curb, or back up.",
           "zh": "了解你后方的情况：经常通过后视镜、侧视镜和转头来检查后方交通。在以下情况下检查后方：变道、检查盲区、减速、转入侧路或车道、停车进入停车位、靠近或离开路边、或倒车时。",
-          "zhHant": "了解你後方的情況：經常通過後視鏡、側視鏡和轉頭來檢查後方交通。在以下情況下檢查後方：變道、檢查盲區、減速、轉入側路或車道、停車進入停車位、靠近或離開路邊、或倒車時。",
+          "zhHant": "明察後方路況：經常通過後視鏡、側視鏡和轉頭來檢查後方交通。在以下情況下檢查後方：變道、檢查盲點、減速、轉入側路或車道、停車進入停車位、靠近或離開路邊、或倒車時。",
           "isHighFreq": true,
           "tags": ["mirrors", "awareness"]
         },
@@ -354,7 +354,7 @@
           "id": "M09-S04-K12",
           "en": "Choose Between Hazards: When dangers are on both sides of the road, give more space to the most dangerous situation. For example, on a two-lane road with an oncoming vehicle to the left and a bicyclist to the right, slow down and let the oncoming vehicle pass first, then move left to pass the bicyclist with at least three feet of clearance.",
           "zh": "在危险之间选择：当道路两侧都有危险时，给最危险的情况留出更多空间。例如，在双车道道路上，左侧有对向来车，右侧有自行车，应减速让对向车辆先通过，然后向左移动，保持至少三英尺的间距超越自行车。",
-          "zhHant": "在危險之間選擇：當道路兩側都有危險時，給最危險的情況留出更多空間。例如，在雙車道道路上，左側有對向來車，右側有自行車，應減速讓對向車輛先通過，然後向左移動，保持至少三英尺的間距超越自行車。",
+          "zhHant": "險情折衷處理：當道路兩側都有危險時，給最危險的情況留出更多空間。例如，在雙車道道路上，左側有對向來車，右側有腳踏車，應減速讓對向車輛先通過，然後向左移動，保持至少 3 呎的間距超越腳踏車。",
           "isHighFreq": true,
           "tags": ["hazard-avoidance"]
         }
@@ -397,7 +397,7 @@
             "freeway",
             "exiting"
           ],
-          "zhHant": "駛出高速公路時，提前打燈并駛入出口車道。在進入出口車道或減速車道之前不要減速。"
+          "zhHant": "駛出高速公路時，提前打燈並駛入出口車道。在進入出口車道或減速車道之前不要減速。"
         },
         {
           "id": "M09-S05-K04",
@@ -419,13 +419,13 @@
             "freeway",
             "minimum-speed"
           ],
-          "zhHant": "加州大多数高速公路的最低限速為45英裡/小時（除非另有標示或路况需要降低速度）。"
+          "zhHant": "加州大多數高速公路的最低限速為45英里/小時（除非另有標示或路況需要降低速度）。"
         },
         {
           "id": "M09-S05-K06",
           "en": "If Your Vehicle Becomes Disabled on the Freeway: (1) Safely pull over to the right shoulder. (2) Exit on the right side away from traffic. (3) Dial 511 or call for assistance. (4) Stay inside your vehicle with your seat belt on until help arrives. (5) Use emergency flashers to help other vehicles see you.",
           "zh": "如果你的车在高速公路上抛锚：(1) 安全地靠右停到路肩。(2) 从右侧远离车流的一边下车。(3) 拨打511或寻求帮助。(4) 系好安全带留在车内直到救援到达。(5) 打开双闪灯帮助其他车辆看到你。",
-          "zhHant": "如果你的車在高速公路上拋錨：(1) 安全地靠右停到路肩。(2) 從右側遠離車流的一邊下車。(3) 撥打511或尋求幫助。(4) 繫好安全帶留在車內直到救援到達。(5) 打開雙閃燈幫助其他車輛看到你。",
+          "zhHant": "如果車輛在高速公路上出現故障：(1) 安全地靠右停到路肩。(2) 從右側遠離車流的一邊下車。(3) 撥打511或尋求幫助。(4) 繫好安全帶留在車內直到救援到達。(5) 打開雙閃燈幫助其他車輛看到你。",
           "isHighFreq": true,
           "tags": ["freeway", "disabled-vehicle", "emergency"]
         },
@@ -433,7 +433,7 @@
           "id": "M09-S05-K07",
           "en": "California Highway Patrol (CHP) Freeway Service Patrol (FSP): During commute times, FSP provides free emergency roadside services on freeways. FSP will provide a gallon of gas, jump start your battery, change a flat tire, and report a collision to CHP. Call 511 for FSP information.",
           "zh": "加州公路巡警（CHP）高速公路服务巡逻队（FSP）：在通勤时段，FSP在高速公路上提供免费的紧急路边服务。FSP会提供一加仑汽油、帮你启动电瓶、更换漏气轮胎，并向CHP报告碰撞事故。拨打511了解FSP信息。",
-          "zhHant": "加州公路巡警（CHP）高速公路服務巡邏隊（FSP）：在通勤時段，FSP在高速公路上提供免費的緊急路邊服務。FSP會提供一加侖汽油、幫你啟動電瓶、更換漏氣輪胎，並向CHP報告碰撞事故。撥打511了解FSP信息。",
+          "zhHant": "加州公路巡邏隊 (CHP) 高速公路服務巡邏隊 (FSP)：在通勤時段，FSP在高速公路上提供免費的緊急路邊服務。FSP會提供一加侖汽油、幫你啟動電瓶、更換漏氣輪胎，並向CHP報告碰撞。撥打511了解FSP信息。",
           "isHighFreq": false,
           "tags": ["fsp", "freeway", "chp"]
         }

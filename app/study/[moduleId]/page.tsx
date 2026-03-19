@@ -20,6 +20,7 @@ interface KnowledgePoint {
   zh: string;
   zhHant?: string;
   isHighFreq: boolean;
+  isNew?: boolean;
   tags: string[];
 }
 
@@ -309,6 +310,9 @@ export default function ModuleLearningPage() {
               return (
                 <div key={point.id} className="rounded-xl border border-border bg-card p-4 shadow-sm md:p-5">
                   <div className="flex items-start gap-3">
+                    {point.isNew && (
+                      <span className="mt-0.5 whitespace-nowrap rounded-full bg-blue-500 px-2 py-0.5 text-[10px] font-bold text-white">2026 NEW</span>
+                    )}
                     {point.isHighFreq && (
                       <span className="badge-high-freq mt-0.5 whitespace-nowrap">🔥 {t("module.highFreq")}</span>
                     )}

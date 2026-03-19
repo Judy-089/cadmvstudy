@@ -1,0 +1,268 @@
+{
+  "moduleId": "M12",
+  "sections": [
+    {
+      "sectionId": "S01",
+      "questions": [
+        {
+          "id": "M12-S01-Q01",
+          "stem_en": "What does the expanded 'Slow Down, Move Over' law (AB 390) now require?",
+          "stem_zhHant": "擴展的「減速讓行」法（AB 390）現在要求什麼？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Slow down and move over only for emergency vehicles",
+              "text_zhHant": "僅為緊急車輛減速讓行"
+            },
+            {
+              "key": "B",
+              "text_en": "Slow down and move over for ALL stationary vehicles, not just emergency vehicles",
+              "text_zhHant": "為所有靜止車輛減速讓行，不僅僅是緊急車輛"
+            },
+            {
+              "key": "C",
+              "text_en": "Move over only on highways",
+              "text_zhHant": "僅在高速公路上讓行"
+            },
+            {
+              "key": "D",
+              "text_en": "Slow down only in school zones",
+              "text_zhHant": "僅在學校區域減速"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "AB 390 expanded the 'Slow Down, Move Over' law to apply to ALL stationary vehicles — not just emergency vehicles. This includes any vehicle displaying flashing hazard lights, marked highway maintenance vehicles, and vehicles with other warning devices.",
+          "explanation_zhHant": "AB 390 擴展了「減速讓行」法，使其適用於所有靜止車輛——不僅僅是緊急車輛。這包括任何顯示閃爍緊急閃光燈的車輛、標有高速公路維護標誌的車輛，以及帶有其他警告裝置的車輛。",
+          "tags": ["move-over", "emergency"]
+        },
+        {
+          "id": "M12-S01-Q02",
+          "stem_en": "Starting January 1, 2031, the school zone speed limit will change to:",
+          "stem_zhHant": "自2031年1月1日起，學校區域限速將變更為：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "15 mph",
+              "text_zhHant": "15哩/小時"
+            },
+            {
+              "key": "B",
+              "text_en": "20 mph",
+              "text_zhHant": "20哩/小時"
+            },
+            {
+              "key": "C",
+              "text_en": "25 mph",
+              "text_zhHant": "25哩/小時"
+            },
+            {
+              "key": "D",
+              "text_en": "30 mph",
+              "text_zhHant": "30哩/小時"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "AB 382 lowers the school zone speed limit from 25 mph to 20 mph, effective January 1, 2031. Until then, the current 25 mph limit remains in effect.",
+          "explanation_zhHant": "AB 382 將學校區域限速從25哩/小時降至20哩/小時，自2031年1月1日起生效。在此之前，現行的25哩/小時限速仍然有效。",
+          "tags": ["speed-limit", "school-zone"]
+        },
+        {
+          "id": "M12-S01-Q03",
+          "stem_en": "What is the fine for manufacturing a device that obscures a license plate in California?",
+          "stem_zhHant": "在加州製造遮擋車牌裝置的罰款是多少？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "$250",
+              "text_zhHant": "$250"
+            },
+            {
+              "key": "B",
+              "text_en": "$500",
+              "text_zhHant": "$500"
+            },
+            {
+              "key": "C",
+              "text_en": "$1,000",
+              "text_zhHant": "$1,000"
+            },
+            {
+              "key": "D",
+              "text_en": "$2,500",
+              "text_zhHant": "$2,500"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "AB 1085 makes it an infraction with a fine of $1,000 to manufacture in California any product or device that obscures or interferes with the visual or electronic reading of a license plate.",
+          "explanation_zhHant": "AB 1085 規定在加州製造任何遮擋或干擾車牌視覺或電子讀取的產品或裝置屬於違規行為，罰款$1,000美元。",
+          "tags": ["license-plate"]
+        },
+        {
+          "id": "M12-S01-Q04",
+          "stem_en": "Violations recorded by automated traffic cameras for red light violations are subject to:",
+          "stem_zhHant": "自動交通攝影機記錄的闖紅燈違規適用於：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Criminal penalties and jail time",
+              "text_zhHant": "刑事處罰和監禁"
+            },
+            {
+              "key": "B",
+              "text_en": "Civil penalties only",
+              "text_zhHant": "僅民事處罰"
+            },
+            {
+              "key": "C",
+              "text_en": "Both criminal and civil penalties",
+              "text_zhHant": "刑事和民事處罰"
+            },
+            {
+              "key": "D",
+              "text_en": "A written warning only",
+              "text_zhHant": "僅書面警告"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "SB 720 allows local governments to use automated camera systems to enforce red light violations. Violations recorded by these cameras are subject to civil penalties only (not criminal).",
+          "explanation_zhHant": "SB 720 允許地方政府使用自動攝影系統執行闖紅燈違規。這些攝影機記錄的違規僅適用民事處罰（非刑事）。",
+          "tags": ["red-light", "camera"]
+        }
+      ]
+    },
+    {
+      "sectionId": "S02",
+      "questions": [
+        {
+          "id": "M12-S02-Q01",
+          "stem_en": "The statewide IID Pilot Program for DUI offenders has been extended to:",
+          "stem_zhHant": "針對DUI違規者的全州IID試點項目已延長至：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "January 1, 2027",
+              "text_zhHant": "2027年1月1日"
+            },
+            {
+              "key": "B",
+              "text_en": "January 1, 2030",
+              "text_zhHant": "2030年1月1日"
+            },
+            {
+              "key": "C",
+              "text_en": "January 1, 2033",
+              "text_zhHant": "2033年1月1日"
+            },
+            {
+              "key": "D",
+              "text_en": "January 1, 2035",
+              "text_zhHant": "2035年1月1日"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "AB 366 extended the statewide Ignition Interlock Device (IID) Pilot Program for DUI offenders to January 1, 2033. DUI offenders may be required to install an IID on their vehicle.",
+          "explanation_zhHant": "AB 366 將針對DUI違規者的全州點火互鎖裝置（IID）試點項目延長至2033年1月1日。DUI違規者可能需要在車輛上安裝IID。",
+          "tags": ["dui", "iid"]
+        },
+        {
+          "id": "M12-S02-Q02",
+          "stem_en": "Under the new law (AB 1087), the probation period for vehicular manslaughter while intoxicated is now:",
+          "stem_zhHant": "根據新法律（AB 1087），醉酒駕車過失殺人的緩刑期現在為：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "1 to 2 years",
+              "text_zhHant": "1至2年"
+            },
+            {
+              "key": "B",
+              "text_en": "Between 3 and 5 years",
+              "text_zhHant": "3至5年"
+            },
+            {
+              "key": "C",
+              "text_en": "5 to 10 years",
+              "text_zhHant": "5至10年"
+            },
+            {
+              "key": "D",
+              "text_en": "Up to 2 years",
+              "text_zhHant": "最長2年"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "AB 1087 increased the probation period for vehicular manslaughter or gross vehicular manslaughter while intoxicated from 2 years to between 3 and 5 years.",
+          "explanation_zhHant": "AB 1087 將醉酒駕車過失殺人或嚴重過失殺人的緩刑期從2年增加到3至5年。",
+          "tags": ["dui", "probation"]
+        }
+      ]
+    },
+    {
+      "sectionId": "S03",
+      "questions": [
+        {
+          "id": "M12-S03-Q01",
+          "stem_en": "Under the CARS Act (SB 766), customers have a right to cancel a vehicle purchase under $50,000 within:",
+          "stem_zhHant": "根據CARS法案（SB 766），客戶有權在以下時間內取消低於$50,000的車輛購買：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "24 hours",
+              "text_zhHant": "24小時"
+            },
+            {
+              "key": "B",
+              "text_en": "3 days",
+              "text_zhHant": "3天"
+            },
+            {
+              "key": "C",
+              "text_en": "7 days",
+              "text_zhHant": "7天"
+            },
+            {
+              "key": "D",
+              "text_en": "30 days",
+              "text_zhHant": "30天"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "SB 766 (CARS Act), effective October 1, 2026, gives customers a three-day right to cancel the purchase or lease of a vehicle under $50,000.",
+          "explanation_zhHant": "SB 766（CARS法案）自2026年10月1日起生效，賦予客戶三天的權利取消購買或租賃價格低於$50,000的車輛。",
+          "tags": ["consumer-protection"]
+        },
+        {
+          "id": "M12-S03-Q02",
+          "stem_en": "You can now request a duplicate driver's license from DMV after:",
+          "stem_zhHant": "你現在可以在以下情況後向DMV申請補辦駕駛執照：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Changing your address",
+              "text_zhHant": "更改地址"
+            },
+            {
+              "key": "B",
+              "text_en": "Changing your name only",
+              "text_zhHant": "僅更改姓名"
+            },
+            {
+              "key": "C",
+              "text_en": "Turning 21 years old",
+              "text_zhHant": "年滿21歲"
+            },
+            {
+              "key": "D",
+              "text_en": "Passing a driving test",
+              "text_zhHant": "通過駕駛考試"
+            }
+          ],
+          "answer": "A",
+          "explanation_en": "SB 506 now allows you to request a duplicate driver's license from the DMV after changing your address. Previously, duplicate licenses were only issued when a license was lost, destroyed, or mutilated.",
+          "explanation_zhHant": "SB 506 現在允許你在更改地址後向DMV申請補辦駕駛執照。此前，補辦駕照僅限於駕照遺失、損壞或毀損的情況。",
+          "tags": ["license", "address-change"]
+        }
+      ]
+    }
+  ]
+}

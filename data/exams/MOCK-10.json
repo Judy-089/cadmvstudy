@@ -955,8 +955,8 @@
         }
       ],
       "answer": "B",
-      "explanation_en": "If convicted of a DUI, you may be required to install an ignition interlock device (IID) on your vehicle.",
-      "explanation_zh": "如果被判酒驾罪，你可能被要求在你的车辆上安装点火联锁装置(IID)。",
+      "explanation_en": "If convicted of a DUI, you may be required to install an ignition interlock device (IID) on your vehicle. California's IID program has been extended through January 1, 2033.",
+      "explanation_zh": "如果被判酒驾罪，你可能被要求在你的车辆上安装点火联锁装置(IID)。加州的IID计划已延长至2033年1月1日。",
       "module": "M09",
       "tags": [],
       "driverEd": false

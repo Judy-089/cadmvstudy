@@ -54,8 +54,8 @@ const strings = {
   "age.title": { en: "How old are you?", zhHant: "你幾歲？", zhHans: "你几岁？" },
   "age.subtitle": {
     en: "This determines your mock exam format",
-    zhHant: "這將決定你的模擬考試格式",
-    zhHans: "这将决定你的模拟考试格式",
+    zhHant: "這會決定你的模擬考試題數",
+    zhHans: "这将决定你的模拟考试题数",
   },
   "age.under18": { en: "Under 18", zhHant: "未滿18歲", zhHans: "未满18岁" },
   "age.under18exam": { en: "46-question exam", zhHant: "46題考試", zhHans: "46题考试" },
@@ -80,10 +80,10 @@ const strings = {
   "home.comingSoon": { en: "Coming Soon", zhHant: "即將推出", zhHans: "即将推出" },
   "home.guidePrompt": {
     en: "Not sure how to prepare? Check our step-by-step Guide",
-    zhHant: "不知道如何準備？查看我們的分步指南",
-    zhHans: "不知道如何准备？查看我们的分步指南",
+    zhHant: "不知道怎麼準備？看看我們的考照指南",
+    zhHans: "不知道如何准备？查看我们的考照指南",
   },
-  "home.guestBanner": { en: "Guest mode — limited access", zhHant: "訪客模式 — 有限存取", zhHans: "访客模式 — 有限访问" },
+  "home.guestBanner": { en: "Guest mode — limited access", zhHant: "訪客模式 — 僅開放部分功能", zhHans: "访客模式 — 仅开放部分功能" },
   "home.signInUnlock": { en: "Sign In to Unlock", zhHant: "登入解鎖", zhHans: "登录解锁" },
   "home.progress": { en: "Progress", zhHant: "進度", zhHans: "进度" },
   "home.lastModule": { en: "Last Module", zhHant: "上次學到", zhHans: "上次学到" },
@@ -92,14 +92,14 @@ const strings = {
   // ── Study Center ──
   "study.title": { en: "Study Center", zhHant: "學習中心", zhHans: "学习中心" },
   "study.subtitle": {
-    en: "12 modules based on the California Driver Handbook. Study at your own pace.",
-    zhHant: "基於加州駕駛員手冊的12個模組。按自己的節奏學習。",
-    zhHans: "基于加州驾驶员手册的12个模块。按自己的节奏学习。",
+    en: "13 modules based on the California Driver Handbook. Study at your own pace.",
+    zhHant: "根據加州駕駛員手冊編排的13個模組，按自己的步調學習。",
+    zhHans: "基于加州驾驶员手册的13个模块。按自己的节奏学习。",
   },
   "study.repeatNote": {
     en: "Some key concepts are repeated across modules to reinforce learning. Feel free to skip sections you've already mastered.",
-    zhHant: "部分重要內容會在不同模組中重複出現以加深記憶，您可根據自身情況跳過已掌握的部分。",
-    zhHans: "部分重要内容会在不同模块中重复出现以加深记忆，您可根据自身情况跳过已掌握的部分。",
+    zhHant: "部分重要內容會在不同模組中重複出現，以加深印象。你可以跳過已經熟悉的部分。",
+    zhHans: "部分重要内容会在不同模块中重复出现以加深记忆，你可以跳过已经掌握的部分。",
   },
   "study.guestBanner": {
     en: "Guest mode: first 3 modules available",
@@ -126,7 +126,7 @@ const strings = {
   "mock.title": { en: "Mock Test", zhHant: "模擬考試", zhHans: "模拟考试" },
   "mock.notTaken": { en: "Not Taken", zhHant: "未考", zhHans: "未考" },
   "mock.questions": { en: "questions", zhHant: "題", zhHans: "题" },
-  "mock.pass": { en: "Pass", zhHant: "通過", zhHans: "通过" },
+  "mock.pass": { en: "Pass", zhHant: "及格", zhHans: "及格" },
   "mock.examType": { en: "Exam type", zhHant: "考試類型", zhHans: "考试类型" },
   "mock.guestBanner": {
     en: "Guest: Mock Exam 1 available",
@@ -136,18 +136,18 @@ const strings = {
   "mock.aboutTitle": { en: "About the DMV Written Test", zhHant: "關於DMV筆試", zhHans: "关于DMV笔试" },
   "mock.aboutAdult": {
     en: "Adults (18+): 36 multiple-choice questions, need 31 correct to pass",
-    zhHant: "成人（18歲以上）：36道選擇題，需答對31題通過",
-    zhHans: "成人（18岁以上）：36道选择题，需答对31题通过",
+    zhHant: "成人（18歲以上）：36道選擇題，答對31題及格",
+    zhHans: "成人（18岁以上）：36道选择题，答对31题及格",
   },
   "mock.aboutMinor": {
     en: "Under 18: 46 multiple-choice questions, need 38 correct to pass",
-    zhHant: "未滿18歲：46道選擇題，需答對38題通過",
-    zhHans: "未满18岁：46道选择题，需答对38题通过",
+    zhHant: "未滿18歲：46道選擇題，答對38題及格",
+    zhHans: "未满18岁：46道选择题，答对38题及格",
   },
   "mock.aboutAccuracy": {
     en: "Both require 83% accuracy to pass",
-    zhHant: "均需83%正確率通過",
-    zhHans: "均需83%正确率通过",
+    zhHant: "兩者皆需達到83%正確率才算及格",
+    zhHans: "两者均需达到83%正确率才算及格",
   },
   "mock.aboutLanguage": {
     en: "Available in English or Traditional Chinese (\u7e41\u9ad4\u4e2d\u6587) at the DMV",
@@ -163,17 +163,17 @@ const strings = {
   "exam.flag": { en: "Flag", zhHant: "標記" },
   "exam.flagged": { en: "Flagged", zhHant: "已標記" },
   "exam.answered": { en: "Answered", zhHant: "已答" },
-  "exam.navigator": { en: "Question Navigator", zhHant: "題目導航" },
-  "exam.passInfo": { en: "Pass", zhHant: "通過" },
+  "exam.navigator": { en: "Question Navigator", zhHant: "題目導覽" },
+  "exam.passInfo": { en: "Pass", zhHant: "及格" },
   "exam.confirmSubmit": {
     en: "questions. Submit anyway?",
     zhHant: "題。仍然提交？",
   },
 
   // ── Result Page (follows exam language) ──
-  "result.pass": { en: "PASS", zhHant: "通過" },
-  "result.fail": { en: "FAIL", zhHant: "未通過" },
-  "result.congrats": { en: "Congratulations!", zhHant: "恭喜通過！" },
+  "result.pass": { en: "PASS", zhHant: "及格" },
+  "result.fail": { en: "FAIL", zhHant: "不及格" },
+  "result.congrats": { en: "Congratulations!", zhHant: "恭喜過關！" },
   "result.keepPracticing": { en: "Keep practicing!", zhHant: "繼續加油！" },
   "result.score": { en: "Score", zhHant: "得分" },
   "result.accuracy": { en: "Accuracy", zhHant: "正確率" },
@@ -215,7 +215,7 @@ const strings = {
   },
   "progress.signInGoogle": { en: "Sign In with Google", zhHant: "用 Google 登入", zhHans: "用 Google 登录" },
   "progress.freeLaunch": { en: "Free during launch period", zhHant: "上線期間免費", zhHans: "上线期间免费" },
-  "progress.whatUsersSay": { en: "What our users say", zhHant: "用戶評價", zhHans: "用户评价" },
+  "progress.whatUsersSay": { en: "What our users say", zhHant: "使用者評價", zhHans: "用户评价" },
   "progress.signInUnlock": { en: "Sign In to Unlock", zhHant: "登入解鎖", zhHans: "登录解锁" },
 
   // ── Locked Overlay ──
@@ -237,12 +237,12 @@ const strings = {
   "tutorial.welcome.desc": {
     en: "Your bilingual companion for passing the California DMV written test. Let us show you around!",
     zhHant: "你的雙語加州DMV筆試備考助手。讓我們為你導覽！",
-    zhHans: "你的双语加州DMV笔试备考助手。让我们为你导览！",
+    zhHans: "你的双语加州DMV笔试备考助手。让我们带你看看！",
   },
-  "tutorial.uiLang.title": { en: "Interface Language", zhHant: "界面語言", zhHans: "界面语言" },
+  "tutorial.uiLang.title": { en: "Interface Language", zhHant: "介面語言", zhHans: "界面语言" },
   "tutorial.uiLang.desc": {
     en: "Switch the app interface between English, 繁體中文, and 简体中文. This changes buttons, labels, and navigation text.",
-    zhHant: "切換應用界面語言：English、繁體中文、简体中文。這會改變按鈕、標籤和導航文字。",
+    zhHant: "切換介面語言：English、繁體中文、简体中文。這會改變按鈕、標籤和導覽列文字。",
     zhHans: "切换应用界面语言：English、繁體中文、简体中文。这会改变按钮、标签和导航文字。",
   },
   "tutorial.studyLang.title": { en: "Study Content Language", zhHant: "學習內容語言", zhHans: "学习内容语言" },
@@ -253,9 +253,9 @@ const strings = {
   },
   "tutorial.modules.title": { en: "Learning Modules", zhHant: "學習模組", zhHans: "学习模块" },
   "tutorial.modules.desc": {
-    en: "12 modules covering every topic in the CA Driver Handbook. Study at your own pace, in any order.",
-    zhHant: "12個模組涵蓋加州駕駛員手冊的所有主題。按自己的節奏學習，不限順序。",
-    zhHans: "12个模块涵盖加州驾驶员手册的所有主题。按自己的节奏学习，不限顺序。",
+    en: "13 modules covering every topic in the CA Driver Handbook. Study at your own pace, in any order.",
+    zhHant: "13個模組涵蓋加州駕駛員手冊的所有主題。按自己的步調學習，順序不限。",
+    zhHans: "13个模块涵盖加州驾驶员手册的所有主题。按自己的节奏学习，不限顺序。",
   },
   "tutorial.showChinese.title": { en: "Show All Chinese", zhHant: "展開全部中文", zhHans: "展开全部中文" },
   "tutorial.showChinese.desc": {
@@ -284,8 +284,8 @@ const strings = {
   "tutorial.signIn.title": { en: "Sign In to Unlock", zhHant: "登入解鎖", zhHans: "登录解锁" },
   "tutorial.signIn.desc": {
     en: "Sign in with Google to unlock all 12 modules, 10 mock exams, and save your progress across devices.",
-    zhHant: "用Google登入即可解鎖全部12個模組、10套模擬考試，並跨設備保存學習進度。",
-    zhHans: "用Google登录即可解锁全部12个模块、10套模拟考试，并跨设备保存学习进度。",
+    zhHant: "用Google登入即可解鎖全部13個模組、10套模擬考試，並跨設備保存學習進度。",
+    zhHans: "用Google登录即可解锁全部13个模块、10套模拟考试，并跨设备保存学习进度。",
   },
   "tutorial.skip": { en: "Skip", zhHant: "跳過", zhHans: "跳过" },
   "tutorial.next": { en: "Next", zhHant: "下一步", zhHans: "下一步" },

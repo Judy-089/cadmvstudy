@@ -2,19 +2,19 @@
   "moduleId": "M00",
   "titleEn": "Licensing Requirements",
   "titleZh": "驾照申请要求",
-  "titleZhHant": "駕照申請要求",
+  "titleZhHant": "駕駛執照申請要求",
   "sections": [
     {
       "id": "S01",
       "titleEn": "Driver License Classes",
       "titleZh": "驾照类别",
-      "titleZhHant": "駕照類別",
+      "titleZhHant": "駕駛執照類別",
       "knowledgePoints": [
         {
           "id": "M00-S01-K01",
           "en": "A Class C license allows you to drive a 2-axle vehicle with a Gross Vehicle Weight Rating (GVWR) of 26,000 lbs or less, including a towing vehicle with a trailer weighing 10,000 lbs GVWR or less.",
           "zh": "C类驾照允许驾驶总重量不超过26,000磅的两轴车辆，包括拖挂重量不超过10,000磅的拖车。这是最常见的私人小汽车驾照类型。",
-          "zhHant": "C類駕照允許駕駛總重量不超過26,000磅的兩軸車輛，包括拖掛重量不超過10,000磅的拖車。這是最常見的私人小汽車駕照類型。",
+          "zhHant": "C類駕駛執照允許駕駛總重量不超過26,000磅的兩軸車輛，包括拖掛重量不超過10,000磅的拖車。這是最常見的私人小汽車駕駛執照類型。",
           "isHighFreq": true,
           "tags": [
             "license-class",
@@ -25,7 +25,7 @@
           "id": "M00-S01-K02",
           "en": "A Class M1 license is required to operate a two-wheel motorcycle or motor-driven cycle. A Class M2 license is for motorized bicycles, mopeds, or any bicycle with an attached motor.",
           "zh": "M1类驾照用于驾驶两轮摩托车，M2类驾照用于驾驶机动自行车或助力车。如果想骑摩托车，需要单独申请M1驾照。",
-          "zhHant": "M1類駕照用於駕駛兩輪摩托車，M2類駕照用於駕駛機動自行車或助力車。如果想騎摩托車，需要單獨申請M1駕照。",
+          "zhHant": "M1類駕駛執照用於駕駛兩輪摩托車，M2類駕駛執照用於駕駛機動自行車或助力車。如果想騎摩托車，需要單獨申請M1駕駛執照。",
           "isHighFreq": true,
           "tags": [
             "license-class",
@@ -36,7 +36,7 @@
           "id": "M00-S01-K03",
           "en": "A commercial Class A license is required to operate any combination of vehicles with a GVWR of 26,001 lbs or more, provided the towed vehicle is over 10,000 lbs GVWR.",
           "zh": "商业A类驾照用于驾驶总重量超过26,001磅的组合车辆，且被拖车辆重量超过10,000磅。适用于大型货车司机。",
-          "zhHant": "商業A類駕照用於駕駛總重量超過26,001磅的組合車輛，且被拖車輛重量超過10,000磅。適用於大型貨車司機。",
+          "zhHant": "商業A類駕駛執照用於駕駛總重量超過26,001磅的組合車輛，且被拖車輛重量超過10,000磅。適用於大型貨車司機。",
           "isHighFreq": false,
           "tags": [
             "license-class",
@@ -47,7 +47,7 @@
           "id": "M00-S01-K04",
           "en": "A commercial Class B license is required to operate a single vehicle with a GVWR of 26,001 lbs or more, or any bus (except a trailer bus).",
           "zh": "商业B类驾照用于驾驶总重量超过26,001磅的单一车辆或公共汽车。例如大型公交车司机需要此类驾照。",
-          "zhHant": "商業B類駕照用於駕駛總重量超過26,001磅的單一車輛或公共汽車。例如大型公交車司機需要此類駕照。",
+          "zhHant": "商業B類駕駛執照用於駕駛總重量超過26,001磅的單一車輛或公共汽車。例如大型公交車司機需要此類駕駛執照。",
           "isHighFreq": false,
           "tags": [
             "license-class",
@@ -58,7 +58,7 @@
           "id": "M00-S01-K05",
           "en": "You may drive vehicles covered by Class C with a valid Class A or B license. Higher class licenses include the privileges of lower classes.",
           "zh": "持有A类或B类驾照也可以驾驶C类驾照允许的车辆。高级别驾照包含低级别驾照的驾驶权限。",
-          "zhHant": "持有A類或B類駕照也可以駕駛C類駕照允許的車輛。高級別駕照包含低級別駕照的駕駛權限。",
+          "zhHant": "持有A類或B類駕駛執照也可以駕駛C類駕駛執照允許的車輛。高級別駕駛執照包含低級別駕駛執照的駕駛權限。",
           "isHighFreq": false,
           "tags": [
             "license-class",
@@ -69,7 +69,7 @@
           "id": "M00-S01-K06",
           "en": "Beginning May 2025, your driver's license or ID card must be REAL ID compliant to board domestic flights, enter military bases, or enter most federal facilities.",
           "zh": "从2025年5月起，乘坐国内航班、进入军事基地或大多数联邦设施，您的驾照或身份证必须符合REAL ID标准。",
-          "zhHant": "從2025年5月起，乘坐國內航班、進入軍事基地或大多數聯邦設施，您的駕照或身份證必須符合REAL ID標準。",
+          "zhHant": "從2025年5月起，乘坐國內航班、進入軍事基地或大多數聯邦設施，你的駕駛執照或身份證必須符合REAL ID標準。",
           "isHighFreq": true,
           "isNew": true,
           "tags": [
@@ -84,13 +84,13 @@
       "id": "S02",
       "titleEn": "Applying for a Driver License",
       "titleZh": "申请驾照流程",
-      "titleZhHant": "申請駕照流程",
+      "titleZhHant": "申請駕駛執照流程",
       "knowledgePoints": [
         {
           "id": "M00-S02-K01",
           "en": "To apply for an original California driver license, you must visit a DMV office, complete a DL 44 application form, provide your true full name, present acceptable proof of identity and residency, provide your Social Security Number (SSN), and pay the application fee.",
           "zh": "首次申请加州驾照需要亲自前往DMV办公室，填写DL 44申请表，提供真实全名、身份和居住地证明、社会安全号码，并缴纳申请费用。",
-          "zhHant": "首次申請加州駕照需要親自前往DMV辦公室，填寫DL 44申請表，提供真實全名、身份和居住地證明、社會安全號碼，並繳納申請費用。",
+          "zhHant": "首次申請加州駕駛執照需要親自前往DMV辦公室，填寫DL 44申請表，提供真實全名、身份和居住地證明、社會安全號碼，並繳納申請費用。",
           "isHighFreq": true,
           "tags": [
             "application",
@@ -101,7 +101,7 @@
           "id": "M00-S02-K02",
           "en": "You must pass a vision exam, a knowledge test (written or computer-based), and a behind-the-wheel driving test to receive your license.",
           "zh": "申请驾照需要通过视力检查、交规笔试（纸质或电脑考试）和路考三项测试。",
-          "zhHant": "申請駕照需要通過視力檢查、交規筆試（紙質或電腦考試）和路考三項測試。",
+          "zhHant": "申請駕駛執照需要通過視力檢查、交規筆試（紙質或電腦考試）和路考三項測試。",
           "isHighFreq": true,
           "tags": [
             "application",
@@ -112,7 +112,7 @@
           "id": "M00-S02-K03",
           "en": "The knowledge test has 36 questions for a Class C license. You must answer at least 30 questions correctly (83%) to pass. You have 3 attempts to pass within the 12-month application period.",
           "zh": "C类驾照笔试共36道题，需答对至少30题（正确率83%）才能通过。在12个月的申请有效期内有3次考试机会。",
-          "zhHant": "C類駕照筆試共36道題，需答對至少30題（正確率83%）才能通過。在12個月的申請有效期內有3次考試機會。",
+          "zhHant": "C類駕駛執照筆試共36道題，需答對至少30題（正確率83%）才能通過。在12個月的申請有效期內有3次考試機會。",
           "isHighFreq": true,
           "tags": [
             "application",
@@ -123,7 +123,7 @@
           "id": "M00-S02-K04",
           "en": "Your instruction permit is valid for 12 months from the date your application is accepted. If you do not get your license within 12 months, you must reapply.",
           "zh": "学习许可证自申请被接受之日起有效期为12个月。如果12个月内没有拿到驾照，则需要重新申请。",
-          "zhHant": "學習許可證自申請被接受之日起有效期為12個月。如果12個月內沒有拿到駕照，則需要重新申請。",
+          "zhHant": "學車許可證自申請被接受之日起有效期為12個月。如果12個月內沒有拿到駕駛執照，則需要重新申請。",
           "isHighFreq": true,
           "tags": [
             "application",
@@ -156,7 +156,7 @@
           "id": "M00-S02-K07",
           "en": "A REAL ID compliant driver license or ID card requires additional documentation: proof of identity, proof of Social Security Number, and two proofs of California residency. Beginning May 2025, you must have a REAL ID to board domestic flights, enter military bases, or enter most federal facilities.",
           "zh": "申请符合REAL ID标准的驾照或身份证需要额外的文件：身份证明、社会安全号码证明以及两份加州居住证明。从2025年5月起，乘坐国内航班、进入军事基地或大多数联邦设施必须持有REAL ID。",
-          "zhHant": "申請符合REAL ID標準的駕照或身份證需要額外的文件：身份證明、社會安全號碼證明以及兩份加州居住證明。從2025年5月起，乘坐國內航班、進入軍事基地或大多數聯邦設施必須持有REAL ID。",
+          "zhHant": "申請符合REAL ID標準的駕駛執照或身份證需要額外的文件：身份證明、社會安全號碼證明以及兩份加州居住證明。從2025年5月起，乘坐國內航班、進入軍事基地或大多數聯邦設施必須持有REAL ID。",
           "isHighFreq": true,
           "isNew": true,
           "tags": [
@@ -168,7 +168,7 @@
           "id": "M00-S02-K08",
           "en": "When renewing your driver's license, eLearning may be an alternative testing option instead of the traditional knowledge test. This is a no-fail, self-paced interactive modulated course with quizzes after each module.",
           "zh": "续期驾照时，eLearning在线学习可以作为传统笔试的替代选项。这是一个不会不及格的、自定节奏的互动模块化课程，每个模块后有小测验。",
-          "zhHant": "續期駕照時，eLearning線上學習可以作為傳統筆試的替代選項。這是一個不會不及格的、自定節奏的互動模組化課程，每個模組後有小測驗。",
+          "zhHant": "續期駕駛執照時，eLearning線上學習可以作為傳統筆試的替代選項。這是一個不會不及格的、自定節奏的互動模組化課程，每個模組後有小測驗。",
           "isHighFreq": true,
           "isNew": true,
           "tags": [
@@ -207,13 +207,13 @@
       "id": "S03",
       "titleEn": "Provisional Licenses for Minors",
       "titleZh": "未成年人临时驾照",
-      "titleZhHant": "未成年人臨時駕照",
+      "titleZhHant": "未成年人臨時駕駛執照",
       "knowledgePoints": [
         {
           "id": "M00-S03-K01",
           "en": "Minors under 18 must hold a provisional instruction permit for at least 6 months before they can take the driving test.",
           "zh": "未满18岁的申请人必须持有临时学习许可证至少6个月后才能参加路考。",
-          "zhHant": "未滿18歲的申請人必須持有臨時學習許可證至少6個月後才能參加路考。",
+          "zhHant": "未滿18歲的申請人必須持有臨時學車許可證至少6個月後才能參加路考。",
           "isHighFreq": true,
           "tags": [
             "minor",
@@ -235,7 +235,7 @@
           "id": "M00-S03-K03",
           "en": "During the first 12 months after licensing, a minor may not drive between 11 PM and 5 AM, and may not transport passengers under 20 years of age unless accompanied by a licensed parent/guardian or a licensed driver 25 or older.",
           "zh": "未成年人拿到驾照后的前12个月内，不得在晚11点至凌晨5点之间驾车，且不得搭载20岁以下乘客，除非有持照的父母/监护人或25岁以上的持照驾驶员陪同。",
-          "zhHant": "未成年人拿到駕照後的前12個月內，不得在晚11點至凌晨5點之間駕車，且不得搭載20歲以下乘客，除非有持照的父母/監護人或25歲以上的持照駕駛員陪同。",
+          "zhHant": "未成年人拿到駕駛執照後的前12個月內，不得在晚11點至凌晨5點之間駕車，且不得搭載20歲以下乘客，除非有持照的父母/監護人或25歲以上的持照駕駛員陪同。",
           "isHighFreq": true,
           "tags": [
             "minor",
@@ -246,7 +246,7 @@
           "id": "M00-S03-K04",
           "en": "A minor with a provisional permit must be accompanied by a California-licensed parent/guardian, licensed driver 25 or older, or a licensed/certified driving instructor.",
           "zh": "持有临时学习许可证的未成年人驾车时，必须有持加州驾照的父母/监护人、25岁以上持照驾驶员或持证驾驶教练陪同。",
-          "zhHant": "持有臨時學習許可證的未成年人駕車時，必須有持加州駕照的父母/監護人、25歲以上持照駕駛員或持證駕駛教練陪同。",
+          "zhHant": "持有臨時學車許可證的未成年人駕車時，必須有持加州駕駛執照的父母/監護人、25歲以上持照駕駛員或持證駕駛教練陪同。",
           "isHighFreq": true,
           "tags": [
             "minor",
@@ -257,7 +257,7 @@
           "id": "M00-S03-K05",
           "en": "Minors must be at least 15 years and 6 months old to apply for an instruction permit, and must have completed driver education.",
           "zh": "未成年人必须年满15岁半才能申请学习许可证，且必须已完成驾驶教育课程。",
-          "zhHant": "未成年人必須年滿15歲半才能申請學習許可證，且必須已完成駕駛教育課程。",
+          "zhHant": "未成年人必須年滿15歲半才能申請學車許可證，且必須已完成駕駛教育課程。",
           "isHighFreq": true,
           "tags": [
             "minor",
@@ -281,13 +281,13 @@
       "id": "S04",
       "titleEn": "License Renewal and Senior Drivers",
       "titleZh": "驾照续期与老年驾驶员",
-      "titleZhHant": "駕照續期與老年駕駛員",
+      "titleZhHant": "駕駛執照續期與老年駕駛員",
       "knowledgePoints": [
         {
           "id": "M00-S04-K01",
           "en": "A standard California driver license is valid for 5 years. You will receive a renewal notice about 60 days before your license expires.",
           "zh": "加州标准驾照有效期为5年。驾照到期前约60天会收到续期通知。",
-          "zhHant": "加州標準駕照有效期為5年。駕照到期前約60天會收到續期通知。",
+          "zhHant": "加州標準駕駛執照有效期為5年。駕駛執照到期前約60天會收到續期通知。",
           "isHighFreq": true,
           "tags": [
             "renewal",
@@ -320,7 +320,7 @@
           "id": "M00-S04-K04",
           "en": "If your license has been expired for more than one year, you cannot renew it. You must apply for a new license and retake all tests.",
           "zh": "如果驾照过期超过一年，则无法续期，必须重新申请驾照并重新参加所有考试。",
-          "zhHant": "如果駕照過期超過一年，則無法續期，必須重新申請駕照並重新參加所有考試。",
+          "zhHant": "如果駕駛執照過期超過一年，則無法續期，必須重新申請駕駛執照並重新參加所有考試。",
           "isHighFreq": false,
           "tags": [
             "renewal",
@@ -331,7 +331,7 @@
           "id": "M00-S04-K05",
           "en": "It is illegal to drive with an expired license. Driving with an expired license may result in a traffic ticket.",
           "zh": "持过期驾照驾车属于违法行为，可能会被开罚单。",
-          "zhHant": "持過期駕照駕車屬於違法行為，可能會被開罰單。",
+          "zhHant": "持過期駕駛執照駕車屬於違法行為，可能會被開罰單。",
           "isHighFreq": false,
           "tags": [
             "renewal",
@@ -344,13 +344,13 @@
       "id": "S05",
       "titleEn": "Driver License Suspensions and Revocations",
       "titleZh": "驾照暂停与吊销",
-      "titleZhHant": "駕照暫停與吊銷",
+      "titleZhHant": "駕駛執照暫停與吊銷",
       "knowledgePoints": [
         {
           "id": "M00-S05-K01",
           "en": "Your license will be revoked if you are convicted of a DUI (driving under the influence) or hit-and-run resulting in injury.",
           "zh": "因酒驾（DUI）或肇事逃逸造成人员伤亡被定罪的，驾照将被吊销。",
-          "zhHant": "因酒駕（DUI）或肇事逃逸造成人員傷亡被定罪的，駕照將被吊銷。",
+          "zhHant": "因酒後駕駛（DUI）或肇事逃逸造成人員傷亡被定罪的，駕駛執照將被吊銷。",
           "isHighFreq": true,
           "tags": [
             "suspension",
@@ -361,7 +361,7 @@
           "id": "M00-S05-K02",
           "en": "If you refuse to take a chemical test (blood, breath, or urine) when lawfully requested by an officer, your license will be suspended for 1 year for a first offense.",
           "zh": "如果在执法人员合法要求下拒绝接受化学测试（血液、呼气或尿液），初犯将被暂停驾照1年。这就是加州的「默示同意法」。",
-          "zhHant": "如果在執法人員合法要求下拒絕接受化學測試（血液、呼氣或尿液），初犯將被暫停駕照1年。這就是加州的「默示同意法」。",
+          "zhHant": "如果在執法人員合法要求下拒絕接受化學測試（血液、呼氣或尿液），初犯將被暫停駕駛執照1年。這就是加州的「默示同意法」。",
           "isHighFreq": true,
           "tags": [
             "suspension",
@@ -372,7 +372,7 @@
           "id": "M00-S05-K03",
           "en": "The Negligent Operator Treatment System (NOTS) assigns points for traffic violations. Accumulating 4 points in 12 months, 6 in 24 months, or 8 in 36 months results in a suspension.",
           "zh": "过失驾驶员处理系统（NOTS）会对交通违规进行积分。12个月内累计4分、24个月内6分或36个月内8分将导致驾照暂停。",
-          "zhHant": "過失駕駛員處理系統（NOTS）會對交通違規進行積分。12個月內累計4分、24個月內6分或36個月內8分將導致駕照暫停。",
+          "zhHant": "過失駕駛員處理系統（NOTS）會對交通違規進行點數計算。12個月內累計4點、24個月內6點或36個月內8點將導致駕駛執照暫停。",
           "isHighFreq": true,
           "tags": [
             "suspension",
@@ -383,7 +383,7 @@
           "id": "M00-S05-K04",
           "en": "Most traffic convictions count as 1 point. Major violations such as DUI, hit-and-run, or reckless driving count as 2 points.",
           "zh": "大多数交通违规记1分。酒驾、肇事逃逸、鲁莽驾驶等严重违规记2分。",
-          "zhHant": "大多數交通違規記1分。酒駕、肇事逃逸、魯莽駕駛等嚴重違規記2分。",
+          "zhHant": "大多數交通違規記1點。酒後駕駛、肇事逃逸、魯莽駕駛等嚴重違規記2點。",
           "isHighFreq": true,
           "tags": [
             "suspension",
@@ -394,7 +394,7 @@
           "id": "M00-S05-K05",
           "en": "Your driving privilege will be suspended if you are involved in a collision and did not have proper insurance or financial responsibility at the time.",
           "zh": "如果发生事故时没有购买适当保险或不具备财务担保能力，驾驶权将被暂停。加州法律要求驾车时必须有保险。",
-          "zhHant": "如果發生事故時沒有購買適當保險或不具備財務擔保能力，駕駛權將被暫停。加州法律要求駕車時必須有保險。",
+          "zhHant": "如果發生碰撞時沒有購買適當保險或不具備財務擔保能力，駕駛權將被暫停。加州法律要求駕車時必須有保險。",
           "isHighFreq": true,
           "tags": [
             "suspension",
@@ -426,7 +426,7 @@
           "id": "M00-S06-K02",
           "en": "In California, only federal law enforcement officers can ask about your immigration status. State and local officers are prohibited from asking drivers or passengers about immigration status. You can decline to answer if asked by a California law enforcement officer.",
           "zh": "在加州，只有联邦执法人员可以询问您的移民身份。州和地方执法人员被禁止询问驾驶员或乘客的移民身份。如果加州执法人员询问，您可以拒绝回答。",
-          "zhHant": "在加州，只有聯邦執法人員可以詢問您的移民身份。州和地方執法人員被禁止詢問駕駛員或乘客的移民身份。如果加州執法人員詢問，您可以拒絕回答。",
+          "zhHant": "在加州，只有聯邦執法人員可以詢問你的移民身份。州和地方執法人員被禁止詢問駕駛員或乘客的移民身份。如果加州執法人員詢問，你可以拒絕回答。",
           "isHighFreq": true,
           "isNew": true,
           "tags": [
@@ -439,7 +439,7 @@
           "id": "M00-S06-K03",
           "en": "If an officer asks your permission to search your vehicle, you have the right to decline. However, the officer may have legal authority to search under certain circumstances. If you do not consent, clearly state that you do not give permission, but do not physically resist or obstruct.",
           "zh": "如果执法人员请求搜查您的车辆，您有权拒绝。但在某些情况下，执法人员可能有法律权力进行搜查。如果您不同意，请明确声明不给予许可，但不要进行身体抵抗或阻碍。",
-          "zhHant": "如果執法人員請求搜查您的車輛，您有權拒絕。但在某些情況下，執法人員可能有法律權力進行搜查。如果您不同意，請明確聲明不給予許可，但不要進行身體抵抗或阻礙。",
+          "zhHant": "如果執法人員請求搜查你的車輛，你有權拒絕。但在某些情況下，執法人員可能有法律權力進行搜查。如果你不同意，請明確聲明不給予許可，但不要進行身體抵抗或阻礙。",
           "isHighFreq": true,
           "isNew": true,
           "tags": [
@@ -452,7 +452,7 @@
           "id": "M00-S06-K04",
           "en": "All members of the public have a right to file a complaint against any law enforcement agency. It is against the law for any government employee to retaliate against you for filing a complaint. You have a right to be free from discrimination based on race, sex, ethnicity, national origin, age, religion, gender identity, sexual orientation, disability, or citizenship status.",
           "zh": "所有公众都有权对任何执法机构提出投诉。任何政府雇员因您提出投诉而进行报复都是违法的。您有权不受基于种族、性别、民族、国籍、年龄、宗教、性别认同、性取向、残疾或公民身份的歧视。",
-          "zhHant": "所有公眾都有權對任何執法機構提出投訴。任何政府僱員因您提出投訴而進行報復都是違法的。您有權不受基於種族、性別、民族、國籍、年齡、宗教、性別認同、性取向、殘疾或公民身份的歧視。",
+          "zhHant": "所有公眾都有權對任何執法機構提出投訴。任何政府僱員因你提出投訴而進行報復都是違法的。你有權不受基於種族、性別、民族、國籍、年齡、宗教、性別認同、性取向、殘疾或公民身份的歧視。",
           "isHighFreq": false,
           "isNew": true,
           "tags": [
@@ -465,7 +465,7 @@
           "id": "M00-S06-K05",
           "en": "You generally have the right to record interactions with law enforcement in public spaces under the First Amendment. An officer cannot confiscate your device, delete recordings, or destroy the device if your recording does not interfere with their duties. You generally have the right to deny a request to unlock your phone or provide a password.",
           "zh": "根据第一修正案，您通常有权在公共场所录制与执法人员的互动。如果录制不干扰执法人员履行职责，他们不得没收您的设备、删除录像或损坏设备。您通常有权拒绝解锁手机或提供密码的要求。",
-          "zhHant": "根據第一修正案，您通常有權在公共場所錄製與執法人員的互動。如果錄製不干擾執法人員履行職責，他們不得沒收您的設備、刪除錄像或損壞設備。您通常有權拒絕解鎖手機或提供密碼的要求。",
+          "zhHant": "根據第一修正案，你通常有權在公共場所錄製與執法人員的互動。如果錄製不干擾執法人員履行職責，他們不得沒收你的設備、刪除錄像或損壞設備。你通常有權拒絕解鎖手機或提供密碼的要求。",
           "isHighFreq": false,
           "isNew": true,
           "tags": [

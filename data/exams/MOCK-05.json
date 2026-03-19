@@ -1079,7 +1079,7 @@
     },
     {
       "id": "Q-MOCK05-036",
-      "stem_en": "When approaching a stationary emergency vehicle with flashing lights on the side of the road, you must:",
+      "stem_en": "When approaching any stationary vehicle with flashing lights on the side of the road, you must:",
       "options": [
         {
           "key": "A",
@@ -1103,15 +1103,15 @@
         }
       ],
       "answer": "B",
-      "explanation_en": "When approaching a stationary emergency vehicle or tow truck displaying flashing lights, move over to another lane if possible and slow down to pass safely.",
-      "explanation_zh": "当接近显示闪烁灯光的静止紧急车辆或拖车时，如果可能的话移到另一条车道并减速安全通过。",
+      "explanation_en": "The Move Over law requires you to change lanes or slow down when approaching ANY stationary vehicle on the side of the road — including emergency vehicles, highway maintenance vehicles, and any vehicle displaying flashing hazard lights or other warning devices.",
+      "explanation_zh": "让路法要求在接近路边任何停靠车辆时变道或减速——包括紧急车辆、公路养护车辆，以及任何开启危险警示灯或其他警示装置的车辆。",
       "module": "M09",
       "tags": [
         "safe-driving",
         "move-over-law"
       ],
-      "explanation_zhHant": "當接近显示閃烁燈光的静止緊急車輛或拖車時，如果可能的話移到另一條車道并減速安全通過。",
-      "stem_zhHant": "駛近路邊閃燈的停靠緊急車輛時，你必須：",
+      "explanation_zhHant": "讓路法要求在接近路邊任何停靠車輛時變道或減速——包括緊急車輛、公路養護車輛，以及任何開啟危險警示燈或其他警示裝置的車輛。",
+      "stem_zhHant": "駛近路邊閃燈的停靠車輛時，你必須：",
       "driverEd": false
     },
     {

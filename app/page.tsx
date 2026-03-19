@@ -16,6 +16,7 @@ import { LockedCard, FreeBadge } from "@/components/LockedOverlay";
 import { TestimonialCarousel } from "@/components/TestimonialCarousel";
 import { UILanguageSwitcher } from "@/components/UILanguageSwitcher";
 import { Tutorial } from "@/components/Tutorial";
+import { useUILanguageStore } from "@/store/useUILanguageStore";
 
 export default function Home() {
   const user = useAuthStore((s) => s.user);
@@ -25,6 +26,7 @@ export default function Home() {
   const [showAgeModal, setShowAgeModal] = useState(false);
   const [showOnboarding, setShowOnboarding] = useState(false);
   const t = useT();
+  const uiLang = useUILanguageStore((s) => s.uiLang);
   const moduleProgress = useProgressStore((s) => s.moduleProgress);
   const overallPercent = useProgressStore((s) => s.getOverallPercent)();
   const testResults = useProgressStore((s) => s.testResults);
@@ -65,7 +67,7 @@ export default function Home() {
             Ace Your California DMV Test
           </p>
           <p className="mt-0.5 text-sm text-text-light">
-            加州驾考双语学习平台
+            {uiLang === "zhHant" ? "加州駕照雙語學習平台" : uiLang === "zhHans" ? "加州驾考双语学习平台" : "Bilingual CA DMV Study Platform"}
           </p>
 
           {/* Language switcher */}
@@ -107,8 +109,8 @@ export default function Home() {
         <div className="mx-auto mt-8 max-w-lg px-4">
           <div className="grid grid-cols-4 gap-2 text-center">
             {[
-              { value: "460+", key: "landing.questions" as const },
-              { value: "12", key: "landing.modules" as const },
+              { value: "800+", key: "landing.questions" as const },
+              { value: "13", key: "landing.modules" as const },
               { value: "10", key: "landing.mockExams" as const },
               { value: "95%", key: "landing.passRate" as const },
             ].map((s) => (

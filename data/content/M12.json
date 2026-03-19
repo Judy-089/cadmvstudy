@@ -1,0 +1,131 @@
+{
+  "moduleId": "M12",
+  "titleEn": "2026 New California Laws",
+  "titleZh": "2026加州新法规",
+  "titleZhHant": "2026加州新法規",
+  "sections": [
+    {
+      "id": "S01",
+      "titleEn": "Road Safety Changes",
+      "titleZh": "道路安全变化",
+      "titleZhHant": "道路安全變化",
+      "knowledgePoints": [
+        {
+          "id": "M12-S01-K01",
+          "en": "School Zone Speed Limit Change (AB 382): Beginning January 1, 2031, the school zone speed limit will be lowered from 25 mph to 20 mph to help reduce speeding and save lives near schools. Until then, the current 25 mph limit remains in effect.",
+          "zh": "学校区域限速变更（AB 382）：从2031年1月1日起，学校区域限速将从25英里/小时降至20英里/小时，以减少超速并保护学校附近的生命安全。在此之前，现行的25英里/小时限速仍然有效。",
+          "zhHant": "學校區域限速變更（AB 382）：自2031年1月1日起，學校區域限速將從25哩/小時降至20哩/小時，以減少超速並保護學校附近的生命安全。在此之前，現行的25哩/小時限速仍然有效。",
+          "isHighFreq": true,
+          "isNew": true,
+          "tags": ["speed-limit", "school-zone"]
+        },
+        {
+          "id": "M12-S01-K02",
+          "en": "Expanded 'Slow Down, Move Over' Law (AB 390): The requirement to slow down and move over when approaching a stationary vehicle now applies to ALL stationary vehicles — not just emergency vehicles. This includes any vehicle displaying flashing hazard lights, marked highway maintenance vehicles, and vehicles with other warning devices.",
+          "zh": "扩展「减速让行」法（AB 390）：接近静止车辆时减速让行的要求现在适用于所有静止车辆——不仅仅是紧急车辆。这包括任何显示闪烁危险灯的车辆、标有高速公路维护标志的车辆，以及带有其他警告装置的车辆。",
+          "zhHant": "擴展「減速讓行」法（AB 390）：接近靜止車輛時減速讓行的要求現在適用於所有靜止車輛——不僅僅是緊急車輛。這包括任何顯示閃爍緊急閃光燈的車輛、標有高速公路維護標誌的車輛，以及帶有其他警告裝置的車輛。",
+          "isHighFreq": true,
+          "isNew": true,
+          "tags": ["move-over", "emergency"]
+        },
+        {
+          "id": "M12-S01-K03",
+          "en": "Automated Traffic Enforcement (SB 720): Local governments may now use automated camera systems to enforce red light violations. Violations recorded by these cameras are subject to civil penalties only (not criminal).",
+          "zh": "自动交通执法（SB 720）：地方政府现在可以使用自动摄像系统来执行闯红灯违规。这些摄像头记录的违规仅适用民事处罚（非刑事）。",
+          "zhHant": "自動交通執法（SB 720）：地方政府現在可以使用自動攝影系統來執行闖紅燈違規。這些攝影機記錄的違規僅適用民事處罰（非刑事）。",
+          "isHighFreq": true,
+          "isNew": true,
+          "tags": ["red-light", "camera"]
+        },
+        {
+          "id": "M12-S01-K04",
+          "en": "License Plate Obstruction (AB 1085): It is now an infraction with a fine of $1,000 to manufacture in California any product or device that obscures or interferes with the visual or electronic reading of a license plate. This targets illegal license plate covers used for toll evasion.",
+          "zh": "车牌遮挡（AB 1085）：在加州制造任何遮挡或干扰车牌视觉或电子读取的产品或装置，现在属于违规行为，罚款1,000美元。这针对的是用于逃避收费的非法车牌罩。",
+          "zhHant": "車牌遮擋（AB 1085）：在加州製造任何遮擋或干擾車牌視覺或電子讀取的產品或裝置，現在屬於違規行為，罰款$1,000美元。這針對的是用於逃避收費的非法車牌罩。",
+          "isHighFreq": false,
+          "isNew": true,
+          "tags": ["license-plate"]
+        },
+        {
+          "id": "M12-S01-K05",
+          "en": "Autonomous Vehicle Marker Lamps (SB 480): Autonomous vehicles (AVs) may now be equipped with automated driving system (ADS) marker lamps. These lamps notify other drivers, pedestrians, and law enforcement when the AV's self-driving system is activated.",
+          "zh": "自动驾驶车辆标志灯（SB 480）：自动驾驶车辆（AV）现在可以配备自动驾驶系统（ADS）标志灯。这些灯在自动驾驶系统启用时通知其他驾驶员、行人和执法人员。",
+          "zhHant": "自動駕駛車輛標誌燈（SB 480）：自動駕駛車輛（AV）現在可以配備自動駕駛系統（ADS）標誌燈。這些燈在自動駕駛系統啟用時通知其他駕駛員、行人和執法人員。",
+          "isHighFreq": false,
+          "isNew": true,
+          "tags": ["autonomous-vehicle"]
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "titleEn": "DUI Law Updates",
+      "titleZh": "DUI法规更新",
+      "titleZhHant": "DUI法規更新",
+      "knowledgePoints": [
+        {
+          "id": "M12-S02-K01",
+          "en": "IID Program Extended (AB 366): The statewide Ignition Interlock Device (IID) Pilot Program for DUI offenders has been extended to January 1, 2033. DUI offenders may be required to install an IID on their vehicle, which prevents the car from starting if alcohol is detected on the driver's breath.",
+          "zh": "IID项目延长（AB 366）：针对DUI违规者的全州点火互锁装置（IID）试点项目已延长至2033年1月1日。DUI违规者可能需要在车辆上安装IID，如果检测到驾驶员呼气中含有酒精，该装置将阻止车辆启动。",
+          "zhHant": "IID 項目延長（AB 366）：針對DUI違規者的全州點火互鎖裝置（IID）試點項目已延長至2033年1月1日。DUI違規者可能需要在車輛上安裝IID，如果檢測到駕駛員呼氣中含有酒精，該裝置將阻止車輛啟動。",
+          "isHighFreq": true,
+          "isNew": true,
+          "tags": ["dui", "iid"]
+        },
+        {
+          "id": "M12-S02-K02",
+          "en": "Increased DUI Probation (AB 1087): The probation period for vehicular manslaughter or gross vehicular manslaughter while intoxicated has been increased from 2 years to between 3 and 5 years.",
+          "zh": "DUI缓刑期增加（AB 1087）：醉酒驾车过失杀人或严重过失杀人的缓刑期从2年增加到3至5年。",
+          "zhHant": "DUI緩刑期增加（AB 1087）：醉酒駕車過失殺人或嚴重過失殺人的緩刑期從2年增加到3至5年。",
+          "isHighFreq": true,
+          "isNew": true,
+          "tags": ["dui", "probation"]
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "titleEn": "Consumer Protections & Other Changes",
+      "titleZh": "消费者保护与其他变化",
+      "titleZhHant": "消費者保護與其他變化",
+      "knowledgePoints": [
+        {
+          "id": "M12-S03-K01",
+          "en": "CARS Act — Vehicle Purchase Cancellation (SB 766): Effective October 1, 2026, dealers are prohibited from misrepresenting a vehicle's total cost and financing terms. Customers now have a three-day right to cancel the purchase or lease of a vehicle under $50,000.",
+          "zh": "CARS法案——车辆购买取消权（SB 766）：自2026年10月1日起，经销商不得虚假陈述车辆的总成本和融资条款。客户现在有三天的权利取消购买或租赁价格低于50,000美元的车辆。",
+          "zhHant": "CARS法案——車輛購買取消權（SB 766）：自2026年10月1日起，經銷商不得虛假陳述車輛的總成本和融資條款。客戶現在有三天的權利取消購買或租賃價格低於$50,000美元的車輛。",
+          "isHighFreq": false,
+          "isNew": true,
+          "tags": ["consumer-protection"]
+        },
+        {
+          "id": "M12-S03-K02",
+          "en": "Duplicate License for Address Change (SB 506): You can now request a duplicate driver's license from the DMV after changing your address. Previously, duplicate licenses were only issued when a license was lost, destroyed, or mutilated.",
+          "zh": "地址变更补办驾照（SB 506）：现在你可以在更改地址后向DMV申请补办驾驶执照。此前，补办驾照仅限于驾照丢失、损坏或毁损的情况。",
+          "zhHant": "地址變更補辦駕照（SB 506）：現在你可以在更改地址後向DMV申請補辦駕駛執照。此前，補辦駕照僅限於駕照遺失、損壞或毀損的情況。",
+          "isHighFreq": true,
+          "isNew": true,
+          "tags": ["license", "address-change"]
+        },
+        {
+          "id": "M12-S03-K03",
+          "en": "Parking Ticket Relief (AB 1299): Local governments can now waive or reduce parking penalties for people who are unable to pay. They must also provide a payment plan if requested, helping prevent escalating fines, vehicle towing, and lien sales.",
+          "zh": "停车罚单减免（AB 1299）：地方政府现在可以为无力支付的人减免停车罚款。如果申请人要求，还必须提供付款计划，以防止罚款升级、车辆被拖和留置权拍卖。",
+          "zhHant": "泊車罰單減免（AB 1299）：地方政府現在可以為無力支付的人減免泊車罰款。如果申請人要求，還必須提供付款計劃，以防止罰款升級、車輛被拖和留置權拍賣。",
+          "isHighFreq": false,
+          "isNew": true,
+          "tags": ["parking", "penalty"]
+        },
+        {
+          "id": "M12-S03-K04",
+          "en": "Off-Highway Electric Motorcycles (SB 586): 'Off-highway electric motorcycles' or 'eMoto' are now classified as off-highway motor vehicles (OHV). They must follow OHV rules, including displaying a DMV-issued identification plate or placard.",
+          "zh": "越野电动摩托车（SB 586）：「越野电动摩托车」或「eMoto」现在被归类为越野机动车辆（OHV）。它们必须遵守OHV规则，包括展示DMV颁发的识别牌或标牌。",
+          "zhHant": "越野電動摩托車（SB 586）：「越野電動摩托車」或「eMoto」現在被歸類為越野機動車輛（OHV）。它們必須遵守OHV規則，包括展示DMV頒發的識別牌或標牌。",
+          "isHighFreq": false,
+          "isNew": true,
+          "tags": ["motorcycle", "electric"]
+        }
+      ]
+    }
+  ]
+}

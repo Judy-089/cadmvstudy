@@ -17,7 +17,7 @@
             "speed-law",
             "basic"
           ],
-          "zhHant": "加州基本速度法規定：無論標示限速為多少，任何時候都不得以超過當前路况安全速度行駛。這是最基本的速度法原則。"
+          "zhHant": "加州「基本車速法」規定：無論標示限速為多少，任何時候都不得以超過當前路況安全速度行駛。這是最基本的速度法原則。"
         },
         {
           "id": "M04-S01-K02",
@@ -28,7 +28,7 @@
             "speed-limit",
             "highway"
           ],
-          "zhHant": "加州大多数高速公路最高限速為65英裡/小時。部分公路可能標示為70英裡/小時。"
+          "zhHant": "加州大多數高速公路最高限速為65哩/小時。部分公路可能標示為70哩/小時。"
         },
         {
           "id": "M04-S01-K03",
@@ -39,18 +39,20 @@
             "speed-limit",
             "residential"
           ],
-          "zhHant": "住宅區限速為25英裡/小時，除非另有標示。這是默認限速，即使沒有限速標誌也適用。"
+          "zhHant": "住宅區限速為25哩/小時，除非另有標示。這是默認限速，即使沒有限速標誌也適用。"
         },
         {
           "id": "M04-S01-K04",
-          "en": "The speed limit near schools when children are present is 25 mph. The speed limit in a school zone is 25 mph unless otherwise posted.",
-          "zh": "学校附近有儿童时限速为25英里/小时。学校区域限速为25英里/小时（除非另有标示）。看到儿童在附近一定要减速。",
+          "en": "The speed limit near schools when children are present is 25 mph. The speed limit in a school zone is 25 mph unless otherwise posted. Note: Beginning January 1, 2031, the default school zone speed limit will change to 20 mph (AB 382).",
+          "zh": "学校附近有儿童时限速为25英里/小时。学校区域限速为25英里/小时（除非另有标示）。看到儿童在附近一定要减速。注意：从2031年1月1日起，学校区域默认限速将变更为20英里/小时（AB 382法案）。",
           "isHighFreq": true,
+          "isNew": true,
           "tags": [
             "speed-limit",
-            "school"
+            "school",
+            "AB-382"
           ],
-          "zhHant": "學校附近有兒童時限速為25英裡/小時。學校區域限速為25英裡/小時（除非另有標示）。看到兒童在附近一定要減速。"
+          "zhHant": "學校周邊有兒童時限速為25哩/小時。學校周邊限速為25哩/小時（除非另有標示）。看到兒童在附近一定要減速。注意：從2031年1月1日起，學校區域預設限速將變更為20哩/小時（AB 382法案）。"
         },
         {
           "id": "M04-S01-K05",
@@ -61,7 +63,7 @@
             "speed-limit",
             "business"
           ],
-          "zhHant": "商業區限速為25英裡/小時，除非另有標示。"
+          "zhHant": "商業區限速為25哩/小時，除非另有標示。"
         },
         {
           "id": "M04-S01-K06",
@@ -72,7 +74,7 @@
             "speed-limit",
             "alley"
           ],
-          "zhHant": "小巷中的限速為15英裡/小時。這是加州最低的固定限速之一。"
+          "zhHant": "小巷限速為15哩/小時。這是加州最低的固定限速之一。"
         },
         {
           "id": "M04-S01-K07",
@@ -83,7 +85,7 @@
             "speed-limit",
             "railroad"
           ],
-          "zhHant": "在無法看到400英尺範圍鐵軌的鐵路道口，距道口100英尺以內限速為15英裡/小時。"
+          "zhHant": "在無法看到400呎範圍鐵軌的鐵路交叉口，距交叉口100呎以內限速為15哩/小時。"
         },
         {
           "id": "M04-S01-K08",
@@ -95,10 +97,10 @@
             "undivided-highway",
             "towing-trailer"
           ],
-          "zhHant": "雙車道無隔離帶公路的限速為55英裡/小時，除非另有標示。拖掛拖車的車輛在所有公路上的最高限速也是55英裡/小時。"
+          "zhHant": "雙行車線無分隔帶的高速公路限速為55哩/小時，除非另有標示。牽引車輛/拖車在所有公路上的最高限速也是55哩/小時。"
         }
       ],
-      "titleZhHant": "基本速度法與限速規定"
+      "titleZhHant": "「基本車速法」與限速規定"
     },
     {
       "id": "S02",
@@ -114,7 +116,7 @@
             "speed-adjustment",
             "conditions"
           ],
-          "zhHant": "在車流量大、惡劣天氣（雨、霧、雪）、狹窄或弯曲道路以及能見度差時應降低車速。即使未超過限速，速度過快也可能被罰。"
+          "zhHant": "在車流量大、惡劣天氣（雨、霧、雪）、狹窄或彎曲道路以及能見度差時應減速。即使未超過限速，速度過快也可能被罰。"
         },
         {
           "id": "M04-S02-K02",
@@ -125,7 +127,7 @@
             "speed-adjustment",
             "pedestrians"
           ],
-          "zhHant": "在行人、自行車騎行者或停放車輛附近行駛時，應降低速度并隨時準備停車。對突發情况要有心理準備，尤其是有兒童的地方。"
+          "zhHant": "在行人、自行車騎行者或停放車輛附近行駛時，應減速並隨時準備停車。對突發情況要有心理準備，尤其是有兒童的地方。"
         },
         {
           "id": "M04-S02-K03",
@@ -137,18 +139,18 @@
             "slow-driving",
             "slower-traffic-keep-right"
           ],
-          "zhHant": "開車太慢可能和開車太快一樣危險。如果阻擋了正常車流，應移到右側車道。在雙車道公路上，如果有5輛或以上車輛跟在後面，應靠右讓行。"
+          "zhHant": "開車太慢可能和開車太快一樣危險。如果阻擋了正常車流，應移到右側行車線。在雙行車線公路上，如果有5輛或以上車輛跟在後面，應靠右讓行。"
         },
         {
           "id": "M04-S02-K04",
           "en": "When towing a vehicle or trailer, or driving a truck with three or more axles, you must drive in the far-right lane or a lane marked for slower vehicles. If no lanes are marked and there are four or more lanes in your direction, you may only drive in the two lanes closest to the right edge of the road.",
           "zh": "当拖车或拖挂、或驾驶三轴及以上卡车时，你必须在最右车道或标有慢速车辆的车道行驶。如果没有标记的车道且你的方向有四条或更多车道，你只能在最靠近右侧路边的两条车道行驶。",
-          "zhHant": "當拖車或拖掛、或駕駛三軸及以上卡車時，你必須在最右車道或標有慢速車輛的車道行駛。如果沒有標記的車道且你的方向有四條或更多車道，你只能在最靠近右側路邊的兩條車道行駛。",
+          "zhHant": "當牽引車輛或拖車、或駕駛三軸及以上卡車時，你必須在最右行車線或標有慢速車輛的行車線行駛。如果沒有標記的行車線且你的方向有四條或更多行車線，你只能在最靠近右側路緣的兩條行車線行駛。",
           "isHighFreq": true,
           "tags": ["towing", "lane-position"]
         }
       ],
-      "titleZhHant": "根据路况調整車速"
+      "titleZhHant": "根據路況調整車速"
     },
     {
       "id": "S03",
@@ -166,7 +168,7 @@
             "worker-symbol",
             "shoulder-work"
           ],
-          "zhHant": "在有工人的公路施工或養護區域，交通違規的罰款可能加倍。"
+          "zhHant": "在有工人的公路施工區或養護區域，交通違規的罰款可能加倍。"
         },
         {
           "id": "M04-S03-K02",
@@ -179,7 +181,7 @@
             "worker-symbol",
             "road-machinery"
           ],
-          "zhHant": "遵守施工區域的標示限速。注意施工人員、慢速移動的設備和車道變化。"
+          "zhHant": "遵守施工區的標示限速。注意施工人員、慢速移動的設備和行車線變化。"
         },
         {
           "id": "M04-S03-K03",
@@ -190,10 +192,10 @@
             "special-area",
             "racing"
           ],
-          "zhHant": "在公共道路上進行競速（飙車）屬於違法行為。處罰包括罰款、駕照暫停，車輛可能被扣押最长30天。"
+          "zhHant": "在公共道路上進行爭賽車速/魯莽駕駛屬於違法行為。處罰包括罰款、駕照暫停，車輛可能被扣押最長30天。"
         }
       ],
-      "titleZhHant": "施工區域與特殊限速區"
+      "titleZhHant": "施工區與特殊限速區"
     }
   ],
   "titleZhHant": "速度法規"
