@@ -109,9 +109,9 @@ export default function Home() {
         <div className="mx-auto mt-8 max-w-lg px-4">
           <div className="grid grid-cols-4 gap-2 text-center">
             {[
-              { value: "800+", key: "landing.questions" as const },
+              { value: "870+", key: "landing.questions" as const },
               { value: "13", key: "landing.modules" as const },
-              { value: "10", key: "landing.mockExams" as const },
+              { value: "11", key: "landing.mockExams" as const },
               { value: "95%", key: "landing.passRate" as const },
             ].map((s) => (
               <div key={s.key} className="rounded-lg bg-white/70 p-2.5">

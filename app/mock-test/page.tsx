@@ -20,6 +20,7 @@ const mockExams = [
   { id: "MOCK-08", title: "Mock Exam 8", titleZh: "模拟考试 8", isNew: true },
   { id: "MOCK-09", title: "Mock Exam 9", titleZh: "模拟考试 9", isNew: true },
   { id: "MOCK-10", title: "Mock Exam 10", titleZh: "模拟考试 10", isNew: true },
+  { id: "MOCK-11", title: "Challenger Mode", titleZh: "挑戰模式", isNew: true },
 ];
 
 export default function MockTestPage() {

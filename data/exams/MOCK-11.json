@@ -1,0 +1,1569 @@
+{
+  "examId": "MOCK-11",
+  "questions": [
+    {
+      "id": "Q-MOCK11-001",
+      "stem_en": "When parking DOWNHILL on a street with a curb, you should turn your front wheels:",
+      "stem_zhHant": "在有路緣的下坡路段停車時，您應該將前輪轉向：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Straight ahead",
+          "text_zhHant": "朝正前方"
+        },
+        {
+          "key": "B",
+          "text_en": "Away from the curb (toward the road)",
+          "text_zhHant": "遠離路緣（朝向道路）"
+        },
+        {
+          "key": "C",
+          "text_en": "Toward the curb (into the curb)",
+          "text_zhHant": "朝向路緣（轉入路緣）"
+        },
+        {
+          "key": "D",
+          "text_en": "It does not matter which direction",
+          "text_zhHant": "方向無關緊要"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "When parking downhill with a curb, turn your front wheels toward the curb (into the curb). If your car rolls, it will roll into the curb and stop instead of rolling into traffic.",
+      "explanation_zh": "在有路缘的下坡停车时，将前轮转向路缘（转入路缘）。如果车辆滚动，它会滚入路缘并停下，而不是滚入车流。",
+      "explanation_zhHant": "在有路緣的下坡停車時，將前輪轉向路緣（轉入路緣）。如果車輛滾動，它會滾入路緣並停下，而不是滾入車流。",
+      "module": "M04",
+      "tags": ["hill-parking", "downhill", "curb"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-002",
+      "stem_en": "When parking UPHILL on a road with NO curb, you should turn your front wheels:",
+      "stem_zhHant": "在沒有路緣的上坡路段停車時，您應該將前輪轉向：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "To the left (toward the center of the road)",
+          "text_zhHant": "向左（朝向道路中心）"
+        },
+        {
+          "key": "B",
+          "text_en": "Straight ahead",
+          "text_zhHant": "朝正前方"
+        },
+        {
+          "key": "C",
+          "text_en": "To the right (toward the shoulder/edge of the road)",
+          "text_zhHant": "向右（朝向路肩／路邊）"
+        },
+        {
+          "key": "D",
+          "text_en": "It depends on the steepness of the hill",
+          "text_zhHant": "取決於山坡的陡度"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "When parking uphill or downhill with NO curb, always turn your front wheels to the right (toward the shoulder). If your car rolls, it will roll off the road instead of into traffic.",
+      "explanation_zh": "在没有路缘的上坡或下坡停车时，始终将前轮向右转（朝向路肩）。如果车辆滚动，它会滚离道路而不是滚入车流。",
+      "explanation_zhHant": "在沒有路緣的上坡或下坡停車時，始終將前輪向右轉（朝向路肩）。如果車輛滾動，它會滾離道路而不是滾入車流。",
+      "module": "M04",
+      "tags": ["hill-parking", "uphill", "no-curb"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-003",
+      "stem_en": "The ONLY thing that can lower your blood alcohol concentration (BAC) is:",
+      "stem_zhHant": "唯一能降低您血液酒精濃度（BAC）的方法是：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Drinking black coffee",
+          "text_zhHant": "喝黑咖啡"
+        },
+        {
+          "key": "B",
+          "text_en": "Taking a cold shower",
+          "text_zhHant": "洗冷水澡"
+        },
+        {
+          "key": "C",
+          "text_en": "Getting fresh air",
+          "text_zhHant": "呼吸新鮮空氣"
+        },
+        {
+          "key": "D",
+          "text_en": "Time",
+          "text_zhHant": "時間"
+        }
+      ],
+      "answer": "D",
+      "explanation_en": "Time is the only thing that can lower your BAC. Coffee, cold showers, fresh air, and exercise do NOT help you sober up faster. Your body needs time to process and eliminate alcohol.",
+      "explanation_zh": "时间是唯一能降低血液酒精浓度的方法。咖啡、冷水澡、新鲜空气和运动都不能帮助你更快地清醒。你的身体需要时间来处理和消除酒精。",
+      "explanation_zhHant": "時間是唯一能降低血液酒精濃度的方法。咖啡、冷水澡、新鮮空氣和運動都不能幫助您更快地清醒。您的身體需要時間來處理和消除酒精。",
+      "module": "M06",
+      "tags": ["BAC", "DUI", "alcohol"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-004",
+      "stem_en": "What is the legal BAC (blood alcohol concentration) limit for drivers under 21 years old in California?",
+      "stem_zhHant": "在加州，21歲以下駕駛人的合法血液酒精濃度（BAC）上限是多少？",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "0.08%",
+          "text_zhHant": "0.08%"
+        },
+        {
+          "key": "B",
+          "text_en": "0.05%",
+          "text_zhHant": "0.05%"
+        },
+        {
+          "key": "C",
+          "text_en": "0.01%",
+          "text_zhHant": "0.01%"
+        },
+        {
+          "key": "D",
+          "text_en": "0.04%",
+          "text_zhHant": "0.04%"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "California has a zero-tolerance law for drivers under 21. The legal BAC limit is 0.01%. Any detectable amount of alcohol can result in license suspension and penalties.",
+      "explanation_zh": "加州对21岁以下驾驶人实行零容忍法律。合法血液酒精浓度上限为0.01%。任何可检测到的酒精含量都可能导致驾照被吊销和受到处罚。",
+      "explanation_zhHant": "加州對21歲以下駕駛人實行零容忍法律。合法血液酒精濃度上限為0.01%。任何可檢測到的酒精含量都可能導致駕照被吊銷和受到處罰。",
+      "module": "M06",
+      "tags": ["BAC", "DUI", "under-21", "zero-tolerance"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-005",
+      "stem_en": "What is the legal BAC limit for commercial vehicle drivers in California?",
+      "stem_zhHant": "在加州，商用車駕駛人的合法血液酒精濃度上限是多少？",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "0.08%",
+          "text_zhHant": "0.08%"
+        },
+        {
+          "key": "B",
+          "text_en": "0.06%",
+          "text_zhHant": "0.06%"
+        },
+        {
+          "key": "C",
+          "text_en": "0.04%",
+          "text_zhHant": "0.04%"
+        },
+        {
+          "key": "D",
+          "text_en": "0.01%",
+          "text_zhHant": "0.01%"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "The legal BAC limit for commercial vehicle drivers is 0.04%, which is half the standard 0.08% limit for regular drivers. Commercial drivers are held to a stricter standard due to the size and weight of their vehicles.",
+      "explanation_zh": "商用车驾驶人的合法血液酒精浓度上限为0.04%，是普通驾驶人0.08%标准上限的一半。由于商用车辆的体积和重量，商用车驾驶人受到更严格的标准约束。",
+      "explanation_zhHant": "商用車駕駛人的合法血液酒精濃度上限為0.04%，是普通駕駛人0.08%標準上限的一半。由於商用車輛的體積和重量，商用車駕駛人受到更嚴格的標準約束。",
+      "module": "M06",
+      "tags": ["BAC", "DUI", "commercial-vehicle"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-006",
+      "stem_en": "In bad weather conditions such as heavy rain or fog, you should increase your following distance to at least:",
+      "stem_zhHant": "在大雨或霧等惡劣天氣條件下，您應將跟車距離增加到至少：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "2 seconds",
+          "text_zhHant": "2秒"
+        },
+        {
+          "key": "B",
+          "text_en": "3 seconds",
+          "text_zhHant": "3秒"
+        },
+        {
+          "key": "C",
+          "text_en": "4 seconds",
+          "text_zhHant": "4秒"
+        },
+        {
+          "key": "D",
+          "text_en": "5 seconds",
+          "text_zhHant": "5秒"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "In bad weather, increase your following distance to at least 4 seconds. The normal recommended following distance is 3 seconds, but poor conditions require extra space to stop safely.",
+      "explanation_zh": "在恶劣天气中，将跟车距离增加到至少4秒。正常的建议跟车距离为3秒，但恶劣条件需要更多空间来安全停车。",
+      "explanation_zhHant": "在惡劣天氣中，將跟車距離增加到至少4秒。正常的建議跟車距離為3秒，但惡劣條件需要更多空間來安全停車。",
+      "module": "M03",
+      "tags": ["following-distance", "bad-weather"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-007",
+      "stem_en": "When stopped behind another vehicle at a traffic light, you should be able to see:",
+      "stem_zhHant": "在紅綠燈後面停在另一輛車後方時，您應該能看到：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The driver's head through their rear window",
+          "text_zhHant": "通過他們的後窗看到駕駛人的頭部"
+        },
+        {
+          "key": "B",
+          "text_en": "The rear tires of the vehicle ahead touching the pavement",
+          "text_zhHant": "前方車輛的後輪接觸路面"
+        },
+        {
+          "key": "C",
+          "text_en": "The rear bumper of the vehicle ahead",
+          "text_zhHant": "前方車輛的後保險桿"
+        },
+        {
+          "key": "D",
+          "text_en": "The license plate of the vehicle ahead",
+          "text_zhHant": "前方車輛的車牌"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When stopped behind another vehicle, you should be able to see the rear tires of the vehicle ahead touching the pavement. This ensures adequate space to maneuver if needed and provides a safety buffer.",
+      "explanation_zh": "在另一辆车后面停车时，你应该能看到前方车辆的后轮接触路面。这确保了必要时有足够的空间进行操控，并提供安全缓冲。",
+      "explanation_zhHant": "在另一輛車後面停車時，您應該能看到前方車輛的後輪接觸路面。這確保了必要時有足夠的空間進行操控，並提供安全緩衝。",
+      "module": "M03",
+      "tags": ["following-distance", "stopped-vehicle"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-008",
+      "stem_en": "At a four-way stop, if two vehicles arrive at the same time, who has the right-of-way?",
+      "stem_zhHant": "在四向停車路口，如果兩輛車同時到達，誰有先行權？",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The vehicle on your left",
+          "text_zhHant": "您左邊的車輛"
+        },
+        {
+          "key": "B",
+          "text_en": "The vehicle on your right",
+          "text_zhHant": "您右邊的車輛"
+        },
+        {
+          "key": "C",
+          "text_en": "The vehicle going straight",
+          "text_zhHant": "直行的車輛"
+        },
+        {
+          "key": "D",
+          "text_en": "The larger vehicle",
+          "text_zhHant": "較大的車輛"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "At a four-way stop, if two vehicles arrive at the same time, yield to the vehicle on your right. This is a fundamental right-of-way rule in California.",
+      "explanation_zh": "在四向停车路口，如果两辆车同时到达，应让右边的车辆先行。这是加州基本的先行权规则。",
+      "explanation_zhHant": "在四向停車路口，如果兩輛車同時到達，應讓右邊的車輛先行。這是加州基本的先行權規則。",
+      "module": "M03",
+      "tags": ["right-of-way", "four-way-stop"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-009",
+      "stem_en": "On a narrow mountain road where only one vehicle can pass at a time, which vehicle must yield?",
+      "stem_zhHant": "在只能一輛車通過的狹窄山路上，哪輛車必須讓路？",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The vehicle going uphill must back up",
+          "text_zhHant": "上坡的車輛必須倒車"
+        },
+        {
+          "key": "B",
+          "text_en": "The vehicle going downhill must back up to let the uphill vehicle pass",
+          "text_zhHant": "下坡的車輛必須倒車讓上坡的車輛通過"
+        },
+        {
+          "key": "C",
+          "text_en": "The smaller vehicle must always yield",
+          "text_zhHant": "較小的車輛必須始終讓路"
+        },
+        {
+          "key": "D",
+          "text_en": "Whoever arrived last must back up",
+          "text_zhHant": "後到的車輛必須倒車"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "On a narrow mountain road, the vehicle going downhill must yield to the vehicle going uphill by backing up. The vehicle going uphill has the right-of-way because it is harder to back up uphill and to regain momentum.",
+      "explanation_zh": "在狭窄的山路上，下坡车辆必须通过倒车为上坡车辆让路。上坡车辆拥有先行权，因为上坡倒车更困难，且更难恢复行驶动力。",
+      "explanation_zhHant": "在狹窄的山路上，下坡車輛必須通過倒車為上坡車輛讓路。上坡車輛擁有先行權，因為上坡倒車更困難，且更難恢復行駛動力。",
+      "module": "M03",
+      "tags": ["right-of-way", "mountain-road"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-010",
+      "stem_en": "When entering a roundabout, you must:",
+      "stem_zhHant": "進入環形交叉路口時，您必須：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Speed up to merge quickly",
+          "text_zhHant": "加速以快速匯入"
+        },
+        {
+          "key": "B",
+          "text_en": "Stop and wait for all traffic to clear",
+          "text_zhHant": "停車等待所有車輛離開"
+        },
+        {
+          "key": "C",
+          "text_en": "Yield to traffic already in the roundabout",
+          "text_zhHant": "讓已在環形交叉路口內的車輛先行"
+        },
+        {
+          "key": "D",
+          "text_en": "Honk your horn to alert other drivers",
+          "text_zhHant": "按喇叭提醒其他駕駛人"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "When entering a roundabout, you must yield to traffic already in the roundabout. Slow down, look to your left, and enter when there is a safe gap in traffic.",
+      "explanation_zh": "进入环形交叉路口时，必须让已在环形交叉路口内的车辆先行。减速，向左看，在车流中有安全间隙时进入。",
+      "explanation_zhHant": "進入環形交叉路口時，必須讓已在環形交叉路口內的車輛先行。減速，向左看，在車流中有安全間隙時進入。",
+      "module": "M03",
+      "tags": ["right-of-way", "roundabout"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-011",
+      "stem_en": "A flashing yellow arrow at an intersection means:",
+      "stem_zhHant": "十字路口閃爍的黃色箭頭表示：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "You must stop before turning",
+          "text_zhHant": "轉彎前必須停車"
+        },
+        {
+          "key": "B",
+          "text_en": "You may turn but must first yield to oncoming traffic and pedestrians",
+          "text_zhHant": "您可以轉彎，但必須先讓對向車輛和行人先行"
+        },
+        {
+          "key": "C",
+          "text_en": "The turn lane is closed",
+          "text_zhHant": "轉彎車道已關閉"
+        },
+        {
+          "key": "D",
+          "text_en": "You have a protected turn and may proceed immediately",
+          "text_zhHant": "您有受保護的轉彎權，可以立即通行"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A flashing yellow arrow means you may turn in the direction of the arrow, but you must first yield to oncoming traffic and pedestrians. It indicates an unprotected turn, meaning you do not have the right-of-way.",
+      "explanation_zh": "闪烁的黄色箭头表示您可以朝箭头方向转弯，但必须先让对向车辆和行人先行。它表示非保护转弯，即您没有先行权。",
+      "explanation_zhHant": "閃爍的黃色箭頭表示您可以朝箭頭方向轉彎，但必須先讓對向車輛和行人先行。它表示非保護轉彎，即您沒有先行權。",
+      "module": "M02",
+      "tags": ["traffic-signals", "flashing-yellow-arrow"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-012",
+      "stem_en": "At an intersection with a solid red arrow, you:",
+      "stem_zhHant": "在有紅色實心箭頭的路口，您：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "May turn right after stopping, just like a solid red light",
+          "text_zhHant": "可以像紅燈一樣停車後右轉"
+        },
+        {
+          "key": "B",
+          "text_en": "May turn if there is no oncoming traffic",
+          "text_zhHant": "如果沒有對向車流可以轉彎"
+        },
+        {
+          "key": "C",
+          "text_en": "Must NOT turn in the direction of the arrow until the arrow turns green",
+          "text_zhHant": "在箭頭變綠之前不得朝箭頭方向轉彎"
+        },
+        {
+          "key": "D",
+          "text_en": "Must slow down and proceed with caution",
+          "text_zhHant": "必須減速並謹慎通行"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A solid red arrow means you must NOT turn in the direction of the arrow until it turns green. Unlike a solid red light (where you can turn right after stopping), a red arrow prohibits all turns in that direction.",
+      "explanation_zh": "红色实心箭头表示在箭头变绿之前不得朝该方向转弯。与红色实心圆灯（停车后可以右转）不同，红色箭头禁止朝该方向的所有转弯。",
+      "explanation_zhHant": "紅色實心箭頭表示在箭頭變綠之前不得朝該方向轉彎。與紅色實心圓燈（停車後可以右轉）不同，紅色箭頭禁止朝該方向的所有轉彎。",
+      "module": "M02",
+      "tags": ["traffic-signals", "red-arrow"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-013",
+      "stem_en": "If a traffic signal is completely dark (not working), you should:",
+      "stem_zhHant": "如果交通號誌完全熄滅（不工作），您應該：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Proceed through the intersection without stopping",
+          "text_zhHant": "不停車直接通過路口"
+        },
+        {
+          "key": "B",
+          "text_en": "Treat it as a four-way stop",
+          "text_zhHant": "將其視為四向停車路口"
+        },
+        {
+          "key": "C",
+          "text_en": "Yield only if you see other vehicles",
+          "text_zhHant": "只有看到其他車輛時才讓行"
+        },
+        {
+          "key": "D",
+          "text_en": "Turn around and find another route",
+          "text_zhHant": "掉頭尋找另一條路線"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When a traffic signal is completely dark or not functioning, treat the intersection as a four-way stop. Come to a complete stop and yield to any vehicle or pedestrian that arrived first.",
+      "explanation_zh": "当交通信号灯完全熄灭或不工作时，将路口视为四向停车路口。完全停车并让先到达的车辆或行人先行。",
+      "explanation_zhHant": "當交通號誌完全熄滅或不工作時，將路口視為四向停車路口。完全停車並讓先到達的車輛或行人先行。",
+      "module": "M02",
+      "tags": ["traffic-signals", "dark-signal"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-014",
+      "stem_en": "Double solid white lines on the road mean:",
+      "stem_zhHant": "道路上的雙白實線表示：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "You may change lanes with caution",
+          "text_zhHant": "您可以謹慎變換車道"
+        },
+        {
+          "key": "B",
+          "text_en": "The road is about to end",
+          "text_zhHant": "道路即將結束"
+        },
+        {
+          "key": "C",
+          "text_en": "You may NOT change lanes or cross the lines",
+          "text_zhHant": "您不得變換車道或跨越這些線"
+        },
+        {
+          "key": "D",
+          "text_en": "Bicycle lane ahead",
+          "text_zhHant": "前方有自行車道"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Double solid white lines mean you may not change lanes or cross the lines for any reason. These are often seen at freeway on/off ramps and toll plazas.",
+      "explanation_zh": "双白实线表示你不得以任何理由变换车道或跨越这些线。这些线常见于高速公路入口/出口匝道和收费站。",
+      "explanation_zhHant": "雙白實線表示您不得以任何理由變換車道或跨越這些線。這些線常見於高速公路入口／出口匝道和收費站。",
+      "module": "M02",
+      "tags": ["lane-markings", "double-white-lines"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-015",
+      "stem_en": "A two-way left-turn lane (marked with double yellow lines and inner dashes) may be used for:",
+      "stem_zhHant": "雙向左轉車道（以雙黃線和內側虛線標記）可用於：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Passing slower vehicles",
+          "text_zhHant": "超越較慢的車輛"
+        },
+        {
+          "key": "B",
+          "text_en": "Making left turns only, and you may not travel more than 200 feet in it",
+          "text_zhHant": "僅用於左轉，且在其中行駛不得超過200呎"
+        },
+        {
+          "key": "C",
+          "text_en": "Driving to bypass heavy traffic",
+          "text_zhHant": "繞過擁擠車流行駛"
+        },
+        {
+          "key": "D",
+          "text_en": "Merging onto the highway",
+          "text_zhHant": "匯入高速公路"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A two-way left-turn lane may only be used for making left turns. You may not travel more than 200 feet in this lane. It is illegal to use it for passing or as a regular travel lane.",
+      "explanation_zh": "双向左转车道只能用于左转。你在此车道中行驶不得超过200英尺。将其用于超车或作为常规行驶车道是违法的。",
+      "explanation_zhHant": "雙向左轉車道只能用於左轉。您在此車道中行駛不得超過200呎。將其用於超車或作為常規行駛車道是違法的。",
+      "module": "M02",
+      "tags": ["lane-markings", "two-way-left-turn"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-016",
+      "stem_en": "The speed limit at a blind intersection where you cannot see for 100 feet in either direction is:",
+      "stem_zhHant": "在無法看到任一方向100呎的盲區交叉路口，速限為：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "25 mph",
+          "text_zhHant": "25英里/小時"
+        },
+        {
+          "key": "B",
+          "text_en": "20 mph",
+          "text_zhHant": "20英里/小時"
+        },
+        {
+          "key": "C",
+          "text_en": "15 mph",
+          "text_zhHant": "15英里/小時"
+        },
+        {
+          "key": "D",
+          "text_en": "10 mph",
+          "text_zhHant": "10英里/小時"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "The speed limit at a blind intersection where you cannot see 100 feet in either direction is 15 mph. This applies to intersections with no stop signs, yield signs, or traffic signals where buildings or vegetation block your view.",
+      "explanation_zh": "在无法看到任一方向100英尺的盲区交叉路口，速限为15英里/小时。这适用于没有停车标志、让行标志或交通信号灯且建筑物或植被遮挡视线的路口。",
+      "explanation_zhHant": "在無法看到任一方向100呎的盲區交叉路口，速限為15英里／小時。這適用於沒有停車標誌、讓行標誌或交通號誌且建築物或植被遮擋視線的路口。",
+      "module": "M03",
+      "tags": ["speed-limit", "blind-intersection"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-017",
+      "stem_en": "The speed limit when driving in an alley is:",
+      "stem_zhHant": "在巷道中駕駛的速限為：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "25 mph",
+          "text_zhHant": "25英里/小時"
+        },
+        {
+          "key": "B",
+          "text_en": "20 mph",
+          "text_zhHant": "20英里/小時"
+        },
+        {
+          "key": "C",
+          "text_en": "15 mph",
+          "text_zhHant": "15英里/小時"
+        },
+        {
+          "key": "D",
+          "text_en": "10 mph",
+          "text_zhHant": "10英里/小時"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "The speed limit when driving in an alley is 15 mph. Alleys are narrow and often have limited visibility, so a lower speed limit is required for safety.",
+      "explanation_zh": "在巷道中驾驶的速限为15英里/小时。巷道狭窄且通常能见度有限，因此需要较低的速限以确保安全。",
+      "explanation_zhHant": "在巷道中駕駛的速限為15英里／小時。巷道狹窄且通常能見度有限，因此需要較低的速限以確保安全。",
+      "module": "M03",
+      "tags": ["speed-limit", "alley"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-018",
+      "stem_en": "You may NOT pass another vehicle within ___ feet of an intersection or railroad crossing.",
+      "stem_zhHant": "您不得在距離十字路口或鐵路平交道___呎內超越其他車輛。",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "50 feet",
+          "text_zhHant": "50呎"
+        },
+        {
+          "key": "B",
+          "text_en": "100 feet",
+          "text_zhHant": "100呎"
+        },
+        {
+          "key": "C",
+          "text_en": "200 feet",
+          "text_zhHant": "200呎"
+        },
+        {
+          "key": "D",
+          "text_en": "300 feet",
+          "text_zhHant": "300呎"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You may not pass another vehicle within 100 feet of an intersection or railroad crossing. These areas have increased hazards and reduced visibility, making passing dangerous.",
+      "explanation_zh": "你不得在距离十字路口或铁路平交道100英尺内超越其他车辆。这些区域危险增加且能见度降低，超车很危险。",
+      "explanation_zhHant": "您不得在距離十字路口或鐵路平交道100呎內超越其他車輛。這些區域危險增加且能見度降低，超車很危險。",
+      "module": "M03",
+      "tags": ["passing", "intersection", "railroad"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-019",
+      "stem_en": "You may pass another vehicle on the right only when:",
+      "stem_zhHant": "您只有在以下情況下才可以從右側超車：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The vehicle ahead is driving too slowly",
+          "text_zhHant": "前方車輛行駛太慢"
+        },
+        {
+          "key": "B",
+          "text_en": "The vehicle ahead is making a left turn and there is sufficient room to pass safely",
+          "text_zhHant": "前方車輛正在左轉且有足夠空間安全超車"
+        },
+        {
+          "key": "C",
+          "text_en": "You are in a hurry to reach your destination",
+          "text_zhHant": "您趕著到達目的地"
+        },
+        {
+          "key": "D",
+          "text_en": "There is no oncoming traffic",
+          "text_zhHant": "沒有對向車流"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You may pass on the right only when the vehicle ahead is making or about to make a left turn, and there is sufficient room on the right side of the road for you to pass safely.",
+      "explanation_zh": "只有当前方车辆正在或即将左转，且道路右侧有足够空间供你安全超车时，才可以从右侧超车。",
+      "explanation_zhHant": "只有當前方車輛正在或即將左轉，且道路右側有足夠空間供您安全超車時，才可以從右側超車。",
+      "module": "M03",
+      "tags": ["passing", "pass-on-right"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-020",
+      "stem_en": "You do NOT need to stop for a school bus with flashing red lights when:",
+      "stem_zhHant": "當校車閃爍紅燈時，您不需要停車的情況是：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "You are driving on the opposite side of a road divided by a physical barrier or median",
+          "text_zhHant": "您在被實體隔離帶或中央分隔帶分隔的道路對面行駛"
+        },
+        {
+          "key": "B",
+          "text_en": "You are more than 500 feet away",
+          "text_zhHant": "您距離超過500呎"
+        },
+        {
+          "key": "C",
+          "text_en": "You are in a designated carpool lane",
+          "text_zhHant": "您在指定的共乘車道上"
+        },
+        {
+          "key": "D",
+          "text_en": "There are no children visible",
+          "text_zhHant": "看不到兒童"
+        }
+      ],
+      "answer": "A",
+      "explanation_en": "You do not need to stop for a school bus with flashing red lights if you are on the opposite side of a road that is divided by a physical barrier or raised median. However, on undivided roads, all traffic in both directions must stop.",
+      "explanation_zh": "如果你在被实体隔离带或凸起的中央分隔带分隔的道路对面行驶，则不需要为闪烁红灯的校车停车。但在没有分隔的道路上，双向所有车辆都必须停车。",
+      "explanation_zhHant": "如果您在被實體隔離帶或凸起的中央分隔帶分隔的道路對面行駛，則不需要為閃爍紅燈的校車停車。但在沒有分隔的道路上，雙向所有車輛都必須停車。",
+      "module": "M07",
+      "tags": ["school-bus", "flashing-red"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-021",
+      "stem_en": "The maximum fine for illegally passing a stopped school bus can be up to:",
+      "stem_zhHant": "非法超越停靠校車的最高罰款可達：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "$250",
+          "text_zhHant": "$250"
+        },
+        {
+          "key": "B",
+          "text_en": "$500",
+          "text_zhHant": "$500"
+        },
+        {
+          "key": "C",
+          "text_en": "$1,000",
+          "text_zhHant": "$1,000"
+        },
+        {
+          "key": "D",
+          "text_en": "$2,500",
+          "text_zhHant": "$2,500"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "The fine for illegally passing a stopped school bus with flashing red lights can be up to $1,000. This is a serious violation because it puts children's lives at risk.",
+      "explanation_zh": "非法超越闪烁红灯的停靠校车的罚款可高达$1,000。这是一项严重违规，因为它危及儿童的生命安全。",
+      "explanation_zhHant": "非法超越閃爍紅燈的停靠校車的罰款可高達$1,000。這是一項嚴重違規，因為它危及兒童的生命安全。",
+      "module": "M07",
+      "tags": ["school-bus", "fine"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-022",
+      "stem_en": "When following a fire engine responding to an emergency, you must stay at least ___ feet behind it.",
+      "stem_zhHant": "跟隨正在執行緊急任務的消防車時，您必須保持至少___呎的距離。",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "100 feet",
+          "text_zhHant": "100呎"
+        },
+        {
+          "key": "B",
+          "text_en": "200 feet",
+          "text_zhHant": "200呎"
+        },
+        {
+          "key": "C",
+          "text_en": "300 feet",
+          "text_zhHant": "300呎"
+        },
+        {
+          "key": "D",
+          "text_en": "500 feet",
+          "text_zhHant": "500呎"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "You must not follow within 300 feet of any fire engine, police vehicle, ambulance, or other emergency vehicle that is answering an emergency call. This gives the emergency vehicle room to operate safely.",
+      "explanation_zh": "你不得在任何正在响应紧急呼叫的消防车、警车、救护车或其他紧急车辆后方300英尺内跟随。这为紧急车辆提供了安全操作的空间。",
+      "explanation_zhHant": "您不得在任何正在響應緊急呼叫的消防車、警車、救護車或其他緊急車輛後方300呎內跟隨。這為緊急車輛提供了安全操作的空間。",
+      "module": "M07",
+      "tags": ["emergency-vehicle", "following-distance"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-023",
+      "stem_en": "Under California's expanded Move Over law, when approaching a stationary vehicle with flashing lights on the roadside, you must:",
+      "stem_zhHant": "根據加州擴大的「減速讓路」法律，當您接近路邊閃爍燈光的靜止車輛時，您必須：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Only move over for emergency vehicles",
+          "text_zhHant": "僅為緊急車輛讓路"
+        },
+        {
+          "key": "B",
+          "text_en": "Slow down and, if safe, move over a lane for ANY stationary vehicle displaying flashing or amber lights",
+          "text_zhHant": "減速，如果安全的話，為任何顯示閃爍或琥珀色燈光的靜止車輛讓出一個車道"
+        },
+        {
+          "key": "C",
+          "text_en": "Maintain your current speed and lane",
+          "text_zhHant": "保持您目前的速度和車道"
+        },
+        {
+          "key": "D",
+          "text_en": "Stop completely until the vehicle moves",
+          "text_zhHant": "完全停車直到車輛移動"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "California's expanded Move Over law requires drivers to slow down and, when safe, move over a lane for ANY stationary vehicle displaying flashing or amber warning lights, not just emergency vehicles. This includes tow trucks, Caltrans vehicles, and disabled vehicles.",
+      "explanation_zh": "加州扩大的「减速让路」法律要求驾驶人减速，并在安全时为任何显示闪烁或琥珀色警告灯的静止车辆让出一个车道，不仅限于紧急车辆。这包括拖车、加州交通局车辆和故障车辆。",
+      "explanation_zhHant": "加州擴大的「減速讓路」法律要求駕駛人減速，並在安全時為任何顯示閃爍或琥珀色警告燈的靜止車輛讓出一個車道，不僅限於緊急車輛。這包括拖車、加州交通局車輛和故障車輛。",
+      "module": "M07",
+      "tags": ["move-over-law", "emergency-vehicle"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-024",
+      "stem_en": "You must not park within ___ feet of a fire hydrant.",
+      "stem_zhHant": "您不得在消防栓___呎範圍內停車。",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "10 feet",
+          "text_zhHant": "10呎"
+        },
+        {
+          "key": "B",
+          "text_en": "15 feet",
+          "text_zhHant": "15呎"
+        },
+        {
+          "key": "C",
+          "text_en": "20 feet",
+          "text_zhHant": "20呎"
+        },
+        {
+          "key": "D",
+          "text_en": "25 feet",
+          "text_zhHant": "25呎"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You must not park within 15 feet of a fire hydrant. Parking too close to a hydrant can prevent firefighters from accessing water during an emergency.",
+      "explanation_zh": "你不得在消防栓15英尺范围内停车。在消防栓附近停车太近会妨碍消防员在紧急情况下取水。",
+      "explanation_zhHant": "您不得在消防栓15呎範圍內停車。在消防栓附近停車太近會妨礙消防員在緊急情況下取水。",
+      "module": "M04",
+      "tags": ["parking", "fire-hydrant"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-025",
+      "stem_en": "You must not park within ___ feet of a railroad track.",
+      "stem_zhHant": "您不得在鐵軌___呎範圍內停車。",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "5 feet",
+          "text_zhHant": "5呎"
+        },
+        {
+          "key": "B",
+          "text_en": "7.5 feet",
+          "text_zhHant": "7.5呎"
+        },
+        {
+          "key": "C",
+          "text_en": "10 feet",
+          "text_zhHant": "10呎"
+        },
+        {
+          "key": "D",
+          "text_en": "15 feet",
+          "text_zhHant": "15呎"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You must not park within 7.5 feet (7½ feet) of a railroad track. This ensures vehicles do not obstruct the path of trains and allows clearance for railroad operations.",
+      "explanation_zh": "你不得在铁轨7.5英尺（7½英尺）范围内停车。这确保车辆不会阻碍火车通行并为铁路运营留出间隙。",
+      "explanation_zhHant": "您不得在鐵軌7.5呎（7½呎）範圍內停車。這確保車輛不會阻礙火車通行並為鐵路運營留出間隙。",
+      "module": "M04",
+      "tags": ["parking", "railroad"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-026",
+      "stem_en": "A red painted curb means:",
+      "stem_zhHant": "紅色路緣表示：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Parking for disabled persons only",
+          "text_zhHant": "僅限殘障人士停車"
+        },
+        {
+          "key": "B",
+          "text_en": "No stopping, standing, or parking at any time",
+          "text_zhHant": "任何時候都不得停靠、站立或停車"
+        },
+        {
+          "key": "C",
+          "text_en": "Limited-time parking for passengers or mail",
+          "text_zhHant": "限時停車接送乘客或郵件"
+        },
+        {
+          "key": "D",
+          "text_en": "Loading zone for commercial vehicles only",
+          "text_zhHant": "僅限商用車輛裝卸區"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "A red painted curb means no stopping, standing, or parking at any time. This is the most restrictive curb color. Do not stop even briefly to drop off or pick up passengers.",
+      "explanation_zh": "红色路缘表示任何时候都不得停靠、站立或停车。这是最严格的路缘颜色。即使短暂停车接送乘客也不允许。",
+      "explanation_zhHant": "紅色路緣表示任何時候都不得停靠、站立或停車。這是最嚴格的路緣顏色。即使短暫停車接送乘客也不允許。",
+      "module": "M04",
+      "tags": ["parking", "curb-color", "red-curb"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-027",
+      "stem_en": "When passing a bicyclist, you must give at least ___ of clearance.",
+      "stem_zhHant": "超越自行車騎士時，您必須保持至少___的間隔距離。",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "2 feet",
+          "text_zhHant": "2呎"
+        },
+        {
+          "key": "B",
+          "text_en": "3 feet",
+          "text_zhHant": "3呎"
+        },
+        {
+          "key": "C",
+          "text_en": "4 feet",
+          "text_zhHant": "4呎"
+        },
+        {
+          "key": "D",
+          "text_en": "5 feet",
+          "text_zhHant": "5呎"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When passing a bicyclist, you must provide at least 3 feet of clearance between your vehicle and the cyclist. If you cannot give 3 feet of space, slow down to a safe speed and pass when it is safe to do so.",
+      "explanation_zh": "超越自行车骑士时，你的车辆与骑车人之间必须保持至少3英尺的间隔距离。如果无法提供3英尺的空间，请减速至安全速度，并在安全时超车。",
+      "explanation_zhHant": "超越自行車騎士時，您的車輛與騎車人之間必須保持至少3呎的間隔距離。如果無法提供3呎的空間，請減速至安全速度，並在安全時超車。",
+      "module": "M07",
+      "tags": ["bicycle", "passing-clearance"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-028",
+      "stem_en": "You may drive in a bicycle lane within ___ feet of making a turn at an intersection.",
+      "stem_zhHant": "您可以在距離路口轉彎___呎內駛入自行車道。",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "100 feet",
+          "text_zhHant": "100呎"
+        },
+        {
+          "key": "B",
+          "text_en": "200 feet",
+          "text_zhHant": "200呎"
+        },
+        {
+          "key": "C",
+          "text_en": "300 feet",
+          "text_zhHant": "300呎"
+        },
+        {
+          "key": "D",
+          "text_en": "You may never drive in a bicycle lane",
+          "text_zhHant": "您永遠不可以駛入自行車道"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You may enter a bicycle lane no more than 200 feet before making a turn at an intersection. You must check for bicyclists first and signal before entering the bike lane.",
+      "explanation_zh": "你可以在距离路口转弯不超过200英尺处进入自行车道。你必须先查看有无自行车骑士，并在进入自行车道前打转向灯。",
+      "explanation_zhHant": "您可以在距離路口轉彎不超過200呎處進入自行車道。您必須先查看有無自行車騎士，並在進入自行車道前打轉向燈。",
+      "module": "M07",
+      "tags": ["bicycle", "bicycle-lane"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-029",
+      "stem_en": "You must dim your high-beam headlights within ___ feet of an oncoming vehicle.",
+      "stem_zhHant": "您必須在距離對向車輛___呎內切換為近光燈。",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "200 feet",
+          "text_zhHant": "200呎"
+        },
+        {
+          "key": "B",
+          "text_en": "300 feet",
+          "text_zhHant": "300呎"
+        },
+        {
+          "key": "C",
+          "text_en": "500 feet",
+          "text_zhHant": "500呎"
+        },
+        {
+          "key": "D",
+          "text_en": "1,000 feet",
+          "text_zhHant": "1,000呎"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "You must dim your high beams within 500 feet of an oncoming vehicle. You must also dim them within 300 feet when following another vehicle. High beams can blind other drivers and cause accidents.",
+      "explanation_zh": "你必须在距离对向车辆500英尺内切换为近光灯。跟随其他车辆时，必须在300英尺内切换。远光灯可能使其他驾驶人致盲并导致事故。",
+      "explanation_zhHant": "您必須在距離對向車輛500呎內切換為近光燈。跟隨其他車輛時，必須在300呎內切換。遠光燈可能使其他駕駛人致盲並導致事故。",
+      "module": "M05",
+      "tags": ["headlights", "high-beams"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-030",
+      "stem_en": "You are required to turn on your headlights when you cannot see clearly from ___ away.",
+      "stem_zhHant": "當您無法看清___以外的距離時，必須開啟車頭燈。",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "500 feet",
+          "text_zhHant": "500呎"
+        },
+        {
+          "key": "B",
+          "text_en": "750 feet",
+          "text_zhHant": "750呎"
+        },
+        {
+          "key": "C",
+          "text_en": "1,000 feet",
+          "text_zhHant": "1,000呎"
+        },
+        {
+          "key": "D",
+          "text_en": "1,500 feet",
+          "text_zhHant": "1,500呎"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "You must turn on your headlights when you cannot see clearly from 1,000 feet away. This rule applies during darkness, rain, fog, snow, or any other conditions that reduce visibility.",
+      "explanation_zh": "当你无法看清1,000英尺以外的距离时，必须开启车头灯。此规则适用于黑暗、雨天、雾天、雪天或任何其他降低能见度的条件。",
+      "explanation_zhHant": "當您無法看清1,000呎以外的距離時，必須開啟車頭燈。此規則適用於黑暗、雨天、霧天、雪天或任何其他降低能見度的條件。",
+      "module": "M05",
+      "tags": ["headlights", "visibility"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-031",
+      "stem_en": "If your vehicle is equipped with four-wheel anti-lock brakes (ABS) and begins to skid, you should:",
+      "stem_zhHant": "如果您配備四輪防鎖死煞車系統（ABS）的車輛開始打滑，您應該：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Pump the brake pedal rapidly",
+          "text_zhHant": "快速踩放煞車踏板"
+        },
+        {
+          "key": "B",
+          "text_en": "Apply firm, steady pressure on the brake pedal",
+          "text_zhHant": "穩定地持續踩住煞車踏板"
+        },
+        {
+          "key": "C",
+          "text_en": "Take your foot off the brake and coast to a stop",
+          "text_zhHant": "將腳從煞車上移開，滑行至停止"
+        },
+        {
+          "key": "D",
+          "text_en": "Shift to neutral and use the parking brake",
+          "text_zhHant": "換到空檔並使用駐車煞車"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "With ABS (anti-lock brakes), apply firm, steady pressure on the brake pedal. Do NOT pump ABS brakes — the system automatically pumps the brakes for you to prevent wheel lock-up.",
+      "explanation_zh": "使用ABS（防抱死制动系统）时，稳定地持续踩住刹车踏板。不要踩放ABS刹车——系统会自动为你脉冲制动以防止车轮锁死。",
+      "explanation_zhHant": "使用ABS（防鎖死煞車系統）時，穩定地持續踩住煞車踏板。不要踩放ABS煞車——系統會自動為您脈衝制動以防止車輪鎖死。",
+      "module": "M05",
+      "tags": ["skid-recovery", "ABS", "braking"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-032",
+      "stem_en": "If the rear of your car starts to slide to the RIGHT during a skid, you should steer:",
+      "stem_zhHant": "如果您的車尾在打滑時向右滑動，您應該轉向：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "To the left to counteract the skid",
+          "text_zhHant": "向左以抵消打滑"
+        },
+        {
+          "key": "B",
+          "text_en": "To the right — in the direction the rear is sliding",
+          "text_zhHant": "向右——朝車尾滑動的方向"
+        },
+        {
+          "key": "C",
+          "text_en": "Straight ahead without turning",
+          "text_zhHant": "直行不轉彎"
+        },
+        {
+          "key": "D",
+          "text_en": "In any direction while applying the brakes hard",
+          "text_zhHant": "朝任何方向並用力踩煞車"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When your car skids, steer in the direction the rear of the car is sliding. If the rear slides right, steer right. This helps straighten the vehicle and regain control. Avoid braking during the skid.",
+      "explanation_zh": "当车辆打滑时，朝车尾滑动的方向转向。如果车尾向右滑，就向右转向。这有助于车辆回正并恢复控制。打滑时避免踩刹车。",
+      "explanation_zhHant": "當車輛打滑時，朝車尾滑動的方向轉向。如果車尾向右滑，就向右轉向。這有助於車輛回正並恢復控制。打滑時避免踩煞車。",
+      "module": "M05",
+      "tags": ["skid-recovery", "steering"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-033",
+      "stem_en": "A child under 2 years old, under 40 lbs, and under 3 feet 4 inches must ride in:",
+      "stem_zhHant": "2歲以下、40磅以下且身高不足3呎4吋的兒童必須乘坐：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A forward-facing car seat",
+          "text_zhHant": "面朝前的兒童安全座椅"
+        },
+        {
+          "key": "B",
+          "text_en": "A rear-facing car seat",
+          "text_zhHant": "面朝後的兒童安全座椅"
+        },
+        {
+          "key": "C",
+          "text_en": "A booster seat",
+          "text_zhHant": "增高座椅"
+        },
+        {
+          "key": "D",
+          "text_en": "A regular seat belt is sufficient",
+          "text_zhHant": "普通安全帶即可"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "California law requires children under 2 years old who weigh less than 40 lbs and are shorter than 3 feet 4 inches (40 inches) to ride in a rear-facing car seat. Rear-facing seats provide the best protection for young children.",
+      "explanation_zh": "加州法律要求2岁以下、体重不足40磅且身高不足3英尺4英寸（40英寸）的儿童必须乘坐面朝后的儿童安全座椅。面朝后的座椅为幼儿提供最佳保护。",
+      "explanation_zhHant": "加州法律要求2歲以下、體重不足40磅且身高不足3呎4吋（40吋）的兒童必須乘坐面朝後的兒童安全座椅。面朝後的座椅為幼兒提供最佳保護。",
+      "module": "M07",
+      "tags": ["child-safety", "rear-facing-seat"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-034",
+      "stem_en": "It is illegal to leave a child unattended in a motor vehicle if the child is:",
+      "stem_zhHant": "如果兒童年齡為以下情況，將其單獨留在機動車內是違法的：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Under 4 years old",
+          "text_zhHant": "4歲以下"
+        },
+        {
+          "key": "B",
+          "text_en": "6 years old or younger",
+          "text_zhHant": "6歲或以下"
+        },
+        {
+          "key": "C",
+          "text_en": "Under 10 years old",
+          "text_zhHant": "10歲以下"
+        },
+        {
+          "key": "D",
+          "text_en": "Under 12 years old",
+          "text_zhHant": "12歲以下"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "California law prohibits leaving a child 6 years old or younger unattended in a motor vehicle. A person 12 years or older must supervise the child. Violating this law can result in fines and criminal charges.",
+      "explanation_zh": "加州法律禁止将6岁或以下的儿童单独留在机动车内。必须有12岁或以上的人监管该儿童。违反此法律可能导致罚款和刑事指控。",
+      "explanation_zhHant": "加州法律禁止將6歲或以下的兒童單獨留在機動車內。必須有12歲或以上的人監管該兒童。違反此法律可能導致罰款和刑事指控。",
+      "module": "M07",
+      "tags": ["child-safety", "unattended-child"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-035",
+      "stem_en": "You must signal at least ___ feet before making a turn in a residential area.",
+      "stem_zhHant": "在住宅區轉彎前，您必須至少在___呎之前打轉向燈。",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "50 feet",
+          "text_zhHant": "50呎"
+        },
+        {
+          "key": "B",
+          "text_en": "75 feet",
+          "text_zhHant": "75呎"
+        },
+        {
+          "key": "C",
+          "text_en": "100 feet",
+          "text_zhHant": "100呎"
+        },
+        {
+          "key": "D",
+          "text_en": "200 feet",
+          "text_zhHant": "200呎"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "You must signal at least 100 feet before making a turn. This gives other drivers and pedestrians adequate warning of your intended action.",
+      "explanation_zh": "转弯前必须至少提前100英尺打转向灯。这为其他驾驶人和行人提供了足够的预警。",
+      "explanation_zhHant": "轉彎前必須至少提前100呎打轉向燈。這為其他駕駛人和行人提供了足夠的預警。",
+      "module": "M03",
+      "tags": ["turn-signal", "residential"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-036",
+      "stem_en": "Unless posted otherwise, the minimum speed on most California freeways is:",
+      "stem_zhHant": "除非另有標示，大多數加州高速公路的最低速限為：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "35 mph",
+          "text_zhHant": "35英里/小時"
+        },
+        {
+          "key": "B",
+          "text_en": "40 mph",
+          "text_zhHant": "40英里/小時"
+        },
+        {
+          "key": "C",
+          "text_en": "45 mph",
+          "text_zhHant": "45英里/小時"
+        },
+        {
+          "key": "D",
+          "text_en": "55 mph",
+          "text_zhHant": "55英里/小時"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Unless otherwise posted, the minimum speed on most California freeways is typically around 45 mph. Driving too slowly on the freeway can be dangerous and impede the flow of traffic.",
+      "explanation_zh": "除非另有标示，大多数加州高速公路的最低速限通常为45英里/小时。在高速公路上行驶太慢可能很危险并妨碍车流。",
+      "explanation_zhHant": "除非另有標示，大多數加州高速公路的最低速限通常為45英里／小時。在高速公路上行駛太慢可能很危險並妨礙車流。",
+      "module": "M03",
+      "tags": ["speed-limit", "freeway", "minimum-speed"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-037",
+      "stem_en": "If you miss your exit on a freeway, you should:",
+      "stem_zhHant": "如果您在高速公路上錯過出口，您應該：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Stop on the shoulder and back up to the exit",
+          "text_zhHant": "在路肩停車並倒車到出口"
+        },
+        {
+          "key": "B",
+          "text_en": "Make a U-turn when safe",
+          "text_zhHant": "安全時掉頭"
+        },
+        {
+          "key": "C",
+          "text_en": "Continue to the next exit",
+          "text_zhHant": "繼續行駛到下一個出口"
+        },
+        {
+          "key": "D",
+          "text_en": "Cross the median to reach the other side",
+          "text_zhHant": "穿越中央分隔帶到另一側"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "If you miss your exit on a freeway, continue to the next exit. NEVER stop, back up, or cross the median on a freeway. These actions are extremely dangerous and illegal.",
+      "explanation_zh": "如果你在高速公路上错过出口，继续行驶到下一个出口。永远不要在高速公路上停车、倒车或穿越中央分隔带。这些行为极其危险且违法。",
+      "explanation_zhHant": "如果您在高速公路上錯過出口，繼續行駛到下一個出口。永遠不要在高速公路上停車、倒車或穿越中央分隔帶。這些行為極其危險且違法。",
+      "module": "M03",
+      "tags": ["freeway", "missed-exit"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-038",
+      "stem_en": "When stopping at a railroad crossing, you must stop at least ___ feet from the nearest rail.",
+      "stem_zhHant": "在鐵路平交道停車時，您必須在距離最近鐵軌至少___呎處停車。",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "10 feet",
+          "text_zhHant": "10呎"
+        },
+        {
+          "key": "B",
+          "text_en": "15 feet",
+          "text_zhHant": "15呎"
+        },
+        {
+          "key": "C",
+          "text_en": "25 feet",
+          "text_zhHant": "25呎"
+        },
+        {
+          "key": "D",
+          "text_en": "50 feet",
+          "text_zhHant": "50呎"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "When stopping at a railroad crossing, you must stop at least 15 feet from the nearest rail. This provides a safe distance from passing trains, which extend beyond the tracks.",
+      "explanation_zh": "在铁路平交道停车时，必须在距离最近铁轨至少15英尺处停车。这为通过的火车提供了安全距离，因为火车会超出铁轨范围。",
+      "explanation_zhHant": "在鐵路平交道停車時，必須在距離最近鐵軌至少15呎處停車。這為通過的火車提供了安全距離，因為火車會超出鐵軌範圍。",
+      "module": "M07",
+      "tags": ["railroad-crossing", "stopping-distance"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-039",
+      "stem_en": "Vehicles carrying hazardous materials must ___ before crossing railroad tracks.",
+      "stem_zhHant": "載運危險物品的車輛在穿越鐵路平交道前必須___。",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Slow down to 15 mph",
+          "text_zhHant": "減速至15英里/小時"
+        },
+        {
+          "key": "B",
+          "text_en": "Honk the horn three times",
+          "text_zhHant": "按三次喇叭"
+        },
+        {
+          "key": "C",
+          "text_en": "Stop completely",
+          "text_zhHant": "完全停車"
+        },
+        {
+          "key": "D",
+          "text_en": "Turn on their hazard lights",
+          "text_zhHant": "打開危險警示燈"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "Vehicles carrying hazardous loads are required by law to stop completely before crossing railroad tracks. This applies even when no train is approaching, to ensure the safety of the materials being transported.",
+      "explanation_zh": "载运危险物品的车辆依法必须在穿越铁路平交道前完全停车。即使没有火车接近也必须如此，以确保所运输物品的安全。",
+      "explanation_zhHant": "載運危險物品的車輛依法必須在穿越鐵路平交道前完全停車。即使沒有火車接近也必須如此，以確保所運輸物品的安全。",
+      "module": "M07",
+      "tags": ["railroad-crossing", "hazardous-materials"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-040",
+      "stem_en": "You must report a traffic collision to the DMV within ___ days if there was an injury, death, or property damage over $1,000.",
+      "stem_zhHant": "如果發生了傷亡或財產損失超過$1,000的交通碰撞，您必須在___天內向DMV報告。",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "5 days",
+          "text_zhHant": "5天"
+        },
+        {
+          "key": "B",
+          "text_en": "10 days",
+          "text_zhHant": "10天"
+        },
+        {
+          "key": "C",
+          "text_en": "15 days",
+          "text_zhHant": "15天"
+        },
+        {
+          "key": "D",
+          "text_en": "30 days",
+          "text_zhHant": "30天"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "You must report a traffic collision to the DMV within 10 days if anyone was injured, killed, or if property damage exceeded $1,000. Use the SR-1 form (Report of Traffic Accident) to file the report.",
+      "explanation_zh": "如果有人受伤、死亡或财产损失超过$1,000，你必须在10天内向DMV报告交通碰撞。使用SR-1表（交通事故报告）提交报告。",
+      "explanation_zhHant": "如果有人受傷、死亡或財產損失超過$1,000，您必須在10天內向DMV報告交通碰撞。使用SR-1表（交通事故報告）提交報告。",
+      "module": "M08",
+      "tags": ["collision", "reporting", "DMV"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-041",
+      "stem_en": "California's minimum liability insurance requirements are:",
+      "stem_zhHant": "加州最低責任保險要求為：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "$15,000/$30,000/$5,000",
+          "text_zhHant": "$15,000/$30,000/$5,000"
+        },
+        {
+          "key": "B",
+          "text_en": "$30,000/$60,000/$15,000",
+          "text_zhHant": "$30,000/$60,000/$15,000"
+        },
+        {
+          "key": "C",
+          "text_en": "$25,000/$50,000/$10,000",
+          "text_zhHant": "$25,000/$50,000/$10,000"
+        },
+        {
+          "key": "D",
+          "text_en": "$50,000/$100,000/$25,000",
+          "text_zhHant": "$50,000/$100,000/$25,000"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "California's minimum liability insurance requirements are $30,000 for injury/death to one person, $60,000 for injury/death to more than one person, and $15,000 for property damage (30/60/15).",
+      "explanation_zh": "加州最低责任保险要求为：单人伤亡$30,000，多人伤亡$60,000，财产损失$15,000（30/60/15）。",
+      "explanation_zhHant": "加州最低責任保險要求為：單人傷亡$30,000，多人傷亡$60,000，財產損失$15,000（30/60/15）。",
+      "module": "M08",
+      "tags": ["insurance", "liability"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-042",
+      "stem_en": "Under California's expanded \"Slow Down, Move Over\" law, you must slow down and move over for:",
+      "stem_zhHant": "根據加州擴大的「減速讓路」法律，您必須為以下車輛減速讓路：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Emergency vehicles only",
+          "text_zhHant": "僅限緊急車輛"
+        },
+        {
+          "key": "B",
+          "text_en": "Emergency vehicles and tow trucks only",
+          "text_zhHant": "僅限緊急車輛和拖車"
+        },
+        {
+          "key": "C",
+          "text_en": "All stationary vehicles displaying flashing or amber warning lights",
+          "text_zhHant": "所有顯示閃爍或琥珀色警告燈的靜止車輛"
+        },
+        {
+          "key": "D",
+          "text_en": "Only vehicles with red and blue flashing lights",
+          "text_zhHant": "僅限有紅藍閃爍燈的車輛"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "California's expanded Move Over law requires drivers to slow down and, if safe, move over for ALL stationary vehicles displaying flashing or amber warning lights on the roadside, including emergency vehicles, tow trucks, Caltrans vehicles, and disabled vehicles.",
+      "explanation_zh": "加州扩大的「减速让路」法律要求驾驶人为路边所有显示闪烁或琥珀色警告灯的静止车辆减速，并在安全时让出一个车道，包括紧急车辆、拖车、加州交通局车辆和故障车辆。",
+      "explanation_zhHant": "加州擴大的「減速讓路」法律要求駕駛人為路邊所有顯示閃爍或琥珀色警告燈的靜止車輛減速，並在安全時讓出一個車道，包括緊急車輛、拖車、加州交通局車輛和故障車輛。",
+      "module": "M07",
+      "tags": ["move-over-law", "new-law"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-043",
+      "stem_en": "Starting January 1, 2031, the maximum speed limit in school zones when children are present will be reduced to:",
+      "stem_zhHant": "從2031年1月1日起，當兒童在場時，學校區域的最高速限將降低至：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "15 mph",
+          "text_zhHant": "15英里/小時"
+        },
+        {
+          "key": "B",
+          "text_en": "20 mph",
+          "text_zhHant": "20英里/小時"
+        },
+        {
+          "key": "C",
+          "text_en": "25 mph",
+          "text_zhHant": "25英里/小時"
+        },
+        {
+          "key": "D",
+          "text_en": "30 mph",
+          "text_zhHant": "30英里/小時"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Starting January 1, 2031, the maximum speed limit near schools when children are present will be reduced to 20 mph (down from the current 25 mph). This change is part of California's efforts to improve pedestrian safety near schools.",
+      "explanation_zh": "从2031年1月1日起，当儿童在场时，学校附近的最高速限将降低至20英里/小时（从目前的25英里/小时下调）。这是加州改善学校附近行人安全努力的一部分。",
+      "explanation_zhHant": "從2031年1月1日起，當兒童在場時，學校附近的最高速限將降低至20英里／小時（從目前的25英里／小時下調）。這是加州改善學校附近行人安全努力的一部分。",
+      "module": "M03",
+      "tags": ["speed-limit", "school-zone", "new-law"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-044",
+      "stem_en": "A pedestrian carrying a white cane or accompanied by a guide dog is most likely:",
+      "stem_zhHant": "持白手杖或有導盲犬陪伴的行人最有可能是：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "A traffic officer directing traffic",
+          "text_zhHant": "正在指揮交通的交通警察"
+        },
+        {
+          "key": "B",
+          "text_en": "A construction worker in a work zone",
+          "text_zhHant": "工作區域的建築工人"
+        },
+        {
+          "key": "C",
+          "text_en": "Blind, and you must always yield the right-of-way to them",
+          "text_zhHant": "視障人士，您必須始終讓其先行"
+        },
+        {
+          "key": "D",
+          "text_en": "A crossing guard for a school zone",
+          "text_zhHant": "學校區域的交通護衛"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "A white cane or guide dog indicates the pedestrian is blind or visually impaired. You must always yield the right-of-way to them. Be extra cautious because they may not be able to see your vehicle.",
+      "explanation_zh": "白手杖或导盲犬表示该行人是盲人或视力受损者。你必须始终让其先行。要格外小心，因为他们可能无法看到你的车辆。",
+      "explanation_zhHant": "白手杖或導盲犬表示該行人是視障人士。您必須始終讓其先行。要格外小心，因為他們可能無法看到您的車輛。",
+      "module": "M07",
+      "tags": ["pedestrian", "blind", "white-cane", "guide-dog"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-045",
+      "stem_en": "You are driving 45 mph in a 55 mph zone and vehicles behind you want to pass. You should:",
+      "stem_zhHant": "您在55英里/小時的速限區以45英里/小時行駛，後方車輛想要超車。您應該：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Maintain your speed because you are driving safely",
+          "text_zhHant": "保持速度，因為您開得很安全"
+        },
+        {
+          "key": "B",
+          "text_en": "Speed up to the posted speed limit",
+          "text_zhHant": "加速到限速標誌的速度"
+        },
+        {
+          "key": "C",
+          "text_en": "Move to the right lane to let them pass",
+          "text_zhHant": "移到右側車道讓他們通過"
+        },
+        {
+          "key": "D",
+          "text_en": "Turn on your hazard lights to warn them",
+          "text_zhHant": "打開危險警示燈警告他們"
+        }
+      ],
+      "answer": "C",
+      "explanation_en": "If you are driving slower than the flow of traffic, you should move to the right lane. California law states that slower traffic must keep right. Blocking traffic by driving slowly in the left lane is illegal.",
+      "explanation_zh": "如果你的行驶速度低于车流速度，应移到右侧车道。加州法律规定较慢的车辆必须靠右行驶。在左侧车道慢速行驶阻碍交通是违法的。",
+      "explanation_zhHant": "如果您的行駛速度低於車流速度，應移到右側車道。加州法律規定較慢的車輛必須靠右行駛。在左側車道慢速行駛阻礙交通是違法的。",
+      "module": "M03",
+      "tags": ["slow-driving", "keep-right", "traffic-flow"],
+      "driverEd": false
+    },
+    {
+      "id": "Q-MOCK11-046",
+      "stem_en": "Carbon monoxide from a vehicle's exhaust is dangerous because it is:",
+      "stem_zhHant": "車輛排放的一氧化碳之所以危險，是因為它：",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Bright yellow and irritating to the eyes",
+          "text_zhHant": "是亮黃色的，會刺激眼睛"
+        },
+        {
+          "key": "B",
+          "text_en": "Odorless and colorless, making it undetectable without equipment",
+          "text_zhHant": "無味無色，沒有設備無法察覺"
+        },
+        {
+          "key": "C",
+          "text_en": "Easy to smell but hard to see",
+          "text_zhHant": "容易聞到但難以看見"
+        },
+        {
+          "key": "D",
+          "text_en": "Only harmful in extremely large quantities",
+          "text_zhHant": "只有在極大量時才有害"
+        }
+      ],
+      "answer": "B",
+      "explanation_en": "Carbon monoxide is extremely dangerous because it is odorless and colorless, making it impossible to detect without special equipment. It can cause unconsciousness and death in enclosed or poorly ventilated areas.",
+      "explanation_zh": "一氧化碳极其危险，因为它无味无色，没有专用设备无法察觉。它可能在封闭或通风不良的区域导致昏迷和死亡。",
+      "explanation_zhHant": "一氧化碳極其危險，因為它無味無色，沒有專用設備無法察覺。它可能在封閉或通風不良的區域導致昏迷和死亡。",
+      "module": "M05",
+      "tags": ["carbon-monoxide", "vehicle-safety"],
+      "driverEd": false
+    }
+  ]
+}

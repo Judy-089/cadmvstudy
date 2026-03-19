@@ -271,9 +271,9 @@ const strings = {
   },
   "tutorial.mockTest.title": { en: "Mock Exams", zhHant: "模擬考試", zhHans: "模拟考试" },
   "tutorial.mockTest.desc": {
-    en: "10 full mock exams simulate the real DMV test. Adults: 36 questions (pass: 31). Under 18: 46 questions (pass: 38).",
-    zhHant: "10套全真模擬考試。成人：36題（及格31題）。未滿18歲：46題（及格38題）。",
-    zhHans: "10套全真模拟考试。成人：36题（及格31题）。未满18岁：46题（及格38题）。",
+    en: "11 full mock exams simulate the real DMV test. Adults: 36 questions (pass: 31). Under 18: 46 questions (pass: 38).",
+    zhHant: "11套全真模擬考試。成人：36題（及格31題）。未滿18歲：46題（及格38題）。",
+    zhHans: "11套全真模拟考试。成人：36题（及格31题）。未满18岁：46题（及格38题）。",
   },
   "tutorial.examLang.title": { en: "Exam Language", zhHant: "考試語言", zhHans: "考试语言" },
   "tutorial.examLang.desc": {
@@ -283,9 +283,9 @@ const strings = {
   },
   "tutorial.signIn.title": { en: "Sign In to Unlock", zhHant: "登入解鎖", zhHans: "登录解锁" },
   "tutorial.signIn.desc": {
-    en: "Sign in with Google to unlock all 12 modules, 10 mock exams, and save your progress across devices.",
-    zhHant: "用Google登入即可解鎖全部13個模組、10套模擬考試，並跨設備保存學習進度。",
-    zhHans: "用Google登录即可解锁全部13个模块、10套模拟考试，并跨设备保存学习进度。",
+    en: "Sign in with Google to unlock all 12 modules, 11 mock exams, and save your progress across devices.",
+    zhHant: "用Google登入即可解鎖全部13個模組、11套模擬考試，並跨設備保存學習進度。",
+    zhHans: "用Google登录即可解锁全部13个模块、11套模拟考试，并跨设备保存学习进度。",
   },
   "tutorial.skip": { en: "Skip", zhHant: "跳過", zhHans: "跳过" },
   "tutorial.next": { en: "Next", zhHant: "下一步", zhHans: "下一步" },
