@@ -33,6 +33,7 @@
           "answer": "B",
           "explanation_en": "California's Basic Speed Law states you must never drive faster than is safe for current conditions, regardless of the posted speed limit.",
           "explanation_zhHant": "加州基本速度法規定：無論標示限速為多少，任何時候都不得以超過當前路況安全速度行駛。",
+          "explanation_zh": "加州基本速度法规定：无论标示限速为多少，任何时候都不得以超过当前路况安全速度行驶。",
           "tags": []
         },
         {
@@ -64,6 +65,7 @@
           "answer": "C",
           "explanation_en": "The speed limit in a residential area is 25 mph unless otherwise posted.",
           "explanation_zhHant": "住宅區限速為25英里/小時，除非另有標示。",
+          "explanation_zh": "住宅区限速为25英里/小时，除非另有标示。",
           "tags": []
         },
         {
@@ -95,6 +97,7 @@
           "answer": "B",
           "explanation_en": "The speed limit in alleys is 15 mph.",
           "explanation_zhHant": "小巷中的限速為15英里/小時。",
+          "explanation_zh": "小巷中的限速为15英里/小时。",
           "tags": []
         },
         {
@@ -126,6 +129,7 @@
           "answer": "C",
           "explanation_en": "The maximum speed limit on most California highways is 65 mph. Some may be posted at 70 mph.",
           "explanation_zhHant": "加州大多數高速公路最高限速為65英里/小時。部分公路可能標示為70英里/小時。",
+          "explanation_zh": "加州大多数高速公路最高限速为65英里/小时。部分公路可能标示为70英里/小时。",
           "tags": []
         },
         {
@@ -157,6 +161,7 @@
           "answer": "C",
           "explanation_en": "The speed limit near schools when children are present is 25 mph. Note: Beginning January 1, 2031, the default school zone speed limit will change to 20 mph (AB 382), but the current limit remains 25 mph.",
           "explanation_zhHant": "學校附近有兒童時限速為25英里/小時。注意：從2031年1月1日起，學校區域預設限速將變更為20英里/小時（AB 382法案），但目前限速仍為25英里/小時。",
+          "explanation_zh": "学校附近有儿童时限速为25英里/小时。注意：从2031年1月1日起，学校区域预设限速将变更为20英里/小时（AB 382法案），但目前限速仍为25英里/小时。",
           "tags": []
         },
         {
@@ -188,6 +193,7 @@
           "answer": "B",
           "explanation_en": "Near railroad crossings where you cannot see tracks for 400 feet in both directions, the speed limit is 15 mph within 100 feet of the crossing.",
           "explanation_zhHant": "在無法看到400英尺範圍鐵軌的鐵路道口，距道口100英尺以內限速為15英里/小時。",
+          "explanation_zh": "在无法看到400英尺范围铁轨的铁路道口，距道口100英尺以内限速为15英里/小时。",
           "tags": []
         },
         {
@@ -219,6 +225,7 @@
           "answer": "B",
           "explanation_en": "The speed limit on a two-lane undivided highway is 55 mph unless otherwise posted.",
           "explanation_zhHant": "雙車道無隔離帶公路的限速為55英里/小時，除非另有標示。",
+          "explanation_zh": "双车道无隔离带公路的限速为55英里/小时，除非另有标示。",
           "tags": []
         }
       ]
@@ -228,101 +235,8 @@
       "questions": [
         {
           "id": "M04-S02-Q01",
-          "stem_en": "In fog, you should use:",
-          "stem_zhHant": "在霧天，您應該使用：",
-          "options": [
-            {
-              "key": "A",
-              "text_en": "High-beam headlights",
-              "text_zhHant": "遠光燈"
-            },
-            {
-              "key": "B",
-              "text_en": "Low-beam headlights",
-              "text_zhHant": "近光燈"
-            },
-            {
-              "key": "C",
-              "text_en": "Hazard flashers",
-              "text_zhHant": "雙閃燈"
-            },
-            {
-              "key": "D",
-              "text_en": "No lights to avoid reflecting off the fog",
-              "text_zhHant": "不開燈以避免霧氣反射"
-            }
-          ],
-          "answer": "B",
-          "explanation_en": "In fog, use low-beam headlights. High beams reflect off fog and reduce visibility.",
-          "explanation_zhHant": "在霧天使用近光燈。遠光燈會被霧氣反射，反而降低能見度。",
-          "tags": []
-        },
-        {
-          "id": "M04-S02-Q02",
-          "stem_en": "At what speed on a wet road can hydroplaning occur?",
-          "stem_zhHant": "在濕滑路面上，多少速度可能發生水漂現象？",
-          "options": [
-            {
-              "key": "A",
-              "text_en": "15 mph or more",
-              "text_zhHant": "15英里/小時以上"
-            },
-            {
-              "key": "B",
-              "text_en": "25 mph or more",
-              "text_zhHant": "25英里/小時以上"
-            },
-            {
-              "key": "C",
-              "text_en": "35 mph or more",
-              "text_zhHant": "35英里/小時以上"
-            },
-            {
-              "key": "D",
-              "text_en": "55 mph or more",
-              "text_zhHant": "55英里/小時以上"
-            }
-          ],
-          "answer": "C",
-          "explanation_en": "At 35 mph or more on a wet road, your tires can hydroplane, causing loss of traction and control.",
-          "explanation_zhHant": "在濕路上時速達到35英里以上時，輪胎可能發生水漂現象，導致失去抓地力和控制。",
-          "tags": []
-        },
-        {
-          "id": "M04-S02-Q03",
-          "stem_en": "On a two-lane road, if 5 or more vehicles are following behind you, you should:",
-          "stem_zhHant": "在雙車道公路上，如果有5輛或以上車輛跟在您後面，您應該：",
-          "options": [
-            {
-              "key": "A",
-              "text_en": "Speed up to create more space",
-              "text_zhHant": "加速創造更多空間"
-            },
-            {
-              "key": "B",
-              "text_en": "Ignore them and maintain your speed",
-              "text_zhHant": "忽略他們保持速度"
-            },
-            {
-              "key": "C",
-              "text_en": "Pull to the right to let them pass",
-              "text_zhHant": "靠右讓他們通過"
-            },
-            {
-              "key": "D",
-              "text_en": "Apply your brakes to signal them to slow down",
-              "text_zhHant": "踩刹車示意他們減速"
-            }
-          ],
-          "answer": "C",
-          "explanation_en": "On a two-lane road, pull to the right when 5 or more vehicles are following you. Driving too slowly can be as dangerous as driving too fast.",
-          "explanation_zhHant": "在雙車道公路上，如果有5輛或以上車輛跟在後面，應靠右讓行。開車太慢可能和太快一樣危險。",
-          "tags": []
-        },
-        {
-          "id": "M04-S02-Q04",
           "stem_en": "Can you be cited for driving at the posted speed limit if conditions are poor?",
-          "stem_zhHant": "如果路況不好，即使按標示限速行駛也可能被罰嗎？",
+          "stem_zhHant": "如果路況不好，即使按標示限速行駛也可能被開罰單嗎？",
           "options": [
             {
               "key": "A",
@@ -332,7 +246,7 @@
             {
               "key": "B",
               "text_en": "Yes, you may be cited for driving too fast for conditions",
-              "text_zhHant": "會，可能因速度過快不適合路況而被罰"
+              "text_zhHant": "會，可能因速度不適合路況而被開罰單"
             },
             {
               "key": "C",
@@ -347,54 +261,137 @@
           ],
           "answer": "B",
           "explanation_en": "You may be cited for driving too fast for conditions even if you are under the posted speed limit.",
-          "explanation_zhHant": "即使未超過限速，如果速度對於當前路況過快也可能被罰。",
+          "explanation_zhHant": "即使未超過標示限速，如果速度對於當前路況過快，您也可能被開罰單。",
+          "explanation_zh": "即使未超过标示限速，如果速度对于当前路况过快，您也可能被开罚单。",
           "tags": []
         },
         {
-          "id": "M04-S02-Q05",
-          "stem_en": "On wet roads, you should reduce your speed by approximately:",
-          "stem_zhHant": "在濕滑路面上，您應該減速約：",
+          "id": "M04-S02-Q02",
+          "stem_en": "On a two-lane road, if 5 or more vehicles are following behind you, you should:",
+          "stem_zhHant": "在雙車道公路上，如果有5輛或以上車輛跟在您後面，您應該：",
           "options": [
             {
               "key": "A",
-              "text_en": "1-3 mph",
-              "text_zhHant": "1-3英里/小時"
+              "text_en": "Speed up to create more space",
+              "text_zhHant": "加速以創造更多空間"
             },
             {
               "key": "B",
-              "text_en": "5-10 mph",
-              "text_zhHant": "5-10英里/小時"
+              "text_en": "Ignore them and maintain your speed",
+              "text_zhHant": "忽略他們並保持您的速度"
             },
             {
               "key": "C",
-              "text_en": "15-20 mph",
-              "text_zhHant": "15-20英里/小時"
+              "text_en": "Pull to the right to let them pass",
+              "text_zhHant": "靠右讓他們通過"
             },
             {
               "key": "D",
-              "text_en": "25-30 mph",
-              "text_zhHant": "25-30英里/小時"
+              "text_en": "Apply your brakes to signal them to slow down",
+              "text_zhHant": "踩剎車示意他們減速"
+            }
+          ],
+          "answer": "C",
+          "explanation_en": "On a two-lane road, pull to the right when 5 or more vehicles are following you. Driving too slowly can be as dangerous as driving too fast.",
+          "explanation_zhHant": "在雙車道公路上，如果有5輛或以上車輛跟在您後面，應靠右讓行。開車太慢可能和開車太快一樣危險。",
+          "explanation_zh": "在双车道公路上，如果有5辆或以上车辆跟在您后面，应靠右让行。开车太慢可能和开车太快一样危险。",
+          "tags": []
+        },
+        {
+          "id": "M04-S02-Q03",
+          "stem_en": "When driving near pedestrians and bicyclists, you should:",
+          "stem_zhHant": "在行人和自行車騎士附近駕車時，您應該：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Honk to warn them",
+              "text_zhHant": "按喇叭警告他們"
+            },
+            {
+              "key": "B",
+              "text_en": "Reduce speed and be ready to stop",
+              "text_zhHant": "減速並隨時準備停車"
+            },
+            {
+              "key": "C",
+              "text_en": "Speed up to pass them quickly",
+              "text_zhHant": "加速快速通過"
+            },
+            {
+              "key": "D",
+              "text_en": "Flash your headlights",
+              "text_zhHant": "閃爍頭燈"
             }
           ],
           "answer": "B",
-          "explanation_en": "On wet roads, reduce speed by 5-10 mph to maintain safe traction.",
-          "explanation_zhHant": "濕滑路面上應降低5-10英里/小時的車速以保持安全的抓地力。",
+          "explanation_en": "When driving near pedestrians, bicyclists, or parked cars, reduce speed and be ready to stop. Expect the unexpected, especially around children.",
+          "explanation_zhHant": "在行人、自行車騎士或停放車輛附近駕車時，應減速並隨時準備停車。要預防突發狀況，尤其是在兒童附近。",
+          "explanation_zh": "在行人、自行车骑士或停放车辆附近驾车时，应减速并随时准备停车。要预防突发状况，尤其是在儿童附近。",
           "tags": []
         },
         {
           "id": "M04-S02-Q04",
           "stem_en": "When towing a vehicle or trailer on a highway with four or more lanes in your direction, where must you drive?",
-          "stem_zhHant": "在拖車或拖掛行駛於你方向有四條或更多車道的公路時，你必須在哪裡行駛？",
+          "stem_zhHant": "在您方向有四條或以上車道的公路上拖車或拖掛行駛時，您必須在哪裡行駛？",
           "options": [
-            {"key": "A", "text_en": "In any lane you choose", "text_zhHant": "任何你選擇的車道"},
-            {"key": "B", "text_en": "In the two lanes closest to the right edge of the road", "text_zhHant": "在最靠近右側路邊的兩條車道"},
-            {"key": "C", "text_en": "In the center lane only", "text_zhHant": "僅在中間車道"},
-            {"key": "D", "text_en": "In the far left lane", "text_zhHant": "在最左車道"}
+            {
+              "key": "A",
+              "text_en": "In any lane you choose",
+              "text_zhHant": "任何您選擇的車道"
+            },
+            {
+              "key": "B",
+              "text_en": "In the two lanes closest to the right edge of the road",
+              "text_zhHant": "在最靠近右側路邊的兩條車道"
+            },
+            {
+              "key": "C",
+              "text_en": "In the center lane only",
+              "text_zhHant": "僅在中間車道"
+            },
+            {
+              "key": "D",
+              "text_en": "In the far left lane",
+              "text_zhHant": "在最左側車道"
+            }
           ],
           "answer": "B",
           "explanation_en": "When towing and there are four or more lanes in your direction with no marked lanes for slower vehicles, you may only use the two rightmost lanes.",
-          "explanation_zhHant": "拖車時如果你的方向有四條或更多車道且沒有標記慢速車道，你只能使用最右邊的兩條車道。",
-          "tags": ["towing"]
+          "explanation_zhHant": "拖車時，如果您的方向有四條或以上車道且沒有標記慢速車道，您只能使用最右邊的兩條車道。",
+          "explanation_zh": "拖车时，如果您的方向有四条或以上车道且没有标记慢速车道，您只能使用最右边的两条车道。",
+          "tags": []
+        },
+        {
+          "id": "M04-S02-Q05",
+          "stem_en": "Driving too slowly on a road where it is not safe can:",
+          "stem_zhHant": "在不安全的情況下開車太慢可能會：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Help you avoid accidents",
+              "text_zhHant": "幫助您避免事故"
+            },
+            {
+              "key": "B",
+              "text_en": "Be just as dangerous as driving too fast",
+              "text_zhHant": "和開車太快一樣危險"
+            },
+            {
+              "key": "C",
+              "text_en": "Only be a problem on freeways",
+              "text_zhHant": "僅在高速公路上才是問題"
+            },
+            {
+              "key": "D",
+              "text_en": "Is always safer than speeding",
+              "text_zhHant": "總是比超速更安全"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Driving too slowly can be as dangerous as driving too fast. If you are blocking the normal flow of traffic, move to the right lane.",
+          "explanation_zhHant": "開車太慢可能和開車太快一樣危險。如果您阻礙了正常車流，應移至右側車道。",
+          "explanation_zh": "开车太慢可能和开车太快一样危险。如果您阻碍了正常车流，应移至右侧车道。",
+          "tags": []
         }
       ]
     },
@@ -403,193 +400,131 @@
       "questions": [
         {
           "id": "M04-S03-Q01",
-          "stem_en": "The legal BAC limit for drivers 21 and older is:",
-          "stem_zhHant": "21歲及以上駕駛員的合法血液酒精濃度上限為：",
+          "stem_en": "What happens to fines for traffic violations in highway construction or maintenance zones when workers are present?",
+          "stem_zhHant": "在有工人施工的公路建設或維護區域，交通違規罰款會怎樣？",
           "options": [
             {
               "key": "A",
-              "text_en": "0.01%",
-              "text_zhHant": "0.01%"
+              "text_en": "Fines remain the same",
+              "text_zhHant": "罰款保持不變"
             },
             {
               "key": "B",
-              "text_en": "0.04%",
-              "text_zhHant": "0.04%"
+              "text_en": "Fines can be doubled",
+              "text_zhHant": "罰款可以加倍"
             },
             {
               "key": "C",
-              "text_en": "0.08%",
-              "text_zhHant": "0.08%"
+              "text_en": "Fines are reduced because of slower speeds",
+              "text_zhHant": "因為速度較慢所以罰款減少"
             },
             {
               "key": "D",
-              "text_en": "0.10%",
-              "text_zhHant": "0.10%"
+              "text_en": "Fines are tripled",
+              "text_zhHant": "罰款可以三倍"
             }
           ],
-          "answer": "C",
-          "explanation_en": "The legal BAC limit is 0.08% for drivers 21 and older, 0.04% for commercial drivers, and 0.01% for drivers under 21.",
-          "explanation_zhHant": "21歲及以上駕駛員的合法BAC上限為0.08%，商業駕照持有者為0.04%，21歲以下為0.01%。",
-          "tags": [
-            "bac"
-          ]
+          "answer": "B",
+          "explanation_en": "Fines for traffic violations in highway construction or maintenance zones can be doubled when workers are present.",
+          "explanation_zhHant": "在有工人施工的公路建設或維護區域，交通違規罰款可以加倍。",
+          "explanation_zh": "在有工人施工的公路建设或维护区域，交通违规罚款可以加倍。",
+          "tags": ["construction-zone"]
         },
         {
           "id": "M04-S03-Q02",
-          "stem_en": "California's Implied Consent law means:",
-          "stem_zhHant": "加州的「默示同意法」意味著：",
+          "stem_en": "What should you watch for when driving through a construction zone?",
+          "stem_zhHant": "通過施工區域時您應該注意什麼？",
           "options": [
             {
               "key": "A",
-              "text_en": "You agree to follow all traffic laws by driving",
-              "text_zhHant": "駕車即同意遵守所有交通法規"
+              "text_en": "Construction workers, slow-moving equipment, and lane changes",
+              "text_zhHant": "施工人員、慢速移動的設備和車道變化"
             },
             {
               "key": "B",
-              "text_en": "You consent to a chemical test if lawfully arrested for DUI",
-              "text_zhHant": "因酒駕被合法逮捕後自動同意接受化學測試"
+              "text_en": "Only the posted speed limit signs",
+              "text_zhHant": "只注意限速標誌"
             },
             {
               "key": "C",
-              "text_en": "You consent to vehicle searches at any time",
-              "text_zhHant": "隨時同意車輛搜查"
+              "text_en": "Only other vehicles around you",
+              "text_zhHant": "只注意周圍的其他車輛"
             },
             {
               "key": "D",
-              "text_en": "You agree to pay all traffic fines",
-              "text_zhHant": "同意支付所有交通罰款"
+              "text_en": "Only traffic signals",
+              "text_zhHant": "只注意交通信號燈"
             }
           ],
-          "answer": "B",
-          "explanation_en": "By driving in California, you automatically consent to a chemical test (blood, breath, or urine) if lawfully arrested for DUI.",
-          "explanation_zhHant": "在加州駕車即自動同意在因酒駕被合法逮捕後接受化學測試。",
-          "tags": []
+          "answer": "A",
+          "explanation_en": "In construction zones, you should watch for construction workers, slow-moving equipment, and lane changes. Be prepared for sudden stops and changing road conditions.",
+          "explanation_zhHant": "在施工區域，您應注意施工人員、慢速移動的設備和車道變化。要做好突然停車和路況改變的準備。",
+          "explanation_zh": "在施工区域，您应注意施工人员、慢速移动的设备和车道变化。要做好突然停车和路况改变的准备。",
+          "tags": ["construction-zone"]
         },
         {
           "id": "M04-S03-Q03",
-          "stem_en": "Is it legal to drive under the influence of prescription medication?",
-          "stem_zhHant": "在處方藥影響下駕車合法嗎？",
+          "stem_en": "Speed contests (racing) on public roads can result in:",
+          "stem_zhHant": "在公共道路上進行飆車比賽可能導致：",
           "options": [
             {
               "key": "A",
-              "text_en": "Yes, since it is prescribed by a doctor",
-              "text_zhHant": "合法，因為是醫生開的處方"
+              "text_en": "A warning for first-time offenders only",
+              "text_zhHant": "僅對初犯給予警告"
             },
             {
               "key": "B",
-              "text_en": "Yes, as long as you have the prescription bottle",
-              "text_zhHant": "合法，只要帶著處方藥瓶"
+              "text_en": "A small fine with no other penalties",
+              "text_zhHant": "少量罰款而無其他處罰"
             },
             {
               "key": "C",
-              "text_en": "No, if it impairs your ability to drive",
-              "text_zhHant": "不合法，如果影響了駕駛能力"
+              "text_en": "Fines, license suspension, and possible vehicle impoundment for up to 30 days",
+              "text_zhHant": "罰款、吊銷駕照，以及車輛可能被扣押最多30天"
             },
             {
               "key": "D",
-              "text_en": "Yes, for all medications except painkillers",
-              "text_zhHant": "合法，除了止痛藥以外的所有藥物"
+              "text_en": "Penalties only if an accident occurs",
+              "text_zhHant": "僅在發生事故時才有處罰"
             }
           ],
           "answer": "C",
-          "explanation_en": "Driving under the influence of any drug that impairs your ability to drive is illegal, even if the drug is legal for you to use.",
-          "explanation_zhHant": "在任何影響駕駛能力的藥物作用下駕車都是違法的，即使你有合法使用該藥物的權利。",
-          "tags": []
+          "explanation_en": "Speed contests (racing) on public roads are illegal. Penalties include fines, license suspension, and possible vehicle impoundment for up to 30 days.",
+          "explanation_zhHant": "在公共道路上進行飆車比賽是違法的。處罰包括罰款、吊銷駕照，以及車輛可能被扣押最多30天。",
+          "explanation_zh": "在公共道路上进行飙车比赛是违法的。处罚包括罚款、吊销驾照，以及车辆可能被扣押最多30天。",
+          "tags": ["speed-contest"]
         },
         {
           "id": "M04-S03-Q04",
-          "stem_en": "It is illegal to have an open container of alcohol in your vehicle:",
-          "stem_zhHant": "車內有已開封的酒精飲料容器屬於違法行為：",
+          "stem_en": "When driving through a work zone, you should:",
+          "stem_zhHant": "駛過施工區域時，您應該：",
           "options": [
             {
               "key": "A",
-              "text_en": "Only if you are driving",
-              "text_zhHant": "僅在駕車時"
+              "text_en": "Speed up to get through the zone quickly",
+              "text_zhHant": "加速盡快通過施工區域"
             },
             {
               "key": "B",
-              "text_en": "Only if you are under 21",
-              "text_zhHant": "僅在21歲以下時"
+              "text_en": "Follow the vehicle ahead as closely as possible",
+              "text_zhHant": "盡量緊跟前車"
             },
             {
               "key": "C",
-              "text_en": "Whether you are driving or riding as a passenger",
-              "text_zhHant": "無論是駕駛員還是乘客"
+              "text_en": "Obey posted speed limits and watch for workers",
+              "text_zhHant": "遵守限速標誌並注意施工人員"
             },
             {
               "key": "D",
-              "text_en": "Only on freeways",
-              "text_zhHant": "僅在高速公路上"
+              "text_en": "Change lanes frequently to find the fastest route",
+              "text_zhHant": "頻繁變道以找到最快路線"
             }
           ],
           "answer": "C",
-          "explanation_en": "It is illegal to have an open container of alcohol in your vehicle, whether you are driving or riding as a passenger.",
-          "explanation_zhHant": "無論是駕駛員還是乘客，車內都不得有已開封的酒精飲料容器。",
-          "tags": []
-        },
-        {
-          "id": "M04-S03-Q05",
-          "stem_en": "The legal BAC limit for drivers under 21 is:",
-          "stem_zhHant": "21歲以下駕駛員的合法血液酒精濃度上限為：",
-          "options": [
-            {
-              "key": "A",
-              "text_en": "0.00%",
-              "text_zhHant": "0.00%"
-            },
-            {
-              "key": "B",
-              "text_en": "0.01%",
-              "text_zhHant": "0.01%"
-            },
-            {
-              "key": "C",
-              "text_en": "0.04%",
-              "text_zhHant": "0.04%"
-            },
-            {
-              "key": "D",
-              "text_en": "0.08%",
-              "text_zhHant": "0.08%"
-            }
-          ],
-          "answer": "B",
-          "explanation_en": "For drivers under 21, the BAC limit is 0.01% (zero tolerance policy).",
-          "explanation_zhHant": "21歲以下駕駛員的BAC上限為0.01%（零容忍政策）。",
-          "tags": [
-            "bac"
-          ]
-        },
-        {
-          "id": "M04-S03-Q06",
-          "stem_en": "What happens when you combine alcohol and drugs while driving?",
-          "stem_zhHant": "駕車時同時使用酒精和藥物會怎樣？",
-          "options": [
-            {
-              "key": "A",
-              "text_en": "The effects cancel each other out",
-              "text_zhHant": "效果會互相抵消"
-            },
-            {
-              "key": "B",
-              "text_en": "The effects of impairment are multiplied",
-              "text_zhHant": "損害效果會成倍增加"
-            },
-            {
-              "key": "C",
-              "text_en": "Only the alcohol affects driving",
-              "text_zhHant": "只有酒精會影響駕駛"
-            },
-            {
-              "key": "D",
-              "text_en": "There is no additional danger",
-              "text_zhHant": "沒有額外的危險"
-            }
-          ],
-          "answer": "B",
-          "explanation_en": "Alcohol and drugs together multiply the effects of impairment. Even small amounts combined can make driving unsafe.",
-          "explanation_zhHant": "酒精與藥物同時使用會成倍增加損害效果。即使少量組合也可能導致無法安全駕駛。",
-          "tags": []
+          "explanation_en": "When driving through a work zone, obey the posted speed limits and watch for construction workers and slow-moving equipment. Be prepared for changing road conditions.",
+          "explanation_zhHant": "駛過施工區域時，應遵守限速標誌並注意施工人員和慢速移動的設備。要做好路況變化的準備。",
+          "explanation_zh": "驶过施工区域时，应遵守限速标志并注意施工人员和慢速移动的设备。要做好路况变化的准备。",
+          "tags": ["construction-zone"]
         }
       ]
     }

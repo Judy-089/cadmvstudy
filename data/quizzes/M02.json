@@ -33,6 +33,7 @@
           "answer": "B",
           "explanation_en": "A red octagonal STOP sign means you must make a full stop at the marked limit line, crosswalk, or before entering the intersection.",
           "explanation_zhHant": "紅色八角形停車標誌（STOP）表示必須在限制線、人行橫道或進入路口前完全停車。",
+          "explanation_zh": "红色八角形停车标志（STOP）表示必须在限制线、人行横道或进入路口前完全停车。",
           "tags": [
             "stop-sign"
           ]
@@ -66,6 +67,7 @@
           "answer": "C",
           "explanation_en": "A red and white triangular YIELD sign means you must slow down and be ready to stop to let any vehicle, bicyclist, or pedestrian pass.",
           "explanation_zhHant": "紅白三角形讓路標誌（YIELD）表示必須減速並準備停車，讓其他車輛、自行車或行人先行通過。",
+          "explanation_zh": "红白三角形让路标志（YIELD）表示必须减速并准备停车，让其他车辆、自行车或行人先行通过。",
           "tags": [
             "yield-sign"
           ]
@@ -99,6 +101,7 @@
           "answer": "B",
           "explanation_en": "A red circle with a white horizontal bar means DO NOT ENTER. You must not enter a roadway or ramp displaying this sign.",
           "explanation_zhHant": "紅色圓圈中間有白色橫杠表示禁止駛入。看到這個標誌不得進入該路段或匝道。",
+          "explanation_zh": "红色圆圈中间有白色横杠表示禁止驶入。看到这个标志不得进入该路段或匝道。",
           "tags": [
             "do-not-enter"
           ]
@@ -132,6 +135,7 @@
           "answer": "C",
           "explanation_en": "A WRONG WAY sign indicates you are traveling against the flow of traffic. Stop and go back the way you came.",
           "explanation_zhHant": "逆行標誌（WRONG WAY）表示你正在逆行。應立即停車並調頭返回。",
+          "explanation_zh": "逆行标志（WRONG WAY）表示你正在逆行。应立即停车并调头返回。",
           "tags": []
         },
         {
@@ -163,6 +167,7 @@
           "answer": "B",
           "explanation_en": "Speed limit signs are white and rectangular, showing the maximum legal speed in miles per hour.",
           "explanation_zhHant": "限速標誌為白色矩形，顯示以英里/小時為單位的最高合法速度。",
+          "explanation_zh": "限速标志为白色矩形，显示以英里/小时为单位的最高合法速度。",
           "tags": []
         },
         {
@@ -194,6 +199,7 @@
           "answer": "B",
           "explanation_en": "A white rectangular sign with a red circle and slash indicates a prohibition, such as NO U-TURN or NO LEFT TURN.",
           "explanation_zhHant": "白色矩形標誌上帶有紅色圓圈和斜線表示禁止某項行為，例如禁止掉頭或禁止左轉。",
+          "explanation_zh": "白色矩形标志上带有红色圆圈和斜线表示禁止某项行为，例如禁止掉头或禁止左转。",
           "tags": []
         },
         {
@@ -225,6 +231,7 @@
           "answer": "A",
           "explanation_en": "A ONE WAY sign with a black arrow shows that traffic flows in only one direction on that road.",
           "explanation_zhHant": "帶有黑色箭頭的單行道標誌（ONE WAY）表示該道路只允許單方向行駛。",
+          "explanation_zh": "带有黑色箭头的单行道标志（ONE WAY）表示该道路只允许单方向行驶。",
           "tags": [
             "one-way"
           ]
@@ -263,6 +270,7 @@
           "answer": "C",
           "explanation_en": "Yellow diamond-shaped signs are warning signs that alert you to upcoming road conditions or hazards.",
           "explanation_zhHant": "黃色菱形標誌是警告標誌，提醒前方可能有路況變化或危險情況。",
+          "explanation_zh": "黃色菱形标志是警告标志，提醒前方可能有路况变化或危险情况。",
           "tags": []
         },
         {
@@ -294,9 +302,8 @@
           "answer": "B",
           "explanation_en": "A yellow pennant-shaped sign on the left side of the road means NO PASSING ZONE. You may not pass other vehicles in this area.",
           "explanation_zhHant": "道路左側黃色三角旗形標誌表示禁止超車區域。在該區域內不得超越前方車輛。",
-          "tags": [
-            "do-not-pass"
-          ]
+          "explanation_zh": "道路左侧黃色三角旗形标志表示禁止超车区域。在该区域内不得超越前方车辆。",
+          "tags": []
         },
         {
           "id": "M02-S02-Q03",
@@ -327,6 +334,7 @@
           "answer": "C",
           "explanation_en": "A round yellow sign with a black X and two R's indicates a railroad crossing ahead. Slow down, look, and listen for trains.",
           "explanation_zhHant": "黃色圓形標誌上有黑色X和兩個R字母表示前方有鐵路道口。需減速、觀察並傾聽是否有列車接近。",
+          "explanation_zh": "黃色圆形标志上有黑色X和两个R字母表示前方有铁路道口。需减速、观察并倾聽是否有列车接近。",
           "tags": []
         },
         {
@@ -358,6 +366,7 @@
           "answer": "C",
           "explanation_en": "An orange diamond-shaped sign indicates a construction zone or road work ahead. Slow down and watch for workers and equipment.",
           "explanation_zhHant": "橙色菱形標誌表示前方為施工區域。需減速行駛，注意施工人員和設備。",
+          "explanation_zh": "橙色菱形标志表示前方为施工区域。需减速行驶，注意施工人员和设备。",
           "tags": [
             "worker-symbol"
           ]
@@ -391,6 +400,7 @@
           "answer": "C",
           "explanation_en": "A pentagon-shaped yellow sign indicates a school zone or school crossing ahead. Watch for children and be prepared to stop.",
           "explanation_zhHant": "五邊形黃色標誌表示前方為學校區域或學校路口。注意兒童安全，隨時準備停車。",
+          "explanation_zh": "五边形黃色标志表示前方为学校区域或学校路口。注意儿童安全，随时准备停车。",
           "tags": [
             "school-zone"
           ]
@@ -424,6 +434,7 @@
           "answer": "B",
           "explanation_en": "A yellow diamond sign with a curved arrow warns of an upcoming curve. An advisory speed may be shown below.",
           "explanation_zhHant": "黃色菱形標誌上帶有彎曲箭頭表示前方有彎道。下方可能顯示建議速度。",
+          "explanation_zh": "黃色菱形标志上带有弯曲箭头表示前方有弯道。下方可能显示建议速度。",
           "tags": []
         },
         {
@@ -455,6 +466,7 @@
           "answer": "C",
           "explanation_en": "When you see a construction zone sign, slow down and watch for workers and equipment. Fines for violations in construction zones are typically doubled.",
           "explanation_zhHant": "看到施工區標誌時需減速行駛，注意施工人員和設備。施工區域內違規罰款通常加倍。",
+          "explanation_zh": "看到施工区标志时需减速行驶，注意施工人员和设备。施工区域内违规罚款通常加倍。",
           "tags": [
             "worker-symbol"
           ]
@@ -488,6 +500,7 @@
           "answer": "C",
           "explanation_en": "A round (circular) yellow sign is uniquely used for railroad crossing warnings.",
           "explanation_zhHant": "圓形黃色標誌是鐵路道口警告特有的形狀。",
+          "explanation_zh": "圆形黃色标志是铁路道口警告特有的形狀。",
           "tags": [
             "railroad"
           ]
@@ -521,6 +534,7 @@
           "answer": "B",
           "explanation_en": "A slow-moving vehicle sign is an orange/red reflective triangle displayed on the rear of vehicles that travel at 25 mph or less, such as farm equipment.",
           "explanation_zhHant": "慢速車輛標誌是一個橙色/紅色反光三角形，貼在行駛速度為25英里/小時或以下的車輛後方，例如農用設備。",
+          "explanation_zh": "慢速车辆标志是一个橙色/红色反光三角形，贴在行驶速度为25英里/小时或以下的车辆后方，例如农用设备。",
           "tags": []
         },
         {
@@ -552,7 +566,10 @@
           "answer": "B",
           "explanation_en": "Hazardous materials placards are diamond-shaped signs on vehicles carrying dangerous loads. Vehicles displaying hazmat placards are required to stop at all railroad crossings.",
           "explanation_zhHant": "危險品標識牌是貼在載有危險貨物車輛上的菱形標誌。載有危險品標識牌的車輛必須在所有鐵路道口停車。",
-          "tags": ["railroad"]
+          "explanation_zh": "危险品标识牌是贴在载有危险货物车辆上的菱形标志。载有危险品标识牌的车辆必须在所有铁路道口停车。",
+          "tags": [
+            "railroad"
+          ]
         }
       ]
     },
@@ -588,6 +605,7 @@
           "answer": "B",
           "explanation_en": "You may turn right on a steady red light after stopping, unless a sign prohibits it. You must yield to pedestrians and traffic.",
           "explanation_zhHant": "停車後可以在穩定紅燈時右轉，除非有標誌禁止。必須讓行人和車輛先行。",
+          "explanation_zh": "停车后可以在稳定红灯时右转，除非有标志禁止。必须让行人和车辆先行。",
           "tags": [
             "red-light"
           ]
@@ -621,6 +639,7 @@
           "answer": "C",
           "explanation_en": "A steady yellow light means the red light is about to appear. Stop if you can safely do so. If already in the intersection, continue through carefully.",
           "explanation_zhHant": "黃燈亮表示紅燈即將出現。如果能安全停車則停下。如果已經進入路口，應謹慎通過。",
+          "explanation_zh": "黃灯亮表示红灯即将出现。如果能安全停车则停下。如果已经进入路口，应谨慎通过。",
           "tags": [
             "yellow-light"
           ]
@@ -654,6 +673,7 @@
           "answer": "B",
           "explanation_en": "A flashing red light means STOP. Treat it the same as a stop sign: come to a full stop and proceed when safe.",
           "explanation_zhHant": "紅燈閃爍與停車標誌相同，必須完全停車，確認安全後方可繼續行駛。",
+          "explanation_zh": "红灯闪烁与停车标志相同，必须完全停车，确认安全后方可继续行驶。",
           "tags": [
             "flashing-red"
           ]
@@ -687,6 +707,7 @@
           "answer": "B",
           "explanation_en": "A green arrow means you may turn in the direction of the arrow. Oncoming traffic is stopped, but you must still yield to pedestrians.",
           "explanation_zhHant": "綠色箭頭燈表示可以向箭頭方向轉彎。對向車輛此時為紅燈，但仍須讓行人先行。",
+          "explanation_zh": "绿色箭头灯表示可以向箭头方向转弯。对向车辆此时为红灯，但仍须让行人先行。",
           "tags": [
             "green-arrow"
           ]
@@ -720,8 +741,10 @@
           "answer": "C",
           "explanation_en": "Unlike a steady red light where right turns may be permitted, you may NOT turn on a red arrow even after stopping.",
           "explanation_zhHant": "與普通紅燈不同，紅色箭頭亮時即使完全停車也不允許轉彎。",
+          "explanation_zh": "与普通红灯不同，红色箭头亮时即使完全停车也不允许转弯。",
           "tags": [
-            "red-light"
+            "red-light",
+            "red-arrow"
           ]
         },
         {
@@ -753,6 +776,7 @@
           "answer": "C",
           "explanation_en": "If a traffic signal is not working, treat the intersection as an all-way stop. All vehicles must stop and yield to the driver who arrived first.",
           "explanation_zhHant": "如果交通信號燈不工作，將該路口視為全方位停車路口。所有車輛必須停車，先到者先行。",
+          "explanation_zh": "如果交通信号灯不工作，将该路口视为全方位停车路口。所有车辆必须停车，先到者先行。",
           "tags": []
         },
         {
@@ -784,6 +808,7 @@
           "answer": "C",
           "explanation_en": "A flashing yellow light means proceed with caution. Slow down and be alert; you do not need to stop but must yield to hazards.",
           "explanation_zhHant": "黃燈閃爍表示謹慎通過。減速並保持警覺，不需要停車但必須讓行。",
+          "explanation_zh": "黃灯闪烁表示谨慎通过。减速并保持警觉，不需要停车但必须让行。",
           "tags": [
             "flashing-yellow"
           ]
@@ -817,6 +842,7 @@
           "answer": "B",
           "explanation_en": "A yellow arrow means the protected turning phase is ending. Prepare to obey the next signal.",
           "explanation_zhHant": "黃色箭頭燈表示受保護轉彎階段即將結束。準備遵守下一個信號燈。",
+          "explanation_zh": "黃色箭头灯表示受保护转弯阶段即将结束。准备遵守下一个信号灯。",
           "tags": []
         },
         {
@@ -848,6 +874,7 @@
           "answer": "B",
           "explanation_en": "A steady green light means GO, but only after yielding to any vehicles, bicyclists, or pedestrians still in the intersection.",
           "explanation_zhHant": "綠燈亮表示可以通行，但須先讓已在路口內的車輛、自行車和行人通過。",
+          "explanation_zh": "绿灯亮表示可以通行，但须先让已在路口内的车辆、自行车和行人通过。",
           "tags": [
             "green-light"
           ]
@@ -886,6 +913,7 @@
           "answer": "B",
           "explanation_en": "Yellow lines separate traffic moving in opposite directions. White lines separate traffic moving in the same direction.",
           "explanation_zhHant": "黃線用於分隔對向車流。白線用於分隔同向車流。",
+          "explanation_zh": "黃线用于分隔对向车流。白线用于分隔同向车流。",
           "tags": []
         },
         {
@@ -917,6 +945,7 @@
           "answer": "B",
           "explanation_en": "A broken yellow line means you may pass if it is safe to do so and you are not interfering with oncoming traffic.",
           "explanation_zhHant": "黃色虛線表示在安全且不妨礙對向來車的情況下可以超車。",
+          "explanation_zh": "黃色虚线表示在安全且不妨碍对向来车的情况下可以超车。",
           "tags": []
         },
         {
@@ -948,6 +977,7 @@
           "answer": "C",
           "explanation_en": "Double solid yellow lines mean no vehicle may pass in either direction. You may cross them only to turn into a driveway or private road.",
           "explanation_zhHant": "雙黃實線表示雙向均不得超車或越線。只有在轉入車道入口或私人道路時才允許穿越。",
+          "explanation_zh": "双黃实线表示双向均不得超车或越线。只有在转入车道入口或私人道路时才允许穿越。",
           "tags": []
         },
         {
@@ -979,6 +1009,7 @@
           "answer": "B",
           "explanation_en": "A double solid white line means lane changes are prohibited. You may not cross it for any reason.",
           "explanation_zhHant": "雙白實線表示禁止變道。任何情況下都不得穿越雙白實線。",
+          "explanation_zh": "双白实线表示禁止变道。任何情况下都不得穿越双白实线。",
           "tags": []
         },
         {
@@ -1010,6 +1041,7 @@
           "answer": "B",
           "explanation_en": "A two-way left-turn lane is shared by traffic in both directions for left turns only. You may not travel in it for more than 200 feet.",
           "explanation_zhHant": "雙向左轉專用道由雙向車輛共用，僅用於左轉。不得在此車道行駛超過200英尺。",
+          "explanation_zh": "双向左转专用道由双向车辆共用，仅用于左转。不得在此车道行驶超过200英尺。",
           "tags": []
         },
         {
@@ -1041,6 +1073,7 @@
           "answer": "C",
           "explanation_en": "A red curb means NO stopping, standing, or parking at any time.",
           "explanation_zhHant": "紅色路緣表示任何時候都不得停車。",
+          "explanation_zh": "红色路缘表示任何时候都不得停车。",
           "tags": [
             "colored-curbs"
           ]
@@ -1074,6 +1107,7 @@
           "answer": "C",
           "explanation_en": "A blue curb means parking for disabled persons only with a proper placard or license plate.",
           "explanation_zhHant": "藍色路緣僅供殘疾人停車，需持有有效殘疾人標牌或特殊車牌。",
+          "explanation_zh": "蓝色路缘仅供残疾人停车，需持有有效残疾人标牌或特殊车牌。",
           "tags": [
             "colored-curbs"
           ]
@@ -1107,6 +1141,7 @@
           "answer": "B",
           "explanation_en": "White lines separate traffic moving in the same direction. A broken white line means you may change lanes; a solid white line means stay in your lane.",
           "explanation_zhHant": "白線分隔同向車流。白色虛線表示可以變道，白色實線表示應保持在本車道。",
+          "explanation_zh": "白线分隔同向车流。白色虚线表示可以变道，白色实线表示应保持在本车道。",
           "tags": []
         },
         {
@@ -1138,6 +1173,7 @@
           "answer": "B",
           "explanation_en": "A yellow curb means loading/unloading only. Drivers of noncommercial vehicles must stay with the vehicle.",
           "explanation_zhHant": "黃色路緣僅供裝卸貨物，非商業車輛司機須留在車內。",
+          "explanation_zh": "黃色路缘仅供装卸货物，非商业车辆司机须留在车内。",
           "tags": [
             "colored-curbs"
           ]
@@ -1171,6 +1207,7 @@
           "answer": "A",
           "explanation_en": "A solid white line between same-direction lanes means you should stay in your lane. A broken white line means you may change lanes when safe.",
           "explanation_zhHant": "同向車道之間的白色實線表示應保持在本車道行駛。白色虛線表示在安全時可以變道。",
+          "explanation_zh": "同向车道之间的白色实线表示应保持在本车道行驶。白色虚线表示在安全时可以变道。",
           "tags": []
         }
       ]
@@ -1207,6 +1244,7 @@
           "answer": "B",
           "explanation_en": "Green signs provide direction and distance information, such as highway exits, city distances, and route markers.",
           "explanation_zhHant": "綠色標誌提供方向和距離信息，如高速公路出口、城市距離和路線標記。",
+          "explanation_zh": "绿色标志提供方向和距离信息，如高速公路出口、城市距离和路线标记。",
           "tags": []
         },
         {
@@ -1238,6 +1276,7 @@
           "answer": "B",
           "explanation_en": "Blue signs indicate motorist services such as gas stations, food, lodging, and hospitals.",
           "explanation_zhHant": "藍色標誌表示駕駛員服務設施信息，如加油站、餐飲、住宿和醫院。",
+          "explanation_zh": "蓝色标志表示驾驶员服务设施信息，如加油站、餐饮、住宿和医院。",
           "tags": []
         },
         {
@@ -1269,6 +1308,7 @@
           "answer": "C",
           "explanation_en": "Brown signs indicate public recreation areas, scenic routes, parks, and historical sites.",
           "explanation_zhHant": "棕色標誌表示公共休閒區域、風景路線、公園和歷史景點。",
+          "explanation_zh": "棕色标志表示公共休闲区域、风景路线、公园和历史景点。",
           "tags": []
         },
         {
@@ -1300,6 +1340,7 @@
           "answer": "C",
           "explanation_en": "An octagon (8-sided) shape is exclusively used for STOP signs.",
           "explanation_zhHant": "八角形標誌專門用於停車標誌（STOP）。",
+          "explanation_zh": "八角形标志专门用于停车标志（STOP）。",
           "tags": []
         },
         {
@@ -1331,6 +1372,7 @@
           "answer": "C",
           "explanation_en": "An HOV (High-Occupancy Vehicle) lane requires the posted minimum number of occupants, usually 2 or more, during posted hours.",
           "explanation_zhHant": "HOV（高承載車輛）車道在規定時段內要求車內人數達到標注的最低要求，通常為2人以上。",
+          "explanation_zh": "HOV（高承载车辆）车道在规定时段内要求车内人数达到标注的最低要求，通常为2人以上。",
           "tags": []
         },
         {
@@ -1362,6 +1404,7 @@
           "answer": "C",
           "explanation_en": "A pentagon (5-sided) shape is used for school zone signs.",
           "explanation_zhHant": "五邊形標誌用於學校區域。",
+          "explanation_zh": "五边形标志用于学校区域。",
           "tags": [
             "school-zone"
           ]
@@ -1395,6 +1438,7 @@
           "answer": "B",
           "explanation_en": "A triangle shape is exclusively used for YIELD signs.",
           "explanation_zhHant": "三角形標誌專門用於讓路標誌（YIELD）。",
+          "explanation_zh": "三角形标志专门用于让路标志（YIELD）。",
           "tags": [
             "yield-sign"
           ]

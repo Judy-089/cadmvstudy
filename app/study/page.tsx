@@ -7,15 +7,21 @@ import { LockedCard } from "@/components/LockedOverlay";
 import { QuizScoreCircles } from "@/components/QuizScoreCircles";
 import { signInWithGoogle } from "@/lib/auth";
 import { useT } from "@/lib/useT";
+import { getLocalizedZh } from "@/lib/language";
+import { Footer } from "@/components/Footer";
 import { useRequireSession } from "@/lib/useRequireSession";
 import { useProgressStore } from "@/store/useProgressStore";
+import { useWrongQuestionStore } from "@/store/useWrongQuestionStore";
 
 export default function StudyPage() {
   const sessionMode = useAppStore((s) => s.sessionMode);
+  const languageMode = useAppStore((s) => s.languageMode);
   const isModuleUnlocked = useAppStore((s) => s.isModuleUnlocked);
   const t = useT();
   const redirecting = useRequireSession();
   const moduleProgress = useProgressStore((s) => s.moduleProgress);
+  const unresolvedCount = useWrongQuestionStore((s) => s.unresolvedCount)();
+  const totalMistakes = useWrongQuestionStore((s) => s.totalCount)();
 
   if (redirecting) return null;
 
@@ -37,6 +43,31 @@ export default function StudyPage() {
       )}
 
       <div className="mt-6 space-y-3">
+        {/* Mistake Review entry */}
+        {totalMistakes > 0 && (
+          <Link href="/mistakes">
+            <div className="group flex items-center gap-4 rounded-xl border border-amber-200 bg-gradient-to-r from-amber-50 to-orange-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-amber-300">
+              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-amber-100 text-xl">
+                ✏️
+              </div>
+              <div className="flex-1 min-w-0">
+                <h3 className="font-semibold text-text-dark group-hover:text-amber-700 transition-colors">
+                  {t("mistakes.title")}
+                </h3>
+                <p className="text-sm text-text-gray">{t("mistakes.subtitle")}</p>
+              </div>
+              {unresolvedCount > 0 && (
+                <div className="flex-shrink-0 rounded-full bg-amber-500 px-2.5 py-1 text-xs font-bold text-white shadow-sm">
+                  {unresolvedCount}
+                </div>
+              )}
+              <svg className="h-5 w-5 flex-shrink-0 text-text-gray group-hover:text-amber-600 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </Link>
+        )}
+
         {modules.map((mod) => {
           const unlocked = isModuleUnlocked(mod.id);
           const mp = moduleProgress[mod.id];
@@ -61,9 +92,11 @@ export default function StudyPage() {
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 flex-wrap">
                   <span className="text-xs font-medium text-primary">{mod.id}</span>
-                  <h3 className="font-semibold text-text-dark group-hover:text-primary truncate">{mod.titleEn}</h3>
+                  <h3 className="font-semibold text-text-dark group-hover:text-primary truncate">
+                    {languageMode === "zhHant_zhHans" ? mod.titleZhHant : mod.titleEn}
+                  </h3>
                 </div>
-                <p className="text-sm text-text-gray">{mod.titleZh}</p>
+                {languageMode !== "en_only" && <p className="text-sm text-text-gray">{mod.titleZh}</p>}
                 <div className="mt-2 flex items-center justify-between gap-3">
                   <div className="flex items-center gap-3 flex-1 min-w-0">
                     <div className="h-1.5 flex-1 rounded-full bg-gray-100">
@@ -80,6 +113,8 @@ export default function StudyPage() {
           return <LockedCard key={mod.id}>{cardContent}</LockedCard>;
         })}
       </div>
+
+      <Footer />
     </div>
   );
 }

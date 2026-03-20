@@ -33,6 +33,7 @@
           "answer": "B",
           "explanation_en": "Always yield to pedestrians in marked and unmarked crosswalks. An unmarked crosswalk exists at every intersection where roads meet.",
           "explanation_zhHant": "在有標記和無標記的人行橫道上必須讓行人先行。每個道路交匯的路口都存在無標記的人行橫道。",
+          "explanation_zh": "在有标记和无标记的人行横道上必须让行人先行。每个道路交汇的路口都存在无标记的人行横道。",
           "tags": []
         },
         {
@@ -64,6 +65,7 @@
           "answer": "C",
           "explanation_en": "Do not pass a vehicle stopped at a crosswalk. A pedestrian you cannot see may be crossing.",
           "explanation_zhHant": "不要超越在人行橫道前停著的車輛。可能有你看不到的行人正在過馬路。",
+          "explanation_zh": "不要超越在人行横道前停著的车辆。可能有你看不到的行人正在过马路。",
           "tags": []
         },
         {
@@ -95,6 +97,7 @@
           "answer": "C",
           "explanation_en": "Blind pedestrians carry white canes or use guide dogs. You must always yield to them, even if the traffic signal is in your favor.",
           "explanation_zhHant": "盲人行人持白色手杖或使用導盲犬。即使交通信號燈在你這一邊，你也必須讓他們先行。",
+          "explanation_zh": "盲人行人持白色手杖或使用导盲犬。即使交通信号灯在你这一边，你也必须让他们先行。",
           "tags": []
         },
         {
@@ -126,6 +129,7 @@
           "answer": "B",
           "explanation_en": "Do not stop in a crosswalk when waiting at a red light or stop sign. You block pedestrian traffic and put pedestrians in danger.",
           "explanation_zhHant": "在等紅燈或停車標誌時，不要停在人行橫道上。你會擋住行人通行並將行人置於危險中。",
+          "explanation_zh": "在等红灯或停车标志时，不要停在人行横道上。你会挡住行人通行并将行人置于危险中。",
           "tags": []
         },
         {
@@ -157,6 +161,7 @@
           "answer": "B",
           "explanation_en": "Be especially watchful for pedestrians in residential areas, near schools, and in parking lots.",
           "explanation_zhHant": "在住宅區、學校附近和停車場要格外注意行人。",
+          "explanation_zh": "在住宅区、学校附近和停车场要格外注意行人。",
           "tags": []
         },
         {
@@ -188,7 +193,10 @@
           "answer": "B",
           "explanation_en": "A flashing DON'T WALK or raised hand signal means do not start crossing the street. If you have already started crossing, finish crossing quickly.",
           "explanation_zhHant": "閃爍的「不要走」或舉手信號表示不要開始過馬路。如果已經在過馬路中，應加快步伐走完。",
-          "tags": ["pedestrian-signal"]
+          "explanation_zh": "闪烁的「不要走」或举手信号表示不要开始过马路。如果已经在过马路中，应加快步伐走完。",
+          "tags": [
+            "pedestrian-signal"
+          ]
         }
       ]
     },
@@ -224,6 +232,7 @@
           "answer": "C",
           "explanation_en": "California law requires you to give at least 3 feet of space when passing a bicyclist. If 3 feet is not possible, slow down to a reasonable and safe speed.",
           "explanation_zhHant": "超越騎自行車的人時，加州法律要求至少留出3英尺的空間。如果無法留出3英尺，減速至合理安全的速度。",
+          "explanation_zh": "超越骑自行车的人时，加州法律要求至少留出3英尺的空间。如果无法留出3英尺，减速至合理安全的速度。",
           "tags": []
         },
         {
@@ -255,6 +264,7 @@
           "answer": "B",
           "explanation_en": "Bicyclists have the same rights and responsibilities as motor vehicle drivers. They are entitled to share the road.",
           "explanation_zhHant": "騎自行車的人與機動車駕駛員享有相同的權利和責任。他們有權共用道路。",
+          "explanation_zh": "骑自行车的人与机动车驾驶员享有相同的权利和责任。他们有权共用道路。",
           "tags": []
         },
         {
@@ -286,6 +296,7 @@
           "answer": "B",
           "explanation_en": "Check for bicyclists before making a right turn. They may be riding in the bike lane or near the right edge of the road.",
           "explanation_zhHant": "右轉前檢查是否有騎自行車的人。他們可能在自行車道或道路右側邊緣騎行。",
+          "explanation_zh": "右转前检查是否有骑自行车的人。他们可能在自行车道或道路右侧边缘骑行。",
           "tags": []
         },
         {
@@ -317,6 +328,7 @@
           "answer": "B",
           "explanation_en": "Dooring is opening your car door into a cyclist's path. It is a common cause of bicycle accidents. Always look carefully for bicyclists before opening your door.",
           "explanation_zhHant": "「開門撞人」是把車門打開到騎車人的行駛路線上，這是自行車事故的常見原因。開車門前要仔細觀察是否有騎自行車的人。",
+          "explanation_zh": "「开门撞人」是把车门打开到骑车人的行驶路线上，这是自行车事故的常见原因。开车门前要仔细观察是否有骑自行车的人。",
           "tags": []
         },
         {
@@ -348,6 +360,7 @@
           "answer": "C",
           "explanation_en": "Bicyclists are allowed to ride in the center of the lane when the lane is too narrow for a bicycle and vehicle to travel safely side by side.",
           "explanation_zhHant": "當車道太窄，自行車和機動車無法安全並排行駛時，騎自行車的人可以在車道中央騎行。",
+          "explanation_zh": "当车道太窄，自行车和机动车无法安全并排行驶时，骑自行车的人可以在车道中央骑行。",
           "tags": []
         },
         {
@@ -379,6 +392,7 @@
           "answer": "B",
           "explanation_en": "You may drive in a bicycle lane only within 200 feet of an intersection to make a turn, when entering or leaving a driveway, or when parking where permitted.",
           "explanation_zhHant": "只有在距路口200英尺內準備轉彎、進出車道入口或在允許停車處停車時，才可以在自行車道內行駛。",
+          "explanation_zh": "只有在距路口200英尺内准备转弯、进出车道入口或在允许停车处停车时，才可以在自行车道内行驶。",
           "tags": []
         },
         {
@@ -410,6 +424,7 @@
           "answer": "B",
           "explanation_en": "A buffered bicycle lane has extra painted buffer space marked with chevrons or diagonal lines to provide greater separation between bicyclists and motor vehicle traffic.",
           "explanation_zhHant": "緩衝自行車道有額外的塗漆緩衝空間，用人字形或斜線標記，為騎車人和機動車之間提供更大的分隔距離。",
+          "explanation_zh": "缓冲自行车道有额外的涂漆缓冲空间，用人字形或斜线标记，为骑车人和机动车之间提供更大的分隔距离。",
           "tags": []
         },
         {
@@ -441,6 +456,7 @@
           "answer": "B",
           "explanation_en": "A separated bikeway is a bicycle lane that is physically separated from motor vehicle traffic by a barrier, curb, parked cars, or other physical feature. Motor vehicles must not drive in separated bikeways.",
           "explanation_zhHant": "分離式自行車道是透過護欄、路緣、停放的車輛或其他實體設施與機動車道進行物理分隔的自行車道。機動車不得駛入分離式自行車道。",
+          "explanation_zh": "分离式自行车道是透过护栏、路缘、停放的车辆或其他实体设施与机动车道进行物理分隔的自行车道。机动车不得驶入分离式自行车道。",
           "tags": []
         },
         {
@@ -472,6 +488,7 @@
           "answer": "B",
           "explanation_en": "Shared roadway bicycle markings (sharrows) alert drivers that bicyclists may occupy the full lane. These markings are placed on roads where there is no separate bike lane.",
           "explanation_zhHant": "共用道路自行車標記（共享箭頭）提醒駕駛員自行車騎士可能佔用整條車道。這些標記設置在沒有獨立自行車道的道路上。",
+          "explanation_zh": "共用道路自行车标记（共享箭头）提醒驾驶员自行车骑士可能占用整条车道。这些标记设置在没有独立自行车道的道路上。",
           "tags": []
         }
       ]
@@ -508,6 +525,7 @@
           "answer": "B",
           "explanation_en": "Motorcycles are entitled to the full use of a traffic lane. Do not try to share a lane with a motorcycle.",
           "explanation_zhHant": "摩托車有權使用完整的一條車道。不要試圖與摩托車共用一條車道。",
+          "explanation_zh": "摩托车有权使用完整的一条车道。不要试图与摩托车共用一条车道。",
           "tags": []
         },
         {
@@ -539,6 +557,7 @@
           "answer": "B",
           "explanation_en": "Motorcyclists may legally lane split (ride between rows of stopped or slow-moving traffic) in California. Be alert for motorcycles in slow traffic.",
           "explanation_zhHant": "在加州，摩托車合法地進行車道分流（在停止或緩慢行駛的車輛之間騎行）。在緩慢的車流中注意摩托車。",
+          "explanation_zh": "在加州，摩托车合法地进行车道分流（在停止或缓慢行驶的车辆之间骑行）。在缓慢的车流中注意摩托车。",
           "tags": []
         },
         {
@@ -570,6 +589,7 @@
           "answer": "A",
           "explanation_en": "Motorcycles are harder to see than cars due to their smaller size. Always check your mirrors and blind spots for motorcycles, especially before changing lanes or turning.",
           "explanation_zhHant": "摩托車因體積較小而比汽車更難被看到。變道或轉彎前一定檢查後視鏡和盲區是否有摩托車。",
+          "explanation_zh": "摩托车因体积较小而比汽车更难被看到。变道或转弯前一定检查后视镜和盲区是否有摩托车。",
           "tags": []
         },
         {
@@ -601,6 +621,7 @@
           "answer": "C",
           "explanation_en": "Allow more following distance when behind a motorcycle because motorcycles can stop faster than cars.",
           "explanation_zhHant": "在摩托車後方行駛時保持更多跟車距離，因為摩托車的制動距離比汽車短。",
+          "explanation_zh": "在摩托车后方行驶时保持更多跟车距离，因为摩托车的制动距离比汽车短。",
           "tags": []
         },
         {
@@ -632,6 +653,7 @@
           "answer": "C",
           "explanation_en": "Road conditions that are minor for cars (potholes, gravel, wet pavement) can be major hazards for motorcyclists.",
           "explanation_zhHant": "對汽車來說較小的路況問題（坑洼、碎石、濕滑路面）對摩托車騎手來說可能是重大危險。",
+          "explanation_zh": "对汽车来说较小的路况问题（坑洼、碎石、湿滑路面）对摩托车骑手来说可能是重大危险。",
           "tags": []
         },
         {
@@ -639,15 +661,34 @@
           "stem_en": "When may you pass a light rail vehicle on the left side?",
           "stem_zhHant": "什麼時候可以從左側超越輕軌車輛？",
           "options": [
-            {"key": "A", "text_en": "Whenever it is stopped to pick up passengers", "text_zhHant": "當它停車上客時"},
-            {"key": "B", "text_en": "Only when the tracks are so close to the right that you cannot pass on the right, on a one-way street, or when directed by a traffic officer", "text_zhHant": "僅當軌道太靠近右側無法從右側通過、在單行道上、或交警指示時"},
-            {"key": "C", "text_en": "Any time you can safely do so", "text_zhHant": "任何你可以安全通過的時候"},
-            {"key": "D", "text_en": "Only during daytime hours", "text_zhHant": "僅在白天"}
+            {
+              "key": "A",
+              "text_en": "Whenever it is stopped to pick up passengers",
+              "text_zhHant": "當它停車上客時"
+            },
+            {
+              "key": "B",
+              "text_en": "Only when the tracks are so close to the right that you cannot pass on the right, on a one-way street, or when directed by a traffic officer",
+              "text_zhHant": "僅當軌道太靠近右側無法從右側通過、在單行道上、或交警指示時"
+            },
+            {
+              "key": "C",
+              "text_en": "Any time you can safely do so",
+              "text_zhHant": "任何你可以安全通過的時候"
+            },
+            {
+              "key": "D",
+              "text_en": "Only during daytime hours",
+              "text_zhHant": "僅在白天"
+            }
           ],
           "answer": "B",
           "explanation_en": "Do not pass a light rail vehicle on the left unless: tracks are too close to the right, you are on a one-way street, or a traffic officer directs you.",
           "explanation_zhHant": "不要從左側超越輕軌車輛，除非：軌道太靠近右側、在單行道上、或交警指示。",
-          "tags": ["light-rail"]
+          "explanation_zh": "不要从左侧超越轻轨车辆，除非：轨道太靠近右侧、在单行道上、或交警指示。",
+          "tags": [
+            "light-rail"
+          ]
         }
       ]
     },
@@ -683,6 +724,7 @@
           "answer": "B",
           "explanation_en": "When a school bus flashes red lights and has its stop arm out, you must stop from both directions on an undivided road. Remain stopped until the red lights stop flashing.",
           "explanation_zhHant": "當校車閃爍紅燈並伸出停車臂時，在無分隔道路上雙方向的車輛都必須停車。保持停車直到紅燈停止閃爍。",
+          "explanation_zh": "当校车闪烁红灯并伸出停车臂时，在无分隔道路上双方向的车辆都必须停车。保持停车直到红灯停止闪烁。",
           "tags": [
             "red-light"
           ]
@@ -716,6 +758,7 @@
           "answer": "A",
           "explanation_en": "If the road is divided by a physical barrier or median, you do not need to stop when approaching a school bus from the opposite direction.",
           "explanation_zhHant": "如果道路有物理隔離帶或中央分隔帶，從對面方向駛來時不需要為校車停車。",
+          "explanation_zh": "如果道路有物理隔离带或中央分隔带，从对面方向驶来时不需要为校车停车。",
           "tags": [
             "school-bus"
           ]
@@ -749,6 +792,7 @@
           "answer": "C",
           "explanation_en": "The speed limit in a school zone is 25 mph when children are present.",
           "explanation_zhHant": "學校區域有兒童時限速25英里/小時。",
+          "explanation_zh": "学校区域有儿童时限速25英里/小时。",
           "tags": []
         },
         {
@@ -780,6 +824,7 @@
           "answer": "C",
           "explanation_en": "The fine for illegally passing a stopped school bus can be up to $1,000 for a first offense.",
           "explanation_zhHant": "非法越過停靠的校車的罰款，初犯最高可達1,000美元。",
+          "explanation_zh": "非法越过停靠的校车的罚款，初犯最高可达1,000美元。",
           "tags": []
         },
         {
@@ -811,6 +856,7 @@
           "answer": "A",
           "explanation_en": "When a school bus flashes yellow lights, it is preparing to stop. Slow down and be ready to stop.",
           "explanation_zhHant": "當校車閃爍黃燈時，表示正在準備停車。減速並準備停車。",
+          "explanation_zh": "当校车闪烁黄灯时，表示正在准备停车。减速并准备停车。",
           "tags": [
             "yellow-light"
           ]
@@ -849,6 +895,7 @@
           "answer": "B",
           "explanation_en": "Large trucks have bigger blind spots on all four sides. Avoid lingering in a truck's blind spots, especially on the right side.",
           "explanation_zhHant": "大卡車在四個方向都有更大的盲區。避免在卡車盲區內停留，特別是右側。",
+          "explanation_zh": "大卡车在四个方向都有更大的盲区。避免在卡车盲区内停留，特别是右侧。",
           "tags": [
             "blind-spots"
           ]
@@ -882,6 +929,7 @@
           "answer": "A",
           "explanation_en": "If you cannot see the truck driver's face in their side mirror, the truck driver cannot see you.",
           "explanation_zhHant": "如果你在卡車的側視鏡中看不到卡車司機的臉，那麼卡車司機也看不到你。",
+          "explanation_zh": "如果你在卡车的侧视镜中看不到卡车司机的脸，那么卡车司机也看不到你。",
           "tags": []
         },
         {
@@ -913,6 +961,7 @@
           "answer": "B",
           "explanation_en": "Do not cut in front of a large truck after passing it. Trucks need much longer distances to stop than cars.",
           "explanation_zhHant": "超越大卡車後不要突然插到它前面。卡車的制動距離比轎車長得多。",
+          "explanation_zh": "超越大卡车后不要突然插到它前面。卡车的制动距离比轿车长得多。",
           "tags": []
         },
         {
@@ -944,6 +993,7 @@
           "answer": "B",
           "explanation_en": "Large trucks make wide turns. Do not squeeze between a turning truck and the curb. If a truck signals a right turn, do not pass on the right.",
           "explanation_zhHant": "大卡車轉彎時幅度很大。不要擠進轉彎的卡車和路緣之間。如果卡車打右轉燈，不要從右側超越。",
+          "explanation_zh": "大卡车转弯时幅度很大。不要挤进转弯的卡车和路缘之间。如果卡车打右转灯，不要从右侧超越。",
           "tags": []
         },
         {
@@ -975,6 +1025,7 @@
           "answer": "A",
           "explanation_en": "When following a truck uphill, increase your following distance. Trucks often slow significantly on steep grades.",
           "explanation_zhHant": "在上坡跟隨卡車時增加跟車距離。卡車在陡坡上通常會明顯減速。",
+          "explanation_zh": "在上坡跟随卡车时增加跟车距离。卡车在陡坡上通常会明显减速。",
           "tags": []
         }
       ]
@@ -1011,6 +1062,7 @@
           "answer": "B",
           "explanation_en": "When you see or hear an emergency vehicle with flashing lights or a siren, pull to the right edge of the road and stop until the emergency vehicle passes.",
           "explanation_zhHant": "看到或聽到閃燈或響警笛的緊急車輛時，靠右停車等待緊急車輛通過。",
+          "explanation_zh": "看到或听到闪灯或响警笛的紧急车辆时，靠右停车等待紧急车辆通过。",
           "tags": []
         },
         {
@@ -1042,6 +1094,7 @@
           "answer": "B",
           "explanation_en": "California's Move Over law requires you to change lanes or slow down when approaching ANY stationary vehicle on the side of the road — including emergency vehicles, highway maintenance vehicles, and any vehicle displaying flashing hazard lights or other warning devices. If you cannot change lanes safely, slow down to a reasonable and safe speed.",
           "explanation_zhHant": "加州的「讓路法」要求在接近路邊任何停靠車輛時，必須變道或減速——包括緊急車輛、公路養護車輛，以及任何開啟危險警示燈或其他警示裝置的車輛。如果無法安全變道，應減速至合理安全的速度。",
+          "explanation_zh": "加州的「让路法」要求在接近路边任何停靠车辆时，必须变道或减速——包括紧急车辆、公路养护车辆，以及任何开启危险警示灯或其他警示装置的车辆。如果无法安全变道，应减速至合理安全的速度。",
           "tags": []
         },
         {
@@ -1073,6 +1126,7 @@
           "answer": "C",
           "explanation_en": "Do not follow within 300 feet of any fire engine, police vehicle, ambulance, or other emergency vehicle with a siren or flashing lights.",
           "explanation_zhHant": "不得跟隨任何開著警笛或閃燈的消防車、警車、救護車或其他緊急車輛300英尺以內。",
+          "explanation_zh": "不得跟随任何开著警笛或闪灯的消防车、警车、救护车或其他紧急车辆300英尺以内。",
           "tags": []
         },
         {
@@ -1104,6 +1158,7 @@
           "answer": "B",
           "explanation_en": "Slow-moving vehicles (traveling 25 mph or less) display an orange/red triangle on the back.",
           "explanation_zhHant": "慢速車輛（時速25英里或以下）在車尾貼有橙色/紅色三角標誌。",
+          "explanation_zh": "慢速车辆（时速25英里或以下）在车尾贴有橙色/红色三角标志。",
           "tags": []
         },
         {
@@ -1135,6 +1190,7 @@
           "answer": "C",
           "explanation_en": "Never stop or park in a lane next to a stopped emergency vehicle with flashing lights.",
           "explanation_zhHant": "不要在亮著閃燈的停靠緊急車輛旁邊的車道上停車或停放。",
+          "explanation_zh": "不要在亮著闪灯的停靠紧急车辆旁边的车道上停车或停放。",
           "tags": []
         },
         {
@@ -1142,15 +1198,35 @@
           "stem_en": "Vehicles displaying diamond-shaped hazardous load signs must do what before crossing railroad tracks?",
           "stem_zhHant": "顯示菱形危險品標誌的車輛在通過鐵路道口前必須做什麼？",
           "options": [
-            {"key": "A", "text_en": "Slow down to 15 mph", "text_zhHant": "減速至15英里/小時"},
-            {"key": "B", "text_en": "Honk their horn", "text_zhHant": "按喇叭"},
-            {"key": "C", "text_en": "Come to a complete stop", "text_zhHant": "完全停車"},
-            {"key": "D", "text_en": "Flash their headlights", "text_zhHant": "閃爍車燈"}
+            {
+              "key": "A",
+              "text_en": "Slow down to 15 mph",
+              "text_zhHant": "減速至15英里/小時"
+            },
+            {
+              "key": "B",
+              "text_en": "Honk their horn",
+              "text_zhHant": "按喇叭"
+            },
+            {
+              "key": "C",
+              "text_en": "Come to a complete stop",
+              "text_zhHant": "完全停車"
+            },
+            {
+              "key": "D",
+              "text_en": "Flash their headlights",
+              "text_zhHant": "閃爍車燈"
+            }
           ],
           "answer": "C",
           "explanation_en": "Vehicles with hazardous load placards must stop before crossing railroad tracks.",
           "explanation_zhHant": "帶有危險品標識的車輛必須在通過鐵路道口前停車。",
-          "tags": ["hazardous-load", "railroad"]
+          "explanation_zh": "带有危险品标识的车辆必须在通过铁路道口前停车。",
+          "tags": [
+            "hazardous-load",
+            "railroad"
+          ]
         }
       ]
     }

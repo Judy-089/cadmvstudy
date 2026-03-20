@@ -33,6 +33,7 @@
           "answer": "B",
           "explanation_en": "California law requires all drivers and vehicle owners to maintain financial responsibility (insurance) at all times.",
           "explanation_zhHant": "加州法律要求所有駕駛員和車主始終保持經濟責任（保險）。",
+          "explanation_zh": "加州法律要求所有驾驶员和车主始终保持经济责任（保险）。",
           "tags": []
         },
         {
@@ -64,6 +65,7 @@
           "answer": "B",
           "explanation_en": "You must carry proof of insurance in your vehicle at all times. You must show it to law enforcement upon request or after a collision.",
           "explanation_zhHant": "你必須隨時在車內攜帶保險證明。在警察要求時或發生碰撞後必須出示。",
+          "explanation_zh": "你必须随时在车内携带保险证明。在警察要求时或发生碰撞后必须出示。",
           "tags": []
         },
         {
@@ -95,6 +97,7 @@
           "answer": "B",
           "explanation_en": "Electronic proof of insurance (on your phone or device) is acceptable in California.",
           "explanation_zhHant": "在加州，電子保險證明（手機或設備上的）是可以接受的。",
+          "explanation_zh": "在加州，电子保险证明（手机或设备上的）是可以接受的。",
           "tags": []
         },
         {
@@ -109,8 +112,8 @@
             },
             {
               "key": "B",
-              "text_en": "A $35,000 cash deposit with the DMV",
-              "text_zhHant": "向DMV存入35,000美元現金保證金"
+              "text_en": "A $75,000 cash deposit with the DMV",
+              "text_zhHant": "向DMV存入75,000美元現金保證金"
             },
             {
               "key": "C",
@@ -124,8 +127,9 @@
             }
           ],
           "answer": "B",
-          "explanation_en": "Financial responsibility can also be met by a $35,000 cash deposit with the DMV, a surety bond, or a self-insurance certificate.",
-          "explanation_zhHant": "經濟責任也可以通過向DMV存入35,000美元現金保證金、擔保債券或自保證書來滿足。",
+          "explanation_en": "Financial responsibility can also be met by a $75,000 cash deposit with the DMV, a surety bond, or a self-insurance certificate.",
+          "explanation_zhHant": "經濟責任也可以通過向DMV存入75,000美元現金保證金、擔保債券或自保證書來滿足。",
+          "explanation_zh": "经济责任也可以通过向DMV存入75,000美元现金保证金、担保债券或自保证书来满足。",
           "tags": []
         },
         {
@@ -157,6 +161,7 @@
           "answer": "B",
           "explanation_en": "If you are involved in a collision, you must exchange insurance information with the other parties involved.",
           "explanation_zhHant": "如果你發生碰撞事故，你必須與其他相關方交換保險信息。",
+          "explanation_zh": "如果你发生碰撞事故，你必须与其他相关方交换保险信息。",
           "tags": []
         }
       ]
@@ -193,6 +198,7 @@
           "answer": "C",
           "explanation_en": "California's minimum liability insurance requirements are: $30,000 for a single death or injury, $60,000 for death or injury to more than one person, and $15,000 for property damage (30/60/15).",
           "explanation_zhHant": "加州最低責任保險要求為：單人傷亡30,000美元、多人傷亡60,000美元、財產損失15,000美元（30/60/15）。",
+          "explanation_zh": "加州最低责任保险要求为：单人伤亡30,000美元、多人伤亡60,000美元、财产损失15,000美元（30/60/15）。",
           "tags": []
         },
         {
@@ -224,6 +230,7 @@
           "answer": "B",
           "explanation_en": "Liability insurance covers injuries and damage you cause to others. It does not cover damage to your own vehicle.",
           "explanation_zhHant": "責任保險賠償你對他人造成的傷害和損失。它不賠償你自己車輛的損壞。",
+          "explanation_zh": "责任保险赔偿你对他人造成的伤害和损失。它不赔偿你自己车辆的损坏。",
           "tags": []
         },
         {
@@ -255,6 +262,7 @@
           "answer": "B",
           "explanation_en": "California offers a Low Cost Automobile Insurance Program for qualifying low-income drivers.",
           "explanation_zhHant": "加州為符合條件的低收入駕駛員提供低成本汽車保險計劃。",
+          "explanation_zh": "加州为符合条件的低收入驾驶员提供低成本汽车保险计划。",
           "tags": []
         },
         {
@@ -286,6 +294,7 @@
           "answer": "B",
           "explanation_en": "Uninsured motorist coverage and collision coverage are optional but recommended to protect yourself financially.",
           "explanation_zhHant": "無保險駕駛員賠償險和碰撞險是可選的，但建議購買以保護你的經濟利益。",
+          "explanation_zh": "无保险驾驶员赔偿险和碰撞险是可选的，但建议购买以保护你的经济利益。",
           "tags": []
         },
         {
@@ -314,9 +323,10 @@
               "text_zhHant": "15,000美元"
             }
           ],
-          "answer": "B",
-          "explanation_en": "California's minimum property damage liability insurance requirement is $5,000.",
-          "explanation_zhHant": "加州最低財產損失責任保險要求為5,000美元。",
+          "answer": "D",
+          "explanation_en": "California's minimum property damage liability insurance requirement is $15,000 (part of the 30/60/15 minimums).",
+          "explanation_zhHant": "加州最低財產損失責任保險要求為15,000美元（屬於30/60/15最低保險要求的一部分）。",
+          "explanation_zh": "加州最低财产损失责任保险要求为15,000美元（属于30/60/15最低保险要求的一部分）。",
           "tags": []
         }
       ]
@@ -353,6 +363,7 @@
           "answer": "B",
           "explanation_en": "Driving without insurance can result in fines, vehicle impoundment, and suspension of your driver's license and vehicle registration.",
           "explanation_zhHant": "無保險駕車可能導致罰款、車輛被扣押以及駕照和車輛註冊被暫停。",
+          "explanation_zh": "无保险驾车可能导致罚款、车辆被扣押以及驾照和车辆注册被暂停。",
           "tags": []
         },
         {
@@ -384,6 +395,7 @@
           "answer": "C",
           "explanation_en": "A first offense for driving without insurance can result in a fine of up to $500 and/or impoundment of your vehicle.",
           "explanation_zhHant": "初次無保險駕車可能被罰款最高500美元和/或車輛被扣押。",
+          "explanation_zh": "初次无保险驾车可能被罚款最高500美元和/或车辆被扣押。",
           "tags": []
         },
         {
@@ -415,6 +427,7 @@
           "answer": "C",
           "explanation_en": "If involved in a collision without insurance, your license may be suspended for up to 4 years. You may need to file an SR-22 to reinstate it.",
           "explanation_zhHant": "如果在沒有保險的情況下發生碰撞，駕照可能被吊銷最長4年。你可能需要提交SR-22表格來恢復駕照。",
+          "explanation_zh": "如果在没有保险的情况下发生碰撞，驾照可能被吊销最长4年。你可能需要提交SR-22表格来恢复驾照。",
           "tags": []
         },
         {
@@ -446,6 +459,7 @@
           "answer": "C",
           "explanation_en": "You are personally liable for all damages if you cause a collision without insurance. The other party can sue you for costs exceeding insurance minimums.",
           "explanation_zhHant": "如果你在沒有保險的情況下造成碰撞事故，你個人要承擔所有賠償責任。對方可以就超出保險最低限額的費用起訴你。",
+          "explanation_zh": "如果你在没有保险的情况下造成碰撞事故，你个人要承担所有赔偿责任。对方可以就超出保险最低限额的费用起诉你。",
           "tags": []
         },
         {
@@ -477,6 +491,7 @@
           "answer": "B",
           "explanation_en": "A second offense for no insurance can result in a fine of up to $750 and vehicle impoundment.",
           "explanation_zhHant": "第二次無保險駕車可能被罰款最高750美元並被扣車。",
+          "explanation_zh": "第二次无保险驾车可能被罚款最高750美元并被扣车。",
           "tags": []
         }
       ]
@@ -513,6 +528,7 @@
           "answer": "B",
           "explanation_en": "You must report a collision to the DMV within 10 days if anyone is injured or killed, or if property damage exceeds $1,000.",
           "explanation_zhHant": "如果有人受傷或死亡，或財產損失超過1,000美元，你必須在10天內向DMV報告碰撞事故。",
+          "explanation_zh": "如果有人受伤或死亡，或财产损失超过1,000美元，你必须在10天内向DMV报告碰撞事故。",
           "tags": []
         },
         {
@@ -544,6 +560,7 @@
           "answer": "B",
           "explanation_en": "Use the SR-1 form (Report of Traffic Accident Occurring in California) to report collisions to the DMV.",
           "explanation_zhHant": "使用SR-1表格（加州交通事故報告）向DMV報告碰撞事故。",
+          "explanation_zh": "使用SR-1表格（加州交通事故报告）向DMV报告碰撞事故。",
           "tags": []
         },
         {
@@ -575,6 +592,7 @@
           "answer": "B",
           "explanation_en": "If you hit a parked car or other property and cannot locate the owner, leave a note with your name and address, and report the incident to law enforcement.",
           "explanation_zhHant": "如果你撞到停放的車輛或其他財物且找不到車主，留下一張寫有你姓名和地址的紙條，並向執法部門報告。",
+          "explanation_zh": "如果你撞到停放的车辆或其他财物且找不到车主，留下一张写有你姓名和地址的纸条，并向执法部门报告。",
           "tags": []
         },
         {
@@ -606,6 +624,7 @@
           "answer": "C",
           "explanation_en": "Leaving the scene of a collision (hit and run) is a crime. If there are injuries, it can be charged as a felony.",
           "explanation_zhHant": "離開碰撞現場（肇事逃逸）是犯罪行為。如果有人受傷，可以被指控為重罪。",
+          "explanation_zh": "离开碰撞现场（肇事逃逸）是犯罪行为。如果有人受伤，可以被指控为重罪。",
           "tags": []
         },
         {
@@ -637,6 +656,7 @@
           "answer": "B",
           "explanation_en": "At the scene of a collision, you must stop, exchange information (name, address, license number, insurance info), and show your driver's license.",
           "explanation_zhHant": "在碰撞事故現場，你必須停車、交換信息（姓名、地址、駕照號碼、保險信息），並出示駕照。",
+          "explanation_zh": "在碰撞事故现场，你必须停车、交换信息（姓名、地址、驾照号码、保险信息），并出示驾照。",
           "tags": []
         }
       ]

@@ -43,14 +43,14 @@
         },
         {
           "id": "M11-S01-K04",
-          "en": "Financial responsibility can also be met by a $35,000 cash deposit with the DMV, a surety bond, or a self-insurance certificate, though most people use liability insurance.",
-          "zh": "经济责任也可以通过向DMV存入35,000美元现金保证金、担保债券或自保证书来满足，但大多数人使用责任保险。",
+          "en": "Financial responsibility can also be met by a $75,000 cash deposit with the DMV, a surety bond, or a self-insurance certificate, though most people use liability insurance.",
+          "zh": "经济责任也可以通过向DMV存入75,000美元现金保证金、担保债券或自保证书来满足，但大多数人使用责任保险。",
           "isHighFreq": false,
           "tags": [
             "financial-responsibility",
             "alternatives"
           ],
-          "zhHant": "財務責任也可以通過向 DMV 存入35,000美元現金保證金、擔保債券或自保證書來滿足，但大多數人使用責任保險。"
+          "zhHant": "財務責任也可以通過向 DMV 存入75,000美元現金保證金、擔保債券或自保證書來滿足，但大多數人使用責任保險。"
         },
         {
           "id": "M11-S01-K05",
@@ -64,7 +64,7 @@
           "zhHant": "如果你發生碰撞，你必須與其他相關方交換保險信息。"
         }
       ],
-      "titleZhHant": "加州財務責任法"
+      "titleZhHant": "加州經濟責任法"
     },
     {
       "id": "S02",
@@ -180,7 +180,7 @@
           "zhHant": "如果你在沒有保險的情況下造成碰撞，你個人要承擔所有賠償責任。對方可以就超出保險最低限額的費用起訴你。"
         }
       ],
-      "titleZhHant": "無保險駕駛的處罰"
+      "titleZhHant": "無保險的處罰"
     },
     {
       "id": "S04",
@@ -254,10 +254,23 @@
             "collision"
           ],
           "zhHant": "如果你撞到動物，嘗試找到主人。如果你撞傷了狗、貓或馬，必須通知主人或動物管理部門。"
+        },
+        {
+          "id": "M11-S04-K07",
+          "en": "TIPS: SR-1 vs SR-22/SR-1P — don't confuse them! (1) SR-1 (Report of Traffic Accident): the form you must file with the DMV within 10 days if anyone is injured/killed or property damage exceeds $1,000. (2) SR-22/SR-1P (California Insurance Proof Certificate): proof of financial responsibility that you may be required to file and maintain for 3 years if your license was suspended for driving without insurance or after a DUI conviction. SR-1 = collision report, SR-22 = insurance proof.",
+          "zh": "小贴士：SR-1与SR-22/SR-1P——不要混淆！(1) SR-1（交通事故报告）：如果有人受伤/死亡或财产损失超过$1,000，你必须在10天内向DMV提交的表格。(2) SR-22/SR-1P（加州保险证明）：如果你的驾照因无保险驾驶或DUI定罪而被吊销，你可能需要提交并维持3年的经济责任证明。SR-1 = 碰撞报告，SR-22 = 保险证明。",
+          "zhHant": "小貼士：SR-1 與 SR-22/SR-1P——不要混淆！(1) SR-1（交通碰撞報告）：如果有人受傷/死亡或財產損失超過$1,000，你必須在10天內向 DMV 提交的表格。(2) SR-22/SR-1P（加州保險證明）：如果你的駕駛執照因無保險駕駛或 DUI 定罪而被暫停，你可能需要提交並維持3年的財務責任證明。SR-1 = 碰撞報告，SR-22 = 保險證明。",
+          "isHighFreq": true,
+          "tags": [
+            "sr-1",
+            "sr-22",
+            "tips",
+            "comparison"
+          ]
         }
       ],
-      "titleZhHant": "碰撞報告要求"
+      "titleZhHant": "碰撞事故報告要求"
     }
   ],
-  "titleZhHant": "財務責任與保險"
+  "titleZhHant": "經濟責任與保險"
 }

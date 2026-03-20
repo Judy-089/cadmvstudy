@@ -33,6 +33,7 @@
           "answer": "C",
           "explanation_en": "On a freeway with 3 or more lanes, the far left lane is for passing or faster traffic, the middle for through traffic, and the far right for entering/exiting.",
           "explanation_zhHant": "在同方向有三條或更多車道的高速公路上，最左車道供超車或快速車輛使用，中間車道供直行，最右車道用於進出。",
+          "explanation_zh": "在同方向有三条或更多车道的高速公路上，最左车道供超车或快速车辆使用，中间车道供直行，最右车道用于进出。",
           "tags": []
         },
         {
@@ -64,6 +65,7 @@
           "answer": "C",
           "explanation_en": "When changing lanes: signal, check mirrors, look over your shoulder to check your blind spot, and change lanes only when safe.",
           "explanation_zhHant": "變道時：先打轉向燈，檢查後視鏡，轉頭查看盲區，確認安全後再變道。",
+          "explanation_zh": "变道时：先打转向灯，检查后视镜，转头查看盲区，确认安全后再变道。",
           "tags": []
         },
         {
@@ -95,6 +97,7 @@
           "answer": "B",
           "explanation_en": "A broken white line between same-direction lanes means you may change lanes when it is safe to do so.",
           "explanation_zhHant": "同方向車道之間的白色虛線表示在安全時可以變道。",
+          "explanation_zh": "同方向车道之间的白色虚线表示在安全时可以变道。",
           "tags": []
         },
         {
@@ -126,6 +129,7 @@
           "answer": "B",
           "explanation_en": "You may cross double yellow lines to turn left into a driveway or private road, but not to pass another vehicle.",
           "explanation_zhHant": "可以越過雙實黃線左轉進入車道入口或私人道路，但不得用於超車。",
+          "explanation_zh": "可以越过双实黄线左转进入车道入口或私人道路，但不得用于超车。",
           "tags": []
         },
         {
@@ -157,6 +161,7 @@
           "answer": "B",
           "explanation_en": "Frequent lane changes (weaving) increase the risk of a collision. Do not weave in and out of traffic.",
           "explanation_zhHant": "頻繁變道穿插會增加碰撞風險。不要在車流中頻繁變道。",
+          "explanation_zh": "频繁变道穿插会增加碰撞风险。不要在车流中频繁变道。",
           "tags": []
         },
         {
@@ -188,6 +193,7 @@
           "answer": "B",
           "explanation_en": "Large broken white lines (wider and more closely spaced than normal lane markings) indicate that your lane is ending and you need to merge into the adjacent lane.",
           "explanation_zhHant": "大段白色虛線（比普通車道標線更寬且間距更近）表示您所在的車道即將結束，需要匯入相鄰車道。",
+          "explanation_zh": "大段白色虚线（比普通车道标线更宽且间距更近）表示您所在的车道即将结束，需要汇入相邻车道。",
           "tags": []
         },
         {
@@ -219,6 +225,7 @@
           "answer": "B",
           "explanation_en": "The correct order for changing lanes is: signal first, then check your mirrors, then look over your shoulder to check your blind spot, and change lanes only when it is safe.",
           "explanation_zhHant": "變道的正確順序是：先打轉向燈，然後查看後視鏡，再轉頭查看盲區，確認安全後才變道。",
+          "explanation_zh": "变道的正确顺序是：先打转向灯，然后查看后视镜，再转头查看盲区，确认安全后才变道。",
           "tags": []
         },
         {
@@ -234,6 +241,7 @@
           "answer": "B",
           "explanation_en": "You must use a turnout area when 5 or more vehicles are following you on a two-lane road.",
           "explanation_zhHant": "當雙車道道路上有5輛或更多車輛跟在你後面時，你必須使用讓行區域。",
+          "explanation_zh": "当双车道道路上有5辆或更多车辆跟在你后面时，你必须使用让行区域。",
           "tags": ["turnout"]
         }
       ]
@@ -270,6 +278,7 @@
           "answer": "B",
           "explanation_en": "Begin signaling about 100 feet before the turn.",
           "explanation_zhHant": "在轉彎前約100英尺開始打轉向燈。",
+          "explanation_zh": "在转弯前约100英尺开始打转向灯。",
           "tags": []
         },
         {
@@ -301,6 +310,7 @@
           "answer": "B",
           "explanation_en": "You may turn left on red only from a one-way street onto another one-way street, after stopping and yielding.",
           "explanation_zhHant": "只有從單行道轉入另一條單行道時，才可以在紅燈時左轉。必須先停車並讓行。",
+          "explanation_zh": "只有从单行道转入另一条单行道时，才可以在红灯时左转。必须先停车并让行。",
           "tags": [
             "red-light"
           ]
@@ -334,6 +344,7 @@
           "answer": "B",
           "explanation_en": "When turning right, enter the bike lane no more than 200 feet before the turn.",
           "explanation_zhHant": "右轉時，在轉彎前不超過200英尺處駛入自行車道。",
+          "explanation_zh": "右转时，在转弯前不超过200英尺处驶入自行车道。",
           "tags": []
         },
         {
@@ -365,6 +376,7 @@
           "answer": "C",
           "explanation_en": "If you are already in the intersection and the light changes to red, complete your turn when safe.",
           "explanation_zhHant": "如果已經在路口中且信號燈變紅，在安全時完成轉彎。",
+          "explanation_zh": "如果已经在路口中且信号灯变红，在安全时完成转弯。",
           "tags": []
         },
         {
@@ -396,6 +408,7 @@
           "answer": "C",
           "explanation_en": "A center left turn lane should only be used to prepare for and make a left turn or a permitted U-turn. Do not travel in this lane.",
           "explanation_zhHant": "中央左轉車道只能用於準備和執行左轉或允許的掉頭，不可在此車道內行駛。",
+          "explanation_zh": "中央左转车道只能用于准备和执行左转或允许的掉头，不可在此车道内行驶。",
           "tags": []
         },
         {
@@ -427,6 +440,7 @@
           "answer": "B",
           "explanation_en": "You must come to a complete stop and yield to pedestrians and cross traffic before turning right on red.",
           "explanation_zhHant": "紅燈時右轉必須先完全停車，讓行人和橫向車輛先行。",
+          "explanation_zh": "红灯时右转必须先完全停车，让行人和横向车辆先行。",
           "tags": []
         },
         {
@@ -458,6 +472,7 @@
           "answer": "C",
           "explanation_en": "Complete the turn in the lane closest to the center line of the road you enter.",
           "explanation_zhHant": "駛入目標道路時進入最靠近中心線的車道。",
+          "explanation_zh": "驶入目标道路时进入最靠近中心线的车道。",
           "tags": []
         },
         {
@@ -489,6 +504,7 @@
           "answer": "B",
           "explanation_en": "When turning right onto a road with a dedicated right-turn lane, you can proceed into that lane without stopping, as long as the path is clear and it is safe to do so.",
           "explanation_zhHant": "當右轉駛入設有專用右轉車道的道路時，只要路徑暢通且安全，可以不停車直接駛入該車道。",
+          "explanation_zh": "当右转驶入设有专用右转车道的道路时，只要路径畅通且安全，可以不停车直接驶入该车道。",
           "tags": []
         },
         {
@@ -520,6 +536,7 @@
           "answer": "B",
           "explanation_en": "When turning left from a two-way street onto a one-way street, complete the turn into the far left lane of the one-way street.",
           "explanation_zhHant": "從雙向道路左轉進入單行道時，駛入單行道最左側的車道。",
+          "explanation_zh": "从双向道路左转进入单行道时，驶入单行道最左侧的车道。",
           "tags": []
         }
       ]
@@ -556,6 +573,7 @@
           "answer": "C",
           "explanation_en": "U-turns are illegal on one-way streets, across double yellow lines, on divided highways, and where a No U-Turn sign is posted.",
           "explanation_zhHant": "在單行道上、越過雙黃線、在分隔公路上以及有禁止掉頭標誌的地方掉頭都是違法的。",
+          "explanation_zh": "在单行道上、越过双黄线、在分隔公路上以及有禁止掉头标志的地方掉头都是违法的。",
           "tags": []
         },
         {
@@ -587,6 +605,7 @@
           "answer": "B",
           "explanation_en": "U-turns are illegal on a highway where you cannot be seen by other drivers within 200 feet in either direction.",
           "explanation_zhHant": "如果在公路上任一方向200英尺內其他駕駛員無法看到你，則掉頭違法。",
+          "explanation_zh": "如果在公路上任一方向200英尺内其他驾驶员无法看到你，则掉头违法。",
           "tags": []
         },
         {
@@ -618,6 +637,7 @@
           "answer": "C",
           "explanation_en": "U-turns are not allowed in front of fire stations. Never use a fire station driveway to turn around.",
           "explanation_zhHant": "消防站前方不允許掉頭。永遠不要使用消防站的車道來掉頭。",
+          "explanation_zh": "消防站前方不允许掉头。永远不要使用消防站的车道来掉头。",
           "tags": []
         },
         {
@@ -649,6 +669,7 @@
           "answer": "B",
           "explanation_en": "In a residential area, a U-turn is legal when no vehicle is approaching within 200 feet.",
           "explanation_zhHant": "在住宅區，當200英尺內沒有車輛接近時，掉頭是合法的。",
+          "explanation_zh": "在住宅区，当200英尺内没有车辆接近时，掉头是合法的。",
           "tags": []
         },
         {
@@ -680,6 +701,7 @@
           "answer": "B",
           "explanation_en": "Never make a U-turn near the top of a hill or on a curve where other drivers cannot see you from at least 200 feet away.",
           "explanation_zhHant": "不要在山頂附近或彎道處掉頭，因為其他駕駛員在200英尺內可能看不到你。",
+          "explanation_zh": "不要在山顶附近或弯道处掉头，因为其他驾驶员在200英尺内可能看不到你。",
           "tags": []
         }
       ]
@@ -716,6 +738,7 @@
           "answer": "B",
           "explanation_en": "You may pass on the right only when the vehicle ahead is making a left turn, on a one-way street, or on a road with 2+ lanes in your direction.",
           "explanation_zhHant": "只有在前車正在左轉、在單行道上或在同方向有兩條以上車道的道路上，才可以從右側超車。",
+          "explanation_zh": "只有在前车正在左转、在单行道上或在同方向有两条以上车道的道路上，才可以从右侧超车。",
           "tags": []
         },
         {
@@ -747,6 +770,7 @@
           "answer": "B",
           "explanation_en": "Do not pass within 100 feet of an intersection or railroad crossing.",
           "explanation_zhHant": "在距離路口或鐵路道口100英尺內不要超車。",
+          "explanation_zh": "在距离路口或铁路道口100英尺内不要超车。",
           "tags": []
         },
         {
@@ -778,6 +802,7 @@
           "answer": "B",
           "explanation_en": "Before returning to the right lane, make sure you can see the front of the passed vehicle in your rearview mirror.",
           "explanation_zhHant": "超車後返回右車道之前，確保能在後視鏡中看到被超車輛的前部。",
+          "explanation_zh": "超车后返回右车道之前，确保能在后视镜中看到被超车辆的前部。",
           "tags": []
         },
         {
@@ -809,6 +834,7 @@
           "answer": "C",
           "explanation_en": "When being passed, maintain your speed or slow down. Do not speed up to prevent the pass.",
           "explanation_zhHant": "被超車時，保持車速或減速。不要加速阻止超車。",
+          "explanation_zh": "被超车时，保持车速或减速。不要加速阻止超车。",
           "tags": []
         },
         {
@@ -840,6 +866,7 @@
           "answer": "B",
           "explanation_en": "It is illegal to pass on a two-lane road when a solid yellow line is on your side of the center line.",
           "explanation_zhHant": "在雙車道道路上，如果中心線在你這一側是實黃線，則超車違法。",
+          "explanation_zh": "在双车道道路上，如果中心线在你这一侧是实黄线，则超车违法。",
           "tags": []
         }
       ]
@@ -876,6 +903,7 @@
           "answer": "B",
           "explanation_en": "HOV/carpool lanes are marked with a diamond symbol.",
           "explanation_zhHant": "HOV/合乘車道用菱形標誌標記。",
+          "explanation_zh": "HOV/合乘车道用菱形标志标记。",
           "tags": []
         },
         {
@@ -907,6 +935,7 @@
           "answer": "B",
           "explanation_en": "Motorcycles, buses, and certain clean air vehicles with special DMV decals may use HOV lanes regardless of occupants.",
           "explanation_zhHant": "摩托車、公交車以及持有特殊DMV貼紙的清潔能源車輛無論車內人數都可以使用HOV車道。",
+          "explanation_zh": "摩托车、公交车以及持有特殊DMV贴纸的清洁能源车辆无论车内人数都可以使用HOV车道。",
           "tags": []
         },
         {
@@ -938,6 +967,7 @@
           "answer": "B",
           "explanation_en": "You may only cross double solid white lines to enter or exit an HOV lane at designated entry/exit points.",
           "explanation_zhHant": "只能在指定的進出口處越過雙白實線進入或離開HOV車道。",
+          "explanation_zh": "只能在指定的进出口处越过双白实线进入或离开HOV车道。",
           "tags": []
         },
         {
@@ -969,6 +999,7 @@
           "answer": "C",
           "explanation_en": "Never drive in a lane marked with a red X. It means the lane is closed to traffic in your direction.",
           "explanation_zhHant": "絕不要在標有紅色X的車道行駛。這表示該車道對你的行駛方向關閉。",
+          "explanation_zh": "绝不要在标有红色X的车道行驶。这表示该车道对你的行驶方向关闭。",
           "tags": []
         },
         {
@@ -1000,6 +1031,7 @@
           "answer": "B",
           "explanation_en": "Do not drive in a bike lane except when making a turn within 200 feet of the turn.",
           "explanation_zhHant": "除非在距轉彎200英尺內準備轉彎，否則不得在自行車道內行駛。",
+          "explanation_zh": "除非在距转弯200英尺内准备转弯，否则不得在自行车道内行驶。",
           "tags": []
         },
         {
@@ -1015,6 +1047,7 @@
           "answer": "B",
           "explanation_en": "You may cross a bus lane to make a right turn, but you cannot drive, stop, or park in a bus-only lane.",
           "explanation_zhHant": "你可以穿過公車道進行右轉，但不能在公車專用道上行駛、停車或泊車。",
+          "explanation_zh": "你可以穿过公车道进行右转，但不能在公车专用道上行驶、停车或泊车。",
           "tags": ["bus-lane"]
         }
       ]
@@ -1051,6 +1084,7 @@
           "answer": "B",
           "explanation_en": "When merging onto a highway, use the on-ramp to match the speed of highway traffic and merge smoothly. Do not stop on the ramp unless traffic ahead has stopped.",
           "explanation_zhHant": "匯入高速公路時，利用匝道加速至與高速公路車流相匹配的速度，順暢匯入。除非前方車流已停止，否則不要在匝道上停車。",
+          "explanation_zh": "汇入高速公路时，利用匝道加速至与高速公路车流相匹配的速度，顺畅汇入。除非前方车流已停止，否则不要在匝道上停车。",
           "tags": []
         },
         {
@@ -1082,6 +1116,55 @@
           "answer": "B",
           "explanation_en": "When exiting a highway, signal approximately 5 seconds before changing lanes to move toward the exit. This gives other drivers enough time to react.",
           "explanation_zhHant": "駛出高速公路時，在變道駛向出口前約5秒鐘打轉向燈，讓其他駕駛員有足夠時間反應。",
+          "explanation_zh": "驶出高速公路时，在变道驶向出口前约5秒钟打转向灯，让其他驾驶员有足够时间反应。",
+          "tags": []
+        },
+        {
+          "id": "M05-S06-Q03",
+          "stem_en": "If you miss your freeway exit, what should you do?",
+          "stem_zhHant": "如果您錯過了高速公路出口，您應該怎麼做？",
+          "options": [
+            {"key": "A", "text_en": "Stop and back up to the exit", "text_zhHant": "停車倒回出口"},
+            {"key": "B", "text_en": "Make a U-turn on the freeway", "text_zhHant": "在高速公路上掉頭"},
+            {"key": "C", "text_en": "Continue to the next exit", "text_zhHant": "繼續行駛到下一個出口"},
+            {"key": "D", "text_en": "Cross the median to turn around", "text_zhHant": "穿越中央隔離帶掉頭"}
+          ],
+          "answer": "C",
+          "explanation_en": "If you miss your freeway exit, do not stop, back up, or try to cross the median. Continue to the next exit.",
+          "explanation_zhHant": "如果錯過高速公路出口，不要停車、倒車或試圖穿越中央隔離帶。繼續行駛到下一個出口。",
+          "explanation_zh": "如果错过高速公路出口，不要停车、倒车或试图穿越中央隔离带。继续行驶到下一个出口。",
+          "tags": []
+        },
+        {
+          "id": "M05-S06-Q04",
+          "stem_en": "When exiting the freeway, when should you begin to slow down?",
+          "stem_zhHant": "駛出高速公路時，什麼時候應該開始減速？",
+          "options": [
+            {"key": "A", "text_en": "While still in the travel lanes", "text_zhHant": "仍在行車道上時"},
+            {"key": "B", "text_en": "Only after you are in the exit lane or deceleration lane", "text_zhHant": "只有進入出口車道或減速車道後"},
+            {"key": "C", "text_en": "As soon as you signal", "text_zhHant": "一打燈就開始"},
+            {"key": "D", "text_en": "Right at the exit ramp curve", "text_zhHant": "在出口匝道彎道處"}
+          ],
+          "answer": "B",
+          "explanation_en": "Do not slow down until you are in the exit lane or deceleration lane. Slowing down in the travel lanes can cause rear-end collisions.",
+          "explanation_zhHant": "在進入出口車道或減速車道之前不要減速。在行車道上減速可能導致追尾碰撞。",
+          "explanation_zh": "在进入出口车道或减速车道之前不要减速。在行车道上减速可能导致追尾碰撞。",
+          "tags": []
+        },
+        {
+          "id": "M05-S06-Q05",
+          "stem_en": "Should you stop on the freeway on-ramp before merging?",
+          "stem_zhHant": "在高速公路入口匝道上應該在匯入前停車嗎？",
+          "options": [
+            {"key": "A", "text_en": "Yes, always stop to check for traffic", "text_zhHant": "是的，總是停車檢查車流"},
+            {"key": "B", "text_en": "No, unless traffic is already stopped", "text_zhHant": "不，除非車流已經停止"},
+            {"key": "C", "text_en": "Yes, stop and wait for a large gap", "text_zhHant": "是的，停車等待大間隙"},
+            {"key": "D", "text_en": "Only during rush hour", "text_zhHant": "僅在高峰時段"}
+          ],
+          "answer": "B",
+          "explanation_en": "Do not stop on the freeway on-ramp unless traffic is already stopped. Merge into traffic at or near the speed of traffic.",
+          "explanation_zhHant": "除非車流已經停止，否則不要在高速公路入口匝道上停車。以接近車流速度匯入。",
+          "explanation_zh": "除非车流已经停止，否则不要在高速公路入口匝道上停车。以接近车流速度汇入。",
           "tags": []
         }
       ]

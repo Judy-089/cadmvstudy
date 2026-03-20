@@ -254,9 +254,21 @@
             "lights"
           ],
           "zhHant": "夜間騎行時，腳踏車必須配備：前方白色車燈，從300英尺外可見；後方內置紅色反光鏡或閃爍紅燈，從500英尺外可見；踏板或騎行者鞋子上的白色或黃色反光鏡，從200英尺外可見；前輪上的白色或黃色反光鏡以及後輪上的白色或紅色反光鏡。"
+        },
+        {
+          "id": "M08-S02-K14",
+          "en": "TIPS: Quick guide to distinguish 6 types of bike lanes: (1) Bike lane - single solid white line, adjacent to traffic. (2) Buffered bike lane - extra chevron/diagonal markings for more separation. (3) Bike route - shared road with route signs and sharrow markings. (4) Bicycle boulevard - shared road prioritizing bikes. (5) Separated bikeway (protected) - physically separated by posts, barriers, or grade. (6) Shared roadway (sharrows) - arrow markings showing bikes can take the lane. Remember: you can only enter a bike lane within 200 feet of an intersection to turn, or when parking/entering/leaving the road.",
+          "zh": "小贴士：快速区分6种自行车道：(1) 自行车道——单条实线白线，紧邻机动车道。(2) 缓冲自行车道——额外的人字形/对角线标记，提供更大间隔。(3) 自行车路线——共享道路，有路线标志和共享箭头标记。(4) 自行车大道——共享道路，优先考虑自行车通行。(5) 分隔自行车道（受保护）——用弹性桩、隔离栏或高度差与机动车物理分隔。(6) 共享道路标记（共享箭头）——箭头标记表示自行车可以占用车道。记住：只有在距路口200英尺以内转弯、或停车/进出道路时才能进入自行车道。",
+          "zhHant": "小貼士：快速區分6種自行車行車線：(1) 自行車行車線——單條實線白線，緊鄰機動車道。(2) 緩衝自行車行車線——額外的人字形/對角線標記，提供更大間隔。(3) 自行車路線——共享道路，有路線標誌和共享箭頭標記。(4) 自行車大道——共享道路，優先考慮腳踏車通行。(5) 獨立自行車行車線（受保護）——用彈性樁、隔離欄或高度差與機動車物理分隔。(6) 共享道路標記（共享箭頭）——箭頭標記表示腳踏車可以佔用車道。記住：只有在距路口200英尺以內轉彎、或停車/進出道路時才能進入自行車行車線。",
+          "isHighFreq": true,
+          "tags": [
+            "bicycle-lane",
+            "tips",
+            "distinguish"
+          ]
         }
       ],
-      "titleZhHant": "腳踏車/自行車使用者"
+      "titleZhHant": "自行車"
     },
     {
       "id": "S03",
@@ -324,7 +336,9 @@
           "zh": "轻轨车辆：在公共道路上，轻轨车辆与其他车辆享有相同的权利和责任。切勿在即将驶来的轻轨车辆前方转弯。不要从左侧超越或通过轻轨车辆（无论其是否在行驶），除非：轨道太靠近右侧无法从右侧通过、在单行道上、或交警指示你从左侧通过。",
           "zhHant": "輕軌車輛：在公共道路上，輕軌車輛與其他車輛享有相同的權利和責任。切勿在即將駛來的輕軌車輛前方轉彎。不要從左側超越或通過輕軌車輛（無論其是否在行駛），除非：軌道太靠近右側無法從右側通過、在單行道上、或交警指示你從左側通過。",
           "isHighFreq": true,
-          "tags": ["light-rail"]
+          "tags": [
+            "light-rail"
+          ]
         }
       ],
       "titleZhHant": "摩托車"
@@ -465,7 +479,7 @@
           "zhHant": "在超越大型車輛時注意強烈的側風，特別是在空曠的高速公路上。這些側風可能將你的車吹偏。"
         }
       ],
-      "titleZhHant": "大型車輛和卡車"
+      "titleZhHant": "大型車輛與卡車"
     },
     {
       "id": "S06",
@@ -535,7 +549,10 @@
           "zh": "邻里电动车（NEV）和低速车辆（LSV）最高速度为25英里/小时。它们被限制不能在限速超过35英里/小时的道路上行驶。注意NEV USE ONLY和NEV ROUTE的标志和标记。",
           "zhHant": "社區電動車（NEVs）和低速車（LSVs）最高速度為25英里/小時。它們被限制不能在限速超過35英里/小時的道路上行駛。注意NEV USE ONLY和NEV ROUTE的標誌和標記。",
           "isHighFreq": false,
-          "tags": ["nev", "slow-vehicle"]
+          "tags": [
+            "nev",
+            "slow-vehicle"
+          ]
         },
         {
           "id": "M08-S06-K07",
@@ -543,7 +560,10 @@
           "zh": "马拉车辆和骑马的人被允许与机动车辆共享道路。故意惊吓马匹或牲畜是违法的。",
           "zhHant": "牲畜牽引的車輛和騎馬的人被允許與機動車輛共享道路。故意驚嚇馬匹或牲畜是違法的。",
           "isHighFreq": false,
-          "tags": ["animal-drawn", "horses"]
+          "tags": [
+            "animal-drawn",
+            "horses"
+          ]
         },
         {
           "id": "M08-S06-K08",
@@ -551,10 +571,13 @@
           "zh": "危险品车辆：卡车上的菱形标志表示卡车装载的货物可能是危险的（汽油、爆炸物等）。带有这些标志的车辆必须在通过铁路道口前停车。",
           "zhHant": "載運危險物品的車輛：卡車上的菱形標誌表示卡車裝載的貨物可能是危險的（汽油、爆炸物等）。帶有這些標誌的車輛必須在通過鐵路道口前停車。",
           "isHighFreq": true,
-          "tags": ["hazardous-load", "railroad"]
+          "tags": [
+            "hazardous-load",
+            "railroad"
+          ]
         }
       ],
-      "titleZhHant": "緊急車輛與慢行車輛"
+      "titleZhHant": "緊急車輛與慢速車輛"
     }
   ],
   "titleZhHant": "與他人共享道路"

@@ -62,10 +62,31 @@ export function getExamText(question: QuestionLike, lang: ExamLanguage) {
   }
 }
 
+/**
+ * Pick the correct Chinese title based on study language mode.
+ * zhHant_zhHans → use zhHant (fallback to zh)
+ * en_zhHans     → use zh (simplified)
+ * en_only       → returns null (caller should not display Chinese)
+ */
+export function getLocalizedZh(
+  zh: string,
+  zhHant: string | undefined,
+  mode: LanguageMode
+): string | null {
+  switch (mode) {
+    case "zhHant_zhHans":
+      return zhHant || zh;
+    case "en_zhHans":
+      return zh;
+    case "en_only":
+      return null;
+  }
+}
+
 export const LANGUAGE_MODE_LABELS: Record<LanguageMode, { en: string; zh: string }> = {
-  zhHant_zhHans: { en: "繁體中文", zh: "繁体为主 + 简体辅助" },
-  en_zhHans: { en: "English + 中文", zh: "英文为主 + 简体辅助" },
-  en_only: { en: "English Only", zh: "纯英文" },
+  zhHant_zhHans: { en: "繁體中文 + 简体辅助", zh: "" },
+  en_zhHans: { en: "English + 简体中文", zh: "" },
+  en_only: { en: "English Only", zh: "" },
 };
 
 export const EXAM_LANGUAGE_LABELS: Record<ExamLanguage, string> = {

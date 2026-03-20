@@ -1,0 +1,502 @@
+{
+  "tabs": [
+    {
+      "id": "bac",
+      "icon": "🍺",
+      "title_en": "Alcohol BAC",
+      "title_zh": "酒精 BAC 相关",
+      "title_zhHant": "酒精 BAC 相關",
+      "mnemonic_en": "1-1-4-8: Under 21/Probation 0.01, Commercial 0.04, Regular 0.08",
+      "mnemonic_zh": "口诀：1-1-4-8（未成年/缓刑 0.01，商业 0.04，普通 0.08）",
+      "mnemonic_zhHant": "口訣：1-1-4-8（未成年/緩刑 0.01，商業 0.04，普通 0.08）",
+      "rows": [
+        {
+          "number": "0.01%",
+          "rule_en": "Drivers under 21: BAC at or above 0.01% is illegal",
+          "rule_zh": "21岁以下 → 0.01% 即违法",
+          "rule_zhHant": "21歲以下 → 0.01% 即違法"
+        },
+        {
+          "number": "0.01%",
+          "rule_en": "Drivers on DUI probation: BAC at or above 0.01% is illegal",
+          "rule_zh": "DUI缓刑期 → 0.01% 即违法",
+          "rule_zhHant": "DUI緩刑期 → 0.01% 即違法"
+        },
+        {
+          "number": "0.04%",
+          "rule_en": "Commercial drivers or carrying paid passengers: BAC at or above 0.04% is illegal",
+          "rule_zh": "商业驾照/载客 → 0.04% 即违法",
+          "rule_zhHant": "商業駕照/載客 → 0.04% 即違法"
+        },
+        {
+          "number": "0.08%",
+          "rule_en": "Drivers 21+: BAC at or above 0.08% is illegal",
+          "rule_zh": "21岁以上普通 → 0.08% 即违法",
+          "rule_zhHant": "21歲以上普通 → 0.08% 即違法"
+        }
+      ]
+    },
+    {
+      "id": "speed",
+      "icon": "🚗",
+      "title_en": "Speed Limits",
+      "title_zh": "速度限制相关",
+      "title_zhHant": "速度限制相關",
+      "mnemonic_en": "5-ice, 15-blind, 25-school, 30-fog, 55-tow, 65-freeway",
+      "mnemonic_zh": "口诀：5冰-15盲-25校-30雾-55拖-65高速",
+      "mnemonic_zhHant": "口訣：5冰-15盲-25校-30霧-55拖-65高速",
+      "rows": [
+        {
+          "number": "5 mph",
+          "rule_en": "Max speed on icy roads",
+          "rule_zh": "结冰路面 ≤ 5mph",
+          "rule_zhHant": "結冰路面 ≤ 5mph"
+        },
+        {
+          "number": "15 mph",
+          "rule_en": "Blind intersections, alleys; near railroad crossing when view is blocked within 400 ft",
+          "rule_zh": "盲区路口/小巷 15mph；铁路看不清400英尺 → 15mph",
+          "rule_zhHant": "盲區路口/小巷 15mph；鐵路看不清400英尺 → 15mph"
+        },
+        {
+          "number": "25 mph",
+          "rule_en": "School zone (within 500 ft with children); business/residential districts",
+          "rule_zh": "学区（500英尺内有儿童）25mph；商业/住宅区 25mph",
+          "rule_zhHant": "學區（500英尺內有兒童）25mph；商業/住宅區 25mph"
+        },
+        {
+          "number": "30 mph",
+          "rule_en": "Heavy rain/snow when visibility is under 100 ft",
+          "rule_zh": "大雨雪能见度<100英尺 → ≤30mph",
+          "rule_zhHant": "大雨雪能見度<100英尺 → ≤30mph"
+        },
+        {
+          "number": "55 mph",
+          "rule_en": "Two-lane undivided highways; towing trailers",
+          "rule_zh": "双向两车道/拖拽拖车 55mph",
+          "rule_zhHant": "雙向兩車道/拖曳拖車 55mph"
+        },
+        {
+          "number": "65 mph",
+          "rule_en": "Freeway ideal speed",
+          "rule_zh": "高速理想限速 65mph",
+          "rule_zhHant": "高速理想限速 65mph"
+        }
+      ]
+    },
+    {
+      "id": "distance",
+      "icon": "📏",
+      "title_en": "Distance (Feet)",
+      "title_zh": "距离（英尺）相关",
+      "title_zhHant": "距離（英尺）相關",
+      "mnemonic_en": "Compare: Fire hydrant 15ft vs Crosswalk 20ft (with extension 15ft); Passenger car braking 300ft vs Truck braking 400ft",
+      "mnemonic_zh": "对比记忆：消防栓15ft vs 人行横道20ft（有延伸15ft）；客车刹车300ft vs 卡车刹车400ft",
+      "mnemonic_zhHant": "對比記憶：消防栓15ft vs 人行橫道20ft（有延伸15ft）；客車剎車300ft vs 卡車剎車400ft",
+      "rows": [
+        {
+          "number": "3 ft",
+          "rule_en": "Min distance when passing a bicycle; parallel parking space needs 3 ft more than car length; no parking within 3 ft of disability ramp",
+          "rule_zh": "超车自行车 ≥3英尺；平行泊车位比车长+3英尺；残疾坡道3英尺禁停",
+          "rule_zhHant": "超車自行車 ≥3英尺；平行泊車位比車長+3英尺；殘疾坡道3英尺禁停"
+        },
+        {
+          "number": "6 in",
+          "rule_en": "Passenger vehicle load must not extend more than 6 inches beyond right fender",
+          "rule_zh": "载物不超右挡泥板6英寸",
+          "rule_zhHant": "載物不超右擋泥板6英寸"
+        },
+        {
+          "number": "15 ft",
+          "rule_en": "No parking within 15 ft of fire hydrant or railroad tracks; 15 ft from crosswalk with curb extension",
+          "rule_zh": "消防栓/铁轨15英尺禁停；有延伸人行道15英尺禁停",
+          "rule_zhHant": "消防栓/鐵軌15英尺禁停；有延伸人行道15英尺禁停"
+        },
+        {
+          "number": "18 in",
+          "rule_en": "Parallel parking: wheels must be within 18 inches of curb",
+          "rule_zh": "平行泊车车轮距路缘 ≤18英寸",
+          "rule_zhHant": "平行泊車車輪距路緣 ≤18英寸"
+        },
+        {
+          "number": "20 ft",
+          "rule_en": "No parking within 20 ft of a normal crosswalk (no curb extension)",
+          "rule_zh": "无延伸人行横道20英尺禁停",
+          "rule_zhHant": "無延伸人行橫道20英尺禁停"
+        },
+        {
+          "number": "100 ft",
+          "rule_en": "No passing within 100 ft of intersection/bridge/tunnel/railroad; signal turns 100 ft ahead",
+          "rule_zh": "路口等100英尺内禁超车；转弯提前100英尺打灯",
+          "rule_zhHant": "路口等100英尺內禁超車；轉彎提前100英尺打燈"
+        },
+        {
+          "number": "150 ft",
+          "rule_en": "Merging into city traffic usually needs half a block (~150 ft)",
+          "rule_zh": "城市并流约半个街区(150英尺)",
+          "rule_zhHant": "城市併流約半個街區(150英尺)"
+        },
+        {
+          "number": "200 ft",
+          "rule_en": "May enter bike lane within 200 ft of intersection; center left-turn lane max 200 ft; horn/pedal reflectors visible 200 ft",
+          "rule_zh": "路口200英尺内可进自行车道；中央左转道≤200英尺",
+          "rule_zhHant": "路口200英尺內可進自行車道；中央左轉道≤200英尺"
+        },
+        {
+          "number": "300 ft",
+          "rule_en": "Freeway merging needs 300 ft; no following within 300 ft of emergency vehicle; dim headlights when following within 300 ft; 55mph passenger car braking distance 300 ft; night bike front white light visible 300 ft",
+          "rule_zh": "高速并流300英尺；跟紧急车辆≥300英尺；近光跟车300英尺",
+          "rule_zhHant": "高速併流300英尺；跟緊急車輛≥300英尺；近光跟車300英尺"
+        },
+        {
+          "number": "400 ft",
+          "rule_en": "Signal 5 sec (~400 ft) before freeway exit; 55mph truck braking distance 400 ft; railroad - if can't see 400 ft of track, slow to 15 mph",
+          "rule_zh": "高速出口提前400英尺打灯；卡车刹车400英尺",
+          "rule_zhHant": "高速出口提前400英尺打燈；卡車剎車400英尺"
+        },
+        {
+          "number": "500 ft",
+          "rule_en": "School zone 500 ft with children → 25 mph; night bike rear red light visible 500 ft; dim headlights for oncoming traffic within 500 ft",
+          "rule_zh": "学区500英尺限25mph；会车500英尺切近光",
+          "rule_zhHant": "學區500英尺限25mph；會車500英尺切近光"
+        },
+        {
+          "number": "1000 ft",
+          "rule_en": "Must turn on headlights when you can't see objects 1000 ft ahead",
+          "rule_zh": "看不清前方1000英尺 → 开大灯",
+          "rule_zhHant": "看不清前方1000英尺 → 開大燈"
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "icon": "⏰",
+      "title_en": "Time / Days / Duration",
+      "title_zh": "时间/天数/时长相关",
+      "title_zhHant": "時間/天數/時長相關",
+      "rows": [
+        {
+          "number": "3 sec",
+          "rule_en": "Safe following distance: 3-second rule",
+          "rule_zh": "跟车安全距离：3秒规则",
+          "rule_zhHant": "跟車安全距離：3秒規則"
+        },
+        {
+          "number": "5 days",
+          "rule_en": "Notify DMV within 5 days of selling a vehicle",
+          "rule_zh": "卖车5天内通知DMV",
+          "rule_zhHant": "賣車5天內通知DMV"
+        },
+        {
+          "number": "5 sec",
+          "rule_en": "Signal at least 5 sec (~400 ft) before freeway exit",
+          "rule_zh": "高速出口提前5秒打灯",
+          "rule_zhHant": "高速出口提前5秒打燈"
+        },
+        {
+          "number": "7 days",
+          "rule_en": "Minor must wait 7 days to retake written test",
+          "rule_zh": "未成年笔试不过等7天重考",
+          "rule_zhHant": "未成年筆試不過等7天重考"
+        },
+        {
+          "number": "10 days",
+          "rule_en": "Change address within 10 days of moving; transfer title within 10 days of buying; report crash to DMV within 10 days (injury/death or >$1000 damage); 10 days to request hearing (in person, 14 days if by mail)",
+          "rule_zh": "搬家/买车/报事故都是10天",
+          "rule_zhHant": "搬家/買車/報事故都是10天"
+        },
+        {
+          "number": "10 sec",
+          "rule_en": "Scan ahead at least 10 seconds; chest at least 10 inches from steering wheel airbag",
+          "rule_zh": "扫视前方10秒；胸距方向盘10英寸",
+          "rule_zhHant": "掃視前方10秒；胸距方向盤10英寸"
+        },
+        {
+          "number": "14 days",
+          "rule_en": "Minor must wait 14 days to retake road test; 14 days to request hearing if notified by mail",
+          "rule_zh": "未成年路考不过等14天；邮寄通知14天要求听证",
+          "rule_zhHant": "未成年路考不過等14天；郵寄通知14天要求聽證"
+        },
+        {
+          "number": "24 hrs",
+          "rule_en": "Report injury/death crash to police within 24 hours",
+          "rule_zh": "伤亡车祸24小时内报警",
+          "rule_zhHant": "傷亡車禍24小時內報警"
+        },
+        {
+          "number": "30 min",
+          "rule_en": "Headlights required 30 minutes after sunset to 30 minutes before sunrise",
+          "rule_zh": "日落后30分钟到日出前30分钟 → 开大灯",
+          "rule_zhHant": "日落後30分鐘到日出前30分鐘 → 開大燈"
+        },
+        {
+          "number": "4 hrs",
+          "rule_en": "Vehicle parked on freeway over 4 hours may be towed",
+          "rule_zh": "高速停超4小时可被拖走",
+          "rule_zhHant": "高速停超4小時可被拖走"
+        },
+        {
+          "number": "10 hrs",
+          "rule_en": "Minor must complete 50 hours practice including 10 hours night driving",
+          "rule_zh": "未成年练车50小时含10小时夜间",
+          "rule_zhHant": "未成年練車50小時含10小時夜間"
+        }
+      ]
+    },
+    {
+      "id": "age",
+      "icon": "👶",
+      "title_en": "Age Requirements",
+      "title_zh": "年龄相关",
+      "title_zhHant": "年齡相關",
+      "rows": [
+        {
+          "number": "< 2",
+          "rule_en": "Rear-facing car seat (if under 40 lbs and under 3'4\")",
+          "rule_zh": "后向安全座椅",
+          "rule_zhHant": "後向安全座椅"
+        },
+        {
+          "number": "≤ 6",
+          "rule_en": "Never leave child 6 or under alone in vehicle unless supervised by person 12+",
+          "rule_zh": "6岁以下不得单独留车内，需12岁以上监督",
+          "rule_zhHant": "6歲以下不得單獨留車內，需12歲以上監督"
+        },
+        {
+          "number": "< 8",
+          "rule_en": "Must use car seat in back seat (or under 4'9\")",
+          "rule_zh": "后排安全座椅（或身高<4英尺9英寸）",
+          "rule_zhHant": "後排安全座椅（或身高<4英尺9英寸）"
+        },
+        {
+          "number": "13-20",
+          "rule_en": "Cycling under influence → license suspended/delayed 1 year",
+          "rule_zh": "骑车酒驾 → 驾照吊销/推迟1年",
+          "rule_zhHant": "騎車酒駕 → 駕照吊銷/推遲1年"
+        },
+        {
+          "number": "15",
+          "rule_en": "Minimum age for learner's permit",
+          "rule_zh": "学车permit最低年龄",
+          "rule_zhHant": "學車permit最低年齡"
+        },
+        {
+          "number": "16",
+          "rule_en": "Minimum age for driver's license",
+          "rule_zh": "正式驾照最低年龄",
+          "rule_zhHant": "正式駕照最低年齡"
+        },
+        {
+          "number": "21",
+          "rule_en": "BAC threshold drops to 0.01% (vs 0.08% for 21+)",
+          "rule_zh": "BAC分界线",
+          "rule_zhHant": "BAC分界線"
+        },
+        {
+          "number": "25",
+          "rule_en": "Supervising adult for minor driving practice must be 25+",
+          "rule_zh": "陪练人必须25岁以上",
+          "rule_zhHant": "陪練人必須25歲以上"
+        },
+        {
+          "number": "55",
+          "rule_en": "Eligible for 8-hour mature driver course (certificate valid 3 years)",
+          "rule_zh": "可上8小时长者课程（效期3年）",
+          "rule_zhHant": "可上8小時長者課程（效期3年）"
+        },
+        {
+          "number": "62",
+          "rule_en": "Free senior ID card",
+          "rule_zh": "免费长者ID",
+          "rule_zhHant": "免費長者ID"
+        },
+        {
+          "number": "70",
+          "rule_en": "License renewal requires in-person visit and vision test",
+          "rule_zh": "驾照续期需亲自到场+视力测试",
+          "rule_zhHant": "駕照續期需親自到場+視力測試"
+        }
+      ]
+    },
+    {
+      "id": "fines",
+      "icon": "💰",
+      "title_en": "Fines & Penalties",
+      "title_zh": "罚款与刑罚相关",
+      "title_zhHant": "罰款與刑罰相關",
+      "rows": [
+        {
+          "number": "$1,000",
+          "rule_en": "Ignoring school bus red lights; abandoning animal on highway; work zone violations",
+          "rule_zh": "无视校车红灯/弃动物于高速/工地违章 → 最高$1000",
+          "rule_zhHant": "無視校車紅燈/棄動物於高速/工地違章 → 最高$1000"
+        },
+        {
+          "number": "15/30/60",
+          "rule_en": "Minimum insurance: $15K property, $30K single injury, $60K multiple injury",
+          "rule_zh": "最低车险保额：财产1.5万/单人3万/多人6万",
+          "rule_zhHant": "最低車險保額：財產1.5萬/單人3萬/多人6萬"
+        },
+        {
+          "number": "30 days",
+          "rule_en": "Vehicle impounded 30 days: lending to unlicensed driver; under-21 illegal alcohol in vehicle",
+          "rule_zh": "借车给无照/21以下非法携酒 → 扣车30天",
+          "rule_zhHant": "借車給無照/21以下非法攜酒 → 扣車30天"
+        },
+        {
+          "number": "6 months",
+          "rule_en": "Abandoning animal on highway; DUI max jail time",
+          "rule_zh": "弃动物于高速 最高监禁6个月；DUI最高6个月",
+          "rule_zhHant": "棄動物於高速 最高監禁6個月；DUI最高6個月"
+        },
+        {
+          "number": "1 year",
+          "rule_en": "License suspension: first DUI, refusing chemical test, ignoring school bus, under-21 illegal alcohol; fleeing police (misdemeanor) max jail 1 year",
+          "rule_zh": "初犯DUI/拒绝化学测试/无视校车/未成年携酒 → 吊销1年；逃避警察（轻罪）最高监禁1年",
+          "rule_zhHant": "初犯DUI/拒絕化學測試/無視校車/未成年攜酒 → 吊銷1年；逃避警察（輕罪）最高監禁1年"
+        },
+        {
+          "number": "4-10 years",
+          "rule_en": "Fleeing police causing vehicular manslaughter → state prison 4-10 years",
+          "rule_zh": "逃避警察致过失杀人 → 州监狱4-10年",
+          "rule_zhHant": "逃避警察致過失殺人 → 州監獄4-10年"
+        },
+        {
+          "number": "7 years",
+          "rule_en": "Fleeing police causing serious injury → max 7 years state prison (or 1 year county jail)",
+          "rule_zh": "逃避警察致重伤 → 最高州监狱7年或县监狱1年",
+          "rule_zhHant": "逃避警察致重傷 → 最高州監獄7年或縣監獄1年"
+        },
+        {
+          "number": "10 years",
+          "rule_en": "DUI record retention",
+          "rule_zh": "DUI记录保留10年",
+          "rule_zhHant": "DUI記錄保留10年"
+        }
+      ]
+    },
+    {
+      "id": "points",
+      "icon": "📐",
+      "title_en": "Points & Suspension",
+      "title_zh": "扣分与吊销相关",
+      "title_zhHant": "扣分與吊銷相關",
+      "mnemonic_en": "4-6-8 in 1-2-3 years; Minors: 2 violations = no solo 30 days, 3 violations = suspended 6 months",
+      "mnemonic_zh": "口诀：4-6-8，1年2年3年；未成年2次禁驾、3次吊销",
+      "mnemonic_zhHant": "口訣：4-6-8，1年2年3年；未成年2次禁駕、3次吊銷",
+      "rows": [
+        {
+          "number": "4 pts / 12 mo",
+          "rule_en": "4 points in 12 months → license suspension",
+          "rule_zh": "12个月内扣4分 → 吊销",
+          "rule_zhHant": "12個月內扣4分 → 吊銷"
+        },
+        {
+          "number": "6 pts / 24 mo",
+          "rule_en": "6 points in 24 months → license suspension",
+          "rule_zh": "24个月内扣6分 → 吊销",
+          "rule_zhHant": "24個月內扣6分 → 吊銷"
+        },
+        {
+          "number": "8 pts / 36 mo",
+          "rule_en": "8 points in 36 months (3 years) → license suspension",
+          "rule_zh": "36个月（3年）内扣8分 → 吊销",
+          "rule_zhHant": "36個月（3年）內扣8分 → 吊銷"
+        },
+        {
+          "number": "36 months",
+          "rule_en": "Traffic violation records retained for 36 months (3 years)",
+          "rule_zh": "违章记录保留3年",
+          "rule_zhHant": "違章記錄保留3年"
+        },
+        {
+          "number": "2 violations",
+          "rule_en": "Minor with 2 at-fault accidents or violations → no solo driving for 30 days",
+          "rule_zh": "未成年2次违规 → 禁独驾30天",
+          "rule_zhHant": "未成年2次違規 → 禁獨駕30天"
+        },
+        {
+          "number": "3 violations",
+          "rule_en": "Minor with 3 violations → license suspended 6 months + 1 year probation",
+          "rule_zh": "未成年3次违规 → 吊销6个月+1年观察",
+          "rule_zhHant": "未成年3次違規 → 吊銷6個月+1年觀察"
+        },
+        {
+          "number": "3 attempts",
+          "rule_en": "Written test: 3 attempts allowed",
+          "rule_zh": "笔试3次机会",
+          "rule_zhHant": "筆試3次機會"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "icon": "📦",
+      "title_en": "Other Important Numbers",
+      "title_zh": "其他重要数字",
+      "title_zhHant": "其他重要數字",
+      "rows": [
+        {
+          "number": "1/32 in",
+          "rule_en": "Minimum tire tread depth",
+          "rule_zh": "轮胎花纹最低深度1/32英寸",
+          "rule_zhHant": "輪胎花紋最低深度1/32英寸"
+        },
+        {
+          "number": "1/3 mile",
+          "rule_en": "Clear view distance needed for passing on mountain/curve roads",
+          "rule_zh": "山路/弯道超车需1/3英里视距",
+          "rule_zhHant": "山路/彎道超車需1/3英里視距"
+        },
+        {
+          "number": "4 ft",
+          "rule_en": "Cargo extending more than 4 ft beyond rear → 12-inch red/orange flag (day) or 2 red lights (night)",
+          "rule_zh": "货物伸出车尾>4英尺 → 白天挂旗/夜间挂灯",
+          "rule_zhHant": "貨物伸出車尾>4英尺 → 白天掛旗/夜間掛燈"
+        },
+        {
+          "number": "5 in",
+          "rule_en": "Max sticker size on driver side window lower right corner and upper center windshield",
+          "rule_zh": "驾驶侧车窗/前挡贴纸≤5英寸",
+          "rule_zhHant": "駕駛側車窗/前擋貼紙≤5英寸"
+        },
+        {
+          "number": "7 in",
+          "rule_en": "Max sticker size on passenger side and rear windows",
+          "rule_zh": "副驾及后窗贴纸≤7英寸",
+          "rule_zhHant": "副駕及後窗貼紙≤7英寸"
+        },
+        {
+          "number": "12 in",
+          "rule_en": "Red/orange flag for cargo extending >4 ft",
+          "rule_zh": "12英寸红/橙旗帜",
+          "rule_zhHant": "12英寸紅/橙旗幟"
+        },
+        {
+          "number": "40 lbs",
+          "rule_en": "Weight threshold for rear-facing car seat (under 2 years old)",
+          "rule_zh": "后向座椅体重标准40磅",
+          "rule_zhHant": "後向座椅體重標準40磅"
+        },
+        {
+          "number": "11pm-5am",
+          "rule_en": "Minor curfew for first 12 months of license",
+          "rule_zh": "未成年首12个月宵禁11点-5点",
+          "rule_zhHant": "未成年首12個月宵禁11點-5點"
+        },
+        {
+          "number": "< 20 yrs",
+          "rule_en": "Minor cannot carry passengers under 20 (first 12 months, unless 25+ adult present)",
+          "rule_zh": "首12个月禁载20岁以下乘客",
+          "rule_zhHant": "首12個月禁載20歲以下乘客"
+        },
+        {
+          "number": "20 days",
+          "rule_en": "Out-of-state vehicle must register in CA within 20 days",
+          "rule_zh": "外州车来加州20天内注册",
+          "rule_zhHant": "外州車來加州20天內註冊"
+        }
+      ]
+    }
+  ]
+}

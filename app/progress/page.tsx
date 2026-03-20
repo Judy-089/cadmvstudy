@@ -2,6 +2,7 @@
 
 import { useRequireSession } from "@/lib/useRequireSession";
 import { useUILanguageStore } from "@/store/useUILanguageStore";
+import { Footer } from "@/components/Footer";
 
 type Lang = "en" | "zhHant" | "zhHans";
 function tri(en: string, zhHant: string, zhHans: string, lang: Lang) {
@@ -24,6 +25,121 @@ export default function AboutPage() {
       <p className="mt-1 text-sm text-text-gray">
         {tri("The story behind the platform", "這個平台背後的故事", "平台背后的故事", lang)}
       </p>
+
+      {/* Section 0: Help Us Navigate the Next Stop */}
+      <div className="mt-10">
+        <div className="flex items-center gap-2">
+          <span className="text-xl">🗺️</span>
+          <h2 className="text-lg font-bold text-text-dark">
+            {tri(
+              "Help Us Navigate the Next Stop",
+              "幫助我們駛向下一站",
+              "帮助我们驶向下一站",
+              lang
+            )}
+          </h2>
+        </div>
+        <p className="mt-2 text-sm text-text-gray">
+          {tri(
+            "AceDriveGo currently covers California. Want to help us expand? Your voice matters!",
+            "AceDriveGo 目前涵蓋加州。想幫助我們拓展到更多地方？你的意見很重要！",
+            "AceDriveGo 目前覆盖加州。想帮助我们拓展到更多地方？你的声音很重要！",
+            lang
+          )}
+        </p>
+
+        <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-3">
+          {/* Card 1: Vote for Your State */}
+          <a
+            href="https://forms.gle/5XJaQvqjehWAr32w8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative overflow-hidden rounded-2xl border border-blue-200 bg-gradient-to-br from-blue-50 to-white p-6 shadow-sm transition-all hover:shadow-lg hover:border-blue-300 hover:-translate-y-0.5"
+          >
+            <div className="absolute -right-4 -top-4 h-20 w-20 rounded-full bg-blue-100/50 transition-transform group-hover:scale-125" />
+            <div className="relative">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-2xl">
+                🗳️
+              </div>
+              <h3 className="mt-4 text-sm font-bold text-text-dark">
+                {tri("Vote for Your State", "投票支持你的州", "投票支持你的州", lang)}
+              </h3>
+              <p className="mt-2 text-xs leading-relaxed text-text-light">
+                {tri(
+                  "Which state should we cover next? Cast your vote and help us prioritize.",
+                  "你希望我們下一個支援哪個州？投票幫助我們決定優先順序。",
+                  "你希望我们下一个覆盖哪个州？投票帮助我们决定优先顺序。",
+                  lang
+                )}
+              </p>
+              <div className="mt-4 inline-flex items-center gap-1 text-xs font-semibold text-blue-600 group-hover:gap-2 transition-all">
+                {tri("Vote Now", "立即投票", "立即投票", lang)}
+                <span className="transition-transform group-hover:translate-x-0.5">→</span>
+              </div>
+            </div>
+          </a>
+
+          {/* Card 2: Suggest a Language */}
+          <a
+            href="https://forms.gle/tzRh1B9gtxt5UFjS6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative overflow-hidden rounded-2xl border border-purple-200 bg-gradient-to-br from-purple-50 to-white p-6 shadow-sm transition-all hover:shadow-lg hover:border-purple-300 hover:-translate-y-0.5"
+          >
+            <div className="absolute -right-4 -top-4 h-20 w-20 rounded-full bg-purple-100/50 transition-transform group-hover:scale-125" />
+            <div className="relative">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-purple-100 text-2xl">
+                🌐
+              </div>
+              <h3 className="mt-4 text-sm font-bold text-text-dark">
+                {tri("Suggest a Language", "建議新增語言", "建议新增语言", lang)}
+              </h3>
+              <p className="mt-2 text-xs leading-relaxed text-text-light">
+                {tri(
+                  "Want AceDriveGo in Korean, Vietnamese, Spanish, or another language? Let us know!",
+                  "希望 AceDriveGo 支援韓語、越南語、西班牙語或其他語言？告訴我們！",
+                  "希望 AceDriveGo 支持韩语、越南语、西班牙语或其他语言？告诉我们！",
+                  lang
+                )}
+              </p>
+              <div className="mt-4 inline-flex items-center gap-1 text-xs font-semibold text-purple-600 group-hover:gap-2 transition-all">
+                {tri("Suggest", "提出建議", "提出建议", lang)}
+                <span className="transition-transform group-hover:translate-x-0.5">→</span>
+              </div>
+            </div>
+          </a>
+
+          {/* Card 3: Contact Us */}
+          <a
+            href="https://forms.gle/RMg2FwF7zuNeEa1d6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative overflow-hidden rounded-2xl border border-emerald-200 bg-gradient-to-br from-emerald-50 to-white p-6 shadow-sm transition-all hover:shadow-lg hover:border-emerald-300 hover:-translate-y-0.5"
+          >
+            <div className="absolute -right-4 -top-4 h-20 w-20 rounded-full bg-emerald-100/50 transition-transform group-hover:scale-125" />
+            <div className="relative">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-100 text-2xl">
+                💬
+              </div>
+              <h3 className="mt-4 text-sm font-bold text-text-dark">
+                {tri("Contact Us", "聯絡我們", "联系我们", lang)}
+              </h3>
+              <p className="mt-2 text-xs leading-relaxed text-text-light">
+                {tri(
+                  "Have feedback, bug reports, or ideas? We'd love to hear from you.",
+                  "有任何反饋、問題回報或想法？我們很樂意聆聽你的聲音。",
+                  "有任何反馈、问题报告或想法？我们很乐意倾听你的声音。",
+                  lang
+                )}
+              </p>
+              <div className="mt-4 inline-flex items-center gap-1 text-xs font-semibold text-emerald-600 group-hover:gap-2 transition-all">
+                {tri("Get in Touch", "聯絡我們", "联系我们", lang)}
+                <span className="transition-transform group-hover:translate-x-0.5">→</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
       {/* Section 1: Who I Am */}
       <div className="mt-10">
@@ -232,18 +348,7 @@ export default function AboutPage() {
         </p>
       </div>
 
-      {/* Footer */}
-      <div className="mt-8 border-t border-border pt-6 text-center text-xs text-text-gray">
-        <p>AceDriveGo &middot; acedrivego.com</p>
-        <p className="mt-1">
-          {tri(
-            "Built with curiosity and code by Judy @ UCLA",
-            "由 Judy @ UCLA 以好奇心與程式碼打造",
-            "由 Judy @ UCLA 以好奇心与代码打造",
-            lang
-          )}
-        </p>
-      </div>
+      <Footer />
     </div>
   );
 }

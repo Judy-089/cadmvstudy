@@ -13,10 +13,40 @@ const strings = {
   "nav.language": { en: "Language", zhHant: "語言", zhHans: "语言" },
 
   // ── Landing Page ──
+  "landing.heroTitle": {
+    en: "Ace Your California DMV Test",
+    zhHant: "最懂華人的",
+    zhHans: "最懂华人的",
+  },
+  "landing.heroHighlight": {
+    en: "in Hours, Not Days.",
+    zhHant: "駕考速成神器",
+    zhHans: "驾考速成神器",
+  },
   "landing.subtitle": {
-    en: "Master the California DMV written test with bilingual content, official images, and realistic mock exams.",
-    zhHant: "透過雙語內容、官方圖片和擬真模擬考試，掌握加州DMV筆試。",
-    zhHans: "通过双语内容、官方图片和仿真模拟考试，掌握加州DMV笔试。",
+    en: "Skip the boring handbook. Pass on your first try with our 2-Hour Crash Course, smart study modules, and realistic mock exams. Free during beta.",
+    zhHant: "專為加州華語社群打造的雙語學習平台。結構化課程、擬真模擬考試、中英無縫切換——試運行期間完全免費。",
+    zhHans: "专为加州华语社群打造的双语学习平台。结构化课程、仿真模拟考试、中英无缝切换——试运行期间完全免费。",
+  },
+  "landing.getStarted": {
+    en: "Get Started — Free During Beta",
+    zhHant: "免費開始學習 — 試運行中",
+    zhHans: "免费开始学习 — 试运行中",
+  },
+  "landing.tryFree": {
+    en: "Try Without Account",
+    zhHant: "免登入試用",
+    zhHans: "免登录试用",
+  },
+  "landing.tryFreeDesc": {
+    en: "3 modules + 1 mock test",
+    zhHant: "3 個模組 + 1 套模擬題",
+    zhHans: "3 个模块 + 1 套模拟题",
+  },
+  "landing.alreadyHaveAccount": {
+    en: "Already have an account?",
+    zhHant: "已有帳號？",
+    zhHans: "已有账号？",
   },
   "landing.guestBtn": { en: "Start as Guest", zhHant: "訪客模式", zhHans: "访客模式" },
   "landing.guestDesc": {
@@ -31,23 +61,224 @@ const strings = {
     zhHans: "解锁全部内容 \u00b7 多语言",
   },
   "landing.questions": { en: "Questions", zhHant: "題目", zhHans: "题目" },
-  "landing.modules": { en: "Modules", zhHant: "模組", zhHans: "模块" },
+  "landing.modules": { en: "Study Modules", zhHant: "學習模組", zhHans: "学习模块" },
   "landing.mockExams": { en: "Mock Exams", zhHant: "模擬考試", zhHans: "模拟考试" },
   "landing.passRate": { en: "Pass Rate", zhHant: "通過率", zhHans: "通过率" },
+  "landing.passRateNote": { en: "among our users", zhHant: "用戶通過率", zhHans: "用户通过率" },
+  "landing.crashCourse": { en: "Crash Course", zhHant: "速成課程", zhHans: "速成课程" },
+  "landing.avgStudyTime": { en: "Avg. Study Time", zhHant: "平均備考時長", zhHans: "平均备考时长" },
   "landing.basedOn": {
-    en: "Based on the official California Driver Handbook",
-    zhHant: "基於官方加州駕駛員手冊",
-    zhHans: "基于官方加州驾驶员手册",
+    en: "Based on the 2025 official California Driver Handbook \u00b7 Free during beta",
+    zhHant: "基於 2025 官方加州駕駛員手冊 \u00b7 試運行期間免費",
+    zhHans: "基于 2025 官方加州驾驶员手册 \u00b7 试运行期间免费",
   },
   "landing.trusted": {
     en: "Trusted by test-takers across California",
     zhHant: "深受加州考生信賴",
     zhHans: "深受加州考生信赖",
   },
-  "landing.disclaimer": {
-    en: "Not affiliated with the California DMV",
-    zhHant: "與加州DMV無關聯",
-    zhHans: "与加州DMV无关联",
+  // ── EN feature cards ──
+  "landing.featureCrashCourse": { en: "2-Hour Crash Course", zhHant: "", zhHans: "" },
+  "landing.featureCrashCourseDesc": {
+    en: "We condensed the 100+ page DMV handbook into exactly what you need to pass. Four focused phases, zero fluff. Study smarter, not harder.",
+    zhHant: "", zhHans: "",
+  },
+  "landing.featureQuestions": { en: "870+ Practice Questions", zhHant: "", zhHans: "" },
+  "landing.featureQuestionsDesc": {
+    en: "Covers every topic on the real exam. Each question comes with detailed explanations so you understand the why, not just the answer.",
+    zhHant: "", zhHans: "",
+  },
+  "landing.featureModules": { en: "12 Structured Modules", zhHant: "", zhHans: "" },
+  "landing.featureModulesDesc": {
+    en: "No more guessing what to study. Each module targets the most tested topics, organized from basics to advanced.",
+    zhHant: "", zhHans: "",
+  },
+  "landing.featureFreeEn": { en: "Free, Ad-Free, Modern", zhHant: "", zhHans: "" },
+  "landing.featureFreeEnDesc": {
+    en: "No pop-ups, no paywalls, no clutter. Built for learning, not for ad revenue. Also available in Chinese.",
+    zhHant: "", zhHans: "",
+  },
+  // ── ZH Crash Course hero card ──
+  "landing.featureCrashCourseZh": {
+    en: "",
+    zhHant: "2小時速成衝刺課程",
+    zhHans: "2小时速成冲刺课程",
+  },
+  "landing.featureCrashCourseZhDesc": {
+    en: "",
+    zhHant: "我們把 100 多頁的 DMV 手冊濃縮成考試必考重點。四個階段、零廢話，高效備考，省時省力。",
+    zhHans: "我们把 100 多页的 DMV 手册浓缩成考试必考重点。四个阶段、零废话，高效备考，省时省力。",
+  },
+  "landing.mostPopular": { en: "Most Popular", zhHant: "最受歡迎", zhHans: "最受欢迎" },
+  "landing.mustPractice": { en: "", zhHant: "考前必練", zhHans: "考前必练" },
+  // ── ZH Mock Exam hero card (zhHant only) ──
+  "landing.featureMockHero": {
+    en: "",
+    zhHant: "11套全真模擬考試",
+    zhHans: "11套全真模拟考试",
+  },
+  "landing.featureMockHeroDesc": {
+    en: "",
+    zhHant: "完全模擬 DMV 真實考試格式——計時、評分，並為每道題提供詳細解析。考前反覆練習，上考場不緊張。",
+    zhHans: "完全模拟 DMV 真实考试格式——计时、评分，并为每道题提供详细解析。考前反复练习，上考场不紧张。",
+  },
+  // ── zhHans-only: Bilingual learning hero card ──
+  "landing.featureBilingual": {
+    en: "Seamless Bilingual Experience",
+    zhHant: "",
+    zhHans: "英中双语对照学习",
+  },
+  "landing.featureBilingualDesc": {
+    en: "",
+    zhHant: "",
+    zhHans: "每个知识点、每道题目都提供英文与简体中文并排显示。不用自己翻译，直接看懂原版交通规则。",
+  },
+  "landing.featureHantHans": {
+    en: "",
+    zhHant: "",
+    zhHans: "繁简对照学习",
+  },
+  "landing.featureHantHansDesc": {
+    en: "",
+    zhHant: "",
+    zhHans: "加州 DMV 考试只提供英文和繁体中文。繁体+简体对照模式帮你提前熟悉真实考试用语，上考场不再看不懂题目。",
+  },
+  // ── ZH shared feature cards ──
+  "landing.featureStructured": {
+    en: "Structured, Not Scattered",
+    zhHant: "系統化，不零散",
+    zhHans: "系统化，不零散",
+  },
+  "landing.featureStructuredDesc": {
+    en: "12 carefully organized modules break down the DMV handbook into clear, test-relevant topics. No more reading 100+ pages of dense text.",
+    zhHant: "12 個精心組織的模組，將 DMV 手冊拆解為清晰且考試重點的主題。不用再閱讀 100 多頁的密集文字。",
+    zhHans: "12 个精心组织的模块，将 DMV 手册拆解为清晰且紧扣考点的主题。不用再啃 100 多页的枯燥手册。",
+  },
+  "landing.featureMock": {
+    en: "Realistic Mock Exams",
+    zhHant: "擬真模擬考試",
+    zhHans: "仿真模拟考试",
+  },
+  "landing.featureMockDesc": {
+    en: "11 full-length mock exams that mirror the real DMV test format — timed, scored, with detailed bilingual explanations for every question.",
+    zhHant: "11 套全真模擬考試，完全模擬 DMV 真實考試格式——計時、評分，並為每道題提供詳細的雙語解析。",
+    zhHans: "11 套全真模拟考试，完全模拟 DMV 真实考试格式——计时、评分，并为每道题提供详细的双语解析。",
+  },
+  "landing.featureFreeZh": {
+    en: "", zhHant: "免費、無廣告、現代化", zhHans: "免费、无广告、现代化",
+  },
+  "landing.featureFreeZhDesc": {
+    en: "",
+    zhHant: "告別彈窗廣告和過時的備考網站。AceDriveGo 提供乾淨、直覺的學習體驗——試運行期間完全免費。",
+    zhHans: "告别弹窗广告和过时的备考网站。AceDriveGo 提供干净、直觉的学习体验——试运行期间完全免费。",
+  },
+  // ── Disclaimers & recommendations ──
+  "landing.studyModulesRecommend": {
+    en: "If time allows, we recommend completing the full Study Modules for comprehensive coverage — equivalent to reading the DMV handbook.",
+    zhHant: "如時間允許，建議完整學習所有模組以獲得最全面的備考效果。",
+    zhHans: "如时间允许，建议完整学习所有模块以获得最全面的备考效果。",
+  },
+  "landing.crashCourseDisclaimer": {
+    en: "* Estimated completion time; may vary by individual.",
+    zhHant: "* 2小時為預估時長，因個人情況而異。",
+    zhHans: "* 2小时为预估时长，因个人情况而异。",
+  },
+  "landing.statsDisclaimer": {
+    en: "* Results based on beta user data. Individual results may vary.",
+    zhHant: "* 數據基於試運行用戶，個人情況可能不同。",
+    zhHans: "* 数据基于试运行用户，个人情况可能不同。",
+  },
+  "landing.whyTitle": {
+    en: "Why AceDriveGo?",
+    zhHant: "為什麼選擇 AceDriveGo？",
+    zhHans: "为什么选择 AceDriveGo？",
+  },
+  "landing.ctaBottom": {
+    en: "Ready to pass your DMV test?",
+    zhHant: "準備好通過 DMV 考試了嗎？",
+    zhHans: "准备好通过 DMV 考试了吗？",
+  },
+  "landing.ctaBottomDesc": {
+    en: "Join thousands of California test-takers who passed on their first try.",
+    zhHant: "加入數千名一次就通過的加州考生。試運行期間完全免費。",
+    zhHans: "加入数千名一次就通过的加州考生。试运行期间完全免费。",
+  },
+  "landing.expansionHook": {
+    en: "Not in California? Need another language?",
+    zhHant: "不在加州？需要其他語言？",
+    zhHans: "不在加州？需要其他语言？",
+  },
+  "landing.expansionLink": {
+    en: "Let us know",
+    zhHant: "告訴我們",
+    zhHans: "告诉我们",
+  },
+  "footer.copyright": {
+    en: "© 2026 AceDriveGo. All rights reserved.",
+    zhHant: "© 2026 AceDriveGo. All rights reserved.",
+    zhHans: "© 2026 AceDriveGo. All rights reserved.",
+  },
+  "footer.ip": {
+    en: "All original content on this platform, including practice questions, explanations, translations, and content structure, is the intellectual property of AceDriveGo and is protected by copyright law. No part of this platform may be reproduced, distributed, or used for commercial purposes without prior written permission.",
+    zhHant: "本平台所有原創內容，包括練習題目、解析、翻譯及內容架構，均為AceDriveGo的知識產權，受著作權法保護。未經書面許可，不得複製、分發或用於商業用途。",
+    zhHans: "本平台所有原创内容，包括练习题目、解析、翻译及内容架构，均为AceDriveGo的知识产权，受著作权法保护。未经书面许可，不得复制、分发或用于商业用途。",
+  },
+  "footer.disclaimer": {
+    en: "This product is an independent study tool and is not affiliated with, endorsed by, or sponsored by the California Department of Motor Vehicles (DMV). All traffic laws and regulations referenced are based on publicly available information.",
+    zhHant: "本產品為獨立學習工具，與加州車輛管理局（DMV）無關聯、未獲其認可或贊助。所引用的交通法規均基於公開資訊。",
+    zhHans: "本产品为独立学习工具，与加州车辆管理局（DMV）无关联、未获其认可或赞助。所引用的交通法规均基于公开信息。",
+  },
+
+  // ── Exam Exit Guard ──
+  "exam.exitTitle": {
+    en: "Leave Exam?",
+    zhHant: "離開考試？",
+    zhHans: "离开考试？",
+  },
+  "exam.exitDesc": {
+    en: "You have an exam in progress. Would you like to save your progress and come back later, or discard it?",
+    zhHant: "你正在進行考試。要保存進度稍後繼續，還是直接放棄？",
+    zhHans: "你正在进行考试。要保存进度稍后继续，还是直接放弃？",
+  },
+  "exam.exitProgress": {
+    en: "Current Progress",
+    zhHant: "當前進度",
+    zhHans: "当前进度",
+  },
+  "exam.exitSave": {
+    en: "Save & Exit",
+    zhHant: "保存並退出",
+    zhHans: "保存并退出",
+  },
+  "exam.exitDiscard": {
+    en: "Discard & Exit",
+    zhHant: "放棄並退出",
+    zhHans: "放弃并退出",
+  },
+  "exam.exitCancel": {
+    en: "Continue Exam",
+    zhHant: "繼續考試",
+    zhHans: "继续考试",
+  },
+  "exam.exitBtn": {
+    en: "Exit",
+    zhHant: "退出",
+    zhHans: "退出",
+  },
+  "exam.resumeBanner": {
+    en: "You have a saved exam in progress. Resume?",
+    zhHant: "你有一場未完成的考試，要繼續嗎？",
+    zhHans: "你有一场未完成的考试，要继续吗？",
+  },
+  "exam.resumeBtn": {
+    en: "Resume Exam",
+    zhHant: "繼續考試",
+    zhHans: "继续考试",
+  },
+  "exam.resumeDiscard": {
+    en: "Start Fresh",
+    zhHant: "重新開始",
+    zhHans: "重新开始",
   },
 
   // ── Age Selection ──
@@ -290,6 +521,82 @@ const strings = {
   "tutorial.skip": { en: "Skip", zhHant: "跳過", zhHans: "跳过" },
   "tutorial.next": { en: "Next", zhHant: "下一步", zhHans: "下一步" },
   "tutorial.done": { en: "Get Started!", zhHant: "開始使用！", zhHans: "开始使用！" },
+
+  // ── Crash Course ──
+  "cc.title": { en: "Crash Course", zhHant: "速成衝刺", zhHans: "速成冲刺" },
+  "cc.banner": { en: "Exam Tomorrow? 2-Hour Crash Course", zhHant: "考試就在明天？2小時速成衝刺", zhHans: "考试就在明天？2小时速成冲刺" },
+  "cc.disclaimer": { en: "This Crash Course covers key points only. If you have time, we recommend completing the full Study modules.", zhHant: "本速成衝刺僅覆蓋重難點。如有時間，建議完成完整學習模組。", zhHans: "本速成冲刺仅覆盖重难点。如有时间，建议完成完整学习模块。" },
+  "cc.numbersBtn": { en: "📊 Quick Reference Numbers", zhHant: "📊 數字速查表", zhHans: "📊 数字速查表" },
+  "cc.numbersTitle": { en: "Quick Reference Numbers", zhHant: "數字速查表", zhHans: "数字速查表" },
+  "cc.phase": { en: "Phase", zhHant: "階段", zhHans: "阶段" },
+  "cc.minutes": { en: "min", zhHant: "分鐘", zhHans: "分钟" },
+  "cc.locked": { en: "Complete previous phase to unlock", zhHant: "完成上一階段以解鎖", zhHans: "完成上一阶段以解锁" },
+  "cc.completed": { en: "Completed", zhHant: "已完成", zhHans: "已完成" },
+  "cc.startPractice": { en: "Start Practice", zhHant: "開始練習", zhHans: "开始练习" },
+  "cc.search": { en: "Search numbers or rules...", zhHant: "搜索數字或規則...", zhHans: "搜索数字或规则..." },
+  "cc.mnemonic": { en: "Memory Aid", zhHant: "記憶口訣", zhHans: "记忆口诀" },
+  "cc.back": { en: "← Back to Crash Course", zhHant: "← 返回速成衝刺", zhHans: "← 返回速成冲刺" },
+  "cc.signInRequired": { en: "Sign in to access Crash Course", zhHant: "登入以使用速成衝刺", zhHans: "登录以使用速成冲刺" },
+  "cc.overallProgress": { en: "Overall Progress", zhHant: "總體進度", zhHans: "总体进度" },
+  "cc.phase1": { en: "Number Memory Training", zhHant: "數字速記訓練", zhHans: "数字速记训练" },
+  "cc.phase2": { en: "Six Core Topics", zhHant: "六大核心專題", zhHans: "六大核心专题" },
+  "cc.phase3": { en: "Confusion Comparison", zhHant: "易混淆對比訓練", zhHans: "易混淆对比训练" },
+  "cc.phase4": { en: "Pre-Exam Sprint", zhHant: "考前衝刺模擬", zhHans: "考前冲刺模拟" },
+  "cc.bannerTitle": { en: "Crash Course — 2hr Sprint Review", zhHant: "速成衝刺 — 2小時考前衝刺複習", zhHans: "速成冲刺 — 2小时考前冲刺复习" },
+  "cc.bannerSubtitle": { en: "Cover all key points before your exam", zhHant: "考前覆蓋所有重難點", zhHans: "考前覆盖所有重难点" },
+  "cc.bannerStart": { en: "Start →", zhHant: "開始 →", zhHans: "开始 →" },
+
+  // ── Mistake Review (错题本) ──
+  "mistakes.title": { en: "Mistake Review", zhHant: "錯題重做", zhHans: "错题重做" },
+  "mistakes.subtitle": { en: "Review and master your weak points", zhHant: "回顧並掌握你的薄弱環節", zhHans: "回顾并掌握你的薄弱环节" },
+  "mistakes.tabAll": { en: "All", zhHant: "全部", zhHans: "全部" },
+  "mistakes.tabToday": { en: "Today", zhHant: "今日", zhHans: "今日" },
+  "mistakes.tabFlagged": { en: "Flagged", zhHant: "標記", zhHans: "标记" },
+  "mistakes.tabByModule": { en: "By Module", zhHant: "分類", zhHans: "分类" },
+  "mistakes.toReview": { en: "To Review", zhHant: "待複習", zhHans: "待复习" },
+  "mistakes.mastered": { en: "Mastered", zhHant: "已掌握", zhHans: "已掌握" },
+  "mistakes.total": { en: "Total", zhHant: "總計", zhHans: "总计" },
+  "mistakes.quickReview": { en: "Quick Review", zhHant: "快速複習", zhHans: "快速复习" },
+  "mistakes.todayReview": { en: "Today's Mistakes", zhHant: "今日錯題", zhHans: "今日错题" },
+  "mistakes.flaggedReview": { en: "Flagged Questions", zhHant: "標記題目", zhHans: "标记题目" },
+  "mistakes.moduleReview": { en: "Module Focus", zhHant: "模組重點", zhHans: "模块重点" },
+  "mistakes.hardest": { en: "Hardest Questions", zhHant: "最難題目", zhHans: "最难题目" },
+  "mistakes.streakProgress": { en: "toward mastery", zhHant: "邁向掌握", zhHans: "迈向掌握" },
+  "mistakes.streakReset": { en: "Streak reset", zhHant: "連續正確歸零", zhHans: "连续正确归零" },
+  "mistakes.correctStreak": { en: "Correct!", zhHant: "正確！", zhHans: "正确！" },
+  "mistakes.stillWrong": { en: "Still incorrect", zhHant: "仍然錯誤", zhHans: "仍然错误" },
+  "mistakes.flagBtn": { en: "🚩 Flag as Uncertain", zhHant: "🚩 標記為不確定", zhHans: "🚩 标记为不确定" },
+  "mistakes.flagged": { en: "✓ Flagged", zhHant: "✓ 已標記", zhHans: "✓ 已标记" },
+  "mistakes.flagTip": {
+    en: "Even if correct, this question will be added to your Mistake Review for extra practice.",
+    zhHant: "即使答對，此題也會加入錯題本以加強練習。",
+    zhHans: "即使答对，此题也会加入错题本以加强练习。",
+  },
+  "mistakes.noMistakes": { en: "No Mistakes Yet!", zhHant: "還沒有錯題！", zhHans: "还没有错题！" },
+  "mistakes.noMistakesDesc": {
+    en: "Complete some quizzes or mock exams to start tracking your mistakes.",
+    zhHant: "完成一些測驗或模擬考試，開始追蹤你的錯題。",
+    zhHans: "完成一些测验或模拟考试，开始追踪你的错题。",
+  },
+  "mistakes.signInPrompt": {
+    en: "Sign in to track and review your mistakes.",
+    zhHant: "登入以追蹤和回顧你的錯題。",
+    zhHans: "登录以追踪和回顾你的错题。",
+  },
+  "mistakes.sourceMock": { en: "Mock Exam", zhHant: "模擬考試", zhHans: "模拟考试" },
+  "mistakes.sourceQuiz": { en: "Study Quiz", zhHant: "學習測驗", zhHans: "学习测验" },
+  "mistakes.sourceCrash": { en: "Crash Course", zhHant: "速成課程", zhHans: "速成课程" },
+  "mistakes.questions": { en: "questions", zhHant: "題", zhHans: "题" },
+  "mistakes.startReview": { en: "Start Review", zhHant: "開始複習", zhHans: "开始复习" },
+  "mistakes.seeResults": { en: "See Results", zhHant: "查看結果", zhHans: "查看结果" },
+  "mistakes.nextQuestion": { en: "Next Question", zhHant: "下一題", zhHans: "下一题" },
+  "mistakes.back": { en: "Back to Mistakes", zhHant: "返回錯題本", zhHans: "返回错题本" },
+  "mistakes.done": { en: "Done", zhHant: "完成", zhHans: "完成" },
+  "mistakes.resolved": { en: "Mastered! ✓", zhHant: "已掌握！✓", zhHans: "已掌握！✓" },
+  "mistakes.wrongCount": { en: "wrong", zhHant: "次錯", zhHans: "次错" },
+  "mistakes.noResults": { en: "No questions in this category", zhHant: "此分類暫無題目", zhHans: "此分类暂无题目" },
+  "mistakes.yourAnswer": { en: "Your answer", zhHant: "你的答案", zhHans: "你的答案" },
+  "mistakes.correctAnswer": { en: "Correct answer", zhHant: "正確答案", zhHans: "正确答案" },
 } as const;
 
 export type UIStringKey = keyof typeof strings;

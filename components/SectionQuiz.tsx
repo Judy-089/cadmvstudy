@@ -41,10 +41,12 @@ export function SectionQuiz({ moduleId, sectionId, sectionTitle, onClose }: Prop
   const [currentIdx, setCurrentIdx] = useState(0);
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [showExplanation, setShowExplanation] = useState(false);
+  const [flaggedIds, setFlaggedIds] = useState<Set<string>>(new Set());
 
   const setResult = useQuizStore((s) => s.setResult);
   const existingResult = useQuizStore((s) => s.getResult)(moduleId, sectionId);
   const languageMode = useAppStore((s) => s.languageMode);
+  const storeQuestions = useWrongQuestionStore((s) => s.questions);
   const t = useT();
 
   // Determine quiz language: zhHant mode → zhHant, else → en
@@ -365,6 +367,39 @@ export function SectionQuiz({ moduleId, sectionId, sectionTitle, onClose }: Prop
             <p className="mt-1 text-sm text-text-light">
               {getText(currentQ.explanation_en, currentQ.explanation_zhHant)}
             </p>
+            {/* Flag as Uncertain button */}
+            <div className="mt-3 border-t border-gray-200 pt-3">
+              {flaggedIds.has(currentQ.id) || storeQuestions[currentQ.id]?.flaggedUnknown ? (
+                <span className="text-xs font-medium text-text-gray">✓ {useZhHant ? "已標記" : "Flagged"}</span>
+              ) : (
+                <button
+                  onClick={() => {
+                    const flagQ = useWrongQuestionStore.getState().flagQuestion;
+                    flagQ({
+                      questionId: currentQ.id,
+                      source: "quiz" as const,
+                      sourceId: `${moduleId}-${sectionId}`,
+                      moduleId,
+                      correctAnswer: currentQ.answer,
+                    });
+                    setFlaggedIds((prev) => new Set(prev).add(currentQ.id));
+                    const user = useAuthStore.getState().user;
+                    if (user) {
+                      const storeQ = useWrongQuestionStore.getState().questions[currentQ.id];
+                      if (storeQ) saveWrongQuestion(user.uid, storeQ).catch(() => {});
+                    }
+                  }}
+                  className="text-xs font-medium text-amber-600 hover:text-amber-700 transition-colors"
+                >
+                  🚩 {useZhHant ? "標記為不確定" : "Flag as Uncertain"}
+                </button>
+              )}
+              <p className="mt-0.5 text-[10px] text-text-gray">
+                {useZhHant
+                  ? "即使答對，此題也會加入錯題本以加強練習"
+                  : "Even if correct, this will be added to Mistake Review"}
+              </p>
+            </div>
           </div>
         )}
       </div>

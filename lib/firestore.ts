@@ -184,7 +184,7 @@ export async function saveLanguagePreference(
 
 export interface WrongQuestionData {
   questionId: string;
-  source: "mock" | "quiz";
+  source: "mock" | "quiz" | "crash";
   sourceId: string;
   moduleId: string;
   wrongAnswer: string;
@@ -192,6 +192,11 @@ export interface WrongQuestionData {
   wrongCount: number;
   lastWrongAt: number;
   resolved: boolean;
+  // New fields (may be missing in old Firestore docs)
+  flaggedUnknown?: boolean;
+  correctStreak?: number;
+  lastReviewedAt?: number | null;
+  addedAt?: number;
 }
 
 export async function saveWrongQuestion(userId: string, q: WrongQuestionData) {
@@ -204,12 +209,72 @@ export async function loadWrongQuestions(userId: string): Promise<Record<string,
   const snap = await getDocs(ref);
   const results: Record<string, WrongQuestionData> = {};
   snap.docs.forEach((d) => {
-    results[d.id] = d.data() as WrongQuestionData;
+    const raw = d.data();
+    // Fill defaults for old docs missing new fields
+    results[d.id] = {
+      questionId: raw.questionId ?? d.id,
+      source: raw.source ?? "quiz",
+      sourceId: raw.sourceId ?? "",
+      moduleId: raw.moduleId ?? "",
+      wrongAnswer: raw.wrongAnswer ?? "",
+      correctAnswer: raw.correctAnswer ?? "",
+      wrongCount: raw.wrongCount ?? 0,
+      lastWrongAt: raw.lastWrongAt ?? Date.now(),
+      resolved: raw.resolved ?? false,
+      flaggedUnknown: raw.flaggedUnknown ?? false,
+      correctStreak: raw.correctStreak ?? (raw.resolved ? 3 : 0),
+      lastReviewedAt: raw.lastReviewedAt ?? null,
+      addedAt: raw.addedAt ?? raw.lastWrongAt ?? Date.now(),
+    };
   });
   return results;
 }
 
 export async function resolveWrongQuestion(userId: string, questionId: string) {
   const ref = doc(getDb(), "users", userId, "wrongQuestions", questionId);
-  await updateDoc(ref, { resolved: true });
+  await updateDoc(ref, { resolved: true, correctStreak: 3 });
+}
+
+export async function updateWrongQuestionReview(
+  userId: string,
+  questionId: string,
+  updates: { correctStreak: number; resolved: boolean; lastReviewedAt: number; wrongCount?: number; lastWrongAt?: number }
+) {
+  const ref = doc(getDb(), "users", userId, "wrongQuestions", questionId);
+  await updateDoc(ref, updates);
+}
+
+// --- Crash Course Progress ---
+
+export interface CrashCourseProgressData {
+  phase1: { completedGroups: string[]; scores: Record<string, number> };
+  phase2: { completedGroups: string[]; scores: Record<string, number> };
+  phase3: { completedGroups: string[]; scores: Record<string, number> };
+  phase4: {
+    score: number;
+    total: number;
+    passed: boolean;
+    wrongIds: string[];
+    completedAt: number;
+  } | null;
+  lastAccessedAt: number | null;
+}
+
+export async function saveCrashCourseProgress(
+  userId: string,
+  data: CrashCourseProgressData
+) {
+  const ref = doc(getDb(), "users", userId, "crashCourseProgress", "main");
+  await setDoc(ref, {
+    ...data,
+    updatedAt: serverTimestamp(),
+  });
+}
+
+export async function loadCrashCourseProgress(
+  userId: string
+): Promise<CrashCourseProgressData | null> {
+  const ref = doc(getDb(), "users", userId, "crashCourseProgress", "main");
+  const snap = await getDoc(ref);
+  return snap.exists() ? (snap.data() as CrashCourseProgressData) : null;
 }

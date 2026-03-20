@@ -33,6 +33,7 @@
           "answer": "B",
           "explanation_en": "AB 390 expanded the 'Slow Down, Move Over' law to apply to ALL stationary vehicles — not just emergency vehicles. This includes any vehicle displaying flashing hazard lights, marked highway maintenance vehicles, and vehicles with other warning devices.",
           "explanation_zhHant": "AB 390 擴展了「減速讓行」法，使其適用於所有靜止車輛——不僅僅是緊急車輛。這包括任何顯示閃爍緊急閃光燈的車輛、標有高速公路維護標誌的車輛，以及帶有其他警告裝置的車輛。",
+          "explanation_zh": "AB 390 扩展了“减速让行”法，使其适用于所有静止车辆——不仅仅是紧急车辆。这包括任何显示闪烁紧急闪光灯的车辆、标有高速公路维护标志的车辆，以及带有其他警告装置的车辆。",
           "tags": ["move-over", "emergency"]
         },
         {
@@ -64,6 +65,7 @@
           "answer": "B",
           "explanation_en": "AB 382 lowers the school zone speed limit from 25 mph to 20 mph, effective January 1, 2031. Until then, the current 25 mph limit remains in effect.",
           "explanation_zhHant": "AB 382 將學校區域限速從25哩/小時降至20哩/小時，自2031年1月1日起生效。在此之前，現行的25哩/小時限速仍然有效。",
+          "explanation_zh": "AB 382 将学校区域限速从25哩/小时降至20哩/小时，自2031年1月1日起生效。在此之前，现行的25哩/小时限速仍然有效。",
           "tags": ["speed-limit", "school-zone"]
         },
         {
@@ -95,6 +97,7 @@
           "answer": "C",
           "explanation_en": "AB 1085 makes it an infraction with a fine of $1,000 to manufacture in California any product or device that obscures or interferes with the visual or electronic reading of a license plate.",
           "explanation_zhHant": "AB 1085 規定在加州製造任何遮擋或干擾車牌視覺或電子讀取的產品或裝置屬於違規行為，罰款$1,000美元。",
+          "explanation_zh": "AB 1085 规定在加州制造任何遮挡或干扰车牌视觉或电子读取的产品或装置属于违规行为，罚款$1,000美元。",
           "tags": ["license-plate"]
         },
         {
@@ -126,6 +129,7 @@
           "answer": "B",
           "explanation_en": "SB 720 allows local governments to use automated camera systems to enforce red light violations. Violations recorded by these cameras are subject to civil penalties only (not criminal).",
           "explanation_zhHant": "SB 720 允許地方政府使用自動攝影系統執行闖紅燈違規。這些攝影機記錄的違規僅適用民事處罰（非刑事）。",
+          "explanation_zh": "SB 720 允许地方政府使用自动摄影系统执行闯红灯违规。这些摄影机记录的违规仅适用民事处罚（非刑事）。",
           "tags": ["red-light", "camera"]
         }
       ]
@@ -162,6 +166,7 @@
           "answer": "C",
           "explanation_en": "AB 366 extended the statewide Ignition Interlock Device (IID) Pilot Program for DUI offenders to January 1, 2033. DUI offenders may be required to install an IID on their vehicle.",
           "explanation_zhHant": "AB 366 將針對DUI違規者的全州點火互鎖裝置（IID）試點項目延長至2033年1月1日。DUI違規者可能需要在車輛上安裝IID。",
+          "explanation_zh": "AB 366 将针对DUI违规者的全州点火互锁装置（IID）试点项目延长至2033年1月1日。DUI违规者可能需要在车辆上安装IID。",
           "tags": ["dui", "iid"]
         },
         {
@@ -193,6 +198,7 @@
           "answer": "B",
           "explanation_en": "AB 1087 increased the probation period for vehicular manslaughter or gross vehicular manslaughter while intoxicated from 2 years to between 3 and 5 years.",
           "explanation_zhHant": "AB 1087 將醉酒駕車過失殺人或嚴重過失殺人的緩刑期從2年增加到3至5年。",
+          "explanation_zh": "AB 1087 将醉酒驾车过失杀人或严重过失杀人的缓刑期从2年增加到3至5年。",
           "tags": ["dui", "probation"]
         }
       ]
@@ -229,6 +235,7 @@
           "answer": "B",
           "explanation_en": "SB 766 (CARS Act), effective October 1, 2026, gives customers a three-day right to cancel the purchase or lease of a vehicle under $50,000.",
           "explanation_zhHant": "SB 766（CARS法案）自2026年10月1日起生效，賦予客戶三天的權利取消購買或租賃價格低於$50,000的車輛。",
+          "explanation_zh": "SB 766（CARS法案）自2026年10月1日起生效，赋予客户三天的权利取消购买或租赁价格低于$50,000的车辆。",
           "tags": ["consumer-protection"]
         },
         {
@@ -260,6 +267,7 @@
           "answer": "A",
           "explanation_en": "SB 506 now allows you to request a duplicate driver's license from the DMV after changing your address. Previously, duplicate licenses were only issued when a license was lost, destroyed, or mutilated.",
           "explanation_zhHant": "SB 506 現在允許你在更改地址後向DMV申請補辦駕駛執照。此前，補辦駕照僅限於駕照遺失、損壞或毀損的情況。",
+          "explanation_zh": "SB 506 现在允许你在更改地址后向DMV申请补办驾驶执照。此前，补办驾照仅限于驾照遗失、损坏或毁损的情况。",
           "tags": ["license", "address-change"]
         }
       ]

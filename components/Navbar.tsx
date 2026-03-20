@@ -121,7 +121,6 @@ export function Navbar() {
                             }`}
                           >
                             {LANGUAGE_MODE_LABELS[mode].en}
-                            <span className="ml-1 text-text-gray">{LANGUAGE_MODE_LABELS[mode].zh}</span>
                           </button>
                         ))}
                       </div>

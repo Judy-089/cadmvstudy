@@ -1,0 +1,1245 @@
+{
+  "phaseId": 2,
+  "title_en": "Six Core Topics",
+  "title_zh": "六大核心专题",
+  "title_zhHant": "六大核心專題",
+  "estimatedMinutes": 50,
+  "topics": [
+    {
+      "id": "right-of-way",
+      "title_en": "Right-of-Way",
+      "title_zh": "路权与让行",
+      "title_zhHant": "路權與讓行",
+      "estimatedMinutes": 10,
+      "cards": [
+        {
+          "id": "CC-P2-ROW-C01",
+          "title_en": "Uncontrolled Intersections",
+          "title_zh": "无标志路口",
+          "title_zhHant": "無標誌路口",
+          "isHighFreq": true,
+          "content_en": "If two vehicles arrive at the same time, the driver on the LEFT must yield to the driver on the RIGHT.",
+          "content_zh": "同时到达 → 左让右",
+          "content_zhHant": "同時到達 → 左讓右"
+        },
+        {
+          "id": "CC-P2-ROW-C02",
+          "title_en": "T-Intersections",
+          "title_zh": "T型路口",
+          "title_zhHant": "T型路口",
+          "content_en": "At an uncontrolled T-intersection, traffic on the through (continuing) road has the right-of-way.",
+          "content_zh": "直行道拥有路权，转入者让行",
+          "content_zhHant": "直行道擁有路權，轉入者讓行"
+        },
+        {
+          "id": "CC-P2-ROW-C03",
+          "title_en": "Narrow Mountain Roads",
+          "title_zh": "陡峭山路",
+          "title_zhHant": "陡峭山路",
+          "isEasyMistake": true,
+          "content_en": "The vehicle going DOWNHILL must yield (back up) to the vehicle going UPHILL.",
+          "content_zh": "下坡车让上坡车（下坡车倒退）",
+          "content_zhHant": "下坡車讓上坡車（下坡車倒退）",
+          "mistakeNote_en": "Reason: uphill vehicle has less control in reverse",
+          "mistakeNote_zh": "原因：上坡倒车更难控制",
+          "mistakeNote_zhHant": "原因：上坡倒車更難控制"
+        },
+        {
+          "id": "CC-P2-ROW-C04",
+          "title_en": "Roundabouts",
+          "title_zh": "环岛",
+          "title_zhHant": "環島",
+          "content_en": "Traffic moves COUNTERCLOCKWISE. Enter by turning RIGHT. Signal when changing lanes or exiting.",
+          "content_zh": "逆时针行驶；右转进入；变道/出环岛打灯",
+          "content_zhHant": "逆時針行駛；右轉進入；變道/出環島打燈"
+        },
+        {
+          "id": "CC-P2-ROW-C05",
+          "title_en": "Emergency Vehicles",
+          "title_zh": "紧急车辆",
+          "title_zhHant": "緊急車輛",
+          "isEasyMistake": true,
+          "content_en": "Pull to the RIGHT edge and STOP. If in an intersection, drive THROUGH first, then pull over.",
+          "content_zh": "靠右停车。如在路口中间 → 先驶过路口再靠右",
+          "content_zhHant": "靠右停車。如在路口中間 → 先駛過路口再靠右",
+          "mistakeNote_en": "Never stop in the middle of an intersection",
+          "mistakeNote_zh": "绝不能停在路口中间",
+          "mistakeNote_zhHant": "絕不能停在路口中間"
+        }
+      ],
+      "questions": [
+        {
+          "id": "CC-P2-ROW-Q01",
+          "stem_en": "Two vehicles reach an uncontrolled intersection at the same time. Which vehicle must yield?",
+          "stem_zh": "两辆车同时到达一个无标志路口。哪辆车必须让行？",
+          "stem_zhHant": "兩輛車同時到達一個無標誌路口。哪輛車必須讓行？",
+          "options": [
+            { "key": "A", "text_en": "The vehicle on the right", "text_zh": "右侧车辆", "text_zhHant": "右側車輛" },
+            { "key": "B", "text_en": "The vehicle on the left", "text_zh": "左侧车辆", "text_zhHant": "左側車輛" },
+            { "key": "C", "text_en": "The larger vehicle", "text_zh": "较大的车辆", "text_zhHant": "較大的車輛" },
+            { "key": "D", "text_en": "The vehicle going straight", "text_zh": "直行车辆", "text_zhHant": "直行車輛" }
+          ],
+          "answer": "B",
+          "explanation_en": "At an uncontrolled intersection, the vehicle on the left yields to the vehicle on the right.",
+          "explanation_zh": "让右原则：左侧车辆让右侧车辆。",
+          "explanation_zhHant": "讓右原則：左側車輛讓右側車輛。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-ROW-Q02",
+          "stem_en": "On a narrow mountain road where two vehicles cannot pass, which vehicle should back up?",
+          "stem_zh": "在狭窄山路上两车无法同时通过，哪辆车应该倒退？",
+          "stem_zhHant": "在狹窄山路上兩車無法同時通過，哪輛車應該倒退？",
+          "options": [
+            { "key": "A", "text_en": "The vehicle going uphill", "text_zh": "上坡车辆", "text_zhHant": "上坡車輛" },
+            { "key": "B", "text_en": "The vehicle going downhill", "text_zh": "下坡车辆", "text_zhHant": "下坡車輛" },
+            { "key": "C", "text_en": "The smaller vehicle", "text_zh": "较小的车辆", "text_zhHant": "較小的車輛" },
+            { "key": "D", "text_en": "The vehicle closer to a turnout", "text_zh": "离让车区更近的车辆", "text_zhHant": "離讓車區更近的車輛" }
+          ],
+          "answer": "B",
+          "explanation_en": "The downhill vehicle must back up because the uphill vehicle has less control in reverse.",
+          "explanation_zh": "下坡车倒退让行，因为上坡车倒车更难控制。",
+          "explanation_zhHant": "下坡車倒退讓行，因為上坡車倒車更難控制。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-ROW-Q03",
+          "stem_en": "When an emergency vehicle with sirens approaches while you are in the middle of an intersection, you should:",
+          "stem_zh": "当紧急车辆鸣笛驶来而你正在路口中间时，你应该：",
+          "stem_zhHant": "當緊急車輛鳴笛駛來而你正在路口中間時，你應該：",
+          "options": [
+            { "key": "A", "text_en": "Stop immediately in the intersection", "text_zh": "立即在路口停车", "text_zhHant": "立即在路口停車" },
+            { "key": "B", "text_en": "Drive through the intersection first, then pull to the right", "text_zh": "先驶过路口，再靠右停车", "text_zhHant": "先駛過路口，再靠右停車" },
+            { "key": "C", "text_en": "Turn right immediately", "text_zh": "立即右转", "text_zhHant": "立即右轉" },
+            { "key": "D", "text_en": "Speed up to clear the intersection faster", "text_zh": "加速通过路口", "text_zhHant": "加速通過路口" }
+          ],
+          "answer": "B",
+          "explanation_en": "Never stop in the middle of an intersection. Drive through first, then pull to the right and stop.",
+          "explanation_zh": "先驶过路口，再靠右停车。绝不停在路口中间。",
+          "explanation_zhHant": "先駛過路口，再靠右停車。絕不停在路口中間。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-ROW-Q04",
+          "stem_en": "In a roundabout, traffic moves:",
+          "stem_zh": "在环岛中，车辆行驶方向为：",
+          "stem_zhHant": "在環島中，車輛行駛方向為：",
+          "options": [
+            { "key": "A", "text_en": "Clockwise", "text_zh": "顺时针", "text_zhHant": "順時針" },
+            { "key": "B", "text_en": "Counterclockwise", "text_zh": "逆时针", "text_zhHant": "逆時針" },
+            { "key": "C", "text_en": "In either direction", "text_zh": "任意方向", "text_zhHant": "任意方向" },
+            { "key": "D", "text_en": "The direction of the arrows posted", "text_zh": "按箭头指示方向", "text_zhHant": "按箭頭指示方向" }
+          ],
+          "answer": "B",
+          "explanation_en": "In the US, roundabout traffic flows counterclockwise. Enter by turning right.",
+          "explanation_zh": "美国环岛逆时针行驶，右转进入。",
+          "explanation_zhHant": "美國環島逆時針行駛，右轉進入。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-ROW-Q05",
+          "stem_en": "At an uncontrolled T-intersection with no signs or signals, who has the right-of-way?",
+          "stem_zh": "在没有标志或信号灯的T型路口，谁拥有路权？",
+          "stem_zhHant": "在沒有標誌或信號燈的T型路口，誰擁有路權？",
+          "options": [
+            { "key": "A", "text_en": "The vehicle turning onto the through road", "text_zh": "转入直行道的车辆", "text_zhHant": "轉入直行道的車輛" },
+            { "key": "B", "text_en": "The vehicle on the through (continuing) road", "text_zh": "直行道上的车辆", "text_zhHant": "直行道上的車輛" },
+            { "key": "C", "text_en": "The vehicle that arrived first", "text_zh": "先到达的车辆", "text_zhHant": "先到達的車輛" },
+            { "key": "D", "text_en": "The vehicle on the left", "text_zh": "左侧车辆", "text_zhHant": "左側車輛" }
+          ],
+          "answer": "B",
+          "explanation_en": "At an uncontrolled T-intersection, traffic on the through (continuing) road has the right-of-way.",
+          "explanation_zh": "T型路口直行道拥有路权。",
+          "explanation_zhHant": "T型路口直行道擁有路權。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-ROW-Q06",
+          "stem_en": "You are approaching a yield sign. What should you do?",
+          "stem_zh": "你正在接近一个让行标志。你应该怎么做？",
+          "stem_zhHant": "你正在接近一個讓行標誌。你應該怎麼做？",
+          "options": [
+            { "key": "A", "text_en": "Always stop before proceeding", "text_zh": "必须先停车再通过", "text_zhHant": "必須先停車再通過" },
+            { "key": "B", "text_en": "Slow down, check traffic, and be prepared to stop", "text_zh": "减速，观察交通，准备停车", "text_zhHant": "減速，觀察交通，準備停車" },
+            { "key": "C", "text_en": "Speed up to merge quickly", "text_zh": "加速快速汇入", "text_zhHant": "加速快速匯入" },
+            { "key": "D", "text_en": "Honk your horn and proceed", "text_zh": "按喇叭并通过", "text_zhHant": "按喇叭並通過" }
+          ],
+          "answer": "B",
+          "explanation_en": "A yield sign means slow down and be prepared to stop. You must yield the right-of-way to traffic and pedestrians.",
+          "explanation_zh": "让行标志 → 减速，准备停车让行。",
+          "explanation_zhHant": "讓行標誌 → 減速，準備停車讓行。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-ROW-Q07",
+          "stem_en": "A pedestrian with a white cane is waiting at a crosswalk. You should:",
+          "stem_zh": "一位持白手杖的行人在人行横道等候。你应该：",
+          "stem_zhHant": "一位持白手杖的行人在人行橫道等候。你應該：",
+          "options": [
+            { "key": "A", "text_en": "Honk to let them know you're there", "text_zh": "按喇叭让他们知道你在", "text_zhHant": "按喇叭讓他們知道你在" },
+            { "key": "B", "text_en": "Stop and wait for them to cross, do not honk", "text_zh": "停车等待，不要按喇叭", "text_zhHant": "停車等待，不要按喇叭" },
+            { "key": "C", "text_en": "Wave them across", "text_zh": "挥手示意他们通过", "text_zhHant": "揮手示意他們通過" },
+            { "key": "D", "text_en": "Slowly drive through the crosswalk", "text_zh": "缓慢驶过人行横道", "text_zhHant": "緩慢駛過人行橫道" }
+          ],
+          "answer": "B",
+          "explanation_en": "Never honk at a blind pedestrian. Stop and wait. If they pull back their cane, it usually means you may proceed.",
+          "explanation_zh": "绝不对盲人行人按喇叭。停车等待。盲人收起手杖 → 通常表示你可以通行。",
+          "explanation_zhHant": "絕不對盲人行人按喇叭。停車等待。盲人收起手杖 → 通常表示你可以通行。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-ROW-Q08",
+          "stem_en": "You approach a school bus that has its red lights flashing and its stop sign extended. You must:",
+          "stem_zh": "你驶近一辆闪着红灯并伸出停车标志的校车。你必须：",
+          "stem_zhHant": "你駛近一輛閃著紅燈並伸出停車標誌的校車。你必須：",
+          "options": [
+            { "key": "A", "text_en": "Slow down to 25 mph and pass carefully", "text_zh": "减速到25英里并小心通过", "text_zhHant": "減速到25英里並小心通過" },
+            { "key": "B", "text_en": "Stop from both directions", "text_zh": "双向都必须停车", "text_zhHant": "雙向都必須停車" },
+            { "key": "C", "text_en": "Stop only if you are behind the bus", "text_zh": "只有在校车后方才需要停车", "text_zhHant": "只有在校車後方才需要停車" },
+            { "key": "D", "text_en": "Stop only if children are visible", "text_zh": "只有看到孩子才需要停车", "text_zhHant": "只有看到孩子才需要停車" }
+          ],
+          "answer": "B",
+          "explanation_en": "When a school bus flashes red and extends its stop arm, ALL traffic from BOTH directions must stop. Exception: on a divided highway with a physical barrier, opposite-direction traffic need not stop.",
+          "explanation_zh": "校车闪红灯+伸STOP → 双向停车。唯一例外：有物理隔离的分隔公路对面车辆无需停。",
+          "explanation_zhHant": "校車閃紅燈+伸STOP → 雙向停車。唯一例外：有物理隔離的分隔公路對面車輛無需停。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "emergencies",
+      "title_en": "Emergencies",
+      "title_zh": "紧急情况处理",
+      "title_zhHant": "緊急情況處理",
+      "estimatedMinutes": 10,
+      "coreRule": {
+        "content_en": "Sudden loss of control → ease off gas, do NOT brake. ONLY exception: driving off pavement → gentle braking OK.",
+        "content_zh": "突然失控 → 松油门，不踩刹车。唯一例外：冲出路面 → 可轻踩刹车",
+        "content_zhHant": "突然失控 → 鬆油門，不踩剎車。唯一例外：衝出路面 → 可輕踩剎車",
+        "isHighFreq": true
+      },
+      "cards": [
+        {
+          "id": "CC-P2-EMG-C01",
+          "title_en": "Skidding",
+          "title_zh": "车辆打滑",
+          "title_zhHant": "車輛打滑",
+          "content_en": "Ease off the gas. Do NOT brake. Steer in the direction the rear of the vehicle is sliding.",
+          "content_zh": "松油门 → 不踩刹车 → 方向盘转向打滑方向",
+          "content_zhHant": "鬆油門 → 不踩剎車 → 方向盤轉向打滑方向"
+        },
+        {
+          "id": "CC-P2-EMG-C02",
+          "title_en": "Hydroplaning",
+          "title_zh": "水滑",
+          "title_zhHant": "水滑",
+          "content_en": "Gradually slow down. Do NOT use brakes.",
+          "content_zh": "逐渐减速 → 绝不踩刹车",
+          "content_zhHant": "逐漸減速 → 絕不踩剎車"
+        },
+        {
+          "id": "CC-P2-EMG-C03",
+          "title_en": "Tire Blowout",
+          "title_zh": "爆胎",
+          "title_zhHant": "爆胎",
+          "content_en": "Grip the steering wheel firmly. Gradually release the accelerator. Do NOT slam brakes. Keep the vehicle going straight.",
+          "content_zh": "紧握方向盘 → 慢松油门 → 不踩刹车 → 保持直线",
+          "content_zhHant": "緊握方向盤 → 慢鬆油門 → 不踩剎車 → 保持直線"
+        },
+        {
+          "id": "CC-P2-EMG-C04",
+          "title_en": "Driving Off Pavement",
+          "title_zh": "冲出路面",
+          "title_zhHant": "衝出路面",
+          "isEasyMistake": true,
+          "content_en": "Grip wheel, ease off gas, brake GENTLY. Do NOT jerk the wheel to return to road.",
+          "content_zh": "握紧方向盘 → 松油门 → 轻踩刹车 → 不要猛打方向盘",
+          "content_zhHant": "握緊方向盤 → 鬆油門 → 輕踩剎車 → 不要猛打方向盤",
+          "mistakeNote_en": "This is the ONLY emergency where gentle braking is OK",
+          "mistakeNote_zh": "这是唯一可以轻踩刹车的紧急情况",
+          "mistakeNote_zhHant": "這是唯一可以輕踩剎車的緊急情況"
+        },
+        {
+          "id": "CC-P2-EMG-C05",
+          "title_en": "Brake Failure",
+          "title_zh": "刹车失灵",
+          "title_zhHant": "剎車失靈",
+          "content_en": "Pump the brakes rapidly. Downshift to lower gear or neutral. Use emergency/parking brake.",
+          "content_zh": "快速点刹 → 降档/空挡 → 拉手刹",
+          "content_zhHant": "快速點剎 → 降檔/空檔 → 拉手剎"
+        },
+        {
+          "id": "CC-P2-EMG-C06",
+          "title_en": "Wet Brakes",
+          "title_zh": "刹车变湿",
+          "title_zhHant": "剎車變濕",
+          "isEasyMistake": true,
+          "content_en": "Lightly press both the accelerator and brake pedals at the same time until brakes dry.",
+          "content_zh": "同时轻踩油门+刹车，直到刹车变干",
+          "content_zhHant": "同時輕踩油門+剎車，直到剎車變乾",
+          "mistakeNote_en": "The ONLY situation where you press gas and brake at the same time",
+          "mistakeNote_zh": "这是唯一一个需要同时踩油门和刹车的情况",
+          "mistakeNote_zhHant": "這是唯一一個需要同時踩油門和剎車的情況"
+        },
+        {
+          "id": "CC-P2-EMG-C07",
+          "title_en": "Down a Steep Hill",
+          "title_zh": "下陡坡",
+          "title_zhHant": "下陡坡",
+          "content_en": "Shift to LOW GEAR before descending. Use engine braking to prevent brake overheating.",
+          "content_zh": "下坡前换低速档，利用发动机制动",
+          "content_zhHant": "下坡前換低速檔，利用引擎制動"
+        },
+        {
+          "id": "CC-P2-EMG-C08",
+          "title_en": "Stuck in Snow/Mud",
+          "title_zh": "陷入雪地/泥地",
+          "title_zhHant": "陷入雪地/泥地",
+          "content_en": "Shift to low gear, keep front wheels straight, gently press gas. Rock vehicle forward/reverse if needed. Do NOT spin wheels.",
+          "content_zh": "低速档 → 前轮直 → 轻踩油门 → 前后摇摆脱困 → 不要让车轮空转",
+          "content_zhHant": "低速檔 → 前輪直 → 輕踩油門 → 前後搖擺脫困 → 不要讓車輪空轉"
+        }
+      ],
+      "summaryTable": {
+        "headers_en": ["Situation", "Gas", "Brake", "Steering", "Gear"],
+        "headers_zh": ["情况", "油门", "刹车", "方向盘", "档位"],
+        "headers_zhHant": ["情況", "油門", "剎車", "方向盤", "檔位"],
+        "rows": [
+          {
+            "situation_en": "Skid",
+            "situation_zh": "打滑",
+            "situation_zhHant": "打滑",
+            "gas": "❌",
+            "brake": "❌",
+            "steering": "✅ Steer into skid",
+            "steering_zh": "✅ 转向打滑方向",
+            "steering_zhHant": "✅ 轉向打滑方向",
+            "gear": "—"
+          },
+          {
+            "situation_en": "Hydroplane",
+            "situation_zh": "水滑",
+            "situation_zhHant": "水滑",
+            "gas": "❌",
+            "brake": "❌",
+            "steering": "—",
+            "steering_zh": "—",
+            "steering_zhHant": "—",
+            "gear": "—"
+          },
+          {
+            "situation_en": "Blowout",
+            "situation_zh": "爆胎",
+            "situation_zhHant": "爆胎",
+            "gas": "❌",
+            "brake": "❌",
+            "steering": "✅ Keep straight",
+            "steering_zh": "✅ 保持直线",
+            "steering_zhHant": "✅ 保持直線",
+            "gear": "—"
+          },
+          {
+            "situation_en": "Off Road",
+            "situation_zh": "冲出路面",
+            "situation_zhHant": "衝出路面",
+            "gas": "❌",
+            "brake": "✅ Gentle",
+            "brake_zh": "✅ 轻踩",
+            "brake_zhHant": "✅ 輕踩",
+            "steering": "✅ No jerking",
+            "steering_zh": "✅ 不猛打",
+            "steering_zhHant": "✅ 不猛打",
+            "gear": "—"
+          },
+          {
+            "situation_en": "Brake Fail",
+            "situation_zh": "刹车失灵",
+            "situation_zhHant": "剎車失靈",
+            "gas": "—",
+            "brake": "✅ Pump",
+            "brake_zh": "✅ 点刹",
+            "brake_zhHant": "✅ 點剎",
+            "steering": "—",
+            "steering_zh": "—",
+            "steering_zhHant": "—",
+            "gear": "✅ Downshift"
+          },
+          {
+            "situation_en": "Wet Brakes",
+            "situation_zh": "刹车变湿",
+            "situation_zhHant": "剎車變濕",
+            "gas": "✅ Light",
+            "brake": "✅ Light",
+            "brake_zh": "✅ 轻踩",
+            "brake_zhHant": "✅ 輕踩",
+            "steering": "—",
+            "steering_zh": "—",
+            "steering_zhHant": "—",
+            "gear": "—"
+          },
+          {
+            "situation_en": "Steep Hill",
+            "situation_zh": "下陡坡",
+            "situation_zhHant": "下陡坡",
+            "gas": "—",
+            "brake": "—",
+            "steering": "—",
+            "steering_zh": "—",
+            "steering_zhHant": "—",
+            "gear": "✅ Low gear"
+          },
+          {
+            "situation_en": "Snow/Mud",
+            "situation_zh": "雪地/泥地",
+            "situation_zhHant": "雪地/泥地",
+            "gas": "✅ Gentle",
+            "brake": "❌",
+            "steering": "✅ Straight",
+            "steering_zh": "✅ 保持直线",
+            "steering_zhHant": "✅ 保持直線",
+            "gear": "✅ Low gear"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "CC-P2-EMG-Q01",
+          "stem_en": "Your vehicle starts to hydroplane. You should:",
+          "stem_zh": "你的车辆开始水滑。你应该：",
+          "stem_zhHant": "你的車輛開始水滑。你應該：",
+          "options": [
+            { "key": "A", "text_en": "Slam on the brakes", "text_zh": "猛踩刹车", "text_zhHant": "猛踩剎車" },
+            { "key": "B", "text_en": "Gradually slow down without using the brakes", "text_zh": "逐渐减速，不使用刹车", "text_zhHant": "逐漸減速，不使用剎車" },
+            { "key": "C", "text_en": "Turn the steering wheel sharply", "text_zh": "猛打方向盘", "text_zhHant": "猛打方向盤" },
+            { "key": "D", "text_en": "Accelerate to regain traction", "text_zh": "加速恢复抓地力", "text_zhHant": "加速恢復抓地力" }
+          ],
+          "answer": "B",
+          "explanation_en": "When hydroplaning, gradually slow down. Do NOT brake.",
+          "explanation_zh": "水滑时逐渐减速，绝不踩刹车。",
+          "explanation_zhHant": "水滑時逐漸減速，絕不踩剎車。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-EMG-Q02",
+          "stem_en": "You have a tire blowout while driving. Your first action should be:",
+          "stem_zh": "行驶中爆胎。你的第一步应该是：",
+          "stem_zhHant": "行駛中爆胎。你的第一步應該是：",
+          "options": [
+            { "key": "A", "text_en": "Slam on the brakes", "text_zh": "猛踩刹车", "text_zhHant": "猛踩剎車" },
+            { "key": "B", "text_en": "Grip the steering wheel firmly and gradually release the accelerator", "text_zh": "紧握方向盘并慢松油门", "text_zhHant": "緊握方向盤並慢鬆油門" },
+            { "key": "C", "text_en": "Turn sharply to the shoulder", "text_zh": "猛打方向盘驶向路肩", "text_zhHant": "猛打方向盤駛向路肩" },
+            { "key": "D", "text_en": "Shift to neutral immediately", "text_zh": "立即挂空挡", "text_zhHant": "立即掛空檔" }
+          ],
+          "answer": "B",
+          "explanation_en": "Grip the wheel, keep the vehicle straight, and gradually ease off the gas.",
+          "explanation_zh": "紧握方向盘 → 慢松油门 → 保持直线 → 不踩刹车。",
+          "explanation_zhHant": "緊握方向盤 → 慢鬆油門 → 保持直線 → 不踩剎車。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-EMG-Q03",
+          "stem_en": "Your right wheels run off the pavement. You should:",
+          "stem_zh": "你的右侧车轮驶离路面。你应该：",
+          "stem_zhHant": "你的右側車輪駛離路面。你應該：",
+          "options": [
+            { "key": "A", "text_en": "Jerk the wheel left", "text_zh": "猛打方向盘向左", "text_zhHant": "猛打方向盤向左" },
+            { "key": "B", "text_en": "Brake hard", "text_zh": "猛踩刹车", "text_zhHant": "猛踩剎車" },
+            { "key": "C", "text_en": "Ease off the gas, brake gently, and carefully steer back", "text_zh": "松油门，轻踩刹车，小心转回", "text_zhHant": "鬆油門，輕踩剎車，小心轉回" },
+            { "key": "D", "text_en": "Accelerate to regain control", "text_zh": "加速恢复控制", "text_zhHant": "加速恢復控制" }
+          ],
+          "answer": "C",
+          "explanation_en": "Ease off the gas, brake gently, and steer back carefully. Jerking the wheel could send you into oncoming traffic.",
+          "explanation_zh": "松油门 → 轻踩刹车 → 小心转回。猛打方向盘可能冲入对向车道。",
+          "explanation_zhHant": "鬆油門 → 輕踩剎車 → 小心轉回。猛打方向盤可能衝入對向車道。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-EMG-Q04",
+          "stem_en": "Your brake pedal sinks to the floor. What should you do FIRST?",
+          "stem_zh": "你的刹车踏板踩到底。你应该首先做什么？",
+          "stem_zhHant": "你的剎車踏板踩到底。你應該首先做什麼？",
+          "options": [
+            { "key": "A", "text_en": "Turn off the engine", "text_zh": "关闭发动机", "text_zhHant": "關閉引擎" },
+            { "key": "B", "text_en": "Pump the brakes rapidly", "text_zh": "快速点刹", "text_zhHant": "快速點剎" },
+            { "key": "C", "text_en": "Use the steering wheel to slow down", "text_zh": "用方向盘减速", "text_zhHant": "用方向盤減速" },
+            { "key": "D", "text_en": "Open the car door", "text_zh": "打开车门", "text_zhHant": "打開車門" }
+          ],
+          "answer": "B",
+          "explanation_en": "Pump the brakes to try to restore pressure. Then downshift and use the emergency brake.",
+          "explanation_zh": "先快速点刹 → 降档 → 拉手刹。",
+          "explanation_zhHant": "先快速點剎 → 降檔 → 拉手剎。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-EMG-Q05",
+          "stem_en": "If your brakes get wet, you can dry them by:",
+          "stem_zh": "如果你的刹车变湿了，你可以通过以下方式弄干：",
+          "stem_zhHant": "如果你的剎車變濕了，你可以通過以下方式弄乾：",
+          "options": [
+            { "key": "A", "text_en": "Driving faster", "text_zh": "加速行驶", "text_zhHant": "加速行駛" },
+            { "key": "B", "text_en": "Pressing the brake pedal hard for 5 seconds", "text_zh": "猛踩刹车5秒", "text_zhHant": "猛踩剎車5秒" },
+            { "key": "C", "text_en": "Lightly pressing the accelerator and brake pedals at the same time", "text_zh": "同时轻踩油门和刹车", "text_zhHant": "同時輕踩油門和剎車" },
+            { "key": "D", "text_en": "Turning on the defroster", "text_zh": "打开除雾器", "text_zhHant": "打開除霧器" }
+          ],
+          "answer": "C",
+          "explanation_en": "Lightly press both the gas and brake pedals simultaneously until the brakes dry out.",
+          "explanation_zh": "同时轻踩油门和刹车，直到刹车变干。",
+          "explanation_zhHant": "同時輕踩油門和剎車，直到剎車變乾。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-EMG-Q06",
+          "stem_en": "Before driving down a steep hill, you should:",
+          "stem_zh": "在下陡坡之前，你应该：",
+          "stem_zhHant": "在下陡坡之前，你應該：",
+          "options": [
+            { "key": "A", "text_en": "Shift to neutral", "text_zh": "挂空挡", "text_zhHant": "掛空檔" },
+            { "key": "B", "text_en": "Shift to a lower gear", "text_zh": "换低速档", "text_zhHant": "換低速檔" },
+            { "key": "C", "text_en": "Apply the parking brake", "text_zh": "拉手刹", "text_zhHant": "拉手剎" },
+            { "key": "D", "text_en": "Turn off cruise control only", "text_zh": "只关闭定速巡航", "text_zhHant": "只關閉定速巡航" }
+          ],
+          "answer": "B",
+          "explanation_en": "Shift to low gear before descending to use engine braking.",
+          "explanation_zh": "下坡前换低速档，利用发动机制动。",
+          "explanation_zhHant": "下坡前換低速檔，利用引擎制動。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-EMG-Q07",
+          "stem_en": "Your vehicle is stuck in snow. You should:",
+          "stem_zh": "你的车辆陷入雪地。你应该：",
+          "stem_zhHant": "你的車輛陷入雪地。你應該：",
+          "options": [
+            { "key": "A", "text_en": "Press the gas hard", "text_zh": "猛踩油门", "text_zhHant": "猛踩油門" },
+            { "key": "B", "text_en": "Shift to low gear, keep wheels straight, gently press gas", "text_zh": "换低速档，保持车轮直线，轻踩油门", "text_zhHant": "換低速檔，保持車輪直線，輕踩油門" },
+            { "key": "C", "text_en": "Shift to high gear and accelerate", "text_zh": "换高速档并加速", "text_zhHant": "換高速檔並加速" },
+            { "key": "D", "text_en": "Turn the steering wheel back and forth", "text_zh": "来回打方向盘", "text_zhHant": "來回打方向盤" }
+          ],
+          "answer": "B",
+          "explanation_en": "Shift to low gear, keep front wheels straight, and gently accelerate.",
+          "explanation_zh": "低速档 → 前轮直 → 轻踩油门。",
+          "explanation_zhHant": "低速檔 → 前輪直 → 輕踩油門。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-EMG-Q08",
+          "stem_en": "When your vehicle starts to skid on a slippery road, you should:",
+          "stem_zh": "当你的车辆在湿滑路面开始打滑时，你应该：",
+          "stem_zhHant": "當你的車輛在濕滑路面開始打滑時，你應該：",
+          "options": [
+            { "key": "A", "text_en": "Brake firmly", "text_zh": "猛踩刹车", "text_zhHant": "猛踩剎車" },
+            { "key": "B", "text_en": "Steer in the opposite direction", "text_zh": "向相反方向打方向盘", "text_zhHant": "向相反方向打方向盤" },
+            { "key": "C", "text_en": "Ease off the gas and steer in the direction the rear is sliding", "text_zh": "松油门并转向车尾打滑方向", "text_zhHant": "鬆油門並轉向車尾打滑方向" },
+            { "key": "D", "text_en": "Accelerate out of the skid", "text_zh": "加速驶出打滑", "text_zhHant": "加速駛出打滑" }
+          ],
+          "answer": "C",
+          "explanation_en": "Release the gas, do not brake, and steer in the direction the rear of the car is sliding.",
+          "explanation_zh": "松油门 → 不踩刹车 → 方向盘转向车尾打滑方向。",
+          "explanation_zhHant": "鬆油門 → 不踩剎車 → 方向盤轉向車尾打滑方向。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-EMG-Q09",
+          "stem_en": "When parking a manual transmission vehicle on a hill, in addition to the parking brake, you should:",
+          "stem_zh": "在坡道停放手动挡车辆时，除了拉手刹，你还应该：",
+          "stem_zhHant": "在坡道停放手動擋車輛時，除了拉手剎，你還應該：",
+          "options": [
+            { "key": "A", "text_en": "Leave in neutral", "text_zh": "挂空挡", "text_zhHant": "掛空檔" },
+            { "key": "B", "text_en": "Leave in gear", "text_zh": "挂挡", "text_zhHant": "掛檔" },
+            { "key": "C", "text_en": "Turn off the engine only", "text_zh": "只关闭发动机", "text_zhHant": "只關閉引擎" },
+            { "key": "D", "text_en": "Leave running", "text_zh": "保持运行", "text_zhHant": "保持運行" }
+          ],
+          "answer": "B",
+          "explanation_en": "For manual transmission: leave in gear (1st gear uphill, reverse downhill).",
+          "explanation_zh": "手动挡坡道停车：除拉手刹外，需挂挡（上坡1档，下坡倒档）。",
+          "explanation_zhHant": "手動擋坡道停車：除拉手剎外，需掛檔（上坡1檔，下坡倒檔）。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-EMG-Q10",
+          "stem_en": "The ONLY emergency situation where you should gently apply the brakes is:",
+          "stem_zh": "唯一可以轻踩刹车的紧急情况是：",
+          "stem_zhHant": "唯一可以輕踩剎車的緊急情況是：",
+          "options": [
+            { "key": "A", "text_en": "Hydroplaning", "text_zh": "水滑", "text_zhHant": "水滑" },
+            { "key": "B", "text_en": "Tire blowout", "text_zh": "爆胎", "text_zhHant": "爆胎" },
+            { "key": "C", "text_en": "Skidding on ice", "text_zh": "在冰面上打滑", "text_zhHant": "在冰面上打滑" },
+            { "key": "D", "text_en": "Driving off the pavement", "text_zh": "冲出路面", "text_zhHant": "衝出路面" }
+          ],
+          "answer": "D",
+          "explanation_en": "Driving off the pavement is the only emergency where gentle braking is appropriate.",
+          "explanation_zh": "冲出路面是唯一可以轻踩刹车的紧急情况。",
+          "explanation_zhHant": "衝出路面是唯一可以輕踩剎車的緊急情況。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "lines-lanes-signs",
+      "title_en": "Lines, Lanes & Signs",
+      "title_zh": "线、车道与标志",
+      "title_zhHant": "線、車道與標誌",
+      "estimatedMinutes": 8,
+      "cards": [
+        {
+          "id": "CC-P2-LLS-C01",
+          "title_en": "Double Solid White Lines",
+          "title_zh": "双实白线",
+          "title_zhHant": "雙實白線",
+          "content_en": "Barrier between regular lanes and HOV/carpool lanes. Do NOT cross. Wait for broken line openings.",
+          "content_zh": "常规车道与HOV道之间的屏障。严禁跨越，需等虚线处进出。",
+          "content_zhHant": "常規車道與HOV道之間的屏障。嚴禁跨越，需等虛線處進出。"
+        },
+        {
+          "id": "CC-P2-LLS-C02",
+          "title_en": "Yield Lines (Shark Teeth)",
+          "title_zh": "让行线",
+          "title_zhHant": "讓行線",
+          "content_en": "Solid white triangles pointing toward approaching traffic. Must yield or stop.",
+          "content_zh": "白色实心三角形（鲨鱼齿），必须让行或停车。",
+          "content_zhHant": "白色實心三角形（鯊魚齒），必須讓行或停車。"
+        },
+        {
+          "id": "CC-P2-LLS-C03",
+          "title_en": "Safety Zones",
+          "title_zh": "安全区",
+          "title_zhHant": "安全區",
+          "isEasyMistake": true,
+          "content_en": "Marked by white dashed lines or raised buttons for transit passengers. NEVER drive through.",
+          "content_zh": "公交/有轨电车乘客等候区。任何情况下禁止驶入。",
+          "content_zhHant": "公交/有軌電車乘客等候區。任何情況下禁止駛入。",
+          "mistakeNote_en": "Never under any circumstances",
+          "mistakeNote_zh": "任何情况都不行",
+          "mistakeNote_zhHant": "任何情況都不行"
+        },
+        {
+          "id": "CC-P2-LLS-C04",
+          "title_en": "Turnout Areas",
+          "title_zh": "让车区",
+          "title_zhHant": "讓車區",
+          "content_en": "On two-lane roads, if driving slowly with 5+ vehicles behind you, pull into turnout.",
+          "content_zh": "双车道公路慢行且身后跟了5辆+ → 必须驶入让车区。",
+          "content_zhHant": "雙車道公路慢行且身後跟了5輛+ → 必須駛入讓車區。"
+        },
+        {
+          "id": "CC-P2-LLS-C05",
+          "title_en": "Center Left-Turn Lane",
+          "title_zh": "中央左转道",
+          "title_zhHant": "中央左轉道",
+          "content_en": "May not travel more than 200 feet in this lane.",
+          "content_zh": "中央左转道行驶不得超过200英尺。",
+          "content_zhHant": "中央左轉道行駛不得超過200英尺。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "CC-P2-LLS-Q01",
+          "stem_en": "Double solid white lines on the road indicate:",
+          "stem_zh": "路面上的双实白线表示：",
+          "stem_zhHant": "路面上的雙實白線表示：",
+          "options": [
+            { "key": "A", "text_en": "A no-passing zone", "text_zh": "禁止超车区", "text_zhHant": "禁止超車區" },
+            { "key": "B", "text_en": "A barrier that should not be crossed", "text_zh": "不可跨越的屏障线", "text_zhHant": "不可跨越的屏障線" },
+            { "key": "C", "text_en": "A bike lane", "text_zh": "自行车道", "text_zhHant": "自行車道" },
+            { "key": "D", "text_en": "A school zone", "text_zh": "学校区域", "text_zhHant": "學校區域" }
+          ],
+          "answer": "B",
+          "explanation_en": "Double solid white lines act as a barrier. Do not cross them.",
+          "explanation_zh": "双实白线是屏障线，严禁跨越。",
+          "explanation_zhHant": "雙實白線是屏障線，嚴禁跨越。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-LLS-Q02",
+          "stem_en": "You are driving slowly on a two-lane highway and ___ or more vehicles are following you. You must:",
+          "stem_zh": "你在双车道公路上慢行，身后有___辆以上车辆跟随。你必须：",
+          "stem_zhHant": "你在雙車道公路上慢行，身後有___輛以上車輛跟隨。你必須：",
+          "options": [
+            { "key": "A", "text_en": "3", "text_zh": "3", "text_zhHant": "3" },
+            { "key": "B", "text_en": "4", "text_zh": "4", "text_zhHant": "4" },
+            { "key": "C", "text_en": "5", "text_zh": "5", "text_zhHant": "5" },
+            { "key": "D", "text_en": "7", "text_zh": "7", "text_zhHant": "7" }
+          ],
+          "answer": "C",
+          "explanation_en": "If 5 or more vehicles are behind you, pull into a turnout area.",
+          "explanation_zh": "身后跟了5辆以上 → 必须驶入让车区让行。",
+          "explanation_zhHant": "身後跟了5輛以上 → 必須駛入讓車區讓行。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-LLS-Q03",
+          "stem_en": "You may drive in a center left-turn lane for no more than:",
+          "stem_zh": "你在中央左转道中行驶不得超过：",
+          "stem_zhHant": "你在中央左轉道中行駛不得超過：",
+          "options": [
+            { "key": "A", "text_en": "100 feet", "text_zh": "100英尺", "text_zhHant": "100英尺" },
+            { "key": "B", "text_en": "200 feet", "text_zh": "200英尺", "text_zhHant": "200英尺" },
+            { "key": "C", "text_en": "300 feet", "text_zh": "300英尺", "text_zhHant": "300英尺" },
+            { "key": "D", "text_en": "500 feet", "text_zh": "500英尺", "text_zhHant": "500英尺" }
+          ],
+          "answer": "B",
+          "explanation_en": "Do not travel more than 200 feet in a center left-turn lane.",
+          "explanation_zh": "中央左转道行驶不超过200英尺。",
+          "explanation_zhHant": "中央左轉道行駛不超過200英尺。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-LLS-Q04",
+          "stem_en": "A \"safety zone\" marked on the road is:",
+          "stem_zh": "路面上标记的\u201c安全区\u201d是：",
+          "stem_zhHant": "路面上標記的「安全區」是：",
+          "options": [
+            { "key": "A", "text_en": "A safe place to make a U-turn", "text_zh": "安全掉头的地方", "text_zhHant": "安全掉頭的地方" },
+            { "key": "B", "text_en": "An area for pedestrians waiting for transit — never drive through it", "text_zh": "公交乘客等候区——任何情况下禁止驶入", "text_zhHant": "公交乘客等候區——任何情況下禁止駛入" },
+            { "key": "C", "text_en": "A bicycle lane", "text_zh": "自行车道", "text_zhHant": "自行車道" },
+            { "key": "D", "text_en": "A school crossing zone", "text_zh": "学校过街区", "text_zhHant": "學校過街區" }
+          ],
+          "answer": "B",
+          "explanation_en": "Safety zones are for transit passengers. NEVER drive through.",
+          "explanation_zh": "安全区是公交乘客等候区，任何情况下禁止驶入。",
+          "explanation_zhHant": "安全區是公交乘客等候區，任何情況下禁止駛入。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-LLS-Q05",
+          "stem_en": "You may enter a bicycle lane within ___ feet of an intersection to make a right turn.",
+          "stem_zh": "你可以在路口前___英尺内进入自行车道准备右转。",
+          "stem_zhHant": "你可以在路口前___英尺內進入自行車道準備右轉。",
+          "options": [
+            { "key": "A", "text_en": "100", "text_zh": "100", "text_zhHant": "100" },
+            { "key": "B", "text_en": "200", "text_zh": "200", "text_zhHant": "200" },
+            { "key": "C", "text_en": "300", "text_zh": "300", "text_zhHant": "300" },
+            { "key": "D", "text_en": "400", "text_zh": "400", "text_zhHant": "400" }
+          ],
+          "answer": "B",
+          "explanation_en": "Enter a bike lane no more than 200 feet before the intersection for a right turn.",
+          "explanation_zh": "路口前200英尺内可进入自行车道准备右转。",
+          "explanation_zhHant": "路口前200英尺內可進入自行車道準備右轉。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "sharing-road",
+      "title_en": "Sharing the Road",
+      "title_zh": "共享道路",
+      "title_zhHant": "共享道路",
+      "estimatedMinutes": 8,
+      "cards": [
+        {
+          "id": "CC-P2-SHR-C01",
+          "title_en": "School Bus",
+          "title_zh": "校车",
+          "title_zhHant": "校車",
+          "isHighFreq": true,
+          "content_en": "Red lights flashing + stop sign → ALL traffic BOTH directions must stop. EXCEPTION: Divided highway with physical barrier → opposite side need not stop.",
+          "content_zh": "校车红灯+STOP → 双向停车。唯一例外：有物理隔离的分隔公路对面无需停。",
+          "content_zhHant": "校車紅燈+STOP → 雙向停車。唯一例外：有物理隔離的分隔公路對面無需停。"
+        },
+        {
+          "id": "CC-P2-SHR-C02",
+          "title_en": "Light Rail",
+          "title_zh": "轻轨/有轨电车",
+          "title_zhHant": "輕軌/有軌電車",
+          "isEasyMistake": true,
+          "content_en": "Do NOT pass a light rail vehicle on the LEFT. Drop to the rear to make turns.",
+          "content_zh": "不得从左侧超越轻轨。需在后方跟随后再转弯/变道。",
+          "content_zhHant": "不得從左側超越輕軌。需在後方跟隨後再轉彎/變道。",
+          "mistakeNote_en": "Exceptions: single one-way street; tracks too far right; police direction",
+          "mistakeNote_zh": "例外：单行道/轨道太靠右/警察指挥",
+          "mistakeNote_zhHant": "例外：單行道/軌道太靠右/警察指揮"
+        },
+        {
+          "id": "CC-P2-SHR-C03",
+          "title_en": "Truck No-Zones",
+          "title_zh": "大卡车盲区",
+          "title_zhHant": "大卡車盲區",
+          "content_en": "If you can't see the truck driver in their mirrors, they can't see you. Trucks turning right may swing left first.",
+          "content_zh": "你看不到卡车司机 → 司机也看不到你。卡车右转可能先左摆。",
+          "content_zhHant": "你看不到卡車司機 → 司機也看不到你。卡車右轉可能先左擺。"
+        },
+        {
+          "id": "CC-P2-SHR-C04",
+          "title_en": "Bicycles",
+          "title_zh": "自行车",
+          "title_zhHant": "自行車",
+          "content_en": "Bicyclists may legally use left-turn lanes. Pass with at least 3 feet clearance.",
+          "content_zh": "自行车可以合法使用左转车道。超车保持至少3英尺。",
+          "content_zhHant": "自行車可以合法使用左轉車道。超車保持至少3英尺。"
+        },
+        {
+          "id": "CC-P2-SHR-C05",
+          "title_en": "Blind Pedestrians",
+          "title_zh": "盲人行人",
+          "title_zhHant": "盲人行人",
+          "content_en": "If a blind person pulls back their cane and steps away, you may proceed. Never honk.",
+          "content_zh": "盲人收起手杖退离路口 → 你可以通行。不要按喇叭。",
+          "content_zhHant": "盲人收起手杖退離路口 → 你可以通行。不要按喇叭。"
+        },
+        {
+          "id": "CC-P2-SHR-C06",
+          "title_en": "Abandoning Animals on Highway",
+          "title_zh": "高速公路遗弃动物",
+          "title_zhHant": "高速公路遺棄動物",
+          "isEasyMistake": true,
+          "content_en": "Crime. Up to $1,000 fine, up to 6 months in jail, or both.",
+          "content_zh": "在高速公路上遗弃动物是犯罪。最高$1000罚款+最高6个月监禁。",
+          "content_zhHant": "在高速公路上遺棄動物是犯罪。最高$1000罰款+最高6個月監禁。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "CC-P2-SHR-Q01",
+          "stem_en": "When sharing the road with a light rail vehicle, you should:",
+          "stem_zh": "与轻轨共享道路时，你应该：",
+          "stem_zhHant": "與輕軌共享道路時，你應該：",
+          "options": [
+            { "key": "A", "text_en": "Never turn in front of it; drop to the rear", "text_zh": "绝不在其前方转弯；退到后方", "text_zhHant": "絕不在其前方轉彎；退到後方" },
+            { "key": "B", "text_en": "Pass slowly on the right", "text_zh": "从右侧缓慢超越", "text_zhHant": "從右側緩慢超越" },
+            { "key": "C", "text_en": "Pass at 10 mph", "text_zh": "以10英里时速通过", "text_zhHant": "以10英里時速通過" },
+            { "key": "D", "text_en": "Honk to warn passengers", "text_zh": "按喇叭警告乘客", "text_zhHant": "按喇叭警告乘客" }
+          ],
+          "answer": "A",
+          "explanation_en": "Never turn in front of a light rail vehicle. Fall back behind it. Do NOT pass on the left unless on one-way street, tracks too far right, or police direct.",
+          "explanation_zh": "绝不在轻轨前方转弯。退到后方再转弯/变道。",
+          "explanation_zhHant": "絕不在輕軌前方轉彎。退到後方再轉彎/變道。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-SHR-Q02",
+          "stem_en": "It is illegal to dump or abandon an animal on a highway. The penalty can include:",
+          "stem_zh": "在高速公路上丢弃或遗弃动物是违法的。处罚可能包括：",
+          "stem_zhHant": "在高速公路上丟棄或遺棄動物是違法的。處罰可能包括：",
+          "options": [
+            { "key": "A", "text_en": "A warning only", "text_zh": "仅警告", "text_zhHant": "僅警告" },
+            { "key": "B", "text_en": "Up to $500 fine", "text_zh": "最高$500罚款", "text_zhHant": "最高$500罰款" },
+            { "key": "C", "text_en": "Up to $1,000 fine and/or 6 months in jail", "text_zh": "最高$1000罚款和/或6个月监禁", "text_zhHant": "最高$1000罰款和/或6個月監禁" },
+            { "key": "D", "text_en": "License suspension only", "text_zh": "仅吊销驾照", "text_zhHant": "僅吊銷駕照" }
+          ],
+          "answer": "C",
+          "explanation_en": "Up to $1,000 fine, up to 6 months in jail, or both.",
+          "explanation_zh": "最高$1000罚款+最高6个月监禁。",
+          "explanation_zhHant": "最高$1000罰款+最高6個月監禁。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-SHR-Q03",
+          "stem_en": "When a school bus is flashing red lights on a two-lane road, you must:",
+          "stem_zh": "校车在双车道公路上闪红灯时，你必须：",
+          "stem_zhHant": "校車在雙車道公路上閃紅燈時，你必須：",
+          "options": [
+            { "key": "A", "text_en": "Slow to 25 mph", "text_zh": "减速到25英里", "text_zhHant": "減速到25英里" },
+            { "key": "B", "text_en": "Stop from both directions", "text_zh": "双向都必须停车", "text_zhHant": "雙向都必須停車" },
+            { "key": "C", "text_en": "Stop only same direction", "text_zh": "仅同向停车", "text_zhHant": "僅同向停車" },
+            { "key": "D", "text_en": "Continue if no children visible", "text_zh": "没看到孩子就可以继续", "text_zhHant": "沒看到孩子就可以繼續" }
+          ],
+          "answer": "B",
+          "explanation_en": "On a non-divided road, traffic from BOTH directions must stop.",
+          "explanation_zh": "非分隔道路 → 双向必须停车。",
+          "explanation_zhHant": "非分隔道路 → 雙向必須停車。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-SHR-Q04",
+          "stem_en": "The exception to stopping for a school bus with flashing red lights applies when:",
+          "stem_zh": "校车闪红灯时不需要停车的例外情况是：",
+          "stem_zhHant": "校車閃紅燈時不需要停車的例外情況是：",
+          "options": [
+            { "key": "A", "text_en": "You are in a hurry", "text_zh": "你赶时间", "text_zhHant": "你趕時間" },
+            { "key": "B", "text_en": "No children visible", "text_zh": "没看到孩子", "text_zhHant": "沒看到孩子" },
+            { "key": "C", "text_en": "Opposite side of divided highway with physical barrier", "text_zh": "有物理隔离的分隔公路对面", "text_zhHant": "有物理隔離的分隔公路對面" },
+            { "key": "D", "text_en": "More than 100 feet away", "text_zh": "距离超过100英尺", "text_zhHant": "距離超過100英尺" }
+          ],
+          "answer": "C",
+          "explanation_en": "Only on a divided highway with a physical barrier.",
+          "explanation_zh": "唯一例外：有物理隔离的分隔公路。",
+          "explanation_zhHant": "唯一例外：有物理隔離的分隔公路。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-SHR-Q05",
+          "stem_en": "If you cannot see a truck driver in their mirrors, you should assume:",
+          "stem_zh": "如果你在卡车的后视镜中看不到卡车司机，你应该假设：",
+          "stem_zhHant": "如果你在卡車的後視鏡中看不到卡車司機，你應該假設：",
+          "options": [
+            { "key": "A", "text_en": "Driver can see you with cameras", "text_zh": "司机可以通过摄像头看到你", "text_zhHant": "司機可以通過攝像頭看到你" },
+            { "key": "B", "text_en": "Driver cannot see you", "text_zh": "司机看不到你", "text_zhHant": "司機看不到你" },
+            { "key": "C", "text_en": "Driver will check blind spots", "text_zh": "司机会检查盲区", "text_zhHant": "司機會檢查盲區" },
+            { "key": "D", "text_en": "Safe to pass", "text_zh": "可以安全超车", "text_zhHant": "可以安全超車" }
+          ],
+          "answer": "B",
+          "explanation_en": "If you can't see the truck driver, they cannot see you.",
+          "explanation_zh": "你看不到卡车司机 → 司机也看不到你。",
+          "explanation_zhHant": "你看不到卡車司機 → 司機也看不到你。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-SHR-Q06",
+          "stem_en": "A bicyclist ahead signals a left turn. This is:",
+          "stem_zh": "前方一位骑自行车的人发出左转信号。这是：",
+          "stem_zhHant": "前方一位騎自行車的人發出左轉信號。這是：",
+          "options": [
+            { "key": "A", "text_en": "Illegal", "text_zh": "违法的", "text_zhHant": "違法的" },
+            { "key": "B", "text_en": "Legal — bicycles may use left-turn lanes", "text_zh": "合法的——自行车可以使用左转车道", "text_zhHant": "合法的——自行車可以使用左轉車道" },
+            { "key": "C", "text_en": "Only legal on residential streets", "text_zh": "仅在住宅区街道合法", "text_zhHant": "僅在住宅區街道合法" },
+            { "key": "D", "text_en": "Only legal with bike signal light", "text_zh": "仅在有自行车信号灯时合法", "text_zhHant": "僅在有自行車信號燈時合法" }
+          ],
+          "answer": "B",
+          "explanation_en": "Bicyclists have the legal right to use left-turn lanes.",
+          "explanation_zh": "自行车可以合法使用左转车道。",
+          "explanation_zhHant": "自行車可以合法使用左轉車道。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-SHR-Q07",
+          "stem_en": "A blind pedestrian is at a crosswalk with a white cane extended. You should:",
+          "stem_zh": "一位盲人行人在人行横道上伸出白手杖。你应该：",
+          "stem_zhHant": "一位盲人行人在人行橫道上伸出白手杖。你應該：",
+          "options": [
+            { "key": "A", "text_en": "Honk lightly", "text_zh": "轻按喇叭", "text_zhHant": "輕按喇叭" },
+            { "key": "B", "text_en": "Stop and wait without honking", "text_zh": "停车等待，不按喇叭", "text_zhHant": "停車等待，不按喇叭" },
+            { "key": "C", "text_en": "Wave them across", "text_zh": "挥手示意通过", "text_zhHant": "揮手示意通過" },
+            { "key": "D", "text_en": "Drive around slowly", "text_zh": "缓慢绕过", "text_zhHant": "緩慢繞過" }
+          ],
+          "answer": "B",
+          "explanation_en": "Stop and wait. NEVER honk at a blind pedestrian.",
+          "explanation_zh": "停车等待，绝不按喇叭。",
+          "explanation_zhHant": "停車等待，絕不按喇叭。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-SHR-Q08",
+          "stem_en": "A person convicted of evading police (misdemeanor — no injuries) faces up to:",
+          "stem_zh": "因逃避警察被定罪（轻罪——无人受伤）的人面临最高：",
+          "stem_zhHant": "因逃避警察被定罪（輕罪——無人受傷）的人面臨最高：",
+          "options": [
+            { "key": "A", "text_en": "30 days county jail", "text_zh": "县监狱30天", "text_zhHant": "縣監獄30天" },
+            { "key": "B", "text_en": "6 months county jail", "text_zh": "县监狱6个月", "text_zhHant": "縣監獄6個月" },
+            { "key": "C", "text_en": "1 year county jail", "text_zh": "县监狱1年", "text_zhHant": "縣監獄1年" },
+            { "key": "D", "text_en": "2 years state prison", "text_zh": "州监狱2年", "text_zhHant": "州監獄2年" }
+          ],
+          "answer": "C",
+          "explanation_en": "Misdemeanor: up to 1 year county jail. Serious injury: up to 7 years state prison. Death: 4-10 years state prison.",
+          "explanation_zh": "轻罪→县监狱最高1年。致重伤→州监狱最高7年。致死→州监狱4-10年。",
+          "explanation_zhHant": "輕罪→縣監獄最高1年。致重傷→州監獄最高7年。致死→州監獄4-10年。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "parking-steering",
+      "title_en": "Parking & Steering",
+      "title_zh": "停车规则与方向盘",
+      "title_zhHant": "停車規則與方向盤",
+      "estimatedMinutes": 7,
+      "cards": [
+        {
+          "id": "CC-P2-PKG-C01",
+          "title_en": "Hill Parking",
+          "title_zh": "坡道停车",
+          "title_zhHant": "坡道停車",
+          "isHighFreq": true,
+          "summaryTable": {
+            "headers_en": ["Situation", "Wheel Direction", "Memory Aid"],
+            "headers_zh": ["情况", "方向盘方向", "记忆口诀"],
+            "headers_zhHant": ["情況", "方向盤方向", "記憶口訣"],
+            "rows": [
+              {
+                "situation_en": "Downhill + curb",
+                "situation_zh": "下坡+有路缘",
+                "situation_zhHant": "下坡+有路緣",
+                "direction_en": "Right (toward curb)",
+                "direction_zh": "向右（朝路缘）",
+                "direction_zhHant": "向右（朝路緣）",
+                "aid_en": "Car rolls into curb",
+                "aid_zh": "车子滚向路缘被挡住",
+                "aid_zhHant": "車子滾向路緣被擋住"
+              },
+              {
+                "situation_en": "Uphill + curb",
+                "situation_zh": "上坡+有路缘",
+                "situation_zhHant": "上坡+有路緣",
+                "direction_en": "Left (away from curb)",
+                "direction_zh": "向左（远离路缘）",
+                "direction_zhHant": "向左（遠離路緣）",
+                "aid_en": "Wheel catches curb rolling back",
+                "aid_zh": "后溜时车轮卡住路缘",
+                "aid_zhHant": "後溜時車輪卡住路緣"
+              },
+              {
+                "situation_en": "No curb (any direction)",
+                "situation_zh": "无路缘（任何方向）",
+                "situation_zhHant": "無路緣（任何方向）",
+                "direction_en": "Right (toward shoulder)",
+                "direction_zh": "向右（朝路肩）",
+                "direction_zhHant": "向右（朝路肩）",
+                "aid_en": "Car rolls off road, not into traffic",
+                "aid_zh": "车子滚向路肩，不会冲入车道",
+                "aid_zhHant": "車子滾向路肩，不會衝入車道"
+              }
+            ]
+          },
+          "manualTransmission_en": "Uphill = 1st gear; Downhill = reverse gear",
+          "manualTransmission_zh": "上坡 = 1档；下坡 = 倒档",
+          "manualTransmission_zhHant": "上坡 = 1檔；下坡 = 倒檔"
+        },
+        {
+          "id": "CC-P2-PKG-C02",
+          "title_en": "Curb Colors",
+          "title_zh": "路缘颜色",
+          "title_zhHant": "路緣顏色",
+          "content_en": "Red: No stopping/parking (fire lanes). Yellow: Loading only; non-commercial must stay in vehicle. Green: Time-limited parking. White: Time-limited passenger loading. Blue: Disabled only; cross-hatched area also no parking.",
+          "content_zh": "红色：禁止停车（消防通道）。黄色：仅装卸货；非商用车须留人在车内。绿色：限时停车。白色：限时上下客。蓝色：残疾人专用；旁边斜线区域也禁停。",
+          "content_zhHant": "紅色：禁止停車（消防通道）。黃色：僅裝卸貨；非商用車須留人在車內。綠色：限時停車。白色：限時上下客。藍色：殘疾人專用；旁邊斜線區域也禁停。",
+          "colorDetails": [
+            { "color": "red", "emoji": "\ud83d\udd34", "meaning_en": "No stopping/parking (fire lanes)", "meaning_zh": "禁止停车（消防通道）", "meaning_zhHant": "禁止停車（消防通道）" },
+            { "color": "yellow", "emoji": "\ud83d\udfe1", "meaning_en": "Loading only; non-commercial must stay in vehicle", "meaning_zh": "仅装卸货；非商用车须留人在车内", "meaning_zhHant": "僅裝卸貨；非商用車須留人在車內" },
+            { "color": "green", "emoji": "\ud83d\udfe2", "meaning_en": "Time-limited parking", "meaning_zh": "限时停车", "meaning_zhHant": "限時停車" },
+            { "color": "white", "emoji": "\u26aa", "meaning_en": "Time-limited passenger loading", "meaning_zh": "限时上下客", "meaning_zhHant": "限時上下客" },
+            { "color": "blue", "emoji": "\ud83d\udd35", "meaning_en": "Disabled only; cross-hatched area also no parking", "meaning_zh": "残疾人专用；旁边斜线区域也禁停", "meaning_zhHant": "殘疾人專用；旁邊斜線區域也禁停" }
+          ]
+        },
+        {
+          "id": "CC-P2-PKG-C03",
+          "title_en": "Hand-over-Hand Steering",
+          "title_zh": "交叉式转向",
+          "title_zhHant": "交叉式轉向",
+          "content_en": "Recommended for low-speed turns, parking, and recovering from skids. Not for highway cruising.",
+          "content_zh": "用于低速转弯、泊车和恢复打滑，不用于高速巡航。",
+          "content_zhHant": "用於低速轉彎、泊車和恢復打滑，不用於高速巡航。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "CC-P2-PKG-Q01",
+          "stem_en": "Parking downhill with curb, turn wheels:",
+          "stem_zh": "下坡有路缘停车，方向盘打向：",
+          "stem_zhHant": "下坡有路緣停車，方向盤打向：",
+          "options": [
+            { "key": "A", "text_en": "Left", "text_zh": "左", "text_zhHant": "左" },
+            { "key": "B", "text_en": "Right (toward curb)", "text_zh": "右（朝路缘）", "text_zhHant": "右（朝路緣）" },
+            { "key": "C", "text_en": "Straight", "text_zh": "保持直线", "text_zhHant": "保持直線" },
+            { "key": "D", "text_en": "Doesn't matter", "text_zh": "无所谓", "text_zhHant": "無所謂" }
+          ],
+          "answer": "B",
+          "explanation_en": "Turn toward curb so car rolls into curb.",
+          "explanation_zh": "下坡有路缘 → 向右打死。",
+          "explanation_zhHant": "下坡有路緣 → 向右打死。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-PKG-Q02",
+          "stem_en": "Parking uphill with curb, turn wheels:",
+          "stem_zh": "上坡有路缘停车，方向盘打向：",
+          "stem_zhHant": "上坡有路緣停車，方向盤打向：",
+          "options": [
+            { "key": "A", "text_en": "Right (toward curb)", "text_zh": "右（朝路缘）", "text_zhHant": "右（朝路緣）" },
+            { "key": "B", "text_en": "Left (away from curb)", "text_zh": "左（远离路缘）", "text_zhHant": "左（遠離路緣）" },
+            { "key": "C", "text_en": "Straight", "text_zh": "保持直线", "text_zhHant": "保持直線" },
+            { "key": "D", "text_en": "Alternate", "text_zh": "交替", "text_zhHant": "交替" }
+          ],
+          "answer": "B",
+          "explanation_en": "Turn away from curb; if brakes fail, wheel catches curb rolling back.",
+          "explanation_zh": "上坡有路缘 → 向左打死。",
+          "explanation_zhHant": "上坡有路緣 → 向左打死。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-PKG-Q03",
+          "stem_en": "Parked on any hill with NO curb, turn wheels:",
+          "stem_zh": "在无路缘的坡道停车，方向盘打向：",
+          "stem_zhHant": "在無路緣的坡道停車，方向盤打向：",
+          "options": [
+            { "key": "A", "text_en": "Left", "text_zh": "左", "text_zhHant": "左" },
+            { "key": "B", "text_en": "Right (toward shoulder)", "text_zh": "右（朝路肩）", "text_zhHant": "右（朝路肩）" },
+            { "key": "C", "text_en": "Straight", "text_zh": "保持直线", "text_zhHant": "保持直線" },
+            { "key": "D", "text_en": "Toward center of road", "text_zh": "朝道路中央", "text_zhHant": "朝道路中央" }
+          ],
+          "answer": "B",
+          "explanation_en": "No curb: always right toward shoulder.",
+          "explanation_zh": "无路缘 → 一律向右打死。",
+          "explanation_zhHant": "無路緣 → 一律向右打死。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-PKG-Q04",
+          "stem_en": "Blue curb means:",
+          "stem_zh": "蓝色路缘表示：",
+          "stem_zhHant": "藍色路緣表示：",
+          "options": [
+            { "key": "A", "text_en": "No parking", "text_zh": "禁止停车", "text_zhHant": "禁止停車" },
+            { "key": "B", "text_en": "Loading zone", "text_zh": "装卸区", "text_zhHant": "裝卸區" },
+            { "key": "C", "text_en": "Disabled persons only", "text_zh": "残疾人专用", "text_zhHant": "殘疾人專用" },
+            { "key": "D", "text_en": "Time-limited", "text_zh": "限时停车", "text_zhHant": "限時停車" }
+          ],
+          "answer": "C",
+          "explanation_en": "Blue = disabled only. Cross-hatched area next to it also no-parking.",
+          "explanation_zh": "蓝色路缘=残疾人专用。旁边斜线区域也禁停。",
+          "explanation_zhHant": "藍色路緣=殘疾人專用。旁邊斜線區域也禁停。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-PKG-Q05",
+          "stem_en": "Hand-over-hand steering is recommended for all EXCEPT:",
+          "stem_zh": "交叉式转向适用于以下所有情况，除了：",
+          "stem_zhHant": "交叉式轉向適用於以下所有情況，除了：",
+          "options": [
+            { "key": "A", "text_en": "Low-speed turns", "text_zh": "低速转弯", "text_zhHant": "低速轉彎" },
+            { "key": "B", "text_en": "Parking", "text_zh": "泊车", "text_zhHant": "泊車" },
+            { "key": "C", "text_en": "Highway cruising at 65 mph", "text_zh": "65英里高速巡航", "text_zhHant": "65英里高速巡航" },
+            { "key": "D", "text_en": "Recovering from a skid", "text_zh": "恢复打滑", "text_zhHant": "恢復打滑" }
+          ],
+          "answer": "C",
+          "explanation_en": "For low-speed turns, parking, and skid recovery — not highway cruising.",
+          "explanation_zh": "用于低速转弯、泊车和恢复打滑，不用于高速巡航。",
+          "explanation_zhHant": "用於低速轉彎、泊車和恢復打滑，不用於高速巡航。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "lighting-law",
+      "title_en": "Lighting & Law Enforcement",
+      "title_zh": "车灯与警察截停",
+      "title_zhHant": "車燈與警察截停",
+      "estimatedMinutes": 7,
+      "cards": [
+        {
+          "id": "CC-P2-LIT-C01",
+          "title_en": "Headlights",
+          "title_zh": "车灯使用",
+          "title_zhHant": "車燈使用",
+          "isHighFreq": true,
+          "content_en": "Required in rain, snow, fog, or when wipers are on → use LOW BEAMS. Only parking lights = ILLEGAL.",
+          "content_zh": "雨/雪/雾/开雨刮 → 必须开近光灯。仅用停车灯行驶违法。",
+          "content_zhHant": "雨/雪/霧/開雨刮 → 必須開近光燈。僅用停車燈行駛違法。"
+        },
+        {
+          "id": "CC-P2-LIT-C02",
+          "title_en": "Dimming",
+          "title_zh": "近光灯切换",
+          "title_zhHant": "近光燈切換",
+          "content_en": "Dim to low beams when following within 300 ft or when oncoming traffic is within 500 ft.",
+          "content_zh": "跟车300英尺内 / 会车500英尺内 → 切近光灯",
+          "content_zhHant": "跟車300英尺內 / 會車500英尺內 → 切近光燈"
+        },
+        {
+          "id": "CC-P2-LIT-C03",
+          "title_en": "Headlight Timing",
+          "title_zh": "大灯开启时机",
+          "title_zhHant": "大燈開啟時機",
+          "content_en": "From 30 min after sunset to 30 min before sunrise; or when you cannot see 1000 ft ahead.",
+          "content_zh": "日落后30分钟到日出前30分钟；或看不清前方1000英尺时",
+          "content_zhHant": "日落後30分鐘到日出前30分鐘；或看不清前方1000英尺時"
+        },
+        {
+          "id": "CC-P2-LIT-C04",
+          "title_en": "Traffic Stops",
+          "title_zh": "警察截停",
+          "title_zhHant": "警察截停",
+          "isEasyMistake": true,
+          "content_en": "Keep hands visible. Do NOT exit unless asked. CA law prohibits police from asking immigration status. You have the right to record.",
+          "content_zh": "手放在警察能看到的地方 → 不要下车 → 加州禁止询问移民身份 → 可录制",
+          "content_zhHant": "手放在警察能看到的地方 → 不要下車 → 加州禁止詢問移民身份 → 可錄製"
+        },
+        {
+          "id": "CC-P2-LIT-C05",
+          "title_en": "Implied Consent Law",
+          "title_zh": "隐含同意法",
+          "title_zhHant": "隱含同意法",
+          "isHighFreq": true,
+          "content_en": "By driving on CA roads, you agree to submit to a chemical test if LAWFULLY ARRESTED for DUI.",
+          "content_zh": "在加州驾驶 = 同意在被合法逮捕DUI时接受化学测试",
+          "content_zhHant": "在加州駕駛 = 同意在被合法逮捕DUI時接受化學測試"
+        }
+      ],
+      "questions": [
+        {
+          "id": "CC-P2-LIT-Q01",
+          "stem_en": "In fog, you should use:",
+          "stem_zh": "在雾天，你应该使用：",
+          "stem_zhHant": "在霧天，你應該使用：",
+          "options": [
+            { "key": "A", "text_en": "High beams", "text_zh": "远光灯", "text_zhHant": "遠光燈" },
+            { "key": "B", "text_en": "Low beams", "text_zh": "近光灯", "text_zhHant": "近光燈" },
+            { "key": "C", "text_en": "Parking lights only", "text_zh": "仅停车灯", "text_zhHant": "僅停車燈" },
+            { "key": "D", "text_en": "Hazard lights", "text_zh": "双闪灯", "text_zhHant": "雙閃燈" }
+          ],
+          "answer": "B",
+          "explanation_en": "In fog/rain/snow, use low beams. High beams reflect off moisture. Parking lights only is illegal.",
+          "explanation_zh": "雾天/雨天/雪天 → 近光灯。远光灯反射水雾。仅用停车灯违法。",
+          "explanation_zhHant": "霧天/雨天/雪天 → 近光燈。遠光燈反射水霧。僅用停車燈違法。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-LIT-Q02",
+          "stem_en": "Dim headlights when oncoming vehicle is within:",
+          "stem_zh": "对面来车在多少距离内时应切换近光灯：",
+          "stem_zhHant": "對面來車在多少距離內時應切換近光燈：",
+          "options": [
+            { "key": "A", "text_en": "200 feet", "text_zh": "200英尺", "text_zhHant": "200英尺" },
+            { "key": "B", "text_en": "300 feet", "text_zh": "300英尺", "text_zhHant": "300英尺" },
+            { "key": "C", "text_en": "500 feet", "text_zh": "500英尺", "text_zhHant": "500英尺" },
+            { "key": "D", "text_en": "1000 feet", "text_zh": "1000英尺", "text_zhHant": "1000英尺" }
+          ],
+          "answer": "C",
+          "explanation_en": "Low beams when oncoming within 500 ft, or following within 300 ft.",
+          "explanation_zh": "会车500英尺/跟车300英尺 → 切近光。",
+          "explanation_zhHant": "會車500英尺/跟車300英尺 → 切近光。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-LIT-Q03",
+          "stem_en": "What does California's implied consent law mean?",
+          "stem_zh": "加州的隐含同意法是什么意思？",
+          "stem_zhHant": "加州的隱含同意法是什麼意思？",
+          "options": [
+            { "key": "A", "text_en": "Consent to vehicle searches", "text_zh": "同意搜查车辆", "text_zhHant": "同意搜查車輛" },
+            { "key": "B", "text_en": "By driving on CA roads, you agree to chemical test if lawfully arrested for DUI", "text_zh": "在加州驾驶即同意在被合法逮捕DUI时接受化学测试", "text_zhHant": "在加州駕駛即同意在被合法逮捕DUI時接受化學測試" },
+            { "key": "C", "text_en": "Must carry breathalyzer", "text_zh": "必须携带呼气测醉仪", "text_zhHant": "必須攜帶呼氣測醉儀" },
+            { "key": "D", "text_en": "Police can test at any time", "text_zh": "警察可以随时测试", "text_zhHant": "警察可以隨時測試" }
+          ],
+          "answer": "B",
+          "explanation_en": "Implied consent = agreed to chemical test IF lawfully arrested for DUI. Key: \"lawfully arrested.\"",
+          "explanation_zh": "隐含同意法：在加州驾驶=同意在被合法逮捕DUI时接受化学测试。",
+          "explanation_zhHant": "隱含同意法：在加州駕駛=同意在被合法逮捕DUI時接受化學測試。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-LIT-Q04",
+          "stem_en": "During a traffic stop, you should:",
+          "stem_zh": "被警察截停时，你应该：",
+          "stem_zhHant": "被警察截停時，你應該：",
+          "options": [
+            { "key": "A", "text_en": "Exit the vehicle", "text_zh": "下车", "text_zhHant": "下車" },
+            { "key": "B", "text_en": "Keep hands visible", "text_zh": "保持双手可见", "text_zhHant": "保持雙手可見" },
+            { "key": "C", "text_en": "Immediately reach for ID", "text_zh": "立即去拿证件", "text_zhHant": "立即去拿證件" },
+            { "key": "D", "text_en": "Start recording before stopping", "text_zh": "停车前先开始录制", "text_zhHant": "停車前先開始錄製" }
+          ],
+          "answer": "B",
+          "explanation_en": "Keep hands visible. Don't exit unless instructed. CA prohibits asking immigration status. May record.",
+          "explanation_zh": "手放在可见位置→不要下车→加州禁止询问移民身份→可录制。",
+          "explanation_zhHant": "手放在可見位置→不要下車→加州禁止詢問移民身份→可錄製。",
+          "tags": []
+        },
+        {
+          "id": "CC-P2-LIT-Q05",
+          "stem_en": "When must you turn on headlights?",
+          "stem_zh": "什么时候必须打开车灯？",
+          "stem_zhHant": "什麼時候必須打開車燈？",
+          "options": [
+            { "key": "A", "text_en": "Only at night", "text_zh": "仅在夜间", "text_zhHant": "僅在夜間" },
+            { "key": "B", "text_en": "30 min after sunset to 30 min before sunrise, or can't see 1000 ft ahead", "text_zh": "日落后30分钟到日出前30分钟，或看不清前方1000英尺", "text_zhHant": "日落後30分鐘到日出前30分鐘，或看不清前方1000英尺" },
+            { "key": "C", "text_en": "Only in rain", "text_zh": "仅在雨天", "text_zhHant": "僅在雨天" },
+            { "key": "D", "text_en": "Only on freeway", "text_zh": "仅在高速公路", "text_zhHant": "僅在高速公路" }
+          ],
+          "answer": "B",
+          "explanation_en": "30 min after sunset to 30 min before sunrise, and when can't see 1000 ft ahead.",
+          "explanation_zh": "日落后30分钟到日出前30分钟，或看不清前方1000英尺时。",
+          "explanation_zhHant": "日落後30分鐘到日出前30分鐘，或看不清前方1000英尺時。",
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

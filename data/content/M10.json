@@ -78,7 +78,7 @@
           "zhHant": "如果你是有償載客駕駛（如網約車），BAC 限制為0.04%或以上即為違法。"
         }
       ],
-      "titleZhHant": "血液酒精濃度（BAC）限制"
+      "titleZhHant": "血液酒精濃度限制"
     },
     {
       "id": "S02",
@@ -131,7 +131,7 @@
           "zhHant": "如果你因 DUI 被逮捕，通常可以在血液測試和呼氣測試之間選擇。"
         }
       ],
-      "titleZhHant": "默示同意法與化學測試"
+      "titleZhHant": "默示同意與化學檢測"
     },
     {
       "id": "S03",
@@ -199,9 +199,22 @@
             "felony"
           ],
           "zhHant": "醉酒車輛過失殺人（在酒後駕駛時致人死亡）是重罪，可導致州監獄監禁。如果定罪，緩刑期為3至5年。"
+        },
+        {
+          "id": "M10-S03-K06",
+          "en": "TIPS: Key difference between DUI conviction vs refusing a chemical test: (1) DUI conviction (first offense): 3-5 years probation, fines up to $1,000 + assessments, 6-month license suspension, mandatory DUI education, IID required. (2) Refusing chemical test after lawful arrest: mandatory 1-year license suspension (first), 2 years (second), 3 years (third) — these are ADDITIONAL penalties on top of any DUI conviction. Remember: refusing the test does NOT mean you won't be convicted of DUI.",
+          "zh": "小贴士：DUI定罪与拒绝化学测试的关键区别：(1) DUI定罪（初犯）：3-5年缓刑、最高$1,000罚款+附加费、吊销驾照6个月、强制DUI教育、需安装IID。(2) 合法逮捕后拒绝化学测试：强制吊销驾照1年（初犯）、2年（第二次）、3年（第三次）——这是在DUI定罪处罚之外的额外处罚。记住：拒绝测试并不意味着你不会被判DUI。",
+          "zhHant": "小貼士：DUI 定罪與拒絕化學測試的關鍵區別：(1) DUI 定罪（初犯）：3-5年緩刑、最高$1,000罰款+附加費、暫停駕駛執照6個月、強制 DUI 教育、需安裝 IID。(2) 合法逮捕後拒絕化學測試：強制暫停駕駛執照1年（初犯）、2年（第二次）、3年（第三次）——這是在 DUI 定罪處罰之外的額外處罰。記住：拒絕測試並不意味著你不會被判 DUI。",
+          "isHighFreq": true,
+          "tags": [
+            "dui",
+            "chemical-test",
+            "tips",
+            "comparison"
+          ]
         }
       ],
-      "titleZhHant": "DUI 處罰"
+      "titleZhHant": "酒駕處罰"
     },
     {
       "id": "S04",

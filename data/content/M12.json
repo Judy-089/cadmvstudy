@@ -17,7 +17,10 @@
           "zhHant": "學校區域限速變更（AB 382）：自2031年1月1日起，學校區域限速將從25哩/小時降至20哩/小時，以減少超速並保護學校附近的生命安全。在此之前，現行的25哩/小時限速仍然有效。",
           "isHighFreq": true,
           "isNew": true,
-          "tags": ["speed-limit", "school-zone"]
+          "tags": [
+            "speed-limit",
+            "school-zone"
+          ]
         },
         {
           "id": "M12-S01-K02",
@@ -26,7 +29,10 @@
           "zhHant": "擴展「減速讓行」法（AB 390）：接近靜止車輛時減速讓行的要求現在適用於所有靜止車輛——不僅僅是緊急車輛。這包括任何顯示閃爍緊急閃光燈的車輛、標有高速公路維護標誌的車輛，以及帶有其他警告裝置的車輛。",
           "isHighFreq": true,
           "isNew": true,
-          "tags": ["move-over", "emergency"]
+          "tags": [
+            "move-over",
+            "emergency"
+          ]
         },
         {
           "id": "M12-S01-K03",
@@ -35,7 +41,10 @@
           "zhHant": "自動交通執法（SB 720）：地方政府現在可以使用自動攝影系統來執行闖紅燈違規。這些攝影機記錄的違規僅適用民事處罰（非刑事）。",
           "isHighFreq": true,
           "isNew": true,
-          "tags": ["red-light", "camera"]
+          "tags": [
+            "red-light",
+            "camera"
+          ]
         },
         {
           "id": "M12-S01-K04",
@@ -44,7 +53,9 @@
           "zhHant": "車牌遮擋（AB 1085）：在加州製造任何遮擋或干擾車牌視覺或電子讀取的產品或裝置，現在屬於違規行為，罰款$1,000美元。這針對的是用於逃避收費的非法車牌罩。",
           "isHighFreq": false,
           "isNew": true,
-          "tags": ["license-plate"]
+          "tags": [
+            "license-plate"
+          ]
         },
         {
           "id": "M12-S01-K05",
@@ -53,7 +64,9 @@
           "zhHant": "自動駕駛車輛標誌燈（SB 480）：自動駕駛車輛（AV）現在可以配備自動駕駛系統（ADS）標誌燈。這些燈在自動駕駛系統啟用時通知其他駕駛員、行人和執法人員。",
           "isHighFreq": false,
           "isNew": true,
-          "tags": ["autonomous-vehicle"]
+          "tags": [
+            "autonomous-vehicle"
+          ]
         }
       ]
     },
@@ -70,7 +83,10 @@
           "zhHant": "IID 項目延長（AB 366）：針對DUI違規者的全州點火互鎖裝置（IID）試點項目已延長至2033年1月1日。DUI違規者可能需要在車輛上安裝IID，如果檢測到駕駛員呼氣中含有酒精，該裝置將阻止車輛啟動。",
           "isHighFreq": true,
           "isNew": true,
-          "tags": ["dui", "iid"]
+          "tags": [
+            "dui",
+            "iid"
+          ]
         },
         {
           "id": "M12-S02-K02",
@@ -79,7 +95,10 @@
           "zhHant": "DUI緩刑期增加（AB 1087）：醉酒駕車過失殺人或嚴重過失殺人的緩刑期從2年增加到3至5年。",
           "isHighFreq": true,
           "isNew": true,
-          "tags": ["dui", "probation"]
+          "tags": [
+            "dui",
+            "probation"
+          ]
         }
       ]
     },
@@ -96,7 +115,9 @@
           "zhHant": "CARS法案——車輛購買取消權（SB 766）：自2026年10月1日起，經銷商不得虛假陳述車輛的總成本和融資條款。客戶現在有三天的權利取消購買或租賃價格低於$50,000美元的車輛。",
           "isHighFreq": false,
           "isNew": true,
-          "tags": ["consumer-protection"]
+          "tags": [
+            "consumer-protection"
+          ]
         },
         {
           "id": "M12-S03-K02",
@@ -105,7 +126,10 @@
           "zhHant": "地址變更補辦駕照（SB 506）：現在你可以在更改地址後向DMV申請補辦駕駛執照。此前，補辦駕照僅限於駕照遺失、損壞或毀損的情況。",
           "isHighFreq": true,
           "isNew": true,
-          "tags": ["license", "address-change"]
+          "tags": [
+            "license",
+            "address-change"
+          ]
         },
         {
           "id": "M12-S03-K03",
@@ -114,7 +138,10 @@
           "zhHant": "泊車罰單減免（AB 1299）：地方政府現在可以為無力支付的人減免泊車罰款。如果申請人要求，還必須提供付款計劃，以防止罰款升級、車輛被拖和留置權拍賣。",
           "isHighFreq": false,
           "isNew": true,
-          "tags": ["parking", "penalty"]
+          "tags": [
+            "parking",
+            "penalty"
+          ]
         },
         {
           "id": "M12-S03-K04",
@@ -123,7 +150,10 @@
           "zhHant": "越野電動摩托車（SB 586）：「越野電動摩托車」或「eMoto」現在被歸類為越野機動車輛（OHV）。它們必須遵守OHV規則，包括展示DMV頒發的識別牌或標牌。",
           "isHighFreq": false,
           "isNew": true,
-          "tags": ["motorcycle", "electric"]
+          "tags": [
+            "motorcycle",
+            "electric"
+          ]
         }
       ]
     }

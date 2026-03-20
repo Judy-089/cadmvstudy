@@ -33,6 +33,7 @@
           "answer": "B",
           "explanation_en": "It is illegal to wear earplugs in both ears or earphones covering both ears while driving. You may use a single earpiece for hands-free phone use.",
           "explanation_zhHant": "駕駛時在雙耳佩戴耳塞或覆蓋雙耳的耳機是違法的。您可以使用單耳耳機進行免持通話。",
+          "explanation_zh": "驾驶时在双耳佩戴耳塞或覆盖双耳的耳机是违法的。您可以使用单耳耳机进行免持通话。",
           "tags": ["earphones", "driver-readiness"]
         },
         {
@@ -64,6 +65,7 @@
           "answer": "C",
           "explanation_en": "If you feel drowsy while driving, the safest action is to pull over to a safe area and rest. Tricks like turning up the radio or opening the window are not effective substitutes for rest.",
           "explanation_zhHant": "如果駕駛時感到昏昏欲睡，最安全的做法是靠邊停在安全區域並休息。調高收音機音量或打開車窗等技巧無法有效替代休息。",
+          "explanation_zh": "如果驾驶时感到昏昏欲睡，最安全的做法是靠边停在安全区域并休息。调高收音机音量或打开车窗等技巧无法有效替代休息。",
           "tags": ["drowsy-driving", "driver-readiness"]
         },
         {
@@ -95,6 +97,7 @@
           "answer": "B",
           "explanation_en": "Physicians are required by law to report patients aged 14 and older who have medical conditions that may affect their ability to drive safely.",
           "explanation_zhHant": "法律規定醫師必須報告14歲及以上、患有可能影響安全駕駛能力之健康狀況的患者。",
+          "explanation_zh": "法律规定医师必须报告14岁及以上、患有可能影响安全驾驶能力之健康状况的患者。",
           "tags": ["medical-conditions", "driver-readiness"]
         }
       ]
@@ -131,6 +134,7 @@
           "answer": "C",
           "explanation_en": "For hand-to-hand (push/pull) steering, your hands should be positioned at 9 and 3 o'clock or 8 and 4 o'clock. This provides optimal control and keeps hands away from the airbag deployment zone.",
           "explanation_zhHant": "使用推拉式轉向時，雙手應放在9點和3點位置或8點和4點位置。這樣可提供最佳控制力，並使雙手遠離安全氣囊展開區域。",
+          "explanation_zh": "使用推拉式转向时，双手应放在9点和3点位置或8点和4点位置。这样可提供最佳控制力，并使双手远离安全气囊展开区域。",
           "tags": ["steering", "hand-position"]
         },
         {
@@ -162,6 +166,7 @@
           "answer": "B",
           "explanation_en": "Hand-over-hand steering is appropriate when turning at low speeds, parking, or recovering from a skid. It allows for greater steering wheel rotation.",
           "explanation_zhHant": "交叉手轉向適用於低速轉彎、停車或從打滑中恢復。這種方式可實現更大幅度的方向盤旋轉。",
+          "explanation_zh": "交叉手转向适用于低速转弯、停车或从打滑中恢复。这种方式可实现更大幅度的方向盘旋转。",
           "tags": ["steering", "hand-over-hand"]
         },
         {
@@ -193,6 +198,7 @@
           "answer": "C",
           "explanation_en": "One-hand steering is only acceptable when you need to turn your body to look behind you while backing up. At all other times, both hands should be on the steering wheel.",
           "explanation_zhHant": "僅在倒車時需要轉身向後看的情況下才可以使用單手轉向。其他任何時候，雙手都應放在方向盤上。",
+          "explanation_zh": "仅在倒车时需要转身向后看的情况下才可以使用单手转向。其他任何时候，双手都应放在方向盘上。",
           "tags": ["steering", "one-hand"]
         },
         {
@@ -224,6 +230,7 @@
           "answer": "B",
           "explanation_en": "You should never let the steering wheel spin freely to straighten out or remove both hands from the steering wheel while driving. Always maintain control of the wheel.",
           "explanation_zhHant": "絕不能讓方向盤自由旋轉來回正或在駕駛時雙手同時離開方向盤。始終要保持對方向盤的控制。",
+          "explanation_zh": "绝不能让方向盘自由旋转来回正或在驾驶时双手同时离开方向盘。始终要保持对方向盘的控制。",
           "tags": ["steering", "safety"]
         }
       ]
@@ -260,6 +267,7 @@
           "answer": "B",
           "explanation_en": "In city driving, you must signal at least 100 feet before making a turn so that other drivers have time to react to your intentions.",
           "explanation_zhHant": "在城市道路駕駛中，轉彎前至少100英尺就應該打方向燈，以便其他駕駛人有時間對您的意圖做出反應。",
+          "explanation_zh": "在城市道路驾驶中，转弯前至少100英尺就应该打方向灯，以便其他驾驶人有时间对您的意图做出反应。",
           "tags": ["signaling", "turn-signal"]
         },
         {
@@ -291,6 +299,7 @@
           "answer": "C",
           "explanation_en": "On the freeway, you should signal at least 5 seconds before changing lanes. This gives other drivers enough time to adjust to your intended lane change at higher speeds.",
           "explanation_zhHant": "在高速公路上，變換車道前至少應提前5秒打方向燈。這讓其他駕駛人在高速行駛時有足夠時間對您的變道意圖做出調整。",
+          "explanation_zh": "在高速公路上，变换车道前至少应提前5秒打方向灯。这让其他驾驶人在高速行驶时有足够时间对您的变道意图做出调整。",
           "tags": ["signaling", "lane-change", "freeway"]
         },
         {
@@ -322,7 +331,8 @@
           "answer": "C",
           "explanation_en": "The hand signal for a right turn is your left arm bent upward at a 90-degree angle out the driver's window.",
           "explanation_zhHant": "右轉的手勢信號是左臂向上彎曲成90度角伸出駕駛座車窗外。",
-          "tags": ["hand-signal-right"]
+          "explanation_zh": "右转的手势信号是左臂向上弯曲成90度角伸出驾驶座车窗外。",
+          "tags": ["hand-signal-left", "hand-signal-right", "hand-signal-stop"]
         },
         {
           "id": "M01-S03-Q04",
@@ -353,6 +363,7 @@
           "answer": "B",
           "explanation_en": "You should turn off your signal after completing the turn or lane change. Leaving it on can confuse other drivers about your intentions.",
           "explanation_zhHant": "完成轉彎或變換車道後應關閉方向燈。持續亮著方向燈可能會讓其他駕駛人對您的意圖產生困惑。",
+          "explanation_zh": "完成转弯或变换车道后应关闭方向灯。持续亮着方向灯可能会让其他驾驶人对您的意图产生困惑。",
           "tags": ["signaling", "turn-signal"]
         },
         {
@@ -368,7 +379,8 @@
           "answer": "B",
           "explanation_en": "Left arm extended straight out indicates a left turn.",
           "explanation_zhHant": "左臂直直伸出表示左轉。",
-          "tags": ["hand-signal-left"]
+          "explanation_zh": "左臂直直伸出表示左转。",
+          "tags": ["hand-signal-left", "hand-signal-right", "hand-signal-stop"]
         },
         {
           "id": "M01-S03-Q06",
@@ -383,7 +395,8 @@
           "answer": "C",
           "explanation_en": "Left arm bent upward at 90 degrees signals a right turn.",
           "explanation_zhHant": "左臂向上彎曲90度表示右轉。",
-          "tags": ["hand-signal-right"]
+          "explanation_zh": "左臂向上弯曲90度表示右转。",
+          "tags": ["hand-signal-left", "hand-signal-right", "hand-signal-stop"]
         },
         {
           "id": "M01-S03-Q07",
@@ -398,7 +411,8 @@
           "answer": "C",
           "explanation_en": "Left arm bent downward signals slowing down or stopping.",
           "explanation_zhHant": "左臂向下彎曲表示減速或停車。",
-          "tags": ["hand-signal-stop"]
+          "explanation_zh": "左臂向下弯曲表示减速或停车。",
+          "tags": ["hand-signal-left", "hand-signal-right", "hand-signal-stop"]
         }
       ]
     },
@@ -434,6 +448,7 @@
           "answer": "B",
           "explanation_en": "You must turn on your headlights 30 minutes after sunset, 30 minutes before sunrise, or any time conditions prevent you from seeing 1,000 feet ahead.",
           "explanation_zhHant": "您必須在日落後30分鐘、日出前30分鐘或任何無法看到前方1,000英尺的情況下開啟車頭燈。",
+          "explanation_zh": "您必须在日落后30分钟、日出前30分钟或任何无法看到前方1,000英尺的情况下开启车头灯。",
           "tags": ["headlights", "visibility"]
         },
         {
@@ -465,6 +480,7 @@
           "answer": "C",
           "explanation_en": "You must dim your high-beam headlights within 500 feet of an oncoming vehicle to avoid blinding the other driver.",
           "explanation_zhHant": "距迎面車輛500英尺內必須將遠光燈切換為近光燈，以避免使對方駕駛人眩目。",
+          "explanation_zh": "距迎面车辆500英尺内必须将远光灯切换为近光灯，以避免使对方驾驶人眩目。",
           "tags": ["headlights", "high-beam"]
         },
         {
@@ -496,6 +512,7 @@
           "answer": "B",
           "explanation_en": "You must use low-beam headlights within 300 feet of a vehicle you are following, and in fog, rain, or snow when your windshield wipers are in continuous use.",
           "explanation_zhHant": "距您前方車輛300英尺以內時必須使用近光燈，以及在霧、雨或雪中持續使用雨刷時也必須使用近光燈。",
+          "explanation_zh": "距您前方车辆300英尺以内时必须使用近光灯，以及在雾、雨或雪中持续使用雨刷时也必须使用近光灯。",
           "tags": ["headlights", "low-beam"]
         },
         {
@@ -527,6 +544,7 @@
           "answer": "C",
           "explanation_en": "It is illegal to drive using only your parking lights in California. Parking lights are designed for parked vehicles only; headlights must be used when driving.",
           "explanation_zhHant": "在加州僅開啟駐車燈行駛是違法的。駐車燈僅設計用於停放的車輛；駕駛時必須使用車頭燈。",
+          "explanation_zh": "在加州仅开启驻车灯行驶是违法的。驻车灯仅设计用于停放的车辆；驾驶时必须使用车头灯。",
           "tags": ["headlights", "parking-lights"]
         }
       ]
@@ -563,6 +581,7 @@
           "answer": "B",
           "explanation_en": "Use your horn only when necessary to avoid collisions or to alert other drivers on narrow mountain roads where you cannot see at least 200 feet ahead.",
           "explanation_zhHant": "僅在必要時使用喇叭以避免碰撞，或在無法看到前方至少200英尺的狹窄山路上提醒其他駕駛人。",
+          "explanation_zh": "仅在必要时使用喇叭以避免碰撞，或在无法看到前方至少200英尺的狭窄山路上提醒其他驾驶人。",
           "tags": ["horn", "safety"]
         },
         {
@@ -594,6 +613,7 @@
           "answer": "C",
           "explanation_en": "If you see a hazard ahead, turn on your emergency flashers and tap your brakes 3 to 4 times to alert drivers behind you that they need to slow down.",
           "explanation_zhHant": "如果您看到前方有危險，請開啟緊急閃光燈並輕踩煞車3至4次，提醒後方駕駛人需要減速。",
+          "explanation_zh": "如果您看到前方有危险，请开启紧急闪光灯并轻踩刹车3至4次，提醒后方驾驶人需要减速。",
           "tags": ["emergency-flashers", "hazard"]
         },
         {
@@ -625,6 +645,7 @@
           "answer": "B",
           "explanation_en": "If your vehicle breaks down, turn on your emergency flashers to alert other drivers and safely pull off the road as far as possible from traffic.",
           "explanation_zhHant": "如果您的車輛拋錨，請開啟緊急閃光燈提醒其他駕駛人，並安全地盡可能遠離車流駛離道路。",
+          "explanation_zh": "如果您的车辆抛锚，请开启紧急闪光灯提醒其他驾驶人，并安全地尽可能远离车流驶离道路。",
           "tags": ["emergency-flashers", "breakdown"]
         }
       ]

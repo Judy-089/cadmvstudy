@@ -100,7 +100,7 @@
           "zhHant": "雙行車線無分隔帶的高速公路限速為55哩/小時，除非另有標示。牽引車輛/拖車在所有公路上的最高限速也是55哩/小時。"
         }
       ],
-      "titleZhHant": "「基本車速法」與限速規定"
+      "titleZhHant": "基本速度法與限速規定"
     },
     {
       "id": "S02",
@@ -144,10 +144,13 @@
         {
           "id": "M04-S02-K04",
           "en": "When towing a vehicle or trailer, or driving a truck with three or more axles, you must drive in the far-right lane or a lane marked for slower vehicles. If no lanes are marked and there are four or more lanes in your direction, you may only drive in the two lanes closest to the right edge of the road.",
-          "zh": "当拖车或拖挂、或驾驶三轴及以上卡车时，你必须在最右车道或标有慢速车辆的车道行驶。如果没有标记的车道且你的方向有四条或更多车道，你只能在最靠近右侧路边的两条车道行驶。",
+          "zh": "当你驾驶拖车或拖挂、或驾驶三轴及以上卡车时，你必须在最右车道或标有慢速车辆的车道行驶。如果没有标记的车道且你的方向有四条或更多车道，你只能在最靠近右侧路边的两条车道行驶。",
           "zhHant": "當牽引車輛或拖車、或駕駛三軸及以上卡車時，你必須在最右行車線或標有慢速車輛的行車線行駛。如果沒有標記的行車線且你的方向有四條或更多行車線，你只能在最靠近右側路緣的兩條行車線行駛。",
           "isHighFreq": true,
-          "tags": ["towing", "lane-position"]
+          "tags": [
+            "towing",
+            "lane-position"
+          ]
         }
       ],
       "titleZhHant": "根據路況調整車速"
@@ -195,7 +198,7 @@
           "zhHant": "在公共道路上進行爭賽車速/魯莽駕駛屬於違法行為。處罰包括罰款、駕照暫停，車輛可能被扣押最長30天。"
         }
       ],
-      "titleZhHant": "施工區與特殊限速區"
+      "titleZhHant": "施工區域與特殊限速區"
     }
   ],
   "titleZhHant": "速度法規"

@@ -115,14 +115,11 @@ export function OnboardingModal({ onClose }: { onClose: () => void }) {
                   }`}
                 >
                   <span className="text-2xl">
-                    {mode === "zhHant_zhHans" ? "繁" : mode === "en_zhHans" ? "A文" : "EN"}
+                    {mode === "zhHant_zhHans" ? "繁" : mode === "en_zhHans" ? "En" : "EN"}
                   </span>
                   <div>
                     <p className="text-sm font-semibold text-text-dark">
                       {LANGUAGE_MODE_LABELS[mode].en}
-                    </p>
-                    <p className="text-xs text-text-gray">
-                      {LANGUAGE_MODE_LABELS[mode].zh}
                     </p>
                   </div>
                   {selectedLang === mode && (

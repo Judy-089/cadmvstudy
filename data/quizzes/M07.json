@@ -33,6 +33,7 @@
           "answer": "B",
           "explanation_en": "In fog, use low-beam headlights. High beams reflect off the fog and make it harder to see.",
           "explanation_zhHant": "霧天行駛時使用近光燈。遠光燈會被霧反射，反而更難看清道路。",
+          "explanation_zh": "雾天行驶时使用近光灯。远光灯会被雾反射，反而更难看清道路。",
           "tags": []
         },
         {
@@ -64,6 +65,7 @@
           "answer": "B",
           "explanation_en": "If visibility is very poor, pull completely off the road, turn off your driving lights, and turn on your emergency flashers.",
           "explanation_zhHant": "如果能見度非常差，將車完全駛離道路，關閉車燈，打開雙閃警示燈。",
+          "explanation_zh": "如果能见度非常差，将车完全驶离道路，关闭车灯，打开双闪警示灯。",
           "tags": []
         },
         {
@@ -95,6 +97,7 @@
           "answer": "C",
           "explanation_en": "Use the right edge of the road or painted road markings as a guide when driving in fog.",
           "explanation_zhHant": "霧天駕駛時，利用道路右側邊緣或路面標線作為引導。",
+          "explanation_zh": "雾天驾驶时，利用道路右侧边缘或路面标线作为引导。",
           "tags": []
         },
         {
@@ -126,6 +129,7 @@
           "answer": "B",
           "explanation_en": "Use your defroster and windshield wipers in foggy conditions to improve visibility.",
           "explanation_zhHant": "霧天使用除霧器和雨刷器來提高能見度。",
+          "explanation_zh": "雾天使用除雾器和雨刷器来提高能见度。",
           "tags": []
         },
         {
@@ -157,6 +161,7 @@
           "answer": "C",
           "explanation_en": "Avoid crossing or passing traffic in heavy fog. Listen for traffic you cannot see.",
           "explanation_zhHant": "在大霧中避免橫穿或超越車輛。注意聽那些你看不到的車輛的聲音。",
+          "explanation_zh": "在大雾中避免横穿或超越车辆。注意听那些你看不到的车辆的声音。",
           "tags": []
         }
       ]
@@ -193,6 +198,7 @@
           "answer": "B",
           "explanation_en": "The road is most slippery during the first few minutes of rain because oil on the road mixes with the water.",
           "explanation_zhHant": "下雨最初幾分鐘路面最滑，因為路面上的油污與水混合在一起。",
+          "explanation_zh": "下雨最初几分钟路面最滑，因为路面上的油污与水混合在一起。",
           "tags": []
         },
         {
@@ -224,6 +230,7 @@
           "answer": "B",
           "explanation_en": "Hydroplaning occurs when your tires ride on a thin film of water at high speeds, causing you to lose traction and control.",
           "explanation_zhHant": "水滑現象是指高速行駛時，輪胎在水膜上滑行，導致失去抓地力和控制。",
+          "explanation_zh": "水滑现象是指高速行驶时，轮胎在水膜上滑行，导致失去抓地力和控制。",
           "tags": []
         },
         {
@@ -255,6 +262,7 @@
           "answer": "C",
           "explanation_en": "If your tires lose traction (hydroplaning), slow down gradually. Do not brake hard or turn suddenly.",
           "explanation_zhHant": "如果輪胎失去抓地力（水滑），逐漸減速。不要急刹車或突然轉向。",
+          "explanation_zh": "如果轮胎失去抓地力（水滑），逐渐减速。不要急刹车或突然转向。",
           "tags": []
         },
         {
@@ -286,6 +294,7 @@
           "answer": "B",
           "explanation_en": "California law requires headlights when windshield wipers are in continuous use.",
           "explanation_zhHant": "加州法律要求在持續使用雨刷器時必須開啟前車燈。",
+          "explanation_zh": "加州法律要求在持续使用雨刷器时必须开启前车灯。",
           "tags": []
         },
         {
@@ -317,6 +326,7 @@
           "answer": "B",
           "explanation_en": "Never drive through flooded areas. Even shallow water can cause you to lose control, and 6 inches of moving water can knock you down.",
           "explanation_zhHant": "不要駛入積水區域。即使淺水也可能導致你失控，6英寸深的流動水就足以使人摔倒。",
+          "explanation_zh": "不要驶入积水区域。即使浅水也可能导致你失控，6英寸深的流动水就足以使人摔倒。",
           "tags": []
         },
         {
@@ -348,6 +358,7 @@
           "answer": "C",
           "explanation_en": "Try to drive in the tire tracks of the car ahead of you, as there is less water accumulation in those tracks.",
           "explanation_zhHant": "盡量沿著前車的輪跡行駛，因為那裡積水較少。",
+          "explanation_zh": "尽量沿着前车的轮迹行驶，因为那里积水较少。",
           "tags": []
         },
         {
@@ -379,6 +390,103 @@
           "answer": "C",
           "explanation_en": "Do not use cruise control in high winds. You need full control of your speed and steering to react to sudden gusts that may push your vehicle.",
           "explanation_zhHant": "大風天氣不要使用定速巡航。你需要完全控制車速和方向以應對突然的陣風推力。",
+          "explanation_zh": "大风天气不要使用定速巡航。你需要完全控制车速和方向以应对突然的阵风推力。",
+          "tags": []
+        },
+        {
+          "id": "M07-S02-Q08",
+          "stem_en": "On wet roads, you should reduce your speed by approximately:",
+          "stem_zhHant": "在濕滑路面上，你應該將車速降低大約：",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "1-3 mph",
+              "text_zhHant": "1-3英里/小時"
+            },
+            {
+              "key": "B",
+              "text_en": "5-10 mph",
+              "text_zhHant": "5-10英里/小時"
+            },
+            {
+              "key": "C",
+              "text_en": "15-20 mph",
+              "text_zhHant": "15-20英里/小時"
+            },
+            {
+              "key": "D",
+              "text_en": "25-30 mph",
+              "text_zhHant": "25-30英里/小時"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "On wet roads, reduce speed by 5-10 mph to maintain safe traction.",
+          "explanation_zhHant": "濕滑路面上應降低5-10英里/小時的車速以保持安全的抓地力。",
+          "explanation_zh": "湿滑路面上应降低5-10英里/小时的车速以保持安全的抓地力。",
+          "tags": []
+        },
+        {
+          "id": "M07-S02-Q09",
+          "stem_en": "On icy or snowy roads, how much should you increase your following distance?",
+          "stem_zhHant": "在冰雪路面上，你應該將跟車距離增加多少？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "Double the normal distance",
+              "text_zhHant": "正常距離的2倍"
+            },
+            {
+              "key": "B",
+              "text_en": "3 to 4 times the normal distance",
+              "text_zhHant": "正常距離的3到4倍"
+            },
+            {
+              "key": "C",
+              "text_en": "Same as normal conditions",
+              "text_zhHant": "與正常情況相同"
+            },
+            {
+              "key": "D",
+              "text_en": "10 times the normal distance",
+              "text_zhHant": "正常距離的10倍"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "Increase following distance to 3-4 times the normal distance on icy or snowy roads.",
+          "explanation_zhHant": "在冰雪路面上將跟車距離增加到正常距離的3到4倍。",
+          "explanation_zh": "在冰雪路面上将跟车距离增加到正常距离的3到4倍。",
+          "tags": []
+        },
+        {
+          "id": "M07-S02-Q10",
+          "stem_en": "When is a road most slippery during rain?",
+          "stem_zhHant": "下雨時路面什麼時候最滑？",
+          "options": [
+            {
+              "key": "A",
+              "text_en": "After several hours of heavy rain",
+              "text_zhHant": "大雨下了幾小時之後"
+            },
+            {
+              "key": "B",
+              "text_en": "During the first few minutes of rain",
+              "text_zhHant": "下雨最初幾分鐘"
+            },
+            {
+              "key": "C",
+              "text_en": "Right after the rain stops",
+              "text_zhHant": "雨剛停的時候"
+            },
+            {
+              "key": "D",
+              "text_en": "Only during a thunderstorm",
+              "text_zhHant": "只有雷暴期間"
+            }
+          ],
+          "answer": "B",
+          "explanation_en": "The road is most slippery during the first few minutes of rain because oil on the road mixes with the water.",
+          "explanation_zhHant": "下雨最初幾分鐘路面最滑，因為路面上的油污與水混合在一起。",
+          "explanation_zh": "下雨最初几分钟路面最滑，因为路面上的油污与水混合在一起。",
           "tags": []
         }
       ]
@@ -415,6 +523,7 @@
           "answer": "B",
           "explanation_en": "Use your headlights from 30 minutes after sunset to 30 minutes before sunrise, and anytime conditions prevent you from seeing 1,000 feet ahead.",
           "explanation_zhHant": "日落後30分鐘到日出前30分鐘須開前車燈，以及任何無法看清前方1,000英尺的情況下也須開燈。",
+          "explanation_zh": "日落后30分钟到日出前30分钟须开前车灯，以及任何无法看清前方1,000英尺的情况下也须开灯。",
           "tags": []
         },
         {
@@ -446,6 +555,7 @@
           "answer": "A",
           "explanation_en": "Use low-beam headlights within 500 feet of an oncoming vehicle or within 300 feet of a vehicle you are following.",
           "explanation_zhHant": "在距迎面來車500英尺以內或距你跟隨的車輛300英尺以內時，使用近光燈。",
+          "explanation_zh": "在距迎面来车500英尺以内或距你跟随的车辆300英尺以内时，使用近光灯。",
           "tags": []
         },
         {
@@ -477,6 +587,7 @@
           "answer": "C",
           "explanation_en": "If an oncoming vehicle has blinding high beams, look toward the right edge of the road to avoid being blinded.",
           "explanation_zhHant": "如果迎面來車的遠光燈使你目眩，注視道路右側邊緣以避免被晃到。",
+          "explanation_zh": "如果迎面来车的远光灯使你目眩，注视道路右侧边缘以避免被晃到。",
           "tags": []
         },
         {
@@ -508,6 +619,7 @@
           "answer": "B",
           "explanation_en": "Adjust your speed at night so you can stop within the distance illuminated by your headlights.",
           "explanation_zhHant": "夜間調整車速，使你能在前車燈照亮的距離內停下車。",
+          "explanation_zh": "夜间调整车速，使你能在前车灯照亮的距离内停下车。",
           "tags": []
         },
         {
@@ -539,6 +651,7 @@
           "answer": "C",
           "explanation_en": "Do not use high-beam headlights in fog, heavy rain, or snow. The light reflects off precipitation and reduces visibility.",
           "explanation_zhHant": "在霧天、大雨或下雪時不要使用遠光燈。光線會被雨雪反射，降低能見度。",
+          "explanation_zh": "在雾天、大雨或下雪时不要使用远光灯。光线会被雨雪反射，降低能见度。",
           "tags": []
         }
       ]
@@ -575,6 +688,7 @@
           "answer": "B",
           "explanation_en": "If your brakes fail, pump the brake pedal rapidly. If that doesn't work, use the parking brake gradually and shift to a lower gear.",
           "explanation_zhHant": "刹車失靈時，快速連踩刹車踏板。如果不起作用，逐漸拉起手刹。換入低擋減速。",
+          "explanation_zh": "刹车失灵时，快速连踩刹车踏板。如果不起作用，逐渐拉起手刹。换入低挡减速。",
           "tags": []
         },
         {
@@ -606,6 +720,7 @@
           "answer": "B",
           "explanation_en": "If you have a tire blowout, grip the steering wheel firmly, slow down gradually, and pull off the road. Do not brake suddenly.",
           "explanation_zhHant": "如果輪胎爆裂，緊握方向盤，逐漸減速並將車駛離道路。不要急刹車。",
+          "explanation_zh": "如果轮胎爆裂，紧握方向盘，逐渐减速并将车驶离道路。不要急刹车。",
           "tags": []
         },
         {
@@ -637,6 +752,7 @@
           "answer": "C",
           "explanation_en": "If your car starts to skid, ease off the gas and steer in the direction you want the front of the car to go. Do not brake.",
           "explanation_zhHant": "如果車輛開始打滑，松開油門，將方向盤轉向你希望車頭朝向的方向。不要踩刹車。",
+          "explanation_zh": "如果车辆开始打滑，松开油门，将方向盘转向你希望车头朝向的方向。不要踩刹车。",
           "tags": []
         },
         {
@@ -668,6 +784,7 @@
           "answer": "B",
           "explanation_en": "If your accelerator sticks, shift to neutral, apply the brakes, and pull safely off the road.",
           "explanation_zhHant": "如果油門踏板卡住，換入空擋，踩刹車，安全駛離道路。",
+          "explanation_zh": "如果油门踏板卡住，换入空挡，踩刹车，安全驶离道路。",
           "tags": []
         },
         {
@@ -699,6 +816,7 @@
           "answer": "C",
           "explanation_en": "If your vehicle stalls on railroad tracks, get everyone out immediately and move away from the tracks. Call 911 or the emergency number posted at the crossing.",
           "explanation_zhHant": "如果車輛在鐵軌上熄火，立即讓所有人下車並遠離鐵軌。撥打911或道口處張貼的緊急電話。",
+          "explanation_zh": "如果车辆在铁轨上熄火，立即让所有人下车并远离铁轨。拨打911或道口处张贴的紧急电话。",
           "tags": []
         },
         {
@@ -730,6 +848,7 @@
           "answer": "B",
           "explanation_en": "If your vehicle breaks down on the freeway, pull completely off the road. Raise the hood or tie a white cloth to the antenna.",
           "explanation_zhHant": "如果車輛在高速公路上拋錨，將車完全駛離道路。打開引擎蓋或在天線上系白布。",
+          "explanation_zh": "如果车辆在高速公路上抛锚，将车完全驶离道路。打开引擎盖或在天线上系白布。",
           "tags": []
         },
         {
@@ -761,6 +880,7 @@
           "answer": "B",
           "explanation_en": "If your headlights suddenly go out, try the headlight switch. Slow down and pull off the road.",
           "explanation_zhHant": "如果前車燈突然熄滅，嘗試開關燈光開關。減速並將車駛離道路。",
+          "explanation_zh": "如果前车灯突然熄灭，尝试开关灯光开关。减速并将车驶离道路。",
           "tags": []
         },
         {
@@ -792,6 +912,7 @@
           "answer": "B",
           "explanation_en": "During a tire blowout, hold the steering wheel firmly to maintain control. Do not brake suddenly — ease off the gas, slow down gradually, and steer to a safe spot off the road.",
           "explanation_zhHant": "輪胎爆裂時，緊握方向盤以保持控制。不要急刹車——鬆開油門，逐漸減速，並將車駛到安全的路邊位置。",
+          "explanation_zh": "轮胎爆裂时，紧握方向盘以保持控制。不要急刹车——松开油门，逐渐减速，并将车驶到安全的路边位置。",
           "tags": []
         },
         {
@@ -823,6 +944,7 @@
           "answer": "B",
           "explanation_en": "In fog, always use low-beam headlights, NOT high beams. High beams reflect off the fog and create glare, reducing your visibility even further.",
           "explanation_zhHant": "霧天始終使用近光燈，不要使用遠光燈。遠光燈會被霧氣反射造成眩光，進一步降低能見度。",
+          "explanation_zh": "雾天始终使用近光灯，不要使用远光灯。远光灯会被雾气反射造成眩光，进一步降低能见度。",
           "tags": []
         },
         {
@@ -838,6 +960,7 @@
           "answer": "B",
           "explanation_en": "With four-wheel ABS, apply firm pressure on the brake pedal. Do not pump the brakes — the ABS system will do the pulsing for you.",
           "explanation_zhHant": "配有四輪ABS時，穩定踩住煞車踏板。不要反覆踩煞車——ABS系統會自動脈動制動。",
+          "explanation_zh": "配有四轮ABS时，稳定踩住刹车踏板。不要反复踩刹车——ABS系统会自动脉动制动。",
           "tags": ["abs", "skid"]
         }
       ]
@@ -874,6 +997,7 @@
           "answer": "B",
           "explanation_en": "Install chains on your drive wheels when required by signs or CalTrans. Carry chains when driving in mountain areas during winter.",
           "explanation_zhHant": "當標誌或加州交通局要求時，在驅動輪上安裝防滑鏈。冬季在山區行駛時攜帶防滑鏈。",
+          "explanation_zh": "当标志或加州交通局要求时，在驱动轮上安装防滑链。冬季在山区行驶时携带防滑链。",
           "tags": []
         },
         {
@@ -905,6 +1029,7 @@
           "answer": "B",
           "explanation_en": "Bridges and overpasses freeze before other road surfaces.",
           "explanation_zhHant": "橋梁和高架橋面比其他路面更早結冰。",
+          "explanation_zh": "桥梁和高架桥面比其他路面更早结冰。",
           "tags": []
         },
         {
@@ -936,6 +1061,7 @@
           "answer": "B",
           "explanation_en": "Increase following distance to 3-4 times the normal distance on icy or snowy roads.",
           "explanation_zhHant": "在冰雪路面上將跟車距離增加到正常距離的3到4倍。",
+          "explanation_zh": "在冰雪路面上将跟车距离增加到正常距离的3到4倍。",
           "tags": []
         },
         {
@@ -967,6 +1093,7 @@
           "answer": "B",
           "explanation_en": "If you start to slide on ice, gently ease off the accelerator and avoid sudden braking or steering movements.",
           "explanation_zhHant": "如果在冰面上開始打滑，輕輕松開油門，避免突然刹車或轉向。",
+          "explanation_zh": "如果在冰面上开始打滑，轻轻松开油门，避免突然刹车或转向。",
           "tags": []
         },
         {
@@ -998,6 +1125,7 @@
           "answer": "C",
           "explanation_en": "Use lower gears to maintain better control when driving downhill on slippery surfaces.",
           "explanation_zhHant": "在濕滑路面下坡時使用低擋位以保持更好的控制力。",
+          "explanation_zh": "在湿滑路面下坡时使用低挡位以保持更好的控制力。",
           "tags": []
         },
         {
@@ -1013,6 +1141,7 @@
           "answer": "B",
           "explanation_en": "Shift into a low gear and keep the front wheels straight first. Then gently step on the accelerator — avoid spinning the wheels.",
           "explanation_zhHant": "首先掛低檔並保持前輪正直。然後輕踩油門——避免車輪打滑。",
+          "explanation_zh": "首先挂低挡并保持前轮正直。然后轻踩油门——避免车轮打滑。",
           "tags": ["snow", "stuck"]
         }
       ]

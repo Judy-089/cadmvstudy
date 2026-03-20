@@ -6,25 +6,28 @@ import { LockedCard } from "@/components/LockedOverlay";
 import { signInWithGoogle } from "@/lib/auth";
 import { getPassThreshold } from "@/lib/examUtils";
 import { useT } from "@/lib/useT";
+import { Footer } from "@/components/Footer";
 import { useRequireSession } from "@/lib/useRequireSession";
 import { useProgressStore } from "@/store/useProgressStore";
+import { CrashCourseBanner } from "@/components/CrashCourseBanner";
 
 const mockExams = [
-  { id: "MOCK-01", title: "Mock Exam 1", titleZh: "模拟考试 1", isNew: false },
-  { id: "MOCK-02", title: "Mock Exam 2", titleZh: "模拟考试 2", isNew: false },
-  { id: "MOCK-03", title: "Mock Exam 3", titleZh: "模拟考试 3", isNew: false },
-  { id: "MOCK-04", title: "Mock Exam 4", titleZh: "模拟考试 4", isNew: false },
-  { id: "MOCK-05", title: "Mock Exam 5", titleZh: "模拟考试 5", isNew: false },
-  { id: "MOCK-06", title: "Mock Exam 6", titleZh: "模拟考试 6", isNew: true },
-  { id: "MOCK-07", title: "Mock Exam 7", titleZh: "模拟考试 7", isNew: true },
-  { id: "MOCK-08", title: "Mock Exam 8", titleZh: "模拟考试 8", isNew: true },
-  { id: "MOCK-09", title: "Mock Exam 9", titleZh: "模拟考试 9", isNew: true },
-  { id: "MOCK-10", title: "Mock Exam 10", titleZh: "模拟考试 10", isNew: true },
-  { id: "MOCK-11", title: "Challenger Mode", titleZh: "挑戰模式", isNew: true },
+  { id: "MOCK-01", title: "Mock Exam 1", titleZh: "模拟考试 1", titleZhHant: "模擬考試 1", isNew: false },
+  { id: "MOCK-02", title: "Mock Exam 2", titleZh: "模拟考试 2", titleZhHant: "模擬考試 2", isNew: false },
+  { id: "MOCK-03", title: "Mock Exam 3", titleZh: "模拟考试 3", titleZhHant: "模擬考試 3", isNew: false },
+  { id: "MOCK-04", title: "Mock Exam 4", titleZh: "模拟考试 4", titleZhHant: "模擬考試 4", isNew: false },
+  { id: "MOCK-05", title: "Mock Exam 5", titleZh: "模拟考试 5", titleZhHant: "模擬考試 5", isNew: false },
+  { id: "MOCK-06", title: "Mock Exam 6", titleZh: "模拟考试 6", titleZhHant: "模擬考試 6", isNew: true },
+  { id: "MOCK-07", title: "Mock Exam 7", titleZh: "模拟考试 7", titleZhHant: "模擬考試 7", isNew: true },
+  { id: "MOCK-08", title: "Mock Exam 8", titleZh: "模拟考试 8", titleZhHant: "模擬考試 8", isNew: true },
+  { id: "MOCK-09", title: "Mock Exam 9", titleZh: "模拟考试 9", titleZhHant: "模擬考試 9", isNew: true },
+  { id: "MOCK-10", title: "Mock Exam 10", titleZh: "模拟考试 10", titleZhHant: "模擬考試 10", isNew: true },
+  { id: "MOCK-11", title: "Challenger Mode", titleZh: "挑戰模式", titleZhHant: "挑戰模式", isNew: true },
 ];
 
 export default function MockTestPage() {
   const sessionMode = useAppStore((s) => s.sessionMode);
+  const languageMode = useAppStore((s) => s.languageMode);
   const ageGroup = useAppStore((s) => s.ageGroup);
   const isExamUnlocked = useAppStore((s) => s.isExamUnlocked);
   const t = useT();
@@ -79,6 +82,11 @@ export default function MockTestPage() {
         </div>
       )}
 
+      {/* Crash Course Banner */}
+      <div className="mt-6">
+        <CrashCourseBanner />
+      </div>
+
       <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {mockExams.map((exam) => {
           const unlocked = isExamUnlocked(exam.id);
@@ -105,9 +113,9 @@ export default function MockTestPage() {
               )}
 
               <h3 className="text-lg font-semibold text-text-dark group-hover:text-primary">
-                {exam.title}
+                {languageMode === "zhHant_zhHans" ? exam.titleZhHant : exam.title}
               </h3>
-              <p className="text-sm text-text-gray">{exam.titleZh}</p>
+              {languageMode !== "en_only" && <p className="text-sm text-text-gray">{exam.titleZh}</p>}
 
               <div className="mt-3 flex items-center justify-between text-xs text-text-gray">
                 {hasTaken ? (
@@ -140,6 +148,8 @@ export default function MockTestPage() {
           <li>{t("mock.aboutLanguage")}</li>
         </ul>
       </div>
+
+      <Footer />
     </div>
   );
 }

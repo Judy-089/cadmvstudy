@@ -33,6 +33,7 @@
           "answer": "C",
           "explanation_en": "Use the 3-second rule: maintain at least a 3-second following distance behind the vehicle ahead of you under normal conditions.",
           "explanation_zhHant": "使用3秒規則：正常情況下，與前車保持至少3秒的跟車距離。",
+          "explanation_zh": "使用3秒规则：正常情况下，与前车保持至少3秒的跟车距离。",
           "tags": []
         },
         {
@@ -64,6 +65,7 @@
           "answer": "B",
           "explanation_en": "Increase your following distance to 4 or more seconds in bad weather, heavy traffic, when following large vehicles, or on slippery roads.",
           "explanation_zhHant": "在惡劣天氣、擁堵交通、跟隨大型車輛或在濕滑路面上時，將跟車距離增加到4秒或更多。",
+          "explanation_zh": "在恶劣天气、拥堵交通、跟随大型车辆或在湿滑路面上时，将跟车距离增加到4秒或更多。",
           "tags": []
         },
         {
@@ -95,6 +97,7 @@
           "answer": "B",
           "explanation_en": "When stopped behind another vehicle, leave enough space so you can see the rear tires of the vehicle in front of you touching the pavement.",
           "explanation_zhHant": "在另一輛車後面停車時，留出足夠的空間以便能看到前車的後輪接觸地面。",
+          "explanation_zh": "在另一辆车后面停车时，留出足够的空间以便能看到前车的后轮接触地面。",
           "tags": []
         },
         {
@@ -124,8 +127,9 @@
             }
           ],
           "answer": "C",
-          "explanation_en": "Tailgating (following too closely) is a major cause of rear-end collisions. It reduces your reaction time to stop safely.",
-          "explanation_zhHant": "緊跟前車（跟車太近）是追尾事故的主要原因。它減少了你安全停車的反應時間。",
+          "explanation_en": "Tailgating (following too closely) is a major cause of rear-end collisions. It reduces your reaction time to stop safely. By contrast: head-on collisions occur when vehicles traveling in opposite directions collide; side-swipe collisions happen when vehicles in adjacent lanes make contact; rollover accidents involve a vehicle flipping over, often from sharp turns at high speed.",
+          "explanation_zhHant": "緊跟前車（跟車太近）是追尾碰撞的主要原因。它減少了你安全停車的反應時間。相比之下：迎面碰撞是指相向行駛的車輛正面相撞；側面刮擦碰撞是相鄰車道的車輛發生接觸；翻車事故是指車輛翻覆，通常由高速急轉彎引起。",
+          "explanation_zh": "紧跟前车（跟车太近）是追尾碰撞的主要原因。它减少了你安全停车的反应时间。相比之下：迎面碰撞是指相向行驶的车辆正面相撞；侧面刮擦碰撞是相邻车道的车辆发生接触；翻车事故是指车辆翻覆，通常由高速急转弯引起。",
           "tags": []
         },
         {
@@ -157,6 +161,7 @@
           "answer": "C",
           "explanation_en": "If a driver is tailgating you, gradually slow down to encourage them to pass, or change lanes to let them by. Do not brake suddenly.",
           "explanation_zhHant": "如果有人緊跟你，逐漸減速鼓勵他們超車，或者變道讓他們通過。不要急刹車。",
+          "explanation_zh": "如果有人紧跟你，逐渐减速鼓励他们超车，或者变道让他们通过。不要急刹车。",
           "tags": []
         }
       ]
@@ -193,6 +198,7 @@
           "answer": "B",
           "explanation_en": "It is illegal to hold and use a cell phone or electronic device while driving in California. You may use a hands-free device.",
           "explanation_zhHant": "在加州駕駛時手持使用手機或電子設備是違法的。可以使用免提設備。",
+          "explanation_zh": "在加州驾驶时手持使用手机或电子设备是违法的。可以使用免提设备。",
           "tags": []
         },
         {
@@ -224,6 +230,7 @@
           "answer": "B",
           "explanation_en": "Drivers under 18 may not use a cell phone or any electronic device while driving, even hands-free, except in emergencies.",
           "explanation_zhHant": "18歲以下的駕駛員駕駛時不得使用手機或任何電子設備，包括免提設備，緊急情況除外。",
+          "explanation_zh": "18岁以下的驾驶员驾驶时不得使用手机或任何电子设备，包括免提设备，紧急情况除外。",
           "tags": []
         },
         {
@@ -255,6 +262,7 @@
           "answer": "C",
           "explanation_en": "Texting while driving is illegal and extremely dangerous. Sending or reading a text takes your eyes off the road for about 5 seconds.",
           "explanation_zhHant": "開車時發短信是違法且極其危險的。發送或閱讀短信會讓你的視線離開道路約5秒鐘。",
+          "explanation_zh": "开车时发短信是违法且极其危险的。发送或阅读短信会让你的视线离开道路约5秒钟。",
           "tags": []
         },
         {
@@ -286,6 +294,7 @@
           "answer": "B",
           "explanation_en": "If you must use your phone for navigation, set it up before driving and mount it on the dashboard or windshield. You may only touch it with a single swipe or tap.",
           "explanation_zhHant": "如果需要使用手機導航，在駕駛前設置好並安裝在儀表板或擋風玻璃上。駕駛中只能單次滑動或點擊操作。",
+          "explanation_zh": "如果需要使用手机导航，在驾驶前设置好并安装在仪表板或挡风玻璃上。驾驶中只能单次滑动或点击操作。",
           "tags": []
         },
         {
@@ -317,6 +326,7 @@
           "answer": "C",
           "explanation_en": "Other forms of distracted driving include eating, grooming, reading, adjusting the radio, and interacting with passengers.",
           "explanation_zhHant": "其他分心駕駛行為包括吃東西、化妝整理、閱讀、調收音機和與乘客互動。",
+          "explanation_zh": "其他分心驾驶行为包括吃东西、化妆整理、阅读、调收音机和与乘客互动。",
           "tags": []
         }
       ]
@@ -353,6 +363,7 @@
           "answer": "B",
           "explanation_en": "California law requires all vehicle occupants to wear seat belts. The driver can be fined for any unbelted passenger under 16.",
           "explanation_zhHant": "加州法律要求所有車內人員系安全帶。如果16歲以下的乘客未系安全帶，駕駛員會被罰款。",
+          "explanation_zh": "加州法律要求所有车内人员系安全带。如果16岁以下的乘客未系安全带，驾驶员会被罚款。",
           "tags": []
         },
         {
@@ -384,6 +395,7 @@
           "answer": "B",
           "explanation_en": "Children under 2 years old must ride in a rear-facing car seat in the back seat, unless they weigh 40 pounds or more, or are 40 inches or taller.",
           "explanation_zhHant": "2歲以下兒童必須坐在後座的後向式安全座椅中，除非體重達到40磅以上或身高達到40英寸以上。",
+          "explanation_zh": "2岁以下儿童必须坐在后座的后向式安全座椅中，除非体重达到40磅以上或身高达到40英寸以上。",
           "tags": []
         },
         {
@@ -415,6 +427,7 @@
           "answer": "C",
           "explanation_en": "Children under 8 years old must be secured in a car seat or booster seat in the back seat of the vehicle.",
           "explanation_zhHant": "8歲以下的兒童必須坐在車輛後座的安全座椅或增高座椅中。",
+          "explanation_zh": "8岁以下的儿童必须坐在车辆后座的安全座椅或增高座椅中。",
           "tags": []
         },
         {
@@ -446,6 +459,7 @@
           "answer": "B",
           "explanation_en": "Children 8 years old or older, or who are at least 4 feet 9 inches tall, may use a regular seat belt.",
           "explanation_zhHant": "8歲或以上、或身高至少4英尺9英寸的兒童可以使用普通安全帶。",
+          "explanation_zh": "8岁或以上、或身高至少4英尺9英寸的儿童可以使用普通安全带。",
           "tags": []
         },
         {
@@ -477,6 +491,7 @@
           "answer": "B",
           "explanation_en": "The back seat is the safest place for children 12 and under. Never place a rear-facing car seat in front of an active airbag because the airbag can seriously injure or kill the child.",
           "explanation_zhHant": "後座是12歲及以下兒童最安全的位置。不要將後向式安全座椅放在有激活安全氣囊的前座，因為安全氣囊可能嚴重傷害或致死兒童。",
+          "explanation_zh": "后座是12岁及以下儿童最安全的位置。不要将后向式安全座椅放在有激活安全气囊的前座，因为安全气囊可能严重伤害或致死儿童。",
           "tags": []
         },
         {
@@ -492,6 +507,7 @@
           "answer": "C",
           "explanation_en": "It is illegal to leave a child who is 6 years old or younger unattended in a vehicle.",
           "explanation_zhHant": "將6歲或以下的兒童無人看管地留在車內是違法的。",
+          "explanation_zh": "将6岁或以下的儿童无人看管地留在车内是违法的。",
           "tags": ["child-safety"]
         }
       ]
@@ -528,6 +544,7 @@
           "answer": "C",
           "explanation_en": "Scan the road ahead 10-15 seconds (about one block in the city, a quarter mile on the highway) to anticipate hazards.",
           "explanation_zhHant": "提前掃視前方10-15秒的道路（城市中約一個街區，高速公路上約四分之一英里），預判可能的危險。",
+          "explanation_zh": "提前扫视前方10-15秒的道路（城市中约一个街区，高速公路上约四分之一英里），预判可能的危险。",
           "tags": []
         },
         {
@@ -559,6 +576,7 @@
           "answer": "B",
           "explanation_en": "Check your mirrors every 3-5 seconds to stay aware of traffic around you. Check your blind spot before changing lanes.",
           "explanation_zhHant": "每3-5秒查看後視鏡以了解周圍交通狀況。變道前檢查盲區。",
+          "explanation_zh": "每3-5秒查看后视镜以了解周围交通状况。变道前检查盲区。",
           "tags": []
         },
         {
@@ -590,6 +608,7 @@
           "answer": "C",
           "explanation_en": "If another driver is aggressive, do not make eye contact, do not challenge them, and do not block their path.",
           "explanation_zhHant": "如果其他駕駛員有攻擊性行為，不要與他們對視，不要挑釁他們，不要擋住他們的路。",
+          "explanation_zh": "如果其他驾驶员有攻击性行为，不要与他们对视，不要挑衅他们，不要挡住他们的路。",
           "tags": []
         },
         {
@@ -621,6 +640,7 @@
           "answer": "C",
           "explanation_en": "Drowsy driving is as dangerous as drunk driving. If you are sleepy, pull over to a safe place and rest. Coffee or fresh air alone will not keep you alert.",
           "explanation_zhHant": "疲勞駕駛和醉駕一樣危險。如果感到困倦，靠邊停在安全的地方休息。僅靠咖啡或新鮮空氣不能保持清醒。",
+          "explanation_zh": "疲劳驾驶和醉驾一样危险。如果感到困倦，靠边停在安全的地方休息。仅靠咖啡或新鲜空气不能保持清醒。",
           "tags": []
         },
         {
@@ -652,6 +672,7 @@
           "answer": "B",
           "explanation_en": "Signal at least 100 feet before turning in city areas and at least 200 feet before turning on highways.",
           "explanation_zhHant": "在市區轉彎前至少提前100英尺打轉向燈，在高速公路上至少提前200英尺打轉向燈。",
+          "explanation_zh": "在市区转弯前至少提前100英尺打转向灯，在高速公路上至少提前200英尺打转向灯。",
           "tags": []
         },
         {
@@ -683,6 +704,7 @@
           "answer": "C",
           "explanation_en": "Signal at least 200 feet before turning on highways.",
           "explanation_zhHant": "在高速公路上至少提前200英尺打轉向燈。",
+          "explanation_zh": "在高速公路上至少提前200英尺打转向灯。",
           "tags": []
         },
         {
@@ -714,6 +736,7 @@
           "answer": "D",
           "explanation_en": "The four zones of awareness are: Green (ahead), Blue (sides), Yellow (blind spots — areas not visible in mirrors), and Red (behind). The Yellow zone requires shoulder checks before changing lanes.",
           "explanation_zhHant": "四個意識區域為：綠色（前方）、藍色（兩側）、黃色（盲區——後視鏡中看不到的區域）和紅色（後方）。黃色區域需要在變道前轉頭檢查。",
+          "explanation_zh": "四个意识区域为：绿色（前方）、蓝色（两侧）、黄色（盲区——后视镜中看不到的区域）和红色（后方）。黄色区域需要在变道前转头检查。",
           "tags": ["blind-spots"]
         },
         {
@@ -745,6 +768,7 @@
           "answer": "B",
           "explanation_en": "Carbon monoxide is an odorless, colorless, and deadly gas. Never start or run your engine in a closed garage, as carbon monoxide can build up and cause death.",
           "explanation_zhHant": "一氧化碳是一種無色、無味且致命的氣體。永遠不要在封閉的車庫中啟動或運行引擎，因為一氧化碳會積聚並導致死亡。",
+          "explanation_zh": "一氧化碳是一种无色、无味且致命的气体。永远不要在封闭的车库中启动或运行引擎，因为一氧化碳会积聚并导致死亡。",
           "tags": []
         },
         {
@@ -760,6 +784,7 @@
           "answer": "B",
           "explanation_en": "When hazards are on both sides, give more space to the most dangerous situation.",
           "explanation_zhHant": "當兩側都有危險時，給最危險的情況留出更多空間。",
+          "explanation_zh": "当两侧都有危险时，给最危险的情况留出更多空间。",
           "tags": ["hazard-avoidance"]
         }
       ]
@@ -796,6 +821,7 @@
           "answer": "B",
           "explanation_en": "When entering a freeway, use the on-ramp to accelerate to the speed of freeway traffic (or close to it) before merging.",
           "explanation_zhHant": "駛入高速公路時，利用入口匝道加速到接近高速公路車流速度後再匯入。",
+          "explanation_zh": "驶入高速公路时，利用入口匝道加速到接近高速公路车流速度后再汇入。",
           "tags": []
         },
         {
@@ -827,6 +853,7 @@
           "answer": "C",
           "explanation_en": "When exiting the freeway, signal and move into the exit lane well in advance. Do not slow down until you are in the exit lane or deceleration lane.",
           "explanation_zhHant": "駛出高速公路時，提前打燈並駛入出口車道。在進入出口車道或減速車道之前不要減速。",
+          "explanation_zh": "驶出高速公路时，提前打灯并驶入出口车道。在进入出口车道或减速车道之前不要减速。",
           "tags": []
         },
         {
@@ -858,6 +885,7 @@
           "answer": "C",
           "explanation_en": "If you miss your freeway exit, do not stop, back up, or try to cross the median. Continue to the next exit.",
           "explanation_zhHant": "如果錯過高速公路出口，不要停車、倒車或試圖穿越中央隔離帶。繼續行駛到下一個出口。",
+          "explanation_zh": "如果错过高速公路出口，不要停车、倒车或试图穿越中央隔离带。继续行驶到下一个出口。",
           "tags": []
         },
         {
@@ -889,6 +917,7 @@
           "answer": "C",
           "explanation_en": "The minimum speed on most California freeways is 45 mph (unless posted otherwise or conditions require slower speeds).",
           "explanation_zhHant": "加州大多數高速公路的最低限速為45英里/小時（除非另有標示或路況需要降低速度）。",
+          "explanation_zh": "加州大多数高速公路的最低限速为45英里/小时（除非另有标示或路况需要降低速度）。",
           "tags": []
         },
         {
@@ -920,6 +949,7 @@
           "answer": "B",
           "explanation_en": "Do not stop on the freeway on-ramp unless traffic is already stopped. Merge into traffic at or near the speed of traffic.",
           "explanation_zhHant": "除非車流已經停止，否則不要在高速公路入口匝道上停車。以接近車流速度匯入。",
+          "explanation_zh": "除非车流已经停止，否则不要在高速公路入口匝道上停车。以接近车流速度汇入。",
           "tags": []
         },
         {
@@ -935,6 +965,7 @@
           "answer": "B",
           "explanation_en": "FSP provides free gas, jump starts, flat tire changes, and reports collisions to CHP. Call 511 for information.",
           "explanation_zhHant": "FSP提供免費汽油、啟動電瓶、更換漏氣輪胎，並向CHP報告碰撞事故。撥打511了解信息。",
+          "explanation_zh": "FSP提供免费汽油、启动电瓶、更换漏气轮胎，并向CHP报告碰撞事故。拨打511了解信息。",
           "tags": ["fsp", "chp"]
         }
       ]

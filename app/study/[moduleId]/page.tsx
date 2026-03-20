@@ -28,6 +28,7 @@ interface Section {
   id: string;
   titleEn: string;
   titleZh: string;
+  titleZhHant?: string;
   knowledgePoints: KnowledgePoint[];
 }
 
@@ -35,6 +36,7 @@ interface ModuleContent {
   moduleId: string;
   titleEn: string;
   titleZh: string;
+  titleZhHant?: string;
   sections: Section[];
 }
 
@@ -55,7 +57,7 @@ function getImagesForPoint(point: KnowledgePoint): ImageMapping[] {
   return images;
 }
 
-function ImageGallery({ images }: { images: ImageMapping[] }) {
+function ImageGallery({ images, hideZh }: { images: ImageMapping[]; hideZh?: boolean }) {
   if (images.length === 0) return null;
   return (
     <div className="mt-3 flex flex-wrap gap-3">
@@ -65,7 +67,7 @@ function ImageGallery({ images }: { images: ImageMapping[] }) {
           {img.caption && (
             <figcaption className="border-t border-border bg-white px-3 py-1.5 text-center">
               <p className="text-xs font-medium text-text-dark">{img.caption}</p>
-              {img.captionZh && <p className="text-xs text-text-gray">{img.captionZh}</p>}
+              {!hideZh && img.captionZh && <p className="text-xs text-text-gray">{img.captionZh}</p>}
             </figcaption>
           )}
         </figure>
@@ -74,7 +76,7 @@ function ImageGallery({ images }: { images: ImageMapping[] }) {
   );
 }
 
-function SectionHeaderImages({ sectionKey }: { sectionKey: string }) {
+function SectionHeaderImages({ sectionKey, hideZh }: { sectionKey: string; hideZh?: boolean }) {
   const images = sectionImages[sectionKey];
   if (!images || images.length === 0) return null;
   return (
@@ -85,7 +87,7 @@ function SectionHeaderImages({ sectionKey }: { sectionKey: string }) {
           {img.caption && (
             <figcaption className="mt-2 text-center">
               <p className="text-sm font-medium text-text-dark">{img.caption}</p>
-              {img.captionZh && <p className="text-xs text-text-gray">{img.captionZh}</p>}
+              {!hideZh && img.captionZh && <p className="text-xs text-text-gray">{img.captionZh}</p>}
             </figcaption>
           )}
         </figure>
@@ -189,7 +191,7 @@ export default function ModuleLearningPage() {
 
   // Lock guard
   if (!isModuleUnlocked(moduleId)) {
-    return <LockedPage title={moduleMeta.titleEn} titleZh={moduleMeta.titleZh} />;
+    return <LockedPage title={moduleMeta.titleEn} titleZh={languageMode !== "en_only" ? moduleMeta.titleZh : undefined} />;
   }
 
   return (
@@ -203,7 +205,7 @@ export default function ModuleLearningPage() {
             </svg>
           </Link>
           <p className="min-w-0 flex-1 truncate text-sm font-medium text-text-dark">
-            {moduleMeta.icon} {moduleMeta.titleEn}
+            {moduleMeta.icon} {languageMode === "zhHant_zhHans" ? moduleMeta.titleZhHant : moduleMeta.titleEn}
           </p>
           {hasCollapsible && (
             <button
@@ -232,7 +234,7 @@ export default function ModuleLearningPage() {
                   : "bg-gray-100 text-text-gray hover:bg-gray-200"
               }`}
             >
-              {idx + 1}. {section.titleEn}
+              {idx + 1}. {languageMode === "zhHant_zhHans" ? (section.titleZhHant || section.titleZh) : section.titleEn}
             </button>
           ))}
         </div>
@@ -247,8 +249,8 @@ export default function ModuleLearningPage() {
             </svg>
             {t("module.allModules")}
           </Link>
-          <h2 className="text-sm font-semibold text-text-dark">{moduleMeta.icon} {moduleMeta.titleEn}</h2>
-          <p className="mb-4 text-xs text-text-gray">{moduleMeta.titleZh}</p>
+          <h2 className="text-sm font-semibold text-text-dark">{moduleMeta.icon} {languageMode === "zhHant_zhHans" ? moduleMeta.titleZhHant : moduleMeta.titleEn}</h2>
+          {languageMode !== "en_only" && <p className="mb-4 text-xs text-text-gray">{moduleMeta.titleZh}</p>}
           {content?.sections.map((section) => (
             <button
               key={section.id}
@@ -259,7 +261,7 @@ export default function ModuleLearningPage() {
                   : "text-text-gray hover:bg-gray-50 hover:text-text-dark"
               }`}
             >
-              <span className="font-mono text-xs">{section.id}</span> {section.titleEn}
+              <span className="font-mono text-xs">{section.id}</span> {languageMode === "zhHant_zhHans" ? (section.titleZhHant || section.titleZh) : section.titleEn}
             </button>
           ))}
         </div>
@@ -270,8 +272,8 @@ export default function ModuleLearningPage() {
         {/* Desktop header */}
         <div className="mb-6 hidden items-center justify-between lg:flex">
           <div>
-            <h1 className="text-2xl font-bold text-text-dark">{currentSection?.titleEn}</h1>
-            <p className="text-sm text-text-gray">{currentSection?.titleZh}</p>
+            <h1 className="text-2xl font-bold text-text-dark">{languageMode === "zhHant_zhHans" ? (currentSection?.titleZhHant || currentSection?.titleZh) : currentSection?.titleEn}</h1>
+            {languageMode !== "en_only" && <p className="text-sm text-text-gray">{currentSection?.titleZh}</p>}
           </div>
           {hasCollapsible && (
             <button
@@ -289,11 +291,11 @@ export default function ModuleLearningPage() {
 
         {/* Mobile section title */}
         <div className="mb-4 lg:hidden">
-          <h1 className="text-lg font-bold text-text-dark">{currentSection?.titleEn}</h1>
-          <p className="text-xs text-text-gray">{currentSection?.titleZh}</p>
+          <h1 className="text-lg font-bold text-text-dark">{languageMode === "zhHant_zhHans" ? (currentSection?.titleZhHant || currentSection?.titleZh) : currentSection?.titleEn}</h1>
+          {languageMode !== "en_only" && <p className="text-xs text-text-gray">{currentSection?.titleZh}</p>}
         </div>
 
-        <SectionHeaderImages sectionKey={sectionKey} />
+        <SectionHeaderImages sectionKey={sectionKey} hideZh={languageMode === "en_only"} />
 
         {/* Knowledge Points */}
         {!content ? (
@@ -319,7 +321,7 @@ export default function ModuleLearningPage() {
                     <div className="flex-1 min-w-0">
                       <p className="text-sm leading-relaxed text-text-dark md:text-base">{main}</p>
 
-                      <ImageGallery images={pointImages} />
+                      <ImageGallery images={pointImages} hideZh={languageMode === "en_only"} />
 
                       {/* Collapsible secondary language */}
                       {collapsible && (
@@ -367,12 +369,12 @@ export default function ModuleLearningPage() {
           {prevSection ? (
             <button onClick={() => handleSectionChange(prevSection.id)} className="flex items-center gap-2 text-sm font-medium text-primary hover:underline">
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
-              {prevSection.titleEn}
+              {languageMode === "zhHant_zhHans" ? (prevSection.titleZhHant || prevSection.titleZh) : prevSection.titleEn}
             </button>
           ) : <div />}
           {nextSection ? (
             <button onClick={handleNextSection} className="flex items-center gap-2 text-sm font-medium text-primary hover:underline">
-              {nextSection.titleEn}
+              {languageMode === "zhHant_zhHans" ? (nextSection.titleZhHant || nextSection.titleZh) : nextSection.titleEn}
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
             </button>
           ) : (

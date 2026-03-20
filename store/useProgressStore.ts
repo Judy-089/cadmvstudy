@@ -12,6 +12,7 @@ import {
   type TestResult,
   type QuizResultData,
 } from "@/lib/firestore";
+import { modules } from "@/data/modules";
 
 interface ProgressState {
   // Data
@@ -122,9 +123,12 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
 
   getOverallPercent: () => {
     const mp = get().moduleProgress;
-    const modules = Object.values(mp);
-    if (modules.length === 0) return 0;
-    const completed = modules.filter((m) => m.status === "completed").length;
-    return Math.round((completed / 11) * 100); // 11 base modules
+    const moduleIds = new Set(modules.map((m) => m.id));
+    const totalModules = modules.length;
+    // Only count modules that still exist in the current module list
+    const completed = Object.values(mp).filter(
+      (m) => m.status === "completed" && moduleIds.has(m.moduleId)
+    ).length;
+    return Math.min(100, Math.round((completed / totalModules) * 100));
   },
 }));

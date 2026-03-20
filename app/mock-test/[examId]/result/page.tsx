@@ -48,6 +48,8 @@ function ResultContent() {
 
   const [rawExam, setRawExam] = useState<ExamData | null>(null);
   const [showExplanations, setShowExplanations] = useState(false);
+  const [flaggedIds, setFlaggedIds] = useState<Set<string>>(new Set());
+  const storeQuestions = useWrongQuestionStore((s) => s.questions);
 
   useEffect(() => {
     import(`@/data/exams/${examId}.json`)
@@ -228,6 +230,36 @@ function ResultContent() {
                       </div>
                     );
                   })()}
+                  {/* Flag as Uncertain button */}
+                  <div className="mt-3 border-t border-border pt-2">
+                    {flaggedIds.has(q.id) || storeQuestions[q.id]?.flaggedUnknown ? (
+                      <span className="text-xs font-medium text-text-gray">✓ Flagged 已標記</span>
+                    ) : (
+                      <button
+                        onClick={() => {
+                          const flagQ = useWrongQuestionStore.getState().flagQuestion;
+                          flagQ({
+                            questionId: q.id,
+                            source: "mock" as const,
+                            sourceId: examId,
+                            moduleId: q.module,
+                            correctAnswer: q.answer,
+                          });
+                          setFlaggedIds((prev) => new Set(prev).add(q.id));
+                          if (user) {
+                            const storeQ = useWrongQuestionStore.getState().questions[q.id];
+                            if (storeQ) saveWrongQuestion(user.uid, storeQ).catch(() => {});
+                          }
+                        }}
+                        className="text-xs font-medium text-amber-600 hover:text-amber-700 transition-colors"
+                      >
+                        🚩 Flag as Uncertain 標記為不確定
+                      </button>
+                    )}
+                    <p className="mt-0.5 text-[10px] text-text-gray">
+                      Even if correct, this will be added to Mistake Review 即使答對也會加入錯題本
+                    </p>
+                  </div>
                 </div>
               </div>
             );

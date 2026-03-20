@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useT } from "@/lib/useT";
+import { Footer } from "@/components/Footer";
 import { useRequireSession } from "@/lib/useRequireSession";
 import { useUILanguageStore } from "@/store/useUILanguageStore";
 
@@ -22,79 +23,198 @@ const visaOptions: { id: VisaType; label: string }[] = [
   { id: "f2", label: "F-2" },
 ];
 
+interface VisaDocItem {
+  en: string;
+  zhHant: string;
+  zhHans: string;
+}
+
 interface VisaInfo {
-  docs: string[];
-  extraDocs: string[];
+  docs: VisaDocItem[];
+  extraDocs: VisaDocItem[];
   validity: string;
 }
 
 const visaData: Record<VisaType, VisaInfo> = {
   citizen: {
-    docs: ["U.S. Passport / Birth Certificate / Naturalization Certificate", "SSN", "2 CA residency documents"],
-    extraDocs: ["Name change docs (if applicable)"],
+    docs: [
+      { en: "U.S. Passport / Birth Certificate / Naturalization Certificate", zhHant: "美國護照 / 出生證明 / 入籍證書", zhHans: "美国护照 / 出生证明 / 入籍证书" },
+      { en: "SSN", zhHant: "SSN 社會安全號碼", zhHans: "SSN 社会安全号码" },
+      { en: "2 CA residency documents", zhHant: "2份加州居住證明", zhHans: "2份加州居住证明" },
+    ],
+    extraDocs: [
+      { en: "Name change docs (if applicable)", zhHant: "更名文件（如適用）", zhHans: "更名文件（如适用）" },
+    ],
     validity: "~5 years",
   },
   pr: {
-    docs: ["Valid Green Card", "SSN", "2 CA residency documents"],
-    extraDocs: ["I-797/I-797C (if extension pending)", "Name change docs (if applicable)"],
+    docs: [
+      { en: "Valid Green Card", zhHant: "有效綠卡", zhHans: "有效绿卡" },
+      { en: "SSN", zhHant: "SSN 社會安全號碼", zhHans: "SSN 社会安全号码" },
+      { en: "2 CA residency documents", zhHant: "2份加州居住證明", zhHans: "2份加州居住证明" },
+    ],
+    extraDocs: [
+      { en: "I-797/I-797C (if extension pending)", zhHant: "I-797/I-797C（如延期申請中）", zhHans: "I-797/I-797C（如延期申请中）" },
+      { en: "Name change docs (if applicable)", zhHant: "更名文件（如適用）", zhHans: "更名文件（如适用）" },
+    ],
     validity: "~5 years",
   },
   f1: {
-    docs: ["Valid Passport", "Valid F-1 Visa", "Approved I-94", "I-20", "2 CA residency documents"],
-    extraDocs: ["SSN (if you have one)", "Name change docs (if applicable)"],
+    docs: [
+      { en: "Valid Passport", zhHant: "有效護照", zhHans: "有效护照" },
+      { en: "Valid F-1 Visa", zhHant: "有效F-1簽證", zhHans: "有效F-1签证" },
+      { en: "I-94 (printed)", zhHant: "I-94（已打印）", zhHans: "I-94（已打印）" },
+      { en: "I-20", zhHant: "I-20", zhHans: "I-20" },
+      { en: "2 CA residency documents", zhHant: "2份加州居住證明", zhHans: "2份加州居住证明" },
+    ],
+    extraDocs: [
+      { en: "SSN (if you have one)", zhHant: "SSN（如果有）", zhHans: "SSN（如果有）" },
+      { en: "Name change docs (if applicable)", zhHant: "更名文件（如適用）", zhHans: "更名文件（如适用）" },
+    ],
     validity: "Tied to legal status",
   },
   j1: {
-    docs: ["Valid Passport", "Valid J-1 Visa", "Approved I-94", "DS-2019", "2 CA residency documents"],
-    extraDocs: ["SSN (if you have one)", "Name change docs (if applicable)"],
+    docs: [
+      { en: "Valid Passport", zhHant: "有效護照", zhHans: "有效护照" },
+      { en: "Valid J-1 Visa", zhHant: "有效J-1簽證", zhHans: "有效J-1签证" },
+      { en: "I-94 (printed)", zhHant: "I-94（已打印）", zhHans: "I-94（已打印）" },
+      { en: "DS-2019", zhHant: "DS-2019", zhHans: "DS-2019" },
+      { en: "2 CA residency documents", zhHant: "2份加州居住證明", zhHans: "2份加州居住证明" },
+    ],
+    extraDocs: [
+      { en: "SSN (if you have one)", zhHant: "SSN（如果有）", zhHans: "SSN（如果有）" },
+      { en: "Name change docs (if applicable)", zhHant: "更名文件（如適用）", zhHans: "更名文件（如适用）" },
+    ],
     validity: "Tied to legal status",
   },
   h1b: {
-    docs: ["Valid Passport", "Valid H-1B Visa", "Approved I-94", "I-797 Approval Notice", "SSN", "2 CA residency documents"],
-    extraDocs: ["Name change docs (if applicable)"],
+    docs: [
+      { en: "Valid Passport", zhHant: "有效護照", zhHans: "有效护照" },
+      { en: "Valid H-1B Visa", zhHant: "有效H-1B簽證", zhHans: "有效H-1B签证" },
+      { en: "I-94 (printed)", zhHant: "I-94（已打印）", zhHans: "I-94（已打印）" },
+      { en: "I-797 Approval Notice", zhHant: "I-797批准通知", zhHans: "I-797批准通知" },
+      { en: "SSN", zhHant: "SSN 社會安全號碼", zhHans: "SSN 社会安全号码" },
+      { en: "2 CA residency documents", zhHant: "2份加州居住證明", zhHans: "2份加州居住证明" },
+    ],
+    extraDocs: [
+      { en: "Name change docs (if applicable)", zhHant: "更名文件（如適用）", zhHans: "更名文件（如适用）" },
+    ],
     validity: "Tied to legal status",
   },
   l1: {
-    docs: ["Valid Passport", "Valid L-1 Visa", "Approved I-94", "I-797 Approval Notice", "SSN", "2 CA residency documents"],
-    extraDocs: ["Name change docs (if applicable)"],
+    docs: [
+      { en: "Valid Passport", zhHant: "有效護照", zhHans: "有效护照" },
+      { en: "Valid L-1 Visa", zhHant: "有效L-1簽證", zhHans: "有效L-1签证" },
+      { en: "I-94 (printed)", zhHant: "I-94（已打印）", zhHans: "I-94（已打印）" },
+      { en: "I-797 Approval Notice", zhHant: "I-797批准通知", zhHans: "I-797批准通知" },
+      { en: "SSN", zhHant: "SSN 社會安全號碼", zhHans: "SSN 社会安全号码" },
+      { en: "2 CA residency documents", zhHant: "2份加州居住證明", zhHans: "2份加州居住证明" },
+    ],
+    extraDocs: [
+      { en: "Name change docs (if applicable)", zhHant: "更名文件（如適用）", zhHans: "更名文件（如适用）" },
+    ],
     validity: "Tied to legal status",
   },
   o1: {
-    docs: ["Valid Passport", "Valid O-1 Visa", "Approved I-94", "I-797 Approval Notice", "SSN", "2 CA residency documents"],
-    extraDocs: ["Name change docs (if applicable)"],
+    docs: [
+      { en: "Valid Passport", zhHant: "有效護照", zhHans: "有效护照" },
+      { en: "Valid O-1 Visa", zhHant: "有效O-1簽證", zhHans: "有效O-1签证" },
+      { en: "I-94 (printed)", zhHant: "I-94（已打印）", zhHans: "I-94（已打印）" },
+      { en: "I-797 Approval Notice", zhHant: "I-797批准通知", zhHans: "I-797批准通知" },
+      { en: "SSN", zhHant: "SSN 社會安全號碼", zhHans: "SSN 社会安全号码" },
+      { en: "2 CA residency documents", zhHant: "2份加州居住證明", zhHans: "2份加州居住证明" },
+    ],
+    extraDocs: [
+      { en: "Name change docs (if applicable)", zhHant: "更名文件（如適用）", zhHans: "更名文件（如适用）" },
+    ],
     validity: "Tied to legal status",
   },
   h4: {
-    docs: ["Valid Passport", "Valid H-4 Visa", "Approved I-94", "Spouse's H-1B approval copy", "2 CA residency documents"],
-    extraDocs: ["EAD (if you have one)", "SSN (if you have one)", "Name change docs (if applicable)"],
+    docs: [
+      { en: "Valid Passport", zhHant: "有效護照", zhHans: "有效护照" },
+      { en: "Valid H-4 Visa", zhHant: "有效H-4簽證", zhHans: "有效H-4签证" },
+      { en: "I-94 (printed)", zhHant: "I-94（已打印）", zhHans: "I-94（已打印）" },
+      { en: "Spouse's H-1B approval copy", zhHant: "配偶的H-1B批准文件副本", zhHans: "配偶的H-1B批准文件副本" },
+      { en: "2 CA residency documents", zhHant: "2份加州居住證明", zhHans: "2份加州居住证明" },
+    ],
+    extraDocs: [
+      { en: "EAD (if you have one)", zhHant: "EAD工作許可（如果有）", zhHans: "EAD工作许可（如果有）" },
+      { en: "SSN (if you have one)", zhHant: "SSN（如果有）", zhHans: "SSN（如果有）" },
+      { en: "Name change docs (if applicable)", zhHant: "更名文件（如適用）", zhHans: "更名文件（如适用）" },
+    ],
     validity: "Tied to legal status",
   },
   l2: {
-    docs: ["Valid Passport", "Valid L-2 Visa", "Approved I-94", "Spouse's L-1 approval copy", "2 CA residency documents"],
-    extraDocs: ["EAD (if you have one)", "SSN (if you have one)", "Name change docs (if applicable)"],
+    docs: [
+      { en: "Valid Passport", zhHant: "有效護照", zhHans: "有效护照" },
+      { en: "Valid L-2 Visa", zhHant: "有效L-2簽證", zhHans: "有效L-2签证" },
+      { en: "I-94 (printed)", zhHant: "I-94（已打印）", zhHans: "I-94（已打印）" },
+      { en: "Spouse's L-1 approval copy", zhHant: "配偶的L-1批准文件副本", zhHans: "配偶的L-1批准文件副本" },
+      { en: "2 CA residency documents", zhHant: "2份加州居住證明", zhHans: "2份加州居住证明" },
+    ],
+    extraDocs: [
+      { en: "EAD (if you have one)", zhHant: "EAD工作許可（如果有）", zhHans: "EAD工作许可（如果有）" },
+      { en: "SSN (if you have one)", zhHant: "SSN（如果有）", zhHans: "SSN（如果有）" },
+      { en: "Name change docs (if applicable)", zhHant: "更名文件（如適用）", zhHans: "更名文件（如适用）" },
+    ],
     validity: "Tied to legal status",
   },
   o3: {
-    docs: ["Valid Passport", "Valid O-3 Visa", "Approved I-94", "Spouse's O-1 approval copy", "2 CA residency documents"],
-    extraDocs: ["SSN (if you have one)", "Name change docs (if applicable)"],
+    docs: [
+      { en: "Valid Passport", zhHant: "有效護照", zhHans: "有效护照" },
+      { en: "Valid O-3 Visa", zhHant: "有效O-3簽證", zhHans: "有效O-3签证" },
+      { en: "I-94 (printed)", zhHant: "I-94（已打印）", zhHans: "I-94（已打印）" },
+      { en: "Spouse's O-1 approval copy", zhHant: "配偶的O-1批准文件副本", zhHans: "配偶的O-1批准文件副本" },
+      { en: "2 CA residency documents", zhHant: "2份加州居住證明", zhHans: "2份加州居住证明" },
+    ],
+    extraDocs: [
+      { en: "SSN (if you have one)", zhHant: "SSN（如果有）", zhHans: "SSN（如果有）" },
+      { en: "Name change docs (if applicable)", zhHant: "更名文件（如適用）", zhHans: "更名文件（如适用）" },
+    ],
     validity: "Tied to legal status",
   },
   j2: {
-    docs: ["Valid Passport", "Valid J-2 Visa", "Approved I-94", "Your own DS-2019", "2 CA residency documents"],
-    extraDocs: ["SSN (if you have one)", "Name change docs (if applicable)"],
+    docs: [
+      { en: "Valid Passport", zhHant: "有效護照", zhHans: "有效护照" },
+      { en: "Valid J-2 Visa", zhHant: "有效J-2簽證", zhHans: "有效J-2签证" },
+      { en: "I-94 (printed)", zhHant: "I-94（已打印）", zhHans: "I-94（已打印）" },
+      { en: "Your own DS-2019", zhHant: "您本人的DS-2019", zhHans: "您本人的DS-2019" },
+      { en: "2 CA residency documents", zhHant: "2份加州居住證明", zhHans: "2份加州居住证明" },
+    ],
+    extraDocs: [
+      { en: "SSN (if you have one)", zhHant: "SSN（如果有）", zhHans: "SSN（如果有）" },
+      { en: "Name change docs (if applicable)", zhHant: "更名文件（如適用）", zhHans: "更名文件（如适用）" },
+    ],
     validity: "Tied to legal status",
   },
   f2: {
-    docs: ["Valid Passport", "Valid F-2 Visa", "Approved I-94", "Your own I-20", "2 CA residency documents"],
-    extraDocs: ["Spouse's F-1 docs (if available)", "SSN (if you have one)", "Name change docs (if applicable)"],
+    docs: [
+      { en: "Valid Passport", zhHant: "有效護照", zhHans: "有效护照" },
+      { en: "Valid F-2 Visa", zhHant: "有效F-2簽證", zhHans: "有效F-2签证" },
+      { en: "I-94 (printed)", zhHant: "I-94（已打印）", zhHans: "I-94（已打印）" },
+      { en: "Your own I-20", zhHant: "您本人的I-20", zhHans: "您本人的I-20" },
+      { en: "2 CA residency documents", zhHant: "2份加州居住證明", zhHans: "2份加州居住证明" },
+    ],
+    extraDocs: [
+      { en: "Spouse's F-1 docs (if available)", zhHant: "配偶的F-1文件（如有）", zhHans: "配偶的F-1文件（如有）" },
+      { en: "SSN (if you have one)", zhHant: "SSN（如果有）", zhHans: "SSN（如果有）" },
+      { en: "Name change docs (if applicable)", zhHant: "更名文件（如適用）", zhHans: "更名文件（如适用）" },
+    ],
     validity: "Tied to legal status",
   },
 };
+
+// Visa types that need the dual-passport tip (everyone except citizen and pr)
+const needsPassportTip = (visa: VisaType) => visa !== "citizen" && visa !== "pr";
 
 // Trilingual content helper
 type Lang = "en" | "zhHant" | "zhHans";
 function tri(en: string, zhHant: string, zhHans: string, lang: Lang) {
   return lang === "zhHant" ? zhHant : lang === "zhHans" ? zhHans : en;
+}
+
+function triDoc(doc: VisaDocItem, lang: Lang) {
+  return lang === "zhHant" ? doc.zhHant : lang === "zhHans" ? doc.zhHans : doc.en;
 }
 
 const stepsData = [
@@ -236,10 +356,10 @@ export default function GuidePage() {
                               {visaLabel.label} — {tri("Required Documents", "必帶材料", "必带材料", lang)}
                             </p>
                             <div className="mt-3 space-y-1.5">
-                              {visa.docs.map((doc) => (
-                                <div key={doc} className="flex items-start gap-2 text-sm">
+                              {visa.docs.map((doc, dIdx) => (
+                                <div key={dIdx} className="flex items-start gap-2 text-sm">
                                   <span className="mt-0.5 text-primary">&#10003;</span>
-                                  <span className="text-text-dark font-medium">{doc}</span>
+                                  <span className="text-text-dark font-medium">{triDoc(doc, lang)}</span>
                                 </div>
                               ))}
                             </div>
@@ -250,15 +370,64 @@ export default function GuidePage() {
                                   {tri("Optional / If Applicable", "可選/如適用", "可选/如适用", lang)}
                                 </p>
                                 <div className="space-y-1">
-                                  {visa.extraDocs.map((doc) => (
-                                    <div key={doc} className="flex items-start gap-2 text-xs">
+                                  {visa.extraDocs.map((doc, dIdx) => (
+                                    <div key={dIdx} className="flex items-start gap-2 text-xs">
                                       <span className="mt-0.5 text-text-gray">-</span>
-                                      <span className="text-text-gray">{doc}</span>
+                                      <span className="text-text-gray">{triDoc(doc, lang)}</span>
                                     </div>
                                   ))}
                                 </div>
                               </div>
                             )}
+
+                            {/* Dual passport tip for non-citizen/non-PR visa types */}
+                            {needsPassportTip(selectedVisa) && (
+                              <div className="mt-3 border-t border-primary/10 pt-3">
+                                <div className="flex items-start gap-2 text-xs">
+                                  <span className="text-amber-500 mt-0.5">⚠️</span>
+                                  <span className="text-amber-700 font-medium">
+                                    {tri(
+                                      "If your passport with the U.S. visa has expired and you got a new passport, bring BOTH passports — the old one with the visa stamp and your new valid passport.",
+                                      "如果您貼有美國簽證的護照已過期並已換新護照，請攜帶兩本護照 — 含有美國簽證的舊護照和新的有效護照。",
+                                      "如果您贴有美国签证的护照已过期并已换新护照，请携带两本护照 — 含有美国签证的旧护照和新的有效护照。",
+                                      lang
+                                    )}
+                                  </span>
+                                </div>
+                              </div>
+                            )}
+
+                            {/* I-94 printing instruction */}
+                            {needsPassportTip(selectedVisa) && (
+                              <div className="mt-3 border-t border-primary/10 pt-3">
+                                <div className="flex items-start gap-2 text-xs">
+                                  <span className="text-primary mt-0.5">💡</span>
+                                  <span className="text-text-dark">
+                                    {tri(
+                                      "I-94: Go to i94.cbp.dhs.gov, look up your record, then use the \"Print\" button at the bottom-right of the page to print your most recent I-94.",
+                                      "I-94：前往 i94.cbp.dhs.gov 查詢您的記錄，然後使用頁面右下角的「Print」按鈕打印您最近一次的I-94。",
+                                      "I-94：前往 i94.cbp.dhs.gov 查询您的记录，然后使用页面右下角的「Print」按钮打印您最近一次的I-94。",
+                                      lang
+                                    )}
+                                  </span>
+                                </div>
+                              </div>
+                            )}
+
+                            {/* Non-REAL ID residency note */}
+                            <div className="mt-3 border-t border-primary/10 pt-3">
+                              <div className="flex items-start gap-2 text-xs">
+                                <span className="text-primary mt-0.5">📌</span>
+                                <span className="text-text-dark">
+                                  {tri(
+                                    "If not applying for REAL ID, only 1 CA residency document is accepted. However, we recommend bringing extras in case any document is rejected.",
+                                    "如果不申請REAL ID，只需1份加州居住證明即可。但建議多帶幾份，以防文件不符合要求。",
+                                    "如果不申请REAL ID，只需1份加州居住证明即可。但建议多带几份，以防文件不符合要求。",
+                                    lang
+                                  )}
+                                </span>
+                              </div>
+                            </div>
 
                             <div className="mt-3 flex flex-wrap gap-3 border-t border-primary/10 pt-3 text-xs">
                               <span className="text-success font-medium">REAL ID: {tri("Eligible", "可申請", "可申请", lang)}</span>
@@ -268,10 +437,17 @@ export default function GuidePage() {
 
                           <div className="mt-3">
                             <p className="text-xs font-medium text-text-dark">
-                              {tri("Accepted Address Proofs (need 2):", "可接受的地址證明（需2份）：", "可接受的地址证明（需2份）：", lang)}
+                              {tri("Accepted Address Proofs (need 2 for REAL ID):", "可接受的地址證明（REAL ID需2份）：", "可接受的地址证明（REAL ID需2份）：", lang)}
                             </p>
                             <div className="mt-1.5 flex flex-wrap gap-1">
-                              {["Lease", "Bank Statement", "Phone Bill", "Insurance", "School Housing", "Utility Bill"].map((item) => (
+                              {[
+                                tri("Lease", "租約", "租约", lang),
+                                tri("Bank Statement", "銀行帳單", "银行账单", lang),
+                                tri("Phone Bill", "電話帳單", "电话账单", lang),
+                                tri("Insurance", "保險", "保险", lang),
+                                tri("School Housing", "學校住宿", "学校住宿", lang),
+                                tri("Utility Bill", "水電帳單", "水电账单", lang),
+                              ].map((item) => (
                                 <span key={item} className="rounded-full bg-gray-100 px-2.5 py-0.5 text-[11px] text-text-gray">{item}</span>
                               ))}
                             </div>
@@ -279,15 +455,106 @@ export default function GuidePage() {
                         </div>
                       )}
 
+                      {/* Step 3: Visit DMV Office tips — with Get in Line info */}
                       {step.num === 3 && (
-                        <div className="mt-3 rounded-lg bg-warning-light/50 border border-warning/20 px-4 py-3 text-xs">
-                          <p className="font-semibold text-warning">{tri("Tips:", "提示：", "提示：", lang)}</p>
-                          <ul className="mt-1 space-y-0.5 text-text-light">
-                            <li>* {tri("Schedule an appointment — walk-in waits are unpredictable", "預約辦理 — 現場排隊時間不可預測", "预约办理 — 现场排队时间不可预测", lang)}</li>
-                            <li>* {tri("Go weekday mornings for shortest wait", "工作日早上去等待最短", "工作日早上去等待最短", lang)}</li>
-                            <li>* {tri("Written test closes after 4:30 PM", "筆試下午4:30後停止", "笔试下午4:30后停止", lang)}</li>
-                            <li>* {tri("Knowledge test: 36Q (18+) / 46Q (under 18), need 83%", "筆試：36題（18+）/ 46題（未滿18），需83%", "笔试：36题（18+）/ 46题（未满18），需83%", lang)}</li>
-                          </ul>
+                        <div className="mt-3 space-y-3">
+                          <div className="rounded-lg bg-warning-light/50 border border-warning/20 px-4 py-3 text-xs">
+                            <p className="font-semibold text-warning">{tri("Tips:", "提示：", "提示：", lang)}</p>
+                            <ul className="mt-1 space-y-0.5 text-text-light">
+                              <li>* {tri("Schedule an appointment — walk-in waits are unpredictable", "預約辦理 — 現場排隊時間不可預測", "预约办理 — 现场排队时间不可预测", lang)}</li>
+                              <li>* {tri("Go weekday mornings for shortest wait", "工作日早上去等待最短", "工作日早上去等待最短", lang)}</li>
+                              <li>* {tri("Written test closes after 4:30 PM", "筆試下午4:30後停止", "笔试下午4:30后停止", lang)}</li>
+                              <li>* {tri("Knowledge test: 36Q (18+) / 46Q (under 18), need 83%", "筆試：36題（18+）/ 46題（未滿18），需83%", "笔试：36题（18+）/ 46题（未满18），需83%", lang)}</li>
+                            </ul>
+                          </div>
+
+                          {/* Get in Line feature */}
+                          <div className="rounded-lg bg-primary-light/40 border border-primary/20 px-4 py-3 text-xs">
+                            <p className="font-semibold text-primary">
+                              {tri("📱 DMV \"Get in Line\" — Virtual Queuing", "📱 DMV「Get in Line」— 線上虛擬排隊", "📱 DMV「Get in Line」— 线上虚拟排队", lang)}
+                            </p>
+                            <div className="mt-2 space-y-1.5 text-text-light">
+                              <p>
+                                {tri(
+                                  "Can't get an appointment? No worries! Many DMV offices offer \"Get in Line\" — a virtual queuing system that lets you join the line remotely before arriving.",
+                                  "約不到預約？不用擔心！許多DMV辦公室提供「Get in Line」— 線上虛擬排隊系統，讓您在到達前遠程排隊。",
+                                  "约不到预约？不用担心！许多DMV办公室提供「Get in Line」— 线上虚拟排队系统，让您在到达前远程排队。",
+                                  lang
+                                )}
+                              </p>
+                              <p className="font-medium text-text-dark">
+                                {tri("How it works:", "使用方式：", "使用方式：", lang)}
+                              </p>
+                              <ul className="space-y-0.5 ml-2">
+                                <li>1. {tri(
+                                  "Visit the DMV appointment page and select \"Get in Line\"",
+                                  "前往DMV預約頁面，選擇「Get in Line」",
+                                  "前往DMV预约页面，选择「Get in Line」",
+                                  lang
+                                )}</li>
+                                <li>2. {tri(
+                                  "Choose your DMV location and service type",
+                                  "選擇DMV地點和辦理類型",
+                                  "选择DMV地点和办理类型",
+                                  lang
+                                )}</li>
+                                <li>3. {tri(
+                                  "You'll get a mobile ticket with estimated wait time",
+                                  "您將獲得一個手機電子票，顯示預估等待時間",
+                                  "您将获得一个手机电子票，显示预估等待时间",
+                                  lang
+                                )}</li>
+                                <li>4. {tri(
+                                  "Receive SMS notifications when it's almost your turn",
+                                  "快到您時會收到短信通知",
+                                  "快到您时会收到短信通知",
+                                  lang
+                                )}</li>
+                                <li>5. {tri(
+                                  "Arrive at the DMV when notified — no need to wait in person!",
+                                  "收到通知後再到場 — 不用現場等待！",
+                                  "收到通知后再到场 — 不用现场等待！",
+                                  lang
+                                )}</li>
+                              </ul>
+                              <div className="mt-2 rounded-md bg-white/60 border border-primary/10 px-3 py-2">
+                                <p className="font-medium text-text-dark">
+                                  {tri("⚠️ Important notes:", "⚠️ 注意事項：", "⚠️ 注意事项：", lang)}
+                                </p>
+                                <ul className="mt-1 space-y-0.5">
+                                  <li>• {tri("Same-day only — cannot queue for a future date", "僅限當天 — 不能預約未來日期", "仅限当天 — 不能预约未来日期", lang)}</li>
+                                  <li>• {tri("Available during specific hours (usually opens at 8 AM)", "在特定時段開放（通常早上8點開始）", "在特定时段开放（通常早上8点开始）", lang)}</li>
+                                  <li>• {tri("Not available at all DMV locations", "並非所有DMV地點都提供此服務", "并非所有DMV地点都提供此服务", lang)}</li>
+                                  <li>• {tri("Slots fill up quickly — try early in the morning", "名額很快就滿 — 建議一早就排", "名额很快就满 — 建议一早就排", lang)}</li>
+                                </ul>
+                              </div>
+                              <a
+                                href="https://www.dmv.ca.gov/portal/appointments/select-appointment-type"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="mt-2 inline-flex items-center gap-1.5 rounded-lg bg-primary px-3 py-1.5 text-xs font-semibold text-white shadow-sm hover:bg-primary/90 transition-colors"
+                              >
+                                {tri("Go to DMV Get in Line →", "前往DMV線上排隊 →", "前往DMV线上排队 →", lang)}
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Step 5: Practice Driving — behind-the-wheel coming soon */}
+                      {step.num === 5 && (
+                        <div className="mt-3 rounded-lg bg-primary-light/40 border border-primary/20 px-4 py-3 text-xs">
+                          <div className="flex items-start gap-2">
+                            <span className="text-primary mt-0.5">🚗</span>
+                            <span className="text-text-dark font-medium">
+                              {tri(
+                                "Behind-the-wheel test preparation feature coming soon! Stay tuned.",
+                                "路考（Behind-the-wheel test）預先準備功能即將上線！敬請期待。",
+                                "路考（Behind-the-wheel test）预先准备功能即将上线！敬请期待。",
+                                lang
+                              )}
+                            </span>
+                          </div>
                         </div>
                       )}
 
@@ -355,7 +622,7 @@ export default function GuidePage() {
           {[
             tri("Online application started (save confirmation code)", "已開始在線申請（保存確認碼）", "已开始在线申请（保存确认码）", lang),
             tri("Passport (valid, not expired)", "護照（有效期內）", "护照（有效期内）", lang),
-            tri("Visa + I-94 printed", "簽證 + I-94已打印", "签证 + I-94已打印", lang),
+            tri("Visa + I-94 printed (use Print button at bottom-right of I-94 page)", "簽證 + I-94已打印（使用I-94頁面右下角Print按鈕）", "签证 + I-94已打印（使用I-94页面右下角Print按钮）", lang),
             tri("Program document (I-20 / DS-2019 / I-797)", "項目文件（I-20 / DS-2019 / I-797）", "项目文件（I-20 / DS-2019 / I-797）", lang),
             tri("2 address proof documents", "2份地址證明文件", "2份地址证明文件", lang),
             tri("SSN card (if you have one)", "SSN卡（如果有）", "SSN卡（如果有）", lang),
@@ -401,11 +668,7 @@ export default function GuidePage() {
         </div>
       </div>
 
-      {/* Footer */}
-      <div className="mt-8 border-t border-border pt-6 text-center text-xs text-text-gray">
-        <p>{tri("Based on CA DMV official sources, March 2026.", "基於加州DMV官方來源，2026年3月。", "基于加州DMV官方来源，2026年3月。", lang)}</p>
-        <p className="mt-1">{tri("Always verify with dmv.ca.gov for the latest requirements.", "請以dmv.ca.gov最新要求為準。", "请以dmv.ca.gov最新要求为准。", lang)}</p>
-      </div>
+      <Footer />
     </div>
   );
 }

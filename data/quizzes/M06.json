@@ -33,6 +33,7 @@
           "answer": "C",
           "explanation_en": "When parallel parking on a level road next to a curb, your wheels must be within 18 inches of the curb.",
           "explanation_zhHant": "在平坦道路上靠路緣平行停車時，車輪必須距離路緣18英寸以內。",
+          "explanation_zh": "在平坦道路上靠路缘平行停车时，车轮必须距离路缘18英寸以内。",
           "tags": [
             "parallel-parking"
           ]
@@ -66,6 +67,7 @@
           "answer": "B",
           "explanation_en": "Always set the parking brake when parking. Leave the vehicle in gear (manual) or Park (automatic).",
           "explanation_zhHant": "停車時務必拉上手剎。手動擋掛入擋位，自動擋掛入P擋。",
+          "explanation_zh": "停车时务必拉上手刹。手动挡挂入挡位，自动挡挂入P挡。",
           "tags": []
         },
         {
@@ -97,6 +99,7 @@
           "answer": "B",
           "explanation_en": "The Dutch Reach method means opening the door with the hand farthest from it, which naturally causes you to turn and look behind you for approaching traffic.",
           "explanation_zhHant": "荷蘭式開門法是用離車門較遠的手開門，這樣自然會轉身向後看是否有接近的車輛。",
+          "explanation_zh": "荷兰式开门法是用离车门较远的手开门，这样自然会转身向后看是否有接近的车辆。",
           "tags": []
         },
         {
@@ -128,6 +131,7 @@
           "answer": "B",
           "explanation_en": "Never leave children or animals unattended in a parked vehicle.",
           "explanation_zhHant": "不要將兒童或動物單獨留在停放的車輛中。",
+          "explanation_zh": "不要将儿童或动物单独留在停放的车辆中。",
           "tags": []
         },
         {
@@ -159,6 +163,7 @@
           "answer": "B",
           "explanation_en": "Look carefully for motorcycles, bicycles, and pedestrians before opening your door on the traffic side.",
           "explanation_zhHant": "在靠近車流一側開車門前，仔細觀察是否有摩托車、自行車和行人。",
+          "explanation_zh": "在靠近车流一侧开车门前，仔细观察是否有摩托车、自行车和行人。",
           "tags": []
         },
         {
@@ -190,6 +195,7 @@
           "answer": "B",
           "explanation_en": "To parallel park: pull up alongside the car in front of the empty space, signal, check mirrors and blind spots, then slowly back into the space while turning the steering wheel toward the curb.",
           "explanation_zhHant": "平行停車步驟：駛至前方車輛旁邊，打轉向燈，檢查後視鏡和盲區，然後慢慢倒車並轉動方向盤朝向路緣，駛入車位。",
+          "explanation_zh": "平行停车步骤：驶至前方车辆旁边，打转向灯，检查后视镜和盲区，然后慢慢倒车并转动方向盘朝向路缘，驶入车位。",
           "tags": ["parallel-parking"]
         }
       ]
@@ -226,9 +232,8 @@
           "answer": "B",
           "explanation_en": "When parking uphill with a curb, turn your front wheels away from the curb (left). If the car rolls, it will roll into the curb and stop.",
           "explanation_zhHant": "上坡有路緣停車時，將前輪向遠離路緣的方向（左邊）轉。如果車輛滑動，會滾向路緣而停下。",
-          "tags": [
-            "parking-hill"
-          ]
+          "explanation_zh": "上坡有路缘停车时，将前轮向远离路缘的方向（左边）转。如果车辆滑动，会滚向路缘而停下。",
+          "tags": []
         },
         {
           "id": "M06-S02-Q02",
@@ -259,9 +264,8 @@
           "answer": "B",
           "explanation_en": "When parking downhill with a curb, turn your front wheels toward the curb (right). If the car rolls, it will roll into the curb.",
           "explanation_zhHant": "下坡有路緣停車時，將前輪向路緣方向（右邊）轉。如果車輛滑動，會滾向路緣而停下。",
-          "tags": [
-            "parking-hill"
-          ]
+          "explanation_zh": "下坡有路缘停车时，将前轮向路缘方向（右边）转。如果车辆滑动，会滚向路缘而停下。",
+          "tags": []
         },
         {
           "id": "M06-S02-Q03",
@@ -292,9 +296,8 @@
           "answer": "B",
           "explanation_en": "When parking on a hill with no curb (uphill or downhill), turn your wheels to the right so the car will roll off the road if it moves.",
           "explanation_zhHant": "在沒有路緣的坡道上停車（無論上坡還是下坡），將前輪向右轉，車輛滑動時會駛離道路。",
-          "tags": [
-            "parking-hill"
-          ]
+          "explanation_zh": "在没有路缘的坡道上停车（无论上坡还是下坡），将前轮向右转，车辆滑动时会驶离道路。",
+          "tags": []
         },
         {
           "id": "M06-S02-Q04",
@@ -325,9 +328,8 @@
           "answer": "C",
           "explanation_en": "With wheels turned correctly (away from curb when uphill), the car will roll backward into the curb and stop safely.",
           "explanation_zhHant": "如果車輪轉向正確（上坡時遠離路緣），車輛會向後滾向路緣而安全停下。",
-          "tags": [
-            "parking-hill"
-          ]
+          "explanation_zh": "如果车轮转向正确（上坡时远离路缘），车辆会向后滚向路缘而安全停下。",
+          "tags": []
         },
         {
           "id": "M06-S02-Q05",
@@ -358,9 +360,8 @@
           "answer": "B",
           "explanation_en": "For manual transmission, leave in reverse when parked facing downhill, and first gear when facing uphill.",
           "explanation_zhHant": "手動擋車輛下坡時掛倒擋，上坡時掛一擋。",
-          "tags": [
-            "parking-hill"
-          ]
+          "explanation_zh": "手动挡车辆下坡时挂倒挡，上坡时挂一挡。",
+          "tags": []
         }
       ]
     },
@@ -396,6 +397,7 @@
           "answer": "C",
           "explanation_en": "Do not park within 15 feet of a fire hydrant.",
           "explanation_zhHant": "不得在消防栓15英尺範圍內停車。",
+          "explanation_zh": "不得在消防栓15英尺范围内停车。",
           "tags": []
         },
         {
@@ -427,6 +429,7 @@
           "answer": "C",
           "explanation_en": "Double parking is always illegal.",
           "explanation_zhHant": "雙排停車任何時候都是違法的。",
+          "explanation_zh": "双排停车任何时候都是违法的。",
           "tags": []
         },
         {
@@ -458,6 +461,7 @@
           "answer": "B",
           "explanation_en": "Do not park within 7.5 feet of a railroad track.",
           "explanation_zhHant": "不得在鐵軌7.5英尺範圍內停車。",
+          "explanation_zh": "不得在铁轨7.5英尺范围内停车。",
           "tags": []
         },
         {
@@ -489,6 +493,7 @@
           "answer": "B",
           "explanation_en": "Never park in a marked or unmarked crosswalk, on a sidewalk, in front of a driveway, or next to a red curb.",
           "explanation_zhHant": "不得在標記或未標記的人行橫道、人行道上、車道入口前或紅色路緣旁停車。",
+          "explanation_zh": "不得在标记或未标记的人行横道、人行道上、车道入口前或红色路缘旁停车。",
           "tags": []
         },
         {
@@ -520,6 +525,7 @@
           "answer": "B",
           "explanation_en": "Do not park on a freeway except in an emergency.",
           "explanation_zhHant": "除緊急情況外不得在高速公路上停車。",
+          "explanation_zh": "除紧急情况外不得在高速公路上停车。",
           "tags": []
         },
         {
@@ -551,6 +557,7 @@
           "answer": "C",
           "explanation_en": "Do not park within 20 feet of a crosswalk. Parking too close blocks the view for both drivers and pedestrians.",
           "explanation_zhHant": "不得在人行橫道20英尺範圍內停車。停車太近會阻擋駕駛員和行人的視線。",
+          "explanation_zh": "不得在人行横道20英尺范围内停车。停车太近会阻挡驾驶员和行人的视线。",
           "tags": []
         },
         {
@@ -582,6 +589,7 @@
           "answer": "C",
           "explanation_en": "You must not park within 15 feet of a fire hydrant. Fire trucks need quick access to hydrants in emergencies.",
           "explanation_zhHant": "不得在消防栓15英尺範圍內停車。消防車在緊急情況下需要快速使用消防栓。",
+          "explanation_zh": "不得在消防栓15英尺范围内停车。消防车在紧急情况下需要快速使用消防栓。",
           "tags": []
         }
       ]
@@ -618,6 +626,7 @@
           "answer": "B",
           "explanation_en": "A white curb means stop only long enough to pick up or drop off passengers or mail.",
           "explanation_zhHant": "白色路緣僅允許短暫停車以上下乘客或收取郵件。",
+          "explanation_zh": "白色路缘仅允许短暂停车以上下乘客或收取邮件。",
           "tags": [
             "colored-curbs"
           ]
@@ -651,6 +660,7 @@
           "answer": "C",
           "explanation_en": "A green curb means you may park for a limited time. Check the curb or sign for the time limit.",
           "explanation_zhHant": "綠色路緣為限時停車。查看路緣上的標誌或標記了解限時時間。",
+          "explanation_zh": "绿色路缘为限时停车。查看路缘上的标志或标记了解限时时间。",
           "tags": [
             "colored-curbs"
           ]
@@ -684,6 +694,7 @@
           "answer": "B",
           "explanation_en": "At a yellow curb, stop only long enough to load or unload. The driver of a noncommercial vehicle must stay with the vehicle.",
           "explanation_zhHant": "黃色路緣僅允許短暫停車以裝卸貨物。非商業車輛駕駛員必須留在車內。",
+          "explanation_zh": "黄色路缘仅允许短暂停车以装卸货物。非商业车辆驾驶员必须留在车内。",
           "tags": [
             "colored-curbs"
           ]
@@ -717,6 +728,7 @@
           "answer": "C",
           "explanation_en": "A red curb means no stopping, standing, or parking at any time.",
           "explanation_zhHant": "紅色路緣任何時候不得停車、站立或停放。",
+          "explanation_zh": "红色路缘任何时候不得停车、站立或停放。",
           "tags": [
             "colored-curbs"
           ]
@@ -750,6 +762,7 @@
           "answer": "C",
           "explanation_en": "A blue curb is reserved for parking by disabled persons or drivers of disabled persons with a proper placard or special license plate.",
           "explanation_zhHant": "藍色路緣僅允許持有有效殘疾人標牌或特殊車牌的殘疾人或其駕駛員停車。",
+          "explanation_zh": "蓝色路缘仅允许持有有效残疾人标牌或特殊车牌的残疾人或其驾驶员停车。",
           "tags": [
             "colored-curbs"
           ]

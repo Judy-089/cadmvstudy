@@ -2,13 +2,13 @@
   "moduleId": "M00",
   "titleEn": "Licensing Requirements",
   "titleZh": "驾照申请要求",
-  "titleZhHant": "駕駛執照申請要求",
+  "titleZhHant": "駕照申請要求",
   "sections": [
     {
       "id": "S01",
       "titleEn": "Driver License Classes",
       "titleZh": "驾照类别",
-      "titleZhHant": "駕駛執照類別",
+      "titleZhHant": "駕照類別",
       "knowledgePoints": [
         {
           "id": "M00-S01-K01",
@@ -84,7 +84,7 @@
       "id": "S02",
       "titleEn": "Applying for a Driver License",
       "titleZh": "申请驾照流程",
-      "titleZhHant": "申請駕駛執照流程",
+      "titleZhHant": "申請駕照流程",
       "knowledgePoints": [
         {
           "id": "M00-S02-K01",
@@ -207,7 +207,7 @@
       "id": "S03",
       "titleEn": "Provisional Licenses for Minors",
       "titleZh": "未成年人临时驾照",
-      "titleZhHant": "未成年人臨時駕駛執照",
+      "titleZhHant": "未成年人臨時駕照",
       "knowledgePoints": [
         {
           "id": "M00-S03-K01",
@@ -281,7 +281,7 @@
       "id": "S04",
       "titleEn": "License Renewal and Senior Drivers",
       "titleZh": "驾照续期与老年驾驶员",
-      "titleZhHant": "駕駛執照續期與老年駕駛員",
+      "titleZhHant": "駕照續期與老年駕駛員",
       "knowledgePoints": [
         {
           "id": "M00-S04-K01",
@@ -344,7 +344,7 @@
       "id": "S05",
       "titleEn": "Driver License Suspensions and Revocations",
       "titleZh": "驾照暂停与吊销",
-      "titleZhHant": "駕駛執照暫停與吊銷",
+      "titleZhHant": "駕照暫停與吊銷",
       "knowledgePoints": [
         {
           "id": "M00-S05-K01",

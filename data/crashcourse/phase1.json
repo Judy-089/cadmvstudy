@@ -1,0 +1,550 @@
+{
+  "phaseId": 1,
+  "title_en": "Number Memory Training",
+  "title_zh": "数字速记训练",
+  "title_zhHant": "數字速記訓練",
+  "estimatedMinutes": 20,
+  "groups": [
+    {
+      "id": "bac",
+      "title_en": "BAC Alcohol Levels",
+      "title_zh": "BAC 酒精浓度",
+      "title_zhHant": "BAC 酒精濃度",
+      "estimatedMinutes": 3,
+      "cards": [
+        {
+          "number": "0.01%",
+          "rules": [
+            { "en": "Drivers under 21: illegal at 0.01% BAC", "zh": "21岁以下 → 0.01% 即违法", "zhHant": "21歲以下 → 0.01% 即違法" },
+            { "en": "Drivers on DUI probation: illegal at 0.01% BAC", "zh": "DUI缓刑期 → 0.01% 即违法", "zhHant": "DUI緩刑期 → 0.01% 即違法" }
+          ]
+        },
+        {
+          "number": "0.04%",
+          "rules": [
+            { "en": "Commercial drivers or carrying paid passengers", "zh": "商业驾照/载客 → 0.04% 即违法", "zhHant": "商業駕照/載客 → 0.04% 即違法" }
+          ]
+        },
+        {
+          "number": "0.08%",
+          "rules": [
+            { "en": "Regular drivers 21 and over", "zh": "21岁以上普通驾驶人 → 0.08% 即违法", "zhHant": "21歲以上普通駕駛人 → 0.08% 即違法" }
+          ]
+        }
+      ],
+      "mnemonic_en": "1-1-4-8: Under 21/Probation 0.01, Commercial 0.04, Regular 0.08",
+      "mnemonic_zh": "口诀：1-1-4-8（未成年/缓刑 0.01，商业 0.04，普通 0.08）",
+      "mnemonic_zhHant": "口訣：1-1-4-8（未成年/緩刑 0.01，商業 0.04，普通 0.08）",
+      "questions": [
+        {
+          "id": "CC-P1-BAC-Q01",
+          "stem_en": "What is the legal BAC limit for drivers under 21 in California?",
+          "stem_zh": "加州21岁以下驾驶人的合法BAC上限是多少？",
+          "stem_zhHant": "加州21歲以下駕駛人的合法BAC上限是多少？",
+          "options": [
+            { "key": "A", "text_en": "0.04%", "text_zh": "0.04%", "text_zhHant": "0.04%" },
+            { "key": "B", "text_en": "0.08%", "text_zh": "0.08%", "text_zhHant": "0.08%" },
+            { "key": "C", "text_en": "0.01%", "text_zh": "0.01%", "text_zhHant": "0.01%" },
+            { "key": "D", "text_en": "0.02%", "text_zh": "0.02%", "text_zhHant": "0.02%" }
+          ],
+          "answer": "C",
+          "explanation_en": "Under California's zero-tolerance law, drivers under 21 face penalties at a BAC of just 0.01%.",
+          "explanation_zh": "加州对21岁以下驾驶人实行零容忍政策，BAC达到0.01%即违法。",
+          "explanation_zhHant": "加州對21歲以下駕駛人實行零容忍政策，BAC達到0.01%即違法。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-BAC-Q02",
+          "stem_en": "A commercial driver operating a vehicle with passengers can be cited for DUI at a BAC of:",
+          "stem_zh": "商业驾驶人载客时，BAC达到多少即可被判DUI？",
+          "stem_zhHant": "商業駕駛人載客時，BAC達到多少即可被判DUI？",
+          "options": [
+            { "key": "A", "text_en": "0.08%", "text_zh": "0.08%", "text_zhHant": "0.08%" },
+            { "key": "B", "text_en": "0.06%", "text_zh": "0.06%", "text_zhHant": "0.06%" },
+            { "key": "C", "text_en": "0.04%", "text_zh": "0.04%", "text_zhHant": "0.04%" },
+            { "key": "D", "text_en": "0.01%", "text_zh": "0.01%", "text_zhHant": "0.01%" }
+          ],
+          "answer": "C",
+          "explanation_en": "Commercial drivers or those carrying paid passengers are held to a stricter 0.04% BAC standard.",
+          "explanation_zh": "商业驾照或载付费乘客时，BAC标准为0.04%。",
+          "explanation_zhHant": "商業駕照或載付費乘客時，BAC標準為0.04%。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-BAC-Q03",
+          "stem_en": "A driver on DUI probation is subject to the same BAC limit as:",
+          "stem_zh": "DUI缓刑期的驾驶人适用与哪类驾驶人相同的BAC标准？",
+          "stem_zhHant": "DUI緩刑期的駕駛人適用與哪類駕駛人相同的BAC標準？",
+          "options": [
+            { "key": "A", "text_en": "A commercial driver (0.04%)", "text_zh": "商业驾驶人 (0.04%)", "text_zhHant": "商業駕駛人 (0.04%)" },
+            { "key": "B", "text_en": "A regular driver over 21 (0.08%)", "text_zh": "21岁以上普通驾驶人 (0.08%)", "text_zhHant": "21歲以上普通駕駛人 (0.08%)" },
+            { "key": "C", "text_en": "A driver under 21 (0.01%)", "text_zh": "21岁以下驾驶人 (0.01%)", "text_zhHant": "21歲以下駕駛人 (0.01%)" },
+            { "key": "D", "text_en": "There is no limit during probation", "text_zh": "缓刑期没有限制", "text_zhHant": "緩刑期沒有限制" }
+          ],
+          "answer": "C",
+          "explanation_en": "Drivers on DUI probation share the same 0.01% BAC threshold as under-21 drivers.",
+          "explanation_zh": "DUI缓刑期的BAC标准和21岁以下相同，都是0.01%。",
+          "explanation_zhHant": "DUI緩刑期的BAC標準和21歲以下相同，都是0.01%。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-BAC-Q04",
+          "stem_en": "How long does a DUI conviction remain on your driving record in California?",
+          "stem_zh": "在加州，DUI定罪记录会在驾驶记录上保留多长时间？",
+          "stem_zhHant": "在加州，DUI定罪記錄會在駕駛記錄上保留多長時間？",
+          "options": [
+            { "key": "A", "text_en": "3 years", "text_zh": "3年", "text_zhHant": "3年" },
+            { "key": "B", "text_en": "5 years", "text_zh": "5年", "text_zhHant": "5年" },
+            { "key": "C", "text_en": "7 years", "text_zh": "7年", "text_zhHant": "7年" },
+            { "key": "D", "text_en": "10 years", "text_zh": "10年", "text_zhHant": "10年" }
+          ],
+          "answer": "D",
+          "explanation_en": "A DUI conviction stays on your California driving record for 10 years.",
+          "explanation_zh": "DUI记录在加州驾驶记录上保留10年。",
+          "explanation_zhHant": "DUI記錄在加州駕駛記錄上保留10年。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-BAC-Q05",
+          "stem_en": "What is the maximum jail time for a first-time DUI offense in California?",
+          "stem_zh": "加州初犯DUI的最长监禁时间是多久？",
+          "stem_zhHant": "加州初犯DUI的最長監禁時間是多久？",
+          "options": [
+            { "key": "A", "text_en": "30 days", "text_zh": "30天", "text_zhHant": "30天" },
+            { "key": "B", "text_en": "6 months", "text_zh": "6个月", "text_zhHant": "6個月" },
+            { "key": "C", "text_en": "1 year", "text_zh": "1年", "text_zhHant": "1年" },
+            { "key": "D", "text_en": "2 years", "text_zh": "2年", "text_zhHant": "2年" }
+          ],
+          "answer": "B",
+          "explanation_en": "A first-time DUI offense carries a maximum penalty of 6 months in county jail.",
+          "explanation_zh": "初犯DUI最高面临6个月监禁。",
+          "explanation_zhHant": "初犯DUI最高面臨6個月監禁。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "speed",
+      "title_en": "Speed Limits",
+      "title_zh": "速度限制",
+      "title_zhHant": "速度限制",
+      "estimatedMinutes": 3,
+      "cards": [
+        { "number": "5 mph", "rules": [{ "en": "Max speed on icy roads", "zh": "结冰路面 ≤ 5mph", "zhHant": "結冰路面 ≤ 5mph" }] },
+        { "number": "15 mph", "rules": [{ "en": "Blind intersections, alleys; near railroad crossing when view blocked within 400 ft", "zh": "盲区路口/小巷 15mph；铁路看不清400英尺 → 15mph", "zhHant": "盲區路口/小巷 15mph；鐵路看不清400英尺 → 15mph" }] },
+        { "number": "25 mph", "rules": [{ "en": "School zone (within 500 ft with children); business/residential districts", "zh": "学区（500英尺内有儿童）25mph；商业/住宅区 25mph", "zhHant": "學區（500英尺內有兒童）25mph；商業/住宅區 25mph" }] },
+        { "number": "30 mph", "rules": [{ "en": "Heavy rain/snow when visibility is under 100 ft", "zh": "大雨雪能见度<100英尺 → ≤30mph", "zhHant": "大雨雪能見度<100英尺 → ≤30mph" }] },
+        { "number": "55 mph", "rules": [{ "en": "Two-lane undivided highways; towing trailers", "zh": "双向两车道/拖拽拖车 55mph", "zhHant": "雙向兩車道/拖曳拖車 55mph" }] },
+        { "number": "65 mph", "rules": [{ "en": "Freeway ideal speed", "zh": "高速理想限速 65mph", "zhHant": "高速理想限速 65mph" }] }
+      ],
+      "mnemonic_en": "5-ice, 15-blind, 25-school, 30-fog, 55-tow, 65-freeway",
+      "mnemonic_zh": "口诀：5冰-15盲-25校-30雾-55拖-65高速",
+      "mnemonic_zhHant": "口訣：5冰-15盲-25校-30霧-55拖-65高速",
+      "questions": [
+        {
+          "id": "CC-P1-SPD-Q01",
+          "stem_en": "What is the maximum speed limit in a residential district?",
+          "stem_zh": "住宅区的最高限速是多少？",
+          "stem_zhHant": "住宅區的最高限速是多少？",
+          "options": [
+            { "key": "A", "text_en": "15 mph", "text_zh": "15 mph", "text_zhHant": "15 mph" },
+            { "key": "B", "text_en": "20 mph", "text_zh": "20 mph", "text_zhHant": "20 mph" },
+            { "key": "C", "text_en": "25 mph", "text_zh": "25 mph", "text_zhHant": "25 mph" },
+            { "key": "D", "text_en": "30 mph", "text_zh": "30 mph", "text_zhHant": "30 mph" }
+          ],
+          "answer": "C",
+          "explanation_en": "The speed limit in residential and business districts is 25 mph unless otherwise posted.",
+          "explanation_zh": "住宅区和商业区限速25mph，除非另有标识。",
+          "explanation_zhHant": "住宅區和商業區限速25mph，除非另有標識。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-SPD-Q02",
+          "stem_en": "When driving near a railroad crossing and you cannot see clearly for 400 feet in both directions, you must:",
+          "stem_zh": "在铁路道口附近行驶且无法看清两侧400英尺时，你必须：",
+          "stem_zhHant": "在鐵路道口附近行駛且無法看清兩側400英尺時，你必須：",
+          "options": [
+            { "key": "A", "text_en": "Stop completely", "text_zh": "完全停车", "text_zhHant": "完全停車" },
+            { "key": "B", "text_en": "Slow down to 15 mph or less", "text_zh": "减速至15 mph或以下", "text_zhHant": "減速至15 mph或以下" },
+            { "key": "C", "text_en": "Honk your horn and proceed", "text_zh": "按喇叭后继续行驶", "text_zhHant": "按喇叭後繼續行駛" },
+            { "key": "D", "text_en": "Speed up to cross quickly", "text_zh": "加速快速通过", "text_zhHant": "加速快速通過" }
+          ],
+          "answer": "B",
+          "explanation_en": "If you cannot see 400 feet in both directions at an uncontrolled railroad crossing, reduce speed to 15 mph or less.",
+          "explanation_zh": "无信号铁路道口看不清两侧400英尺 → 降至15mph以下。",
+          "explanation_zhHant": "無信號鐵路道口看不清兩側400英尺 → 降至15mph以下。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-SPD-Q03",
+          "stem_en": "When driving in heavy rain and visibility is less than 100 feet, you should not drive faster than:",
+          "stem_zh": "大雨中行驶且能见度不足100英尺时，最高不应超过：",
+          "stem_zhHant": "大雨中行駛且能見度不足100英尺時，最高不應超過：",
+          "options": [
+            { "key": "A", "text_en": "15 mph", "text_zh": "15 mph", "text_zhHant": "15 mph" },
+            { "key": "B", "text_en": "25 mph", "text_zh": "25 mph", "text_zhHant": "25 mph" },
+            { "key": "C", "text_en": "30 mph", "text_zh": "30 mph", "text_zhHant": "30 mph" },
+            { "key": "D", "text_en": "45 mph", "text_zh": "45 mph", "text_zhHant": "45 mph" }
+          ],
+          "answer": "C",
+          "explanation_en": "When visibility drops below 100 feet due to rain, fog, or dust, do not exceed 30 mph.",
+          "explanation_zh": "大雨/雾/沙尘能见度不足100英尺 → 不超过30mph。",
+          "explanation_zhHant": "大雨/霧/沙塵能見度不足100英尺 → 不超過30mph。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-SPD-Q04",
+          "stem_en": "The maximum speed limit when towing a trailer on a two-lane undivided highway is:",
+          "stem_zh": "在双车道非分隔公路上拖拽拖车的最高限速是：",
+          "stem_zhHant": "在雙車道非分隔公路上拖曳拖車的最高限速是：",
+          "options": [
+            { "key": "A", "text_en": "45 mph", "text_zh": "45 mph", "text_zhHant": "45 mph" },
+            { "key": "B", "text_en": "50 mph", "text_zh": "50 mph", "text_zhHant": "50 mph" },
+            { "key": "C", "text_en": "55 mph", "text_zh": "55 mph", "text_zhHant": "55 mph" },
+            { "key": "D", "text_en": "65 mph", "text_zh": "65 mph", "text_zhHant": "65 mph" }
+          ],
+          "answer": "C",
+          "explanation_en": "On two-lane undivided highways, or when towing a trailer, the speed limit is 55 mph.",
+          "explanation_zh": "双车道非分隔公路或拖拽拖车限速55mph。",
+          "explanation_zhHant": "雙車道非分隔公路或拖曳拖車限速55mph。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-SPD-Q05",
+          "stem_en": "You should not exceed ___ mph on icy roads.",
+          "stem_zh": "结冰路面上你不应超过___mph。",
+          "stem_zhHant": "結冰路面上你不應超過___mph。",
+          "options": [
+            { "key": "A", "text_en": "5", "text_zh": "5", "text_zhHant": "5" },
+            { "key": "B", "text_en": "10", "text_zh": "10", "text_zhHant": "10" },
+            { "key": "C", "text_en": "15", "text_zh": "15", "text_zhHant": "15" },
+            { "key": "D", "text_en": "25", "text_zh": "25", "text_zhHant": "25" }
+          ],
+          "answer": "A",
+          "explanation_en": "On icy roads, do not exceed 5 mph. On wet roads, reduce speed by 5-10 mph.",
+          "explanation_zh": "结冰路面不超5mph；湿滑路面降速5-10mph。",
+          "explanation_zhHant": "結冰路面不超5mph；濕滑路面降速5-10mph。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "distance",
+      "title_en": "Distance (Feet)",
+      "title_zh": "距离（英尺）",
+      "title_zhHant": "距離（英尺）",
+      "estimatedMinutes": 3,
+      "cards": [
+        { "number": "3 ft", "rules": [{ "en": "Min passing distance for bicycles; parallel parking +3ft; disability ramp 3ft no parking", "zh": "超车自行车 ≥3英尺；平行泊车位+3英尺；残疾坡道3英尺禁停", "zhHant": "超車自行車 ≥3英尺；平行泊車位+3英尺；殘疾坡道3英尺禁停" }] },
+        { "number": "15 ft", "rules": [{ "en": "No parking within 15 ft of fire hydrant, railroad tracks, or crosswalk with curb extension", "zh": "消防栓/铁轨/有延伸人行道 15英尺禁停", "zhHant": "消防栓/鐵軌/有延伸人行道 15英尺禁停" }] },
+        { "number": "18 in", "rules": [{ "en": "Parallel parking: wheels within 18 inches of curb", "zh": "平行泊车车轮距路缘 ≤18英寸", "zhHant": "平行泊車車輪距路緣 ≤18英寸" }] },
+        { "number": "20 ft", "rules": [{ "en": "No parking within 20 ft of crosswalk (no curb extension)", "zh": "无延伸人行横道20英尺禁停", "zhHant": "無延伸人行橫道20英尺禁停" }] },
+        { "number": "100 ft", "rules": [{ "en": "No passing within 100 ft of intersection/bridge/tunnel; signal turns 100 ft ahead", "zh": "路口等100英尺禁超车；转弯提前100英尺打灯", "zhHant": "路口等100英尺禁超車；轉彎提前100英尺打燈" }] },
+        { "number": "300 ft", "rules": [{ "en": "Follow emergency vehicle ≥300 ft; dim headlights following within 300 ft; passenger car braking at 55mph = 300 ft", "zh": "跟紧急车辆≥300英尺；近光跟车300英尺；客车55mph刹车300英尺", "zhHant": "跟緊急車輛≥300英尺；近光跟車300英尺；客車55mph剎車300英尺" }] },
+        { "number": "400 ft", "rules": [{ "en": "Signal 5 sec (~400 ft) before freeway exit; truck braking at 55mph = 400 ft", "zh": "高速出口提前400英尺打灯；卡车55mph刹车400英尺", "zhHant": "高速出口提前400英尺打燈；卡車55mph剎車400英尺" }] },
+        { "number": "500 ft", "rules": [{ "en": "School zone with children = 25 mph; dim for oncoming within 500 ft", "zh": "学区500英尺限25mph；会车500英尺切近光", "zhHant": "學區500英尺限25mph；會車500英尺切近光" }] },
+        { "number": "1000 ft", "rules": [{ "en": "Turn on headlights when can't see objects 1000 ft ahead", "zh": "看不清前方1000英尺 → 开大灯", "zhHant": "看不清前方1000英尺 → 開大燈" }] }
+      ],
+      "mnemonic_en": "Compare: Fire hydrant 15ft vs Crosswalk 20ft (with extension 15ft); Car braking 300ft vs Truck 400ft",
+      "mnemonic_zh": "对比：消防栓15ft vs 人行横道20ft（有延伸15ft）；客车刹车300ft vs 卡车400ft",
+      "mnemonic_zhHant": "對比：消防栓15ft vs 人行橫道20ft（有延伸15ft）；客車剎車300ft vs 卡車400ft",
+      "questions": [
+        {
+          "id": "CC-P1-DIST-Q01",
+          "stem_en": "When passing a bicyclist, you must maintain a minimum distance of:",
+          "stem_zh": "超越自行车时，你必须保持至少多少距离？",
+          "stem_zhHant": "超越自行車時，你必須保持至少多少距離？",
+          "options": [
+            { "key": "A", "text_en": "2 feet", "text_zh": "2英尺", "text_zhHant": "2英尺" },
+            { "key": "B", "text_en": "3 feet", "text_zh": "3英尺", "text_zhHant": "3英尺" },
+            { "key": "C", "text_en": "4 feet", "text_zh": "4英尺", "text_zhHant": "4英尺" },
+            { "key": "D", "text_en": "5 feet", "text_zh": "5英尺", "text_zhHant": "5英尺" }
+          ],
+          "answer": "B",
+          "explanation_en": "California law requires at least 3 feet of clearance when passing a bicyclist.",
+          "explanation_zh": "加州法律要求超越自行车时保持至少3英尺距离。",
+          "explanation_zhHant": "加州法律要求超越自行車時保持至少3英尺距離。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-DIST-Q02",
+          "stem_en": "You should not park within ___ feet of a fire hydrant.",
+          "stem_zh": "你不应在消防栓___英尺内停车。",
+          "stem_zhHant": "你不應在消防栓___英尺內停車。",
+          "options": [
+            { "key": "A", "text_en": "10", "text_zh": "10", "text_zhHant": "10" },
+            { "key": "B", "text_en": "15", "text_zh": "15", "text_zhHant": "15" },
+            { "key": "C", "text_en": "20", "text_zh": "20", "text_zhHant": "20" },
+            { "key": "D", "text_en": "25", "text_zh": "25", "text_zhHant": "25" }
+          ],
+          "answer": "B",
+          "explanation_en": "Do not park within 15 feet of a fire hydrant.",
+          "explanation_zh": "消防栓15英尺内禁停。",
+          "explanation_zhHant": "消防栓15英尺內禁停。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-DIST-Q03",
+          "stem_en": "When approaching an intersection with a crosswalk (no curb extension), you must not park within:",
+          "stem_zh": "在无路缘延伸的人行横道旁，你不得在___英尺内停车：",
+          "stem_zhHant": "在無路緣延伸的人行橫道旁，你不得在___英尺內停車：",
+          "options": [
+            { "key": "A", "text_en": "10 feet", "text_zh": "10英尺", "text_zhHant": "10英尺" },
+            { "key": "B", "text_en": "15 feet", "text_zh": "15英尺", "text_zhHant": "15英尺" },
+            { "key": "C", "text_en": "20 feet", "text_zh": "20英尺", "text_zhHant": "20英尺" },
+            { "key": "D", "text_en": "25 feet", "text_zh": "25英尺", "text_zhHant": "25英尺" }
+          ],
+          "answer": "C",
+          "explanation_en": "No parking within 20 feet of a regular crosswalk. If there is a curb extension (bulb-out), the limit is 15 feet.",
+          "explanation_zh": "普通人行横道20英尺禁停（有延伸15英尺）。",
+          "explanation_zhHant": "普通人行橫道20英尺禁停（有延伸15英尺）。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-DIST-Q04",
+          "stem_en": "At 55 mph, the average braking distance for a large truck is:",
+          "stem_zh": "在55 mph时，大卡车的平均刹车距离是：",
+          "stem_zhHant": "在55 mph時，大卡車的平均剎車距離是：",
+          "options": [
+            { "key": "A", "text_en": "200 feet", "text_zh": "200英尺", "text_zhHant": "200英尺" },
+            { "key": "B", "text_en": "300 feet", "text_zh": "300英尺", "text_zhHant": "300英尺" },
+            { "key": "C", "text_en": "400 feet", "text_zh": "400英尺", "text_zhHant": "400英尺" },
+            { "key": "D", "text_en": "500 feet", "text_zh": "500英尺", "text_zhHant": "500英尺" }
+          ],
+          "answer": "C",
+          "explanation_en": "At 55 mph, a passenger car needs about 300 feet to stop, while a large truck needs approximately 400 feet.",
+          "explanation_zh": "55mph时客车刹车300英尺，卡车400英尺。",
+          "explanation_zhHant": "55mph時客車剎車300英尺，卡車400英尺。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-DIST-Q05",
+          "stem_en": "You must turn on your headlights when you cannot see clearly for ___ feet ahead.",
+          "stem_zh": "当你无法看清前方___英尺时，必须打开大灯。",
+          "stem_zhHant": "當你無法看清前方___英尺時，必須打開大燈。",
+          "options": [
+            { "key": "A", "text_en": "500", "text_zh": "500", "text_zhHant": "500" },
+            { "key": "B", "text_en": "750", "text_zh": "750", "text_zhHant": "750" },
+            { "key": "C", "text_en": "1000", "text_zh": "1000", "text_zhHant": "1000" },
+            { "key": "D", "text_en": "1500", "text_zh": "1500", "text_zhHant": "1500" }
+          ],
+          "answer": "C",
+          "explanation_en": "Headlights are required when you cannot see objects clearly 1000 feet ahead.",
+          "explanation_zh": "看不清前方1000英尺物体时必须开大灯。",
+          "explanation_zhHant": "看不清前方1000英尺物體時必須開大燈。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "title_en": "Time / Days / Duration",
+      "title_zh": "时间/天数/时长",
+      "title_zhHant": "時間/天數/時長",
+      "estimatedMinutes": 3,
+      "cards": [
+        { "number": "3 sec", "rules": [{ "en": "Safe following distance: 3-second rule", "zh": "跟车安全距离：3秒规则", "zhHant": "跟車安全距離：3秒規則" }] },
+        { "number": "5 days", "rules": [{ "en": "Notify DMV within 5 days of selling a vehicle", "zh": "卖车5天内通知DMV", "zhHant": "賣車5天內通知DMV" }] },
+        { "number": "7 days", "rules": [{ "en": "Minor must wait 7 days to retake written test", "zh": "未成年笔试不过等7天重考", "zhHant": "未成年筆試不過等7天重考" }] },
+        { "number": "10 days", "rules": [{ "en": "Change address / transfer title / report crash to DMV — all 10 days", "zh": "搬家/买车/报事故都是10天", "zhHant": "搬家/買車/報事故都是10天" }] },
+        { "number": "14 days", "rules": [{ "en": "Minor retake road test wait; request hearing by mail", "zh": "未成年路考不过等14天；邮寄通知14天要求听证", "zhHant": "未成年路考不過等14天；郵寄通知14天要求聽證" }] },
+        { "number": "24 hrs", "rules": [{ "en": "Report injury/death crash to police within 24 hours", "zh": "伤亡车祸24小时内报警", "zhHant": "傷亡車禍24小時內報警" }] },
+        { "number": "30 min", "rules": [{ "en": "Headlights: 30 min after sunset to 30 min before sunrise", "zh": "日落后30分钟到日出前30分钟 → 开大灯", "zhHant": "日落後30分鐘到日出前30分鐘 → 開大燈" }] }
+      ],
+      "mnemonic_en": "Selling = 5 days; Moving/Buying/Crash = 10 days; Minor written = 7 days, road = 14 days",
+      "mnemonic_zh": "卖车5天；搬家/买车/事故10天；未成年笔试7天，路考14天",
+      "mnemonic_zhHant": "賣車5天；搬家/買車/事故10天；未成年筆試7天，路考14天",
+      "questions": [
+        {
+          "id": "CC-P1-TIME-Q01",
+          "stem_en": "After selling your vehicle, you must notify the DMV within:",
+          "stem_zh": "卖车后，你必须在多少天内通知DMV？",
+          "stem_zhHant": "賣車後，你必須在多少天內通知DMV？",
+          "options": [
+            { "key": "A", "text_en": "3 days", "text_zh": "3天", "text_zhHant": "3天" },
+            { "key": "B", "text_en": "5 days", "text_zh": "5天", "text_zhHant": "5天" },
+            { "key": "C", "text_en": "10 days", "text_zh": "10天", "text_zhHant": "10天" },
+            { "key": "D", "text_en": "30 days", "text_zh": "30天", "text_zhHant": "30天" }
+          ],
+          "answer": "B",
+          "explanation_en": "Notify the DMV within 5 days of selling your vehicle.",
+          "explanation_zh": "卖车后5天内通知DMV。",
+          "explanation_zhHant": "賣車後5天內通知DMV。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-TIME-Q02",
+          "stem_en": "You must report a traffic accident to the DMV within ___ days if someone is injured or property damage exceeds $1,000.",
+          "stem_zh": "如有人受伤或财产损失超过$1,000，你必须在___天内向DMV报告交通事故。",
+          "stem_zhHant": "如有人受傷或財產損失超過$1,000，你必須在___天內向DMV報告交通事故。",
+          "options": [
+            { "key": "A", "text_en": "5", "text_zh": "5", "text_zhHant": "5" },
+            { "key": "B", "text_en": "7", "text_zh": "7", "text_zhHant": "7" },
+            { "key": "C", "text_en": "10", "text_zh": "10", "text_zhHant": "10" },
+            { "key": "D", "text_en": "14", "text_zh": "14", "text_zhHant": "14" }
+          ],
+          "answer": "C",
+          "explanation_en": "Report to DMV within 10 days if the crash involves injury, death, or property damage over $1,000.",
+          "explanation_zh": "有人伤亡或财损超$1000 → 10天内报DMV。",
+          "explanation_zhHant": "有人傷亡或財損超$1000 → 10天內報DMV。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-TIME-Q03",
+          "stem_en": "Headlights must be turned on from:",
+          "stem_zh": "大灯必须在什么时段开启？",
+          "stem_zhHant": "大燈必須在什麼時段開啟？",
+          "options": [
+            { "key": "A", "text_en": "Sunset to sunrise", "text_zh": "日落到日出", "text_zhHant": "日落到日出" },
+            { "key": "B", "text_en": "30 minutes after sunset to 30 minutes before sunrise", "text_zh": "日落后30分钟到日出前30分钟", "text_zhHant": "日落後30分鐘到日出前30分鐘" },
+            { "key": "C", "text_en": "Dusk to dawn", "text_zh": "黄昏到黎明", "text_zhHant": "黃昏到黎明" },
+            { "key": "D", "text_en": "6pm to 6am", "text_zh": "晚6点到早6点", "text_zhHant": "晚6點到早6點" }
+          ],
+          "answer": "B",
+          "explanation_en": "Headlights are required from 30 minutes after sunset to 30 minutes before sunrise.",
+          "explanation_zh": "日落后30分钟到日出前30分钟必须开大灯。",
+          "explanation_zhHant": "日落後30分鐘到日出前30分鐘必須開大燈。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-TIME-Q04",
+          "stem_en": "A minor who fails the written test must wait ___ days to retake it.",
+          "stem_zh": "未成年人笔试不及格后需等待___天才能重考。",
+          "stem_zhHant": "未成年人筆試不及格後需等待___天才能重考。",
+          "options": [
+            { "key": "A", "text_en": "3", "text_zh": "3", "text_zhHant": "3" },
+            { "key": "B", "text_en": "5", "text_zh": "5", "text_zhHant": "5" },
+            { "key": "C", "text_en": "7", "text_zh": "7", "text_zhHant": "7" },
+            { "key": "D", "text_en": "14", "text_zh": "14", "text_zhHant": "14" }
+          ],
+          "answer": "C",
+          "explanation_en": "Minors must wait 7 days to retake the written test. For the road test, the wait is 14 days.",
+          "explanation_zh": "未成年笔试不过等7天重考；路考不过等14天。",
+          "explanation_zhHant": "未成年筆試不過等7天重考；路考不過等14天。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-TIME-Q05",
+          "stem_en": "The safe following distance rule is:",
+          "stem_zh": "安全跟车距离规则是：",
+          "stem_zhHant": "安全跟車距離規則是：",
+          "options": [
+            { "key": "A", "text_en": "2-second rule", "text_zh": "2秒规则", "text_zhHant": "2秒規則" },
+            { "key": "B", "text_en": "3-second rule", "text_zh": "3秒规则", "text_zhHant": "3秒規則" },
+            { "key": "C", "text_en": "4-second rule", "text_zh": "4秒规则", "text_zhHant": "4秒規則" },
+            { "key": "D", "text_en": "5-second rule", "text_zh": "5秒规则", "text_zhHant": "5秒規則" }
+          ],
+          "answer": "B",
+          "explanation_en": "Maintain at least a 3-second following distance behind the vehicle ahead.",
+          "explanation_zh": "跟车保持至少3秒距离。",
+          "explanation_zhHant": "跟車保持至少3秒距離。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "age-fines-points",
+      "title_en": "Age, Fines & Points",
+      "title_zh": "年龄、罚款与扣分",
+      "title_zhHant": "年齡、罰款與扣分",
+      "estimatedMinutes": 3,
+      "cards": [
+        { "number": "< 8 yrs", "rules": [{ "en": "Must use car seat in back seat (or under 4'9\")", "zh": "8岁以下（或身高不足4'9\"）后排安全座椅", "zhHant": "8歲以下（或身高不足4'9\"）後排安全座椅" }] },
+        { "number": "≤ 6 yrs", "rules": [{ "en": "Never leave alone in vehicle unless supervised by person 12+", "zh": "6岁以下不得独留车内，需12岁以上监督", "zhHant": "6歲以下不得獨留車內，需12歲以上監督" }] },
+        { "number": "4/6/8 pts", "rules": [{ "en": "4 pts in 12 mo / 6 pts in 24 mo / 8 pts in 36 mo → license suspension", "zh": "12个月4分/24个月6分/36个月8分 → 吊销", "zhHant": "12個月4分/24個月6分/36個月8分 → 吊銷" }] },
+        { "number": "$1,000", "rules": [{ "en": "Max fine: ignoring school bus red lights, abandoning animal on highway", "zh": "无视校车红灯/弃动物于高速 → 最高$1000", "zhHant": "無視校車紅燈/棄動物於高速 → 最高$1000" }] },
+        { "number": "1 year", "rules": [{ "en": "Suspension for: first DUI, refusing chemical test, ignoring school bus; fleeing police (misdemeanor) max jail", "zh": "初犯DUI/拒绝化学测试/无视校车 → 吊销1年；逃避警察最高监禁1年", "zhHant": "初犯DUI/拒絕化學測試/無視校車 → 吊銷1年；逃避警察最高監禁1年" }] }
+      ],
+      "mnemonic_en": "Points: 4-6-8 in 1-2-3 years; Minors: 2 violations = 30-day restriction, 3 = 6-month suspension",
+      "mnemonic_zh": "扣分：4-6-8，1年2年3年；未成年2次禁驾30天，3次吊销6个月",
+      "mnemonic_zhHant": "扣分：4-6-8，1年2年3年；未成年2次禁駕30天，3次吊銷6個月",
+      "questions": [
+        {
+          "id": "CC-P1-AFP-Q01",
+          "stem_en": "A child under ___ years old must be secured in a car seat in the back seat.",
+          "stem_zh": "___岁以下的儿童必须坐在后排安全座椅上。",
+          "stem_zhHant": "___歲以下的兒童必須坐在後排安全座椅上。",
+          "options": [
+            { "key": "A", "text_en": "4", "text_zh": "4", "text_zhHant": "4" },
+            { "key": "B", "text_en": "6", "text_zh": "6", "text_zhHant": "6" },
+            { "key": "C", "text_en": "8", "text_zh": "8", "text_zhHant": "8" },
+            { "key": "D", "text_en": "10", "text_zh": "10", "text_zhHant": "10" }
+          ],
+          "answer": "C",
+          "explanation_en": "Children under 8 (or shorter than 4'9\") must be in an approved car seat in the back seat.",
+          "explanation_zh": "8岁以下（或身高不足4'9\"）必须坐后排安全座椅。",
+          "explanation_zhHant": "8歲以下（或身高不足4'9\"）必須坐後排安全座椅。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-AFP-Q02",
+          "stem_en": "Never leave a child ___ or younger alone in a vehicle unless supervised by a person aged ___ or older.",
+          "stem_zh": "不得将___岁或以下的儿童独自留在车内，除非有___岁以上的人监督。",
+          "stem_zhHant": "不得將___歲或以下的兒童獨自留在車內，除非有___歲以上的人監督。",
+          "options": [
+            { "key": "A", "text_en": "4 / 10", "text_zh": "4 / 10", "text_zhHant": "4 / 10" },
+            { "key": "B", "text_en": "6 / 12", "text_zh": "6 / 12", "text_zhHant": "6 / 12" },
+            { "key": "C", "text_en": "8 / 14", "text_zh": "8 / 14", "text_zhHant": "8 / 14" },
+            { "key": "D", "text_en": "5 / 10", "text_zh": "5 / 10", "text_zhHant": "5 / 10" }
+          ],
+          "answer": "B",
+          "explanation_en": "Never leave a child 6 or under alone in a vehicle without someone 12 or older supervising.",
+          "explanation_zh": "6岁以下不得独留车内，除非有12岁以上监督。",
+          "explanation_zhHant": "6歲以下不得獨留車內，除非有12歲以上監督。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-AFP-Q03",
+          "stem_en": "Your license may be suspended if you accumulate ___ points in 12 months.",
+          "stem_zh": "如果你在12个月内累积___分，你的驾照可能被吊销。",
+          "stem_zhHant": "如果你在12個月內累積___分，你的駕照可能被吊銷。",
+          "options": [
+            { "key": "A", "text_en": "2", "text_zh": "2", "text_zhHant": "2" },
+            { "key": "B", "text_en": "3", "text_zh": "3", "text_zhHant": "3" },
+            { "key": "C", "text_en": "4", "text_zh": "4", "text_zhHant": "4" },
+            { "key": "D", "text_en": "6", "text_zh": "6", "text_zhHant": "6" }
+          ],
+          "answer": "C",
+          "explanation_en": "4 points in 12 months, 6 points in 24 months, or 8 points in 36 months triggers suspension.",
+          "explanation_zh": "12个月4分 / 24个月6分 / 36个月8分 → 吊销。",
+          "explanation_zhHant": "12個月4分 / 24個月6分 / 36個月8分 → 吊銷。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-AFP-Q04",
+          "stem_en": "The penalty for ignoring a school bus's flashing red lights can include a fine of up to:",
+          "stem_zh": "无视校车闪烁红灯的罚款最高可达：",
+          "stem_zhHant": "無視校車閃爍紅燈的罰款最高可達：",
+          "options": [
+            { "key": "A", "text_en": "$250", "text_zh": "$250", "text_zhHant": "$250" },
+            { "key": "B", "text_en": "$500", "text_zh": "$500", "text_zhHant": "$500" },
+            { "key": "C", "text_en": "$750", "text_zh": "$750", "text_zhHant": "$750" },
+            { "key": "D", "text_en": "$1,000", "text_zh": "$1,000", "text_zhHant": "$1,000" }
+          ],
+          "answer": "D",
+          "explanation_en": "Ignoring school bus red lights carries up to $1,000 in fines and possible 1-year license suspension.",
+          "explanation_zh": "无视校车红灯 → 最高$1000罚款 + 可能吊销1年。",
+          "explanation_zhHant": "無視校車紅燈 → 最高$1000罰款 + 可能吊銷1年。",
+          "tags": []
+        },
+        {
+          "id": "CC-P1-AFP-Q05",
+          "stem_en": "A person convicted of fleeing police (a misdemeanor) faces up to ___ in county jail.",
+          "stem_zh": "因逃避警察（轻罪）被定罪的人最高面临___的县监狱刑期。",
+          "stem_zhHant": "因逃避警察（輕罪）被定罪的人最高面臨___的縣監獄刑期。",
+          "options": [
+            { "key": "A", "text_en": "30 days", "text_zh": "30天", "text_zhHant": "30天" },
+            { "key": "B", "text_en": "6 months", "text_zh": "6个月", "text_zhHant": "6個月" },
+            { "key": "C", "text_en": "1 year", "text_zh": "1年", "text_zhHant": "1年" },
+            { "key": "D", "text_en": "2 years", "text_zh": "2年", "text_zhHant": "2年" }
+          ],
+          "answer": "C",
+          "explanation_en": "Fleeing/evading police as a misdemeanor carries up to 1 year in county jail.",
+          "explanation_zh": "逃避警察追捕（轻罪）→ 最高县监狱1年。",
+          "explanation_zhHant": "逃避警察追捕（輕罪）→ 最高縣監獄1年。",
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

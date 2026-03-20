@@ -1,0 +1,499 @@
+{
+  "phaseId": 3,
+  "title_en": "Confusion Comparison Training",
+  "title_zh": "易混淆对比训练",
+  "title_zhHant": "易混淆對比訓練",
+  "estimatedMinutes": 20,
+  "comparisons": [
+    {
+      "id": "brake-vs-no-brake",
+      "title_en": "Brake vs No Brake in Emergencies",
+      "title_zh": "紧急操作 — 踩 vs 不踩刹车",
+      "title_zhHant": "緊急操作 — 踩 vs 不踩剎車",
+      "table": {
+        "headers": [
+          { "en": "Situation", "zh": "情况", "zhHant": "情況" },
+          { "en": "Gas", "zh": "油门", "zhHant": "油門" },
+          { "en": "Brake", "zh": "刹车", "zhHant": "剎車" },
+          { "en": "Key Difference", "zh": "关键区别", "zhHant": "關鍵區別" }
+        ],
+        "rows": [
+          {
+            "cells": [
+              { "en": "Hydroplaning", "zh": "水滑", "zhHant": "水滑" },
+              { "en": "Release", "zh": "松开", "zhHant": "鬆開" },
+              { "en": "❌ No", "zh": "❌ 不踩", "zhHant": "❌ 不踩" },
+              { "en": "Water film causes traction loss", "zh": "水膜导致轮胎失去抓地力", "zhHant": "水膜導致輪胎失去抓地力" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Skidding", "zh": "打滑", "zhHant": "打滑" },
+              { "en": "Release", "zh": "松开", "zhHant": "鬆開" },
+              { "en": "❌ No", "zh": "❌ 不踩", "zhHant": "❌ 不踩" },
+              { "en": "Steer into skid direction", "zh": "需转向打滑方向", "zhHant": "需轉向打滑方向" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Blowout", "zh": "爆胎", "zhHant": "爆胎" },
+              { "en": "Slowly release", "zh": "慢松", "zhHant": "慢鬆" },
+              { "en": "❌ No", "zh": "❌ 不踩", "zhHant": "❌ 不踩" },
+              { "en": "Keep straight", "zh": "保持直线", "zhHant": "保持直線" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Off Pavement", "zh": "冲出路面", "zhHant": "衝出路面" },
+              { "en": "Release", "zh": "松开", "zhHant": "鬆開" },
+              { "en": "✅ Gently", "zh": "✅ 轻踩", "zhHant": "✅ 輕踩" },
+              { "en": "ONLY emergency with braking OK", "zh": "唯一可刹车的失控情况", "zhHant": "唯一可剎車的失控情況" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Wet Brakes", "zh": "刹车湿了", "zhHant": "剎車濕了" },
+              { "en": "✅ Lightly", "zh": "✅ 轻踩", "zhHant": "✅ 輕踩" },
+              { "en": "✅ Simultaneously", "zh": "✅ 同时轻踩", "zhHant": "✅ 同時輕踩" },
+              { "en": "ONLY time pressing both pedals", "zh": "唯一同时踩两个踏板", "zhHant": "唯一同時踩兩個踏板" }
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "CC-P3-CMP1-Q01",
+          "stem_en": "Which emergency is the ONLY one where you should gently apply the brakes?",
+          "stem_zh": "以下哪种紧急情况是唯一可以轻踩刹车的？",
+          "stem_zhHant": "以下哪種緊急情況是唯一可以輕踩剎車的？",
+          "options": [
+            { "key": "A", "text_en": "Hydroplaning", "text_zh": "水滑", "text_zhHant": "水滑" },
+            { "key": "B", "text_en": "Skidding", "text_zh": "打滑", "text_zhHant": "打滑" },
+            { "key": "C", "text_en": "Driving off the pavement", "text_zh": "冲出路面", "text_zhHant": "衝出路面" },
+            { "key": "D", "text_en": "Tire blowout", "text_zh": "爆胎", "text_zhHant": "爆胎" }
+          ],
+          "answer": "C",
+          "explanation_en": "Driving off the pavement is the only emergency where gentle braking is appropriate. All others: do NOT brake.",
+          "explanation_zh": "冲出路面是唯一可以轻踩刹车的紧急情况。其他失控情况一律不踩刹车。",
+          "explanation_zhHant": "衝出路面是唯一可以輕踩剎車的緊急情況。其他失控情況一律不踩剎車。",
+          "tags": []
+        },
+        {
+          "id": "CC-P3-CMP1-Q02",
+          "stem_en": "To dry wet brakes, you should:",
+          "stem_zh": "要弄干湿刹车，你应该：",
+          "stem_zhHant": "要弄乾濕剎車，你應該：",
+          "options": [
+            { "key": "A", "text_en": "Pump the brakes hard", "text_zh": "用力踩刹车", "text_zhHant": "用力踩剎車" },
+            { "key": "B", "text_en": "Press gas and brake lightly at the same time", "text_zh": "同时轻踩油门和刹车", "text_zhHant": "同時輕踩油門和剎車" },
+            { "key": "C", "text_en": "Drive faster", "text_zh": "开快一点", "text_zhHant": "開快一點" },
+            { "key": "D", "text_en": "Shift to low gear", "text_zh": "换低速档", "text_zhHant": "換低速檔" }
+          ],
+          "answer": "B",
+          "explanation_en": "Lightly press both gas and brake at the same time until brakes dry. This is the only time you press both pedals.",
+          "explanation_zh": "同时轻踩油门和刹车直到刹车变干。这是唯一需要同时踩两个踏板的情况。",
+          "explanation_zhHant": "同時輕踩油門和剎車直到剎車變乾。這是唯一需要同時踩兩個踏板的情況。",
+          "tags": []
+        },
+        {
+          "id": "CC-P3-CMP1-Q03",
+          "stem_en": "During a skid, you should steer:",
+          "stem_zh": "打滑时，你应该把方向盘转向：",
+          "stem_zhHant": "打滑時，你應該把方向盤轉向：",
+          "options": [
+            { "key": "A", "text_en": "In the opposite direction of the skid", "text_zh": "打滑的反方向", "text_zhHant": "打滑的反方向" },
+            { "key": "B", "text_en": "Straight ahead", "text_zh": "正前方", "text_zhHant": "正前方" },
+            { "key": "C", "text_en": "In the direction the rear of the car is sliding", "text_zh": "车尾打滑的方向", "text_zhHant": "車尾打滑的方向" },
+            { "key": "D", "text_en": "It doesn't matter", "text_zh": "无所谓", "text_zhHant": "無所謂" }
+          ],
+          "answer": "C",
+          "explanation_en": "Steer in the direction the rear of the vehicle is sliding to regain control.",
+          "explanation_zh": "方向盘转向车尾打滑的方向以恢复控制。",
+          "explanation_zhHant": "方向盤轉向車尾打滑的方向以恢復控制。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "parking-distance",
+      "title_en": "No-Parking Distances",
+      "title_zh": "停车距离 — 消防栓 vs 人行横道",
+      "title_zhHant": "停車距離 — 消防栓 vs 人行橫道",
+      "table": {
+        "headers": [
+          { "en": "Location", "zh": "地点", "zhHant": "地點" },
+          { "en": "No-Parking Distance", "zh": "禁停距离", "zhHant": "禁停距離" },
+          { "en": "Memory Aid", "zh": "记忆法", "zhHant": "記憶法" }
+        ],
+        "rows": [
+          {
+            "cells": [
+              { "en": "Fire Hydrant", "zh": "消防栓", "zhHant": "消防栓" },
+              { "en": "15 ft", "zh": "15英尺", "zhHant": "15英尺" },
+              { "en": "Fire → 15", "zh": "火(fire) → 15", "zhHant": "火(fire) → 15" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Railroad Tracks", "zh": "铁轨", "zhHant": "鐵軌" },
+              { "en": "15 ft", "zh": "15英尺", "zhHant": "15英尺" },
+              { "en": "Same as fire hydrant", "zh": "同消防栓", "zhHant": "同消防栓" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Crosswalk (with curb extension)", "zh": "人行横道（有延伸）", "zhHant": "人行橫道（有延伸）" },
+              { "en": "15 ft", "zh": "15英尺", "zhHant": "15英尺" },
+              { "en": "Extension = shorter distance", "zh": "有延伸 = 缩短距离", "zhHant": "有延伸 = 縮短距離" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Crosswalk (no extension)", "zh": "人行横道（无延伸）", "zhHant": "人行橫道（無延伸）" },
+              { "en": "20 ft", "zh": "20英尺", "zhHant": "20英尺" },
+              { "en": "No extension = standard", "zh": "无延伸 = 标准距离", "zhHant": "無延伸 = 標準距離" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Disability Ramp", "zh": "残疾人坡道", "zhHant": "殘疾人坡道" },
+              { "en": "3 ft", "zh": "3英尺", "zhHant": "3英尺" },
+              { "en": "Shortest distance", "zh": "最短", "zhHant": "最短" }
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "CC-P3-CMP2-Q01",
+          "stem_en": "You may NOT park within ___ feet of a fire hydrant.",
+          "stem_zh": "你不得在消防栓___英尺内停车。",
+          "stem_zhHant": "你不得在消防栓___英尺內停車。",
+          "options": [
+            { "key": "A", "text_en": "10", "text_zh": "10", "text_zhHant": "10" },
+            { "key": "B", "text_en": "15", "text_zh": "15", "text_zhHant": "15" },
+            { "key": "C", "text_en": "20", "text_zh": "20", "text_zhHant": "20" },
+            { "key": "D", "text_en": "25", "text_zh": "25", "text_zhHant": "25" }
+          ],
+          "answer": "B",
+          "explanation_en": "Do not park within 15 feet of a fire hydrant.",
+          "explanation_zh": "消防栓15英尺内禁停。",
+          "explanation_zhHant": "消防栓15英尺內禁停。",
+          "tags": []
+        },
+        {
+          "id": "CC-P3-CMP2-Q02",
+          "stem_en": "The no-parking distance from a crosswalk WITHOUT a curb extension is:",
+          "stem_zh": "无路缘延伸的人行横道禁停距离是：",
+          "stem_zhHant": "無路緣延伸的人行橫道禁停距離是：",
+          "options": [
+            { "key": "A", "text_en": "10 feet", "text_zh": "10英尺", "text_zhHant": "10英尺" },
+            { "key": "B", "text_en": "15 feet", "text_zh": "15英尺", "text_zhHant": "15英尺" },
+            { "key": "C", "text_en": "20 feet", "text_zh": "20英尺", "text_zhHant": "20英尺" },
+            { "key": "D", "text_en": "25 feet", "text_zh": "25英尺", "text_zhHant": "25英尺" }
+          ],
+          "answer": "C",
+          "explanation_en": "No parking within 20 feet of a crosswalk without curb extension. With curb extension, it's 15 feet.",
+          "explanation_zh": "无延伸人行横道20英尺禁停。有延伸则15英尺。",
+          "explanation_zhHant": "無延伸人行橫道20英尺禁停。有延伸則15英尺。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "hill-parking",
+      "title_en": "Hill Parking Wheel Direction",
+      "title_zh": "坡道停车方向盘",
+      "title_zhHant": "坡道停車方向盤",
+      "table": {
+        "headers": [
+          { "en": "Situation", "zh": "情况", "zhHant": "情況" },
+          { "en": "Wheel Direction", "zh": "方向", "zhHant": "方向" },
+          { "en": "Memory Aid", "zh": "记忆法", "zhHant": "記憶法" }
+        ],
+        "rows": [
+          {
+            "cells": [
+              { "en": "Downhill + curb", "zh": "下坡 + 有路缘", "zhHant": "下坡 + 有路緣" },
+              { "en": "→ Right (toward curb)", "zh": "→ 右（向路缘）", "zhHant": "→ 右（向路緣）" },
+              { "en": "Car rolls into curb", "zh": "让车撞路缘停住", "zhHant": "讓車撞路緣停住" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Uphill + curb", "zh": "上坡 + 有路缘", "zhHant": "上坡 + 有路緣" },
+              { "en": "← Left (away from curb)", "zh": "← 左（背路缘）", "zhHant": "← 左（背路緣）" },
+              { "en": "Wheel catches curb rolling back", "zh": "松刹后轮子滚到路缘卡住", "zhHant": "鬆剎後輪子滾到路緣卡住" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Any hill + no curb", "zh": "任何坡 + 无路缘", "zhHant": "任何坡 + 無路緣" },
+              { "en": "→ Right (toward shoulder)", "zh": "→ 右（向路肩）", "zhHant": "→ 右（向路肩）" },
+              { "en": "Car rolls off road, not into traffic", "zh": "宁可溜向路肩，不上路", "zhHant": "寧可溜向路肩，不上路" }
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "CC-P3-CMP3-Q01",
+          "stem_en": "You are parked uphill with a curb. Your wheels should be turned:",
+          "stem_zh": "你在有路缘的上坡停车。车轮应转向：",
+          "stem_zhHant": "你在有路緣的上坡停車。車輪應轉向：",
+          "options": [
+            { "key": "A", "text_en": "Right (toward curb)", "text_zh": "右（向路缘）", "text_zhHant": "右（向路緣）" },
+            { "key": "B", "text_en": "Left (away from curb)", "text_zh": "左（背路缘）", "text_zhHant": "左（背路緣）" },
+            { "key": "C", "text_en": "Straight", "text_zh": "直", "text_zhHant": "直" },
+            { "key": "D", "text_en": "Right (toward shoulder)", "text_zh": "右（向路肩）", "text_zhHant": "右（向路肩）" }
+          ],
+          "answer": "B",
+          "explanation_en": "Uphill with curb: turn left (away from curb). If brakes fail, the car rolls back and the wheel catches the curb.",
+          "explanation_zh": "上坡有路缘 → 向左打死（背向路缘）。刹车失灵时车轮滚到路缘卡住。",
+          "explanation_zhHant": "上坡有路緣 → 向左打死（背向路緣）。剎車失靈時車輪滾到路緣卡住。",
+          "tags": []
+        },
+        {
+          "id": "CC-P3-CMP3-Q02",
+          "stem_en": "You are parked on a hill with NO curb. Regardless of direction, your wheels should be:",
+          "stem_zh": "你在无路缘的坡道停车。不论方向，车轮应：",
+          "stem_zhHant": "你在無路緣的坡道停車。不論方向，車輪應：",
+          "options": [
+            { "key": "A", "text_en": "Turned left", "text_zh": "向左", "text_zhHant": "向左" },
+            { "key": "B", "text_en": "Turned right toward the shoulder", "text_zh": "向右，朝向路肩", "text_zhHant": "向右，朝向路肩" },
+            { "key": "C", "text_en": "Straight", "text_zh": "直", "text_zhHant": "直" },
+            { "key": "D", "text_en": "It depends on the slope direction", "text_zh": "取决于坡度方向", "text_zhHant": "取決於坡度方向" }
+          ],
+          "answer": "B",
+          "explanation_en": "No curb, uphill or downhill: always turn wheels to the right (toward the shoulder).",
+          "explanation_zh": "无路缘（不论上下坡）→ 一律向右打死（转向路肩）。",
+          "explanation_zhHant": "無路緣（不論上下坡）→ 一律向右打死（轉向路肩）。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "lightrail-vs-schoolbus",
+      "title_en": "Light Rail vs School Bus — Passing Rules",
+      "title_zh": "轻轨 vs 校车 — 超车规则",
+      "title_zhHant": "輕軌 vs 校車 — 超車規則",
+      "table": {
+        "headers": [
+          { "en": "Vehicle", "zh": "车辆", "zhHant": "車輛" },
+          { "en": "Pass on Left?", "zh": "能否从左超？", "zhHant": "能否從左超？" },
+          { "en": "Exception", "zh": "例外", "zhHant": "例外" }
+        ],
+        "rows": [
+          {
+            "cells": [
+              { "en": "Light Rail", "zh": "轻轨", "zhHant": "輕軌" },
+              { "en": "❌ No passing on left", "zh": "❌ 不得从左超", "zhHant": "❌ 不得從左超" },
+              { "en": "One-way street / tracks too far right / police direction", "zh": "单行道/轨道太靠右/警察指挥", "zhHant": "單行道/軌道太靠右/警察指揮" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "School Bus (red lights)", "zh": "校车（红灯闪烁）", "zhHant": "校車（紅燈閃爍）" },
+              { "en": "❌ No passing at all", "zh": "❌ 完全禁止超越", "zhHant": "❌ 完全禁止超越" },
+              { "en": "Divided highway with physical barrier → opposite side need not stop", "zh": "分隔公路有物理隔离 → 对面可不停", "zhHant": "分隔公路有物理隔離 → 對面可不停" }
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "CC-P3-CMP4-Q01",
+          "stem_en": "When can you pass a light rail vehicle on the left?",
+          "stem_zh": "什么时候可以从左侧超越轻轨？",
+          "stem_zhHant": "什麼時候可以從左側超越輕軌？",
+          "options": [
+            { "key": "A", "text_en": "Never", "text_zh": "永远不行", "text_zhHant": "永遠不行" },
+            { "key": "B", "text_en": "On a one-way street, or if tracks are too far right, or if directed by police", "text_zh": "单行道、轨道太靠右、或警察指挥时", "text_zhHant": "單行道、軌道太靠右、或警察指揮時" },
+            { "key": "C", "text_en": "When it's stopped", "text_zh": "当它停下时", "text_zhHant": "當它停下時" },
+            { "key": "D", "text_en": "At intersections", "text_zh": "在路口", "text_zhHant": "在路口" }
+          ],
+          "answer": "B",
+          "explanation_en": "Pass light rail on left only: one-way street, tracks too far right to pass on right, or police direction.",
+          "explanation_zh": "仅在单行道、轨道太靠右、或警察指挥时可从左超越轻轨。",
+          "explanation_zhHant": "僅在單行道、軌道太靠右、或警察指揮時可從左超越輕軌。",
+          "tags": []
+        },
+        {
+          "id": "CC-P3-CMP4-Q02",
+          "stem_en": "The ONLY exception to stopping for a school bus with red flashing lights is:",
+          "stem_zh": "校车闪红灯时不需停车的唯一例外是：",
+          "stem_zhHant": "校車閃紅燈時不需停車的唯一例外是：",
+          "options": [
+            { "key": "A", "text_en": "If you are more than 100 feet away", "text_zh": "如果你在100英尺以外", "text_zhHant": "如果你在100英尺以外" },
+            { "key": "B", "text_en": "If no children are visible", "text_zh": "如果看不到儿童", "text_zhHant": "如果看不到兒童" },
+            { "key": "C", "text_en": "If you are on the opposite side of a physically divided highway", "text_zh": "如果你在有物理隔离的分隔公路的对面", "text_zhHant": "如果你在有物理隔離的分隔公路的對面" },
+            { "key": "D", "text_en": "If you are in a turning lane", "text_zh": "如果你在转弯车道上", "text_zhHant": "如果你在轉彎車道上" }
+          ],
+          "answer": "C",
+          "explanation_en": "Only on a divided highway with a physical barrier (median, wall) does opposite-direction traffic not need to stop.",
+          "explanation_zh": "唯一例外：有物理隔离的分隔公路，对面车辆无需停车。",
+          "explanation_zhHant": "唯一例外：有物理隔離的分隔公路，對面車輛無需停車。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "braking-distance",
+      "title_en": "Braking Distance — Car vs Truck",
+      "title_zh": "刹车距离 — 客车 vs 卡车",
+      "title_zhHant": "剎車距離 — 客車 vs 卡車",
+      "table": {
+        "headers": [
+          { "en": "Vehicle Type", "zh": "车型", "zhHant": "車型" },
+          { "en": "Braking Distance at 55 mph", "zh": "55 mph 刹车距离", "zhHant": "55 mph 剎車距離" }
+        ],
+        "rows": [
+          {
+            "cells": [
+              { "en": "Passenger Car", "zh": "客车", "zhHant": "客車" },
+              { "en": "300 ft", "zh": "300英尺", "zhHant": "300英尺" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Large Truck", "zh": "大卡车", "zhHant": "大卡車" },
+              { "en": "400 ft", "zh": "400英尺", "zhHant": "400英尺" }
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "CC-P3-CMP5-Q01",
+          "stem_en": "At 55 mph, a large truck needs approximately ___ feet more to stop than a passenger car.",
+          "stem_zh": "在55 mph时，大卡车比客车大约多需要___英尺才能停下。",
+          "stem_zhHant": "在55 mph時，大卡車比客車大約多需要___英尺才能停下。",
+          "options": [
+            { "key": "A", "text_en": "50", "text_zh": "50", "text_zhHant": "50" },
+            { "key": "B", "text_en": "100", "text_zh": "100", "text_zhHant": "100" },
+            { "key": "C", "text_en": "150", "text_zh": "150", "text_zhHant": "150" },
+            { "key": "D", "text_en": "200", "text_zh": "200", "text_zhHant": "200" }
+          ],
+          "answer": "B",
+          "explanation_en": "Truck 400 ft - Car 300 ft = 100 ft more for a truck to stop at 55 mph.",
+          "explanation_zh": "卡车400英尺 - 客车300英尺 = 卡车多需要100英尺。",
+          "explanation_zhHant": "卡車400英尺 - 客車300英尺 = 卡車多需要100英尺。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "dimming-distance",
+      "title_en": "Dimming Distance — Following vs Oncoming",
+      "title_zh": "近光灯切换距离 — 跟车 vs 会车",
+      "title_zhHant": "近光燈切換距離 — 跟車 vs 會車",
+      "table": {
+        "headers": [
+          { "en": "Scenario", "zh": "场景", "zhHant": "場景" },
+          { "en": "Switch Distance", "zh": "切换距离", "zhHant": "切換距離" }
+        ],
+        "rows": [
+          {
+            "cells": [
+              { "en": "Following another vehicle", "zh": "跟车", "zhHant": "跟車" },
+              { "en": "300 ft", "zh": "300英尺", "zhHant": "300英尺" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Oncoming traffic", "zh": "会车", "zhHant": "會車" },
+              { "en": "500 ft", "zh": "500英尺", "zhHant": "500英尺" }
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "CC-P3-CMP6-Q01",
+          "stem_en": "You must switch to low beams when following another vehicle within ___ feet, or when oncoming traffic is within ___ feet.",
+          "stem_zh": "跟车___英尺内或会车___英尺内必须切换为近光灯。",
+          "stem_zhHant": "跟車___英尺內或會車___英尺內必須切換為近光燈。",
+          "options": [
+            { "key": "A", "text_en": "200 / 400", "text_zh": "200 / 400", "text_zhHant": "200 / 400" },
+            { "key": "B", "text_en": "300 / 500", "text_zh": "300 / 500", "text_zhHant": "300 / 500" },
+            { "key": "C", "text_en": "400 / 600", "text_zh": "400 / 600", "text_zhHant": "400 / 600" },
+            { "key": "D", "text_en": "500 / 1000", "text_zh": "500 / 1000", "text_zhHant": "500 / 1000" }
+          ],
+          "answer": "B",
+          "explanation_en": "Following = 300 ft, Oncoming = 500 ft for switching to low beams.",
+          "explanation_zh": "跟车300英尺，会车500英尺 → 切近光灯。",
+          "explanation_zhHant": "跟車300英尺，會車500英尺 → 切近光燈。",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "fleeing-police",
+      "title_en": "Fleeing Police — Penalty Escalation",
+      "title_zh": "逃避警察 — 刑罚递进",
+      "title_zhHant": "逃避警察 — 刑罰遞進",
+      "table": {
+        "headers": [
+          { "en": "Severity", "zh": "情节", "zhHant": "情節" },
+          { "en": "Penalty", "zh": "刑罚", "zhHant": "刑罰" }
+        ],
+        "rows": [
+          {
+            "cells": [
+              { "en": "Misdemeanor (no injury)", "zh": "轻罪（无伤亡）", "zhHant": "輕罪（無傷亡）" },
+              { "en": "County jail up to 1 year", "zh": "县监狱 最高1年", "zhHant": "縣監獄 最高1年" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Causing serious injury", "zh": "致重伤", "zhHant": "致重傷" },
+              { "en": "State prison up to 7 years or county jail 1 year", "zh": "州监狱最高7年 或 县监狱1年", "zhHant": "州監獄最高7年 或 縣監獄1年" }
+            ]
+          },
+          {
+            "cells": [
+              { "en": "Causing death (vehicular manslaughter)", "zh": "致死（过失杀人）", "zhHant": "致死（過失殺人）" },
+              { "en": "State prison 4-10 years", "zh": "州监狱 4-10年", "zhHant": "州監獄 4-10年" }
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "CC-P3-CMP7-Q01",
+          "stem_en": "Evading police as a misdemeanor carries a maximum sentence of:",
+          "stem_zh": "以轻罪逃避警察的最高刑期是：",
+          "stem_zhHant": "以輕罪逃避警察的最高刑期是：",
+          "options": [
+            { "key": "A", "text_en": "6 months county jail", "text_zh": "县监狱6个月", "text_zhHant": "縣監獄6個月" },
+            { "key": "B", "text_en": "1 year county jail", "text_zh": "县监狱1年", "text_zhHant": "縣監獄1年" },
+            { "key": "C", "text_en": "3 years state prison", "text_zh": "州监狱3年", "text_zhHant": "州監獄3年" },
+            { "key": "D", "text_en": "5 years state prison", "text_zh": "州监狱5年", "text_zhHant": "州監獄5年" }
+          ],
+          "answer": "B",
+          "explanation_en": "Fleeing police as a misdemeanor: up to 1 year in county jail.",
+          "explanation_zh": "轻罪逃避警察 → 县监狱最高1年。",
+          "explanation_zhHant": "輕罪逃避警察 → 縣監獄最高1年。",
+          "tags": []
+        },
+        {
+          "id": "CC-P3-CMP7-Q02",
+          "stem_en": "Evading police and causing a death can result in:",
+          "stem_zh": "逃避警察并致人死亡可导致：",
+          "stem_zhHant": "逃避警察並致人死亡可導致：",
+          "options": [
+            { "key": "A", "text_en": "Up to 1 year in county jail", "text_zh": "县监狱最高1年", "text_zhHant": "縣監獄最高1年" },
+            { "key": "B", "text_en": "Up to 3 years in state prison", "text_zh": "州监狱最高3年", "text_zhHant": "州監獄最高3年" },
+            { "key": "C", "text_en": "4-10 years in state prison", "text_zh": "州监狱4-10年", "text_zhHant": "州監獄4-10年" },
+            { "key": "D", "text_en": "Life in state prison", "text_zh": "州监狱终身", "text_zhHant": "州監獄終身" }
+          ],
+          "answer": "C",
+          "explanation_en": "Evading police causing vehicular manslaughter: 4-10 years in state prison.",
+          "explanation_zh": "逃避警察致过失杀人 → 州监狱4-10年。",
+          "explanation_zhHant": "逃避警察致過失殺人 → 州監獄4-10年。",
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

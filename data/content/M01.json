@@ -2,7 +2,7 @@
   "moduleId": "M01",
   "titleEn": "Driving Basics",
   "titleZh": "驾驶基础入门",
-  "titleZhHant": "駕駛簡介",
+  "titleZhHant": "駕駛基礎入門",
   "sections": [
     {
       "id": "S01",
@@ -16,7 +16,10 @@
           "zh": "良好的视力对安全驾驶至关重要。您必须能够在不同光线条件下注意到危险、准确判断距离，并在安全距离内看清标志。",
           "zhHant": "良好的視力對安全駕駛至關重要。你必須能夠在不同光線條件下注意到危險、準確判斷距離，並在安全距離內看清標誌。",
           "isHighFreq": true,
-          "tags": ["driver-readiness", "vision"]
+          "tags": [
+            "driver-readiness",
+            "vision"
+          ]
         },
         {
           "id": "M01-S01-K02",
@@ -24,7 +27,11 @@
           "zh": "良好的听力有助于注意到喇叭声、警笛声和轮胎刺耳声等危险信号。驾车或骑自行车时，佩戴覆盖双耳的耳塞或耳机是违法的。您可以使用单耳免提设备。",
           "zhHant": "良好的聽力有助於注意到喇叭聲、警笛聲和輪胎刺耳聲等危險信號。駕車或騎腳踏車時，佩戴覆蓋雙耳的耳塞或耳機是違法的。你可以使用單耳免持設備。",
           "isHighFreq": true,
-          "tags": ["driver-readiness", "hearing", "earplugs"]
+          "tags": [
+            "driver-readiness",
+            "hearing",
+            "earplugs"
+          ]
         },
         {
           "id": "M01-S01-K03",
@@ -32,7 +39,11 @@
           "zh": "疲劳和困倦会影响视力、增加反应时间并损害判断力。如果驾驶时感到困倦，请驶入安全区域停车休息。不要依赖咖啡、新鲜空气或调大收音机音量来保持清醒。",
           "zhHant": "疲勞和困倦會影響視力、增加反應時間並損害判斷力。如果駕駛時感到困倦，請駛入安全區域停車休息。不要依賴咖啡、新鮮空氣或調大收音機音量來保持清醒。",
           "isHighFreq": true,
-          "tags": ["driver-readiness", "fatigue", "drowsiness"]
+          "tags": [
+            "driver-readiness",
+            "fatigue",
+            "drowsiness"
+          ]
         },
         {
           "id": "M01-S01-K04",
@@ -40,7 +51,11 @@
           "zh": "驾驶时必须保持良好的身体和精神状态。您需要足够警觉，以便在道路上遇到突发情况时能快速做出正确决定。",
           "zhHant": "駕駛時必須保持良好的身體和精神狀態。你需要足夠警覺，以便在道路上遇到突發情況時能快速做出正確決定。",
           "isHighFreq": false,
-          "tags": ["driver-readiness", "physical-condition", "mental-condition"]
+          "tags": [
+            "driver-readiness",
+            "physical-condition",
+            "mental-condition"
+          ]
         },
         {
           "id": "M01-S01-K05",
@@ -48,7 +63,10 @@
           "zh": "处方药和非处方药都可能使您成为不安全的驾驶员。驾驶前请了解药物的副作用。如果药物使您昏昏欲睡或影响协调能力，请勿驾驶。",
           "zhHant": "處方藥和非處方藥都可能使你成為不安全的駕駛員。駕駛前請了解藥物的副作用。如果藥物使你昏昏欲睡或影響協調能力，請勿駕駛。",
           "isHighFreq": true,
-          "tags": ["driver-readiness", "medications"]
+          "tags": [
+            "driver-readiness",
+            "medications"
+          ]
         },
         {
           "id": "M01-S01-K06",
@@ -56,7 +74,11 @@
           "zh": "医生必须向DMV报告14岁及以上患有可能影响安全驾驶能力的疾病（如意识丧失）的患者。DMV随后可能要求重新检查。",
           "zhHant": "醫生必須向DMV報告14歲及以上患有可能影響安全駕駛能力的疾病（如意識喪失）的患者。DMV隨後可能要求重新檢查。",
           "isHighFreq": false,
-          "tags": ["driver-readiness", "health", "reporting"]
+          "tags": [
+            "driver-readiness",
+            "health",
+            "reporting"
+          ]
         }
       ]
     },
@@ -72,7 +94,10 @@
           "zh": "尽可能双手握住方向盘，以保持对车辆的最大控制力。",
           "zhHant": "盡可能雙手握住方向盤，以保持對車輛的最大控制力。",
           "isHighFreq": true,
-          "tags": ["steering", "both-hands"]
+          "tags": [
+            "steering",
+            "both-hands"
+          ]
         },
         {
           "id": "M01-S02-K02",
@@ -80,7 +105,11 @@
           "zh": "推拉式转向（Hand-to-Hand）：双手起始位置在9点和3点钟方向，或8点和4点钟方向。一只手向上推，另一只手向下拉。不要让双手交叉越过方向盘中心。即使在转弯时也要保持双手在这些位置。",
           "zhHant": "手傳手轉向（推/拉轉向，Hand-to-Hand）：雙手起始位置在9點和3點鐘方向，或8點和4點鐘方向。一隻手向上推，另一隻手向下拉。不要讓雙手交叉越過方向盤中心。即使在轉彎時也要保持雙手在這些位置。",
           "isHighFreq": true,
-          "tags": ["steering", "hand-to-hand", "push-pull"]
+          "tags": [
+            "steering",
+            "hand-to-hand",
+            "push-pull"
+          ]
         },
         {
           "id": "M01-S02-K03",
@@ -88,7 +117,11 @@
           "zh": "交叉式转向（Hand-Over-Hand）：用于低速转弯、停车或打滑恢复。双手起始位置在8点和4点钟方向，一只手伸过去抓住方向盘对侧，另一只手松开，然后向上拉回以矫正方向。",
           "zhHant": "雙手交互轉向（Hand-Over-Hand）：用於低速轉彎、泊車或打滑恢復。雙手起始位置在8點和4點鐘方向，一隻手伸過去抓住方向盤對側，另一隻手鬆開，然後向上拉回以矯正方向。",
           "isHighFreq": true,
-          "tags": ["steering", "hand-over-hand", "low-speed"]
+          "tags": [
+            "steering",
+            "hand-over-hand",
+            "low-speed"
+          ]
         },
         {
           "id": "M01-S02-K04",
@@ -96,7 +129,11 @@
           "zh": "单手转向：仅在倒车时转头看后方（一只手放在12点钟位置），或在操作需要单手离开方向盘的车辆控制装置时使用。",
           "zhHant": "單手操縱方向盤：僅在倒車時轉頭看後方（一隻手放在12點鐘位置），或在操作需要單手離開方向盤的車輛控制裝置時使用。",
           "isHighFreq": false,
-          "tags": ["steering", "one-hand", "backing-up"]
+          "tags": [
+            "steering",
+            "one-hand",
+            "backing-up"
+          ]
         },
         {
           "id": "M01-S02-K05",
@@ -104,7 +141,10 @@
           "zh": "绝不要让方向盘自由旋转，车辆行驶时绝不要双手同时离开方向盘。",
           "zhHant": "絕不要讓方向盤自由旋轉，車輛行駛時絕不要雙手同時離開方向盤。",
           "isHighFreq": false,
-          "tags": ["steering", "safety"]
+          "tags": [
+            "steering",
+            "safety"
+          ]
         }
       ]
     },
@@ -112,7 +152,7 @@
       "id": "S03",
       "titleEn": "Signaling",
       "titleZh": "信号使用规则",
-      "titleZhHant": "訊號燈使用規則",
+      "titleZhHant": "信號使用規則",
       "knowledgePoints": [
         {
           "id": "M01-S03-K01",
@@ -120,7 +160,10 @@
           "zh": "转弯、变道、减速或停车时务必打信号灯。打信号灯是向其他驾驶员和骑行者传达您的意图，以便他们安全应对。",
           "zhHant": "轉彎、變換行車線、減速或停車時務必打訊號燈。打訊號燈是向其他駕駛員和騎車者傳達你的意圖，以便他們安全應對。",
           "isHighFreq": true,
-          "tags": ["signaling", "turn-signal"]
+          "tags": [
+            "signaling",
+            "turn-signal"
+          ]
         },
         {
           "id": "M01-S03-K02",
@@ -128,7 +171,11 @@
           "zh": "在城市或住宅区转弯前至少100英尺开始打信号灯。在高速公路上变道前至少提前5秒打信号灯，给其他驾驶员反应时间。",
           "zhHant": "在城市或住宅區轉彎前至少100呎開始打訊號燈。在高速公路上變換行車線前至少提前5秒打訊號燈，給其他駕駛員反應時間。",
           "isHighFreq": true,
-          "tags": ["signaling", "distance", "timing"]
+          "tags": [
+            "signaling",
+            "distance",
+            "timing"
+          ]
         },
         {
           "id": "M01-S03-K03",
@@ -136,7 +183,10 @@
           "zh": "靠边停车或驶离路边前要打信号灯，即使您没有看到周围有其他车辆。",
           "zhHant": "靠邊停車或駛離路緣前要打訊號燈，即使你沒有看到周圍有其他車輛。",
           "isHighFreq": true,
-          "tags": ["signaling", "curb"]
+          "tags": [
+            "signaling",
+            "curb"
+          ]
         },
         {
           "id": "M01-S03-K04",
@@ -144,7 +194,12 @@
           "zh": "当信号灯不工作或强烈阳光使其难以看清时，使用手臂信号：左臂平伸表示左转；左臂向上弯曲表示右转；左臂向下弯曲表示减速或停车。",
           "zhHant": "當訊號燈沒有運作或強烈陽光使其難以看清時，使用手勢訊號：左臂平伸表示左轉；左臂向上彎曲表示右轉；左臂向下彎曲表示減速或停車。",
           "isHighFreq": true,
-          "tags": ["signaling", "hand-signal-left", "hand-signal-right", "hand-signal-stop"]
+          "tags": [
+            "signaling",
+            "hand-signal-left",
+            "hand-signal-right",
+            "hand-signal-stop"
+          ]
         },
         {
           "id": "M01-S03-K05",
@@ -152,7 +207,10 @@
           "zh": "完成转弯或变道后关闭信号灯，以免使其他驾驶员对您的意图产生困惑。",
           "zhHant": "完成轉彎或變換行車線後關閉訊號燈，以免使其他駕駛員對你的意圖產生困惑。",
           "isHighFreq": true,
-          "tags": ["signaling", "turn-off"]
+          "tags": [
+            "signaling",
+            "turn-off"
+          ]
         },
         {
           "id": "M01-S03-K06",
@@ -160,7 +218,10 @@
           "zh": "即使您认为周围没有其他车辆也要打信号灯，因为可能有您看不到的车辆正从盲区或隐蔽区域驶来。",
           "zhHant": "即使你認為周圍沒有其他車輛也要打訊號燈，因為可能有你看不到的車輛正從盲點或隱蔽區域駛來。",
           "isHighFreq": false,
-          "tags": ["signaling", "always-signal"]
+          "tags": [
+            "signaling",
+            "always-signal"
+          ]
         },
         {
           "id": "M01-S03-K07",
@@ -168,7 +229,10 @@
           "zh": "骑自行车的人可以将手臂直接伸向他们计划转弯的方向来打转向信号，而不使用标准的手臂信号。",
           "zhHant": "騎腳踏車的人可以將手臂直接伸向他們計劃轉彎的方向來打轉向訊號，而不使用標準的手勢訊號。",
           "isHighFreq": false,
-          "tags": ["signaling", "bicycle"]
+          "tags": [
+            "signaling",
+            "bicycle"
+          ]
         }
       ]
     },
@@ -176,7 +240,7 @@
       "id": "S04",
       "titleEn": "Headlights",
       "titleZh": "车灯使用",
-      "titleZhHant": "車頭燈使用",
+      "titleZhHant": "車燈使用",
       "knowledgePoints": [
         {
           "id": "M01-S04-K01",
@@ -184,7 +248,11 @@
           "zh": "当能见度不足1,000英尺时需开启大灯。日落后30分钟至日出前30分钟必须使用大灯。",
           "zhHant": "當能見度不足1,000呎時需開啟車頭燈。日落後30分鐘至日出前30分鐘必須使用車頭燈。",
           "isHighFreq": true,
-          "tags": ["headlights", "when-to-use", "sunset-sunrise"]
+          "tags": [
+            "headlights",
+            "when-to-use",
+            "sunset-sunrise"
+          ]
         },
         {
           "id": "M01-S04-K02",
@@ -192,7 +260,11 @@
           "zh": "在恶劣天气条件下使用大灯。如果因雾、雨或雪需要使用雨刷器，加州法律要求您必须打开近光灯。",
           "zhHant": "在惡劣天氣條件下使用車頭燈。如果因霧、雨或雪需要使用雨刷器，加州法律要求你必須打開近光燈。",
           "isHighFreq": true,
-          "tags": ["headlights", "adverse-weather", "wipers"]
+          "tags": [
+            "headlights",
+            "adverse-weather",
+            "wipers"
+          ]
         },
         {
           "id": "M01-S04-K03",
@@ -200,7 +272,12 @@
           "zh": "当云层、灰尘、烟雾或大雾等条件导致您无法看到其他车辆时使用大灯。在山路和隧道中（即使是晴天）也要使用大灯，当路标要求开灯时要开灯，以及当太阳在地平线附近时开灯帮助其他驾驶员看到您。",
           "zhHant": "當雲層、灰塵、煙霧或大霧等條件導致你無法看到其他車輛時使用車頭燈。在山路和隧道中（即使是晴天）也要使用車頭燈，當路標要求開燈時要開燈，以及當太陽在地平線附近時開燈幫助其他駕駛員看到你。",
           "isHighFreq": true,
-          "tags": ["headlights", "visibility", "mountain-roads", "tunnels"]
+          "tags": [
+            "headlights",
+            "visibility",
+            "mountain-roads",
+            "tunnels"
+          ]
         },
         {
           "id": "M01-S04-K04",
@@ -208,7 +285,11 @@
           "zh": "在距迎面驶来的车辆500英尺以内，或距前方车辆300英尺以内时，必须将远光灯切换为近光灯。仅使用示廓灯驾驶是违法的。",
           "zhHant": "在距迎面駛來的車輛500呎以內，或距前方車輛300呎以內時，必須將遠光燈切換為近光燈。僅使用示廓燈駕駛是違法的。",
           "isHighFreq": true,
-          "tags": ["headlights", "high-beam", "dimming"]
+          "tags": [
+            "headlights",
+            "high-beam",
+            "dimming"
+          ]
         },
         {
           "id": "M01-S04-K05",
@@ -216,7 +297,11 @@
           "zh": "如果迎面驶来的车辆灯光刺眼，不要直视。应看向车道的右侧边缘，用余光观察迎面来车。",
           "zhHant": "如果迎面駛來的車輛燈光刺眼，不要直視。應看向行車線的右側邊緣，用餘光觀察迎面來車。",
           "isHighFreq": true,
-          "tags": ["headlights", "glare", "blinding"]
+          "tags": [
+            "headlights",
+            "glare",
+            "blinding"
+          ]
         },
         {
           "id": "M01-S04-K06",
@@ -224,7 +309,11 @@
           "zh": "当夜间有只亮一个前灯的车辆向您驶来时，尽量靠右行驶。它可能是自行车、摩托车或缺少一个前灯的车辆，难以判断其宽度和位置。",
           "zhHant": "當夜間有只亮一個車頭燈的車輛向你駛來時，儘量靠右行駛。它可能是腳踏車、摩托車或缺少一個車頭燈的車輛，難以判斷其寬度和位置。",
           "isHighFreq": false,
-          "tags": ["headlights", "one-headlight", "night"]
+          "tags": [
+            "headlights",
+            "one-headlight",
+            "night"
+          ]
         }
       ]
     },
@@ -232,7 +321,7 @@
       "id": "S05",
       "titleEn": "Horn & Emergency Flashers",
       "titleZh": "喇叭与紧急闪灯",
-      "titleZhHant": "喇叭與緊急閃光燈",
+      "titleZhHant": "喇叭與緊急閃燈",
       "knowledgePoints": [
         {
           "id": "M01-S05-K01",
@@ -240,7 +329,11 @@
           "zh": "使用喇叭来避免碰撞，以及在看不到前方至少200英尺的狭窄山路上提醒迎面来车。",
           "zhHant": "使用喇叭來避免碰撞，以及在看不到前方至少200呎的狹窄山路上提醒迎面來車。",
           "isHighFreq": true,
-          "tags": ["horn", "collision-avoidance", "mountain-roads"]
+          "tags": [
+            "horn",
+            "collision-avoidance",
+            "mountain-roads"
+          ]
         },
         {
           "id": "M01-S05-K02",
@@ -248,7 +341,11 @@
           "zh": "不要用喇叭来表达愤怒或对盲人行人按喇叭。喇叭是安全装置，不是表达不满的工具。",
           "zhHant": "不要用喇叭來表達憤怒或對盲人行人按喇叭。喇叭是安全裝置，不是表達不滿的工具。",
           "isHighFreq": true,
-          "tags": ["horn", "misuse", "blind-pedestrian"]
+          "tags": [
+            "horn",
+            "misuse",
+            "blind-pedestrian"
+          ]
         },
         {
           "id": "M01-S05-K03",
@@ -256,7 +353,10 @@
           "zh": "如果您看到前方有碰撞或危险，请通过打开紧急闪灯、轻踩刹车踏板3至4次或使用手势信号来警告后方驾驶员。",
           "zhHant": "如果你看到前方有碰撞或危險，請通過打開緊急閃光燈、輕踩煞車踏板3至4次或使用手勢訊號來警告後方駕駛員。",
           "isHighFreq": true,
-          "tags": ["emergency-flashers", "hazard-warning"]
+          "tags": [
+            "emergency-flashers",
+            "hazard-warning"
+          ]
         },
         {
           "id": "M01-S05-K04",
@@ -264,7 +364,11 @@
           "zh": "如果因车辆故障需要停车：打开紧急闪灯（如果没有闪灯则打开转向灯）。如果可能，完全驶离道路。如果无法驶离道路，在其他人能看到您的地方停车。不要停在山顶另一侧或弯道处。呼叫路边救援并待在车内直到救援到达。",
           "zhHant": "如果因車輛故障需要停車：打開緊急閃光燈（如果沒有閃光燈則打開訊號燈）。如果可能，完全駛離道路。如果無法駛離道路，在其他人能看到你的地方停車。不要停在山頂另一側或彎道處。呼叫路邊救援並待在車內直到救援到達。",
           "isHighFreq": true,
-          "tags": ["emergency-flashers", "vehicle-trouble", "breakdown"]
+          "tags": [
+            "emergency-flashers",
+            "vehicle-trouble",
+            "breakdown"
+          ]
         },
         {
           "id": "M01-S05-K05",
@@ -272,7 +376,10 @@
           "zh": "不要仅使用示廓灯驾驶。在加州，仅开示廓灯驾驶是违法的。",
           "zhHant": "不要僅使用示廓燈駕駛。在加州，僅開示廓燈駕駛是違法的。",
           "isHighFreq": false,
-          "tags": ["parking-lights", "illegal"]
+          "tags": [
+            "parking-lights",
+            "illegal"
+          ]
         }
       ]
     }
